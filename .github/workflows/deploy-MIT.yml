@@ -1,0 +1,853 @@
+# This is a RTM Dashboard Deploy - PCAM
+name: RTM Dashboard Deploy MIT - PCAM
+
+# Controls when the workflow will run
+on:
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+    inputs:
+      deployTo:
+        type: choice
+        description: The environment you are deploying to
+        options:
+          - "rf3stg"
+          - "f32int"
+          - "f28prod"
+          - "f24prod"
+          - "f32prod"
+          - "f21prod"
+          - "f68prod"
+
+env:
+  version: "3.0.0"
+  PreReqVersion: "0.0.1"
+  log_file: '\d$\Logs\GitHub\GitHubAppLog.txt'
+  Application: "RTM Dashboard PCAM"
+  AppShortName: "RTM_PCAM"
+
+# A workflow run is made up of one or more jobs that can run sequentially or in parallel
+
+jobs:
+
+  CheckEnvironment:
+    name: Check environment access in ${{ github.event.inputs.deployTo }}
+  
+    # The type of runner that the job will run on
+    runs-on: [self-hosted, Windows, deploy, "${{ github.event.inputs.deployTo }}"]
+
+    environment:
+       name: Confirm_RTM_PCAM_MIT_Team
+     
+    steps:
+       
+      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
+      - name: Checkout
+        uses: actions/checkout@v3
+        
+      - name: Check environment access
+        run: echo "Check environment access"
+        
+         
+  Prevalidate:
+    name: Prevalidate in ${{ github.event.inputs.deployTo }}
+  
+    # The type of runner that the job will run on
+    runs-on: [self-hosted, Windows, deploy, "${{ github.event.inputs.deployTo }}"]
+
+    needs: CheckEnvironment
+       
+    # Steps represent a sequence of tasks that will be executed as part of the job
+    steps:
+       
+      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
+      - name: Checkout
+        uses: actions/checkout@v3
+
+
+     # Checks-out Common Scripts repository
+      - name: Check out Common Scripts
+        uses: actions/checkout@v3
+        with:
+          repository: intel-manufacturing/applications.manufacturing.intel.common.observability.real-time-metrics-dashboard
+          token: ${{ secrets.MIT_TOKEN }}
+          path: Common
+          
+     # Checks-out shared PS Scripts repository
+      - name: Check out shared PS Scripts
+        uses: actions/checkout@v3
+        with:
+          repository: intel-manufacturing/applications.manufacturing.intel.common.ps-commonscripts
+          token: ${{ secrets.MIT_TOKEN }}
+          path: Shared
+        
+      - name: If rf3stg
+        if: ${{github.event.inputs.deployTo == 'rf3stg'}}
+        run: |
+          echo 'username=${{ secrets.RF3STG_ALD_USER }}' >> $env:GITHUB_ENV
+          echo 'password=${{ secrets.RF3STG_ALD_PSWD }}' >> $env:GITHUB_ENV
+          echo 'REMOTE_USER=${{ secrets.RF3STG_ALD_USER }}' >> $env:GITHUB_ENV
+          echo 'REMOTE_PASS=${{ secrets.RF3STG_ALD_PSWD }}' >> $env:GITHUB_ENV
+      
+      - name: If rf3prod
+        if: ${{github.event.inputs.deployTo == 'rf3prod'}}
+        run: |
+          echo 'username=${{ secrets.RF3PROD_ALD_USER }}' >> $env:GITHUB_ENV
+          echo 'password=${{ secrets.RF3PROD_ALD_PSWD }}' >> $env:GITHUB_ENV
+          echo 'REMOTE_USER=${{ secrets.RF3PROD_ALD_USER }}' >> $env:GITHUB_ENV
+          echo 'REMOTE_PASS=${{ secrets.RF3PROD_ALD_PSWD }}' >> $env:GITHUB_ENV
+          
+      - name: If f32int
+        if: ${{github.event.inputs.deployTo == 'f32int'}}
+        run: |
+          echo 'username=${{ secrets.F32INT_ALD_USER }}' >> $env:GITHUB_ENV
+          echo 'password=${{ secrets.F32INT_ALD_PSWD }}' >> $env:GITHUB_ENV
+          echo 'REMOTE_USER=${{ secrets.F32INT_ALD_USER }}' >> $env:GITHUB_ENV
+          echo 'REMOTE_PASS=${{ secrets.F32INT_ALD_PSWD }}' >> $env:GITHUB_ENV
+      
+      - name: If f28prod
+        if: ${{github.event.inputs.deployTo == 'f28prod'}}
+        run: |
+          echo 'username=${{ secrets.F28PROD_ALD_USER }}' >> $env:GITHUB_ENV
+          echo 'password=${{ secrets.F28PROD_ALD_PSWD }}' >> $env:GITHUB_ENV
+          echo 'REMOTE_USER=${{ secrets.F28PROD_ALD_USER }}' >> $env:GITHUB_ENV
+          echo 'REMOTE_PASS=${{ secrets.F28PROD_ALD_PSWD }}' >> $env:GITHUB_ENV
+    
+      - name: If f24prod
+        if: ${{github.event.inputs.deployTo == 'f24prod'}}
+        run: |
+          echo 'username=${{ secrets.F24PROD_ALD_USER }}' >> $env:GITHUB_ENV
+          echo 'password=${{ secrets.F24PROD_ALD_PSWD }}' >> $env:GITHUB_ENV
+          echo 'REMOTE_USER=${{ secrets.F24PROD_ALD_USER }}' >> $env:GITHUB_ENV
+          echo 'REMOTE_PASS=${{ secrets.F24PROD_ALD_PSWD }}' >> $env:GITHUB_ENV
+          
+      - name: If f32prod
+        if: ${{github.event.inputs.deployTo == 'f32prod'}}
+        run: |
+          echo 'username=${{ secrets.F32PROD_ALD_USER }}' >> $env:GITHUB_ENV
+          echo 'password=${{ secrets.F32PROD_ALD_PSWD }}' >> $env:GITHUB_ENV
+          echo 'REMOTE_USER=${{ secrets.F32PROD_ALD_USER }}' >> $env:GITHUB_ENV
+          echo 'REMOTE_PASS=${{ secrets.F32PROD_ALD_PSWD }}' >> $env:GITHUB_ENV
+      
+      - name: If f21prod
+        if: ${{github.event.inputs.deployTo == 'f21prod'}}
+        run: |
+          echo 'username=${{ secrets.F21PROD_ALD_USER }}' >> $env:GITHUB_ENV
+          echo 'password=${{ secrets.F21PROD_ALD_PSWD }}' >> $env:GITHUB_ENV
+          echo 'REMOTE_USER=${{ secrets.F21PROD_ALD_USER }}' >> $env:GITHUB_ENV
+          echo 'REMOTE_PASS=${{ secrets.F21PROD_ALD_PSWD }}' >> $env:GITHUB_ENV
+          
+      - name: If f68prod
+        if: ${{github.event.inputs.deployTo == 'f68prod'}}
+        run: |
+          echo 'username=${{ secrets.F68PROD_ALD_USER }}' >> $env:GITHUB_ENV
+          echo 'password=${{ secrets.F68PROD_ALD_PSWD }}' >> $env:GITHUB_ENV
+          echo 'REMOTE_USER=${{ secrets.F68PROD_ALD_USER }}' >> $env:GITHUB_ENV
+          echo 'REMOTE_PASS=${{ secrets.F68PROD_ALD_PSWD }}' >> $env:GITHUB_ENV
+          
+      # Run pre-validate
+      - name: Run pre-validate
+        run: |
+          echo "Begin pre-validate"
+          echo "Workflow: ${{ github.SERVER_URL }}/${{ github.REPOSITORY }}/actions/runs/${{ github.RUN_ID }}"
+          echo '${{ env.REMOTE_PASS }}'
+          powershell -file ${{ github.WORKSPACE }}\Common\Scripts\RTM_pre-install-HC.ps1 -deployTo ${{ github.event.inputs.deployTo }} -scriptPath ${{ github.WORKSPACE }}\Common\Scripts -version ${{ env.version }} -releaseDir "${{ github.WORKSPACE }}\releases\${{ env.version }}" -remote_user ${{ env.REMOTE_USER }} -remote_pass '${{ env.REMOTE_PASS }}' -Appname "${{ env.AppShortName}}" -PreReqVersion "${{ env.PreReqVersion}}" -LogFile "${{ env.log_file}}"
+          
+  Stage:
+    name: Stage in ${{ github.event.inputs.deployTo }}
+
+    # The type of runner that the job will run on
+    runs-on: [self-hosted, Windows, deploy, "${{ github.event.inputs.deployTo }}"]
+         
+    needs: Prevalidate
+    
+    # Steps represent a sequence of tasks that will be executed as part of the job
+    steps:
+             
+      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
+      - name: Checkout
+        uses: actions/checkout@v3
+        
+     # Checks-out Common Scripts repository
+      - name: Check out Common Scripts
+        uses: actions/checkout@v3
+        with:
+          repository: intel-manufacturing/applications.manufacturing.intel.common.observability.real-time-metrics-dashboard
+          token: ${{ secrets.MIT_TOKEN }}
+          path: Common
+
+     # Checks-out shared PS Scripts repository
+      - name: Check out shared PS Scripts
+        uses: actions/checkout@v3
+        with:
+          repository: intel-manufacturing/applications.manufacturing.intel.common.ps-commonscripts
+          token: ${{ secrets.MIT_TOKEN }}
+          path: Shared
+        
+      - name: If rf3stg
+        if: ${{github.event.inputs.deployTo == 'rf3stg'}}
+        run: |
+          echo 'username=${{ secrets.RF3STG_ALD_USER }}' >> $env:GITHUB_ENV
+          echo 'password=${{ secrets.RF3STG_ALD_PSWD }}' >> $env:GITHUB_ENV
+          echo 'REMOTE_USER=${{ secrets.RF3STG_ALD_USER }}' >> $env:GITHUB_ENV
+          echo 'REMOTE_PASS=${{ secrets.RF3STG_ALD_PSWD }}' >> $env:GITHUB_ENV
+      
+      - name: If rf3prod
+        if: ${{github.event.inputs.deployTo == 'rf3prod'}}
+        run: |
+          echo 'username=${{ secrets.RF3PROD_ALD_USER }}' >> $env:GITHUB_ENV
+          echo 'password=${{ secrets.RF3PROD_ALD_PSWD }}' >> $env:GITHUB_ENV
+          echo 'REMOTE_USER=${{ secrets.RF3PROD_ALD_USER }}' >> $env:GITHUB_ENV
+          echo 'REMOTE_PASS=${{ secrets.RF3PROD_ALD_PSWD }}' >> $env:GITHUB_ENV
+          
+      - name: If f32int
+        if: ${{github.event.inputs.deployTo == 'f32int'}}
+        run: |
+          echo 'username=${{ secrets.F32INT_ALD_USER }}' >> $env:GITHUB_ENV
+          echo 'password=${{ secrets.F32INT_ALD_PSWD }}' >> $env:GITHUB_ENV
+          echo 'REMOTE_USER=${{ secrets.F32INT_ALD_USER }}' >> $env:GITHUB_ENV
+          echo 'REMOTE_PASS=${{ secrets.F32INT_ALD_PSWD }}' >> $env:GITHUB_ENV
+      
+      - name: If f28prod
+        if: ${{github.event.inputs.deployTo == 'f28prod'}}
+        run: |
+          echo 'username=${{ secrets.F28PROD_ALD_USER }}' >> $env:GITHUB_ENV
+          echo 'password=${{ secrets.F28PROD_ALD_PSWD }}' >> $env:GITHUB_ENV
+          echo 'REMOTE_USER=${{ secrets.F28PROD_ALD_USER }}' >> $env:GITHUB_ENV
+          echo 'REMOTE_PASS=${{ secrets.F28PROD_ALD_PSWD }}' >> $env:GITHUB_ENV
+    
+      - name: If f24prod
+        if: ${{github.event.inputs.deployTo == 'f24prod'}}
+        run: |
+          echo 'username=${{ secrets.F24PROD_ALD_USER }}' >> $env:GITHUB_ENV
+          echo 'password=${{ secrets.F24PROD_ALD_PSWD }}' >> $env:GITHUB_ENV
+          echo 'REMOTE_USER=${{ secrets.F24PROD_ALD_USER }}' >> $env:GITHUB_ENV
+          echo 'REMOTE_PASS=${{ secrets.F24PROD_ALD_PSWD }}' >> $env:GITHUB_ENV
+          
+      - name: If f32prod
+        if: ${{github.event.inputs.deployTo == 'f32prod'}}
+        run: |
+          echo 'username=${{ secrets.F32PROD_ALD_USER }}' >> $env:GITHUB_ENV
+          echo 'password=${{ secrets.F32PROD_ALD_PSWD }}' >> $env:GITHUB_ENV
+          echo 'REMOTE_USER=${{ secrets.F32PROD_ALD_USER }}' >> $env:GITHUB_ENV
+          echo 'REMOTE_PASS=${{ secrets.F32PROD_ALD_PSWD }}' >> $env:GITHUB_ENV
+      
+      - name: If f21prod
+        if: ${{github.event.inputs.deployTo == 'f21prod'}}
+        run: |
+          echo 'username=${{ secrets.F21PROD_ALD_USER }}' >> $env:GITHUB_ENV
+          echo 'password=${{ secrets.F21PROD_ALD_PSWD }}' >> $env:GITHUB_ENV
+          echo 'REMOTE_USER=${{ secrets.F21PROD_ALD_USER }}' >> $env:GITHUB_ENV
+          echo 'REMOTE_PASS=${{ secrets.F21PROD_ALD_PSWD }}' >> $env:GITHUB_ENV
+          
+      - name: If f68prod
+        if: ${{github.event.inputs.deployTo == 'f68prod'}}
+        run: |
+          echo 'username=${{ secrets.F68PROD_ALD_USER }}' >> $env:GITHUB_ENV
+          echo 'password=${{ secrets.F68PROD_ALD_PSWD }}' >> $env:GITHUB_ENV
+          echo 'REMOTE_USER=${{ secrets.F68PROD_ALD_USER }}' >> $env:GITHUB_ENV
+          echo 'REMOTE_PASS=${{ secrets.F68PROD_ALD_PSWD }}' >> $env:GITHUB_ENV
+          
+      # Run Stage Files
+      - name: Run Stage Files
+        run: |
+          echo "Begin stage-files"
+          powershell -file ${{ github.WORKSPACE }}\Common\Scripts\RTM_stage_package.ps1 -deployTo ${{ github.event.inputs.deployTo }} -scriptPath ${{ github.WORKSPACE }}\Common\Scripts -ReleaseDir "${{ github.WORKSPACE }}\releases\${{ env.version }}" -version ${{ env.version }} -remote_user ${{ env.REMOTE_USER }} -remote_pass '${{ env.REMOTE_PASS }}' -Appname "${{ env.AppShortName}}" -LogFile "${{ env.log_file}}"
+         
+          
+  Backup:
+    name: Backup in ${{ github.event.inputs.deployTo }}
+
+    # The type of runner that the job will run on
+    runs-on: [self-hosted, Windows, deploy, "${{ github.event.inputs.deployTo }}"]
+       
+    needs: Stage
+    
+    # Steps represent a sequence of tasks that will be executed as part of the job
+    steps:
+             
+      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
+      - name: Checkout
+        uses: actions/checkout@v3
+        
+      # Checks-out Common Scripts repository
+      - name: Check out Common Scripts
+        uses: actions/checkout@v3
+        with:
+          repository: intel-manufacturing/applications.manufacturing.intel.common.observability.real-time-metrics-dashboard
+          token: ${{ secrets.MIT_TOKEN }}
+          path: Common
+
+     # Checks-out shared PS Scripts repository
+      - name: Check out shared PS Scripts
+        uses: actions/checkout@v3
+        with:
+          repository: intel-manufacturing/applications.manufacturing.intel.common.ps-commonscripts
+          token: ${{ secrets.MIT_TOKEN }}
+          path: Shared
+        
+      - name: If rf3stg
+        if: ${{github.event.inputs.deployTo == 'rf3stg'}}
+        run: |
+          echo 'username=${{ secrets.RF3STG_ALD_USER }}' >> $env:GITHUB_ENV
+          echo 'password=${{ secrets.RF3STG_ALD_PSWD }}' >> $env:GITHUB_ENV
+          echo 'REMOTE_USER=${{ secrets.RF3STG_ALD_USER }}' >> $env:GITHUB_ENV
+          echo 'REMOTE_PASS=${{ secrets.RF3STG_ALD_PSWD }}' >> $env:GITHUB_ENV
+      
+      - name: If rf3prod
+        if: ${{github.event.inputs.deployTo == 'rf3prod'}}
+        run: |
+          echo 'username=${{ secrets.RF3PROD_ALD_USER }}' >> $env:GITHUB_ENV
+          echo 'password=${{ secrets.RF3PROD_ALD_PSWD }}' >> $env:GITHUB_ENV
+          echo 'REMOTE_USER=${{ secrets.RF3PROD_ALD_USER }}' >> $env:GITHUB_ENV
+          echo 'REMOTE_PASS=${{ secrets.RF3PROD_ALD_PSWD }}' >> $env:GITHUB_ENV
+          
+      - name: If f32int
+        if: ${{github.event.inputs.deployTo == 'f32int'}}
+        run: |
+          echo 'username=${{ secrets.F32INT_ALD_USER }}' >> $env:GITHUB_ENV
+          echo 'password=${{ secrets.F32INT_ALD_PSWD }}' >> $env:GITHUB_ENV
+          echo 'REMOTE_USER=${{ secrets.F32INT_ALD_USER }}' >> $env:GITHUB_ENV
+          echo 'REMOTE_PASS=${{ secrets.F32INT_ALD_PSWD }}' >> $env:GITHUB_ENV
+      
+      - name: If f28prod
+        if: ${{github.event.inputs.deployTo == 'f28prod'}}
+        run: |
+          echo 'username=${{ secrets.F28PROD_ALD_USER }}' >> $env:GITHUB_ENV
+          echo 'password=${{ secrets.F28PROD_ALD_PSWD }}' >> $env:GITHUB_ENV
+          echo 'REMOTE_USER=${{ secrets.F28PROD_ALD_USER }}' >> $env:GITHUB_ENV
+          echo 'REMOTE_PASS=${{ secrets.F28PROD_ALD_PSWD }}' >> $env:GITHUB_ENV
+    
+      - name: If f24prod
+        if: ${{github.event.inputs.deployTo == 'f24prod'}}
+        run: |
+          echo 'username=${{ secrets.F24PROD_ALD_USER }}' >> $env:GITHUB_ENV
+          echo 'password=${{ secrets.F24PROD_ALD_PSWD }}' >> $env:GITHUB_ENV
+          echo 'REMOTE_USER=${{ secrets.F24PROD_ALD_USER }}' >> $env:GITHUB_ENV
+          echo 'REMOTE_PASS=${{ secrets.F24PROD_ALD_PSWD }}' >> $env:GITHUB_ENV
+          
+      - name: If f32prod
+        if: ${{github.event.inputs.deployTo == 'f32prod'}}
+        run: |
+          echo 'username=${{ secrets.F32PROD_ALD_USER }}' >> $env:GITHUB_ENV
+          echo 'password=${{ secrets.F32PROD_ALD_PSWD }}' >> $env:GITHUB_ENV
+          echo 'REMOTE_USER=${{ secrets.F32PROD_ALD_USER }}' >> $env:GITHUB_ENV
+          echo 'REMOTE_PASS=${{ secrets.F32PROD_ALD_PSWD }}' >> $env:GITHUB_ENV
+      
+      - name: If f21prod
+        if: ${{github.event.inputs.deployTo == 'f21prod'}}
+        run: |
+          echo 'username=${{ secrets.F21PROD_ALD_USER }}' >> $env:GITHUB_ENV
+          echo 'password=${{ secrets.F21PROD_ALD_PSWD }}' >> $env:GITHUB_ENV
+          echo 'REMOTE_USER=${{ secrets.F21PROD_ALD_USER }}' >> $env:GITHUB_ENV
+          echo 'REMOTE_PASS=${{ secrets.F21PROD_ALD_PSWD }}' >> $env:GITHUB_ENV
+          
+      - name: If f68prod
+        if: ${{github.event.inputs.deployTo == 'f68prod'}}
+        run: |
+          echo 'username=${{ secrets.F68PROD_ALD_USER }}' >> $env:GITHUB_ENV
+          echo 'password=${{ secrets.F68PROD_ALD_PSWD }}' >> $env:GITHUB_ENV
+          echo 'REMOTE_USER=${{ secrets.F68PROD_ALD_USER }}' >> $env:GITHUB_ENV
+          echo 'REMOTE_PASS=${{ secrets.F68PROD_ALD_PSWD }}' >> $env:GITHUB_ENV
+             
+      # Run Backup
+      - name: Run Backup
+        run: |
+          echo "Begin Backup"     
+          powershell -file ${{ github.WORKSPACE }}\Common\Scripts\RTM_backup.ps1 -deployTo ${{ github.event.inputs.deployTo }} -scriptPath ${{ github.WORKSPACE }}\Common\Scripts -Version ${{ env.version }} -remote_user ${{ env.REMOTE_USER }} -remote_pass '${{ env.REMOTE_PASS }}' -Appname "${{ env.AppShortName}}" -LogFile "${{ env.log_file}}"
+
+  Audit:
+    name: Audit in ${{ github.event.inputs.deployTo }}
+
+    # The type of runner that the job will run on
+    runs-on: [self-hosted, Windows, deploy, "${{ github.event.inputs.deployTo }}"]
+       
+    needs: Backup
+    
+    # Steps represent a sequence of tasks that will be executed as part of the job
+    steps:
+             
+      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
+      - name: Checkout
+        uses: actions/checkout@v3
+        
+      # Checks-out Common Scripts repository
+      - name: Check out Common Scripts
+        uses: actions/checkout@v3
+        with:
+          repository: intel-manufacturing/applications.manufacturing.intel.common.observability.real-time-metrics-dashboard
+          token: ${{ secrets.MIT_TOKEN }}
+          path: Common
+
+     # Checks-out shared PS Scripts repository
+      - name: Check out shared PS Scripts
+        uses: actions/checkout@v3
+        with:
+          repository: intel-manufacturing/applications.manufacturing.intel.common.ps-commonscripts
+          token: ${{ secrets.MIT_TOKEN }}
+          path: Shared
+          
+      - name: If rf3stg
+        if: ${{github.event.inputs.deployTo == 'rf3stg'}}
+        run: |
+          echo 'username=${{ secrets.RF3STG_ALD_USER }}' >> $env:GITHUB_ENV
+          echo 'password=${{ secrets.RF3STG_ALD_PSWD }}' >> $env:GITHUB_ENV
+          echo 'REMOTE_USER=${{ secrets.RF3STG_ALD_USER }}' >> $env:GITHUB_ENV
+          echo 'REMOTE_PASS=${{ secrets.RF3STG_ALD_PSWD }}' >> $env:GITHUB_ENV
+      
+      - name: If rf3prod
+        if: ${{github.event.inputs.deployTo == 'rf3prod'}}
+        run: |
+          echo 'username=${{ secrets.RF3PROD_ALD_USER }}' >> $env:GITHUB_ENV
+          echo 'password=${{ secrets.RF3PROD_ALD_PSWD }}' >> $env:GITHUB_ENV
+          echo 'REMOTE_USER=${{ secrets.RF3PROD_ALD_USER }}' >> $env:GITHUB_ENV
+          echo 'REMOTE_PASS=${{ secrets.RF3PROD_ALD_PSWD }}' >> $env:GITHUB_ENV
+          
+      - name: If f32int
+        if: ${{github.event.inputs.deployTo == 'f32int'}}
+        run: |
+          echo 'username=${{ secrets.F32INT_ALD_USER }}' >> $env:GITHUB_ENV
+          echo 'password=${{ secrets.F32INT_ALD_PSWD }}' >> $env:GITHUB_ENV
+          echo 'REMOTE_USER=${{ secrets.F32INT_ALD_USER }}' >> $env:GITHUB_ENV
+          echo 'REMOTE_PASS=${{ secrets.F32INT_ALD_PSWD }}' >> $env:GITHUB_ENV
+      
+      - name: If f28prod
+        if: ${{github.event.inputs.deployTo == 'f28prod'}}
+        run: |
+          echo 'username=${{ secrets.F28PROD_ALD_USER }}' >> $env:GITHUB_ENV
+          echo 'password=${{ secrets.F28PROD_ALD_PSWD }}' >> $env:GITHUB_ENV
+          echo 'REMOTE_USER=${{ secrets.F28PROD_ALD_USER }}' >> $env:GITHUB_ENV
+          echo 'REMOTE_PASS=${{ secrets.F28PROD_ALD_PSWD }}' >> $env:GITHUB_ENV
+    
+      - name: If f24prod
+        if: ${{github.event.inputs.deployTo == 'f24prod'}}
+        run: |
+          echo 'username=${{ secrets.F24PROD_ALD_USER }}' >> $env:GITHUB_ENV
+          echo 'password=${{ secrets.F24PROD_ALD_PSWD }}' >> $env:GITHUB_ENV
+          echo 'REMOTE_USER=${{ secrets.F24PROD_ALD_USER }}' >> $env:GITHUB_ENV
+          echo 'REMOTE_PASS=${{ secrets.F24PROD_ALD_PSWD }}' >> $env:GITHUB_ENV
+          
+      - name: If f32prod
+        if: ${{github.event.inputs.deployTo == 'f32prod'}}
+        run: |
+          echo 'username=${{ secrets.F32PROD_ALD_USER }}' >> $env:GITHUB_ENV
+          echo 'password=${{ secrets.F32PROD_ALD_PSWD }}' >> $env:GITHUB_ENV
+          echo 'REMOTE_USER=${{ secrets.F32PROD_ALD_USER }}' >> $env:GITHUB_ENV
+          echo 'REMOTE_PASS=${{ secrets.F32PROD_ALD_PSWD }}' >> $env:GITHUB_ENV
+      
+      - name: If f21prod
+        if: ${{github.event.inputs.deployTo == 'f21prod'}}
+        run: |
+          echo 'username=${{ secrets.F21PROD_ALD_USER }}' >> $env:GITHUB_ENV
+          echo 'password=${{ secrets.F21PROD_ALD_PSWD }}' >> $env:GITHUB_ENV
+          echo 'REMOTE_USER=${{ secrets.F21PROD_ALD_USER }}' >> $env:GITHUB_ENV
+          echo 'REMOTE_PASS=${{ secrets.F21PROD_ALD_PSWD }}' >> $env:GITHUB_ENV
+          
+      - name: If f68prod
+        if: ${{github.event.inputs.deployTo == 'f68prod'}}
+        run: |
+          echo 'username=${{ secrets.F68PROD_ALD_USER }}' >> $env:GITHUB_ENV
+          echo 'password=${{ secrets.F68PROD_ALD_PSWD }}' >> $env:GITHUB_ENV
+          echo 'REMOTE_USER=${{ secrets.F68PROD_ALD_USER }}' >> $env:GITHUB_ENV
+          echo 'REMOTE_PASS=${{ secrets.F68PROD_ALD_PSWD }}' >> $env:GITHUB_ENV
+            
+      # Run Audit
+      - name: Run Audit
+        run: |
+          echo "Begin Audit"     
+          powershell -file ${{ github.WORKSPACE }}\Common\Scripts\RTM_Audit.ps1 -deployTo ${{ github.event.inputs.deployTo }} -scriptPath ${{ github.WORKSPACE }}\Common\Scripts -Version ${{ env.version }} -remote_user ${{ env.REMOTE_USER }} -remote_pass '${{ env.REMOTE_PASS }}' -Appname "${{ env.AppShortName}}" -LogFile "${{ env.log_file}}"
+         
+         
+  Deploy:
+    name: Deploy in ${{ github.event.inputs.deployTo }}
+
+    # The type of runner that the job will run on
+    runs-on: [self-hosted, Windows, deploy, "${{ github.event.inputs.deployTo }}"]
+       
+    needs: Audit
+    
+    # will wait until user approves
+    environment:
+      name: approve_RTM_PCAM_deploy
+      
+    # Steps represent a sequence of tasks that will be executed as part of the job
+    steps:
+             
+      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
+      - name: Checkout
+        uses: actions/checkout@v3
+
+      # Checks-out Common Scripts repository
+      - name: Check out Common Scripts
+        uses: actions/checkout@v3
+        with:
+          repository: intel-manufacturing/applications.manufacturing.intel.common.observability.real-time-metrics-dashboard
+          token: ${{ secrets.MIT_TOKEN }}
+          path: Common     
+
+     # Checks-out shared PS Scripts repository
+      - name: Check out shared PS Scripts
+        uses: actions/checkout@v3
+        with:
+          repository: intel-manufacturing/applications.manufacturing.intel.common.ps-commonscripts
+          token: ${{ secrets.MIT_TOKEN }}
+          path: Shared
+        
+      - name: If rf3stg
+        if: ${{github.event.inputs.deployTo == 'rf3stg'}}
+        run: |
+          echo 'username=${{ secrets.RF3STG_ALD_USER }}' >> $env:GITHUB_ENV
+          echo 'password=${{ secrets.RF3STG_ALD_PSWD }}' >> $env:GITHUB_ENV
+          echo 'REMOTE_USER=${{ secrets.RF3STG_ALD_USER }}' >> $env:GITHUB_ENV
+          echo 'REMOTE_PASS=${{ secrets.RF3STG_ALD_PSWD }}' >> $env:GITHUB_ENV
+      
+      - name: If rf3prod
+        if: ${{github.event.inputs.deployTo == 'rf3prod'}}
+        run: |
+          echo 'username=${{ secrets.RF3PROD_ALD_USER }}' >> $env:GITHUB_ENV
+          echo 'password=${{ secrets.RF3PROD_ALD_PSWD }}' >> $env:GITHUB_ENV
+          echo 'REMOTE_USER=${{ secrets.RF3PROD_ALD_USER }}' >> $env:GITHUB_ENV
+          echo 'REMOTE_PASS=${{ secrets.RF3PROD_ALD_PSWD }}' >> $env:GITHUB_ENV
+          
+      - name: If f32int
+        if: ${{github.event.inputs.deployTo == 'f32int'}}
+        run: |
+          echo 'username=${{ secrets.F32INT_ALD_USER }}' >> $env:GITHUB_ENV
+          echo 'password=${{ secrets.F32INT_ALD_PSWD }}' >> $env:GITHUB_ENV
+          echo 'REMOTE_USER=${{ secrets.F32INT_ALD_USER }}' >> $env:GITHUB_ENV
+          echo 'REMOTE_PASS=${{ secrets.F32INT_ALD_PSWD }}' >> $env:GITHUB_ENV
+      
+      - name: If f28prod
+        if: ${{github.event.inputs.deployTo == 'f28prod'}}
+        run: |
+          echo 'username=${{ secrets.F28PROD_ALD_USER }}' >> $env:GITHUB_ENV
+          echo 'password=${{ secrets.F28PROD_ALD_PSWD }}' >> $env:GITHUB_ENV
+          echo 'REMOTE_USER=${{ secrets.F28PROD_ALD_USER }}' >> $env:GITHUB_ENV
+          echo 'REMOTE_PASS=${{ secrets.F28PROD_ALD_PSWD }}' >> $env:GITHUB_ENV
+    
+      - name: If f24prod
+        if: ${{github.event.inputs.deployTo == 'f24prod'}}
+        run: |
+          echo 'username=${{ secrets.F24PROD_ALD_USER }}' >> $env:GITHUB_ENV
+          echo 'password=${{ secrets.F24PROD_ALD_PSWD }}' >> $env:GITHUB_ENV
+          echo 'REMOTE_USER=${{ secrets.F24PROD_ALD_USER }}' >> $env:GITHUB_ENV
+          echo 'REMOTE_PASS=${{ secrets.F24PROD_ALD_PSWD }}' >> $env:GITHUB_ENV
+          
+      - name: If f32prod
+        if: ${{github.event.inputs.deployTo == 'f32prod'}}
+        run: |
+          echo 'username=${{ secrets.F32PROD_ALD_USER }}' >> $env:GITHUB_ENV
+          echo 'password=${{ secrets.F32PROD_ALD_PSWD }}' >> $env:GITHUB_ENV
+          echo 'REMOTE_USER=${{ secrets.F32PROD_ALD_USER }}' >> $env:GITHUB_ENV
+          echo 'REMOTE_PASS=${{ secrets.F32PROD_ALD_PSWD }}' >> $env:GITHUB_ENV
+      
+      - name: If f21prod
+        if: ${{github.event.inputs.deployTo == 'f21prod'}}
+        run: |
+          echo 'username=${{ secrets.F21PROD_ALD_USER }}' >> $env:GITHUB_ENV
+          echo 'password=${{ secrets.F21PROD_ALD_PSWD }}' >> $env:GITHUB_ENV
+          echo 'REMOTE_USER=${{ secrets.F21PROD_ALD_USER }}' >> $env:GITHUB_ENV
+          echo 'REMOTE_PASS=${{ secrets.F21PROD_ALD_PSWD }}' >> $env:GITHUB_ENV
+          
+      - name: If f68prod
+        if: ${{github.event.inputs.deployTo == 'f68prod'}}
+        run: |
+          echo 'username=${{ secrets.F68PROD_ALD_USER }}' >> $env:GITHUB_ENV
+          echo 'password=${{ secrets.F68PROD_ALD_PSWD }}' >> $env:GITHUB_ENV
+          echo 'REMOTE_USER=${{ secrets.F68PROD_ALD_USER }}' >> $env:GITHUB_ENV
+          echo 'REMOTE_PASS=${{ secrets.F68PROD_ALD_PSWD }}' >> $env:GITHUB_ENV
+          
+      # Run Backup
+      - name: Run Deploy
+        run: |
+          echo "Begin Deploy"  
+          powershell -file ${{ github.WORKSPACE }}\Common\Scripts\RTM_Install.ps1 -deployTo ${{ github.event.inputs.deployTo }} -scriptPath ${{ github.WORKSPACE }}\Common\Scripts -Version ${{ env.version }} -remote_user ${{ env.REMOTE_USER }} -remote_pass '${{ env.REMOTE_PASS }}'  -TaskUser ${{ env.username }} -TaskPwd '${{ env.password }}' -Appname "${{ env.AppShortName}}" -LogFile "${{ env.log_file}}"
+ 
+ 
+ 
+  Post-Validate:
+    name: Post-Validate in ${{ github.event.inputs.deployTo }}
+
+    # The type of runner that the job will run on
+    runs-on: [self-hosted, Windows, deploy, "${{ github.event.inputs.deployTo }}"]
+       
+    needs: Deploy
+    
+    # Steps represent a sequence of tasks that will be executed as part of the job
+    steps:
+             
+      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
+      - name: Checkout
+        uses: actions/checkout@v3
+        
+     # Checks-out Common Scripts repository
+      - name: Check out Common Scripts
+        uses: actions/checkout@v3
+        with:
+          repository: intel-manufacturing/applications.manufacturing.intel.common.observability.real-time-metrics-dashboard
+          token: ${{ secrets.MIT_TOKEN }}
+          path: Common 
+
+      # Checks-out shared PS Scripts repository
+      - name: Check out shared PS Scripts
+        uses: actions/checkout@v3
+        with:
+          repository: intel-manufacturing/applications.manufacturing.intel.common.ps-commonscripts
+          token: ${{ secrets.MIT_TOKEN }}
+          path: Shared
+          
+      - name: If rf3stg
+        if: ${{github.event.inputs.deployTo == 'rf3stg'}}
+        run: |
+          echo 'username=${{ secrets.RF3STG_ALD_USER }}' >> $env:GITHUB_ENV
+          echo 'password=${{ secrets.RF3STG_ALD_PSWD }}' >> $env:GITHUB_ENV
+          echo 'REMOTE_USER=${{ secrets.RF3STG_ALD_USER }}' >> $env:GITHUB_ENV
+          echo 'REMOTE_PASS=${{ secrets.RF3STG_ALD_PSWD }}' >> $env:GITHUB_ENV
+      
+      - name: If rf3prod
+        if: ${{github.event.inputs.deployTo == 'rf3prod'}}
+        run: |
+          echo 'username=${{ secrets.RF3PROD_ALD_USER }}' >> $env:GITHUB_ENV
+          echo 'password=${{ secrets.RF3PROD_ALD_PSWD }}' >> $env:GITHUB_ENV
+          echo 'REMOTE_USER=${{ secrets.RF3PROD_ALD_USER }}' >> $env:GITHUB_ENV
+          echo 'REMOTE_PASS=${{ secrets.RF3PROD_ALD_PSWD }}' >> $env:GITHUB_ENV
+          
+      - name: If f32int
+        if: ${{github.event.inputs.deployTo == 'f32int'}}
+        run: |
+          echo 'username=${{ secrets.F32INT_ALD_USER }}' >> $env:GITHUB_ENV
+          echo 'password=${{ secrets.F32INT_ALD_PSWD }}' >> $env:GITHUB_ENV
+          echo 'REMOTE_USER=${{ secrets.F32INT_ALD_USER }}' >> $env:GITHUB_ENV
+          echo 'REMOTE_PASS=${{ secrets.F32INT_ALD_PSWD }}' >> $env:GITHUB_ENV
+      
+      - name: If f28prod
+        if: ${{github.event.inputs.deployTo == 'f28prod'}}
+        run: |
+          echo 'username=${{ secrets.F28PROD_ALD_USER }}' >> $env:GITHUB_ENV
+          echo 'password=${{ secrets.F28PROD_ALD_PSWD }}' >> $env:GITHUB_ENV
+          echo 'REMOTE_USER=${{ secrets.F28PROD_ALD_USER }}' >> $env:GITHUB_ENV
+          echo 'REMOTE_PASS=${{ secrets.F28PROD_ALD_PSWD }}' >> $env:GITHUB_ENV
+    
+      - name: If f24prod
+        if: ${{github.event.inputs.deployTo == 'f24prod'}}
+        run: |
+          echo 'username=${{ secrets.F24PROD_ALD_USER }}' >> $env:GITHUB_ENV
+          echo 'password=${{ secrets.F24PROD_ALD_PSWD }}' >> $env:GITHUB_ENV
+          echo 'REMOTE_USER=${{ secrets.F24PROD_ALD_USER }}' >> $env:GITHUB_ENV
+          echo 'REMOTE_PASS=${{ secrets.F24PROD_ALD_PSWD }}' >> $env:GITHUB_ENV
+          
+      - name: If f32prod
+        if: ${{github.event.inputs.deployTo == 'f32prod'}}
+        run: |
+          echo 'username=${{ secrets.F32PROD_ALD_USER }}' >> $env:GITHUB_ENV
+          echo 'password=${{ secrets.F32PROD_ALD_PSWD }}' >> $env:GITHUB_ENV
+          echo 'REMOTE_USER=${{ secrets.F32PROD_ALD_USER }}' >> $env:GITHUB_ENV
+          echo 'REMOTE_PASS=${{ secrets.F32PROD_ALD_PSWD }}' >> $env:GITHUB_ENV
+      
+      - name: If f21prod
+        if: ${{github.event.inputs.deployTo == 'f21prod'}}
+        run: |
+          echo 'username=${{ secrets.F21PROD_ALD_USER }}' >> $env:GITHUB_ENV
+          echo 'password=${{ secrets.F21PROD_ALD_PSWD }}' >> $env:GITHUB_ENV
+          echo 'REMOTE_USER=${{ secrets.F21PROD_ALD_USER }}' >> $env:GITHUB_ENV
+          echo 'REMOTE_PASS=${{ secrets.F21PROD_ALD_PSWD }}' >> $env:GITHUB_ENV
+          
+      - name: If f68prod
+        if: ${{github.event.inputs.deployTo == 'f68prod'}}
+        run: |
+          echo 'username=${{ secrets.F68PROD_ALD_USER }}' >> $env:GITHUB_ENV
+          echo 'password=${{ secrets.F68PROD_ALD_PSWD }}' >> $env:GITHUB_ENV
+          echo 'REMOTE_USER=${{ secrets.F68PROD_ALD_USER }}' >> $env:GITHUB_ENV
+          echo 'REMOTE_PASS=${{ secrets.F68PROD_ALD_PSWD }}' >> $env:GITHUB_ENV
+          
+      # Run Post-Validate
+      - name: Run Post-Validate
+        run: |
+          echo "Begin Post-Validate"
+          powershell -file ${{ github.WORKSPACE }}\Common\Scripts\RTM_post-install-HC.ps1 -deployTo ${{ github.event.inputs.deployTo }} -scriptPath ${{ github.WORKSPACE }}\Common\Scripts -version ${{ env.version }} -remote_user ${{ env.REMOTE_USER }} -remote_pass '${{ env.REMOTE_PASS }}' -Appname "${{ env.AppShortName}}" -LogFile "${{ env.log_file}}"
+   
+  Notification:
+    name: Notification in ${{ github.event.inputs.deployTo }}
+    
+    # The type of runner that the job will run on
+    runs-on: [self-hosted, Windows, deploy, "${{ github.event.inputs.deployTo }}"]
+
+
+    needs: Post-Validate
+   
+    # will wait until user approves
+    environment:
+      name: approve_RTM_PCAM_notify
+      
+    # Steps represent a sequence of tasks that will be executed as part of the job
+    steps:
+             
+      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
+      - name: Checkout
+        uses: actions/checkout@v3
+        
+      # Checks-out Common Scripts repository
+      - name: Check out Common Scripts
+        uses: actions/checkout@v3
+        with:
+          repository: intel-manufacturing/applications.manufacturing.intel.common.observability.real-time-metrics-dashboard
+          token: ${{ secrets.MIT_TOKEN }}
+          path: Common 
+
+     # Checks-out shared PS Scripts repository
+      - name: Check out shared PS Scripts
+        uses: actions/checkout@v3
+        with:
+          repository: intel-manufacturing/applications.manufacturing.intel.common.ps-commonscripts
+          token: ${{ secrets.MIT_TOKEN }}
+          path: Shared
+          
+      # Run Notification
+      - name: Run Deploy Notification
+        run: |
+          echo "Begin Deploy Notification"
+          powershell.exe -file ${{ github.WORKSPACE }}\Common\Scripts\RTM_Notification.ps1 -deployTo ${{ github.event.inputs.deployTo }} -scriptPath ${{ github.WORKSPACE }}\Common\Scripts -Version ${{ env.version }} -subject "[${{ github.event.inputs.deployTo }}] - ${{ env.Application }} Deploy" -message "${{ env.Application }} ${{ env.version }} was deployed in ${{ github.event.inputs.deployTo }}" -Appname "${{ env.AppShortName}}" -LogFile "${{ env.log_file}}"
+ 
+
+  Rollback:
+    name: Rollback in ${{ github.event.inputs.deployTo }}
+
+    # The type of runner that the job will run on
+    runs-on: [self-hosted, Windows, deploy, "${{ github.event.inputs.deployTo }}"]
+
+    needs: Deploy
+
+    # will wait until user approves
+    environment:
+      name: approve_RTM_PCAM_rollback
+
+    # Steps represent a sequence of tasks that will be executed as part of the job
+    steps:
+             
+      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
+      - name: Checkout
+        uses: actions/checkout@v3
+        
+      # Checks-out Common Scripts repository
+      - name: Check out Common Scripts
+        uses: actions/checkout@v3
+        with:
+          repository: intel-manufacturing/applications.manufacturing.intel.common.observability.real-time-metrics-dashboard
+          token: ${{ secrets.MIT_TOKEN }}
+          path: Common     
+ 
+      # Checks-out shared PS Scripts repository
+      - name: Check out shared PS Scripts
+        uses: actions/checkout@v3
+        with:
+          repository: intel-manufacturing/applications.manufacturing.intel.common.ps-commonscripts
+          token: ${{ secrets.MIT_TOKEN }}
+          path: Shared
+          
+      - name: If rf3stg
+        if: ${{github.event.inputs.deployTo == 'rf3stg'}}
+        run: |
+          echo 'username=${{ secrets.RF3STG_ALD_USER }}' >> $env:GITHUB_ENV
+          echo 'password=${{ secrets.RF3STG_ALD_PSWD }}' >> $env:GITHUB_ENV
+          echo 'REMOTE_USER=${{ secrets.RF3STG_ALD_USER }}' >> $env:GITHUB_ENV
+          echo 'REMOTE_PASS=${{ secrets.RF3STG_ALD_PSWD }}' >> $env:GITHUB_ENV
+      
+      - name: If rf3prod
+        if: ${{github.event.inputs.deployTo == 'rf3prod'}}
+        run: |
+          echo 'username=${{ secrets.RF3PROD_ALD_USER }}' >> $env:GITHUB_ENV
+          echo 'password=${{ secrets.RF3PROD_ALD_PSWD }}' >> $env:GITHUB_ENV
+          echo 'REMOTE_USER=${{ secrets.RF3PROD_ALD_USER }}' >> $env:GITHUB_ENV
+          echo 'REMOTE_PASS=${{ secrets.RF3PROD_ALD_PSWD }}' >> $env:GITHUB_ENV
+          
+      - name: If f32int
+        if: ${{github.event.inputs.deployTo == 'f32int'}}
+        run: |
+          echo 'username=${{ secrets.F32INT_ALD_USER }}' >> $env:GITHUB_ENV
+          echo 'password=${{ secrets.F32INT_ALD_PSWD }}' >> $env:GITHUB_ENV
+          echo 'REMOTE_USER=${{ secrets.F32INT_ALD_USER }}' >> $env:GITHUB_ENV
+          echo 'REMOTE_PASS=${{ secrets.F32INT_ALD_PSWD }}' >> $env:GITHUB_ENV
+      
+      - name: If f28prod
+        if: ${{github.event.inputs.deployTo == 'f28prod'}}
+        run: |
+          echo 'username=${{ secrets.F28PROD_ALD_USER }}' >> $env:GITHUB_ENV
+          echo 'password=${{ secrets.F28PROD_ALD_PSWD }}' >> $env:GITHUB_ENV
+          echo 'REMOTE_USER=${{ secrets.F28PROD_ALD_USER }}' >> $env:GITHUB_ENV
+          echo 'REMOTE_PASS=${{ secrets.F28PROD_ALD_PSWD }}' >> $env:GITHUB_ENV
+    
+      - name: If f24prod
+        if: ${{github.event.inputs.deployTo == 'f24prod'}}
+        run: |
+          echo 'username=${{ secrets.F24PROD_ALD_USER }}' >> $env:GITHUB_ENV
+          echo 'password=${{ secrets.F24PROD_ALD_PSWD }}' >> $env:GITHUB_ENV
+          echo 'REMOTE_USER=${{ secrets.F24PROD_ALD_USER }}' >> $env:GITHUB_ENV
+          echo 'REMOTE_PASS=${{ secrets.F24PROD_ALD_PSWD }}' >> $env:GITHUB_ENV
+          
+      - name: If f32prod
+        if: ${{github.event.inputs.deployTo == 'f32prod'}}
+        run: |
+          echo 'username=${{ secrets.F32PROD_ALD_USER }}' >> $env:GITHUB_ENV
+          echo 'password=${{ secrets.F32PROD_ALD_PSWD }}' >> $env:GITHUB_ENV
+          echo 'REMOTE_USER=${{ secrets.F32PROD_ALD_USER }}' >> $env:GITHUB_ENV
+          echo 'REMOTE_PASS=${{ secrets.F32PROD_ALD_PSWD }}' >> $env:GITHUB_ENV
+      
+      - name: If f21prod
+        if: ${{github.event.inputs.deployTo == 'f21prod'}}
+        run: |
+          echo 'username=${{ secrets.F21PROD_ALD_USER }}' >> $env:GITHUB_ENV
+          echo 'password=${{ secrets.F21PROD_ALD_PSWD }}' >> $env:GITHUB_ENV
+          echo 'REMOTE_USER=${{ secrets.F21PROD_ALD_USER }}' >> $env:GITHUB_ENV
+          echo 'REMOTE_PASS=${{ secrets.F21PROD_ALD_PSWD }}' >> $env:GITHUB_ENV
+          
+      - name: If f68prod
+        if: ${{github.event.inputs.deployTo == 'f68prod'}}
+        run: |
+          echo 'username=${{ secrets.F68PROD_ALD_USER }}' >> $env:GITHUB_ENV
+          echo 'password=${{ secrets.F68PROD_ALD_PSWD }}' >> $env:GITHUB_ENV
+          echo 'REMOTE_USER=${{ secrets.F68PROD_ALD_USER }}' >> $env:GITHUB_ENV
+          echo 'REMOTE_PASS=${{ secrets.F68PROD_ALD_PSWD }}' >> $env:GITHUB_ENV
+          
+      # Run Rollback
+      - name: Run Rollback
+        run: |
+          echo "Begin Rollback"
+          powershell -file ${{ github.WORKSPACE }}\Common\Scripts\RTM_rollback-install.ps1 -deployTo ${{ github.event.inputs.deployTo }} -scriptPath ${{ github.WORKSPACE }}\Common\Scripts -Version ${{ env.version }} -remote_user ${{ env.REMOTE_USER }} -remote_pass '${{ env.REMOTE_PASS }}'  -TaskUser ${{ env.username }} -TaskPwd '${{ env.password }}' -Appname "${{ env.AppShortName}}" -LogFile "${{ env.log_file}}"
+
+
+  Rollback-Notification:
+    name: Rollback-Notification in ${{ github.event.inputs.deployTo }}
+    
+    # The type of runner that the job will run on
+    runs-on: [self-hosted, Windows, deploy, "${{ github.event.inputs.deployTo }}"]
+
+    needs: Rollback
+   
+    # Steps represent a sequence of tasks that will be executed as part of the job
+    steps:
+             
+      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
+      - name: Checkout
+        uses: actions/checkout@v3
+        
+      # Checks-out Common Scripts repository
+      - name: Check out Common Scripts
+        uses: actions/checkout@v3
+        with:
+          repository: intel-manufacturing/applications.manufacturing.intel.common.observability.real-time-metrics-dashboard
+          token: ${{ secrets.MIT_TOKEN }}
+          path: Common 
+  
+       # Checks-out shared PS Scripts repository
+      - name: Check out shared PS Scripts
+        uses: actions/checkout@v3
+        with:
+          repository: intel-manufacturing/applications.manufacturing.intel.common.ps-commonscripts
+          token: ${{ secrets.MIT_TOKEN }}
+          path: Shared
+          
+      # Run Rollback Notification
+      - name: Run Rollback Notification
+        run: |
+          echo "Begin Rollback Notification"
+          powershell.exe -file ${{ github.WORKSPACE }}\Common\Scripts\RTM_Notification.ps1 -deployTo ${{ github.event.inputs.deployTo }} -scriptPath ${{ github.WORKSPACE }}\Common\Scripts -Version ${{ env.version }} -subject "[${{ github.event.inputs.deployTo }}] - ${{ env.Application }} Rollback" -message "${{ env.Application }} ${{ env.version }} was rolled back in ${{ github.event.inputs.deployTo }}" -Appname "${{ env.AppShortName}}" -LogFile "${{ env.log_file}}"
+   
