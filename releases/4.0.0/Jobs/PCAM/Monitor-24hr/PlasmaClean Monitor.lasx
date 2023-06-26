@@ -1,0 +1,181 @@
+<QueryConfig AutoExecuteQueryOnLoad="false" PreventSQLBeautification="false">
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 8/14/2016 8:53:04 PM from RF3PAP216N3.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.9.60803.1025</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 9/28/2015 2:09:34 PM from RF3PAP216N3.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.8.50323.2106</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 6/4/2015 1:27:22 PM from RF3PAP216N3.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.8.50323.2106</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 6/2/2015 9:02:51 AM from RF3PAP216N3.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.8.50323.2106</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 5/29/2015 12:51:39 PM from RF3PAP216N3.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.8.50323.2106</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 5/29/2015 9:52:37 AM from RF3PAP216N3.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.8.50323.2106</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 5/29/2015 9:52:25 AM from RF3PAP216N3.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.8.50323.2106</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 5/29/2015 9:52:11 AM from RF3PAP216N3.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.8.50323.2106</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 5/29/2015 9:38:30 AM from RF3PAP216N3.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.8.50323.2106</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 5/22/2015 4:04:10 PM from RF3PAP216N1.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.8.50403.1614</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 5/22/2015 4:03:28 PM from RF3PAP216N1.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.8.50403.1614</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 5/22/2015 4:02:02 PM from RF3PAP216N1.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.8.50403.1614</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 5/22/2015 3:57:03 PM from RF3PAP216N1.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.8.50403.1614</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_tcalford on 5/19/2014 1:00:06 PM from F32PTS215.F32PROD.MFG.INTEL.COM using LogAnalyzer2 v2.7.31031.1837</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_tcalford on 2/23/2014 7:26:09 PM from F32PTS215.F32PROD.MFG.INTEL.COM using LogAnalyzer2 v2.7.31031.1837</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_tcalford on 2/23/2014 7:24:00 PM from F32PTS215.F32PROD.MFG.INTEL.COM using LogAnalyzer2 v2.7.31031.1837</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_tcalford on 2/23/2014 7:15:10 PM from F32PTS215.F32PROD.MFG.INTEL.COM using LogAnalyzer2 v2.7.31031.1837</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_tcalford on 2/13/2014 4:02:52 PM from F32PTS215.F32PROD.MFG.INTEL.COM using LogAnalyzer2 v2.7.31031.1837</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_tcalford on 2/13/2014 3:56:38 PM from F32PTS215.F32PROD.MFG.INTEL.COM using LogAnalyzer2 v2.7.31031.1837</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_tcalford on 12/6/2013 9:58:08 AM from F32PTS215.F32PROD.MFG.INTEL.COM using LogAnalyzer2 v2.6.30225.0830</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_tcalford on 12/4/2013 10:02:20 AM from F32PTS215.F32PROD.MFG.INTEL.COM using LogAnalyzer2 v2.6.30225.0830</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_tcalford on 11/27/2013 12:12:57 PM from F32PTS215.F32PROD.MFG.INTEL.COM using LogAnalyzer2 v2.6.30225.0830</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_tcalford on 11/27/2013 12:11:16 PM from F32PTS215.F32PROD.MFG.INTEL.COM using LogAnalyzer2 v2.6.30225.0830</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_tcalford on 11/27/2013 12:08:16 PM from F32PTS215.F32PROD.MFG.INTEL.COM using LogAnalyzer2 v2.6.30225.0830</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_tcalford on 11/27/2013 12:01:40 PM from F32PTS215.F32PROD.MFG.INTEL.COM using LogAnalyzer2 v2.6.30225.0830</ChangeLog>
+  <QueryAttributes>
+    <SuppressAllExceptions>true</SuppressAllExceptions>
+    <AlwaysReplaceDomainWithLocal>false</AlwaysReplaceDomainWithLocal>
+  </QueryAttributes>
+  <PostQuerySQL>select * from %{OUTPUT}</PostQuerySQL>
+  <TableLayoutConfig>
+    <BoundColumnList>NodeName,Process,SCVersion,Name</BoundColumnList>
+  </TableLayoutConfig>
+  <TabOrder>C0</TabOrder>
+  <MainPivotConfig>
+    <ColumnX FieldName="" FieldType="" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <ColumnY FieldName="" FieldType="" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <ColumnData FieldName="COUNT OF" FieldType="String" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <ChartType>StackedBar</ChartType>
+    <RotateXAxisLabels>false</RotateXAxisLabels>
+    <CustomPalette />
+    <TableData />
+  </MainPivotConfig>
+  <AutoPivotConfig OutputDateFormat="yyyy ww.w hh tt" />
+  <MailConfig>
+    <PostProcessingSQL Enable="false" />
+    <EmailCondition Enable="true" Operator="&gt;" ThresholdRowCount="0">
+      <SQLQuery />
+      <RunScriptBeforeEmailing>false</RunScriptBeforeEmailing>
+      <Script />
+    </EmailCondition>
+    <PostProcessingCondition Enable="false" Operator="&gt;" ThresholdRowCount="0">
+      <SQLQuery />
+      <RunScriptBeforeEmailing>false</RunScriptBeforeEmailing>
+    </PostProcessingCondition>
+    <CopyCondition Enable="false" Operator="&gt;" ThresholdRowCount="0">
+      <SQLQuery />
+      <RunScriptBeforeEmailing>false</RunScriptBeforeEmailing>
+    </CopyCondition>
+    <SMTPServer>smtp.intel.com</SMTPServer>
+    <From>LogAnalyzer2@intel.com</From>
+    <ReplyTo>@{DASHBOARD_OWNER_ALERT_DIST}</ReplyTo>
+    <To>@{PCAM_MONITOR_EMAIL}; @{ONCALL_SUPPORT_EMAIL}</To>
+    <Subject>NTSC missing manual file PlasmaClean.xml</Subject>
+    <Body>&lt;b&gt;&lt;font color="red"&gt;Action Required - Missing manual file PlasmaClean.xml on one or more of the following tools: @{PLASMACLEAN_LIST}&lt;/font&gt;&lt;/b&gt;
+&lt;br&gt;
+&lt;br&gt;
+PlasmaClean.xml is missing from the SC\PlasmaClean directory on the following tool(s) and must be added manually. Please resolve by copying file from gold tool. 
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;Additional details can be found &lt;a href="http://autowiki.intel.com/index.php?title=AIT_Monitor_pages_and_response#NTSC_missing_manual_file_PlasmaClean.xml"&gt;here&lt;/a&gt;.&lt;/b&gt;
+&lt;br&gt;
+&lt;br&gt;</Body>
+    <MailAttachments FileNamingFormat="${SETTINGS}" Excel="false" CSV="false" LAS="false" LAD="false" Exceptions="false" StatusLogs="false" PivotChart="false" ZipAttachments="false" DoNotSendAttachmentsWithEmail="false" IncludeJobStatisticsHeader="false" IncludeQuerySettingsFileHeader="false" IncludeVariableDefinitionHeader="false" IncludeRowCountInSubject="false" />
+    <IncludeSQLQueryInBody>false</IncludeSQLQueryInBody>
+    <TableInBody Enable="true">
+      <SQL />
+    </TableInBody>
+    <CopyOutputToDirectory>false</CopyOutputToDirectory>
+    <OutputDirectory>@{DASHBOARD_WEB_SPOOL}\PCAM\Output</OutputDirectory>
+    <IncludeAutoPivotSummary>false</IncludeAutoPivotSummary>
+    <IncludeCustomPivotSummary>false</IncludeCustomPivotSummary>
+    <IgnoreExceptions>true</IgnoreExceptions>
+    <OnlyCopyOutputIfEmailConditionIsMet>false</OnlyCopyOutputIfEmailConditionIsMet>
+  </MailConfig>
+  <TableSchema />
+  <TableData />
+  <LastRunAbsoluteDateFilter />
+  <PivotGroupingSettings Enable="true" PivotColumn="Path">
+    <SortyByColumn>Count</SortyByColumn>
+  </PivotGroupingSettings>
+  <QuerySQL><![CDATA[
+--[FileName:"\\Rf3pvap416n19\d$\Dashboard\Jobs\PCAM\Monitor-24hr\PlasmaClean Monitor.lasx"]------
+----------<VARIABLES>------------
+var FILEFILTER = "\\%{NODELIST}\sc\PlasmaClean\PlasmaClean.xml"
+var REGSOURCE_INTERNAL = "\\%{NODELIST}\HKLM\SOFTWARE\Intel\Orca\Install\MachineController"
+var TIMEFILTER = "All"
+var NODEFILTER = "@{PLASMACLEAN_LIST}"
+var NODELIST_FILE = ""
+var NODELIST_EXCLUDE = "@{PLASMACLEAN_EXCLUDE_LIST}"
+var DOMAIN = "RF2PROD"
+var CUSTOM_REGPATH = "\\%{NODELIST}\HKLM\SOFTWARE\Intel\FabAuto\CPP\Information"
+var CUSTOM_REGKEY = "Process"
+var MC_INTERNAL = "\\%{NODELIST}\HKLM\SOFTWARE\Intel\Orca\Install\MachineController"
+---[NODELIST]---
+[ThreadQuery(1)] --** Invoke a separate thread for every 1 output row(s) of the {NODELIST} query
+BEGIN NODELIST
+	UseMethod GetNodeList with -- **Get the list of nodes matching specified domain and filter**
+		Domain = "${DOMAIN}" -- Domain to search for nodes in (can be comma-separated-list) [String]
+		NodeFilter = "${NODEFILTER}" -- Pattern to look for nodes (comma-separated-list) [String]
+		NodeListFile = "${NODELIST_FILE}" -- Location of file containing list of nodes (one node on each line) [String]
+		ExcludeFilter = "${NODELIST_EXCLUDE}" -- Pattern to exclude from the list of nodes (comma-separated-list) [String]
+		OnlyIncludePingableNodes = true -- Only include nodes that can be pinged [Boolean]
+END NODELIST
+---[REG_CSV]---
+BEGIN REG_CSV
+	---Begin Main Query---
+	Using REG with
+		recurse = 0 -- Recurse level for subkeys
+	SELECT
+		computername as NodeName,
+		value as Process
+	FROM
+		'${CUSTOM_REGPATH}'
+	WHERE
+		IsInList(valuename, '${CUSTOM_REGKEY}')
+END REG_CSV
+---[FILELIST]---
+BEGIN FILELIST
+	UseMethod GetFileList with -- **Get list of files matching specified name and date filter (optimized LP implementation)**
+		FileFilter = "${FILEFILTER}" -- Files to check [String]
+		DateFilter = "${TIMEFILTER}" -- Date range to check the files against [String]
+		RecurseLevel = 0 -- Recursion level to search for files (-1 for infinite) [Int32]
+END FILELIST
+---[FILECHECK_CSV]---
+BEGIN FILECHECK_CSV
+	---Begin Main Query---
+	Using FS with
+	SELECT
+		NodeName, Name, CreationTime, LastWriteTime, Path
+	USING
+		Extract_Token(Path, 2, '\\') AS NodeName
+	FROM
+		%{FILELIST}
+END FILECHECK_CSV
+---[JOIN_CSV]---
+BEGIN JOIN_CSV
+	UseMethod Join with -- **Do an outer join for two tables based on a matching column**
+		InputFile1 = "%{reg_csv}" -- Input CSV File #1 containing table data [String]
+		InputFile2 = "%{filecheck_csv}" -- Input CSV File #2 containing table data [String]
+		InputFile3 = "" -- Input CSV File #3 containing table data (optional) [String]
+		InputFile4 = "" -- Input CSV File #4 containing table data (optional) [String]
+		InputFile5 = "" -- Input CSV File #5 containing table data (optional) [String]
+		InputFile6 = "" -- Input CSV File #6 containing table data (optional) [String]
+		JoinColumn = "NodeName" -- Column name(s) on which to join the two tables (more than one column can be supplied by using comma as a separator) [String]
+		IgnoreDuplicate = false -- Flag to ignore duplicate items in the JoinColumn [Boolean]
+		IgnoreCase = true -- Flag to ignore case in the JoinColumn [Boolean]
+		OnlyShowNonMatchingRows = false -- Flag to only show non-matching orphan rows [Boolean]
+		IncludeNonMatchingRows = true -- Flag to also include non-matching orphan rows (but with blank entries) [Boolean]
+		MustIncludeOutputColumns = "" -- Name of columns (comma-separated) that must be included in output even if the join does not materialize [String]
+END JOIN_CSV
+---Begin Main Query---
+Using CSV with
+SELECT
+	*
+FROM
+	%{join_csv}
+---[POST]---
+BEGIN POST
+	---Begin Main Query---
+	SELECT
+		NodeName, Process, Name as PlasmaCleanMissing
+	FROM
+		%{OUTPUT}
+	WHERE
+		name is null
+END POST
+
+]]></QuerySQL>
+</QueryConfig>

@@ -1,0 +1,146 @@
+<QueryConfig AutoExecuteQueryOnLoad="false" PreventSQLBeautification="false">
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 9/19/2019 7:08:17 AM from RF3PVAP416N19.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.9.70713.2318</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 9/19/2019 7:06:45 AM from RF3PVAP416N19.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.9.70713.2318</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 5/23/2017 4:00:48 PM from RF3PAP216N1.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.9.60629.2150</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 3/16/2017 11:05:19 AM from RF3PAP216N1.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.9.60629.2150</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_tcalford on 6/4/2015 11:31:50 AM from F32PAP216N3.F32PROD.MFG.INTEL.COM using LogAnalyzer2 v2.8.40713.1943</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_tcalford on 2/17/2015 12:31:26 PM from F32PAP216N3.F32PROD.MFG.INTEL.COM using LogAnalyzer2 v2.8.40713.1943</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_tcalford on 2/17/2015 12:16:38 PM from F32PAP216N3.F32PROD.MFG.INTEL.COM using LogAnalyzer2 v2.8.40713.1943</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_tcalford on 1/30/2015 9:27:48 PM from F32PAP216N3.F32PROD.MFG.INTEL.COM using LogAnalyzer2 v2.8.40713.1943</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_tcalford on 1/29/2015 7:18:52 PM from F32PAP216N3.F32PROD.MFG.INTEL.COM using LogAnalyzer2 v2.8.40713.1943</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_tcalford on 1/29/2015 4:20:24 PM from F32PAP216N3.F32PROD.MFG.INTEL.COM using LogAnalyzer2 v2.8.40713.1943</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_tcalford on 1/29/2015 4:18:42 PM from F32PAP216N3.F32PROD.MFG.INTEL.COM using LogAnalyzer2 v2.8.40713.1943</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_tcalford on 1/29/2015 9:19:12 AM from F32PAP216N3.F32PROD.MFG.INTEL.COM using LogAnalyzer2 v2.8.40713.1943</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_tcalford on 1/29/2015 9:16:51 AM from F32PAP216N3.F32PROD.MFG.INTEL.COM using LogAnalyzer2 v2.8.40713.1943</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_tcalford on 1/29/2015 8:51:20 AM from F32PAP216N3.F32PROD.MFG.INTEL.COM using LogAnalyzer2 v2.8.40713.1943</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_tcalford on 8/13/2014 2:48:37 PM from F32PAP216N3.F32PROD.MFG.INTEL.COM using LogAnalyzer2 v2.8.40713.1943</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_tcalford on 6/16/2014 8:48:14 AM from F32PTS215.F32PROD.MFG.INTEL.COM using LogAnalyzer2 v2.7.31031.1837</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_tcalford on 6/16/2014 8:46:49 AM from F32PTS215.F32PROD.MFG.INTEL.COM using LogAnalyzer2 v2.7.31031.1837</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_tcalford on 6/11/2014 2:32:34 PM from F32PTS215.F32PROD.MFG.INTEL.COM using LogAnalyzer2 v2.7.31031.1837</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_tcalford on 6/11/2014 11:57:19 AM from F32PTS215.F32PROD.MFG.INTEL.COM using LogAnalyzer2 v2.7.31031.1837</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_tcalford on 6/11/2014 11:46:21 AM from F32PTS215.F32PROD.MFG.INTEL.COM using LogAnalyzer2 v2.7.31031.1837</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_tcalford on 6/11/2014 11:32:58 AM from F32PTS215.F32PROD.MFG.INTEL.COM using LogAnalyzer2 v2.7.31031.1837</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_tcalford on 6/11/2014 11:00:26 AM from F32PTS215.F32PROD.MFG.INTEL.COM using LogAnalyzer2 v2.7.31031.1837</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_tcalford on 5/23/2014 9:39:24 AM from F32PTS215.F32PROD.MFG.INTEL.COM using LogAnalyzer2 v2.7.31031.1837</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_tcalford on 5/22/2014 2:55:31 PM from F32PTS215.F32PROD.MFG.INTEL.COM using LogAnalyzer2 v2.7.31031.1837</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_tcalford on 5/22/2014 2:54:11 PM from F32PTS215.F32PROD.MFG.INTEL.COM using LogAnalyzer2 v2.7.31031.1837</ChangeLog>
+  <QueryAttributes>
+    <AlwaysReplaceDomainWithLocal>false</AlwaysReplaceDomainWithLocal>
+  </QueryAttributes>
+  <PostQuerySQL>select * from %{OUTPUT}</PostQuerySQL>
+  <TableLayoutConfig>
+    <BoundColumnList>ComputerName,Uptime,LastBootUpTime,MESStatus</BoundColumnList>
+  </TableLayoutConfig>
+  <TabOrder>C0</TabOrder>
+  <MainPivotConfig>
+    <ColumnX FieldName="" FieldType="" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <ColumnY FieldName="" FieldType="" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <ColumnData FieldName="" FieldType="" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <CustomPalette />
+    <TableData />
+  </MainPivotConfig>
+  <AutoPivotConfig OutputDateFormat="yyyy ww.w hh tt" />
+  <MailConfig>
+    <PostProcessingSQL Enable="false" />
+    <EmailCondition Enable="false" Operator="&gt;" ThresholdRowCount="0">
+      <SQLQuery />
+      <RunScriptBeforeEmailing>false</RunScriptBeforeEmailing>
+      <Script />
+    </EmailCondition>
+    <PostProcessingCondition Enable="false" Operator="&gt;" ThresholdRowCount="0">
+      <SQLQuery />
+      <RunScriptBeforeEmailing>false</RunScriptBeforeEmailing>
+    </PostProcessingCondition>
+    <CopyCondition Enable="false" ThresholdRowCount="0">
+      <RunScriptBeforeEmailing>false</RunScriptBeforeEmailing>
+    </CopyCondition>
+    <SMTPServer>smtp.intel.com</SMTPServer>
+    <From>LogAnalyzer2@intel.com</From>
+    <ReplyTo>todd.c.alford@intel.com</ReplyTo>
+    <To />
+    <Subject>[${DOMAIN}] Web_F32_MissingBackup</Subject>
+    <Body />
+    <MailAttachments FileNamingFormat="${SETTINGS}" Excel="false" CSV="false" LAS="false" LAD="false" Exceptions="false" StatusLogs="false" PivotChart="false" ZipAttachments="false" DoNotSendAttachmentsWithEmail="false" />
+    <IncludeSQLQueryInBody>false</IncludeSQLQueryInBody>
+    <TableInBody Enable="false">
+      <SQL />
+    </TableInBody>
+    <CopyOutputToDirectory>false</CopyOutputToDirectory>
+    <OutputDirectory />
+    <IncludeAutoPivotSummary>false</IncludeAutoPivotSummary>
+    <IgnoreExceptions>false</IgnoreExceptions>
+    <OnlyCopyOutputIfEmailConditionIsMet>false</OnlyCopyOutputIfEmailConditionIsMet>
+  </MailConfig>
+  <TableSchema />
+  <TableData />
+  <LastRunAbsoluteDateFilter />
+  <PivotGroupingSettings PivotColumn="">
+    <SortyByColumn>Count</SortyByColumn>
+  </PivotGroupingSettings>
+  <QuerySQL><![CDATA[
+--[FileName:"Y:\Dashboard\Web\PCAM\LA2 Scripts\Web_MC_Pending.lasx"]------
+----------<VARIABLES>------------
+var FILEFILTER = "@{DASHBOARD_LOCAL_WEB}\PCAM\Output\NTSC_Summary_and_Timeline_WebTransfer.csv"
+var FILEFILTER2 = "@{DASHBOARD_LOCAL_WEB}\PCAM\Output\SCDOTNET_Summary_and_Timeline_WebTransfer.csv"
+var TIMEFILTER = "Last 7 days"
+---[NTSC_CSV]---
+BEGIN NTSC_CSV
+	---Begin Main Query---
+	Using CSV with
+	SELECT
+		NodeName,
+		ToolType,
+		Process,
+		GoldTool,
+		UpgradeWhenIdle,
+		ActiveFramework,
+		ProfiledMachineController,
+		ActiveMachineController,
+		ActivationReadyFlag
+	FROM
+		'${FILEFILTER}'
+	WHERE
+		machinecontrollersync = 'False'
+END NTSC_CSV
+---[SCNET_CSV]---
+BEGIN SCNET_CSV
+	---Begin Main Query---
+	Using CSV with
+	SELECT
+		NodeName,
+		EquipType as ToolType,
+		Process,
+		GoldTool,
+		UpgradeWhenIdle,
+		ActiveFramework,
+		ProfiledMachineController,
+		ActiveMachineController,
+		ActivationReadyFlag
+	FROM
+		'${FILEFILTER2}'
+	WHERE
+		machinecontrollersync = 'False'
+END SCNET_CSV
+---[MERGE_CSV]---
+BEGIN MERGE_CSV
+	UseMethod MergeTables with -- **Merge content of two tables by doing an outer join on the column schema (no join done here)**
+		InputFile1 = "%{NTSC_CSV}" -- Input CSV File #1 containing table data [String]
+		InputFile2 = "%{SCNET_CSV}" -- Input CSV File #2 containing table data [String]
+		AutoDetectColumnTypes = false -- Auto-detect column types before merging [Boolean]
+END MERGE_CSV
+---Begin Main Query---
+Using CSV with
+SELECT
+	NodeName,
+	ToolType as [Tool Type],
+	Process,
+	UpgradeWhenIdle,
+	ActiveFramework as [Active Framework],
+	ProfiledMachineController as [Profiled Machine Controller],
+	ActiveMachineController as [Active Machine Controller],
+	ActivationReadyFlag as [Activation Ready Flag]
+FROM
+	%{MERGE_CSV}
+
+]]></QuerySQL>
+</QueryConfig>

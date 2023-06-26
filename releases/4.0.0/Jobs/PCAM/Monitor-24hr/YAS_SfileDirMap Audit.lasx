@@ -1,0 +1,157 @@
+<QueryConfig AutoExecuteQueryOnLoad="false" PreventSQLBeautification="false">
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 10/21/2019 8:30:26 AM from RF3PVAP416N19.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.9.90925.1424</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 10/21/2019 8:29:21 AM from RF3PVAP416N19.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.9.90925.1424</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 9/19/2019 10:23:48 AM from RF3PVAP416N19.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.9.70713.2318</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 9/19/2019 10:16:15 AM from RF3PVAP416N19.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.9.70713.2318</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 9/19/2019 10:04:12 AM from RF3PVAP416N19.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.9.70713.2318</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 9/19/2019 10:04:08 AM from RF3PVAP416N19.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.9.70713.2318</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 9/19/2019 10:02:32 AM from RF3PVAP416N19.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.9.70713.2318</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 9/19/2019 10:02:24 AM from RF3PVAP416N19.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.9.70713.2318</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 9/19/2019 9:55:22 AM from RF3PVAP416N19.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.9.70713.2318</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 9/19/2019 9:50:31 AM from RF3PVAP416N19.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.9.70713.2318</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 9/19/2019 9:33:09 AM from RF3PVAP416N19.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.9.70713.2318</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 9/19/2019 8:27:28 AM from RF3PVAP416N19.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.9.70713.2318</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 9/19/2019 8:26:42 AM from RF3PVAP416N19.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.9.70713.2318</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 9/19/2019 7:51:25 AM from RF3PVAP416N19.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.9.70713.2318</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 9/19/2019 7:39:56 AM from RF3PVAP416N19.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.9.70713.2318</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 9/19/2019 7:39:09 AM from RF3PVAP416N19.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.9.70713.2318</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 9/19/2019 7:35:15 AM from RF3PVAP416N19.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.9.70713.2318</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_pjcolasa on 11/30/2018 12:22:12 PM from RF3PVAP416N19.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.9.70713.2318</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 11/29/2018 12:55:32 PM from RF3PVAP416N19.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.9.70713.2318</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 11/29/2018 12:55:06 PM from RF3PVAP416N19.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.9.70713.2318</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 11/29/2018 8:15:35 AM from RF3PVAP416N19.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.9.70713.2318</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 11/29/2018 8:04:43 AM from RF3PVAP416N19.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.9.70713.2318</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 11/28/2018 2:59:21 PM from RF3PVAP416N19.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.9.70713.2318</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 11/28/2018 2:59:17 PM from RF3PVAP416N19.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.9.70713.2318</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 11/28/2018 2:53:40 PM from RF3PVAP416N19.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.9.70713.2318</ChangeLog>
+  <QueryAttributes>
+    <RowThresholdForPivotGrid>1000000</RowThresholdForPivotGrid>
+    <AlwaysReplaceDomainWithLocal>false</AlwaysReplaceDomainWithLocal>
+  </QueryAttributes>
+  <PostQuerySQL>select * from %{OUTPUT}</PostQuerySQL>
+  <TableLayoutConfig>
+    <BoundColumnList>DateTime,NodeName,EventLog,EventID,EventTypeName,Category,SourceName,UserID,Message,Strings</BoundColumnList>
+  </TableLayoutConfig>
+  <RowHighlightingRules Enable="true" ColumnName="*" FilterRegex="Error" RowColorString="NamedColor:Red" />
+  <RowHighlightingRules Enable="true" ColumnName="*" FilterRegex="Warning" RowColorString="NamedColor:Yellow" />
+  <TabOrder>C0</TabOrder>
+  <MainPivotConfig>
+    <ColumnX FieldName="" FieldType="" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <ColumnY FieldName="" FieldType="" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <ColumnData FieldName="" FieldType="" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <CustomPalette />
+    <TableData />
+  </MainPivotConfig>
+  <AutoPivotConfig OutputDateFormat="yyyy ww.w HH:mm" StatisticalFunctionsForColumn="Avg, 50, 90,96, Count" />
+  <MailConfig>
+    <PostProcessingSQL Enable="false" />
+    <EmailCondition Enable="true" Operator="&gt;" ThresholdRowCount="0">
+      <SQLQuery />
+      <RunScriptBeforeEmailing>false</RunScriptBeforeEmailing>
+      <Script />
+    </EmailCondition>
+    <PostProcessingCondition Enable="false" Operator="&gt;" ThresholdRowCount="0">
+      <SQLQuery />
+      <RunScriptBeforeEmailing>false</RunScriptBeforeEmailing>
+    </PostProcessingCondition>
+    <CopyCondition Enable="false" Operator="&gt;" ThresholdRowCount="">
+      <SQLQuery />
+      <RunScriptBeforeEmailing>false</RunScriptBeforeEmailing>
+    </CopyCondition>
+    <SMTPServer>smtp.intel.com</SMTPServer>
+    <From>LogAnalyzer2@intel.com</From>
+    <ReplyTo>@{DASHBOARD_OWNER_ALERT_DIST}</ReplyTo>
+    <To>@{PCAM_MONITOR_EMAIL}</To>
+    <Subject>YAS_SfileDirMap Audit</Subject>
+    <Body>&lt;b&gt;&lt;font color="red"&gt;Action Required - Incorrect configuration for SC parameter YAS_SfileDirMap.&lt;/font&gt;&lt;/b&gt;
+&lt;br&gt;
+&lt;br&gt;
+The winclient(s) listed below are incorrectly configured for SC Parameter YAS_SfileDirMap, please update SC configuration appropriately.
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;Additional details can be found &lt;a href=" http://autowiki.intel.com/index.php?title=AIT_Monitor_pages_and_response#YAS_SfileDirMap_Audit"&gt;here&lt;/a&gt;.&lt;/b&gt;
+&lt;br&gt;
+&lt;br&gt;
+</Body>
+    <MailAttachments FileNamingFormat="${SETTINGS}" Excel="false" CSV="false" LAS="false" LAD="false" Exceptions="false" StatusLogs="false" PivotChart="true" ZipAttachments="false" DoNotSendAttachmentsWithEmail="false" IncludeJobStatisticsHeader="false" IncludeQuerySettingsFileHeader="false" IncludeVariableDefinitionHeader="false" IncludeRowCountInSubject="false" />
+    <IncludeSQLQueryInBody>false</IncludeSQLQueryInBody>
+    <TableInBody Enable="true">
+      <SQL />
+    </TableInBody>
+    <CopyOutputToDirectory>false</CopyOutputToDirectory>
+    <OutputDirectory>@{DASHBOARD_WEB_SPOOL}\PCAM\Output</OutputDirectory>
+    <IncludeAutoPivotSummary>false</IncludeAutoPivotSummary>
+    <IgnoreExceptions>false</IgnoreExceptions>
+    <OnlyCopyOutputIfEmailConditionIsMet>false</OnlyCopyOutputIfEmailConditionIsMet>
+  </MailConfig>
+  <TableSchema />
+  <TableData />
+  <LastRunAbsoluteDateFilter />
+  <PivotGroupingSettings Enable="true" PivotColumn="YAS Path">
+    <SortyByColumn>Count</SortyByColumn>
+  </PivotGroupingSettings>
+  <QuerySQL><![CDATA[
+--[FileName:"D:\Dashboard\Jobs\PCAM\Monitor-24hr\YAS_SfileDirMap Audit.lasx"]------
+----------<VARIABLES>------------
+var VALID_YASPATH = "@{VALIDYASPATH}"
+var YAS_NODELIST_EXCLUDE_LIST = "@{YAS_NODELIST_EXCLUDE_LIST}"
+var FILEFILTER = "@{DASHBOARD_PERSIST_DATA}\PCAM\Output\1_NTSC_Capability_Summary_DataPull.csv"
+var FILEFILTER2 = "@{DASHBOARD_PERSIST_DATA}\PCAM\Output\01_SCDOTNET_Capability_Summary_DataPull.csv"
+---[DOTNET_CSV]---
+BEGIN DOTNET_CSV
+	---Begin Main Query---
+	Using CSV with
+	SELECT
+		NodeName,
+		'SC.Net' as [SC Type],
+		Name,
+		Value
+	FROM
+		${FILEFILTER2}
+	WHERE
+		(NAME = 'YAS_SfileDirMap') AND Value <> 'Blank'
+END DOTNET_CSV
+---[NTSC_CSV]---
+BEGIN NTSC_CSV
+	---Begin Main Query---
+	Using CSV with
+	SELECT
+		NodeName,
+		'NTSC' as [SC Type],
+		Name,
+		Value
+	FROM
+		${FILEFILTER}
+	WHERE
+		(NAME = 'YAS_SfileDirMap') AND Value <> 'Blank'
+END NTSC_CSV
+---[MERGESC_CSV]---
+BEGIN MERGESC_CSV
+	UseMethod MergeTables with -- **Merge content of two tables by doing an outer join on the column schema (no join done here)**
+		InputFile1 = "%{NTSC_CSV}" -- Input CSV File #1 containing table data [String]
+		InputFile2 = "%{DOTNET_CSV}" -- Input CSV File #2 containing table data [String]
+		AutoDetectColumnTypes = false -- Auto-detect column types before merging [Boolean]
+END MERGESC_CSV
+---[SPLIT_CSV]---
+BEGIN SPLIT_CSV
+	UseMethod SplitRow with -- **Splits a row into one or more rows with two columns each**
+		InputFiles = "%{MERGESC_CSV}" -- Input files (comma-separated) containing table data [String]
+		ColumnToSplit = "Value" -- Name of column to split into multiple rows [String]
+		Separator = "|" -- Separator string to use when splitting rows [String]
+		TrimValue = true -- Trim the value of column after splitting [Boolean]
+		RemoveEmptyEntries = false -- Remove empty entries found after splitting [Boolean]
+END SPLIT_CSV
+---Begin Main Query---
+Using CSV with
+SELECT
+	NodeName,
+	[SC Type],
+	EXTRACT_TOKEN(Value, 1, ',') as [YAS Path]
+FROM
+	%{SPLIT_CSV}
+WHERE
+	NOT IsInList([YAS Path], '${VALID_YASPATH}')
+	AND NOT Isinlist(NodeName, '${YAS_NODELIST_EXCLUDE_LIST}')
+
+]]></QuerySQL>
+</QueryConfig>

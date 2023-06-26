@@ -1,0 +1,132 @@
+<QueryConfig AutoExecuteQueryOnLoad="false">
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 4/9/2014 1:21:29 PM from RF3PTS216.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.7.40407.1754</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 4/9/2014 1:21:26 PM from RF3PTS216.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.7.40407.1754</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 4/9/2014 1:20:28 PM from RF3PTS216.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.7.40407.1754</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 4/9/2014 12:56:42 PM from RF3PTS216.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.7.40407.1754</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 4/9/2014 11:30:49 AM from RF3PTS216.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.7.40407.1754</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 4/8/2014 4:54:09 PM from RF3PTS216.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.7.40407.1754</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 4/8/2014 4:37:24 PM from RF3PTS216.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.7.40407.1754</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 4/8/2014 4:36:20 PM from RF3PTS216.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.7.40407.1754</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 4/8/2014 4:35:41 PM from RF3PTS216.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.7.40407.1754</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 4/8/2014 4:35:01 PM from RF3PTS216.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.7.40407.1754</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 4/8/2014 4:19:32 PM from RF3PTS216.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.7.40407.1754</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 4/8/2014 3:31:55 PM from RF3PTS216.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.7.40407.1754</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 4/8/2014 3:09:10 PM from RF3PTS216.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.7.40407.1754</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 4/8/2014 2:56:35 PM from RF3PTS216.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.7.40407.1754</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 8/1/2013 4:25:00 PM from RF3PTS216.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.7.30730.2231</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_penarvae on 7/12/2013 9:00:24 AM from RF3PAP216N1.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.7.30527.2151</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_penarvae on 7/12/2013 9:00:13 AM from RF3PAP216N1.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.7.30527.2151</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_penarvae on 2/23/2013 1:06:42 AM from RF3PAP216N3.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.6.30221.1059</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_penarvae on 2/23/2013 1:05:42 AM from RF3PAP216N3.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.6.30221.1059</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 2/7/2013 2:52:04 PM from RF3PTS215.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.6.30206.1945</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_penarvae on 12/21/2012 2:35:18 AM from RF3PAP216N1.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.5.20326.1729</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_penarvae on 12/21/2012 2:30:23 AM from RF3PAP216N1.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.5.20326.1729</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_penarvae on 12/21/2012 2:30:13 AM from RF3PAP216N1.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.5.20326.1729</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_penarvae on 12/21/2012 2:29:32 AM from RF3PAP216N1.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.5.20326.1729</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_penarvae on 12/16/2012 12:40:30 AM from RF3PAP216N1.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.5.20326.1729</ChangeLog>
+  <QueryAttributes>
+    <OutputDateFormat>MM/dd/yyyy hh:mmtt</OutputDateFormat>
+    <AlwaysReplaceDomainWithLocal>false</AlwaysReplaceDomainWithLocal>
+  </QueryAttributes>
+  <PostQuerySQL>select * from %{OUTPUT}</PostQuerySQL>
+  <TableLayoutConfig>
+    <BoundColumnList>Resource,2013</BoundColumnList>
+  </TableLayoutConfig>
+  <TabOrder>C0</TabOrder>
+  <MainPivotConfig>
+    <ColumnX FieldName="" FieldType="" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <ColumnY FieldName="" FieldType="" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <ColumnData FieldName="" FieldType="" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <CustomPalette />
+    <TableData />
+  </MainPivotConfig>
+  <AutoPivotConfig OutputDateFormat="yyyy ww.w hh tt" />
+  <MailConfig>
+    <PostProcessingSQL Enable="false" />
+    <EmailCondition Enable="false" ThresholdRowCount="0">
+      <RunScriptBeforeEmailing>false</RunScriptBeforeEmailing>
+    </EmailCondition>
+    <PostProcessingCondition Enable="false" ThresholdRowCount="0">
+      <RunScriptBeforeEmailing>false</RunScriptBeforeEmailing>
+    </PostProcessingCondition>
+    <CopyCondition Enable="false" ThresholdRowCount="0">
+      <RunScriptBeforeEmailing>false</RunScriptBeforeEmailing>
+    </CopyCondition>
+    <Body />
+    <OnlyProcessIfOutputChangedFromPreviousRun>false</OnlyProcessIfOutputChangedFromPreviousRun>
+    <MailAttachments Excel="false" LAS="false" LAD="false" Exceptions="false" StatusLogs="false" PivotChart="true" ZipAttachments="true" DoNotSendAttachmentsWithEmail="false" />
+    <IncludeSQLQueryInBody>false</IncludeSQLQueryInBody>
+    <TableInBody Enable="false" />
+    <CopyOutputToDirectory>false</CopyOutputToDirectory>
+    <IncludeAutoPivotSummary>false</IncludeAutoPivotSummary>
+    <IgnoreExceptions>false</IgnoreExceptions>
+    <OnlyCopyOutputIfEmailConditionIsMet>false</OnlyCopyOutputIfEmailConditionIsMet>
+  </MailConfig>
+  <TableSchema><xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+  <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="Results" msdata:UseCurrentLocale="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Results">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="average" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
+</TableSchema>
+  <TableData />
+  <LastRunAbsoluteDateFilter />
+  <PivotGroupingSettings PivotColumn="">
+    <SortyByColumn>Count</SortyByColumn>
+  </PivotGroupingSettings>
+  <QuerySQL><![CDATA[
+--[FileName:"W:\PCAM\LA2 Scripts\Web_BarnumSN911AverageThisYear.lasx"]------
+----------<VARIABLES>------------
+var TIMEFILTER = "Last 1 years (prev mode)"
+var FILEFILTER = "@{DASHBOARD_LOCAL_WEB}\PCAM\Output\BarnumSN_HighPriority.htm"
+---[COUNT_CSV]---
+BEGIN COUNT_CSV
+	---Begin Main Query---
+	Using LA2REPORT with
+		TableIndex = 1
+	SELECT
+		WW,
+		count(*) as total
+	USING
+		quantize(created_on, 604800) as WW
+	FROM
+		'${FILEFILTER}'
+	WHERE
+		ApplyTimeRangeFilter(created_on, '${TIMEFILTER}')
+	GROUP BY
+		WW
+END COUNT_CSV
+---[FILLP_CSV]---
+BEGIN FILLP_CSV
+	UseMethod QuantizeDateWithGaps with -- **Convert to time-scale with NULL values for missing time data**
+		InputFile = "%{COUNT_CSV}" -- Input CSV File containing table data [String]
+		DateColumn = "WW" -- Column containing the date/time [String]
+		PivotColumns = "" -- Column containing the pivot key(s) (comma-separated if more than one) [String]
+		ColumnsToSelect = "*" -- Columns to select from the input table for output (comma-separated) [String]
+		TimeFilter = "last 1 year (prev mode)" -- Time filter specifying the range of date/time for which to look for missing data [e.g., Last 30 minutes, etc.] [String]
+		TimeInterval = "1w" -- Time interval for which gaps are to be found (specify -1 to auto-determine) [e.g., 60s for 60 seconds, 2m for 2 mins, 3 h for 3 hrs, 1d for 1 day] [String]
+		NumIntervals = 52 -- Approximate Number of intervals expected when auto-determining Time Interval (minimum value is 2) [Int32]
+		QuantizeDateColumn = true -- Quantize the DateColumn using TimeInterval and replace it's value [Boolean]
+		MustIncludeActualDataRange = true -- Always include the actual date-range within supplied data irrespective of TimeFilter specified [Boolean]
+		MissingValueSubstituteForStringFields = "null" -- Replacement for missing value for string columns (specify "null" to populate with DBNull) [e.g., null, N/A] [String]
+		MissingValueSubstituteForNumericFields = "0" -- Replacement for missing value for numeric columns (specify "null" to populate with DBNull) [e.g., null, 0, -1] [String]
+		ConvertDateTimeFieldToStringField = false -- Convert all DateTime fields to String type in output [Boolean]
+END FILLP_CSV
+---Begin Main Query---
+Using CSV with
+SELECT
+	avg(total) as average
+FROM
+	%{FILLP_CSV}
+
+]]></QuerySQL>
+</QueryConfig>

@@ -1,0 +1,175 @@
+<QueryConfig AutoExecuteQueryOnLoad="false" PreventSQLBeautification="false">
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 2/15/2017 1:10:12 PM from RF3PVAP416N19.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.9.60808.1615</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 2/15/2017 1:09:37 PM from RF3PVAP416N19.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.9.60808.1615</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 2/15/2017 1:09:29 PM from RF3PVAP416N19.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.9.60808.1615</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 2/15/2017 1:04:30 PM from RF3PVAP416N19.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.9.60808.1615</ChangeLog>
+  <ChangeLog>Changed by AMR\amodi on 2/3/2011 3:53:21 PM from AMODI-DEV1.LTDAUTO.INTEL.COM using LogAnalyzer2 v2.3.10203.1546</ChangeLog>
+  <ChangeLog>Changed by AMR\amodi on 9/3/2009 10:36:46 PM from AMODI-DEV1.LTDAUTO.INTEL.COM</ChangeLog>
+  <QueryAttributes>
+    <RowThresholdForPivotGrid>1000000</RowThresholdForPivotGrid>
+    <AlwaysReplaceDomainWithLocal>false</AlwaysReplaceDomainWithLocal>
+  </QueryAttributes>
+  <PostQuerySQL>select * from %{OUTPUT}</PostQuerySQL>
+  <TableLayoutConfig>
+    <BoundColumnList>DateTime,NodeName,EventLog,EventID,EventTypeName,Category,SourceName,UserID,Message,Strings</BoundColumnList>
+  </TableLayoutConfig>
+  <RowHighlightingRules Enable="true" ColumnName="*" FilterRegex="Error" RowColorString="NamedColor:Red" />
+  <RowHighlightingRules Enable="true" ColumnName="*" FilterRegex="Warning" RowColorString="NamedColor:Yellow" />
+  <TabOrder>C0,G0,G1</TabOrder>
+  <MainPivotConfig>
+    <ColumnX FieldName="" FieldType="" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <ColumnY FieldName="" FieldType="" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <ColumnData FieldName="" FieldType="" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <CustomPalette />
+    <TableData />
+  </MainPivotConfig>
+  <OutputDataGridConfig Name="UI_AllowedControllingUINodes">
+    <Caption>UI_AllowedControllingUINodes</Caption>
+    <SQL>---Begin Main Query---
+SELECT
+	nodename,
+	ActiveMC as [Machine Controller - IOR],
+	name,
+	value
+FROM
+	%{output}
+WHERE
+	name like 'UI_AllowedControllingUINodes'
+ORDER BY
+	value
+</SQL>
+    <TableLayoutConfig />
+    <TableSchema><xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+  <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="Results" msdata:UseCurrentLocale="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Results">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="NodeName" type="xs:string" minOccurs="0" />
+              <xs:element name="Machine_x0020_Controller_x0020_-_x0020_IOR" type="xs:string" minOccurs="0" />
+              <xs:element name="Name" type="xs:string" minOccurs="0" />
+              <xs:element name="Value" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
+</TableSchema>
+    <TableData />
+  </OutputDataGridConfig>
+  <OutputDataGridConfig Name="ID_ParallelPortDelivery">
+    <Caption>ID_ParallelPortDelivery</Caption>
+    <SQL>---Begin Main Query---
+SELECT
+	nodename,
+	ActiveMC as [Machine Controller - IOR],
+	name,
+	value
+FROM
+	%{output}
+WHERE
+	name like 'ID_ParallelPortDelivery'
+ORDER BY
+	value
+</SQL>
+    <TableLayoutConfig />
+    <TableSchema><xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+  <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="Results" msdata:UseCurrentLocale="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Results">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="NodeName" type="xs:string" minOccurs="0" />
+              <xs:element name="Machine_x0020_Controller_x0020_-_x0020_IOR" type="xs:string" minOccurs="0" />
+              <xs:element name="Name" type="xs:string" minOccurs="0" />
+              <xs:element name="Value" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
+</TableSchema>
+    <TableData />
+  </OutputDataGridConfig>
+  <AutoPivotConfig OutputDateFormat="yyyy ww.w HH:mm" StatisticalFunctionsForColumn="Avg, 50, 90,96, Count" />
+  <MailConfig>
+    <PostProcessingSQL Enable="false" />
+    <EmailCondition Enable="false" Operator="&gt;=" ThresholdRowCount="0">
+      <SQLQuery />
+      <RunScriptBeforeEmailing>false</RunScriptBeforeEmailing>
+      <Script />
+    </EmailCondition>
+    <PostProcessingCondition Enable="false" Operator="&gt;" ThresholdRowCount="0">
+      <SQLQuery />
+      <RunScriptBeforeEmailing>false</RunScriptBeforeEmailing>
+    </PostProcessingCondition>
+    <CopyCondition Enable="false" Operator="&gt;" ThresholdRowCount="">
+      <SQLQuery />
+      <RunScriptBeforeEmailing>false</RunScriptBeforeEmailing>
+    </CopyCondition>
+    <SMTPServer>smtp.intel.com</SMTPServer>
+    <From>loganalyzer2@donotreply.com</From>
+    <ReplyTo>@{DASHBOARD_OWNER_ALERT_DIST}</ReplyTo>
+    <To />
+    <Subject>[${DOMAIN}] SC.Net FW Merged Config Analysis</Subject>
+    <Body />
+    <MailAttachments FileNamingFormat="${SETTINGS}" Excel="false" CSV="false" LAS="false" LAD="false" Exceptions="false" StatusLogs="false" PivotChart="true" ZipAttachments="false" DoNotSendAttachmentsWithEmail="false" IncludeQuerySettingsFileHeader="false" IncludeVariableDefinitionHeader="false" IncludeRowCountInSubject="false" />
+    <IncludeSQLQueryInBody>false</IncludeSQLQueryInBody>
+    <TableInBody Enable="false">
+      <SQL />
+    </TableInBody>
+    <CopyOutputToDirectory>true</CopyOutputToDirectory>
+    <OutputDirectory>@{DASHBOARD_WEB_SPOOL}\PCAM\Output</OutputDirectory>
+    <IncludeAutoPivotSummary>false</IncludeAutoPivotSummary>
+    <IgnoreExceptions>true</IgnoreExceptions>
+    <OnlyCopyOutputIfEmailConditionIsMet>false</OnlyCopyOutputIfEmailConditionIsMet>
+  </MailConfig>
+  <TableSchema><xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+  <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="Results" msdata:UseCurrentLocale="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Results">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="NodeName" type="xs:string" minOccurs="0" />
+              <xs:element name="Name" type="xs:string" minOccurs="0" />
+              <xs:element name="Value" type="xs:string" minOccurs="0" />
+              <xs:element name="ActiveMC" type="xs:string" minOccurs="0" />
+              <xs:element name="FunctionalArea" type="xs:string" minOccurs="0" />
+              <xs:element name="GoldTool" type="xs:string" minOccurs="0" />
+              <xs:element name="CEID" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
+</TableSchema>
+  <TableData />
+  <LastRunAbsoluteDateFilter />
+  <PivotGroupingSettings PivotColumn="">
+    <SortyByColumn>Count</SortyByColumn>
+  </PivotGroupingSettings>
+  <QuerySQL><![CDATA[
+--[FileName:"D:\Dashboard\Jobs\PCAM\12-hr\2_SCDOTNET_Capability_Summary_Analysis.lasx"]------
+----------<VARIABLES>------------
+var FILEFILTER = "@{DASHBOARD_PERSIST_DATA}\PCAM\Output\01_SCDOTNET_Capability_Summary_DataPull.csv"
+var TIMEFILTER = "All"
+var NODEFILTER = ""
+var DOMAIN = ""
+---Begin Main Query---
+Using CSV with
+SELECT
+	*
+FROM
+	${FILEFILTER}
+
+]]></QuerySQL>
+</QueryConfig>

@@ -1,0 +1,284 @@
+<QueryConfig AutoExecuteQueryOnLoad="false" PreventSQLBeautification="false">
+  <ChangeLog>Changed by AMR\rf3dash on 2/25/2020 2:40:31 PM from RF3PVAP416N19.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.9.90925.1424</ChangeLog>
+  <ChangeLog>Changed by AMR\rf3dash on 2/25/2020 2:39:35 PM from RF3PVAP416N19.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.9.90925.1424</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_pjcolasa on 11/30/2018 12:22:12 PM from RF3PVAP416N19.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.9.70713.2318</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 11/29/2018 12:55:32 PM from RF3PVAP416N19.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.9.70713.2318</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 11/29/2018 12:55:06 PM from RF3PVAP416N19.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.9.70713.2318</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 11/29/2018 8:15:35 AM from RF3PVAP416N19.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.9.70713.2318</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 11/29/2018 8:04:43 AM from RF3PVAP416N19.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.9.70713.2318</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 11/28/2018 2:59:21 PM from RF3PVAP416N19.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.9.70713.2318</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 11/28/2018 2:59:17 PM from RF3PVAP416N19.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.9.70713.2318</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 11/28/2018 2:53:40 PM from RF3PVAP416N19.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.9.70713.2318</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 11/28/2018 2:51:32 PM from RF3PVAP416N19.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.9.70713.2318</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 11/28/2018 2:29:51 PM from RF3PVAP416N19.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.9.70713.2318</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 11/28/2018 1:58:46 PM from RF3PVAP416N19.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.9.70713.2318</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 9/5/2018 3:27:13 PM from RF3PVAP416N19.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.9.70713.2318</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 9/5/2018 3:19:03 PM from RF3PVAP416N19.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.9.70713.2318</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 9/5/2018 3:04:48 PM from RF3PVAP416N19.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.9.70713.2318</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 12/20/2016 1:15:23 PM from RF3PVAP416N19.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.9.60808.1615</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 12/19/2016 4:15:34 PM from RF3PVAP416N19.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.9.60808.1615</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 12/19/2016 4:10:59 PM from RF3PVAP416N19.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.9.60808.1615</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 12/19/2016 4:10:14 PM from RF3PVAP416N19.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.9.60808.1615</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 12/19/2016 4:07:57 PM from RF3PVAP416N19.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.9.60808.1615</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 12/19/2016 3:56:11 PM from RF3PVAP416N19.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.9.60808.1615</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 12/19/2016 3:55:56 PM from RF3PVAP416N19.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.9.60808.1615</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 12/19/2016 3:52:09 PM from RF3PVAP416N19.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.9.60808.1615</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 11/17/2016 2:48:48 PM from RF3PVAP416N19.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.9.60808.1615</ChangeLog>
+  <QueryAttributes>
+    <RowThresholdForPivotGrid>1000000</RowThresholdForPivotGrid>
+    <AlwaysReplaceDomainWithLocal>false</AlwaysReplaceDomainWithLocal>
+  </QueryAttributes>
+  <PostQuerySQL>select * from %{OUTPUT}</PostQuerySQL>
+  <TableLayoutConfig>
+    <BoundColumnList>DateTime,NodeName,EventLog,EventID,EventTypeName,Category,SourceName,UserID,Message,Strings</BoundColumnList>
+  </TableLayoutConfig>
+  <RowHighlightingRules Enable="true" ColumnName="*" FilterRegex="Error" RowColorString="NamedColor:Red" />
+  <RowHighlightingRules Enable="true" ColumnName="*" FilterRegex="Warning" RowColorString="NamedColor:Yellow" />
+  <TabOrder>C0</TabOrder>
+  <MainPivotConfig>
+    <ColumnX FieldName="" FieldType="" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <ColumnY FieldName="" FieldType="" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <ColumnData FieldName="" FieldType="" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <CustomPalette />
+    <TableData />
+  </MainPivotConfig>
+  <AutoPivotConfig OutputDateFormat="yyyy ww.w HH:mm" StatisticalFunctionsForColumn="Avg, 50, 90,96, Count" />
+  <MailConfig>
+    <PostProcessingSQL Enable="false" />
+    <EmailCondition Enable="true" Operator="&gt;" ThresholdRowCount="0">
+      <SQLQuery />
+      <RunScriptBeforeEmailing>false</RunScriptBeforeEmailing>
+      <Script />
+    </EmailCondition>
+    <PostProcessingCondition Enable="false" Operator="&gt;" ThresholdRowCount="0">
+      <SQLQuery />
+      <RunScriptBeforeEmailing>false</RunScriptBeforeEmailing>
+    </PostProcessingCondition>
+    <CopyCondition Enable="false" Operator="&gt;" ThresholdRowCount="">
+      <SQLQuery />
+      <RunScriptBeforeEmailing>false</RunScriptBeforeEmailing>
+    </CopyCondition>
+    <SMTPServer>smtp.intel.com</SMTPServer>
+    <From>LogAnalyzer2@intel.com</From>
+    <ReplyTo>@{DASHBOARD_OWNER_ALERT_DIST}</ReplyTo>
+    <To>@{PCAM_MONITOR_EMAIL}</To>
+    <Subject>Scanner StreamLined RTS Audit</Subject>
+    <Body>&lt;b&gt;&lt;font color="red"&gt;Action Required - An entity is incorrectly configured for Scanner StreamLined RTS.&lt;/font&gt;&lt;/b&gt;
+&lt;br&gt;
+&lt;br&gt;
+The entity(s) listed below are incorrectly configured for Scanner StreamLined RTS.  Please use the Summary column to determine the course of action to correct this issue. 
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;Additional details can be found &lt;a href=" http://autowiki.intel.com/index.php?title=AIT_Monitor_pages_and_response#Scanner_StreamLined_RTS_Audit"&gt;here&lt;/a&gt;.&lt;/b&gt;
+&lt;br&gt;
+&lt;br&gt;
+</Body>
+    <MailAttachments FileNamingFormat="${SETTINGS}" Excel="false" CSV="false" LAS="false" LAD="false" Exceptions="false" StatusLogs="false" PivotChart="true" ZipAttachments="false" DoNotSendAttachmentsWithEmail="false" IncludeJobStatisticsHeader="false" IncludeQuerySettingsFileHeader="false" IncludeVariableDefinitionHeader="false" IncludeRowCountInSubject="false" />
+    <IncludeSQLQueryInBody>false</IncludeSQLQueryInBody>
+    <TableInBody Enable="true">
+      <SQL />
+    </TableInBody>
+    <CopyOutputToDirectory>false</CopyOutputToDirectory>
+    <OutputDirectory>@{DASHBOARD_WEB_SPOOL}\PCAM\Output</OutputDirectory>
+    <IncludeAutoPivotSummary>false</IncludeAutoPivotSummary>
+    <IgnoreExceptions>false</IgnoreExceptions>
+    <OnlyCopyOutputIfEmailConditionIsMet>false</OnlyCopyOutputIfEmailConditionIsMet>
+  </MailConfig>
+  <TableSchema />
+  <TableData />
+  <LastRunAbsoluteDateFilter />
+  <PivotGroupingSettings Enable="true" PivotColumn="ActiveMC">
+    <SortyByColumn>Count</SortyByColumn>
+  </PivotGroupingSettings>
+  <QuerySQL><![CDATA[
+--[FileName:"D:\Dashboard\Jobs\PCAM\Monitor-24hr\Scanner StreamLined RTS Audit.lasx"]------
+----------<VARIABLES>------------
+var MAO_USERID = "@{USERID_NON_MFG}"
+var DATA_SOURCE = "@{LOCALXEUSDATASOURCE}"
+var FILEFILTER = "@{DASHBOARD_PERSIST_DATA}\PCAM\Output\1_NTSC_Capability_Summary_DataPull.csv"
+var FILEFILTER2 = "@{DASHBOARD_PERSIST_DATA}\PCAM\Output\01_SCDOTNET_Capability_Summary_DataPull.csv"
+var RTS_ENTITY_EXCLUDE = "@{MES300_RTS_ENTITY_EXCLUDE}"
+---[OWD_CSV]---
+BEGIN OWD_CSV
+	---Begin Main Query---
+	Using UNIQE with
+		DataSource = "${DATA_SOURCE}" -- UNIQE data source to query
+		Authentication = "UNP" -- User Authentication Mode
+		UserId = "${MAO_USERID}" -- User ID for authentication
+	SELECT
+	  ENTRY_ROW_ID,
+	  ATTRIBUTE_NAME,
+	  ATTRIBUTE_DATA
+	FROM
+	  F_GENERALRELATIONDATA
+	WHERE
+	  RELATION_NAME = 'ReticleStepperDeployment'
+	  AND SRC_ERASE_DATE IS NULL
+	ORDER  BY
+	  ENTRY_ROW_ID,
+	  ATTRIBUTE_NAME,
+	  ATTRIBUTE_DATA 
+END OWD_CSV
+---[MES_CSV]---
+BEGIN MES_CSV
+	---Begin Main Query---
+	Using UNIQE with
+		DataSource = "${DATA_SOURCE}" -- UNIQE data source to query
+		Authentication = "UNP" -- User Authentication Mode
+		UserId = "${MAO_USERID}" -- User ID for authentication
+	SELECT
+	  m.FACILITY     "Facility",
+	  m.ENTITY       "EntityName",
+	  m.AVAILABILITY "EntityAvailability",
+	  m.STATE        "EntityState"
+	FROM
+	  F_ENTITY m
+	WHERE
+	  m.ENTITY_DELETED_FLAG != 'Y'
+	  AND m.OBJECT_STATUS = '1'
+	  AND NOT Isinlist (m.ENTITY, '${RTS_ENTITY_EXCLUDE}') 
+END MES_CSV
+---[TRANS_CSV]---
+BEGIN TRANS_CSV
+	UseMethod TransformRowsToColumn with -- **Transforms multiple table rows into new name/value columns**
+		InputFile = "%{OWD_CSV}" -- Input CSV file containing table data [String]
+		ColumnNameForCaption = "ATTRIBUTE_NAME" -- Caption for new column type created after transformation [String]
+		ColumnNameForValue = "ATTRIBUTE_DATA" -- Caption for new column value created after transformation [String]
+		ExcludeColumnFilter = "" -- Columns to be excluded from output table (can include wild-cards and be separated by commas) [String]
+		DefaultValue = "" -- Default value for cell if one does not exist [String]
+END TRANS_CSV
+---[ENTITY_CSV]---
+BEGIN ENTITY_CSV
+	---Begin Main Query---
+	Using CSV with
+	SELECT
+		NodeName,
+		Name,
+		Value
+	FROM
+		${FILEFILTER}
+	WHERE
+		(NAME = 'Entity' AND Component = 'NikonMA') OR (NAME = 'Entity' AND Component = 'AsmlMA') OR NAME = 'MC_StreamLinedRTSEnabled'
+END ENTITY_CSV
+---[DOTNETENTITY_CSV]---
+BEGIN DOTNETENTITY_CSV
+	---Begin Main Query---
+	Using CSV with
+	SELECT
+		NodeName,
+		Name,
+		Value
+	FROM
+		${FILEFILTER2}
+	WHERE
+		(NAME = 'Entity' AND ActiveMC like '%LithoLink%')
+END DOTNETENTITY_CSV
+---[ENTITYTRANS_CSV]---
+BEGIN ENTITYTRANS_CSV
+	UseMethod TransformRowsToColumn with -- **Transforms multiple table rows into new name/value columns**
+		InputFile = "%{ENTITY_CSV}" -- Input CSV file containing table data [String]
+		ColumnNameForCaption = "NAME" -- Caption for new column type created after transformation [String]
+		ColumnNameForValue = "VALUE" -- Caption for new column value created after transformation [String]
+		ExcludeColumnFilter = "" -- Columns to be excluded from output table (can include wild-cards and be separated by commas) [String]
+		DefaultValue = "" -- Default value for cell if one does not exist [String]
+END ENTITYTRANS_CSV
+---[NTSCYES_CSV]---
+BEGIN NTSCYES_CSV
+	---Begin Main Query---
+	Using CSV with
+	SELECT
+		Entity as EntityName,
+		MC_StreamLinedRTSEnabled as [SC Enabled],
+		'NTSC' as [SC Type]
+	FROM
+		%{ENTITYTRANS_CSV}
+	WHERE
+		MC_StreamLinedRTSEnabled = 'Yes'
+END NTSCYES_CSV
+---[ENTITYTRANS2_CSV]---
+BEGIN ENTITYTRANS2_CSV
+	UseMethod TransformRowsToColumn with -- **Transforms multiple table rows into new name/value columns**
+		InputFile = "%{DOTNETENTITY_CSV}" -- Input CSV file containing table data [String]
+		ColumnNameForCaption = "NAME" -- Caption for new column type created after transformation [String]
+		ColumnNameForValue = "VALUE" -- Caption for new column value created after transformation [String]
+		ExcludeColumnFilter = "" -- Columns to be excluded from output table (can include wild-cards and be separated by commas) [String]
+		DefaultValue = "" -- Default value for cell if one does not exist [String]
+END ENTITYTRANS2_CSV
+---[SCNETYES_CSV]---
+BEGIN SCNETYES_CSV
+	---Begin Main Query---
+	Using CSV with
+	SELECT
+		Entity as EntityName,
+		'Yes' as [SC Enabled],
+		'SC.Net' as [SC Type]
+	FROM
+		%{ENTITYTRANS2_CSV}
+END SCNETYES_CSV
+---[MERGESC_CSV]---
+BEGIN MERGESC_CSV
+	UseMethod MergeTables with -- **Merge content of two tables by doing an outer join on the column schema (no join done here)**
+		InputFile1 = "%{NTSCYES_CSV}" -- Input CSV File #1 containing table data [String]
+		InputFile2 = "%{SCNETYES_CSV}" -- Input CSV File #2 containing table data [String]
+		AutoDetectColumnTypes = false -- Auto-detect column types before merging [Boolean]
+END MERGESC_CSV
+---[JOIN_CSV]---
+BEGIN JOIN_CSV
+	UseMethod Join with -- **Do an outer join for two tables based on a matching column**
+		InputFile1 = "%{MERGESC_CSV}" -- Input CSV File #1 containing table data [String]
+		InputFile2 = "%{TRANS_CSV}" -- Input CSV File #2 containing table data [String]
+		InputFile3 = "%{MES_CSV}" -- Input CSV File #3 containing table data (optional) [String]
+		JoinColumn = "EntityName" -- Column name(s) on which to join the two tables (more than one column can be supplied by using comma as a separator) [String]
+		IgnoreDuplicate = false -- Flag to ignore duplicate items in the JoinColumn [Boolean]
+		IgnoreCase = false -- Flag to ignore case in the JoinColumn [Boolean]
+		OnlyShowNonMatchingRows = false -- Flag to only show non-matching orphan rows [Boolean]
+		IncludeNonMatchingRows = true -- Flag to also include non-matching orphan rows (but with blank entries) [Boolean]
+		MustIncludeOutputColumns = "" -- Name of columns (comma-separated) that must be included in output even if the join does not materialize [String]
+		OrderBy = "" -- Name of column(s) to sort the resulting table by [String]
+END JOIN_CSV
+---[JOIN2_CSV]---
+BEGIN JOIN2_CSV
+	UseMethod Join with -- **Do an outer join for two tables based on a matching column**
+		InputFile1 = "%{TRANS_CSV}" -- Input CSV File #1 containing table data [String]
+		InputFile2 = "%{MERGESC_CSV}" -- Input CSV File #2 containing table data [String]
+		InputFile3 = "%{MES_CSV}" -- Input CSV File #3 containing table data (optional) [String]
+		JoinColumn = "EntityName" -- Column name(s) on which to join the two tables (more than one column can be supplied by using comma as a separator) [String]
+		IgnoreDuplicate = false -- Flag to ignore duplicate items in the JoinColumn [Boolean]
+		IgnoreCase = false -- Flag to ignore case in the JoinColumn [Boolean]
+		OnlyShowNonMatchingRows = false -- Flag to only show non-matching orphan rows [Boolean]
+		IncludeNonMatchingRows = true -- Flag to also include non-matching orphan rows (but with blank entries) [Boolean]
+		MustIncludeOutputColumns = "" -- Name of columns (comma-separated) that must be included in output even if the join does not materialize [String]
+		OrderBy = "" -- Name of column(s) to sort the resulting table by [String]
+END JOIN2_CSV
+---[MISSCRM_CSV]---
+BEGIN MISSCRM_CSV
+	---Begin Main Query---
+	Using CSV with
+	SELECT
+		EntityName,
+		'StreamLined RTS enabled on SC, but entity not in CRM table.' as Summary
+	FROM
+		%{JOIN_CSV}
+	WHERE
+		[Deployed] is NULL AND (EntityAvailability = 'Up')
+END MISSCRM_CSV
+---[MISSSC_CSV]---
+BEGIN MISSSC_CSV
+	---Begin Main Query---
+	Using CSV with
+	SELECT
+		EntityName,
+		'Entity configured in CRM table, but StreamLined RTS not enabled on SC.' as Summary
+	FROM
+		%{JOIN2_CSV}
+	WHERE
+		[SC Enabled] is NULL AND (EntityAvailability = 'Up')
+END MISSSC_CSV
+---Begin Main Query---
+UseMethod MergeTables with -- **Merge content of two tables by doing an outer join on the column schema (no join done here)**
+	InputFile1 = "%{MISSCRM_CSV}" -- Input CSV File #1 containing table data [String]
+	InputFile2 = "%{MISSSC_CSV}" -- Input CSV File #2 containing table data [String]
+	AutoDetectColumnTypes = false -- Auto-detect column types before merging [Boolean]
+
+]]></QuerySQL>
+</QueryConfig>

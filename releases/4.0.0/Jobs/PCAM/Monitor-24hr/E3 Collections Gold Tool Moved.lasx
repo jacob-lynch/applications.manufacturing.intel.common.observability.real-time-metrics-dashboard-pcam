@@ -1,0 +1,206 @@
+<QueryConfig AutoExecuteQueryOnLoad="false">
+  <ChangeLog>Changed by AMR\mfg_kjdejong on 10/5/2015 11:25:31 AM from RF3PAP216N3.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.8.50323.2106</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_kjdejong on 10/5/2015 9:25:29 AM from RF3PAP216N3.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.8.50323.2106</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 4/6/2015 1:52:41 PM from RF3PAP216N3.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.8.50323.2106</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 4/6/2015 1:46:35 PM from RF3PAP216N3.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.8.50323.2106</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 4/6/2015 1:45:22 PM from RF3PAP216N3.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.8.50323.2106</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 4/6/2015 1:45:18 PM from RF3PAP216N3.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.8.50323.2106</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 3/16/2015 1:28:03 PM from RF3PAP216N3.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.8.40713.1943</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 3/16/2015 9:50:05 AM from RF3PAP216N3.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.8.40713.1943</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 3/16/2015 9:49:54 AM from RF3PAP216N3.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.8.40713.1943</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 3/16/2015 9:49:47 AM from RF3PAP216N3.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.8.40713.1943</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_kjdejong on 3/12/2015 4:41:10 PM from RF2PAP216N3.RF2PROD.MFG.INTEL.COM using LogAnalyzer2 v2.8.40713.1943</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_kjdejong on 3/12/2015 4:40:58 PM from RF2PAP216N3.RF2PROD.MFG.INTEL.COM using LogAnalyzer2 v2.8.40713.1943</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_kjdejong on 3/12/2015 4:38:17 PM from RF2PAP216N3.RF2PROD.MFG.INTEL.COM using LogAnalyzer2 v2.8.40713.1943</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_kjdejong on 3/12/2015 4:36:32 PM from RF2PAP216N3.RF2PROD.MFG.INTEL.COM using LogAnalyzer2 v2.8.40713.1943</ChangeLog>
+  <ChangeLog>Changed by AMR\kjdejong on 2/12/2015 12:00:30 PM from KJDEJONG-MOBL2.AMR.CORP.INTEL.COM using LogAnalyzer2 v2.8.50114.1626</ChangeLog>
+  <ChangeLog>Changed by AMR\kjdejong on 2/12/2015 11:48:32 AM from KJDEJONG-MOBL2.AMR.CORP.INTEL.COM using LogAnalyzer2 v2.8.50114.1626</ChangeLog>
+  <ChangeLog>Changed by AMR\kjdejong on 2/12/2015 9:38:26 AM from KJDEJONG-MOBL2.AMR.CORP.INTEL.COM using LogAnalyzer2 v2.8.50114.1626</ChangeLog>
+  <ChangeLog>Changed by AMR\kjdejong on 2/12/2015 9:32:48 AM from KJDEJONG-MOBL2.AMR.CORP.INTEL.COM using LogAnalyzer2 v2.8.50114.1626</ChangeLog>
+  <ChangeLog>Changed by AMR\kjdejong on 2/12/2015 9:31:13 AM from KJDEJONG-MOBL2.AMR.CORP.INTEL.COM using LogAnalyzer2 v2.8.50114.1626</ChangeLog>
+  <ChangeLog>Changed by AMR\kjdejong on 2/12/2015 9:30:01 AM from KJDEJONG-MOBL2.AMR.CORP.INTEL.COM using LogAnalyzer2 v2.8.50114.1626</ChangeLog>
+  <ChangeLog>Changed by AMR\kjdejong on 2/12/2015 8:52:51 AM from KJDEJONG-MOBL2.AMR.CORP.INTEL.COM using LogAnalyzer2 v2.8.50114.1626</ChangeLog>
+  <ChangeLog>Changed by AMR\kjdejong on 2/11/2015 5:08:56 PM from KJDEJONG-MOBL2.AMR.CORP.INTEL.COM using LogAnalyzer2 v2.8.50114.1626</ChangeLog>
+  <ChangeLog>Changed by AMR\kjdejong on 2/11/2015 4:57:29 PM from KJDEJONG-MOBL2.AMR.CORP.INTEL.COM using LogAnalyzer2 v2.8.50114.1626</ChangeLog>
+  <ChangeLog>Changed by AMR\kjdejong on 1/29/2015 11:23:43 AM from KJDEJONG-MOBL2.AMR.CORP.INTEL.COM using LogAnalyzer2 v2.8.50114.1626</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 2/12/2014 3:14:54 PM from RF3PTS216.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.7.40211.2333</ChangeLog>
+  <UNIQECredentials UserId="uber" Site="rf3sap110-alias.rf3stg.mfgint.intel.com" DataSource="D1D_STAG_LogAnalyzer" SaveCredentials="true" UseUNIQECredentialsOnStartUp="false" QueryTimeOutInSeconds="-1">
+    <Password />
+    <Name />
+  </UNIQECredentials>
+  <QueryAttributes>
+    <RowThresholdForPivotGrid>1000000</RowThresholdForPivotGrid>
+  </QueryAttributes>
+  <PostQuerySQL>select * from %{OUTPUT}</PostQuerySQL>
+  <TableLayoutConfig>
+    <BoundColumnList>COLLECTION_NAME,MODIFIED_BY,MODIFIED_TIME,GOLDEN_EQUIPMENT</BoundColumnList>
+  </TableLayoutConfig>
+  <CellHighlightingRules Enable="true" ColumnName="UVA Collection Name" FilterRegex="" CellColorString="NamedColor:LightCyan" />
+  <TabOrder>C0</TabOrder>
+  <MainPivotConfig>
+    <ColumnX FieldName="" FieldType="" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <ColumnY FieldName="" FieldType="" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <ColumnData FieldName="" FieldType="" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <CustomPalette />
+    <TableData />
+  </MainPivotConfig>
+  <AutoPivotConfig OutputDateFormat="yyyy ww.w HH:mm" StatisticalFunctionsForColumn="Avg, 50, 90,96, Count" />
+  <MailConfig>
+    <PostProcessingSQL Enable="false" />
+    <EmailCondition Enable="true" Operator="&gt;" ThresholdRowCount="0">
+      <SQLQuery />
+      <RunScriptBeforeEmailing>false</RunScriptBeforeEmailing>
+      <Script />
+    </EmailCondition>
+    <PostProcessingCondition Enable="false" Operator="&gt;" ThresholdRowCount="0">
+      <SQLQuery />
+      <RunScriptBeforeEmailing>false</RunScriptBeforeEmailing>
+    </PostProcessingCondition>
+    <CopyCondition Enable="false" Operator="&gt;" ThresholdRowCount="0">
+      <SQLQuery />
+      <RunScriptBeforeEmailing>false</RunScriptBeforeEmailing>
+    </CopyCondition>
+    <SMTPServer>smtp.intel.com</SMTPServer>
+    <From>LogAnalyzer2@intel.com</From>
+    <ReplyTo>@{DASHBOARD_OWNER_ALERT_DIST}</ReplyTo>
+    <To>@{E3_MONITOR_EMAIL}</To>
+    <Subject>[${DOMAIN}] E3 Collections Gold Tool Moved</Subject>
+    <Body>&lt;b&gt;&lt;font color="red"&gt;Action Required - E3 Collections Gold Tool Moved&lt;/font&gt;&lt;/b&gt;
+&lt;br&gt;
+&lt;br&gt;
+The E3 Gold tool for the collections listed has moved to another process type.  Please follow link below for next steps.
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;Additional details can be found &lt;a href="http://autowiki.intel.com/index.php?title=AIT_Monitor_pages_and_response#E3_Collections_Gold_Tool_Moved"&gt;here&lt;/a&gt;.&lt;/b&gt;
+&lt;br&gt;
+&lt;br&gt;</Body>
+    <OnlyProcessIfOutputChangedFromPreviousRun>false</OnlyProcessIfOutputChangedFromPreviousRun>
+    <MailAttachments FileNamingFormat="${SETTINGS}_yyyyMMdd_HHmm" Excel="false" CSV="false" LAS="false" LAD="false" Exceptions="false" StatusLogs="false" PivotChart="false" ZipAttachments="false" DoNotSendAttachmentsWithEmail="false" IncludeJobStatisticsHeader="false" IncludeQuerySettingsFileHeader="false" IncludeVariableDefinitionHeader="false" />
+    <IncludeSQLQueryInBody>false</IncludeSQLQueryInBody>
+    <TableInBody Enable="true">
+      <SQL />
+    </TableInBody>
+    <TableLocation>Bottom</TableLocation>
+    <CopyOutputToDirectory>false</CopyOutputToDirectory>
+    <OutputDirectory />
+    <IncludeAutoPivotSummary>false</IncludeAutoPivotSummary>
+    <IgnoreExceptions>false</IgnoreExceptions>
+    <OnlyCopyOutputIfEmailConditionIsMet>false</OnlyCopyOutputIfEmailConditionIsMet>
+    <PivotConfigs Enable="true" PivotColumn="Gold Tool">
+      <SortyByColumn>Pivot</SortyByColumn>
+      <SortOrderDescending>false</SortOrderDescending>
+    </PivotConfigs>
+  </MailConfig>
+  <TableSchema><xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+  <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="Results" msdata:UseCurrentLocale="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Results">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="UVA_x0020_Collection_x0020_Name" type="xs:string" minOccurs="0" />
+              <xs:element name="Modified_x0020_By" type="xs:string" minOccurs="0" />
+              <xs:element name="UVA_x0020_Process_x0020_Type" type="xs:string" minOccurs="0" />
+              <xs:element name="Gold_x0020_Tool" type="xs:string" minOccurs="0" />
+              <xs:element name="ToolProcessType" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
+</TableSchema>
+  <TableData />
+  <LastRunAbsoluteDateFilter />
+  <PivotGroupingSettings PivotColumn="">
+    <SortyByColumn>Count</SortyByColumn>
+  </PivotGroupingSettings>
+  <QuerySQL><![CDATA[
+--[FileName:"D:\Dashboard\Jobs\PCAM\Monitor-24hr\E3 Collections Gold Tool Moved.lasx"]------
+----------<VARIABLES>------------
+var SITE_INTERNAL = ""
+var DATA_SOURCE_INTERNAL = "@{LOCALE3DATASOURCE}"
+var AUTH_MODE_INTERNAL = "UNP"
+var USERID_INTERNAL = "@{USERID_NON_MFG}"
+var COLLECTION_FILTER = "@{E3_GOLDTOOL_MOVED_INCLUDE}"
+var COLLECTION_FILTER_README = "Enter E3 Collection Names you wish to query. To query more than one collection input a comma separated list. * can be used as a multi-character wildcard, ? is a single character wildcard."
+---[GOLDLIST_CSV]---
+BEGIN GOLDLIST_CSV
+	---Begin Main Query---
+	Using UNIQE with
+		DataSource = "${DATA_SOURCE_INTERNAL}"
+		Authentication = "${AUTH_MODE_INTERNAL}"
+		UserId = "${USERID_INTERNAL}"
+		Site = "${SITE_INTERNAL}"
+	SELECT DISTINCT
+	  c.NAME,
+	  c.version,
+	  c.MODIFIED_BY,
+	  c.AUTO_RUN,
+	  c.golden_equipment AS ToolID,
+	  pt.NAME            AS process_type,
+	  pt.id              AS PTID
+	FROM
+	  e3suite.ees_fd_collection c
+	  INNER JOIN e3suite.EES_PROCESS_TYPE pt
+		ON pt.ID = c.process_type_id
+	WHERE
+	  AUTO_RUN LIKE '1' 
+END GOLDLIST_CSV
+---[ENTITYLIST_CSV]---
+BEGIN ENTITYLIST_CSV
+	---Begin Main Query---
+	Using UNIQE with
+		DataSource = "${DATA_SOURCE_INTERNAL}"
+		Authentication = "${AUTH_MODE_INTERNAL}"
+		UserId = "${USERID_INTERNAL}"
+		Site = "${SITE_INTERNAL}"
+	SELECT DISTINCT
+	  tool.ID           AS "ToolID",
+	  tool.NAME         AS "ToolName",
+	  tool.EQUIP_TEMPL_CHMBR_ID,
+	  etcd.PROC_TYPE_ID AS "ToolPTID",
+	  pt.NAME           AS "ToolProcessType"
+	FROM
+	  e3suite.EES_TOOL tool
+	  INNER JOIN e3suite.EES_EQUIP_TEMPL_CHAMBER_DEF etcd
+		ON etcd.ID = EQUIP_TEMPL_CHMBR_ID
+	  INNER JOIN e3suite.EES_PROCESS_TYPE pt
+		ON pt.ID = etcd.PROC_TYPE_ID 
+END ENTITYLIST_CSV
+---[JOIN_CSV]---
+BEGIN JOIN_CSV
+	UseMethod Join with -- **Do an outer join for two tables based on a matching column**
+		InputFile1 = "%{goldlist_csv}" -- Input CSV File #1 containing table data [String]
+		InputFile2 = "%{entitylist_csv}" -- Input CSV File #2 containing table data [String]
+		JoinColumn = "ToolID" -- Column name(s) on which to join the two tables (more than one column can be supplied by using comma as a separator) [String]
+		IgnoreDuplicate = true -- Flag to ignore duplicate items in the JoinColumn [Boolean]
+		IgnoreCase = true -- Flag to ignore case in the JoinColumn [Boolean]
+		OnlyShowNonMatchingRows = false -- Flag to only show non-matching orphan rows [Boolean]
+		IncludeNonMatchingRows = true -- Flag to also include non-matching orphan rows (but with blank entries) [Boolean]
+		MustIncludeOutputColumns = "" -- Name of columns (comma-separated) that must be included in output even if the join does not materialize [String]
+END JOIN_CSV
+---Begin Main Query---
+Using CSV with
+SELECT
+	NAME as [UVA Collection Name],
+	MODIFIED_BY as [Modified By],
+	Process_Type as [UVA Process Type],
+	[Gold Tool],
+	ToolProcessType
+USING
+	extract_token(ToolName,0,'_') as Tool,
+	CASE ToolName WHEN NULL THEN 'Deleted' ELSE Tool end As [Gold Tool]
+FROM
+	%{join_csv}
+WHERE
+	IsInList([UVA Collection Name], '${COLLECTION_FILTER}')
+	AND NOT ToolID = '0'
+	AND NOT PTID = ToolPTID
+ORDER BY
+	[UVA Process Type], [UVA Collection Name]
+
+
+]]></QuerySQL>
+</QueryConfig>

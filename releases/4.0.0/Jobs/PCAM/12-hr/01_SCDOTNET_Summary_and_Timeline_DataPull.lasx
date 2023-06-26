@@ -1,0 +1,533 @@
+<QueryConfig AutoExecuteQueryOnLoad="false" PreventSQLBeautification="false">
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 10/25/2017 4:42:08 PM from RF3PVAP416N19.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.9.70713.2318</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 1/26/2017 4:09:36 PM from RF3PVAP416N19.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.9.60808.1615</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 1/25/2017 2:25:50 PM from RF3PVAP416N19.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.9.60808.1615</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 1/25/2017 2:24:43 PM from RF3PVAP416N19.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.9.60808.1615</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_tcalford on 11/5/2015 7:01:20 PM from F32PAP216N3.F32PROD.MFG.INTEL.COM using LogAnalyzer2 v2.8.40713.1943</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_tcalford on 11/5/2015 7:01:09 PM from F32PAP216N3.F32PROD.MFG.INTEL.COM using LogAnalyzer2 v2.8.40713.1943</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_tcalford on 11/5/2015 7:01:02 PM from F32PAP216N3.F32PROD.MFG.INTEL.COM using LogAnalyzer2 v2.8.40713.1943</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_tcalford on 11/5/2015 4:39:45 PM from F32PAP216N3.F32PROD.MFG.INTEL.COM using LogAnalyzer2 v2.8.40713.1943</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_tcalford on 11/5/2015 4:33:47 PM from F32PAP216N3.F32PROD.MFG.INTEL.COM using LogAnalyzer2 v2.8.40713.1943</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_tcalford on 3/10/2015 8:07:04 PM from F32PTS215.F32PROD.MFG.INTEL.COM using LogAnalyzer2 v2.8.40713.1943</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_tcalford on 2/10/2015 12:28:35 PM from F32PAP216N3.F32PROD.MFG.INTEL.COM using LogAnalyzer2 v2.8.40713.1943</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_tcalford on 1/29/2015 4:04:31 PM from F32PAP216N3.F32PROD.MFG.INTEL.COM using LogAnalyzer2 v2.8.40713.1943</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 8/22/2014 1:44:48 PM from RF3PTS216.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.8.40806.2215</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 8/22/2014 1:43:44 PM from RF3PTS216.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.8.40806.2215</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 8/22/2014 1:43:34 PM from RF3PTS216.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.8.40806.2215</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 8/22/2014 1:43:01 PM from RF3PTS216.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.8.40806.2215</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 8/1/2014 1:08:48 PM from RF3PTS216.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.8.40723.2330</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 8/1/2014 12:40:00 PM from RF3PTS216.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.8.40723.2330</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 8/1/2014 11:10:00 AM from RF3PTS216.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.8.40723.2330</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 8/1/2014 10:59:28 AM from RF3PTS216.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.8.40723.2330</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 8/1/2014 10:40:32 AM from RF3PTS216.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.8.40723.2330</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 7/31/2014 12:45:57 PM from RF3PTS216.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.8.40723.2330</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 7/31/2014 12:43:16 PM from RF3PTS216.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.8.40723.2330</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 7/31/2014 12:41:47 PM from RF3PTS216.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.8.40723.2330</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 2/18/2014 3:47:54 PM from RF3PTS216.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.7.40213.2340</ChangeLog>
+  <UNIQECredentials UserId="uber" Site="rf3sap110-alias.rf3stg.mfgint.intel.com" DataSource="D1D_STAG_LogAnalyzer" SaveCredentials="true" UseUNIQECredentialsOnStartUp="false" QueryTimeOutInSeconds="-1">
+    <Password />
+    <Name />
+  </UNIQECredentials>
+  <QueryAttributes>
+    <MaxNumberOfThreads>25</MaxNumberOfThreads>
+    <SuppressAllExceptions>true</SuppressAllExceptions>
+    <AlwaysReplaceDomainWithLocal>false</AlwaysReplaceDomainWithLocal>
+  </QueryAttributes>
+  <PostQuerySQL>select * from %{OUTPUT}</PostQuerySQL>
+  <TableLayoutConfig>
+    <BoundColumnList>MachineControllerGroup,NodeName,FunctionalArea,UpgradeWhenIdle,ProfiledFramework,ActiveFramework,FrameworkSync,ProfiledMachineController,ActiveMachineController,MachineControllerSync,ActivationReadyFlag,FrameworkActivationTime,FrameworkInstallTime</BoundColumnList>
+  </TableLayoutConfig>
+  <RowHighlightingRules Enable="true" ColumnName="FrameworkSync" FilterRegex="False" RowColorString="NamedColor:Gold" />
+  <RowHighlightingRules Enable="true" ColumnName="MachineControllerSync" FilterRegex="False" RowColorString="NamedColor:Crimson" />
+  <TabOrder>C0</TabOrder>
+  <MainPivotConfig>
+    <ColumnX FieldName="" FieldType="" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <ColumnY FieldName="" FieldType="" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <ColumnData FieldName="" FieldType="" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <ChartType>SideBySideStackedBar</ChartType>
+    <RotateXAxisLabels>false</RotateXAxisLabels>
+    <Name>NTSC FW Distribution</Name>
+    <ChartTitle>NTSC FW Distribution</ChartTitle>
+    <ColorPalette>Median</ColorPalette>
+    <ChartExportSize>550x300</ChartExportSize>
+    <ShowLegend>false</ShowLegend>
+    <CustomPalette />
+    <TableData />
+  </MainPivotConfig>
+  <AutoPivotConfig OutputDateFormat="yyyy ww.w HH:mm" StatisticalFunctionsForColumn="Avg, 50, 90,96, Count" />
+  <MailConfig>
+    <PostProcessingSQL Enable="false" />
+    <EmailCondition Enable="false" Operator="&lt;" ThresholdRowCount="0">
+      <SQLQuery />
+      <RunScriptBeforeEmailing>false</RunScriptBeforeEmailing>
+      <Script />
+    </EmailCondition>
+    <PostProcessingCondition Enable="false" Operator="&gt;" ThresholdRowCount="0">
+      <SQLQuery />
+      <RunScriptBeforeEmailing>false</RunScriptBeforeEmailing>
+    </PostProcessingCondition>
+    <CopyCondition Enable="false" Operator="&gt;" ThresholdRowCount="0">
+      <SQLQuery />
+      <RunScriptBeforeEmailing>false</RunScriptBeforeEmailing>
+    </CopyCondition>
+    <SMTPServer>smtp.intel.com</SMTPServer>
+    <From>LogAnalyzer2@DONOTREPLY.COM</From>
+    <ReplyTo>@{DASHBOARD_OWNER_ALERT_DIST}</ReplyTo>
+    <To />
+    <Subject>[${DOMAIN}] Registry Query</Subject>
+    <Body />
+    <MailAttachments FileNamingFormat="${SETTINGS}" Excel="false" LAS="false" LAD="false" Exceptions="false" StatusLogs="false" PivotChart="false" ZipAttachments="false" DoNotSendAttachmentsWithEmail="false" IncludeJobStatisticsHeader="false" IncludeQuerySettingsFileHeader="false" IncludeVariableDefinitionHeader="false" IncludeRowCountInSubject="false" />
+    <IncludeSQLQueryInBody>false</IncludeSQLQueryInBody>
+    <TableInBody Enable="false">
+      <SQL />
+    </TableInBody>
+    <CopyOutputToDirectory>true</CopyOutputToDirectory>
+    <OutputDirectory>@{DASHBOARD_PERSIST_DATA}\PCAM\Output</OutputDirectory>
+    <IncludeAutoPivotSummary>false</IncludeAutoPivotSummary>
+    <IncludeCustomPivotSummary>false</IncludeCustomPivotSummary>
+    <IgnoreExceptions>false</IgnoreExceptions>
+    <OnlyCopyOutputIfEmailConditionIsMet>false</OnlyCopyOutputIfEmailConditionIsMet>
+    <PivotConfigs Enable="true" PivotColumn="Version">
+      <SortyByColumn>Count</SortyByColumn>
+    </PivotConfigs>
+    <PivotConfigs Enable="true" PivotColumn="LastWriteTime" PivotColumnType="DateTime">
+      <SortyByColumn>Pivot</SortyByColumn>
+      <PivotColumnOutputDateFormat>yyyy ww</PivotColumnOutputDateFormat>
+    </PivotConfigs>
+  </MailConfig>
+  <TableSchema><xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+  <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="Results" msdata:UseCurrentLocale="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Results">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="NodeName" type="xs:string" minOccurs="0" />
+              <xs:element name="Entity" type="xs:string" minOccurs="0" />
+              <xs:element name="FunctionalArea" type="xs:string" minOccurs="0" />
+              <xs:element name="Process" type="xs:string" minOccurs="0" />
+              <xs:element name="GoldTool" type="xs:string" minOccurs="0" />
+              <xs:element name="EquipType" type="xs:string" minOccurs="0" />
+              <xs:element name="ToolType" type="xs:string" minOccurs="0" />
+              <xs:element name="FunctionalSubArea" type="xs:string" minOccurs="0" />
+              <xs:element name="UpgradeWhenIdle" type="xs:string" minOccurs="0" />
+              <xs:element name="ProfiledFramework" type="xs:string" minOccurs="0" />
+              <xs:element name="ActiveFramework" type="xs:string" minOccurs="0" />
+              <xs:element name="FrameworkSync" type="xs:string" minOccurs="0" />
+              <xs:element name="ProfiledMachineController" type="xs:string" minOccurs="0" />
+              <xs:element name="ActiveMachineController" type="xs:string" minOccurs="0" />
+              <xs:element name="MachineControllerSync" type="xs:string" minOccurs="0" />
+              <xs:element name="ActivationReadyFlag" type="xs:string" minOccurs="0" />
+              <xs:element name="MCActivationTime" type="xs:string" minOccurs="0" />
+              <xs:element name="FrameworkActivationTime" type="xs:string" minOccurs="0" />
+              <xs:element name="FrameworkInstallTime" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="DOTNET" type="xs:string" minOccurs="0" />
+              <xs:element name="OS" type="xs:string" minOccurs="0" />
+              <xs:element name="WCReboot" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
+</TableSchema>
+  <TableData />
+  <LastRunAbsoluteDateFilter>All</LastRunAbsoluteDateFilter>
+  <PivotGroupingSettings PivotColumn="">
+    <SortyByColumn>Count</SortyByColumn>
+  </PivotGroupingSettings>
+  <QuerySQL><![CDATA[
+--[FileName:"D:\Dashboard\Jobs\PCAM\12-hr\01_SCDOTNET_Summary_and_Timeline_DataPull.lasx"]------
+----------<VARIABLES>------------
+var FILEFILTER = "\\%{NODELIST}\HKLM\SOFTWARE\Intel\FabAuto\CPP\Information"
+var FILEFILTER2 = "\\%{NODELIST}\{ACTIVEMCPATH}\Config\Merged_SCParamConfig.xml"
+var FILEFILTER3 = "@{DASHBOARD_PERSIST_DATA}\PCAM\Output\01_SCDOTNET_Capability_Summary_DataPull.csv"
+var NODELIST_FILE = ""
+var NODELIST_EXCLUDE = "@{WINCLIENT_EXCLUDE_LIST}"
+var KEYNAME_INTERNAL = "*"
+var KEYVALUE_INTERNAL = "FunctionalArea"
+var KEYDATA_INTERNAL = "*"
+var NODEFILTER = "@{WINCLIENT_NODE_LIST}"
+var DOMAIN = "RF3PROD,RF2PROD"
+var TIMEFILTER = "All"
+var RECURSIVE_SEARCH = "-1"
+var IOR_FW_INTERNAL = "\\%{NODELIST}\HKLM\SOFTWARE\Intel\FabAuto\SC.Net\Frameworks"
+var IOR_MC_INTERNAL = "\\%{NODELIST}\HKLM\SOFTWARE\Intel\FabAuto\SC.Net\MachineControllers"
+var POR_FW_INTERNAL = "\\%{NODELIST}\HKLM\SOFTWARE\Intel\FabAuto\CPP\Information\PCAM\SC.NET\FW"
+var POR_MC_INTERNAL = "\\%{NODELIST}\HKLM\SOFTWARE\Intel\FabAuto\CPP\Information\PCAM\SC.NET\MC"
+var ACTIVATION_KEY_INTERNAL = "\\%{NODELIST}\HKLM\SOFTWARE\Intel\FabAuto\CPP\Information\PCAM\SC.NET"
+var MERGEDFILE_INTERNAL = "\\%{NODELIST}\{ACTIVEFWPATH}\cache\CentralConfig\NTSCCfgMerged.xml"
+var REGSOURCE_INTERNAL = "\\%{NODELIST}\HKLM\SOFTWARE\Intel\FabAuto\SC.Net\MachineControllers"
+var PARAMETER_FILTER_INTERNAL = "LIA_UpgradeWhenIdle"
+var DATEREGPATH_INTERNAL = "\\%{NODELIST}\HKLM\SOFTWARE\Intel\FabAuto\CPP\History\PCAM\SC.NET"
+var DATEREGPATH2_INTERNAL = "\\%{NODELIST}\HKLM\SOFTWARE\Intel\FabAuto\CPP\History\PCAM\SC.NET\FW"
+var DOTNETSERVICE_INTERNAL = "\\%{NODELIST}\HKLM\System\CurrentControlSet\Services\"
+var ACTIVE_KEY_INTERNAL = "Active Package, active package"
+var WMIFILTER = "\\%{NODELIST}\Win32_service"
+var CUSTOM_REGPATH3 = "\\%{NODELIST}\HKLM\SOFTWARE\Intel\FabAuto\CPP\Information\PCAM\NTSC"
+var CUSTOM_REGKEY3 = "GoldTool"
+var SCNET_INTERNAL = "\\%{NODELIST}\HKLM\SOFTWARE\Intel\FabAuto\CPP\Information\PCAM\SC.NET"
+var OSFILEFILTER = "\\%{NODELIST}\HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion"
+---[NODELIST]---
+[ThreadQuery(1)] --** Invoke a separate thread for every 1 output row(s) of the {NODELIST} query
+BEGIN NODELIST
+	UseMethod GetNodeList with -- **Get the list of nodes matching specified domain and filter**
+		Domain = "${DOMAIN}" -- Domain to search for nodes in (can be comma-separated-list) [String]
+		NodeFilter = "${NODEFILTER}" -- Pattern to look for nodes (comma-separated-list) [String]
+		ExcludeFilter = "${NODELIST_EXCLUDE}" -- Pattern to exclude from the list of nodes (comma-separated-list) [String]
+		OnlyIncludePingableNodes = true -- Only include nodes that can be pinged [Boolean]
+END NODELIST
+---[DOTNETPROCESS]---
+BEGIN DOTNETPROCESS
+	---Begin Main Query---
+	Using WMI with
+		TimeOutInSeconds = 300 -- Query time-out value in seconds
+	SELECT
+		ComputerName,
+		Started as Service
+	FROM
+		${WMIFILTER}
+	WHERE
+		Caption like 'SCHostWindowsService'
+	ORDER BY
+		ComputerName
+END DOTNETPROCESS
+---[PROCESS_REG]---
+BEGIN PROCESS_REG
+	---Begin Main Query---
+	Using REG with
+		recurse = 0 -- Recurse level for subkeys
+	SELECT
+		computername as NodeName,
+		valuename,
+		value
+	FROM
+		'${FILEFILTER}'
+	WHERE
+		(ValueName = 'Process')
+END PROCESS_REG
+---[CUSTOM3_REG]---
+BEGIN CUSTOM3_REG
+	---Begin Main Query---
+	Using REG with
+		recurse = 0 -- Recurse level for subkeys
+	SELECT
+		computername as NodeName,
+		valuename,
+		value
+	FROM
+		'${CUSTOM_REGPATH3}'
+	WHERE
+		IsInList(valuename, '${CUSTOM_REGKEY3}')
+END CUSTOM3_REG
+---[WCREBOOT_REG]---
+BEGIN WCREBOOT_REG
+	---Begin Main Query---
+	Using REG with
+		recurse = 0 -- Recurse level for subkeys
+	SELECT
+		computername as NodeName,
+		valuename,
+		value
+	FROM
+		'${SCNET_INTERNAL}'
+	WHERE
+		valuename = 'ActivationResult'
+END WCREBOOT_REG
+---[ACTIVEMCPATH]---
+BEGIN ACTIVEMCPATH
+	---Begin Main Query---
+	Using REG with
+	SELECT
+		strcat('\\', Replace_str('${FILEFILTER2}', '{ACTIVEMCPATH}', Replace_str(Value, ':', '$'))) as Path
+	FROM
+		${REGSOURCE_INTERNAL}
+	WHERE
+		Valuename = 'Package Root'
+		AND	(KeyName IN (
+	SELECT
+		Value
+	FROM
+		${REGSOURCE_INTERNAL}
+	WHERE
+		(IsInList(ValueName, '${ACTIVE_KEY_INTERNAL}')
+		)))
+END ACTIVEMCPATH
+---[IOR_FW]---
+BEGIN IOR_FW
+	---Begin Main Query---
+	Using REG with
+		recurse = 0 -- Recurse level for subkeys
+	SELECT
+		computername as NodeName,
+		valuename,
+		value
+	FROM
+		${IOR_FW_INTERNAL}
+	WHERE
+		(IsInList(ValueName, '${ACTIVE_KEY_INTERNAL}'))
+END IOR_FW
+---[POR_FW]---
+BEGIN POR_FW
+	---Begin Main Query---
+	Using REG with
+		recurse = 0 -- Recurse level for subkeys
+	SELECT
+		computername as NodeName,
+		valuename,
+		value
+	FROM
+		'${POR_FW_INTERNAL}'
+	WHERE
+		(ValueName = 'ProductName')
+END POR_FW
+---[POR_MC]---
+BEGIN POR_MC
+	---Begin Main Query---
+	Using REG with
+		recurse = 0 -- Recurse level for subkeys
+	SELECT
+		computername as NodeName,
+		valuename,
+		value
+	FROM
+		'${POR_MC_INTERNAL}'
+	WHERE
+		(ValueName = 'ProductName')
+END POR_MC
+---[IOR_MC]---
+BEGIN IOR_MC
+	---Begin Main Query---
+	Using REG with
+		recurse = 0 -- Recurse level for subkeys
+	SELECT
+		computername as NodeName,
+		valuename,
+		value
+	FROM
+		'${IOR_MC_INTERNAL}'
+	WHERE
+		IsInList(ValueName, '${ACTIVE_KEY_INTERNAL}')
+END IOR_MC
+---[ACTIVATION_READY]---
+BEGIN ACTIVATION_READY
+	---Begin Main Query---
+	Using REG with
+		recurse = 0 -- Recurse level for subkeys
+	SELECT
+		computername as NodeName,
+		valuename,
+		value
+	FROM
+		'${ACTIVATION_KEY_INTERNAL}'
+	WHERE
+		(ValueName = 'ActivationReady')
+END ACTIVATION_READY
+---[CUSTOM_REG]---
+BEGIN CUSTOM_REG
+	---Begin Main Query---
+	Using REG with
+		recurse = 0 -- Recurse level for subkeys
+	SELECT
+		computername as NodeName,
+		valuename,
+		value,
+		ActiveFramework
+	USING
+		'%{IOR_FW}.[value]' as FrameworkTemp,
+		strcat('Activated - ', FrameworkTemp) As ActiveFramework
+	FROM
+		'${DATEREGPATH_INTERNAL}'
+	WHERE
+		valuename = ActiveFramework
+END CUSTOM_REG
+---[CUSTOM2_REG]---
+BEGIN CUSTOM2_REG
+	---Begin Main Query---
+	Using REG with
+		recurse = 0 -- Recurse level for subkeys
+	SELECT
+		computername as NodeName,
+		valuename,
+		value,
+		ActiveMachineController
+	USING
+		'%{IOR_MC}.[value]' as MachineControllerTemp,
+		strcat('Activated - ', MachineControllerTemp) As ActiveMachineController
+	FROM
+		'${DATEREGPATH_INTERNAL}'
+	WHERE
+		valuename = ActiveMachineController
+END CUSTOM2_REG
+---[INSTALLDATE_REG]---
+BEGIN INSTALLDATE_REG
+	---Begin Main Query---
+	Using REG with
+		recurse = 0 -- Recurse level for subkeys
+	SELECT
+		computername as NodeName,
+		valuename,
+		value,
+		ProfiledFramework
+	USING
+		'%{POR_FW}.[value]' as ProfiledFrameworkTemp,
+		strcat('Installed - ', ProfiledFrameworkTemp) As ProfiledFramework
+	FROM
+		'${DATEREGPATH2_INTERNAL}'
+	WHERE
+		valuename = ProfiledFramework
+END INSTALLDATE_REG
+---[ET]---
+BEGIN ET
+	---Begin Main Query---
+	Using REG with
+		recurse = 0 -- Recurse level for subkeys
+	SELECT
+		computername as NodeName,
+		valuename,
+		value
+	FROM
+		'${FILEFILTER}'
+	WHERE
+		(ValueName = 'EquipType')
+END ET
+---[FAS]---
+BEGIN FAS
+	---Begin Main Query---
+	Using REG with
+		recurse = 0 -- Recurse level for subkeys
+	SELECT
+		computername as NodeName,
+		valuename,
+		value
+	FROM
+		'${FILEFILTER}'
+	WHERE
+		(ValueName = 'FunctionalSubArea')
+END FAS
+---[ENTITY]---
+BEGIN ENTITY
+	---Begin Main Query---
+	Using REG with
+		recurse = 0 -- Recurse level for subkeys
+	SELECT
+		computername as NodeName,
+		valuename,
+		value
+	FROM
+		'${FILEFILTER}'
+	WHERE
+		(ValueName = 'EntityName')
+END ENTITY
+---[OS]---
+BEGIN OS
+	---Begin Main Query---
+	Using REG with
+		recurse = 0 -- Recurse level for subkeys
+	SELECT
+		computername as NodeName,
+		valuename,
+		value
+	FROM
+		'${OSFILEFILTER}'
+	WHERE
+		(ValueName = 'ProductName')
+END OS
+---[LIA_CSV]---
+BEGIN LIA_CSV
+	---Begin Main Query---
+	Using CSV with
+	SELECT
+		NodeName,
+		Name,
+		Value as UpgradeWhenIdle
+	FROM
+		${FILEFILTER3}
+	WHERE
+		(NAME = 'LIA_UpgradeWhenIdle')
+END LIA_CSV
+---[MAIN_CSV]---
+BEGIN MAIN_CSV
+	---Begin Main Query---
+	Using REG with
+		recurse = "${RECURSIVE_SEARCH}" -- Recurse level for subkeys
+	SELECT
+		computername as NodeName,
+		'%{Entity}.[value]' as Entity,
+		value as FunctionalArea,
+		'%{Process_REG}.[value]' as Process,
+		'%{CUSTOM3_REG}.[value]' as GoldTool,
+		'%{ET}.[value]' as EquipType,
+		'%{FAS}.[value]' as FunctionalSubArea,
+		'%{POR_FW}.[value]' as ProfiledFramework,
+		ActiveFramework,
+		FrameworkSync,
+		'%{POR_MC}.[value]' as ProfiledMachineController,
+		ActiveMachineController,
+		MachineControllerSync,
+		'%{ACTIVATION_READY}.[value]' as ActivationReadyFlag,
+		'%{CUSTOM2_REG}.[value]' as MCActivationTime,
+		'%{CUSTOM_REG}.[value]' as FrameworkActivationTime,
+		'%{INSTALLDATE_REG}.[value]' as FrameworkInstallTime,
+		'%{DOTNETPROCESS}.[Service]' as DOTNET,
+		'%{OS}.[value]' as OS,
+		'%{WCREBOOT_REG}.[value]' as WCReboot
+	USING
+		'%{IOR_FW}.[value]' as ActiveFramework,
+		'%{ACTIVEMCPATH}.[value]' as MCTemp,
+		extract_token(MCTemp,6,'\\') As ActiveMachineController,
+		case index_of(to_uppercase('%{IOR_FW}.[value]'), to_uppercase('%{POR_FW}.[value]')) when NULL then 'False' else 'True' end As FrameworkSync,
+		case index_of(to_uppercase('%{ACTIVEMCPATH}.[value]'), to_uppercase('%{POR_MC}.[value]')) when NULL then 'False' else 'True' end As MachineControllerSync
+	FROM
+		'${FILEFILTER}'
+	WHERE
+		IsInList(valuename, '${KEYVALUE_INTERNAL}')
+		AND IsInList(value, '${KEYDATA_INTERNAL}')
+		AND DOTNET like 'True'
+	ORDER BY
+		NodeName
+END MAIN_CSV
+---[JOIN_CSV]---
+BEGIN JOIN_CSV
+	UseMethod Join with -- **Do an outer join for two tables based on a matching column**
+		InputFile1 = "%{MAIN_CSV}" -- Input CSV File #1 containing table data [String]
+		InputFile2 = "%{LIA_CSV}" -- Input CSV File #2 containing table data [String]
+		JoinColumn = "NodeName" -- Column name(s) on which to join the two tables (more than one column can be supplied by using comma as a separator) [String]
+		IgnoreDuplicate = false -- Flag to ignore duplicate items in the JoinColumn [Boolean]
+		IgnoreCase = false -- Flag to ignore case in the JoinColumn [Boolean]
+		OnlyShowNonMatchingRows = false -- Flag to only show non-matching orphan rows [Boolean]
+		IncludeNonMatchingRows = false -- Flag to also include non-matching orphan rows (but with blank entries) [Boolean]
+		MustIncludeOutputColumns = "" -- Name of columns (comma-separated) that must be included in output even if the join does not materialize [String]
+		OrderBy = "" -- Name of column(s) to sort the resulting table by [String]
+END JOIN_CSV
+---Begin Main Query---
+Using CSV with
+SELECT
+	NodeName,
+	Entity,
+	FunctionalArea,
+	Process,
+	GoldTool,
+	EquipType,
+	EquipType as ToolType,
+	FunctionalSubArea,
+	UpgradeWhenIdle,
+	ProfiledFramework,
+	ActiveFramework,
+	FrameworkSync,
+	ProfiledMachineController,
+	ActiveMachineController,
+	MachineControllerSync,
+	ActivationReadyFlag,
+	MCActivationTime,
+	FrameworkActivationTime,
+	FrameworkInstallTime,
+	DOTNET,
+	OS,
+	WCReboot
+FROM
+	%{JOIN_CSV}
+
+]]></QuerySQL>
+</QueryConfig>

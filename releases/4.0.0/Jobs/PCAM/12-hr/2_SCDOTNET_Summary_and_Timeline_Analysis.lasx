@@ -1,0 +1,757 @@
+<QueryConfig AutoExecuteQueryOnLoad="false" PreventSQLBeautification="false">
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 9/26/2017 8:25:21 AM from RF3PVAP416N19.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.9.70713.2318</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 9/26/2017 7:59:37 AM from RF3PVAP416N19.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.9.70713.2318</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 9/26/2017 7:57:20 AM from RF3PVAP416N19.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.9.70713.2318</ChangeLog>
+  <ChangeLog>Changed by AMR\afodash on 8/16/2017 11:02:59 AM from AFSPAP216N12.AFOPROD.MFG.INTEL.COM using LogAnalyzer2 v2.9.61013.1546</ChangeLog>
+  <ChangeLog>Changed by AMR\afodash on 8/16/2017 10:59:46 AM from AFSPAP216N12.AFOPROD.MFG.INTEL.COM using LogAnalyzer2 v2.9.61013.1546</ChangeLog>
+  <ChangeLog>Changed by AMR\afodash on 8/16/2017 10:59:31 AM from AFSPAP216N12.AFOPROD.MFG.INTEL.COM using LogAnalyzer2 v2.9.61013.1546</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 10/24/2016 11:18:53 AM from RF3PVAP416N19.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.9.60808.1615</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 6/11/2015 9:09:45 AM from RF3PAP216N3.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.8.50323.2106</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 6/11/2015 9:09:34 AM from RF3PAP216N3.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.8.50323.2106</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 6/11/2015 9:08:52 AM from RF3PAP216N3.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.8.50323.2106</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 11/6/2014 9:43:09 AM from RF3PTS216.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.8.40923.2310</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 8/4/2014 2:46:07 PM from RF3PTS216.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.8.40723.2330</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 8/4/2014 2:46:02 PM from RF3PTS216.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.8.40723.2330</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 8/4/2014 2:44:51 PM from RF3PTS216.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.8.40723.2330</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 8/1/2014 3:16:55 PM from RF3PTS216.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.8.40723.2330</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 8/1/2014 3:16:32 PM from RF3PTS216.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.8.40723.2330</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 8/1/2014 3:16:10 PM from RF3PTS216.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.8.40723.2330</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 8/1/2014 2:10:20 PM from RF3PTS216.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.8.40723.2330</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 8/1/2014 1:20:10 PM from RF3PTS216.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.8.40723.2330</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 8/1/2014 1:10:42 PM from RF3PTS216.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.8.40723.2330</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 3/27/2014 2:26:57 PM from RF3PTS216.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.7.40326.2349</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 3/27/2014 2:26:22 PM from RF3PTS216.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.7.40326.2349</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 3/4/2014 2:37:53 PM from RF3PTS216.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.7.40303.1508</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 3/4/2014 2:37:28 PM from RF3PTS216.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.7.40303.1508</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 3/4/2014 2:34:57 PM from RF3PTS216.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.7.40303.1508</ChangeLog>
+  <UNIQECredentials UserId="uber" Site="rf3sap110-alias.rf3stg.mfgint.intel.com" DataSource="D1D_STAG_LogAnalyzer" SaveCredentials="true" UseUNIQECredentialsOnStartUp="false" QueryTimeOutInSeconds="-1">
+    <Password />
+    <Name />
+  </UNIQECredentials>
+  <QueryAttributes>
+    <MaxNumberOfThreads>25</MaxNumberOfThreads>
+    <AlwaysReplaceDomainWithLocal>false</AlwaysReplaceDomainWithLocal>
+  </QueryAttributes>
+  <PostQuerySQL>select * from %{OUTPUT}</PostQuerySQL>
+  <TableLayoutConfig>
+    <BoundColumnList>MachineControllerGroup,NodeName,FunctionalArea,UpgradeWhenIdle,ProfiledFramework,ActiveFramework,FrameworkSync,ProfiledMachineController,ActiveMachineController,MachineControllerSync,ActivationReadyFlag,FrameworkActivationTime,FrameworkInstallTime</BoundColumnList>
+  </TableLayoutConfig>
+  <RowHighlightingRules Enable="true" ColumnName="FrameworkSync" FilterRegex="False" RowColorString="NamedColor:Gold" />
+  <RowHighlightingRules Enable="true" ColumnName="MachineControllerSync" FilterRegex="False" RowColorString="NamedColor:Crimson" />
+  <TabOrder>C0,C1,G0,G1,G2,C2,C3,C4,C5,C6,C7,C8,C9,C10,C11,C12,C13,G3,C14,C15,G4,C16,C17</TabOrder>
+  <MainPivotConfig Enable="true">
+    <ColumnX FieldName="ActiveFramework" FieldType="String" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <ColumnY FieldName="ActiveFramework" FieldType="String" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <ColumnData FieldName="COUNT OF" FieldType="String" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <ChartType>SideBySideStackedBar</ChartType>
+    <RotateXAxisLabels>false</RotateXAxisLabels>
+    <Name>SC.NET FW Distribution</Name>
+    <ChartTitle>SC.NET FW Distribution</ChartTitle>
+    <ColorPalette>Median</ColorPalette>
+    <ChartExportSize>800x400</ChartExportSize>
+    <ShowLegend>false</ShowLegend>
+    <IsYAxisVisible>false</IsYAxisVisible>
+    <CustomPalette />
+    <TableData />
+  </MainPivotConfig>
+  <MainPivotConfig Enable="true">
+    <ColumnX FieldName="FunctionalArea" FieldType="String" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <ColumnY FieldName="ActiveFramework" FieldType="String" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <ColumnData FieldName="COUNT OF" FieldType="String" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <ChartType>StackedBar</ChartType>
+    <RotateXAxisLabels>false</RotateXAxisLabels>
+    <ShowColumnTotals>false</ShowColumnTotals>
+    <Name>SC.NET FW Distribution by Area</Name>
+    <ChartTitle>SC.NET FW Distribution by Area</ChartTitle>
+    <ColorPalette>Median</ColorPalette>
+    <ChartExportSize>800x400</ChartExportSize>
+    <IsYAxisVisible>false</IsYAxisVisible>
+    <CustomPalette />
+    <TableData />
+  </MainPivotConfig>
+  <MainPivotConfig Enable="true">
+    <QuerySQL>---Begin Main Query---
+SELECT
+	*
+FROM
+	%{OUTPUT}
+WHERE
+	ActivationReadyFlag like 'True' and
+	FrameworkSync = 'False'
+</QuerySQL>
+    <ColumnX FieldName="FunctionalArea" FieldType="String" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <ColumnY FieldName="" FieldType="" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <ColumnData FieldName="COUNT OF" FieldType="String" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <ChartType>StackedBar</ChartType>
+    <RotateXAxisLabels>false</RotateXAxisLabels>
+    <Name>SC.NET FW Upgrades Pending by Area</Name>
+    <ChartTitle>SC.NET FW Upgrades Pending by Area</ChartTitle>
+    <ColorPalette>Median</ColorPalette>
+    <ChartExportSize>800x400</ChartExportSize>
+    <ShowLegend>false</ShowLegend>
+    <IsYAxisVisible>false</IsYAxisVisible>
+    <CustomPalette />
+    <TableData />
+  </MainPivotConfig>
+  <MainPivotConfig Enable="true">
+    <QuerySQL>---Begin Main Query---
+SELECT
+	NodeName,
+	ProfiledFramework,
+	UpgradeWhenIdle,
+	ActivationReadyFlag,
+	UpgradeMethod
+USING
+	strcat(UpgradeWhenIdle, ActivationReadyFlag) as UpgradeType,
+	case UpgradeType
+	when 'NoTrue' then 'Manual'
+	when 'NoAtIdle' then 'Manual'
+	when 'YesTrue' then 'Manual'
+	when 'YesAtIdle' then 'AtIdle'
+	else 'Manual' end as UpgradeMethod
+FROM
+	%{OUTPUT}
+WHERE
+	ActivationReadyFlag like 'True' and
+	FrameworkSync = 'False'
+</QuerySQL>
+    <ColumnX FieldName="UpgradeMethod" FieldType="String" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <ColumnY FieldName="" FieldType="" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <ColumnData FieldName="COUNT OF" FieldType="String" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <RotateXAxisLabels>false</RotateXAxisLabels>
+    <Name>SC.NET FW Upgrades Pending by Activation Type</Name>
+    <ChartTitle>SC.NET FW Upgrades Pending by Activation Type</ChartTitle>
+    <ColorPalette>Median</ColorPalette>
+    <ChartExportSize>800x400</ChartExportSize>
+    <ShowLegend>false</ShowLegend>
+    <IsYAxisVisible>false</IsYAxisVisible>
+    <DateFormat>Auto</DateFormat>
+    <CustomPalette />
+    <TableData />
+  </MainPivotConfig>
+  <MainPivotConfig Enable="true">
+    <QuerySQL>SELECT
+	NodeName,
+	ProfiledFramework,
+	UpgradeMethod,
+	FrameworkActivationTime
+USING
+case UpgradeWhenIdle when 'Yes' then 'AtIdle' else 'Manual' end as UpgradeMethod
+FROM
+	%{OUTPUT}
+</QuerySQL>
+    <ColumnX FieldName="FrameworkActivationTime" FieldType="String" SortMode="Default" SortOrder="Ascending" SummaryType="Sum" SortBySummaryInfo="false" />
+    <ColumnY FieldName="UpgradeMethod" FieldType="String" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <ColumnData FieldName="COUNT OF" FieldType="Int32" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <XaxisLabelSpacing>3</XaxisLabelSpacing>
+    <ChartType>Line</ChartType>
+    <RotateXAxisLabels>false</RotateXAxisLabels>
+    <Name>SC.NET FW Activation Timeline</Name>
+    <ChartTitle>SC.NET FW Activation Timeline</ChartTitle>
+    <ColorPalette>Median</ColorPalette>
+    <PointLabelOverlapMode>None</PointLabelOverlapMode>
+    <ChartExportSize>800x400</ChartExportSize>
+    <IsYAxisVisible>false</IsYAxisVisible>
+    <DateFormat>Auto</DateFormat>
+    <CustomPalette />
+    <TableData />
+  </MainPivotConfig>
+  <MainPivotConfig Enable="true">
+    <QuerySQL>---Begin Main Query---
+SELECT
+	*
+FROM
+	%{output}
+WHERE
+	functionalarea like 'Thinfilms'
+ORDER BY
+	ActiveMachineController
+</QuerySQL>
+    <ColumnX FieldName="ActiveMachineController" FieldType="String" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <ColumnY FieldName="" FieldType="" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <ColumnData FieldName="COUNT OF" FieldType="String" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <RotateChart>true</RotateChart>
+    <RotateXAxisLabels>false</RotateXAxisLabels>
+    <Name>Active SC.NET SC Versions for ThinFilms</Name>
+    <ChartTitle>Active SC.NET SC Versions for ThinFilms</ChartTitle>
+    <ColorPalette>Median</ColorPalette>
+    <ChartExportSize>800x400</ChartExportSize>
+    <ShowLegend>false</ShowLegend>
+    <IsYAxisVisible>false</IsYAxisVisible>
+    <ReverseXAxis>true</ReverseXAxis>
+    <DateFormat>Auto</DateFormat>
+    <CustomPalette />
+    <TableData />
+  </MainPivotConfig>
+  <MainPivotConfig Enable="true">
+    <QuerySQL>---Begin Main Query---
+SELECT
+	*
+FROM
+	%{output}
+WHERE
+	functionalarea like 'Etch'
+</QuerySQL>
+    <ColumnX FieldName="ActiveMachineController" FieldType="String" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <ColumnY FieldName="" FieldType="" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <ColumnData FieldName="COUNT OF" FieldType="String" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <RotateChart>true</RotateChart>
+    <RotateXAxisLabels>false</RotateXAxisLabels>
+    <Name>Active SC.NET SC Versions for Etch</Name>
+    <ChartTitle>Active SC.NET SC Versions for Etch</ChartTitle>
+    <ColorPalette>Median</ColorPalette>
+    <ChartExportSize>800x400</ChartExportSize>
+    <ShowLegend>false</ShowLegend>
+    <IsYAxisVisible>false</IsYAxisVisible>
+    <ReverseXAxis>true</ReverseXAxis>
+    <CustomPalette />
+    <TableData />
+  </MainPivotConfig>
+  <MainPivotConfig Enable="true">
+    <QuerySQL>SELECT
+	*
+FROM
+	%{output}
+WHERE
+	functionalarea like 'Lithography'
+</QuerySQL>
+    <ColumnX FieldName="ActiveMachineController" FieldType="String" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <ColumnY FieldName="" FieldType="" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <ColumnData FieldName="COUNT OF" FieldType="String" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <RotateChart>true</RotateChart>
+    <RotateXAxisLabels>false</RotateXAxisLabels>
+    <Name>Active SC.NET SC Versions for Lithography</Name>
+    <ChartTitle>Active SC.NET SC Versions for Lithography</ChartTitle>
+    <ColorPalette>Median</ColorPalette>
+    <ChartExportSize>800x400</ChartExportSize>
+    <ShowLegend>false</ShowLegend>
+    <IsYAxisVisible>false</IsYAxisVisible>
+    <ReverseXAxis>true</ReverseXAxis>
+    <CustomPalette />
+    <TableData />
+  </MainPivotConfig>
+  <MainPivotConfig Enable="true">
+    <QuerySQL>SELECT
+	*
+FROM
+	%{output}
+WHERE
+	functionalarea like 'Diffusion'
+</QuerySQL>
+    <ColumnX FieldName="ActiveMachineController" FieldType="String" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <ColumnY FieldName="" FieldType="" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <ColumnData FieldName="COUNT OF" FieldType="String" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <RotateChart>true</RotateChart>
+    <RotateXAxisLabels>false</RotateXAxisLabels>
+    <Name>Active SC.NET SC Versions for Diffusion</Name>
+    <ChartTitle>Active SC.NET SC Versions for Diffusion</ChartTitle>
+    <ColorPalette>Median</ColorPalette>
+    <ChartExportSize>800x400</ChartExportSize>
+    <ShowLegend>false</ShowLegend>
+    <IsYAxisVisible>false</IsYAxisVisible>
+    <ReverseXAxis>true</ReverseXAxis>
+    <CustomPalette />
+    <TableData />
+  </MainPivotConfig>
+  <MainPivotConfig Enable="true">
+    <QuerySQL>---Begin Main Query---
+SELECT
+	*
+FROM
+	%{output}
+WHERE
+	functionalarea like 'Implant'
+</QuerySQL>
+    <ColumnX FieldName="ActiveMachineController" FieldType="String" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <ColumnY FieldName="" FieldType="" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <ColumnData FieldName="COUNT OF" FieldType="String" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <RotateChart>true</RotateChart>
+    <RotateXAxisLabels>false</RotateXAxisLabels>
+    <Name>Active SC.NET SC Versions for Implant</Name>
+    <ChartTitle>Active SC.NET SC Versions for Implant</ChartTitle>
+    <ColorPalette>Median</ColorPalette>
+    <ChartExportSize>800x400</ChartExportSize>
+    <ShowLegend>false</ShowLegend>
+    <IsYAxisVisible>false</IsYAxisVisible>
+    <ReverseXAxis>true</ReverseXAxis>
+    <CustomPalette />
+    <TableData />
+  </MainPivotConfig>
+  <MainPivotConfig Enable="true">
+    <QuerySQL>SELECT
+	*
+FROM
+	%{output}
+WHERE
+	functionalarea like 'DefectMetro'
+</QuerySQL>
+    <ColumnX FieldName="ActiveMachineController" FieldType="String" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <ColumnY FieldName="" FieldType="" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <ColumnData FieldName="COUNT OF" FieldType="String" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <RotateChart>true</RotateChart>
+    <RotateXAxisLabels>false</RotateXAxisLabels>
+    <Name>Active SC.NET SC Versions for DefectMetro</Name>
+    <ChartTitle>Active SC.NET SC Versions for DefectMetro</ChartTitle>
+    <ColorPalette>Median</ColorPalette>
+    <ChartExportSize>800x400</ChartExportSize>
+    <ShowLegend>false</ShowLegend>
+    <IsYAxisVisible>false</IsYAxisVisible>
+    <ReverseXAxis>true</ReverseXAxis>
+    <CustomPalette />
+    <TableData />
+  </MainPivotConfig>
+  <MainPivotConfig Enable="true">
+    <QuerySQL>SELECT
+	*
+FROM
+	%{output}
+WHERE
+	functionalarea like 'EquipMetro'
+</QuerySQL>
+    <ColumnX FieldName="ActiveMachineController" FieldType="String" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <ColumnY FieldName="" FieldType="" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <ColumnData FieldName="COUNT OF" FieldType="String" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <RotateChart>true</RotateChart>
+    <RotateXAxisLabels>false</RotateXAxisLabels>
+    <Name>Active SC.NET SC Versions for EquipMetro</Name>
+    <ChartTitle>Active SC.NET SC Versions for EquipMetro</ChartTitle>
+    <ColorPalette>Median</ColorPalette>
+    <ChartExportSize>800x400</ChartExportSize>
+    <ShowLegend>false</ShowLegend>
+    <IsYAxisVisible>false</IsYAxisVisible>
+    <ReverseXAxis>true</ReverseXAxis>
+    <CustomPalette />
+    <TableData />
+  </MainPivotConfig>
+  <MainPivotConfig Enable="true">
+    <QuerySQL>---Begin Main Query---
+SELECT
+	*
+FROM
+	%{output}
+WHERE
+	functionalarea like 'FSG'
+</QuerySQL>
+    <ColumnX FieldName="ActiveMachineController" FieldType="String" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <ColumnY FieldName="" FieldType="" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <ColumnData FieldName="COUNT OF" FieldType="String" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <RotateChart>true</RotateChart>
+    <RotateXAxisLabels>false</RotateXAxisLabels>
+    <Name>Active SC.NET SC Versions for FSG</Name>
+    <ChartTitle>Active SC.NET SC Versions for FSG</ChartTitle>
+    <ColorPalette>Median</ColorPalette>
+    <ChartExportSize>800x400</ChartExportSize>
+    <ShowLegend>false</ShowLegend>
+    <IsYAxisVisible>false</IsYAxisVisible>
+    <ReverseXAxis>true</ReverseXAxis>
+    <CustomPalette />
+    <TableData />
+  </MainPivotConfig>
+  <MainPivotConfig Enable="true">
+    <QuerySQL>SELECT
+	*
+FROM
+	%{output}
+WHERE
+	functionalarea like 'Planar'
+</QuerySQL>
+    <ColumnX FieldName="ActiveMachineController" FieldType="String" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <ColumnY FieldName="" FieldType="" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <ColumnData FieldName="COUNT OF" FieldType="String" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <RotateChart>true</RotateChart>
+    <RotateXAxisLabels>false</RotateXAxisLabels>
+    <Name>Active SC.NET SC Versions for Planar</Name>
+    <ChartTitle>Active SC.NET SC Versions for Planar</ChartTitle>
+    <ColorPalette>Median</ColorPalette>
+    <ChartExportSize>800x400</ChartExportSize>
+    <ShowLegend>false</ShowLegend>
+    <IsYAxisVisible>false</IsYAxisVisible>
+    <ReverseXAxis>true</ReverseXAxis>
+    <CustomPalette />
+    <TableData />
+  </MainPivotConfig>
+  <MainPivotConfig Enable="true">
+    <QuerySQL>SELECT
+	*
+FROM
+	%{output}
+WHERE
+	functionalarea like 'Sort'
+</QuerySQL>
+    <ColumnX FieldName="ActiveMachineController" FieldType="String" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <ColumnY FieldName="" FieldType="" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <ColumnData FieldName="COUNT OF" FieldType="String" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <RotateChart>true</RotateChart>
+    <RotateXAxisLabels>false</RotateXAxisLabels>
+    <Name>Active SC.NET SC Versions for Sort</Name>
+    <ChartTitle>Active SC.NET SC Versions for Sort</ChartTitle>
+    <ColorPalette>Median</ColorPalette>
+    <ChartExportSize>800x400</ChartExportSize>
+    <ShowLegend>false</ShowLegend>
+    <IsYAxisVisible>false</IsYAxisVisible>
+    <ReverseXAxis>true</ReverseXAxis>
+    <CustomPalette />
+    <TableData />
+  </MainPivotConfig>
+  <MainPivotConfig>
+    <QuerySQL>---Begin Main Query---
+SELECT
+	*
+FROM
+	%{output}
+WHERE
+	functionalarea like 'C4' or functionalarea like 'FBE'
+</QuerySQL>
+    <ColumnX FieldName="" FieldType="" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <ColumnY FieldName="" FieldType="" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <ColumnData FieldName="" FieldType="" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <RotateChart>true</RotateChart>
+    <RotateXAxisLabels>false</RotateXAxisLabels>
+    <Name>Active SC.NET SC Versions for C4</Name>
+    <ChartTitle>Active SC.NET SC Versions for C4</ChartTitle>
+    <ColorPalette>Median</ColorPalette>
+    <ChartExportSize>800x400</ChartExportSize>
+    <ShowLegend>false</ShowLegend>
+    <IsYAxisVisible>false</IsYAxisVisible>
+    <ReverseXAxis>true</ReverseXAxis>
+    <CustomPalette />
+    <TableData />
+  </MainPivotConfig>
+  <MainPivotConfig Enable="true">
+    <QuerySQL>---Begin Main Query---
+SELECT
+	*
+FROM
+	%{output}
+WHERE
+	functionalarea like 'TSV'
+</QuerySQL>
+    <ColumnX FieldName="ActiveMachineController" FieldType="String" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <ColumnY FieldName="" FieldType="" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <ColumnData FieldName="COUNT OF" FieldType="String" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <RotateChart>true</RotateChart>
+    <RotateXAxisLabels>false</RotateXAxisLabels>
+    <Name>Active SC.NET SC Versions for TSV</Name>
+    <ChartTitle>Active SC.NET SC Versions for TSV</ChartTitle>
+    <ColorPalette>Median</ColorPalette>
+    <ChartExportSize>800x400</ChartExportSize>
+    <ShowLegend>false</ShowLegend>
+    <IsYAxisVisible>false</IsYAxisVisible>
+    <ReverseXAxis>true</ReverseXAxis>
+    <CustomPalette />
+    <TableData />
+  </MainPivotConfig>
+  <MainPivotConfig>
+    <QuerySQL>---Begin Main Query---
+SELECT
+	*
+FROM
+	%{output}
+WHERE
+	functionalarea like 'DieSort'
+</QuerySQL>
+    <ColumnX FieldName="" FieldType="" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <ColumnY FieldName="" FieldType="" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <ColumnData FieldName="" FieldType="" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <RotateChart>true</RotateChart>
+    <RotateXAxisLabels>false</RotateXAxisLabels>
+    <Name>Active SC.NET SC Versions for DieSort</Name>
+    <ChartTitle>Active SC.NET SC Versions for DieSort</ChartTitle>
+    <ColorPalette>Median</ColorPalette>
+    <ChartExportSize>800x400</ChartExportSize>
+    <ShowLegend>false</ShowLegend>
+    <IsYAxisVisible>false</IsYAxisVisible>
+    <ReverseXAxis>true</ReverseXAxis>
+    <CustomPalette />
+    <TableData />
+  </MainPivotConfig>
+  <OutputDataGridConfig Name="SC.NET FW Upgrades Pending (Count)">
+    <SQL>---Begin Main Query---
+SELECT
+	count(*) as UpgradesPending
+FROM
+	%{OUTPUT}
+WHERE
+	ActivationReadyFlag like 'True' and
+	FrameworkSync = 'False'
+</SQL>
+    <TableLayoutConfig>
+      <BoundColumnList>UpgradesPending</BoundColumnList>
+    </TableLayoutConfig>
+    <TableSchema><xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+  <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="Results" msdata:UseCurrentLocale="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Results">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="UpgradesPending" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
+</TableSchema>
+    <TableData />
+  </OutputDataGridConfig>
+  <OutputDataGridConfig Name="FW Upgrades Pending">
+    <SQL>---Begin Main Query---
+SELECT
+	NodeName,
+	FunctionalArea,
+	ProfiledFramework,
+	ActiveFramework,
+	FrameworkSync,
+	UpgradeWhenIdle,
+	ActivationReadyFlag,
+	UpgradePendingDuration
+USING
+	TO_LOCALTIME(SYSTEM_TIMESTAMP()) as Now,
+	to_int(SUB(Now, FrameworkInstallTime)) as Time,
+	div(div(Time,60),60) as HoursUpgradePending,
+	strcat(to_string(HoursUpgradePending),' Hour(s)') as UpgradePendingDuration
+FROM
+	%{OUTPUT}
+WHERE
+	ActivationReadyFlag like 'True' and
+	FrameworkSync = 'False'
+ORDER BY
+	FunctionalArea,
+	NodeName
+</SQL>
+    <TableLayoutConfig>
+      <BoundColumnList>NodeName,FunctionalArea,ProfiledFramework,ActiveFramework,FrameworkSync,UpgradeWhenIdle,ActivationReadyFlag,UpgradePendingDuration</BoundColumnList>
+    </TableLayoutConfig>
+    <TableSchema><xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+  <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="Results" msdata:UseCurrentLocale="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Results">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="NodeName" type="xs:string" minOccurs="0" />
+              <xs:element name="FunctionalArea" type="xs:string" minOccurs="0" />
+              <xs:element name="ProfiledFramework" type="xs:string" minOccurs="0" />
+              <xs:element name="ActiveFramework" type="xs:string" minOccurs="0" />
+              <xs:element name="FrameworkSync" type="xs:string" minOccurs="0" />
+              <xs:element name="UpgradeWhenIdle" type="xs:string" minOccurs="0" />
+              <xs:element name="ActivationReadyFlag" type="xs:string" minOccurs="0" />
+              <xs:element name="UpgradePendingDuration" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
+</TableSchema>
+    <TableData />
+  </OutputDataGridConfig>
+  <OutputDataGridConfig Name="Percentage of Winclients with FW out of Sync">
+    <SQL>---[MAIN_CSV]---
+BEGIN MAIN_CSV
+	---Begin Main Query---
+	Using CSV with
+	SELECT
+		FrameworkSync,
+		strcat(to_string(to_int(MUL(PROPCOUNT(*),100.0))), '%') as FWSyncPercent
+	FROM
+		%{OUTPUT}
+	GROUP BY
+		FrameworkSync
+END MAIN_CSV
+---Begin Main Query---
+Using CSV with
+SELECT
+	FWSyncPercent
+FROM
+	%{MAIN_CSV}
+WHERE
+	FrameworkSync = 'False'
+</SQL>
+    <TableLayoutConfig>
+      <BoundColumnList>FWSyncPercent</BoundColumnList>
+    </TableLayoutConfig>
+    <TableSchema><xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+  <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="Results" msdata:UseCurrentLocale="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Results">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="FWSyncPercent" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
+</TableSchema>
+    <TableData />
+  </OutputDataGridConfig>
+  <OutputDataGridConfig Name="Active FW Versions">
+    <SQL>SELECT
+	NodeName,
+	FunctionalArea,
+	ActiveFramework
+FROM
+	%{OUTPUT}
+ORDER BY 
+FUnctionalArea
+</SQL>
+    <TableLayoutConfig>
+      <BoundColumnList>NodeName,FunctionalArea,ActiveFramework</BoundColumnList>
+    </TableLayoutConfig>
+    <TableSchema><xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+  <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="Results" msdata:UseCurrentLocale="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Results">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="NodeName" type="xs:string" minOccurs="0" />
+              <xs:element name="FunctionalArea" type="xs:string" minOccurs="0" />
+              <xs:element name="ActiveFramework" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
+</TableSchema>
+    <TableData />
+  </OutputDataGridConfig>
+  <OutputDataGridConfig Name="Total DOTNET">
+    <SQL>---Begin Main Query---
+SELECT
+count(*) as Total
+FROM
+	%{OUTPUT}
+</SQL>
+    <TableLayoutConfig>
+      <BoundColumnList>NodeName,FunctionalArea,ActiveFramework</BoundColumnList>
+    </TableLayoutConfig>
+    <TableSchema><xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+  <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="Results" msdata:UseCurrentLocale="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Results">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Total" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
+</TableSchema>
+    <TableData />
+  </OutputDataGridConfig>
+  <AutoPivotConfig OutputDateFormat="yyyy ww.w HH:mm" StatisticalFunctionsForColumn="Avg, 50, 90,96, Count" />
+  <MailConfig>
+    <PostProcessingSQL Enable="false" />
+    <EmailCondition Enable="false" Operator="&lt;" ThresholdRowCount="0">
+      <SQLQuery />
+      <RunScriptBeforeEmailing>false</RunScriptBeforeEmailing>
+      <Script />
+    </EmailCondition>
+    <PostProcessingCondition Enable="false" Operator="&gt;" ThresholdRowCount="0">
+      <SQLQuery />
+      <RunScriptBeforeEmailing>false</RunScriptBeforeEmailing>
+    </PostProcessingCondition>
+    <CopyCondition Enable="false" Operator="&gt;" ThresholdRowCount="0">
+      <SQLQuery />
+      <RunScriptBeforeEmailing>false</RunScriptBeforeEmailing>
+    </CopyCondition>
+    <SMTPServer>smtp.intel.com</SMTPServer>
+    <From>LogAnalyzer2@DONOTREPLY.COM</From>
+    <ReplyTo>@{DASHBOARD_OWNER_ALERT_DIST}</ReplyTo>
+    <To />
+    <Subject>[${DOMAIN}] SC.NET Version Query</Subject>
+    <Body />
+    <MailAttachments FileNamingFormat="${SETTINGS}" Excel="false" CSV="false" LAS="false" LAD="false" Exceptions="false" StatusLogs="false" PivotChart="true" ZipAttachments="false" DoNotSendAttachmentsWithEmail="false" IncludeJobStatisticsHeader="false" IncludeQuerySettingsFileHeader="false" IncludeVariableDefinitionHeader="false" IncludeRowCountInSubject="false" />
+    <IncludeSQLQueryInBody>false</IncludeSQLQueryInBody>
+    <TableInBody Enable="false">
+      <SQL />
+    </TableInBody>
+    <CopyOutputToDirectory>true</CopyOutputToDirectory>
+    <OutputDirectory>@{DASHBOARD_WEB_SPOOL}\PCAM\Output</OutputDirectory>
+    <IncludeAutoPivotSummary>false</IncludeAutoPivotSummary>
+    <IncludeCustomPivotSummary>false</IncludeCustomPivotSummary>
+    <IgnoreExceptions>false</IgnoreExceptions>
+    <OnlyCopyOutputIfEmailConditionIsMet>false</OnlyCopyOutputIfEmailConditionIsMet>
+    <PivotConfigs Enable="true" PivotColumn="Version">
+      <SortyByColumn>Count</SortyByColumn>
+    </PivotConfigs>
+    <PivotConfigs Enable="true" PivotColumn="LastWriteTime" PivotColumnType="DateTime">
+      <SortyByColumn>Pivot</SortyByColumn>
+      <PivotColumnOutputDateFormat>yyyy ww</PivotColumnOutputDateFormat>
+    </PivotConfigs>
+  </MailConfig>
+  <TableSchema><xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+  <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="Results" msdata:UseCurrentLocale="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Results">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="NodeName" type="xs:string" minOccurs="0" />
+              <xs:element name="FunctionalArea" type="xs:string" minOccurs="0" />
+              <xs:element name="UpgradeWhenIdle" type="xs:string" minOccurs="0" />
+              <xs:element name="ProfiledFramework" type="xs:string" minOccurs="0" />
+              <xs:element name="ActiveFramework" type="xs:string" minOccurs="0" />
+              <xs:element name="FrameworkSync" type="xs:string" minOccurs="0" />
+              <xs:element name="ProfiledMachineController" type="xs:string" minOccurs="0" />
+              <xs:element name="ActiveMachineController" type="xs:string" minOccurs="0" />
+              <xs:element name="MachineControllerSync" type="xs:string" minOccurs="0" />
+              <xs:element name="ActivationReadyFlag" type="xs:string" minOccurs="0" />
+              <xs:element name="FrameworkActivationTime" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="FrameworkInstallTime" type="xs:dateTime" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
+</TableSchema>
+  <TableData />
+  <LastRunAbsoluteDateFilter>All</LastRunAbsoluteDateFilter>
+  <PivotGroupingSettings PivotColumn="">
+    <SortyByColumn>Count</SortyByColumn>
+  </PivotGroupingSettings>
+  <QuerySQL><![CDATA[
+--[FileName:"D:\Dashboard\Jobs\PCAM\12-hr\2_SCDOTNET_Summary_and_Timeline_Analysis.lasx"]------
+----------<VARIABLES>------------
+var FILEFILTER = "@{DASHBOARD_PERSIST_DATA}\PCAM\Output\01_SCDOTNET_Summary_and_Timeline_DataPull.csv"
+var TIMEFILTER = "All"
+var NODEFILTER = ""
+var DOMAIN = ""
+---Begin Main Query---
+Using CSV with
+SELECT
+	NodeName,
+	FunctionalArea,
+	UpgradeWhenIdle,
+	ProfiledFramework,
+	ActiveFramework,
+	FrameworkSync,
+	ProfiledMachineController,
+	ActiveMachineController,
+	MachineControllerSync,
+	ActivationReadyFlag,
+	FrameworkActivationTime,
+	FrameworkInstallTime
+FROM
+	${FILEFILTER}
+WHERE
+	ActiveFramework is NOT NULL
+
+]]></QuerySQL>
+</QueryConfig>

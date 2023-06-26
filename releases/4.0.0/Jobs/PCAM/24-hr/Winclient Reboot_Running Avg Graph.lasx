@@ -1,0 +1,130 @@
+<QueryConfig AutoExecuteQueryOnLoad="false">
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 12/11/2014 11:26:07 AM from RF3PAP216N3.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.8.40713.1943</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 12/11/2014 11:17:08 AM from RF3PAP216N3.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.8.40713.1943</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 12/11/2014 10:31:40 AM from RF3PAP216N3.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.8.40713.1943</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 12/4/2014 2:26:32 PM from RF3PAP216N3.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.8.40713.1943</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 12/4/2014 2:24:22 PM from RF3PAP216N3.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.8.40713.1943</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 12/4/2014 2:24:12 PM from RF3PAP216N3.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.8.40713.1943</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 12/4/2014 2:24:04 PM from RF3PAP216N3.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.8.40713.1943</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 12/4/2014 2:23:57 PM from RF3PAP216N3.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.8.40713.1943</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 12/4/2014 2:09:06 PM from RF3PAP216N3.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.8.40713.1943</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 12/4/2014 1:39:05 PM from RF3PAP216N3.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.8.40713.1943</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 12/4/2014 1:38:52 PM from RF3PAP216N3.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.8.40713.1943</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 12/4/2014 1:32:28 PM from RF3PAP216N3.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.8.40713.1943</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 12/4/2014 1:32:21 PM from RF3PAP216N3.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.8.40713.1943</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 12/4/2014 1:32:09 PM from RF3PAP216N3.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.8.40713.1943</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 12/4/2014 1:21:27 PM from RF3PAP216N3.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.8.40713.1943</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 12/4/2014 1:11:05 PM from RF3PAP216N3.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.8.40713.1943</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 12/4/2014 1:03:36 PM from RF3PTS216.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.8.41120.1646</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 12/4/2014 12:59:49 PM from RF3PTS216.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.8.41120.1646</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 12/4/2014 12:48:17 PM from RF3PTS216.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.8.41120.1646</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 12/4/2014 10:56:49 AM from RF3PTS216.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.8.41120.1646</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 12/4/2014 10:56:28 AM from RF3PTS216.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.8.41120.1646</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 12/4/2014 10:50:09 AM from RF3PTS216.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.8.41120.1646</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 12/4/2014 9:31:57 AM from RF3PTS216.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.8.41120.1646</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 12/4/2014 8:21:08 AM from RF3PTS216.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.8.41120.1646</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_jvanalls on 10/3/2014 11:08:39 AM from RF3PAP216N3.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.8.40713.1943</ChangeLog>
+  <QueryAttributes>
+    <RowThresholdForPivotGrid>1000000</RowThresholdForPivotGrid>
+    <AlwaysReplaceDomainWithLocal>false</AlwaysReplaceDomainWithLocal>
+  </QueryAttributes>
+  <PostQuerySQL>select * from %{OUTPUT}</PostQuerySQL>
+  <TableLayoutConfig>
+    <BoundColumnList>DateTime,NodeName,EventLog,EventID,EventTypeName,Category,SourceName,UserID,Message,Strings</BoundColumnList>
+  </TableLayoutConfig>
+  <RowHighlightingRules Enable="true" ColumnName="*" FilterRegex="Error" RowColorString="NamedColor:Red" />
+  <RowHighlightingRules Enable="true" ColumnName="*" FilterRegex="Warning" RowColorString="NamedColor:Yellow" />
+  <TabOrder>C0</TabOrder>
+  <MainPivotConfig Enable="true">
+    <ColumnX FieldName="CurrentLocalTime" FieldType="String" SortMode="Default" SortOrder="Ascending" SummaryType="Sum" SortBySummaryInfo="false" />
+    <ColumnY FieldName="" FieldType="" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <ColumnData FieldName="Average Uptime (Days)" FieldType="Int32" SortMode="Default" SortOrder="Ascending" SummaryType="Average" SortBySummaryInfo="false" />
+    <TopN>30</TopN>
+    <ChartType>Line</ChartType>
+    <Name>Average Winclient Update (Days)</Name>
+    <ChartTitle>Average Winclient PM (Days)</ChartTitle>
+    <ColorPalette>Median</ColorPalette>
+    <ChartExportSize>800x400</ChartExportSize>
+    <ThresholdLineValue>7.5</ThresholdLineValue>
+    <ShowLegend>false</ShowLegend>
+    <DateFormat>Auto</DateFormat>
+    <CustomPalette />
+    <TableData />
+  </MainPivotConfig>
+  <AutoPivotConfig OutputDateFormat="yyyy ww.w HH:mm" StatisticalFunctionsForColumn="Avg, 50, 90,96, Count" />
+  <MailConfig>
+    <PostProcessingSQL Enable="false" />
+    <EmailCondition Enable="false" Operator="&lt;" ThresholdRowCount="0">
+      <SQLQuery />
+      <RunScriptBeforeEmailing>false</RunScriptBeforeEmailing>
+      <Script />
+    </EmailCondition>
+    <PostProcessingCondition Enable="false" Operator="&gt;" ThresholdRowCount="0">
+      <SQLQuery />
+      <RunScriptBeforeEmailing>false</RunScriptBeforeEmailing>
+    </PostProcessingCondition>
+    <CopyCondition Enable="false" Operator="&gt;" ThresholdRowCount="">
+      <SQLQuery />
+      <RunScriptBeforeEmailing>false</RunScriptBeforeEmailing>
+    </CopyCondition>
+    <SMTPServer>smtp.intel.com</SMTPServer>
+    <From>LogAnalyzer2@intel.com</From>
+    <ReplyTo>@{DASHBOARD_OWNER_ALERT_DIST}</ReplyTo>
+    <To />
+    <Subject>Winclient Reboots</Subject>
+    <Body />
+    <OnlyProcessIfOutputChangedFromPreviousRun>false</OnlyProcessIfOutputChangedFromPreviousRun>
+    <MailAttachments FileNamingFormat="${SETTINGS}" Excel="false" CSV="false" LAS="false" LAD="false" Exceptions="false" StatusLogs="false" PivotChart="true" ZipAttachments="false" DoNotSendAttachmentsWithEmail="false" IncludeJobStatisticsHeader="false" IncludeQuerySettingsFileHeader="false" IncludeVariableDefinitionHeader="false" IncludeRowCountInSubject="false" />
+    <IncludeSQLQueryInBody>false</IncludeSQLQueryInBody>
+    <TableInBody Enable="false">
+      <SQL />
+    </TableInBody>
+    <CopyOutputToDirectory>true</CopyOutputToDirectory>
+    <OutputDirectory>@{DASHBOARD_WEB_SPOOL}\PCAM\Output</OutputDirectory>
+    <IncludeAutoPivotSummary>false</IncludeAutoPivotSummary>
+    <IgnoreExceptions>false</IgnoreExceptions>
+    <OnlyCopyOutputIfEmailConditionIsMet>false</OnlyCopyOutputIfEmailConditionIsMet>
+  </MailConfig>
+  <TableSchema><xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+  <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="Results" msdata:UseCurrentLocale="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Results">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Average_x0020_Uptime_x0020__x0028_Days_x0029_" type="xs:int" minOccurs="0" />
+              <xs:element name="CurrentLocalTime" type="xs:dateTime" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
+</TableSchema>
+  <TableData />
+  <LastRunAbsoluteDateFilter />
+  <PivotGroupingSettings PivotColumn="">
+    <SortyByColumn>Count</SortyByColumn>
+  </PivotGroupingSettings>
+  <QuerySQL><![CDATA[
+--[FileName:"D:\Dashboard\Jobs\PCAM\24-hr\Winclient Reboot_Running Avg Graph.lasx"]------
+----------<VARIABLES>------------
+var TIMEFILTER = "Last 30 days"
+var FILEFILTER = "@{DASHBOARD_PERSIST_DATA}\PCAM\Output\WinclientPM\*Average Winclient PM.CSV"
+var FILTER_CONDITION = "1 = 1"
+---[FILELIST]---
+BEGIN FILELIST
+	UseMethod GetFileList with -- **Get list of files matching specified name and date filter (optimized LP implementation)**
+		FileFilter = "${FILEFILTER}" -- Files to check [String]
+		DateFilter = "${TIMEFILTER}" -- Date range to check the files against [String]
+END FILELIST
+---Begin Main Query---
+Using CSV with
+SELECT
+	*
+FROM
+	%{FILELIST}
+
+]]></QuerySQL>
+</QueryConfig>

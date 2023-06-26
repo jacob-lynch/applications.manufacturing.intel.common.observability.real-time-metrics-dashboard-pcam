@@ -1,0 +1,255 @@
+<QueryConfig AutoExecuteQueryOnLoad="false" PreventSQLBeautification="false">
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 10/26/2016 1:14:33 PM from RF3PVAP416N19.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.9.60808.1615</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 10/26/2016 1:14:01 PM from RF3PVAP416N19.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.9.60808.1615</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 10/26/2016 1:12:15 PM from RF3PVAP416N19.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.9.60808.1615</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 10/26/2016 1:12:11 PM from RF3PVAP416N19.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.9.60808.1615</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 10/26/2016 1:11:52 PM from RF3PVAP416N19.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.9.60808.1615</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 11/17/2014 1:27:59 PM from RF3PAP216N3.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.8.40713.1943</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 11/17/2014 1:26:02 PM from RF3PAP216N3.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.8.40713.1943</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 5/1/2013 4:45:48 PM from RF3PTS215.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.6.30430.2016</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 2/15/2013 5:27:44 PM from RF3PTS215.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.6.30214.1454</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 12/27/2012 2:48:53 PM from RF3PTS215.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.5.21112.1211</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_penarvae on 12/16/2012 1:40:03 AM from RF3PAP216N1.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.5.20326.1729</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_penarvae on 12/16/2012 1:27:22 AM from RF3PAP216N1.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.5.20326.1729</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_penarvae on 12/16/2012 1:24:28 AM from RF3PAP216N1.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.5.20326.1729</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_penarvae on 12/16/2012 1:18:11 AM from RF3PAP216N1.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.5.20326.1729</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 11/29/2012 12:45:00 PM from RF3PTS215.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.5.21112.1211</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 11/29/2012 11:57:34 AM from RF3PTS215.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.5.21112.1211</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 11/29/2012 11:57:25 AM from RF3PTS215.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.5.21112.1211</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 11/29/2012 11:56:36 AM from RF3PTS215.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.5.21112.1211</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 9/9/2011 2:17:43 PM from RF3PTS215.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.4.10908.1430</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 9/6/2011 2:31:16 PM from RF3PTS215.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.4.10902.2313</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 9/6/2011 1:26:10 PM from RF3PTS215.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.4.10902.2313</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 9/5/2011 4:24:04 PM from RF3PTS215.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.4.10902.2313</ChangeLog>
+  <ChangeLog>Changed by GER\mfg_dkiernan on 7/2/2011 9:01:13 AM from RF3PTS215.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.4.10614.2211</ChangeLog>
+  <ChangeLog>Changed by GER\dkiernan on 6/29/2011 10:05:26 AM from RF3PTS215.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.4.10614.2211</ChangeLog>
+  <ChangeLog>Changed by GER\dkiernan on 6/29/2011 8:29:23 AM from RF3PTS215.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.4.10614.2211</ChangeLog>
+  <QueryAttributes>
+    <AlwaysReplaceDomainWithLocal>false</AlwaysReplaceDomainWithLocal>
+  </QueryAttributes>
+  <PostQuerySQL>select * from %{OUTPUT}</PostQuerySQL>
+  <TableLayoutConfig>
+    <BoundColumnList>ATTRIBUTE_NAME,ATTRIBUTE_VALUE,ENTITY,ATTRIBUTE_DESCRIPTION</BoundColumnList>
+  </TableLayoutConfig>
+  <TabOrder>G0,G1,C0</TabOrder>
+  <MainPivotConfig>
+    <ColumnX FieldName="" FieldType="" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <ColumnY FieldName="" FieldType="" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <ColumnData FieldName="" FieldType="" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <CustomPalette />
+    <TableData />
+  </MainPivotConfig>
+  <OutputDataGridConfig Name="Attribute Summary (MaxLength &gt; 100)">
+    <Caption>Attribute Summary (MaxLength &gt; 100)</Caption>
+    <SQL>---[OUTPUT_CSV]---
+BEGIN OUTPUT_CSV
+	---Begin Main Query---
+	Using CSV with
+	SELECT
+		*
+	FROM
+		%{OUTPUT}
+END OUTPUT_CSV
+---[LENGTH_CSV]---
+BEGIN LENGTH_CSV
+	---Begin Main Query---
+	Using CSV with
+	SELECT
+		ATTRIBUTE_NAME as AttributeName,
+		Length
+	USING
+		STRLEN(to_string(ATTRIBUTE_VALUE)) as Length
+	FROM
+		%{OUTPUT_CSV}
+	ORDER BY
+		Length desc
+END LENGTH_CSV
+---[GROUP_CSV]---
+BEGIN GROUP_CSV
+	---Begin Main Query---
+	Using CSV with
+	SELECT
+		AttributeName,
+		Max(Length) as MaxLength,
+		Avg(Length) as AverageLength
+	FROM
+		%{LENGTH_CSV}
+	GROUP BY
+		AttributeName
+	ORDER BY
+		MaxLength desc
+END GROUP_CSV
+---Begin Main Query---
+Using CSV with
+SELECT
+	AttributeName,
+	MaxLength,
+	AverageLength
+FROM
+	%{GROUP_CSV}
+WHERE
+	MaxLength &gt; 149
+</SQL>
+    <TableLayoutConfig>
+      <BoundColumnList>AttributeName,MaxLength,AverageLength</BoundColumnList>
+    </TableLayoutConfig>
+    <RowHighlightingRules Enable="true" ColumnName="MaxLength" FilterRegex="&gt;149" RowColorString="NamedColor:IndianRed" />
+    <TableSchema><xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+  <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="Results" msdata:UseCurrentLocale="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Results">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="AttributeName" type="xs:string" minOccurs="0" />
+              <xs:element name="MaxLength" type="xs:int" minOccurs="0" />
+              <xs:element name="AverageLength" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
+</TableSchema>
+    <TableData />
+  </OutputDataGridConfig>
+  <OutputDataGridConfig Name="Attributes with Length 150+">
+    <Caption>Attributes with Length 150+</Caption>
+    <SQL>---[OUTPUT_CSV]---
+BEGIN OUTPUT_CSV
+	---Begin Main Query---
+	Using CSV with
+	SELECT
+		*
+	FROM
+		%{OUTPUT}
+END OUTPUT_CSV
+---Begin Main Query---
+Using CSV with
+SELECT
+	ATTRIBUTE_NAME as AttributeName,
+	Length,
+	ENTITY as Entity,
+	ATTRIBUTE_DESCRIPTION as Description,
+	ATTRIBUTE_VALUE as AttributeValue
+USING
+	STRLEN(to_string(ATTRIBUTE_VALUE)) as Length
+FROM
+	%{OUTPUT_CSV}
+WHERE
+	Length &gt; 149
+ORDER BY
+	Length desc
+</SQL>
+    <TableLayoutConfig>
+      <BoundColumnList>AttributeName,Length,Entity,Description,AttributeValue</BoundColumnList>
+    </TableLayoutConfig>
+    <TableSchema><xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+  <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="Results" msdata:UseCurrentLocale="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Results">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="AttributeName" type="xs:string" minOccurs="0" />
+              <xs:element name="Length" type="xs:int" minOccurs="0" />
+              <xs:element name="Entity" type="xs:string" minOccurs="0" />
+              <xs:element name="Description" type="xs:string" minOccurs="0" />
+              <xs:element name="AttributeValue" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
+</TableSchema>
+    <TableData />
+  </OutputDataGridConfig>
+  <AutoPivotConfig OutputDateFormat="yyyy ww.w hh tt" />
+  <MailConfig>
+    <PostProcessingSQL Enable="false" />
+    <EmailCondition Enable="false" Operator="&lt;" ThresholdRowCount="0">
+      <SQLQuery />
+      <RunScriptBeforeEmailing>false</RunScriptBeforeEmailing>
+      <Script />
+    </EmailCondition>
+    <PostProcessingCondition Enable="false" Operator="&gt;" ThresholdRowCount="0">
+      <SQLQuery />
+      <RunScriptBeforeEmailing>false</RunScriptBeforeEmailing>
+    </PostProcessingCondition>
+    <CopyCondition Enable="false" Operator="&gt;" ThresholdRowCount="0">
+      <SQLQuery />
+      <RunScriptBeforeEmailing>false</RunScriptBeforeEmailing>
+    </CopyCondition>
+    <SMTPServer>smtp.intel.com</SMTPServer>
+    <From>LogAnalyzer2@intel.com</From>
+    <ReplyTo>@{DASHBOARD_OWNER_ALERT_DIST}</ReplyTo>
+    <To />
+    <Subject>[${DOMAIN}] MES Entity Attributes Summary XEUS</Subject>
+    <Body />
+    <MailAttachments FileNamingFormat="${SETTINGS}" Excel="false" CSV="false" LAS="false" LAD="false" Exceptions="false" StatusLogs="false" PivotChart="false" ZipAttachments="false" DoNotSendAttachmentsWithEmail="false" IncludeQuerySettingsFileHeader="false" IncludeVariableDefinitionHeader="false" IncludeRowCountInSubject="false" />
+    <IncludeSQLQueryInBody>false</IncludeSQLQueryInBody>
+    <TableInBody Enable="false">
+      <SQL />
+    </TableInBody>
+    <CopyOutputToDirectory>true</CopyOutputToDirectory>
+    <OutputDirectory>@{DASHBOARD_WEB_SPOOL}\PCAM\Output</OutputDirectory>
+    <IncludeAutoPivotSummary>false</IncludeAutoPivotSummary>
+    <IncludeCustomPivotSummary>false</IncludeCustomPivotSummary>
+    <IgnoreExceptions>false</IgnoreExceptions>
+    <OnlyCopyOutputIfEmailConditionIsMet>false</OnlyCopyOutputIfEmailConditionIsMet>
+  </MailConfig>
+  <TableSchema><xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+  <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="Results" msdata:UseCurrentLocale="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Results">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ATTRIBUTE_NAME" type="xs:string" minOccurs="0" />
+              <xs:element name="ATTRIBUTE_VALUE" type="xs:string" minOccurs="0" />
+              <xs:element name="ENTITY" type="xs:string" minOccurs="0" />
+              <xs:element name="ATTRIBUTE_DESCRIPTION" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
+</TableSchema>
+  <TableData />
+  <LastRunAbsoluteDateFilter />
+  <PivotGroupingSettings PivotColumn="">
+    <SortyByColumn>Count</SortyByColumn>
+  </PivotGroupingSettings>
+  <QuerySQL><![CDATA[
+--[FileName:"D:\Dashboard\Jobs\PCAM\24-hr\MES Entity Attributes_XEUS.lasx"]------
+----------<VARIABLES>------------
+var MAO_USERID = "@{USERID_NON_MFG}"
+var DATA_SOURCE = "@{LOCALXEUSDATASOURCE}"
+---Begin Main Query---
+Using UNIQE with
+	DataSource = "${DATA_SOURCE}" -- UNIQE data source to query
+	Authentication = "UNP" -- User Authentication Mode
+	UserId = "${MAO_USERID}" -- User ID for authentication
+SELECT
+  av.ATTRIBUTE_NAME,
+  av.ATTRIBUTE_VALUE,
+  m.ENTITY,
+  av.ATTRIBUTE_DESCRIPTION
+FROM
+  F_ENTITY m
+  LEFT OUTER JOIN F_ENTITYATTRIBUTE av
+	ON ( m.ENTITY = av.ENTITY )
+WHERE
+  m.ENTITY_DELETED_FLAG != 'Y'
+  AND m.OBJECT_STATUS = '1'
+  AND av.HISTORY_DELETED_FLAG = 'N'
+ORDER  BY
+  av.ATTRIBUTE_NAME 
+
+]]></QuerySQL>
+</QueryConfig>
