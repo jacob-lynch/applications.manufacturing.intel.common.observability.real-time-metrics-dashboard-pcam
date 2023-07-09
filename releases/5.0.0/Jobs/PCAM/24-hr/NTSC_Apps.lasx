@@ -1,0 +1,314 @@
+<QueryConfig AutoExecuteQueryOnLoad="false" PreventSQLBeautification="false">
+  <ChangeLog>Changed by AMR\mfg_mjschlec on 6/15/2023 3:49:02 PM from RF3PVAP616N19.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.9.30612.1700</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 9/28/2015 2:13:26 PM from RF3PAP216N3.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.8.50323.2106</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 12/16/2013 12:20:44 PM from RF3PTS216.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.7.31122.1414</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 12/16/2013 12:19:12 PM from RF3PTS216.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.7.31122.1414</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 5/2/2013 3:19:06 PM from RF3PTS215.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.6.30501.2100</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 5/2/2013 3:07:02 PM from RF3PTS215.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.6.30501.2100</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 5/2/2013 3:06:50 PM from RF3PTS215.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.6.30501.2100</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 5/1/2013 4:36:54 PM from RF3PTS215.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.6.30430.2016</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 4/30/2013 4:33:45 PM from RF3PTS215.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.6.30427.2018</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 2/14/2013 4:56:45 PM from RF3PTS215.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.6.30208.1000</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 2/14/2013 2:58:27 PM from RF3PTS215.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.6.30208.1000</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 2/14/2013 2:57:28 PM from RF3PTS215.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.6.30208.1000</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 2/14/2013 2:53:49 PM from RF3PTS215.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.6.30208.1000</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_tcalford on 2/7/2013 3:28:28 PM from F32PTS215.F32PROD.MFG.INTEL.COM using LogAnalyzer2 v2.6.30110.1255</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_tcalford on 2/7/2013 3:19:14 PM from F32PTS215.F32PROD.MFG.INTEL.COM using LogAnalyzer2 v2.6.30110.1255</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_tcalford on 2/7/2013 2:51:18 PM from F32PTS215.F32PROD.MFG.INTEL.COM using LogAnalyzer2 v2.6.30110.1255</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_tcalford on 2/7/2013 2:27:44 PM from F32PTS215.F32PROD.MFG.INTEL.COM using LogAnalyzer2 v2.6.30110.1255</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_tcalford on 10/10/2012 2:00:53 PM from F32PTS215.F32PROD.MFG.INTEL.COM using LogAnalyzer2 v2.5.20710.1639</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_tcalford on 10/3/2012 4:02:03 PM from F32PTS215.F32PROD.MFG.INTEL.COM using LogAnalyzer2 v2.5.20710.1639</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_tcalford on 10/3/2012 3:45:23 PM from F32PTS215.F32PROD.MFG.INTEL.COM using LogAnalyzer2 v2.5.20710.1639</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_tcalford on 10/3/2012 3:45:09 PM from F32PTS215.F32PROD.MFG.INTEL.COM using LogAnalyzer2 v2.5.20710.1639</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_tcalford on 10/3/2012 3:45:03 PM from F32PTS215.F32PROD.MFG.INTEL.COM using LogAnalyzer2 v2.5.20710.1639</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_tcalford on 10/3/2012 3:44:21 PM from F32PTS215.F32PROD.MFG.INTEL.COM using LogAnalyzer2 v2.5.20710.1639</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_tcalford on 10/3/2012 3:44:09 PM from F32PTS215.F32PROD.MFG.INTEL.COM using LogAnalyzer2 v2.5.20710.1639</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_tcalford on 10/3/2012 3:42:22 PM from F32PTS215.F32PROD.MFG.INTEL.COM using LogAnalyzer2 v2.5.20710.1639</ChangeLog>
+  <QueryAttributes>
+    <OutputDateFormat>MM/dd/yyyy HH:mm</OutputDateFormat>
+    <MaxNumberOfThreads>5</MaxNumberOfThreads>
+    <AlwaysReplaceDomainWithLocal>false</AlwaysReplaceDomainWithLocal>
+  </QueryAttributes>
+  <PostQuerySQL>select * from %{OUTPUT}</PostQuerySQL>
+  <TableLayoutConfig>
+    <BoundColumnList>NodeName,SCAdapterProfile,SCAdapterInstalled,SCAdapterInstallDate,SCAdminProfile,SCAdminInstalled,SCAdminInstallDate,SDRProfile,SDRInstalled,SDRInstallDate</BoundColumnList>
+  </TableLayoutConfig>
+  <RowHighlightingRules Enable="true" ColumnName="*" FilterRegex="Error" RowColorString="NamedColor:Red" />
+  <RowHighlightingRules Enable="true" ColumnName="*" FilterRegex="Warning" RowColorString="NamedColor:Yellow" />
+  <TabOrder>C0,C1,C2,C3,C4,C5</TabOrder>
+  <MainPivotConfig Enable="true">
+    <ColumnX FieldName="SCAdapterInstalled" FieldType="String" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <ColumnY FieldName="" FieldType="" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <ColumnData FieldName="COUNT OF" FieldType="String" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <RotateXAxisLabels>false</RotateXAxisLabels>
+    <Name>SCAdapter</Name>
+    <ChartTitle>SCAdapter Distribution</ChartTitle>
+    <ColorPalette>Median</ColorPalette>
+    <ChartExportSize>800x400</ChartExportSize>
+    <ShowLegend>false</ShowLegend>
+    <CustomPalette />
+    <TableData />
+  </MainPivotConfig>
+  <MainPivotConfig Enable="true">
+    <ColumnX FieldName="SCAdapterInstallDate" FieldType="String" SortMode="Default" SortOrder="Ascending" SummaryType="Sum" SortBySummaryInfo="false" />
+    <ColumnY FieldName="" FieldType="" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <ColumnData FieldName="COUNT OF" FieldType="Int32" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <ChartType>Line</ChartType>
+    <Name>SCAdapter Timeline</Name>
+    <ChartTitle>SCAdapter Install Timeline</ChartTitle>
+    <ColorPalette>Median</ColorPalette>
+    <ChartExportSize>800x400</ChartExportSize>
+    <ShowLegend>false</ShowLegend>
+    <TimeIntervalForDateScale>13w</TimeIntervalForDateScale>
+    <DateFormat>Auto</DateFormat>
+    <CustomPalette />
+    <TableData />
+  </MainPivotConfig>
+  <MainPivotConfig Enable="true">
+    <ColumnX FieldName="SCAdminInstalled" FieldType="String" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <ColumnY FieldName="" FieldType="" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <ColumnData FieldName="COUNT OF" FieldType="String" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <RotateXAxisLabels>false</RotateXAxisLabels>
+    <Name>SCAdmin</Name>
+    <ChartTitle>SCAdmin Distribution</ChartTitle>
+    <ColorPalette>Median</ColorPalette>
+    <ChartExportSize>800x400</ChartExportSize>
+    <ShowLegend>false</ShowLegend>
+    <CustomPalette />
+    <TableData />
+  </MainPivotConfig>
+  <MainPivotConfig Enable="true">
+    <ColumnX FieldName="SCAdminInstallDate" FieldType="String" SortMode="Default" SortOrder="Ascending" SummaryType="Sum" SortBySummaryInfo="false" />
+    <ColumnY FieldName="" FieldType="" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <ColumnData FieldName="COUNT OF" FieldType="Int32" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <ChartType>Line</ChartType>
+    <Name>SCAdmin Timeline</Name>
+    <ChartTitle>SCAdmin Install Timeline</ChartTitle>
+    <ColorPalette>Median</ColorPalette>
+    <ChartExportSize>800x400</ChartExportSize>
+    <ShowLegend>false</ShowLegend>
+    <TimeIntervalForDateScale>13w</TimeIntervalForDateScale>
+    <DateFormat>Auto</DateFormat>
+    <CustomPalette />
+    <TableData />
+  </MainPivotConfig>
+  <MainPivotConfig Enable="true">
+    <ColumnX FieldName="SDRInstalled" FieldType="String" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <ColumnY FieldName="" FieldType="" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <ColumnData FieldName="COUNT OF" FieldType="String" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <RotateXAxisLabels>false</RotateXAxisLabels>
+    <Name>SDR</Name>
+    <ChartTitle>SDR Distribution</ChartTitle>
+    <ColorPalette>Median</ColorPalette>
+    <ChartExportSize>800x400</ChartExportSize>
+    <ShowLegend>false</ShowLegend>
+    <CustomPalette />
+    <TableData />
+  </MainPivotConfig>
+  <MainPivotConfig Enable="true">
+    <ColumnX FieldName="SDRInstallDate" FieldType="String" SortMode="Default" SortOrder="Ascending" SummaryType="Sum" SortBySummaryInfo="false" />
+    <ColumnY FieldName="" FieldType="" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <ColumnData FieldName="COUNT OF" FieldType="Int32" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <ChartType>Line</ChartType>
+    <Name>SDR Timeline</Name>
+    <ChartTitle>SDR Install Timeline</ChartTitle>
+    <ColorPalette>Median</ColorPalette>
+    <ChartExportSize>800x400</ChartExportSize>
+    <ShowLegend>false</ShowLegend>
+    <TimeIntervalForDateScale>13w</TimeIntervalForDateScale>
+    <DateFormat>Auto</DateFormat>
+    <CustomPalette />
+    <TableData />
+  </MainPivotConfig>
+  <AutoPivotConfig OutputDateFormat="yyyy ww.w HH:mm" StatisticalFunctionsForColumn="Avg, 50, 90,96, Count" />
+  <MailConfig>
+    <PostProcessingSQL Enable="false" />
+    <EmailCondition Enable="false" Operator="&gt;=" ThresholdRowCount="0">
+      <SQLQuery />
+      <RunScriptBeforeEmailing>false</RunScriptBeforeEmailing>
+      <Script />
+    </EmailCondition>
+    <PostProcessingCondition Enable="false" Operator="&gt;" ThresholdRowCount="0">
+      <SQLQuery />
+      <RunScriptBeforeEmailing>false</RunScriptBeforeEmailing>
+    </PostProcessingCondition>
+    <CopyCondition Enable="false" Operator="&gt;" ThresholdRowCount="0">
+      <SQLQuery />
+      <RunScriptBeforeEmailing>false</RunScriptBeforeEmailing>
+    </CopyCondition>
+    <SMTPServer>smtpauth.intel.com:587</SMTPServer>
+    <From>LogAnalyzer2@DONOTREPLY.COM</From>
+    <ReplyTo>@{DASHBOARD_OWNER_ALERT_DIST}</ReplyTo>
+    <To />
+    <Subject>NTSC Application Report</Subject>
+    <Body />
+    <MailAttachments FileNamingFormat="${SETTINGS}" Excel="false" CSV="false" LAS="false" LAD="false" Exceptions="false" StatusLogs="false" PivotChart="true" ZipAttachments="false" DoNotSendAttachmentsWithEmail="false" IncludeJobStatisticsHeader="false" IncludeQuerySettingsFileHeader="false" IncludeVariableDefinitionHeader="false" IncludeRowCountInSubject="false" />
+    <IncludeSQLQueryInBody>false</IncludeSQLQueryInBody>
+    <TableInBody Enable="true">
+      <SQL />
+    </TableInBody>
+    <TableLocation>Top</TableLocation>
+    <CopyOutputToDirectory>true</CopyOutputToDirectory>
+    <OutputDirectory>@{DASHBOARD_WEB_SPOOL}\PCAM\Output</OutputDirectory>
+    <IncludeAutoPivotSummary>false</IncludeAutoPivotSummary>
+    <IncludeCustomPivotSummary>false</IncludeCustomPivotSummary>
+    <IgnoreExceptions>true</IgnoreExceptions>
+    <SuppressMail>false</SuppressMail>
+    <MailHighImportance>false</MailHighImportance>
+    <OnlyCopyOutputIfEmailConditionIsMet>false</OnlyCopyOutputIfEmailConditionIsMet>
+  </MailConfig>
+  <TableSchema><xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+  <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="Results" msdata:UseCurrentLocale="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Results">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="NodeName" type="xs:string" minOccurs="0" />
+              <xs:element name="SCAdapterProfile" type="xs:string" minOccurs="0" />
+              <xs:element name="SCAdapterInstalled" type="xs:string" minOccurs="0" />
+              <xs:element name="SCAdapterInstallDate" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="SCAdminProfile" type="xs:string" minOccurs="0" />
+              <xs:element name="SCAdminInstalled" type="xs:string" minOccurs="0" />
+              <xs:element name="SCAdminInstallDate" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="SDRProfile" type="xs:string" minOccurs="0" />
+              <xs:element name="SDRInstalled" type="xs:string" minOccurs="0" />
+              <xs:element name="SDRInstallDate" type="xs:dateTime" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
+</TableSchema>
+  <TableData />
+  <LastRunAbsoluteDateFilter />
+  <PivotGroupingSettings Enable="true" PivotColumn="ActiveVersion">
+    <SortyByColumn>Count</SortyByColumn>
+  </PivotGroupingSettings>
+  <QuerySQL><![CDATA[
+--[FileName:"D:\Dashboard\Jobs\PCAM\24-hr\NTSC_Apps.lasx"]------
+----------<VARIABLES>------------
+var TIMEFILTER = "Last 7 days"
+var NODEFILTER = "@{WINCLIENT_NODE_LIST}"
+var NODELIST_EXCLUDE = "@{WINCLIENT_EXCLUDE_LIST}"
+var DOMAIN = "RF3PROD,RF2PROD"
+var SCADAPTERINSTALL_REG = "\\%{NODELIST}\HKLM\SOFTWARE\Intel\FabAuto\CPP\History\PCAM\NTSC\SCAdapter"
+var SCADMININSTALL_REG = "\\%{NODELIST}\HKLM\SOFTWARE\Intel\FabAuto\CPP\History\PCAM\NTSC\SCAdmin"
+var SDRINSTALL_REG = "\\%{NODELIST}\HKLM\SOFTWARE\Intel\FabAuto\CPP\History\PCAM\NTSC\SDR"
+var SCADAPTERPROFILE_REG = "\\%{NODELIST}\HKLM\SOFTWARE\Intel\FabAuto\CPP\Information\PCAM\NTSC\SCAdapter"
+var SCADMINPROFILE_REG = "\\%{NODELIST}\HKLM\SOFTWARE\Intel\FabAuto\CPP\Information\PCAM\NTSC\SCAdmin"
+var SDRPROFILE_REG = "\\%{NODELIST}\HKLM\SOFTWARE\Intel\FabAuto\CPP\Information\PCAM\NTSC\SDR"
+var CUSTOM_REGPATH = "\\%{NODELIST}\HKLM\SOFTWARE\Intel\FabAuto\CPP\Information"
+var CUSTOM_REGKEY = "FunctionalArea"
+---[NODELIST]---
+[ThreadQuery(1)] --** Invoke a separate thread for every 1 output row(s) of the {NODELIST} query
+BEGIN NODELIST
+	UseMethod GetNodeList with -- **Get the list of nodes matching specified domain and filter**
+		Domain = "${DOMAIN}" -- Domain to search for nodes in (can be comma-separated-list) [String]
+		NodeFilter = "${NODEFILTER}" -- Pattern to look for nodes (comma-separated-list) [String]
+		ExcludeFilter = "${NODELIST_EXCLUDE}" -- Pattern to exclude from the list of nodes (comma-separated-list) [String]
+		OnlyIncludePingableNodes = true -- Only include nodes that can be pinged [Boolean]
+		OnlyIncludeDNSComputerNameMatchedNodes = true -- DNS hostname from IP must match computername from registry [Boolean]
+END NODELIST
+---[SCADMININSTALL_CSV]---
+BEGIN SCADMININSTALL_CSV
+	---Begin Main Query---
+	Using REG with
+	SELECT
+		computername as NodeName,
+		EXTRACT_SUFFIX(valuename, 0, ' - ') as SCAdminInstalled,
+		value as SCAdminInstallDate
+	FROM
+		'${SCAdminINSTALL_REG}'
+	ORDER BY
+		NodeName, SCAdminInstalled, SCAdminInstallDate desc
+END SCADMININSTALL_CSV
+---[SCADAPTERINSTALL_CSV]---
+BEGIN SCADAPTERINSTALL_CSV
+	---Begin Main Query---
+	Using REG with
+	SELECT
+		computername as NodeName,
+		EXTRACT_SUFFIX(valuename, 0, ' - ') as SCAdapterInstalled,
+		value as SCAdapterInstallDate
+	FROM
+		'${SCAdapterINSTALL_REG}'
+	ORDER BY
+		NodeName, SCAdapterInstalled, SCAdapterInstallDate desc
+END SCADAPTERINSTALL_CSV
+---[SDRINSTALL_CSV]---
+BEGIN SDRINSTALL_CSV
+	---Begin Main Query---
+	Using REG with
+	SELECT
+		computername as NodeName,
+		EXTRACT_SUFFIX(valuename, 0, ' - ') as SDRInstalled,
+		value as SDRInstallDate
+	FROM
+		'${SDRINSTALL_REG}'
+	ORDER BY
+		NodeName, SDRInstalled, SDRInstallDate desc
+END SDRINSTALL_CSV
+---[SCADAPTERPROFILE_CSV]---
+BEGIN SCADAPTERPROFILE_CSV
+	---Begin Main Query---
+	Using REG with
+	SELECT
+		computername as NodeName,
+		value as SCAdapterProfile
+	FROM
+		'${SCAdapterPROFILE_REG}'
+	WHERE
+		valuename = 'ProductName'
+END SCADAPTERPROFILE_CSV
+---[SCADMINPROFILE_CSV]---
+BEGIN SCADMINPROFILE_CSV
+	---Begin Main Query---
+	Using REG with
+	SELECT
+		computername as NodeName,
+		value as SCAdminProfile
+	FROM
+		'${SCAdminPROFILE_REG}'
+	WHERE
+		valuename = 'ProductName'
+END SCADMINPROFILE_CSV
+---[SDRPROFILE_CSV]---
+BEGIN SDRPROFILE_CSV
+	---Begin Main Query---
+	Using REG with
+	SELECT
+		computername as NodeName,
+		value as SDRProfile
+	FROM
+		'${SDRPROFILE_REG}'
+	WHERE
+		valuename = 'ProductName'
+END SDRPROFILE_CSV
+---[JOIN_CSV]---
+BEGIN JOIN_CSV
+	UseMethod Join with -- **Do an outer join for two tables based on a matching column**
+		InputFile1 = "%{SCAdapterPROFILE_CSV}" -- Input CSV File #1 containing table data [String]
+		InputFile2 = "%{SCAdapterINSTALL_CSV}" -- Input CSV File #2 containing table data [String]
+		InputFile3 = "%{SCAdminPROFILE_CSV}" -- Input CSV File #3 containing table data (optional) [String]
+		InputFile4 = "%{SCAdminINSTALL_CSV}" -- Input CSV File #4 containing table data (optional) [String]
+		InputFile5 = "%{SDRPROFILE_CSV}" -- Input CSV File #5 containing table data (optional) [String]
+		InputFile6 = "%{SDRINSTALL_CSV}" -- Input CSV File #6 containing table data (optional) [String]
+		JoinColumn = "NodeName" -- Column name(s) on which to join the two tables (more than one column can be supplied by using comma as a separator) [String]
+		IgnoreDuplicate = true -- Flag to ignore duplicate items in the JoinColumn [Boolean]
+		IgnoreCase = false -- Flag to ignore case in the JoinColumn [Boolean]
+		OnlyShowNonMatchingRows = false -- Flag to only show non-matching orphan rows [Boolean]
+		IncludeNonMatchingRows = true -- Flag to also include non-matching orphan rows (but with blank entries) [Boolean]
+		MustIncludeOutputColumns = "" -- Name of columns (comma-separated) that must be included in output even if the join does not materialize [String]
+END JOIN_CSV
+---Begin Main Query---
+Using CSV with
+SELECT
+	*
+FROM
+	%{JOIN_CSV}
+
+]]></QuerySQL>
+</QueryConfig>

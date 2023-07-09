@@ -1,0 +1,2524 @@
+<QueryConfig AutoExecuteQueryOnLoad="false">
+  <ChangeLog>Changed by AMR\mfg_tcalford on 10/12/2015 1:26:11 PM from F32PAP216N3.F32PROD.MFG.INTEL.COM using LogAnalyzer2 v2.8.40713.1943</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_tcalford on 10/12/2015 1:12:24 PM from F32PAP216N3.F32PROD.MFG.INTEL.COM using LogAnalyzer2 v2.8.40713.1943</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_tcalford on 10/12/2015 1:12:14 PM from F32PAP216N3.F32PROD.MFG.INTEL.COM using LogAnalyzer2 v2.8.40713.1943</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 2/17/2015 8:50:09 AM from RF3PAP216N3.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.8.40713.1943</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 2/17/2015 8:50:02 AM from RF3PAP216N3.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.8.40713.1943</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 2/16/2015 4:09:50 PM from RF3PAP216N3.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.8.40713.1943</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 11/6/2014 9:41:52 AM from RF3PTS216.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.8.40923.2310</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 11/18/2013 4:32:00 PM from RF3PTS216.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.7.31110.0013</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 11/18/2013 4:01:12 PM from RF3PTS216.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.7.31110.0013</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 11/18/2013 3:29:48 PM from RF3PTS216.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.7.31110.0013</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 11/18/2013 3:15:50 PM from RF3PTS216.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.7.31110.0013</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 11/18/2013 3:15:15 PM from RF3PTS216.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.7.31110.0013</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 5/1/2013 4:48:03 PM from RF3PTS215.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.6.30430.2016</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 3/18/2013 12:38:30 PM from RF3PTS215.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.6.30225.0930</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 2/25/2013 4:15:14 PM from RF3PTS215.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.6.30225.0930</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 2/25/2013 3:43:30 PM from RF3PTS215.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.6.30225.0930</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 2/25/2013 2:52:33 PM from RF3PTS215.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.6.30225.0930</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 2/25/2013 2:52:18 PM from RF3PTS215.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.6.30225.0930</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 1/14/2013 1:07:48 PM from RF3PAP216N3.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.6.30114.1108</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_tcalford on 9/19/2012 12:53:42 PM from RF3PTS215.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.5.20917.2301</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_tcalford on 9/19/2012 12:43:46 PM from RF3PTS215.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.5.20917.2301</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_tcalford on 9/19/2012 12:27:08 PM from RF3PTS215.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.5.20917.2301</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_tcalford on 9/19/2012 12:13:28 PM from RF3PTS215.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.5.20917.2301</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_tcalford on 9/19/2012 12:01:58 PM from RF3PTS215.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.5.20917.2301</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_tcalford on 9/19/2012 11:59:08 AM from RF3PTS215.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.5.20917.2301</ChangeLog>
+  <QueryAttributes>
+    <OutputDateFormat>MM/dd/yy HH:mm:ss</OutputDateFormat>
+    <AlwaysReplaceDomainWithLocal>false</AlwaysReplaceDomainWithLocal>
+  </QueryAttributes>
+  <PostQuerySQL>select * from %{OUTPUT}</PostQuerySQL>
+  <TableLayoutConfig>
+    <BoundColumnList>Filename,RowNumber,NodeName,Name,FunctionalArea,ActiveMC,Component,Value,Scope</BoundColumnList>
+  </TableLayoutConfig>
+  <TabOrder>C0,C1,G0,C2,C3,G1,C4,C5,G2,C6,C7,C8,C9,G3,G4,C10,C11,G5,C12,C13,G6,C14,C15,G7,C16,C17,G8,C18,C19,G9,C20,C21,G10,C22,C23,G11,C24,C25,G12,C26,C27,G13,C28,C29,G14,C30,C31,G15,C32,C33,G16,C34,C35,G17,C36,C37,G18,C38,C39,G19,C40,C41,G20,C42,C43,G21,C44,C45,G22,C46,C47,G23,C48,C49,G24,C50,C51,G25,C52,C53,G26</TabOrder>
+  <MainPivotConfig Enable="true">
+    <QuerySQL>SELECT
+	name, scope, value
+FROM
+	%{output}
+WHERE
+	name like 'UI_AllowedControllingUINodes'
+</QuerySQL>
+    <ColumnX FieldName="Name" FieldType="String" SortMode="Default" SortOrder="Descending" SummaryType="Count" SortBySummaryInfo="false" />
+    <ColumnY FieldName="Scope" FieldType="String" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="true" SortBySummaryInfoFieldName="COUNT OF" />
+    <ColumnData FieldName="COUNT OF" FieldType="String" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <RotateXAxisLabels>false</RotateXAxisLabels>
+    <GenerateSeriesFromColumns>false</GenerateSeriesFromColumns>
+    <Name>UI_AllowedControllingUINodes</Name>
+    <ChartTitle>UI_AllowedControllingUINodes by Level</ChartTitle>
+    <ColorPalette>Median</ColorPalette>
+    <ChartExportSize>525x300</ChartExportSize>
+    <ShowLegend>false</ShowLegend>
+    <IsYAxisVisible>false</IsYAxisVisible>
+    <CustomPalette />
+    <TableData />
+  </MainPivotConfig>
+  <MainPivotConfig Enable="true">
+    <QuerySQL>SELECT
+	name, scope, value, functionalArea
+FROM
+	%{output}
+WHERE
+	name like 'UI_AllowedControllingUINodes'</QuerySQL>
+    <ColumnX FieldName="FunctionalArea" FieldType="String" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <ColumnY FieldName="Scope" FieldType="String" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <ColumnData FieldName="COUNT OF" FieldType="String" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <ChartType>StackedBar</ChartType>
+    <RotateXAxisLabels>false</RotateXAxisLabels>
+    <ShowColumnTotals>false</ShowColumnTotals>
+    <Name>UI_AllowedControllingUINodes by Area</Name>
+    <ChartTitle>UI_AllowedControllingUINodes by Area</ChartTitle>
+    <ColorPalette>Median</ColorPalette>
+    <ChartExportSize>525x300</ChartExportSize>
+    <LegendAlignmentHorizontal>Center</LegendAlignmentHorizontal>
+    <LegendAlignmentVertical>BottomOutside</LegendAlignmentVertical>
+    <LegendDirection>LeftToRight</LegendDirection>
+    <IsYAxisVisible>false</IsYAxisVisible>
+    <CustomPalette />
+    <TableData />
+  </MainPivotConfig>
+  <MainPivotConfig Enable="true">
+    <QuerySQL>SELECT
+	name, scope, value, functionalarea
+FROM
+	%{output}
+WHERE
+	name like 'ID_ParallelPortDelivery'
+</QuerySQL>
+    <ColumnX FieldName="Scope" FieldType="String" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <ColumnY FieldName="Value" FieldType="String" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <ColumnData FieldName="COUNT OF" FieldType="String" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <RotateXAxisLabels>false</RotateXAxisLabels>
+    <GenerateSeriesFromColumns>false</GenerateSeriesFromColumns>
+    <Name>ID_ParallelPortDelivery</Name>
+    <ChartTitle>ID_ParallelPortDelivery Value and Level</ChartTitle>
+    <ColorPalette>Median</ColorPalette>
+    <ChartExportSize>525x300</ChartExportSize>
+    <LegendAlignmentHorizontal>Center</LegendAlignmentHorizontal>
+    <LegendAlignmentVertical>BottomOutside</LegendAlignmentVertical>
+    <LegendDirection>LeftToRight</LegendDirection>
+    <IsYAxisVisible>false</IsYAxisVisible>
+    <CustomPalette />
+    <TableData />
+  </MainPivotConfig>
+  <MainPivotConfig Enable="true">
+    <QuerySQL>SELECT
+	name, scope, value, functionalarea
+FROM
+	%{output}
+WHERE
+	name like 'ID_ParallelPortDelivery'
+</QuerySQL>
+    <ColumnX FieldName="Value" FieldType="String" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <ColumnY FieldName="FunctionalArea" FieldType="String" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <ColumnData FieldName="COUNT OF" FieldType="String" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <ChartType>StackedBar</ChartType>
+    <GenerateSeriesFromColumns>false</GenerateSeriesFromColumns>
+    <Name>ID_ParallelPortDelivery by Area</Name>
+    <ChartTitle>ID_ParallelPortDelivery by Area</ChartTitle>
+    <ColorPalette>Median</ColorPalette>
+    <ChartExportSize>525x300</ChartExportSize>
+    <LegendAlignmentHorizontal>Center</LegendAlignmentHorizontal>
+    <LegendAlignmentVertical>BottomOutside</LegendAlignmentVertical>
+    <LegendDirection>LeftToRight</LegendDirection>
+    <IsYAxisVisible>false</IsYAxisVisible>
+    <CustomPalette />
+    <TableData />
+  </MainPivotConfig>
+  <MainPivotConfig Enable="true">
+    <QuerySQL>SELECT
+	name, scope, value
+FROM
+	%{output}
+WHERE
+	name like 'ID_EnableL7L8'
+</QuerySQL>
+    <ColumnX FieldName="Scope" FieldType="String" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <ColumnY FieldName="Value" FieldType="String" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <ColumnData FieldName="COUNT OF" FieldType="String" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <RotateXAxisLabels>false</RotateXAxisLabels>
+    <GenerateSeriesFromColumns>false</GenerateSeriesFromColumns>
+    <Name>ID_EnableL7L8</Name>
+    <ChartTitle>ID_EnableL7L8 Value and Level</ChartTitle>
+    <ColorPalette>Median</ColorPalette>
+    <ChartExportSize>525x300</ChartExportSize>
+    <LegendAlignmentHorizontal>Center</LegendAlignmentHorizontal>
+    <LegendAlignmentVertical>BottomOutside</LegendAlignmentVertical>
+    <LegendDirection>LeftToRight</LegendDirection>
+    <IsYAxisVisible>false</IsYAxisVisible>
+    <CustomPalette />
+    <TableData />
+  </MainPivotConfig>
+  <MainPivotConfig Enable="true">
+    <QuerySQL>SELECT
+	name, scope, value, functionalarea
+FROM
+	%{output}
+WHERE
+	name like 'ID_EnableL7L8'
+</QuerySQL>
+    <ColumnX FieldName="Value" FieldType="String" SortMode="Default" SortOrder="Descending" SummaryType="Count" SortBySummaryInfo="false" />
+    <ColumnY FieldName="FunctionalArea" FieldType="String" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <ColumnData FieldName="COUNT OF" FieldType="String" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <ChartType>StackedBar</ChartType>
+    <GenerateSeriesFromColumns>false</GenerateSeriesFromColumns>
+    <Name>ID_EnableL7L8 by Area</Name>
+    <ChartTitle>ID_EnableL7L8 by Area</ChartTitle>
+    <ColorPalette>Median</ColorPalette>
+    <ChartExportSize>525x300</ChartExportSize>
+    <LegendAlignmentHorizontal>Center</LegendAlignmentHorizontal>
+    <LegendAlignmentVertical>BottomOutside</LegendAlignmentVertical>
+    <LegendDirection>LeftToRight</LegendDirection>
+    <IsYAxisVisible>false</IsYAxisVisible>
+    <CustomPalette />
+    <TableData />
+  </MainPivotConfig>
+  <MainPivotConfig Enable="true">
+    <QuerySQL>SELECT
+	name, scope, value
+FROM
+	%{output}
+WHERE
+	name like 'CFS_EnableFileDownload' </QuerySQL>
+    <ColumnX FieldName="Scope" FieldType="String" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <ColumnY FieldName="Value" FieldType="String" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <ColumnData FieldName="COUNT OF" FieldType="String" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <RotateXAxisLabels>false</RotateXAxisLabels>
+    <ShowColumnTotals>false</ShowColumnTotals>
+    <GenerateSeriesFromColumns>false</GenerateSeriesFromColumns>
+    <Name>CFS_EnableFileDownload</Name>
+    <ChartTitle>CFS_EnableFileDownload Value and Level</ChartTitle>
+    <ColorPalette>Median</ColorPalette>
+    <ChartExportSize>525x300</ChartExportSize>
+    <LegendAlignmentHorizontal>Center</LegendAlignmentHorizontal>
+    <LegendAlignmentVertical>BottomOutside</LegendAlignmentVertical>
+    <LegendDirection>LeftToRight</LegendDirection>
+    <IsYAxisVisible>false</IsYAxisVisible>
+    <CustomPalette />
+    <TableData />
+  </MainPivotConfig>
+  <MainPivotConfig Enable="true">
+    <QuerySQL>SELECT
+	name, scope, value, functionalarea
+FROM
+	%{output}
+WHERE
+	name like 'CFS_EnableFileDownload'
+</QuerySQL>
+    <ColumnX FieldName="Value" FieldType="String" SortMode="Default" SortOrder="Descending" SummaryType="Count" SortBySummaryInfo="false" />
+    <ColumnY FieldName="FunctionalArea" FieldType="String" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <ColumnData FieldName="COUNT OF" FieldType="String" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <ChartType>StackedBar</ChartType>
+    <ShowColumnTotals>false</ShowColumnTotals>
+    <GenerateSeriesFromColumns>false</GenerateSeriesFromColumns>
+    <Name>CFS_EnableFileDownload by Area</Name>
+    <ChartTitle>CFS_EnableFileDownload by Area</ChartTitle>
+    <ColorPalette>Median</ColorPalette>
+    <ChartExportSize>525x300</ChartExportSize>
+    <LegendAlignmentHorizontal>Center</LegendAlignmentHorizontal>
+    <LegendAlignmentVertical>BottomOutside</LegendAlignmentVertical>
+    <LegendDirection>LeftToRight</LegendDirection>
+    <IsYAxisVisible>false</IsYAxisVisible>
+    <CustomPalette />
+    <TableData />
+  </MainPivotConfig>
+  <MainPivotConfig Enable="true">
+    <QuerySQL>SELECT
+	name, scope, value, functionalarea
+FROM
+	%{output}
+WHERE
+	name like 'CFS_EnableDeleteOrphanFiles'
+</QuerySQL>
+    <ColumnX FieldName="Value" FieldType="String" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <ColumnY FieldName="Scope" FieldType="String" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <ColumnData FieldName="COUNT OF" FieldType="String" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <ChartType>StackedBar</ChartType>
+    <RotateXAxisLabels>false</RotateXAxisLabels>
+    <ShowColumnTotals>false</ShowColumnTotals>
+    <Name>CFS_EnableDeleteOrphanFiles</Name>
+    <ChartTitle>CFS_EnableDeleteOrphanFiles Value and Level</ChartTitle>
+    <ColorPalette>Median</ColorPalette>
+    <ChartExportSize>525x300</ChartExportSize>
+    <LegendAlignmentHorizontal>Center</LegendAlignmentHorizontal>
+    <LegendAlignmentVertical>BottomOutside</LegendAlignmentVertical>
+    <LegendDirection>LeftToRight</LegendDirection>
+    <IsYAxisVisible>false</IsYAxisVisible>
+    <CustomPalette />
+    <TableData />
+  </MainPivotConfig>
+  <MainPivotConfig Enable="true">
+    <QuerySQL>SELECT
+	name, scope, value, functionalarea
+FROM
+	%{output}
+WHERE
+	name like 'CFS_EnableDeleteOrphanFiles'
+
+</QuerySQL>
+    <ColumnX FieldName="Value" FieldType="String" SortMode="Default" SortOrder="Descending" SummaryType="Count" SortBySummaryInfo="false" />
+    <ColumnY FieldName="FunctionalArea" FieldType="String" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <ColumnData FieldName="COUNT OF" FieldType="String" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <ChartType>StackedBar</ChartType>
+    <ShowColumnTotals>false</ShowColumnTotals>
+    <GenerateSeriesFromColumns>false</GenerateSeriesFromColumns>
+    <Name>CFS_EnableDeleteOrphanFiles by Area</Name>
+    <ChartTitle>CFS_EnableDeleteOrphanFiles by Area</ChartTitle>
+    <ColorPalette>Median</ColorPalette>
+    <ChartExportSize>525x300</ChartExportSize>
+    <LegendAlignmentHorizontal>Center</LegendAlignmentHorizontal>
+    <LegendAlignmentVertical>BottomOutside</LegendAlignmentVertical>
+    <LegendDirection>LeftToRight</LegendDirection>
+    <IsYAxisVisible>false</IsYAxisVisible>
+    <CustomPalette />
+    <TableData />
+  </MainPivotConfig>
+  <MainPivotConfig Enable="true">
+    <QuerySQL>SELECT
+	name, scope, value
+FROM
+	%{output}
+WHERE
+	name like 'IR2_IntroRefactor'
+</QuerySQL>
+    <ColumnX FieldName="Scope" FieldType="String" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <ColumnY FieldName="Value" FieldType="String" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <ColumnData FieldName="COUNT OF" FieldType="String" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <RotateXAxisLabels>false</RotateXAxisLabels>
+    <ShowColumnTotals>false</ShowColumnTotals>
+    <GenerateSeriesFromColumns>false</GenerateSeriesFromColumns>
+    <Name>IR2_IntroRefactor</Name>
+    <ChartTitle>IR2_IntroRefactor Value and Level</ChartTitle>
+    <ColorPalette>Median</ColorPalette>
+    <ChartExportSize>525x300</ChartExportSize>
+    <LegendAlignmentHorizontal>Center</LegendAlignmentHorizontal>
+    <LegendAlignmentVertical>BottomOutside</LegendAlignmentVertical>
+    <LegendDirection>LeftToRight</LegendDirection>
+    <IsYAxisVisible>false</IsYAxisVisible>
+    <CustomPalette />
+    <TableData />
+  </MainPivotConfig>
+  <MainPivotConfig Enable="true">
+    <QuerySQL>SELECT
+	name, scope, value, functionalarea
+FROM
+	%{output}
+WHERE
+	name like 'IR2_IntroRefactor'
+</QuerySQL>
+    <ColumnX FieldName="Value" FieldType="String" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <ColumnY FieldName="FunctionalArea" FieldType="String" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <ColumnData FieldName="COUNT OF" FieldType="String" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <ChartType>StackedBar</ChartType>
+    <ShowColumnTotals>false</ShowColumnTotals>
+    <GenerateSeriesFromColumns>false</GenerateSeriesFromColumns>
+    <Name>IR2_IntroRefactor by Area</Name>
+    <ChartTitle>IR2_IntroRefactor by Area</ChartTitle>
+    <ColorPalette>Median</ColorPalette>
+    <ChartExportSize>525x300</ChartExportSize>
+    <LegendAlignmentHorizontal>Center</LegendAlignmentHorizontal>
+    <LegendAlignmentVertical>BottomOutside</LegendAlignmentVertical>
+    <LegendDirection>LeftToRight</LegendDirection>
+    <IsYAxisVisible>false</IsYAxisVisible>
+    <CustomPalette />
+    <TableData />
+  </MainPivotConfig>
+  <MainPivotConfig Enable="true">
+    <QuerySQL>SELECT
+	name, scope, value
+FROM
+	%{output}
+WHERE
+	name like 'IR2_EarlyGetLot'
+</QuerySQL>
+    <ColumnX FieldName="Scope" FieldType="String" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <ColumnY FieldName="Value" FieldType="String" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="true" SortBySummaryInfoFieldName="COUNT OF" />
+    <ColumnData FieldName="COUNT OF" FieldType="String" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <RotateXAxisLabels>false</RotateXAxisLabels>
+    <ShowColumnTotals>false</ShowColumnTotals>
+    <GenerateSeriesFromColumns>false</GenerateSeriesFromColumns>
+    <Name>IR2_EarlyGetLot</Name>
+    <ChartTitle>IR2_EarlyGetLot Value and Level</ChartTitle>
+    <ColorPalette>Median</ColorPalette>
+    <ChartExportSize>525x300</ChartExportSize>
+    <LegendAlignmentHorizontal>Center</LegendAlignmentHorizontal>
+    <LegendAlignmentVertical>BottomOutside</LegendAlignmentVertical>
+    <LegendDirection>LeftToRight</LegendDirection>
+    <IsYAxisVisible>false</IsYAxisVisible>
+    <CustomPalette />
+    <TableData />
+  </MainPivotConfig>
+  <MainPivotConfig Enable="true">
+    <QuerySQL>SELECT
+	name, scope, value, functionalarea
+FROM
+	%{output}
+WHERE
+	name like 'IR2_EarlyGetLot'
+</QuerySQL>
+    <ColumnX FieldName="Value" FieldType="String" SortMode="Default" SortOrder="Descending" SummaryType="Count" SortBySummaryInfo="false" />
+    <ColumnY FieldName="FunctionalArea" FieldType="String" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <ColumnData FieldName="COUNT OF" FieldType="String" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <ChartType>StackedBar</ChartType>
+    <ShowColumnTotals>false</ShowColumnTotals>
+    <GenerateSeriesFromColumns>false</GenerateSeriesFromColumns>
+    <Name>IR2_EarlyGetLot by Area</Name>
+    <ChartTitle>IR2_EarlyGetLot by Area</ChartTitle>
+    <ColorPalette>Median</ColorPalette>
+    <ChartExportSize>525x300</ChartExportSize>
+    <LegendAlignmentHorizontal>Center</LegendAlignmentHorizontal>
+    <LegendAlignmentVertical>BottomOutside</LegendAlignmentVertical>
+    <LegendDirection>LeftToRight</LegendDirection>
+    <IsYAxisVisible>false</IsYAxisVisible>
+    <CustomPalette />
+    <TableData />
+  </MainPivotConfig>
+  <MainPivotConfig Enable="true">
+    <QuerySQL>SELECT
+	name, scope, value
+FROM
+	%{output}
+WHERE
+	name like 'SoftPin_Enabled'
+</QuerySQL>
+    <ColumnX FieldName="Scope" FieldType="String" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <ColumnY FieldName="Value" FieldType="String" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <ColumnData FieldName="COUNT OF" FieldType="String" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <RotateXAxisLabels>false</RotateXAxisLabels>
+    <ShowColumnTotals>false</ShowColumnTotals>
+    <GenerateSeriesFromColumns>false</GenerateSeriesFromColumns>
+    <Name>SoftPin_Enabled</Name>
+    <ChartTitle>SoftPin_Enabled Value and Level</ChartTitle>
+    <ColorPalette>Median</ColorPalette>
+    <ChartExportSize>525x300</ChartExportSize>
+    <LegendAlignmentHorizontal>Center</LegendAlignmentHorizontal>
+    <LegendAlignmentVertical>BottomOutside</LegendAlignmentVertical>
+    <LegendDirection>LeftToRight</LegendDirection>
+    <IsYAxisVisible>false</IsYAxisVisible>
+    <CustomPalette />
+    <TableData />
+  </MainPivotConfig>
+  <MainPivotConfig Enable="true">
+    <QuerySQL>SELECT
+	name, scope, value, functionalarea
+FROM
+	%{output}
+WHERE
+	name like 'SoftPin_Enabled'
+</QuerySQL>
+    <ColumnX FieldName="Value" FieldType="String" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <ColumnY FieldName="FunctionalArea" FieldType="String" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <ColumnData FieldName="COUNT OF" FieldType="String" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <ChartType>StackedBar</ChartType>
+    <ShowColumnTotals>false</ShowColumnTotals>
+    <GenerateSeriesFromColumns>false</GenerateSeriesFromColumns>
+    <Name>SoftPin_Enabled by Area</Name>
+    <ChartTitle>SoftPin_Enabled by Area</ChartTitle>
+    <ColorPalette>Median</ColorPalette>
+    <ChartExportSize>525x300</ChartExportSize>
+    <LegendAlignmentHorizontal>Center</LegendAlignmentHorizontal>
+    <LegendAlignmentVertical>BottomOutside</LegendAlignmentVertical>
+    <LegendDirection>LeftToRight</LegendDirection>
+    <IsYAxisVisible>false</IsYAxisVisible>
+    <CustomPalette />
+    <TableData />
+  </MainPivotConfig>
+  <MainPivotConfig Enable="true">
+    <QuerySQL>SELECT
+	name, scope, value
+FROM
+	%{output}
+WHERE
+	name like 'EP_Mode'
+</QuerySQL>
+    <ColumnX FieldName="Value" FieldType="String" SortMode="Default" SortOrder="Descending" SummaryType="Count" SortBySummaryInfo="true" SortBySummaryInfoFieldName="COUNT OF" />
+    <ColumnY FieldName="Scope" FieldType="String" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <ColumnData FieldName="COUNT OF" FieldType="String" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <RotateXAxisLabels>false</RotateXAxisLabels>
+    <ShowColumnTotals>false</ShowColumnTotals>
+    <Name>EP_Mode</Name>
+    <ChartTitle>EP_Mode Value and Level</ChartTitle>
+    <ColorPalette>Median</ColorPalette>
+    <ChartExportSize>525x300</ChartExportSize>
+    <LegendAlignmentHorizontal>Center</LegendAlignmentHorizontal>
+    <LegendAlignmentVertical>BottomOutside</LegendAlignmentVertical>
+    <LegendDirection>LeftToRight</LegendDirection>
+    <IsYAxisVisible>false</IsYAxisVisible>
+    <CustomPalette />
+    <TableData />
+  </MainPivotConfig>
+  <MainPivotConfig Enable="true">
+    <QuerySQL>SELECT
+	name, scope, value, functionalarea
+FROM
+	%{output}
+WHERE
+	name like 'EP_Mode'
+</QuerySQL>
+    <ColumnX FieldName="Value" FieldType="String" SortMode="Default" SortOrder="Descending" SummaryType="Count" SortBySummaryInfo="true" SortBySummaryInfoFieldName="COUNT OF" />
+    <ColumnY FieldName="FunctionalArea" FieldType="String" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <ColumnData FieldName="COUNT OF" FieldType="String" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <ChartType>StackedBar</ChartType>
+    <ShowColumnTotals>false</ShowColumnTotals>
+    <GenerateSeriesFromColumns>false</GenerateSeriesFromColumns>
+    <Name>EP_Mode by Area</Name>
+    <ChartTitle>EP_Mode by Area</ChartTitle>
+    <ColorPalette>Median</ColorPalette>
+    <ChartExportSize>525x300</ChartExportSize>
+    <LegendAlignmentHorizontal>Center</LegendAlignmentHorizontal>
+    <LegendAlignmentVertical>BottomOutside</LegendAlignmentVertical>
+    <LegendDirection>LeftToRight</LegendDirection>
+    <IsYAxisVisible>false</IsYAxisVisible>
+    <CustomPalette />
+    <TableData />
+  </MainPivotConfig>
+  <MainPivotConfig Enable="true">
+    <QuerySQL>SELECT
+	name, scope, value
+FROM
+	%{output}
+WHERE
+	name like 'LIA_UpgradeWhenIdle'
+</QuerySQL>
+    <ColumnX FieldName="Scope" FieldType="String" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <ColumnY FieldName="Value" FieldType="String" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <ColumnData FieldName="COUNT OF" FieldType="String" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <RotateXAxisLabels>false</RotateXAxisLabels>
+    <ShowColumnTotals>false</ShowColumnTotals>
+    <GenerateSeriesFromColumns>false</GenerateSeriesFromColumns>
+    <Name>LIA_UpgradeWhenIdle</Name>
+    <ChartTitle>LIA_UpgradeWhenIdle Value and Level</ChartTitle>
+    <ColorPalette>Median</ColorPalette>
+    <ChartExportSize>525x300</ChartExportSize>
+    <LegendAlignmentHorizontal>Center</LegendAlignmentHorizontal>
+    <LegendAlignmentVertical>BottomOutside</LegendAlignmentVertical>
+    <LegendDirection>LeftToRight</LegendDirection>
+    <IsYAxisVisible>false</IsYAxisVisible>
+    <CustomPalette />
+    <TableData />
+  </MainPivotConfig>
+  <MainPivotConfig Enable="true">
+    <QuerySQL>SELECT
+	name, scope, value, functionalarea
+FROM
+	%{output}
+WHERE
+	name like 'LIA_UpgradeWhenIdle'
+</QuerySQL>
+    <ColumnX FieldName="Value" FieldType="String" SortMode="Default" SortOrder="Descending" SummaryType="Count" SortBySummaryInfo="false" />
+    <ColumnY FieldName="FunctionalArea" FieldType="String" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <ColumnData FieldName="COUNT OF" FieldType="String" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <ChartType>StackedBar</ChartType>
+    <ShowColumnTotals>false</ShowColumnTotals>
+    <GenerateSeriesFromColumns>false</GenerateSeriesFromColumns>
+    <Name>LIA_UpgradeWhenIdle by Area</Name>
+    <ChartTitle>LIA_UpgradeWhenIdle by Area</ChartTitle>
+    <ColorPalette>Median</ColorPalette>
+    <ChartExportSize>525x300</ChartExportSize>
+    <LegendAlignmentHorizontal>Center</LegendAlignmentHorizontal>
+    <LegendAlignmentVertical>BottomOutside</LegendAlignmentVertical>
+    <LegendDirection>LeftToRight</LegendDirection>
+    <IsYAxisVisible>false</IsYAxisVisible>
+    <CustomPalette />
+    <TableData />
+  </MainPivotConfig>
+  <MainPivotConfig Enable="true">
+    <QuerySQL>SELECT
+	name, scope, value
+FROM
+	%{output}
+WHERE
+	name like 'Purge_Enabled'
+</QuerySQL>
+    <ColumnX FieldName="Value" FieldType="String" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <ColumnY FieldName="Scope" FieldType="String" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <ColumnData FieldName="COUNT OF" FieldType="String" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <RotateXAxisLabels>false</RotateXAxisLabels>
+    <ShowColumnTotals>false</ShowColumnTotals>
+    <Name>Purge_Enabled</Name>
+    <ChartTitle>Purge_Enabled Value and Level</ChartTitle>
+    <ColorPalette>Median</ColorPalette>
+    <ChartExportSize>525x300</ChartExportSize>
+    <LegendAlignmentHorizontal>Center</LegendAlignmentHorizontal>
+    <LegendAlignmentVertical>BottomOutside</LegendAlignmentVertical>
+    <LegendDirection>LeftToRight</LegendDirection>
+    <IsYAxisVisible>false</IsYAxisVisible>
+    <CustomPalette />
+    <TableData />
+  </MainPivotConfig>
+  <MainPivotConfig Enable="true">
+    <QuerySQL>SELECT
+	name, scope, value, functionalarea
+FROM
+	%{output}
+WHERE
+	name like 'Purge_Enabled'
+</QuerySQL>
+    <ColumnX FieldName="Value" FieldType="String" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <ColumnY FieldName="FunctionalArea" FieldType="String" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <ColumnData FieldName="COUNT OF" FieldType="String" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <ChartType>StackedBar</ChartType>
+    <ShowColumnTotals>false</ShowColumnTotals>
+    <GenerateSeriesFromColumns>false</GenerateSeriesFromColumns>
+    <Name>Purge_Enabled by Area</Name>
+    <ChartTitle>Purge_Enabled by Area</ChartTitle>
+    <ColorPalette>Median</ColorPalette>
+    <ChartExportSize>525x300</ChartExportSize>
+    <LegendAlignmentHorizontal>Center</LegendAlignmentHorizontal>
+    <LegendAlignmentVertical>BottomOutside</LegendAlignmentVertical>
+    <LegendDirection>LeftToRight</LegendDirection>
+    <IsYAxisVisible>false</IsYAxisVisible>
+    <CustomPalette />
+    <TableData />
+  </MainPivotConfig>
+  <MainPivotConfig Enable="true">
+    <QuerySQL>SELECT
+	name, scope, value
+FROM
+	%{output}
+WHERE
+	name like 'MC_UsePEFriendlyECCheck'
+</QuerySQL>
+    <ColumnX FieldName="Value" FieldType="String" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <ColumnY FieldName="Scope" FieldType="String" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <ColumnData FieldName="COUNT OF" FieldType="String" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <RotateXAxisLabels>false</RotateXAxisLabels>
+    <ShowColumnTotals>false</ShowColumnTotals>
+    <Name>MC_UsePEFriendlyECCheck</Name>
+    <ChartTitle>MC_UsePEFriendlyECCheck Value and Level</ChartTitle>
+    <ColorPalette>Median</ColorPalette>
+    <ChartExportSize>525x300</ChartExportSize>
+    <LegendAlignmentHorizontal>Center</LegendAlignmentHorizontal>
+    <LegendAlignmentVertical>BottomOutside</LegendAlignmentVertical>
+    <LegendDirection>LeftToRight</LegendDirection>
+    <IsYAxisVisible>false</IsYAxisVisible>
+    <CustomPalette />
+    <TableData />
+  </MainPivotConfig>
+  <MainPivotConfig Enable="true">
+    <QuerySQL>SELECT
+	name, scope, value, functionalarea
+FROM
+	%{output}
+WHERE
+	name like 'MC_UsePEFriendlyECCheck'
+</QuerySQL>
+    <ColumnX FieldName="Value" FieldType="String" SortMode="Default" SortOrder="Descending" SummaryType="Count" SortBySummaryInfo="false" />
+    <ColumnY FieldName="FunctionalArea" FieldType="String" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <ColumnData FieldName="COUNT OF" FieldType="String" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <ChartType>StackedBar</ChartType>
+    <ShowColumnTotals>false</ShowColumnTotals>
+    <GenerateSeriesFromColumns>false</GenerateSeriesFromColumns>
+    <Name>MC_UsePEFriendlyECCheck by Area</Name>
+    <ChartTitle>MC_UsePEFriendlyECCheck by Area</ChartTitle>
+    <ColorPalette>Median</ColorPalette>
+    <ChartExportSize>525x300</ChartExportSize>
+    <LegendAlignmentHorizontal>Center</LegendAlignmentHorizontal>
+    <LegendAlignmentVertical>BottomOutside</LegendAlignmentVertical>
+    <LegendDirection>LeftToRight</LegendDirection>
+    <IsYAxisVisible>false</IsYAxisVisible>
+    <CustomPalette />
+    <TableData />
+  </MainPivotConfig>
+  <MainPivotConfig Enable="true">
+    <QuerySQL>SELECT
+	name, scope, value
+FROM
+	%{output}
+WHERE
+	name like 'AM_RecipeSource'
+</QuerySQL>
+    <ColumnX FieldName="Value" FieldType="String" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <ColumnY FieldName="Scope" FieldType="String" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <ColumnData FieldName="COUNT OF" FieldType="String" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <RotateXAxisLabels>false</RotateXAxisLabels>
+    <ShowColumnTotals>false</ShowColumnTotals>
+    <Name>AM_RecipeSource</Name>
+    <ChartTitle>AM_RecipeSource Value and Level</ChartTitle>
+    <ColorPalette>Median</ColorPalette>
+    <ChartExportSize>525x300</ChartExportSize>
+    <LegendAlignmentHorizontal>Center</LegendAlignmentHorizontal>
+    <LegendAlignmentVertical>BottomOutside</LegendAlignmentVertical>
+    <LegendDirection>LeftToRight</LegendDirection>
+    <IsYAxisVisible>false</IsYAxisVisible>
+    <CustomPalette />
+    <TableData />
+  </MainPivotConfig>
+  <MainPivotConfig Enable="true">
+    <QuerySQL>SELECT
+	name, scope, value, functionalarea
+FROM
+	%{output}
+WHERE
+	name like 'AM_RecipeSource'
+</QuerySQL>
+    <ColumnX FieldName="Value" FieldType="String" SortMode="Default" SortOrder="Descending" SummaryType="Count" SortBySummaryInfo="false" />
+    <ColumnY FieldName="FunctionalArea" FieldType="String" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <ColumnData FieldName="COUNT OF" FieldType="String" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <ChartType>StackedBar</ChartType>
+    <ShowColumnTotals>false</ShowColumnTotals>
+    <GenerateSeriesFromColumns>false</GenerateSeriesFromColumns>
+    <Name>AM_RecipeSource by Area</Name>
+    <ChartTitle>AM_RecipeSource by Area</ChartTitle>
+    <ColorPalette>Median</ColorPalette>
+    <ChartExportSize>525x300</ChartExportSize>
+    <LegendAlignmentHorizontal>Center</LegendAlignmentHorizontal>
+    <LegendAlignmentVertical>BottomOutside</LegendAlignmentVertical>
+    <LegendDirection>LeftToRight</LegendDirection>
+    <IsYAxisVisible>false</IsYAxisVisible>
+    <CustomPalette />
+    <TableData />
+  </MainPivotConfig>
+  <MainPivotConfig Enable="true">
+    <QuerySQL>SELECT
+	name, scope, value
+FROM
+	%{output}
+WHERE
+	name like 'AM_DMOQMap'
+</QuerySQL>
+    <ColumnX FieldName="Value" FieldType="String" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <ColumnY FieldName="Scope" FieldType="String" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <ColumnData FieldName="COUNT OF" FieldType="String" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <RotateXAxisLabels>false</RotateXAxisLabels>
+    <ShowColumnTotals>false</ShowColumnTotals>
+    <Name>AM_DMOQMap</Name>
+    <ChartTitle>AM_DMOQMap Value and Level</ChartTitle>
+    <ColorPalette>Median</ColorPalette>
+    <ChartExportSize>525x300</ChartExportSize>
+    <LegendAlignmentHorizontal>Center</LegendAlignmentHorizontal>
+    <LegendAlignmentVertical>BottomOutside</LegendAlignmentVertical>
+    <LegendDirection>LeftToRight</LegendDirection>
+    <IsYAxisVisible>false</IsYAxisVisible>
+    <CustomPalette />
+    <TableData />
+  </MainPivotConfig>
+  <MainPivotConfig Enable="true">
+    <QuerySQL>SELECT
+	name, scope, value, functionalarea
+FROM
+	%{output}
+WHERE
+	name like 'AM_DMOQMap'
+</QuerySQL>
+    <ColumnX FieldName="Value" FieldType="String" SortMode="Default" SortOrder="Descending" SummaryType="Count" SortBySummaryInfo="false" />
+    <ColumnY FieldName="FunctionalArea" FieldType="String" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <ColumnData FieldName="COUNT OF" FieldType="String" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <ChartType>StackedBar</ChartType>
+    <ShowColumnTotals>false</ShowColumnTotals>
+    <GenerateSeriesFromColumns>false</GenerateSeriesFromColumns>
+    <Name>AM_DMOQMap by Area</Name>
+    <ChartTitle>AM_DMOQMap by Area</ChartTitle>
+    <ColorPalette>Median</ColorPalette>
+    <ChartExportSize>525x300</ChartExportSize>
+    <LegendAlignmentHorizontal>Center</LegendAlignmentHorizontal>
+    <LegendAlignmentVertical>BottomOutside</LegendAlignmentVertical>
+    <LegendDirection>LeftToRight</LegendDirection>
+    <IsYAxisVisible>false</IsYAxisVisible>
+    <CustomPalette />
+    <TableData />
+  </MainPivotConfig>
+  <MainPivotConfig Enable="true">
+    <QuerySQL>SELECT
+	name, scope, value
+FROM
+	%{output}
+WHERE
+	name like 'ID_KeepFOUPDoorClosed'
+</QuerySQL>
+    <ColumnX FieldName="Value" FieldType="String" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <ColumnY FieldName="Scope" FieldType="String" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <ColumnData FieldName="COUNT OF" FieldType="String" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <RotateXAxisLabels>false</RotateXAxisLabels>
+    <ShowColumnTotals>false</ShowColumnTotals>
+    <Name>ID_KeepFOUPDoorClosed</Name>
+    <ChartTitle>ID_KeepFOUPDoorClosed Value and Level</ChartTitle>
+    <ColorPalette>Median</ColorPalette>
+    <ChartExportSize>525x300</ChartExportSize>
+    <LegendAlignmentHorizontal>Center</LegendAlignmentHorizontal>
+    <LegendAlignmentVertical>BottomOutside</LegendAlignmentVertical>
+    <LegendDirection>LeftToRight</LegendDirection>
+    <IsYAxisVisible>false</IsYAxisVisible>
+    <CustomPalette />
+    <TableData />
+  </MainPivotConfig>
+  <MainPivotConfig Enable="true">
+    <QuerySQL>SELECT
+	name, scope, value, functionalarea
+FROM
+	%{output}
+WHERE
+	name like 'ID_KeepFOUPDoorClosed'
+</QuerySQL>
+    <ColumnX FieldName="Value" FieldType="String" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <ColumnY FieldName="FunctionalArea" FieldType="String" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <ColumnData FieldName="COUNT OF" FieldType="String" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <ChartType>StackedBar</ChartType>
+    <ShowColumnTotals>false</ShowColumnTotals>
+    <GenerateSeriesFromColumns>false</GenerateSeriesFromColumns>
+    <Name>ID_KeepFOUPDoorClosed by Area</Name>
+    <ChartTitle>ID_KeepFOUPDoorClosed by Area</ChartTitle>
+    <ColorPalette>Median</ColorPalette>
+    <ChartExportSize>525x300</ChartExportSize>
+    <LegendAlignmentHorizontal>Center</LegendAlignmentHorizontal>
+    <LegendAlignmentVertical>BottomOutside</LegendAlignmentVertical>
+    <LegendDirection>LeftToRight</LegendDirection>
+    <IsYAxisVisible>false</IsYAxisVisible>
+    <CustomPalette />
+    <TableData />
+  </MainPivotConfig>
+  <MainPivotConfig Enable="true">
+    <QuerySQL>SELECT
+	name, scope, value
+FROM
+	%{output}
+WHERE
+	name like 'EP_E3DualSubscriber'
+</QuerySQL>
+    <ColumnX FieldName="Value" FieldType="String" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <ColumnY FieldName="Scope" FieldType="String" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <ColumnData FieldName="COUNT OF" FieldType="String" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <RotateXAxisLabels>false</RotateXAxisLabels>
+    <ShowColumnTotals>false</ShowColumnTotals>
+    <Name>EP_E3DualSubscriber</Name>
+    <ChartTitle>EP_E3DualSubscriber Value and Level</ChartTitle>
+    <ColorPalette>Median</ColorPalette>
+    <ChartExportSize>525x300</ChartExportSize>
+    <LegendAlignmentHorizontal>Center</LegendAlignmentHorizontal>
+    <LegendAlignmentVertical>BottomOutside</LegendAlignmentVertical>
+    <LegendDirection>LeftToRight</LegendDirection>
+    <IsYAxisVisible>false</IsYAxisVisible>
+    <CustomPalette />
+    <TableData />
+  </MainPivotConfig>
+  <MainPivotConfig Enable="true">
+    <QuerySQL>SELECT
+	name, scope, value, functionalarea
+FROM
+	%{output}
+WHERE
+	name like 'EP_E3DualSubscriber'
+</QuerySQL>
+    <ColumnX FieldName="Value" FieldType="String" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <ColumnY FieldName="FunctionalArea" FieldType="String" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <ColumnData FieldName="COUNT OF" FieldType="String" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <ChartType>StackedBar</ChartType>
+    <ShowColumnTotals>false</ShowColumnTotals>
+    <GenerateSeriesFromColumns>false</GenerateSeriesFromColumns>
+    <Name>EP_E3DualSubscriber by Area</Name>
+    <ChartTitle>EP_E3DualSubscriber by Area</ChartTitle>
+    <ColorPalette>Median</ColorPalette>
+    <ChartExportSize>525x300</ChartExportSize>
+    <LegendAlignmentHorizontal>Center</LegendAlignmentHorizontal>
+    <LegendAlignmentVertical>BottomOutside</LegendAlignmentVertical>
+    <LegendDirection>LeftToRight</LegendDirection>
+    <IsYAxisVisible>false</IsYAxisVisible>
+    <CustomPalette />
+    <TableData />
+  </MainPivotConfig>
+  <MainPivotConfig Enable="true">
+    <QuerySQL>SELECT
+	name, scope, value
+FROM
+	%{output}
+WHERE
+	name like 'EP_E3ResetCommunication'
+</QuerySQL>
+    <ColumnX FieldName="Value" FieldType="String" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <ColumnY FieldName="Scope" FieldType="String" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <ColumnData FieldName="COUNT OF" FieldType="String" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <RotateXAxisLabels>false</RotateXAxisLabels>
+    <ShowColumnTotals>false</ShowColumnTotals>
+    <Name>EP_E3ResetCommunication</Name>
+    <ChartTitle>EP_E3ResetCommunication Value and Level</ChartTitle>
+    <ColorPalette>Median</ColorPalette>
+    <ChartExportSize>525x300</ChartExportSize>
+    <LegendAlignmentHorizontal>Center</LegendAlignmentHorizontal>
+    <LegendAlignmentVertical>BottomOutside</LegendAlignmentVertical>
+    <LegendDirection>LeftToRight</LegendDirection>
+    <IsYAxisVisible>false</IsYAxisVisible>
+    <CustomPalette />
+    <TableData />
+  </MainPivotConfig>
+  <MainPivotConfig Enable="true">
+    <QuerySQL>SELECT
+	name, scope, value, functionalarea
+FROM
+	%{output}
+WHERE
+	name like 'EP_E3ResetCommunication'
+</QuerySQL>
+    <ColumnX FieldName="Value" FieldType="String" SortMode="Default" SortOrder="Descending" SummaryType="Count" SortBySummaryInfo="false" />
+    <ColumnY FieldName="FunctionalArea" FieldType="String" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <ColumnData FieldName="COUNT OF" FieldType="String" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <ChartType>StackedBar</ChartType>
+    <ShowColumnTotals>false</ShowColumnTotals>
+    <GenerateSeriesFromColumns>false</GenerateSeriesFromColumns>
+    <Name>EP_E3ResetCommunication by Area</Name>
+    <ChartTitle>EP_E3ResetCommunication by Area</ChartTitle>
+    <ColorPalette>Median</ColorPalette>
+    <ChartExportSize>525x300</ChartExportSize>
+    <LegendAlignmentHorizontal>Center</LegendAlignmentHorizontal>
+    <LegendAlignmentVertical>BottomOutside</LegendAlignmentVertical>
+    <LegendDirection>LeftToRight</LegendDirection>
+    <IsYAxisVisible>false</IsYAxisVisible>
+    <CustomPalette />
+    <TableData />
+  </MainPivotConfig>
+  <MainPivotConfig Enable="true">
+    <QuerySQL>SELECT
+	name, scope, value
+FROM
+	%{output}
+WHERE
+	name like 'EP_IgnoreNonNumeric'
+</QuerySQL>
+    <ColumnX FieldName="Value" FieldType="String" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <ColumnY FieldName="Scope" FieldType="String" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <ColumnData FieldName="COUNT OF" FieldType="String" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <RotateXAxisLabels>false</RotateXAxisLabels>
+    <ShowColumnTotals>false</ShowColumnTotals>
+    <Name>EP_IgnoreNonNumeric</Name>
+    <ChartTitle>EP_IgnoreNonNumeric Value and Level</ChartTitle>
+    <ColorPalette>Median</ColorPalette>
+    <ChartExportSize>525x300</ChartExportSize>
+    <LegendAlignmentHorizontal>Center</LegendAlignmentHorizontal>
+    <LegendAlignmentVertical>BottomOutside</LegendAlignmentVertical>
+    <LegendDirection>LeftToRight</LegendDirection>
+    <IsYAxisVisible>false</IsYAxisVisible>
+    <CustomPalette />
+    <TableData />
+  </MainPivotConfig>
+  <MainPivotConfig Enable="true">
+    <QuerySQL>SELECT
+	name, scope, value, functionalarea
+FROM
+	%{output}
+WHERE
+	name like 'EP_IgnoreNonNumeric'
+</QuerySQL>
+    <ColumnX FieldName="Value" FieldType="String" SortMode="Default" SortOrder="Descending" SummaryType="Count" SortBySummaryInfo="false" />
+    <ColumnY FieldName="FunctionalArea" FieldType="String" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <ColumnData FieldName="COUNT OF" FieldType="String" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <ChartType>StackedBar</ChartType>
+    <ShowColumnTotals>false</ShowColumnTotals>
+    <GenerateSeriesFromColumns>false</GenerateSeriesFromColumns>
+    <Name>EP_IgnoreNonNumeric by Area</Name>
+    <ChartTitle>EP_IgnoreNonNumeric by Area</ChartTitle>
+    <ColorPalette>Median</ColorPalette>
+    <ChartExportSize>525x300</ChartExportSize>
+    <LegendAlignmentHorizontal>Center</LegendAlignmentHorizontal>
+    <LegendAlignmentVertical>BottomOutside</LegendAlignmentVertical>
+    <LegendDirection>LeftToRight</LegendDirection>
+    <IsYAxisVisible>false</IsYAxisVisible>
+    <CustomPalette />
+    <TableData />
+  </MainPivotConfig>
+  <MainPivotConfig Enable="true">
+    <QuerySQL>SELECT
+	name, scope, value
+FROM
+	%{output}
+WHERE
+	name like 'EP_E3IdleDataCollection'
+</QuerySQL>
+    <ColumnX FieldName="Value" FieldType="String" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <ColumnY FieldName="Scope" FieldType="String" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <ColumnData FieldName="COUNT OF" FieldType="String" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <RotateXAxisLabels>false</RotateXAxisLabels>
+    <ShowColumnTotals>false</ShowColumnTotals>
+    <Name>EP_E3IdleDataCollection</Name>
+    <ChartTitle>EP_E3IdleDataCollection Value and Level</ChartTitle>
+    <ColorPalette>Median</ColorPalette>
+    <ChartExportSize>525x300</ChartExportSize>
+    <LegendAlignmentHorizontal>Center</LegendAlignmentHorizontal>
+    <LegendAlignmentVertical>BottomOutside</LegendAlignmentVertical>
+    <LegendDirection>LeftToRight</LegendDirection>
+    <IsYAxisVisible>false</IsYAxisVisible>
+    <CustomPalette />
+    <TableData />
+  </MainPivotConfig>
+  <MainPivotConfig Enable="true">
+    <QuerySQL>SELECT
+	name, scope, value, functionalarea
+FROM
+	%{output}
+WHERE
+	name like 'EP_E3IdleDataCollection'
+</QuerySQL>
+    <ColumnX FieldName="Value" FieldType="String" SortMode="Default" SortOrder="Descending" SummaryType="Count" SortBySummaryInfo="false" />
+    <ColumnY FieldName="FunctionalArea" FieldType="String" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <ColumnData FieldName="COUNT OF" FieldType="String" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <ChartType>StackedBar</ChartType>
+    <ShowColumnTotals>false</ShowColumnTotals>
+    <GenerateSeriesFromColumns>false</GenerateSeriesFromColumns>
+    <Name>EP_E3IdleDataCollection by Area</Name>
+    <ChartTitle>EP_E3IdleDataCollection by Area</ChartTitle>
+    <ColorPalette>Median</ColorPalette>
+    <ChartExportSize>525x300</ChartExportSize>
+    <LegendAlignmentHorizontal>Center</LegendAlignmentHorizontal>
+    <LegendAlignmentVertical>BottomOutside</LegendAlignmentVertical>
+    <LegendDirection>LeftToRight</LegendDirection>
+    <IsYAxisVisible>false</IsYAxisVisible>
+    <CustomPalette />
+    <TableData />
+  </MainPivotConfig>
+  <MainPivotConfig Enable="true">
+    <QuerySQL>SELECT
+	name, scope, value
+FROM
+	%{output}
+WHERE
+	name like 'DP_EnableOnlineWLT'
+</QuerySQL>
+    <ColumnX FieldName="Value" FieldType="String" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <ColumnY FieldName="Scope" FieldType="String" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <ColumnData FieldName="COUNT OF" FieldType="String" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <RotateXAxisLabels>false</RotateXAxisLabels>
+    <ShowColumnTotals>false</ShowColumnTotals>
+    <Name>DP_EnableOnlineWLT</Name>
+    <ChartTitle>DP_EnableOnlineWLT Value and Level</ChartTitle>
+    <ColorPalette>Median</ColorPalette>
+    <ChartExportSize>525x300</ChartExportSize>
+    <LegendAlignmentHorizontal>Center</LegendAlignmentHorizontal>
+    <LegendAlignmentVertical>BottomOutside</LegendAlignmentVertical>
+    <LegendDirection>LeftToRight</LegendDirection>
+    <IsYAxisVisible>false</IsYAxisVisible>
+    <CustomPalette />
+    <TableData />
+  </MainPivotConfig>
+  <MainPivotConfig Enable="true">
+    <QuerySQL>SELECT
+	name, scope, value, functionalarea
+FROM
+	%{output}
+WHERE
+	name like 'DP_EnableOnlineWLT'
+</QuerySQL>
+    <ColumnX FieldName="Value" FieldType="String" SortMode="Default" SortOrder="Descending" SummaryType="Count" SortBySummaryInfo="false" />
+    <ColumnY FieldName="FunctionalArea" FieldType="String" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <ColumnData FieldName="COUNT OF" FieldType="String" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <ChartType>StackedBar</ChartType>
+    <ShowColumnTotals>false</ShowColumnTotals>
+    <GenerateSeriesFromColumns>false</GenerateSeriesFromColumns>
+    <Name>DP_EnableOnlineWLT by Area</Name>
+    <ChartTitle>DP_EnableOnlineWLT by Area</ChartTitle>
+    <ColorPalette>Median</ColorPalette>
+    <ChartExportSize>525x300</ChartExportSize>
+    <LegendAlignmentHorizontal>Center</LegendAlignmentHorizontal>
+    <LegendAlignmentVertical>BottomOutside</LegendAlignmentVertical>
+    <LegendDirection>LeftToRight</LegendDirection>
+    <IsYAxisVisible>false</IsYAxisVisible>
+    <CustomPalette />
+    <TableData />
+  </MainPivotConfig>
+  <MainPivotConfig Enable="true">
+    <QuerySQL>SELECT
+	name, scope, value, functionalarea
+FROM
+	%{output}
+WHERE
+	name like 'Softpin_IgnoreUndockFoups'
+</QuerySQL>
+    <ColumnX FieldName="Scope" FieldType="String" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <ColumnY FieldName="Value" FieldType="String" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <ColumnData FieldName="COUNT OF" FieldType="String" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <RotateXAxisLabels>false</RotateXAxisLabels>
+    <GenerateSeriesFromColumns>false</GenerateSeriesFromColumns>
+    <Name>Softpin_IgnoreUndockFoups</Name>
+    <ChartTitle>Softpin_IgnoreUndockFoups Value and Level</ChartTitle>
+    <ColorPalette>Median</ColorPalette>
+    <ChartExportSize>525x300</ChartExportSize>
+    <LegendAlignmentHorizontal>Center</LegendAlignmentHorizontal>
+    <LegendAlignmentVertical>BottomOutside</LegendAlignmentVertical>
+    <LegendDirection>LeftToRight</LegendDirection>
+    <IsYAxisVisible>false</IsYAxisVisible>
+    <CustomPalette />
+    <TableData />
+  </MainPivotConfig>
+  <MainPivotConfig Enable="true">
+    <QuerySQL>SELECT
+	name, scope, value, functionalarea
+FROM
+	%{output}
+WHERE
+	name like 'Softpin_IgnoreUndockFoups'
+</QuerySQL>
+    <ColumnX FieldName="Value" FieldType="String" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <ColumnY FieldName="FunctionalArea" FieldType="String" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <ColumnData FieldName="COUNT OF" FieldType="String" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <ChartType>StackedBar</ChartType>
+    <GenerateSeriesFromColumns>false</GenerateSeriesFromColumns>
+    <Name>Softpin_IgnoreUndockFoups by Area</Name>
+    <ChartTitle>Softpin_IgnoreUndockFoups by Area</ChartTitle>
+    <ColorPalette>Median</ColorPalette>
+    <ChartExportSize>525x300</ChartExportSize>
+    <LegendAlignmentHorizontal>Center</LegendAlignmentHorizontal>
+    <LegendAlignmentVertical>BottomOutside</LegendAlignmentVertical>
+    <LegendDirection>LeftToRight</LegendDirection>
+    <IsYAxisVisible>false</IsYAxisVisible>
+    <CustomPalette />
+    <TableData />
+  </MainPivotConfig>
+  <MainPivotConfig Enable="true">
+    <QuerySQL>SELECT
+	name, scope, value, functionalarea
+FROM
+	%{output}
+WHERE
+	name like 'WLT_RunIdNewFormat'
+</QuerySQL>
+    <ColumnX FieldName="Scope" FieldType="String" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <ColumnY FieldName="Value" FieldType="String" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <ColumnData FieldName="COUNT OF" FieldType="String" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <RotateXAxisLabels>false</RotateXAxisLabels>
+    <GenerateSeriesFromColumns>false</GenerateSeriesFromColumns>
+    <Name>WLT_RunIdNewFormat</Name>
+    <ChartTitle>WLT_RunIdNewFormat Value and Level</ChartTitle>
+    <ColorPalette>Median</ColorPalette>
+    <ChartExportSize>525x300</ChartExportSize>
+    <LegendAlignmentHorizontal>Center</LegendAlignmentHorizontal>
+    <LegendAlignmentVertical>BottomOutside</LegendAlignmentVertical>
+    <LegendDirection>LeftToRight</LegendDirection>
+    <IsYAxisVisible>false</IsYAxisVisible>
+    <CustomPalette />
+    <TableData />
+  </MainPivotConfig>
+  <MainPivotConfig Enable="true">
+    <QuerySQL>SELECT
+	name, scope, value, functionalarea
+FROM
+	%{output}
+WHERE
+	name like 'WLT_RunIdNewFormat'
+</QuerySQL>
+    <ColumnX FieldName="Value" FieldType="String" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <ColumnY FieldName="FunctionalArea" FieldType="String" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <ColumnData FieldName="COUNT OF" FieldType="String" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <ChartType>StackedBar</ChartType>
+    <GenerateSeriesFromColumns>false</GenerateSeriesFromColumns>
+    <Name>WLT_RunIdNewFormat by Area</Name>
+    <ChartTitle>WLT_RunIdNewFormat by Area</ChartTitle>
+    <ColorPalette>Median</ColorPalette>
+    <ChartExportSize>525x300</ChartExportSize>
+    <LegendAlignmentHorizontal>Center</LegendAlignmentHorizontal>
+    <LegendAlignmentVertical>BottomOutside</LegendAlignmentVertical>
+    <LegendDirection>LeftToRight</LegendDirection>
+    <IsYAxisVisible>false</IsYAxisVisible>
+    <CustomPalette />
+    <TableData />
+  </MainPivotConfig>
+  <MainPivotConfig Enable="true">
+    <QuerySQL>SELECT
+	name, scope, value, functionalarea
+FROM
+	%{output}
+WHERE
+	name like 'ID_SerialMode'
+</QuerySQL>
+    <ColumnX FieldName="Scope" FieldType="String" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <ColumnY FieldName="Value" FieldType="String" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <ColumnData FieldName="COUNT OF" FieldType="String" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <RotateXAxisLabels>false</RotateXAxisLabels>
+    <GenerateSeriesFromColumns>false</GenerateSeriesFromColumns>
+    <Name>ID_SerialMode</Name>
+    <ChartTitle>ID_SerialMode Value and Level</ChartTitle>
+    <ColorPalette>Median</ColorPalette>
+    <ChartExportSize>525x300</ChartExportSize>
+    <LegendAlignmentHorizontal>Center</LegendAlignmentHorizontal>
+    <LegendAlignmentVertical>BottomOutside</LegendAlignmentVertical>
+    <LegendDirection>LeftToRight</LegendDirection>
+    <IsYAxisVisible>false</IsYAxisVisible>
+    <CustomPalette />
+    <TableData />
+  </MainPivotConfig>
+  <MainPivotConfig Enable="true">
+    <QuerySQL>SELECT
+	name, scope, value, functionalarea
+FROM
+	%{output}
+WHERE
+	name like 'ID_SerialMode'
+</QuerySQL>
+    <ColumnX FieldName="Value" FieldType="String" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <ColumnY FieldName="FunctionalArea" FieldType="String" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <ColumnData FieldName="COUNT OF" FieldType="String" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <ChartType>StackedBar</ChartType>
+    <GenerateSeriesFromColumns>false</GenerateSeriesFromColumns>
+    <Name>ID_SerialMode by Area</Name>
+    <ChartTitle>ID_SerialMode by Area</ChartTitle>
+    <ColorPalette>Median</ColorPalette>
+    <ChartExportSize>525x300</ChartExportSize>
+    <LegendAlignmentHorizontal>Center</LegendAlignmentHorizontal>
+    <LegendAlignmentVertical>BottomOutside</LegendAlignmentVertical>
+    <LegendDirection>LeftToRight</LegendDirection>
+    <IsYAxisVisible>false</IsYAxisVisible>
+    <CustomPalette />
+    <TableData />
+  </MainPivotConfig>
+  <MainPivotConfig Enable="true">
+    <QuerySQL>SELECT
+	name, scope, value, functionalarea
+FROM
+	%{output}
+WHERE
+	name like 'TNM_Enabled'
+</QuerySQL>
+    <ColumnX FieldName="Scope" FieldType="String" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <ColumnY FieldName="Value" FieldType="String" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <ColumnData FieldName="COUNT OF" FieldType="String" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <RotateXAxisLabels>false</RotateXAxisLabels>
+    <GenerateSeriesFromColumns>false</GenerateSeriesFromColumns>
+    <Name>TNM_Enabled</Name>
+    <ChartTitle>TNM_Enabled Value and Level</ChartTitle>
+    <ColorPalette>Median</ColorPalette>
+    <ChartExportSize>525x300</ChartExportSize>
+    <LegendAlignmentHorizontal>Center</LegendAlignmentHorizontal>
+    <LegendAlignmentVertical>BottomOutside</LegendAlignmentVertical>
+    <LegendDirection>LeftToRight</LegendDirection>
+    <IsYAxisVisible>false</IsYAxisVisible>
+    <CustomPalette />
+    <TableData />
+  </MainPivotConfig>
+  <MainPivotConfig Enable="true">
+    <QuerySQL>SELECT
+	name, scope, value, functionalarea
+FROM
+	%{output}
+WHERE
+	name like 'TNM_Enabled'
+</QuerySQL>
+    <ColumnX FieldName="Value" FieldType="String" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <ColumnY FieldName="FunctionalArea" FieldType="String" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <ColumnData FieldName="COUNT OF" FieldType="String" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <ChartType>StackedBar</ChartType>
+    <GenerateSeriesFromColumns>false</GenerateSeriesFromColumns>
+    <Name>TNM_Enabled by Area</Name>
+    <ChartTitle>TNM_Enabled by Area</ChartTitle>
+    <ColorPalette>Median</ColorPalette>
+    <ChartExportSize>525x300</ChartExportSize>
+    <LegendAlignmentHorizontal>Center</LegendAlignmentHorizontal>
+    <LegendAlignmentVertical>BottomOutside</LegendAlignmentVertical>
+    <LegendDirection>LeftToRight</LegendDirection>
+    <IsYAxisVisible>false</IsYAxisVisible>
+    <CustomPalette />
+    <TableData />
+  </MainPivotConfig>
+  <MainPivotConfig Enable="true">
+    <QuerySQL>---Begin Main Query---
+SELECT
+	name, scope, value, functionalarea
+FROM
+	%{output}
+WHERE
+	name like 'SoftPin_WaferVerificationElimination'
+</QuerySQL>
+    <ColumnX FieldName="Scope" FieldType="String" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <ColumnY FieldName="Value" FieldType="String" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <ColumnData FieldName="COUNT OF" FieldType="String" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <RotateXAxisLabels>false</RotateXAxisLabels>
+    <GenerateSeriesFromColumns>false</GenerateSeriesFromColumns>
+    <Name>SoftPin_WaferVerificationElimination</Name>
+    <ChartTitle>SoftPin_WaferVerificationElimination
+Value and Level</ChartTitle>
+    <ColorPalette>Median</ColorPalette>
+    <ChartExportSize>525x300</ChartExportSize>
+    <LegendAlignmentHorizontal>Center</LegendAlignmentHorizontal>
+    <LegendAlignmentVertical>BottomOutside</LegendAlignmentVertical>
+    <LegendDirection>LeftToRight</LegendDirection>
+    <IsYAxisVisible>false</IsYAxisVisible>
+    <CustomPalette />
+    <TableData />
+  </MainPivotConfig>
+  <MainPivotConfig Enable="true">
+    <QuerySQL>---Begin Main Query---
+SELECT
+	name, scope, value, functionalarea
+FROM
+	%{output}
+WHERE
+	name like 'SoftPin_WaferVerificationElimination'
+</QuerySQL>
+    <ColumnX FieldName="Value" FieldType="String" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <ColumnY FieldName="FunctionalArea" FieldType="String" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <ColumnData FieldName="COUNT OF" FieldType="String" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <ChartType>StackedBar</ChartType>
+    <GenerateSeriesFromColumns>false</GenerateSeriesFromColumns>
+    <Name>SoftPin_WaferVerificationElimination by Area</Name>
+    <ChartTitle>SoftPin_WaferVerificationElimination by Area</ChartTitle>
+    <ColorPalette>Median</ColorPalette>
+    <ChartExportSize>525x300</ChartExportSize>
+    <LegendAlignmentHorizontal>Center</LegendAlignmentHorizontal>
+    <LegendAlignmentVertical>BottomOutside</LegendAlignmentVertical>
+    <LegendDirection>LeftToRight</LegendDirection>
+    <IsYAxisVisible>false</IsYAxisVisible>
+    <CustomPalette />
+    <TableData />
+  </MainPivotConfig>
+  <MainPivotConfig Enable="true">
+    <QuerySQL>---Begin Main Query---
+SELECT
+	name, scope, value, functionalarea
+FROM
+	%{output}
+WHERE
+	name like 'LIA_WinclientPM'
+</QuerySQL>
+    <ColumnX FieldName="Scope" FieldType="String" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <ColumnY FieldName="Value" FieldType="String" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <ColumnData FieldName="COUNT OF" FieldType="String" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <RotateXAxisLabels>false</RotateXAxisLabels>
+    <GenerateSeriesFromColumns>false</GenerateSeriesFromColumns>
+    <Name>LIA_WinclientPM</Name>
+    <ChartTitle>LIA_WinclientPM Value and Level</ChartTitle>
+    <ColorPalette>Median</ColorPalette>
+    <ChartExportSize>525x300</ChartExportSize>
+    <LegendAlignmentHorizontal>Center</LegendAlignmentHorizontal>
+    <LegendAlignmentVertical>BottomOutside</LegendAlignmentVertical>
+    <LegendDirection>LeftToRight</LegendDirection>
+    <IsYAxisVisible>false</IsYAxisVisible>
+    <CustomPalette />
+    <TableData />
+  </MainPivotConfig>
+  <MainPivotConfig Enable="true">
+    <QuerySQL>---Begin Main Query---
+SELECT
+	name, scope, value, functionalarea
+FROM
+	%{output}
+WHERE
+	name like 'LIA_WinclientPM'
+</QuerySQL>
+    <ColumnX FieldName="Value" FieldType="String" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <ColumnY FieldName="FunctionalArea" FieldType="String" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <ColumnData FieldName="COUNT OF" FieldType="String" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <ChartType>StackedBar</ChartType>
+    <GenerateSeriesFromColumns>false</GenerateSeriesFromColumns>
+    <Name>LIA_WinclientPM by Area</Name>
+    <ChartTitle>LIA_WinclientPM by Area</ChartTitle>
+    <ColorPalette>Median</ColorPalette>
+    <ChartExportSize>525x300</ChartExportSize>
+    <LegendAlignmentHorizontal>Center</LegendAlignmentHorizontal>
+    <LegendAlignmentVertical>BottomOutside</LegendAlignmentVertical>
+    <LegendDirection>LeftToRight</LegendDirection>
+    <IsYAxisVisible>false</IsYAxisVisible>
+    <CustomPalette />
+    <TableData />
+  </MainPivotConfig>
+  <MainPivotConfig Enable="true">
+    <QuerySQL>---Begin Main Query---
+SELECT
+	name, scope, value
+FROM
+	%{output}
+WHERE
+	name like 'LIA_PerformCustomHealthCheck'
+</QuerySQL>
+    <ColumnX FieldName="Scope" FieldType="String" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <ColumnY FieldName="Value" FieldType="String" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <ColumnData FieldName="COUNT OF" FieldType="String" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <RotateXAxisLabels>false</RotateXAxisLabels>
+    <ShowColumnTotals>false</ShowColumnTotals>
+    <GenerateSeriesFromColumns>false</GenerateSeriesFromColumns>
+    <Name>LIA_PerformCustomHealthCheck</Name>
+    <ChartTitle>LIA_PerformCustomHealthCheck Value and Level</ChartTitle>
+    <ColorPalette>Median</ColorPalette>
+    <ChartExportSize>525x300</ChartExportSize>
+    <LegendAlignmentHorizontal>Center</LegendAlignmentHorizontal>
+    <LegendAlignmentVertical>BottomOutside</LegendAlignmentVertical>
+    <LegendDirection>LeftToRight</LegendDirection>
+    <IsYAxisVisible>false</IsYAxisVisible>
+    <CustomPalette />
+    <TableData />
+  </MainPivotConfig>
+  <MainPivotConfig Enable="true">
+    <QuerySQL>---Begin Main Query---
+SELECT
+	name, scope, value, functionalarea
+FROM
+	%{output}
+WHERE
+	name like 'LIA_PerformCustomHealthCheck'</QuerySQL>
+    <ColumnX FieldName="Value" FieldType="String" SortMode="Default" SortOrder="Descending" SummaryType="Count" SortBySummaryInfo="false" />
+    <ColumnY FieldName="FunctionalArea" FieldType="String" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <ColumnData FieldName="COUNT OF" FieldType="String" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <ChartType>StackedBar</ChartType>
+    <ShowColumnTotals>false</ShowColumnTotals>
+    <GenerateSeriesFromColumns>false</GenerateSeriesFromColumns>
+    <Name>LIA_PerformCustomHealthCheck by Area</Name>
+    <ChartTitle>LIA_PerformCustomHealthCheck by Area</ChartTitle>
+    <ColorPalette>Median</ColorPalette>
+    <ChartExportSize>525x300</ChartExportSize>
+    <LegendAlignmentHorizontal>Center</LegendAlignmentHorizontal>
+    <LegendAlignmentVertical>BottomOutside</LegendAlignmentVertical>
+    <LegendDirection>LeftToRight</LegendDirection>
+    <IsYAxisVisible>false</IsYAxisVisible>
+    <CustomPalette />
+    <TableData />
+  </MainPivotConfig>
+  <OutputDataGridConfig Name="UI_AllowedControllingUINodes">
+    <Caption>UI_AllowedControllingUINodes</Caption>
+    <SQL>SELECT
+	nodename, 
+	ActiveMC as [Machine Controller - IOR],
+	name,
+	scope,
+	value
+FROM
+	%{output}
+WHERE
+	name like 'UI_AllowedControllingUINodes'
+ORDER BY
+	value, scope
+</SQL>
+    <TableLayoutConfig>
+      <BoundColumnList>NodeName,Machine Controller - IOR,Name,Scope,Value</BoundColumnList>
+    </TableLayoutConfig>
+    <TableSchema><xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+  <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="Results" msdata:UseCurrentLocale="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Results">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="NodeName" type="xs:string" minOccurs="0" />
+              <xs:element name="Machine_x0020_Controller_x0020_-_x0020_IOR" type="xs:string" minOccurs="0" />
+              <xs:element name="Name" type="xs:string" minOccurs="0" />
+              <xs:element name="Scope" type="xs:string" minOccurs="0" />
+              <xs:element name="Value" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
+</TableSchema>
+    <TableData />
+  </OutputDataGridConfig>
+  <OutputDataGridConfig Name="ID_ParallelPortDelivery">
+    <Caption>ID_ParallelPortDelivery</Caption>
+    <SQL>SELECT
+	nodename, 
+	ActiveMC as [Machine Controller - IOR],
+	name,
+	scope,
+	value
+FROM
+	%{output}
+WHERE
+	name like 'ID_ParallelPortDelivery'
+ORDER BY
+	value, scope
+</SQL>
+    <TableLayoutConfig>
+      <BoundColumnList>NodeName,Machine Controller - IOR,Name,Scope,Value</BoundColumnList>
+    </TableLayoutConfig>
+    <TableSchema><xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+  <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="Results" msdata:UseCurrentLocale="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Results">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="NodeName" type="xs:string" minOccurs="0" />
+              <xs:element name="Machine_x0020_Controller_x0020_-_x0020_IOR" type="xs:string" minOccurs="0" />
+              <xs:element name="Name" type="xs:string" minOccurs="0" />
+              <xs:element name="Scope" type="xs:string" minOccurs="0" />
+              <xs:element name="Value" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
+</TableSchema>
+    <TableData />
+  </OutputDataGridConfig>
+  <OutputDataGridConfig Name="ID_EnableL7L8">
+    <Caption>ID_EnableL7L8</Caption>
+    <SQL>SELECT
+	nodename, 
+	ActiveMC as [Machine Controller - IOR],
+	name,
+	scope,
+	value
+FROM
+	%{output}
+WHERE
+	name like 'ID_EnableL7L8'
+ORDER BY
+	value, scope
+</SQL>
+    <TableLayoutConfig>
+      <BoundColumnList>NodeName,Machine Controller - IOR,Name,Scope,Value</BoundColumnList>
+    </TableLayoutConfig>
+    <TableSchema><xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+  <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="Results" msdata:UseCurrentLocale="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Results">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="NodeName" type="xs:string" minOccurs="0" />
+              <xs:element name="Machine_x0020_Controller_x0020_-_x0020_IOR" type="xs:string" minOccurs="0" />
+              <xs:element name="Name" type="xs:string" minOccurs="0" />
+              <xs:element name="Scope" type="xs:string" minOccurs="0" />
+              <xs:element name="Value" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
+</TableSchema>
+    <TableData />
+  </OutputDataGridConfig>
+  <OutputDataGridConfig Name="CFS_EnableFileDownload">
+    <Caption>CFS_EnableFileDownload Outliers</Caption>
+    <SQL>SELECT
+	nodename, 
+	ActiveMC as [Machine Controller - IOR],
+	name,
+	scope,
+	value
+FROM
+	%{output}
+WHERE
+	(name like 'CFS_EnableFileDownload' and value like 'No')
+	OR
+	(name like 'CFS_EnableFileDownload' and value like 'Yes' and scope not like 'ToolTypeSpecific')
+ORDER BY
+	value, nodename
+</SQL>
+    <TableLayoutConfig>
+      <BoundColumnList>NodeName,Machine Controller - IOR,Name,Scope,Value</BoundColumnList>
+    </TableLayoutConfig>
+    <TableSchema><xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+  <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="Results" msdata:UseCurrentLocale="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Results">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="NodeName" type="xs:string" minOccurs="0" />
+              <xs:element name="Machine_x0020_Controller_x0020_-_x0020_IOR" type="xs:string" minOccurs="0" />
+              <xs:element name="Name" type="xs:string" minOccurs="0" />
+              <xs:element name="Scope" type="xs:string" minOccurs="0" />
+              <xs:element name="Value" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
+</TableSchema>
+    <TableData />
+  </OutputDataGridConfig>
+  <OutputDataGridConfig Name="CFS_EnableDeleteOrphanFiles">
+    <Caption>CFS_EnableDeleteOrphanFiles Outliers</Caption>
+    <SQL>SELECT
+	nodename, 
+	ActiveMC as [Machine Controller - IOR],
+	name,
+	scope,
+	value
+FROM
+	%{output}
+WHERE
+	(name like 'CFS_EnableDeleteOrphanFiles' and value like 'No')
+	OR
+	(name like 'CFS_EnableDeleteOrphanFiles' and value like 'Yes' and scope not like 'FabDefault')
+ORDER BY
+	value, nodename
+</SQL>
+    <TableLayoutConfig>
+      <BoundColumnList>NodeName,Machine Controller - IOR,Name,Scope,Value</BoundColumnList>
+    </TableLayoutConfig>
+    <TableSchema><xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+  <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="Results" msdata:UseCurrentLocale="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Results">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="NodeName" type="xs:string" minOccurs="0" />
+              <xs:element name="Machine_x0020_Controller_x0020_-_x0020_IOR" type="xs:string" minOccurs="0" />
+              <xs:element name="Name" type="xs:string" minOccurs="0" />
+              <xs:element name="Scope" type="xs:string" minOccurs="0" />
+              <xs:element name="Value" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
+</TableSchema>
+    <TableData />
+  </OutputDataGridConfig>
+  <OutputDataGridConfig Name="IR2_IntroRefactor">
+    <Caption>IR2_IntroRefactor</Caption>
+    <SQL>SELECT
+	nodename, 
+	ActiveMC as [Machine Controller - IOR],
+	name,
+	scope,
+	value
+FROM
+	%{output}
+WHERE
+	name like 'IR2_IntroRefactor'
+ORDER BY
+	value, scope
+</SQL>
+    <TableLayoutConfig>
+      <BoundColumnList>NodeName,Machine Controller - IOR,Name,Scope,Value</BoundColumnList>
+    </TableLayoutConfig>
+    <TableSchema><xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+  <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="Results" msdata:UseCurrentLocale="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Results">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="NodeName" type="xs:string" minOccurs="0" />
+              <xs:element name="Machine_x0020_Controller_x0020_-_x0020_IOR" type="xs:string" minOccurs="0" />
+              <xs:element name="Name" type="xs:string" minOccurs="0" />
+              <xs:element name="Scope" type="xs:string" minOccurs="0" />
+              <xs:element name="Value" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
+</TableSchema>
+    <TableData />
+  </OutputDataGridConfig>
+  <OutputDataGridConfig Name="IR2_EarlyGetLot">
+    <Caption>IR2_EarlyGetLot</Caption>
+    <SQL>SELECT
+	nodename, 
+	ActiveMC as [Machine Controller - IOR],
+	name,
+	scope,
+	value
+FROM
+	%{output}
+WHERE
+	name like 'IR2_EarlyGetLot'
+ORDER BY
+	value, scope
+</SQL>
+    <TableLayoutConfig>
+      <BoundColumnList>NodeName,Machine Controller - IOR,Name,Scope,Value</BoundColumnList>
+    </TableLayoutConfig>
+    <TableSchema><xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+  <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="Results" msdata:UseCurrentLocale="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Results">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="NodeName" type="xs:string" minOccurs="0" />
+              <xs:element name="Machine_x0020_Controller_x0020_-_x0020_IOR" type="xs:string" minOccurs="0" />
+              <xs:element name="Name" type="xs:string" minOccurs="0" />
+              <xs:element name="Scope" type="xs:string" minOccurs="0" />
+              <xs:element name="Value" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
+</TableSchema>
+    <TableData />
+  </OutputDataGridConfig>
+  <OutputDataGridConfig Name="SoftPin_Enabled">
+    <Caption>SoftPin_Enabled</Caption>
+    <SQL>SELECT
+	nodename, 
+	ActiveMC as [Machine Controller - IOR],
+	name,
+	scope,
+	value
+FROM
+	%{output}
+WHERE
+	name like 'Softpin_Enabled'
+ORDER BY
+	value, scope
+</SQL>
+    <TableLayoutConfig>
+      <BoundColumnList>NodeName,Machine Controller - IOR,Name,Scope,Value</BoundColumnList>
+    </TableLayoutConfig>
+    <TableSchema><xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+  <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="Results" msdata:UseCurrentLocale="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Results">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="NodeName" type="xs:string" minOccurs="0" />
+              <xs:element name="Machine_x0020_Controller_x0020_-_x0020_IOR" type="xs:string" minOccurs="0" />
+              <xs:element name="Name" type="xs:string" minOccurs="0" />
+              <xs:element name="Scope" type="xs:string" minOccurs="0" />
+              <xs:element name="Value" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
+</TableSchema>
+    <TableData />
+  </OutputDataGridConfig>
+  <OutputDataGridConfig Name="EP_Mode">
+    <Caption>EP_Mode</Caption>
+    <SQL>SELECT
+	nodename, 
+	ActiveMC as [Machine Controller - IOR],
+	name,
+	scope,
+	value
+FROM
+	%{output}
+WHERE
+	name like 'EP_Mode'
+ORDER BY
+	value, scope
+</SQL>
+    <TableLayoutConfig>
+      <BoundColumnList>NodeName,Machine Controller - IOR,Name,Scope,Value</BoundColumnList>
+    </TableLayoutConfig>
+    <TableSchema><xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+  <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="Results" msdata:UseCurrentLocale="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Results">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="NodeName" type="xs:string" minOccurs="0" />
+              <xs:element name="Machine_x0020_Controller_x0020_-_x0020_IOR" type="xs:string" minOccurs="0" />
+              <xs:element name="Name" type="xs:string" minOccurs="0" />
+              <xs:element name="Scope" type="xs:string" minOccurs="0" />
+              <xs:element name="Value" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
+</TableSchema>
+    <TableData />
+  </OutputDataGridConfig>
+  <OutputDataGridConfig Name="LIA_UpgradeWhenIdle" IncludeInAttachment="true">
+    <Caption>LIA_UpgradeWhenIdle</Caption>
+    <SQL>SELECT
+	nodename, 
+	ActiveMC as [Machine Controller - IOR],
+	name,
+	scope,
+	value
+FROM
+	%{output}
+WHERE
+	name like 'LIA_UpgradeWhenIdle'
+ORDER BY
+	value, scope
+</SQL>
+    <TableLayoutConfig>
+      <BoundColumnList>NodeName,Machine Controller - IOR,Name,Scope,Value</BoundColumnList>
+    </TableLayoutConfig>
+    <TableSchema><xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+  <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="Results" msdata:UseCurrentLocale="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Results">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="NodeName" type="xs:string" minOccurs="0" />
+              <xs:element name="Machine_x0020_Controller_x0020_-_x0020_IOR" type="xs:string" minOccurs="0" />
+              <xs:element name="Name" type="xs:string" minOccurs="0" />
+              <xs:element name="Scope" type="xs:string" minOccurs="0" />
+              <xs:element name="Value" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
+</TableSchema>
+    <TableData />
+  </OutputDataGridConfig>
+  <OutputDataGridConfig Name="Purge_Enabled">
+    <Caption>Purge_Enabled</Caption>
+    <SQL>SELECT
+	nodename, 
+	ActiveMC as [Machine Controller - IOR],
+	name,
+	scope,
+	value
+FROM
+	%{output}
+WHERE
+	name like 'Purge_Enabled'
+ORDER BY
+	value, scope
+</SQL>
+    <TableLayoutConfig>
+      <BoundColumnList>NodeName,Machine Controller - IOR,Name,Scope,Value</BoundColumnList>
+    </TableLayoutConfig>
+    <TableSchema><xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+  <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="Results" msdata:UseCurrentLocale="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Results">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="NodeName" type="xs:string" minOccurs="0" />
+              <xs:element name="Machine_x0020_Controller_x0020_-_x0020_IOR" type="xs:string" minOccurs="0" />
+              <xs:element name="Name" type="xs:string" minOccurs="0" />
+              <xs:element name="Scope" type="xs:string" minOccurs="0" />
+              <xs:element name="Value" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
+</TableSchema>
+    <TableData />
+  </OutputDataGridConfig>
+  <OutputDataGridConfig Name="MC_UsePEFriendlyECCheck">
+    <Caption>MC_UsePEFriendlyECCheck</Caption>
+    <SQL>SELECT
+	nodename,
+	ActiveMC as [Machine Controller - IOR],
+	name,
+	scope,
+	value
+FROM
+	%{output}
+WHERE
+	name like 'MC_UsePEFriendlyECCheck'
+ORDER BY
+	value, scope
+</SQL>
+    <TableLayoutConfig>
+      <BoundColumnList>NodeName,Machine Controller - IOR,Name,Scope,Value</BoundColumnList>
+    </TableLayoutConfig>
+    <TableSchema><xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+  <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="Results" msdata:UseCurrentLocale="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Results">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="NodeName" type="xs:string" minOccurs="0" />
+              <xs:element name="Machine_x0020_Controller_x0020_-_x0020_IOR" type="xs:string" minOccurs="0" />
+              <xs:element name="Name" type="xs:string" minOccurs="0" />
+              <xs:element name="Scope" type="xs:string" minOccurs="0" />
+              <xs:element name="Value" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
+</TableSchema>
+    <TableData />
+  </OutputDataGridConfig>
+  <OutputDataGridConfig Name="AM_RecipeSource">
+    <Caption>AM_RecipeSource</Caption>
+    <SQL>SELECT
+	nodename, 
+	ActiveMC as [Machine Controller - IOR],
+	name,
+	scope,
+	value
+FROM
+	%{output}
+WHERE
+	name like 'AM_RecipeSource'
+ORDER BY
+	value, scope
+</SQL>
+    <TableLayoutConfig>
+      <BoundColumnList>NodeName,Machine Controller - IOR,Name,Scope,Value</BoundColumnList>
+    </TableLayoutConfig>
+    <TableSchema><xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+  <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="Results" msdata:UseCurrentLocale="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Results">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="NodeName" type="xs:string" minOccurs="0" />
+              <xs:element name="Machine_x0020_Controller_x0020_-_x0020_IOR" type="xs:string" minOccurs="0" />
+              <xs:element name="Name" type="xs:string" minOccurs="0" />
+              <xs:element name="Scope" type="xs:string" minOccurs="0" />
+              <xs:element name="Value" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
+</TableSchema>
+    <TableData />
+  </OutputDataGridConfig>
+  <OutputDataGridConfig Name="AM_DMOQMap">
+    <Caption>AM_DMOQMap</Caption>
+    <SQL>SELECT
+	nodename, 
+	ActiveMC as [Machine Controller - IOR],
+	name,
+	scope,
+	value
+FROM
+	%{output}
+WHERE
+	name like 'AM_DMOQMap'
+ORDER BY
+	value, scope
+</SQL>
+    <TableLayoutConfig>
+      <BoundColumnList>NodeName,Machine Controller - IOR,Name,Scope,Value</BoundColumnList>
+    </TableLayoutConfig>
+    <TableSchema><xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+  <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="Results" msdata:UseCurrentLocale="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Results">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="NodeName" type="xs:string" minOccurs="0" />
+              <xs:element name="Machine_x0020_Controller_x0020_-_x0020_IOR" type="xs:string" minOccurs="0" />
+              <xs:element name="Name" type="xs:string" minOccurs="0" />
+              <xs:element name="Scope" type="xs:string" minOccurs="0" />
+              <xs:element name="Value" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
+</TableSchema>
+    <TableData />
+  </OutputDataGridConfig>
+  <OutputDataGridConfig Name="ID_KeepFOUPDoorClosed">
+    <Caption>ID_KeepFOUPDoorClosed</Caption>
+    <SQL>SELECT
+	nodename, 
+	ActiveMC as [Machine Controller - IOR],
+	name,
+	scope,
+	value
+FROM
+	%{output}
+WHERE
+	name like 'ID_KeepFOUPDoorClosed'
+ORDER BY
+	value, scope
+</SQL>
+    <TableLayoutConfig>
+      <BoundColumnList>NodeName,Machine Controller - IOR,Name,Scope,Value</BoundColumnList>
+    </TableLayoutConfig>
+    <TableSchema><xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+  <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="Results" msdata:UseCurrentLocale="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Results">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="NodeName" type="xs:string" minOccurs="0" />
+              <xs:element name="Machine_x0020_Controller_x0020_-_x0020_IOR" type="xs:string" minOccurs="0" />
+              <xs:element name="Name" type="xs:string" minOccurs="0" />
+              <xs:element name="Scope" type="xs:string" minOccurs="0" />
+              <xs:element name="Value" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
+</TableSchema>
+    <TableData />
+  </OutputDataGridConfig>
+  <OutputDataGridConfig Name="EP_E3DualSubscriber">
+    <Caption>EP_E3DualSubscriber</Caption>
+    <SQL>SELECT
+	nodename, 
+	ActiveMC as [Machine Controller - IOR],
+	name,
+	scope,
+	value
+FROM
+	%{output}
+WHERE
+	name like 'EP_E3DualSubscriber'
+ORDER BY
+	value, scope
+</SQL>
+    <TableLayoutConfig>
+      <BoundColumnList>NodeName,Machine Controller - IOR,Name,Scope,Value</BoundColumnList>
+    </TableLayoutConfig>
+    <TableSchema><xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+  <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="Results" msdata:UseCurrentLocale="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Results">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="NodeName" type="xs:string" minOccurs="0" />
+              <xs:element name="Machine_x0020_Controller_x0020_-_x0020_IOR" type="xs:string" minOccurs="0" />
+              <xs:element name="Name" type="xs:string" minOccurs="0" />
+              <xs:element name="Scope" type="xs:string" minOccurs="0" />
+              <xs:element name="Value" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
+</TableSchema>
+    <TableData />
+  </OutputDataGridConfig>
+  <OutputDataGridConfig Name="EP_E3ResetCommunication">
+    <Caption>EP_E3ResetCommunication</Caption>
+    <SQL>SELECT
+	nodename, 
+	ActiveMC as [Machine Controller - IOR],
+	name,
+	scope,
+	value
+FROM
+	%{output}
+WHERE
+	name like 'EP_E3ResetCommunication'
+ORDER BY
+	value, scope
+</SQL>
+    <TableLayoutConfig>
+      <BoundColumnList>NodeName,Machine Controller - IOR,Name,Scope,Value</BoundColumnList>
+    </TableLayoutConfig>
+    <TableSchema><xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+  <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="Results" msdata:UseCurrentLocale="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Results">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="NodeName" type="xs:string" minOccurs="0" />
+              <xs:element name="Machine_x0020_Controller_x0020_-_x0020_IOR" type="xs:string" minOccurs="0" />
+              <xs:element name="Name" type="xs:string" minOccurs="0" />
+              <xs:element name="Scope" type="xs:string" minOccurs="0" />
+              <xs:element name="Value" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
+</TableSchema>
+    <TableData />
+  </OutputDataGridConfig>
+  <OutputDataGridConfig Name="EP_IgnoreNonNumeric">
+    <Caption>EP_IgnoreNonNumeric</Caption>
+    <SQL>SELECT
+	nodename, 
+	ActiveMC as [Machine Controller - IOR],
+	name,
+	scope,
+	value
+FROM
+	%{output}
+WHERE
+	name like 'EP_IgnoreNonNumeric'
+ORDER BY
+	value, scope
+</SQL>
+    <TableLayoutConfig>
+      <BoundColumnList>NodeName,Machine Controller - IOR,Name,Scope,Value</BoundColumnList>
+    </TableLayoutConfig>
+    <TableSchema><xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+  <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="Results" msdata:UseCurrentLocale="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Results">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="NodeName" type="xs:string" minOccurs="0" />
+              <xs:element name="Machine_x0020_Controller_x0020_-_x0020_IOR" type="xs:string" minOccurs="0" />
+              <xs:element name="Name" type="xs:string" minOccurs="0" />
+              <xs:element name="Scope" type="xs:string" minOccurs="0" />
+              <xs:element name="Value" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
+</TableSchema>
+    <TableData />
+  </OutputDataGridConfig>
+  <OutputDataGridConfig Name="EP_E3IdleDataCollection">
+    <Caption>EP_E3IdleDataCollection</Caption>
+    <SQL>SELECT
+	nodename, 
+	ActiveMC as [Machine Controller - IOR],
+	name,
+	scope,
+	value
+FROM
+	%{output}
+WHERE
+	name like 'EP_E3IdleDataCollection'
+ORDER BY
+	value, scope
+</SQL>
+    <TableLayoutConfig>
+      <BoundColumnList>NodeName,Machine Controller - IOR,Name,Scope,Value</BoundColumnList>
+    </TableLayoutConfig>
+    <TableSchema><xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+  <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="Results" msdata:UseCurrentLocale="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Results">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="NodeName" type="xs:string" minOccurs="0" />
+              <xs:element name="Machine_x0020_Controller_x0020_-_x0020_IOR" type="xs:string" minOccurs="0" />
+              <xs:element name="Name" type="xs:string" minOccurs="0" />
+              <xs:element name="Scope" type="xs:string" minOccurs="0" />
+              <xs:element name="Value" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
+</TableSchema>
+    <TableData />
+  </OutputDataGridConfig>
+  <OutputDataGridConfig Name="DP_EnableOnlineWLT">
+    <Caption>DP_EnableOnlineWLT</Caption>
+    <SQL>SELECT
+	nodename, 
+	ActiveMC as [Machine Controller - IOR],
+	name,
+	scope,
+	value
+FROM
+	%{output}
+WHERE
+	name like 'DP_EnableOnlineWLT'
+ORDER BY
+	value, scope
+</SQL>
+    <TableLayoutConfig>
+      <BoundColumnList>NodeName,Machine Controller - IOR,Name,Scope,Value</BoundColumnList>
+    </TableLayoutConfig>
+    <TableSchema><xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+  <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="Results" msdata:UseCurrentLocale="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Results">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="NodeName" type="xs:string" minOccurs="0" />
+              <xs:element name="Machine_x0020_Controller_x0020_-_x0020_IOR" type="xs:string" minOccurs="0" />
+              <xs:element name="Name" type="xs:string" minOccurs="0" />
+              <xs:element name="Scope" type="xs:string" minOccurs="0" />
+              <xs:element name="Value" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
+</TableSchema>
+    <TableData />
+  </OutputDataGridConfig>
+  <OutputDataGridConfig Name="Softpin_IgnoreUndockFoups">
+    <Caption>Softpin_IgnoreUndockFoups</Caption>
+    <SQL>SELECT
+	nodename, 
+	ActiveMC as [Machine Controller - IOR],
+	name,
+	scope,
+	value
+FROM
+	%{output}
+WHERE
+	name like 'Softpin_IgnoreUndockFoups'
+ORDER BY
+	value, scope
+</SQL>
+    <TableLayoutConfig>
+      <BoundColumnList>NodeName,Machine Controller - IOR,Name,Scope,Value</BoundColumnList>
+    </TableLayoutConfig>
+    <TableSchema><xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+  <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="Results" msdata:UseCurrentLocale="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Results">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="NodeName" type="xs:string" minOccurs="0" />
+              <xs:element name="Machine_x0020_Controller_x0020_-_x0020_IOR" type="xs:string" minOccurs="0" />
+              <xs:element name="Name" type="xs:string" minOccurs="0" />
+              <xs:element name="Scope" type="xs:string" minOccurs="0" />
+              <xs:element name="Value" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
+</TableSchema>
+    <TableData />
+  </OutputDataGridConfig>
+  <OutputDataGridConfig Name="WLT_RunIdNewFormat">
+    <Caption>WLT_RunIdNewFormat</Caption>
+    <SQL>SELECT
+	nodename, 
+	ActiveMC as [Machine Controller - IOR],
+	name,
+	scope,
+	value
+FROM
+	%{output}
+WHERE
+	name like 'WLT_RunIdNewFormat'
+ORDER BY
+	value, scope
+</SQL>
+    <TableLayoutConfig>
+      <BoundColumnList>NodeName,Machine Controller - IOR,Name,Scope,Value</BoundColumnList>
+    </TableLayoutConfig>
+    <TableSchema><xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+  <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="Results" msdata:UseCurrentLocale="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Results">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="NodeName" type="xs:string" minOccurs="0" />
+              <xs:element name="Machine_x0020_Controller_x0020_-_x0020_IOR" type="xs:string" minOccurs="0" />
+              <xs:element name="Name" type="xs:string" minOccurs="0" />
+              <xs:element name="Scope" type="xs:string" minOccurs="0" />
+              <xs:element name="Value" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
+</TableSchema>
+    <TableData />
+  </OutputDataGridConfig>
+  <OutputDataGridConfig Name="ID_SerialMode">
+    <SQL>SELECT
+	nodename,
+	ActiveMC as [Machine Controller - IOR],
+	name,
+	scope,
+	value
+FROM
+	%{output}
+WHERE
+	name like 'ID_SerialMode'
+ORDER BY
+	value, scope
+</SQL>
+    <TableLayoutConfig>
+      <BoundColumnList>NodeName,Machine Controller - IOR,Name,Scope,Value</BoundColumnList>
+    </TableLayoutConfig>
+    <TableSchema><xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+  <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="Results" msdata:UseCurrentLocale="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Results">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="NodeName" type="xs:string" minOccurs="0" />
+              <xs:element name="Machine_x0020_Controller_x0020_-_x0020_IOR" type="xs:string" minOccurs="0" />
+              <xs:element name="Name" type="xs:string" minOccurs="0" />
+              <xs:element name="Scope" type="xs:string" minOccurs="0" />
+              <xs:element name="Value" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
+</TableSchema>
+    <TableData />
+  </OutputDataGridConfig>
+  <OutputDataGridConfig Name="TNM_Enabled">
+    <SQL>---Begin Main Query---
+SELECT
+	nodename,
+	ActiveMC as [Machine Controller - IOR],
+	name,
+	scope,
+	value
+FROM
+	%{output}
+WHERE
+	name like 'TNM_Enabled'
+ORDER BY
+	value, scope
+</SQL>
+    <TableLayoutConfig>
+      <BoundColumnList>NodeName,Machine Controller - IOR,Name,Scope,Value</BoundColumnList>
+    </TableLayoutConfig>
+    <TableSchema><xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+  <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="Results" msdata:UseCurrentLocale="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Results">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="NodeName" type="xs:string" minOccurs="0" />
+              <xs:element name="Machine_x0020_Controller_x0020_-_x0020_IOR" type="xs:string" minOccurs="0" />
+              <xs:element name="Name" type="xs:string" minOccurs="0" />
+              <xs:element name="Scope" type="xs:string" minOccurs="0" />
+              <xs:element name="Value" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
+</TableSchema>
+    <TableData />
+  </OutputDataGridConfig>
+  <OutputDataGridConfig Name="SoftPin_WaferVerificationElimination">
+    <SQL>---Begin Main Query---
+SELECT
+	nodename,
+	ActiveMC as [Machine Controller - IOR],
+	name,
+	scope,
+	value
+FROM
+	%{output}
+WHERE
+	name like 'SoftPin_WaferVerificationElimination'
+ORDER BY
+	value, scope
+</SQL>
+    <TableLayoutConfig>
+      <BoundColumnList>NodeName,Machine Controller - IOR,Name,Scope,Value</BoundColumnList>
+    </TableLayoutConfig>
+    <TableSchema><xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+  <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="Results" msdata:UseCurrentLocale="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Results">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="NodeName" type="xs:string" minOccurs="0" />
+              <xs:element name="Machine_x0020_Controller_x0020_-_x0020_IOR" type="xs:string" minOccurs="0" />
+              <xs:element name="Name" type="xs:string" minOccurs="0" />
+              <xs:element name="Scope" type="xs:string" minOccurs="0" />
+              <xs:element name="Value" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
+</TableSchema>
+    <TableData />
+  </OutputDataGridConfig>
+  <OutputDataGridConfig Name="LIA_WinclientPM">
+    <SQL>---Begin Main Query---
+SELECT
+	nodename,
+	ActiveMC as [Machine Controller - IOR],
+	name,
+	scope,
+	value
+FROM
+	%{output}
+WHERE
+	name like 'LIA_WinclientPM'
+ORDER BY
+	value, scope
+</SQL>
+    <TableLayoutConfig>
+      <BoundColumnList>NodeName,Machine Controller - IOR,Name,Scope,Value</BoundColumnList>
+    </TableLayoutConfig>
+    <TableSchema><xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+  <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="Results" msdata:UseCurrentLocale="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Results">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="NodeName" type="xs:string" minOccurs="0" />
+              <xs:element name="Machine_x0020_Controller_x0020_-_x0020_IOR" type="xs:string" minOccurs="0" />
+              <xs:element name="Name" type="xs:string" minOccurs="0" />
+              <xs:element name="Scope" type="xs:string" minOccurs="0" />
+              <xs:element name="Value" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
+</TableSchema>
+    <TableData />
+  </OutputDataGridConfig>
+  <OutputDataGridConfig Name="LIA_PerformCustomHealthCheck" IncludeInAttachment="true">
+    <Caption>LIA_PerformCustomHealthCheck</Caption>
+    <SQL>---Begin Main Query---
+SELECT
+	nodename,
+	ActiveMC as [Machine Controller - IOR],
+	name,
+	scope,
+	value
+FROM
+	%{output}
+WHERE
+	name like 'LIA_PerformCustomHealthCheck'
+ORDER BY
+	value, scope
+</SQL>
+    <TableLayoutConfig>
+      <BoundColumnList>NodeName,Machine Controller - IOR,Name,Scope,Value</BoundColumnList>
+    </TableLayoutConfig>
+    <TableSchema><xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+  <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="Results" msdata:UseCurrentLocale="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Results">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="NodeName" type="xs:string" minOccurs="0" />
+              <xs:element name="Machine_x0020_Controller_x0020_-_x0020_IOR" type="xs:string" minOccurs="0" />
+              <xs:element name="Name" type="xs:string" minOccurs="0" />
+              <xs:element name="Scope" type="xs:string" minOccurs="0" />
+              <xs:element name="Value" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
+</TableSchema>
+    <TableData />
+  </OutputDataGridConfig>
+  <AutoPivotConfig OutputDateFormat="yyyy ww.w hh tt" />
+  <MailConfig>
+    <PostProcessingSQL Enable="false" />
+    <EmailCondition Enable="false" Operator="&gt;=" ThresholdRowCount="0">
+      <SQLQuery />
+      <RunScriptBeforeEmailing>false</RunScriptBeforeEmailing>
+      <Script />
+    </EmailCondition>
+    <PostProcessingCondition Enable="false" Operator="&gt;" ThresholdRowCount="0">
+      <SQLQuery />
+      <RunScriptBeforeEmailing>false</RunScriptBeforeEmailing>
+    </PostProcessingCondition>
+    <CopyCondition Enable="false" Operator="&gt;" ThresholdRowCount="0">
+      <SQLQuery />
+      <RunScriptBeforeEmailing>false</RunScriptBeforeEmailing>
+    </CopyCondition>
+    <SMTPServer>smtp.intel.com</SMTPServer>
+    <From>LogAnalyzer2@DONOTREPLY.COM</From>
+    <ReplyTo>@{DASHBOARD_OWNER_ALERT_DIST}</ReplyTo>
+    <To />
+    <Subject>[${DOMAIN}] NTSC FW Merged Config Analysis</Subject>
+    <Body />
+    <OnlyProcessIfOutputChangedFromPreviousRun>false</OnlyProcessIfOutputChangedFromPreviousRun>
+    <MailAttachments FileNamingFormat="${SETTINGS}" Excel="false" CSV="false" LAS="false" LAD="false" Exceptions="false" StatusLogs="false" PivotChart="true" ZipAttachments="false" DoNotSendAttachmentsWithEmail="false" IncludeQuerySettingsFileHeader="false" IncludeVariableDefinitionHeader="false" IncludeRowCountInSubject="false" />
+    <IncludeSQLQueryInBody>false</IncludeSQLQueryInBody>
+    <TableInBody Enable="false">
+      <SQL />
+    </TableInBody>
+    <CopyOutputToDirectory>true</CopyOutputToDirectory>
+    <OutputDirectory>@{DASHBOARD_WEB_SPOOL}\PCAM\Output</OutputDirectory>
+    <IncludeAutoPivotSummary>false</IncludeAutoPivotSummary>
+    <IncludeCustomPivotSummary>false</IncludeCustomPivotSummary>
+    <IgnoreExceptions>true</IgnoreExceptions>
+    <OnlyCopyOutputIfEmailConditionIsMet>false</OnlyCopyOutputIfEmailConditionIsMet>
+  </MailConfig>
+  <TableSchema><xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+  <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="Results" msdata:UseCurrentLocale="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Results">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="NodeName" type="xs:string" minOccurs="0" />
+              <xs:element name="Name" type="xs:string" minOccurs="0" />
+              <xs:element name="FunctionalArea" type="xs:string" minOccurs="0" />
+              <xs:element name="ActiveMC" type="xs:string" minOccurs="0" />
+              <xs:element name="GoldTool" type="xs:string" minOccurs="0" />
+              <xs:element name="DOTNET" type="xs:string" minOccurs="0" />
+              <xs:element name="Component" type="xs:string" minOccurs="0" />
+              <xs:element name="Value" type="xs:string" minOccurs="0" />
+              <xs:element name="Scope" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
+</TableSchema>
+  <TableData />
+  <LastRunAbsoluteDateFilter>All</LastRunAbsoluteDateFilter>
+  <PivotGroupingSettings Enable="true" PivotColumn="NodeName">
+    <SortyByColumn>Count</SortyByColumn>
+  </PivotGroupingSettings>
+  <QuerySQL><![CDATA[
+--[FileName:"D:\Dashboard\Jobs\PCAM\12-hr\2_NTSC_Capability_Summary_Analysis.lasx"]------
+----------<VARIABLES>------------
+var FILEFILTER = "@{DASHBOARD_PERSIST_DATA}\PCAM\Output\1_NTSC_Capability_Summary_DataPull.csv"
+var TIMEFILTER = "All"
+var NODEFILTER = ""
+var DOMAIN = ""
+---Begin Main Query---
+Using CSV with
+SELECT
+	*
+FROM
+	${FILEFILTER}
+
+]]></QuerySQL>
+</QueryConfig>

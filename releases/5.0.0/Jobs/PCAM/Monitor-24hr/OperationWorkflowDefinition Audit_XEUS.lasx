@@ -1,0 +1,207 @@
+<QueryConfig AutoExecuteQueryOnLoad="false" PreventSQLBeautification="false">
+  <ChangeLog>Changed by AMR\rf3dash on 11/4/2021 9:29:14 AM from RF3PVAP416N19.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.9.10330.1516</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 11/10/2016 2:01:40 PM from RF3PVAP416N19.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.9.60808.1615</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 11/10/2016 1:50:31 PM from RF3PVAP416N19.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.9.60808.1615</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 11/10/2016 1:49:13 PM from RF3PVAP416N19.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.9.60808.1615</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 11/10/2016 1:45:18 PM from RF3PVAP416N19.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.9.60808.1615</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 11/10/2016 1:01:00 PM from RF3PVAP416N19.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.9.60808.1615</ChangeLog>
+  <ChangeLog>Changed by AMR\dmdavies on 10/2/2015 9:26:02 AM from DMDAVIES-MOBL1.AMR.CORP.INTEL.COM using LogAnalyzer2 v2.8.40923.2310</ChangeLog>
+  <ChangeLog>Changed by AMR\dmdavies on 10/2/2015 9:25:00 AM from DMDAVIES-MOBL1.AMR.CORP.INTEL.COM using LogAnalyzer2 v2.8.40923.2310</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 10/1/2015 9:02:57 AM from RF3PAP216N3.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.8.50323.2106</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 10/1/2015 8:57:29 AM from RF3PAP216N3.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.8.50323.2106</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 10/1/2015 8:56:06 AM from RF3PAP216N3.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.8.50323.2106</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 10/1/2015 8:55:03 AM from RF3PAP216N3.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.8.50323.2106</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 10/1/2015 8:53:12 AM from RF3PAP216N3.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.8.50323.2106</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 10/1/2015 8:48:51 AM from RF3PAP216N3.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.8.50323.2106</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 9/30/2015 3:45:13 PM from RF3PAP216N3.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.8.50323.2106</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 7/2/2014 3:06:48 PM from RF3PTS216.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.8.40626.2211</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 7/2/2014 3:04:08 PM from RF3PTS216.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.8.40626.2211</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 7/2/2014 3:03:26 PM from RF3PTS216.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.8.40626.2211</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 1/31/2014 12:57:00 PM from RF3PTS216.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.7.40127.1431</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 1/31/2014 12:56:51 PM from RF3PTS216.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.7.40127.1431</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 12/13/2013 3:50:27 PM from RF3PTS216.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.7.31122.1414</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 12/13/2013 3:42:46 PM from RF3PTS216.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.7.31122.1414</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 12/13/2013 3:41:41 PM from RF3PTS216.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.7.31122.1414</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 12/13/2013 2:06:22 PM from RF3PTS216.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.7.31122.1414</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 12/13/2013 1:59:01 PM from RF3PTS216.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.7.31122.1414</ChangeLog>
+  <QueryAttributes>
+    <AlwaysReplaceDomainWithLocal>false</AlwaysReplaceDomainWithLocal>
+  </QueryAttributes>
+  <PostQuerySQL>select * from %{OUTPUT}</PostQuerySQL>
+  <TableLayoutConfig>
+    <BoundColumnList>Operation,Workflow Information,Functional Area,State</BoundColumnList>
+  </TableLayoutConfig>
+  <TabOrder>C0</TabOrder>
+  <MainPivotConfig>
+    <ColumnX FieldName="" FieldType="" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <ColumnY FieldName="" FieldType="" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <ColumnData FieldName="" FieldType="" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <CustomPalette />
+    <TableData />
+  </MainPivotConfig>
+  <AutoPivotConfig OutputDateFormat="yyyy ww.w hh tt" />
+  <MailConfig>
+    <PostProcessingSQL Enable="false" />
+    <EmailCondition Enable="true" Operator="&gt;" ThresholdRowCount="0">
+      <SQLQuery />
+      <RunScriptBeforeEmailing>false</RunScriptBeforeEmailing>
+      <Script />
+    </EmailCondition>
+    <PostProcessingCondition Enable="false" Operator="&gt;" ThresholdRowCount="0">
+      <SQLQuery />
+      <RunScriptBeforeEmailing>false</RunScriptBeforeEmailing>
+    </PostProcessingCondition>
+    <CopyCondition Enable="false" Operator="&gt;" ThresholdRowCount="0">
+      <SQLQuery />
+      <RunScriptBeforeEmailing>false</RunScriptBeforeEmailing>
+    </CopyCondition>
+    <SMTPServer>smtpauth.intel.com:587</SMTPServer>
+    <From>LogAnalyzer2@intel.com</From>
+    <ReplyTo>@{DASHBOARD_OWNER_ALERT_DIST}</ReplyTo>
+    <To>@{WIP_MONITOR_EMAIL}; richard.c.amacker@intel.com; michael.d.fulton@intel.com; mark.c.horner@intel.com; peter.j.wilson@intel.com; bradley.s.heine@intel.com</To>
+    <Subject>[${DOMAIN}] OperationWorkflowDefinition Audit</Subject>
+    <Body>&lt;b&gt;&lt;font color="red"&gt;Action Required - An MES300 Operation is incorrectly configured for OperationWorkflowDefinition.  
+&lt;br&gt;
+&lt;br&gt;
+Excluded operations are as follows: @{OWD_EXCLUDE_LIST}
+&lt;br&gt;
+&lt;br&gt;
+Operations of the following processe(s) are also excluded: @{OWD_PROCESS_EXCLUDE_LIST}&lt;/font&gt;&lt;/b&gt;
+&lt;br&gt;
+&lt;br&gt;
+The operations(s) listed below have their OperationWorkflowDefinition set-up configured incompletely. Please use the Summary column to determine the course of action to correct this issue.
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;Additional details can be found &lt;a href="http://autowiki.intel.com/index.php?title=AIT_Monitor_pages_and_response&amp;stable=0#OperationWorkflowDefinition_Audit"&gt;here&lt;/a&gt;.&lt;/b&gt;
+&lt;br&gt;
+&lt;br&gt;</Body>
+    <MailAttachments FileNamingFormat="${SETTINGS}" Excel="false" CSV="false" LAS="false" LAD="false" Exceptions="false" StatusLogs="false" PivotChart="false" ZipAttachments="false" DoNotSendAttachmentsWithEmail="false" IncludeJobStatisticsHeader="false" IncludeQuerySettingsFileHeader="false" IncludeVariableDefinitionHeader="false" IncludeRowCountInSubject="false" />
+    <IncludeSQLQueryInBody>false</IncludeSQLQueryInBody>
+    <TableInBody Enable="true">
+      <SQL />
+    </TableInBody>
+    <CopyOutputToDirectory>false</CopyOutputToDirectory>
+    <OutputDirectory>@{DASHBOARD_WEB_SPOOL}\PCAM\Output</OutputDirectory>
+    <IncludeAutoPivotSummary>false</IncludeAutoPivotSummary>
+    <IgnoreExceptions>false</IgnoreExceptions>
+    <SuppressMail>false</SuppressMail>
+    <OnlyCopyOutputIfEmailConditionIsMet>false</OnlyCopyOutputIfEmailConditionIsMet>
+  </MailConfig>
+  <TableSchema />
+  <TableData />
+  <LastRunAbsoluteDateFilter />
+  <PivotGroupingSettings PivotColumn="">
+    <SortyByColumn>Count</SortyByColumn>
+  </PivotGroupingSettings>
+  <QuerySQL><![CDATA[
+--[FileName:"D:\Dashboard\Jobs\PCAM\Monitor-24hr\OperationWorkflowDefinition Audit_XEUS.lasx"]------
+----------<VARIABLES>------------
+var MAO_USERID = "@{USERID_NON_MFG}"
+var OPER_EXCLUDE = "@{OWD_EXCLUDE_LIST}"
+var DATA_SOURCE = "@{LOCALXEUSDATASOURCE}"
+var OPER_PROCESS_EXCLUDE = "@{OWD_PROCESS_EXCLUDE_LIST}"
+---[OWD_CSV]---
+BEGIN OWD_CSV
+	---Begin Main Query---
+	Using UNIQE with
+		DataSource = "${DATA_SOURCE}" -- UNIQE data source to query
+		Authentication = "UNP" -- User Authentication Mode
+		UserId = "${MAO_USERID}" -- User ID for authentication
+	SELECT
+	  ENTRY_ROW_ID,
+	  ATTRIBUTE_NAME,
+	  ATTRIBUTE_DATA
+	FROM
+	  F_GENERALRELATIONDATA
+	WHERE
+	  RELATION_NAME = 'OperationWorkflowDefinition'
+	  AND SRC_ERASE_DATE IS NULL
+	ORDER  BY
+	  ENTRY_ROW_ID,
+	  ATTRIBUTE_NAME,
+	  ATTRIBUTE_DATA 
+END OWD_CSV
+---[TRANS_CSV]---
+BEGIN TRANS_CSV
+	UseMethod TransformRowsToColumn with -- **Transforms multiple table rows into new name/value columns**
+		InputFile = "%{OWD_CSV}" -- Input CSV file containing table data [String]
+		ColumnNameForCaption = "ATTRIBUTE_NAME" -- Caption for new column type created after transformation [String]
+		ColumnNameForValue = "ATTRIBUTE_DATA" -- Caption for new column value created after transformation [String]
+		ExcludeColumnFilter = "" -- Columns to be excluded from output table (can include wild-cards and be separated by commas) [String]
+		DefaultValue = "" -- Default value for cell if one does not exist [String]
+END TRANS_CSV
+---[MES_CSV]---
+BEGIN MES_CSV
+	---Begin Main Query---
+	Using UNIQE with
+		DataSource = "${DATA_SOURCE}" -- UNIQE data source to query
+		Authentication = "UNP" -- User Authentication Mode
+		UserId = "${MAO_USERID}" -- User ID for authentication
+	SELECT
+	  Operation,
+	  AREA                   AS FunctionalArea,
+	  OPERATIONWORKFLOWTABLE AS AttributeValue,
+	  STATE                  AS State,
+	  DOTPROCESS             AS Process
+	FROM
+	  F_OPERATION
+	WHERE
+	  LATEST_VERSION = 'Y'
+	  AND SRC_ERASE_DATE IS NULL 
+END MES_CSV
+---[JOIN_CSV]---
+BEGIN JOIN_CSV
+	UseMethod Join with -- **Do an outer join for two tables based on a matching column**
+		InputFile1 = "%{MES_CSV}" -- Input CSV File #1 containing table data [String]
+		InputFile2 = "%{TRANS_CSV}" -- Input CSV File #2 containing table data [String]
+		JoinColumn = "Operation" -- Column name(s) on which to join the two tables (more than one column can be supplied by using comma as a separator) [String]
+		IgnoreDuplicate = true -- Flag to ignore duplicate items in the JoinColumn [Boolean]
+		IgnoreCase = true -- Flag to ignore case in the JoinColumn [Boolean]
+		OnlyShowNonMatchingRows = false -- Flag to only show non-matching orphan rows [Boolean]
+		IncludeNonMatchingRows = true -- Flag to also include non-matching orphan rows (but with blank entries) [Boolean]
+		MustIncludeOutputColumns = "Operation" -- Name of columns (comma-separated) that must be included in output even if the join does not materialize [String]
+END JOIN_CSV
+---[SUMMARY_CSV]---
+BEGIN SUMMARY_CSV
+	---Begin Main Query---
+	Using CSV with
+	SELECT
+		Operation,
+		Process,
+		CRMTable,
+		OperationUDA,
+		Merge,
+		State,
+		FunctionalArea as FunctionalArea
+	USING
+		CASE WorkflowName when null then 'No' else 'Yes' end as CRMTable,
+		CASE AttributeValue when 'OperationWorkflowDefinition' then 'Yes' else 'No' end as OperationUDA,
+		strcat(CRMTable, OperationUDA) as Merge
+	FROM
+		%{JOIN_CSV}
+	WHERE
+		Merge like 'YesNo'
+		OR Merge like 'NoYes'
+	ORDER BY
+		Operation
+END SUMMARY_CSV
+---Begin Main Query---
+Using CSV with
+SELECT
+	Operation,
+	Process,
+	FunctionalArea as [Functional Area],
+	State,
+	CRMTable as [OperationWorkflowDefinition CRM Table Configured],
+	OperationUDA as [OperationWorkflowDefinition UDA Defined],
+	Summary
+USING
+	CASE Merge when 'NoYes' then 'Operation is missing from OperationWorkflowDefinition CRM Table' else 'Operation UDA OperationWorkflowDefinition is not defined' end as Summary
+FROM
+	%{SUMMARY_CSV}
+WHERE
+	NOT IsInList(Operation, '${OPER_EXCLUDE}')
+	AND NOT IsInList(Process, '${OPER_PROCESS_EXCLUDE}')
+
+]]></QuerySQL>
+</QueryConfig>

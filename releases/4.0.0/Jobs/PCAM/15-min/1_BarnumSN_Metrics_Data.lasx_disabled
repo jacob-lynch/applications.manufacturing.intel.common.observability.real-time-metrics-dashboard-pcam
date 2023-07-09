@@ -1,0 +1,177 @@
+<QueryConfig AutoExecuteQueryOnLoad="false">
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 3/10/2015 3:43:16 PM from RF3PAP216N3.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.8.40713.1943</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 11/14/2014 2:03:54 PM from RF3PAP216N3.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.8.40713.1943</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 11/14/2014 2:02:17 PM from RF3PAP216N3.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.8.40713.1943</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 11/14/2014 2:01:51 PM from RF3PAP216N3.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.8.40713.1943</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 11/14/2014 2:00:25 PM from RF3PAP216N3.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.8.40713.1943</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 11/14/2014 1:53:44 PM from RF3PAP216N3.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.8.40713.1943</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 8/15/2014 11:29:24 AM from RF3PTS216.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.8.40806.2215</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 8/14/2014 2:25:42 PM from RF3PTS216.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.8.40806.2215</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_penarvae on 5/21/2013 11:42:10 PM from RF3PAP216N1.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.7.30513.0932</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 5/3/2013 9:09:13 AM from RF3PTS215.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.6.30501.2100</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 5/1/2013 4:45:07 PM from RF3PTS215.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.6.30430.2016</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 4/30/2013 3:26:25 PM from RF3PTS215.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.6.30427.2018</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 4/30/2013 3:17:00 PM from RF3PTS215.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.6.30427.2018</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 4/30/2013 2:57:19 PM from RF3PTS215.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.6.30427.2018</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_penarvae on 4/26/2013 1:45:52 AM from RF3PAP216N3.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.6.30225.0930</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_penarvae on 4/26/2013 1:27:24 AM from RF3PAP216N3.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.6.30225.0930</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_penarvae on 4/26/2013 12:54:28 AM from RF3PAP216N3.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.6.30225.0930</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_penarvae on 4/26/2013 12:17:34 AM from RF3PAP216N3.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.6.30225.0930</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_penarvae on 4/25/2013 11:43:19 PM from RF3PAP216N3.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.6.30225.0930</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_penarvae on 4/25/2013 10:17:19 PM from RF3PAP216N3.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.6.30225.0930</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_penarvae on 4/8/2013 1:44:09 AM from RF3PAP216N3.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.6.30225.0930</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_penarvae on 4/8/2013 1:34:26 AM from RF3PAP216N3.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.6.30225.0930</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_penarvae on 4/8/2013 1:08:03 AM from RF3PAP216N3.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.6.30225.0930</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_penarvae on 4/8/2013 12:51:47 AM from RF3PAP216N3.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.6.30225.0930</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_penarvae on 4/8/2013 12:47:26 AM from RF3PAP216N3.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.6.30225.0930</ChangeLog>
+  <UNIQECredentials UserId="uber" Site="rf3sap110-alias.rf3stg.mfgint.intel.com" DataSource="D1D_STAG_LogAnalyzer" SaveCredentials="true" UseUNIQECredentialsOnStartUp="false" QueryTimeOutInSeconds="-1">
+    <Password />
+    <Name />
+  </UNIQECredentials>
+  <QueryAttributes>
+    <OutputDateFormat>MM/dd/yyyy hh:mmtt</OutputDateFormat>
+    <AlwaysReplaceDomainWithLocal>false</AlwaysReplaceDomainWithLocal>
+  </QueryAttributes>
+  <PostQuerySQL>select * from %{OUTPUT}</PostQuerySQL>
+  <TableLayoutConfig>
+    <BoundColumnList>Facility,Domain,Process,Priority,Area,ChangeType,ActiveChangeType,RESOURCE,Requestor,ActiveRequestor,LastRequestDate,Title,LogID,Description,RequestDate,NeedDate,StartDate,CompDate,Sts,ResourceFirstName,ResourceLastName,ActiveResource</BoundColumnList>
+  </TableLayoutConfig>
+  <TabOrder>C0</TabOrder>
+  <MainPivotConfig>
+    <ColumnX FieldName="" FieldType="" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <ColumnY FieldName="" FieldType="" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <ColumnData FieldName="" FieldType="" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <CustomPalette />
+    <TableData />
+  </MainPivotConfig>
+  <AutoPivotConfig OutputDateFormat="yyyy ww.w hh tt" />
+  <MailConfig>
+    <PostProcessingSQL Enable="false">
+      <SQL />
+    </PostProcessingSQL>
+    <EmailCondition Enable="false" Operator="&lt;" ThresholdRowCount="0">
+      <SQLQuery />
+      <RunScriptBeforeEmailing>false</RunScriptBeforeEmailing>
+      <Script />
+    </EmailCondition>
+    <PostProcessingCondition Enable="false" Operator="&gt;" ThresholdRowCount="0">
+      <SQLQuery />
+      <RunScriptBeforeEmailing>false</RunScriptBeforeEmailing>
+    </PostProcessingCondition>
+    <CopyCondition Enable="false" Operator="&gt;" ThresholdRowCount="0">
+      <SQLQuery />
+      <RunScriptBeforeEmailing>false</RunScriptBeforeEmailing>
+    </CopyCondition>
+    <SMTPServer>smtp.intel.com</SMTPServer>
+    <From>LogAnalyzer2@intel.com</From>
+    <ReplyTo>@{DASHBOARD_OWNER_ALERT_DIST}</ReplyTo>
+    <To />
+    <Subject>[${DOMAIN}] Barnum Metrics</Subject>
+    <Body />
+    <OnlyProcessIfOutputChangedFromPreviousRun>false</OnlyProcessIfOutputChangedFromPreviousRun>
+    <MailAttachments FileNamingFormat="${SETTINGS}" Excel="false" LAS="false" LAD="false" Exceptions="false" StatusLogs="false" PivotChart="false" ZipAttachments="false" DoNotSendAttachmentsWithEmail="false" IncludeJobStatisticsHeader="false" IncludeQuerySettingsFileHeader="false" IncludeVariableDefinitionHeader="false" IncludeRowCountInSubject="false" />
+    <IncludeSQLQueryInBody>false</IncludeSQLQueryInBody>
+    <TableInBody Enable="false">
+      <SQL />
+    </TableInBody>
+    <CopyOutputToDirectory>true</CopyOutputToDirectory>
+    <OutputDirectory>@{DASHBOARD_PERSIST_DATA}\PCAM\Output</OutputDirectory>
+    <IncludeAutoPivotSummary>false</IncludeAutoPivotSummary>
+    <IncludeCustomPivotSummary>false</IncludeCustomPivotSummary>
+    <IgnoreExceptions>true</IgnoreExceptions>
+    <OnlyCopyOutputIfEmailConditionIsMet>false</OnlyCopyOutputIfEmailConditionIsMet>
+    <PivotConfigs Enable="true" PivotColumn="Resource">
+      <SortyByColumn>Count</SortyByColumn>
+      <IncludeStatistics>true</IncludeStatistics>
+      <IncludeChart>true</IncludeChart>
+      <ChartConfig Enable="true">
+        <ColumnX FieldName="Resource" FieldType="String" SortMode="Default" SortOrder="Ascending" SummaryType="Average" SortBySummaryInfo="true" SortBySummaryInfoFieldName="Count" />
+        <ColumnY FieldName="" FieldType="" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+        <ColumnData FieldName="Count" FieldType="Int32" SortMode="Default" SortOrder="Ascending" SummaryType="Average" SortBySummaryInfo="false" />
+        <ColorPalette>Office</ColorPalette>
+        <ReverseXAxis>true</ReverseXAxis>
+        <CustomPalette />
+        <TableData />
+      </ChartConfig>
+    </PivotConfigs>
+  </MailConfig>
+  <TableSchema><xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+  <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="Results" msdata:UseCurrentLocale="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Results">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="BarnumNumber" type="xs:string" minOccurs="0" />
+              <xs:element name="Process" type="xs:string" minOccurs="0" />
+              <xs:element name="Priority" type="xs:int" minOccurs="0" />
+              <xs:element name="Area" type="xs:string" minOccurs="0" />
+              <xs:element name="ChangeType" type="xs:string" minOccurs="0" />
+              <xs:element name="Title" type="xs:string" minOccurs="0" />
+              <xs:element name="Requestor" type="xs:string" minOccurs="0" />
+              <xs:element name="isGL_x003F_" type="xs:string" minOccurs="0" />
+              <xs:element name="RequestorGL" type="xs:string" minOccurs="0" />
+              <xs:element name="RequestDate" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="NeedDate" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="Sts" type="xs:string" minOccurs="0" />
+              <xs:element name="Resource" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
+</TableSchema>
+  <TableData />
+  <LastRunAbsoluteDateFilter />
+  <PivotGroupingSettings Enable="true" PivotColumn="Area">
+    <SortyByColumn>Count</SortyByColumn>
+  </PivotGroupingSettings>
+  <QuerySQL><![CDATA[
+--[FileName:"D:\Dashboard\Jobs\PCAM\15-min\1_BarnumSN_Metrics_Data.lasx"]------
+----------<VARIABLES>------------
+var TIMEFILTER = "All"
+var SQL_NODE = "@{BARNUMSN_SQL_NODE}"
+var CATALOG = "@{BARNUMSN_CATALOG}"
+var TABLE = "@{BARNUMSN_TABLE}"
+var TABLE = "@{BARNUMSN_TABLE}"
+var BLINK = "@{BARNUMSN_LINK}"
+---[MAIN_CSV]---
+BEGIN MAIN_CSV
+	---Begin Main Query---
+	Using SQLDB with
+		HostName = "${SQL_NODE}"
+		Database = "${CATALOG}"
+		UserID = "SN_Reports"
+		Password = "SN_Reports"
+	SELECT
+	  *
+	FROM
+	  ${TABLE}
+	ORDER  BY
+	  created_on DESC 
+END MAIN_CSV
+---Begin Main Query---
+SELECT
+	number as BarnumNumber,
+	u_process as Process,
+	priority as Priority,
+	u_functional_area as Area,
+	change_type as ChangeType,
+	short_description as Title,
+	requestor as Requestor,
+	is_manager as [isGL?],
+	requestor_manager as RequestorGL,
+	created_on as RequestDate,
+	due_date as NeedDate,
+	incident_state as Sts,
+	assigned_to_person as Resource
+FROM
+	%{MAIN_CSV}
+WHERE
+	incident_state not like 'closed'
+	and incident_state not like 'rejected'
+
+]]></QuerySQL>
+</QueryConfig>

@@ -1,0 +1,1309 @@
+<QueryConfig AutoExecuteQueryOnLoad="false" PreventSQLBeautification="false">
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 10/26/2016 2:48:22 PM from RF3PVAP416N19.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.9.60808.1615</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 10/26/2016 2:46:43 PM from RF3PVAP416N19.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.9.60808.1615</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 10/26/2016 2:43:17 PM from RF3PVAP416N19.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.9.60808.1615</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 10/26/2016 2:35:16 PM from RF3PVAP416N19.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.9.60808.1615</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 6/25/2015 10:07:59 AM from RF3PAP216N3.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.8.50323.2106</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 6/24/2015 10:38:58 AM from RF3PAP216N3.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.8.50323.2106</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 6/23/2015 5:08:55 PM from RF3PAP216N3.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.8.50323.2106</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 5/1/2013 4:46:19 PM from RF3PTS215.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.6.30430.2016</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 4/29/2013 3:32:33 PM from RF3PTS215.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.6.30427.2018</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 4/22/2013 9:13:31 AM from RF3PTS215.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.6.30421.2033</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 3/21/2013 5:33:11 PM from RF3PTS215.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.6.30225.0930</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 3/21/2013 5:12:13 PM from RF3PTS215.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.6.30225.0930</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 3/21/2013 5:00:57 PM from RF3PTS215.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.6.30225.0930</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 3/21/2013 4:58:15 PM from RF3PTS215.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.6.30225.0930</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 3/21/2013 2:52:02 PM from RF3PTS215.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.6.30225.0930</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 2/15/2013 5:28:29 PM from RF3PTS215.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.6.30214.1454</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 1/16/2013 12:15:45 PM from RF3PTS215.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.6.30114.1906</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 1/16/2013 12:09:22 PM from RF3PTS215.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.6.30114.1906</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 1/16/2013 12:06:48 PM from RF3PTS215.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.6.30114.1906</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 1/16/2013 12:04:17 PM from RF3PTS215.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.6.30114.1906</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 1/16/2013 12:02:16 PM from RF3PTS215.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.6.30114.1906</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 9/6/2011 2:31:16 PM from RF3PTS215.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.4.10902.2313</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 9/6/2011 1:26:10 PM from RF3PTS215.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.4.10902.2313</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 9/5/2011 4:24:04 PM from RF3PTS215.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.4.10902.2313</ChangeLog>
+  <ChangeLog>Changed by GER\mfg_dkiernan on 7/2/2011 9:01:13 AM from RF3PTS215.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.4.10614.2211</ChangeLog>
+  <QueryAttributes>
+    <PreserveTempFiles>true</PreserveTempFiles>
+    <AlwaysReplaceDomainWithLocal>false</AlwaysReplaceDomainWithLocal>
+  </QueryAttributes>
+  <PostQuerySQL>select * from %{OUTPUT}</PostQuerySQL>
+  <TableLayoutConfig>
+    <BoundColumnList>MESEntity,StateModel,ToolType,CEID,FunctionalArea</BoundColumnList>
+  </TableLayoutConfig>
+  <TabOrder>C0,G0,C1,G1,C2,G2,C3,G3,C4,G4,C5,G5,C6,G6,C7,G7,C8,G8,C9,G9,C10,G10,C11,G11,C12,G12,C13,G13,C14,G14</TabOrder>
+  <MainPivotConfig Enable="true">
+    <QuerySQL>SELECT
+	*
+FROM
+	%{output}
+WHERE
+	FunctionalArea = 'Analytical'
+</QuerySQL>
+    <ColumnX FieldName="ToolType" FieldType="String" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <ColumnY FieldName="StateModel" FieldType="String" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <ColumnData FieldName="COUNT OF" FieldType="String" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <ChartType>StackedBar</ChartType>
+    <RotateXAxisLabels>false</RotateXAxisLabels>
+    <ShowColumnTotals>false</ShowColumnTotals>
+    <Name>Active MES State Models for Analytical</Name>
+    <ChartTitle>MES State Models for Analytical</ChartTitle>
+    <ColorPalette>Median</ColorPalette>
+    <ChartExportSize>800x400</ChartExportSize>
+    <ShowLegend>false</ShowLegend>
+    <IsYAxisVisible>false</IsYAxisVisible>
+    <CustomPalette />
+    <TableData />
+  </MainPivotConfig>
+  <MainPivotConfig Enable="true">
+    <QuerySQL>SELECT
+	*
+FROM
+	%{output}
+WHERE
+	FunctionalArea = 'Diffusion'
+</QuerySQL>
+    <ColumnX FieldName="ToolType" FieldType="String" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <ColumnY FieldName="StateModel" FieldType="String" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <ColumnData FieldName="COUNT OF" FieldType="String" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <ChartType>StackedBar</ChartType>
+    <RotateXAxisLabels>false</RotateXAxisLabels>
+    <ShowColumnTotals>false</ShowColumnTotals>
+    <Name>Active MES State Models for Diffusion</Name>
+    <ChartTitle>MES State Models for Diffusion</ChartTitle>
+    <ColorPalette>Median</ColorPalette>
+    <ChartExportSize>800x400</ChartExportSize>
+    <ShowLegend>false</ShowLegend>
+    <IsYAxisVisible>false</IsYAxisVisible>
+    <CustomPalette />
+    <TableData />
+  </MainPivotConfig>
+  <MainPivotConfig Enable="true">
+    <QuerySQL>SELECT
+	*
+FROM
+	%{output}
+WHERE
+	FunctionalArea = 'Etch'
+</QuerySQL>
+    <ColumnX FieldName="ToolType" FieldType="String" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <ColumnY FieldName="StateModel" FieldType="String" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <ColumnData FieldName="COUNT OF" FieldType="String" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <ChartType>StackedBar</ChartType>
+    <RotateXAxisLabels>false</RotateXAxisLabels>
+    <ShowColumnTotals>false</ShowColumnTotals>
+    <Name>Active MES State Models for Etch</Name>
+    <ChartTitle>MES State Models for Dry Etch</ChartTitle>
+    <ColorPalette>Median</ColorPalette>
+    <ChartExportSize>800x400</ChartExportSize>
+    <ShowLegend>false</ShowLegend>
+    <IsYAxisVisible>false</IsYAxisVisible>
+    <CustomPalette />
+    <TableData />
+  </MainPivotConfig>
+  <MainPivotConfig Enable="true">
+    <QuerySQL>SELECT
+	*
+FROM
+	%{output}
+WHERE
+	FunctionalArea = 'FabSupportGroup'
+</QuerySQL>
+    <ColumnX FieldName="ToolType" FieldType="String" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <ColumnY FieldName="StateModel" FieldType="String" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <ColumnData FieldName="COUNT OF" FieldType="String" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <ChartType>StackedBar</ChartType>
+    <RotateXAxisLabels>false</RotateXAxisLabels>
+    <ShowColumnTotals>false</ShowColumnTotals>
+    <Name>Active MES State Models for FSG</Name>
+    <ChartTitle>MES State Models for FSG</ChartTitle>
+    <ColorPalette>Median</ColorPalette>
+    <ChartExportSize>800x400</ChartExportSize>
+    <ShowLegend>false</ShowLegend>
+    <IsYAxisVisible>false</IsYAxisVisible>
+    <CustomPalette />
+    <TableData />
+  </MainPivotConfig>
+  <MainPivotConfig Enable="true">
+    <QuerySQL>SELECT
+	*
+FROM
+	%{output}
+WHERE
+	FunctionalArea = 'Implant'
+</QuerySQL>
+    <ColumnX FieldName="ToolType" FieldType="String" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <ColumnY FieldName="StateModel" FieldType="String" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <ColumnData FieldName="COUNT OF" FieldType="String" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <ChartType>StackedBar</ChartType>
+    <RotateXAxisLabels>false</RotateXAxisLabels>
+    <ShowColumnTotals>false</ShowColumnTotals>
+    <Name>Active MES State Models for Implant</Name>
+    <ChartTitle>MES State Models for Implant</ChartTitle>
+    <ColorPalette>Median</ColorPalette>
+    <ChartExportSize>800x400</ChartExportSize>
+    <ShowLegend>false</ShowLegend>
+    <IsYAxisVisible>false</IsYAxisVisible>
+    <CustomPalette />
+    <TableData />
+  </MainPivotConfig>
+  <MainPivotConfig Enable="true">
+    <QuerySQL>SELECT
+	*
+FROM
+	%{output}
+WHERE
+	FunctionalArea = 'Lithography'
+</QuerySQL>
+    <ColumnX FieldName="ToolType" FieldType="String" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <ColumnY FieldName="StateModel" FieldType="String" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <ColumnData FieldName="COUNT OF" FieldType="String" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <ChartType>StackedBar</ChartType>
+    <RotateXAxisLabels>false</RotateXAxisLabels>
+    <ShowColumnTotals>false</ShowColumnTotals>
+    <Name>Active MES State Models for Lithography</Name>
+    <ChartTitle>MES State Models for Lithography</ChartTitle>
+    <ColorPalette>Median</ColorPalette>
+    <ChartExportSize>800x400</ChartExportSize>
+    <ShowLegend>false</ShowLegend>
+    <IsYAxisVisible>false</IsYAxisVisible>
+    <CustomPalette />
+    <TableData />
+  </MainPivotConfig>
+  <MainPivotConfig Enable="true">
+    <QuerySQL>SELECT
+	*
+FROM
+	%{output}
+WHERE
+	FunctionalArea = 'Metrology'
+</QuerySQL>
+    <ColumnX FieldName="ToolType" FieldType="String" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <ColumnY FieldName="StateModel" FieldType="String" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <ColumnData FieldName="COUNT OF" FieldType="String" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <ChartType>StackedBar</ChartType>
+    <RotateXAxisLabels>false</RotateXAxisLabels>
+    <ShowColumnTotals>false</ShowColumnTotals>
+    <Name>Active MES State Models for Metrology</Name>
+    <ChartTitle>MES State Models for Metrology</ChartTitle>
+    <ColorPalette>Median</ColorPalette>
+    <ChartExportSize>800x400</ChartExportSize>
+    <ShowLegend>false</ShowLegend>
+    <IsYAxisVisible>false</IsYAxisVisible>
+    <CustomPalette />
+    <TableData />
+  </MainPivotConfig>
+  <MainPivotConfig Enable="true">
+    <QuerySQL>SELECT
+	*
+FROM
+	%{output}
+WHERE
+	FunctionalArea = 'Planar'
+</QuerySQL>
+    <ColumnX FieldName="ToolType" FieldType="String" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <ColumnY FieldName="StateModel" FieldType="String" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <ColumnData FieldName="COUNT OF" FieldType="String" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <ChartType>StackedBar</ChartType>
+    <RotateXAxisLabels>false</RotateXAxisLabels>
+    <ShowColumnTotals>false</ShowColumnTotals>
+    <Name>Active MES State Models for Planar</Name>
+    <ChartTitle>MES State Models for Planar</ChartTitle>
+    <ColorPalette>Median</ColorPalette>
+    <ChartExportSize>800x400</ChartExportSize>
+    <ShowLegend>false</ShowLegend>
+    <IsYAxisVisible>false</IsYAxisVisible>
+    <CustomPalette />
+    <TableData />
+  </MainPivotConfig>
+  <MainPivotConfig Enable="true">
+    <QuerySQL>SELECT
+	*
+FROM
+	%{output}
+WHERE
+	FunctionalArea = 'ThinFilms'
+</QuerySQL>
+    <ColumnX FieldName="ToolType" FieldType="String" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <ColumnY FieldName="StateModel" FieldType="String" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <ColumnData FieldName="COUNT OF" FieldType="String" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <ChartType>StackedBar</ChartType>
+    <RotateXAxisLabels>false</RotateXAxisLabels>
+    <ShowColumnTotals>false</ShowColumnTotals>
+    <Name>Active MES State Models for ThinFilms</Name>
+    <ChartTitle>MES State Models for ThinFilms</ChartTitle>
+    <ColorPalette>Median</ColorPalette>
+    <ChartExportSize>800x400</ChartExportSize>
+    <ShowLegend>false</ShowLegend>
+    <IsYAxisVisible>false</IsYAxisVisible>
+    <CustomPalette />
+    <TableData />
+  </MainPivotConfig>
+  <MainPivotConfig Enable="true">
+    <QuerySQL>SELECT
+	*
+FROM
+	%{output}
+WHERE
+	FunctionalArea = 'WetEtch'
+</QuerySQL>
+    <ColumnX FieldName="ToolType" FieldType="String" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <ColumnY FieldName="StateModel" FieldType="String" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <ColumnData FieldName="COUNT OF" FieldType="String" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <ChartType>StackedBar</ChartType>
+    <RotateXAxisLabels>false</RotateXAxisLabels>
+    <ShowColumnTotals>false</ShowColumnTotals>
+    <Name>Active MES State Models for Wet Etch</Name>
+    <ChartTitle>MES State Models for Wet Etch</ChartTitle>
+    <ColorPalette>Median</ColorPalette>
+    <ChartExportSize>800x400</ChartExportSize>
+    <ShowLegend>false</ShowLegend>
+    <IsYAxisVisible>false</IsYAxisVisible>
+    <CustomPalette />
+    <TableData />
+  </MainPivotConfig>
+  <MainPivotConfig Enable="true">
+    <QuerySQL>---Begin Main Query---
+SELECT
+	*
+FROM
+	%{output}
+WHERE
+	FunctionalArea = 'Sort'
+</QuerySQL>
+    <ColumnX FieldName="ToolType" FieldType="String" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <ColumnY FieldName="StateModel" FieldType="String" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <ColumnData FieldName="COUNT OF" FieldType="String" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <ChartType>StackedBar</ChartType>
+    <RotateXAxisLabels>false</RotateXAxisLabels>
+    <ShowColumnTotals>false</ShowColumnTotals>
+    <Name>Active MES State Models for Sort</Name>
+    <ChartTitle>MES State Models for Sort</ChartTitle>
+    <ColorPalette>Median</ColorPalette>
+    <ChartExportSize>800x400</ChartExportSize>
+    <ShowLegend>false</ShowLegend>
+    <IsYAxisVisible>false</IsYAxisVisible>
+    <CustomPalette />
+    <TableData />
+  </MainPivotConfig>
+  <MainPivotConfig Enable="true">
+    <QuerySQL>---Begin Main Query---
+SELECT
+	*
+FROM
+	%{output}
+WHERE
+	FunctionalArea = 'TSV'
+</QuerySQL>
+    <ColumnX FieldName="ToolType" FieldType="String" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <ColumnY FieldName="StateModel" FieldType="String" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <ColumnData FieldName="COUNT OF" FieldType="String" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <ChartType>StackedBar</ChartType>
+    <RotateXAxisLabels>false</RotateXAxisLabels>
+    <ShowColumnTotals>false</ShowColumnTotals>
+    <Name>Active MES State Models for TSV</Name>
+    <ChartTitle>MES State Models for TSV</ChartTitle>
+    <ColorPalette>Median</ColorPalette>
+    <ChartExportSize>800x400</ChartExportSize>
+    <ShowLegend>false</ShowLegend>
+    <IsYAxisVisible>false</IsYAxisVisible>
+    <CustomPalette />
+    <TableData />
+  </MainPivotConfig>
+  <MainPivotConfig Enable="true">
+    <QuerySQL>---Begin Main Query---
+SELECT
+	*
+FROM
+	%{output}
+WHERE
+	FunctionalArea = 'DieSort'
+</QuerySQL>
+    <ColumnX FieldName="ToolType" FieldType="String" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <ColumnY FieldName="StateModel" FieldType="String" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <ColumnData FieldName="COUNT OF" FieldType="String" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <ChartType>StackedBar</ChartType>
+    <RotateXAxisLabels>false</RotateXAxisLabels>
+    <ShowColumnTotals>false</ShowColumnTotals>
+    <Name>Active MES State Models for DieSort</Name>
+    <ChartTitle>MES State Models for DieSort</ChartTitle>
+    <ColorPalette>Median</ColorPalette>
+    <ChartExportSize>800x400</ChartExportSize>
+    <ShowLegend>false</ShowLegend>
+    <IsYAxisVisible>false</IsYAxisVisible>
+    <CustomPalette />
+    <TableData />
+  </MainPivotConfig>
+  <MainPivotConfig Enable="true">
+    <QuerySQL>---Begin Main Query---
+SELECT
+	*
+FROM
+	%{output}
+WHERE
+	FunctionalArea = 'DiePrep'
+</QuerySQL>
+    <ColumnX FieldName="ToolType" FieldType="String" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <ColumnY FieldName="StateModel" FieldType="String" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <ColumnData FieldName="COUNT OF" FieldType="String" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <ChartType>StackedBar</ChartType>
+    <RotateXAxisLabels>false</RotateXAxisLabels>
+    <ShowColumnTotals>false</ShowColumnTotals>
+    <Name>Active MES State Models for DiePrep</Name>
+    <ChartTitle>MES State Models for DiePrep</ChartTitle>
+    <ColorPalette>Median</ColorPalette>
+    <ChartExportSize>800x400</ChartExportSize>
+    <ShowLegend>false</ShowLegend>
+    <IsYAxisVisible>false</IsYAxisVisible>
+    <CustomPalette />
+    <TableData />
+  </MainPivotConfig>
+  <MainPivotConfig Enable="true">
+    <QuerySQL>---Begin Main Query---
+SELECT
+	*
+FROM
+	%{output}
+WHERE
+	FunctionalArea = 'FBE' OR FunctionalArea like '%C4%'
+</QuerySQL>
+    <ColumnX FieldName="ToolType" FieldType="String" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <ColumnY FieldName="StateModel" FieldType="String" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <ColumnData FieldName="COUNT OF" FieldType="String" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <ChartType>StackedBar</ChartType>
+    <RotateXAxisLabels>false</RotateXAxisLabels>
+    <ShowColumnTotals>false</ShowColumnTotals>
+    <Name>Active MES State Models for FBE</Name>
+    <ChartTitle>MES State Models for FBE</ChartTitle>
+    <ColorPalette>Median</ColorPalette>
+    <ChartExportSize>800x400</ChartExportSize>
+    <ShowLegend>false</ShowLegend>
+    <IsYAxisVisible>false</IsYAxisVisible>
+    <CustomPalette />
+    <TableData />
+  </MainPivotConfig>
+  <OutputDataGridConfig Name="Analytical State Models">
+    <SQL>SELECT
+	MesEntity as Entity,
+	CEID,
+	StateModel
+FROM
+	%{output}
+WHERE
+	FunctionalArea = 'Analytical'
+ORDER BY CEID
+</SQL>
+    <TableLayoutConfig>
+      <BoundColumnList>Entity,CEID,StateModel</BoundColumnList>
+    </TableLayoutConfig>
+    <TableSchema><xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+  <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="Results" msdata:UseCurrentLocale="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Results">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Entity" type="xs:string" minOccurs="0" />
+              <xs:element name="CEID" type="xs:string" minOccurs="0" />
+              <xs:element name="StateModel" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
+</TableSchema>
+    <TableData />
+  </OutputDataGridConfig>
+  <OutputDataGridConfig Name="Diffusion State Models">
+    <SQL>SELECT
+	MESEntity as Entity,
+	CEID,
+	StateModel
+FROM
+	%{output}
+WHERE
+	FunctionalArea = 'Diffusion'
+ORDER BY
+CEID</SQL>
+    <TableLayoutConfig>
+      <BoundColumnList>Entity,CEID,StateModel</BoundColumnList>
+    </TableLayoutConfig>
+    <TableSchema><xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+  <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="Results" msdata:UseCurrentLocale="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Results">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Entity" type="xs:string" minOccurs="0" />
+              <xs:element name="CEID" type="xs:string" minOccurs="0" />
+              <xs:element name="StateModel" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
+</TableSchema>
+    <TableData />
+  </OutputDataGridConfig>
+  <OutputDataGridConfig Name="Etch State Models">
+    <SQL>SELECT
+	MESEntity as Entity,
+	CEID,
+	StateModel
+FROM
+	%{output}
+WHERE
+	FunctionalArea = 'Etch'
+ORDER BY CEID</SQL>
+    <TableLayoutConfig>
+      <BoundColumnList>Entity,CEID,StateModel</BoundColumnList>
+    </TableLayoutConfig>
+    <TableSchema><xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+  <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="Results" msdata:UseCurrentLocale="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Results">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Entity" type="xs:string" minOccurs="0" />
+              <xs:element name="CEID" type="xs:string" minOccurs="0" />
+              <xs:element name="StateModel" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
+</TableSchema>
+    <TableData />
+  </OutputDataGridConfig>
+  <OutputDataGridConfig Name="FSG State Models">
+    <SQL>SELECT
+	MESEntity as Entity,
+	CEID,
+	StateModel
+FROM
+	%{output}
+WHERE
+	FunctionalArea = 'FabSupportGroup'
+ORDER BY CEID</SQL>
+    <TableLayoutConfig>
+      <BoundColumnList>Entity,CEID,StateModel</BoundColumnList>
+    </TableLayoutConfig>
+    <TableSchema><xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+  <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="Results" msdata:UseCurrentLocale="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Results">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Entity" type="xs:string" minOccurs="0" />
+              <xs:element name="CEID" type="xs:string" minOccurs="0" />
+              <xs:element name="StateModel" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
+</TableSchema>
+    <TableData />
+  </OutputDataGridConfig>
+  <OutputDataGridConfig Name="Implant State Models">
+    <SQL>SELECT
+	MESEntity as Entity,
+	CEID,
+	StateModel
+FROM
+	%{output}
+WHERE
+	FunctionalArea = 'Implant'
+ORDER BY CEID</SQL>
+    <TableLayoutConfig>
+      <BoundColumnList>Entity,CEID,StateModel</BoundColumnList>
+    </TableLayoutConfig>
+    <TableSchema><xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+  <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="Results" msdata:UseCurrentLocale="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Results">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Entity" type="xs:string" minOccurs="0" />
+              <xs:element name="CEID" type="xs:string" minOccurs="0" />
+              <xs:element name="StateModel" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
+</TableSchema>
+    <TableData />
+  </OutputDataGridConfig>
+  <OutputDataGridConfig Name="Lithography State Models">
+    <SQL>SELECT
+	MESEntity as Entity,
+	CEID,
+	StateModel
+FROM
+	%{output}
+WHERE
+	FunctionalArea = 'Lithography'
+ORDER BY CEID</SQL>
+    <TableLayoutConfig>
+      <BoundColumnList>Entity,CEID,StateModel</BoundColumnList>
+    </TableLayoutConfig>
+    <TableSchema><xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+  <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="Results" msdata:UseCurrentLocale="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Results">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Entity" type="xs:string" minOccurs="0" />
+              <xs:element name="CEID" type="xs:string" minOccurs="0" />
+              <xs:element name="StateModel" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
+</TableSchema>
+    <TableData />
+  </OutputDataGridConfig>
+  <OutputDataGridConfig Name="Metrology State Models">
+    <SQL>SELECT
+	MESEntity as Entity,
+	CEID,
+	StateModel
+FROM
+	%{output}
+WHERE
+	FunctionalArea = 'Metrology'
+ORDER BY
+	CEID
+</SQL>
+    <TableLayoutConfig>
+      <BoundColumnList>Entity,CEID,StateModel</BoundColumnList>
+    </TableLayoutConfig>
+    <TableSchema><xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+  <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="Results" msdata:UseCurrentLocale="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Results">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Entity" type="xs:string" minOccurs="0" />
+              <xs:element name="CEID" type="xs:string" minOccurs="0" />
+              <xs:element name="StateModel" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
+</TableSchema>
+    <TableData />
+  </OutputDataGridConfig>
+  <OutputDataGridConfig Name="Implant State Models">
+    <SQL>SELECT
+	MESEntity as Entity,
+	CEID,
+	StateModel
+FROM
+	%{output}
+WHERE
+	FunctionalArea = 'Planar'
+ORDER BY CEID</SQL>
+    <TableLayoutConfig>
+      <BoundColumnList>Entity,CEID,StateModel</BoundColumnList>
+    </TableLayoutConfig>
+    <TableSchema><xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+  <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="Results" msdata:UseCurrentLocale="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Results">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Entity" type="xs:string" minOccurs="0" />
+              <xs:element name="CEID" type="xs:string" minOccurs="0" />
+              <xs:element name="StateModel" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
+</TableSchema>
+    <TableData />
+  </OutputDataGridConfig>
+  <OutputDataGridConfig Name="ThinFilms State Models">
+    <SQL>SELECT
+	MESEntity as Entity,
+	CEID,
+	StateModel
+FROM
+	%{output}
+WHERE
+	FunctionalArea = 'ThinFilms'
+ORDER BY CEID</SQL>
+    <TableLayoutConfig>
+      <BoundColumnList>Entity,CEID,StateModel</BoundColumnList>
+    </TableLayoutConfig>
+    <TableSchema><xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+  <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="Results" msdata:UseCurrentLocale="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Results">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Entity" type="xs:string" minOccurs="0" />
+              <xs:element name="CEID" type="xs:string" minOccurs="0" />
+              <xs:element name="StateModel" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
+</TableSchema>
+    <TableData />
+  </OutputDataGridConfig>
+  <OutputDataGridConfig Name="Wet Etch State Models">
+    <SQL>SELECT
+	MESEntity as Entity,
+	CEID,
+	StateModel
+FROM
+	%{output}
+WHERE
+	FunctionalArea = 'WetEtch'
+ORDER BY CEID</SQL>
+    <TableLayoutConfig>
+      <BoundColumnList>Entity,CEID,StateModel</BoundColumnList>
+    </TableLayoutConfig>
+    <TableSchema><xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+  <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="Results" msdata:UseCurrentLocale="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Results">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Entity" type="xs:string" minOccurs="0" />
+              <xs:element name="CEID" type="xs:string" minOccurs="0" />
+              <xs:element name="StateModel" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
+</TableSchema>
+    <TableData />
+  </OutputDataGridConfig>
+  <OutputDataGridConfig Name="Sort State Models">
+    <SQL>---Begin Main Query---
+SELECT
+	MESEntity as Entity,
+	CEID,
+	StateModel
+FROM
+	%{output}
+WHERE
+	FunctionalArea = 'Sort'
+ORDER BY
+	CEID
+</SQL>
+    <TableLayoutConfig>
+      <BoundColumnList>Entity,CEID,StateModel</BoundColumnList>
+    </TableLayoutConfig>
+    <TableSchema><xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+  <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="Results" msdata:UseCurrentLocale="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Results">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Entity" type="xs:string" minOccurs="0" />
+              <xs:element name="CEID" type="xs:string" minOccurs="0" />
+              <xs:element name="StateModel" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
+</TableSchema>
+    <TableData />
+  </OutputDataGridConfig>
+  <OutputDataGridConfig Name="TSV State Models">
+    <SQL>---Begin Main Query---
+SELECT
+	MESEntity as Entity,
+	CEID,
+	StateModel
+FROM
+	%{output}
+WHERE
+	FunctionalArea = 'TSV'
+ORDER BY
+	CEID
+</SQL>
+    <TableLayoutConfig>
+      <BoundColumnList>Entity,CEID,StateModel</BoundColumnList>
+    </TableLayoutConfig>
+    <TableSchema><xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+  <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="Results" msdata:UseCurrentLocale="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Results">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Entity" type="xs:string" minOccurs="0" />
+              <xs:element name="CEID" type="xs:string" minOccurs="0" />
+              <xs:element name="StateModel" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
+</TableSchema>
+    <TableData />
+  </OutputDataGridConfig>
+  <OutputDataGridConfig Name="DieSort State Models">
+    <SQL>---Begin Main Query---
+SELECT
+	MESEntity as Entity,
+	CEID,
+	StateModel
+FROM
+	%{output}
+WHERE
+	FunctionalArea = 'DieSort'
+ORDER BY
+	CEID
+</SQL>
+    <TableLayoutConfig>
+      <BoundColumnList>Entity,CEID,StateModel</BoundColumnList>
+    </TableLayoutConfig>
+    <TableSchema><xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+  <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="Results" msdata:UseCurrentLocale="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Results">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Entity" type="xs:string" minOccurs="0" />
+              <xs:element name="CEID" type="xs:string" minOccurs="0" />
+              <xs:element name="StateModel" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
+</TableSchema>
+    <TableData />
+  </OutputDataGridConfig>
+  <OutputDataGridConfig Name="DiePrep State Models">
+    <SQL>---Begin Main Query---
+SELECT
+	MESEntity as Entity,
+	CEID,
+	StateModel
+FROM
+	%{output}
+WHERE
+	FunctionalArea = 'DiePrep'
+ORDER BY
+	CEID
+</SQL>
+    <TableLayoutConfig>
+      <BoundColumnList>Entity,CEID,StateModel</BoundColumnList>
+    </TableLayoutConfig>
+    <TableSchema><xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+  <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="Results" msdata:UseCurrentLocale="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Results">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Entity" type="xs:string" minOccurs="0" />
+              <xs:element name="CEID" type="xs:string" minOccurs="0" />
+              <xs:element name="StateModel" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
+</TableSchema>
+    <TableData />
+  </OutputDataGridConfig>
+  <OutputDataGridConfig Name="FBE State Models">
+    <SQL>---Begin Main Query---
+SELECT
+	MESEntity as Entity,
+	CEID,
+	StateModel
+FROM
+	%{output}
+WHERE
+	FunctionalArea = 'FBE' OR FunctionalArea like '%C4%'
+ORDER BY
+	CEID
+</SQL>
+    <TableLayoutConfig>
+      <BoundColumnList>Entity,CEID,StateModel</BoundColumnList>
+    </TableLayoutConfig>
+    <TableSchema><xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+  <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="Results" msdata:UseCurrentLocale="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Results">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Entity" type="xs:string" minOccurs="0" />
+              <xs:element name="CEID" type="xs:string" minOccurs="0" />
+              <xs:element name="StateModel" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
+</TableSchema>
+    <TableData />
+  </OutputDataGridConfig>
+  <AutoPivotConfig OutputDateFormat="yyyy ww.w hh tt" />
+  <MailConfig>
+    <PostProcessingSQL Enable="false" />
+    <EmailCondition Enable="false" Operator="&lt;" ThresholdRowCount="0">
+      <SQLQuery />
+      <RunScriptBeforeEmailing>false</RunScriptBeforeEmailing>
+      <Script />
+    </EmailCondition>
+    <PostProcessingCondition Enable="false" Operator="&gt;" ThresholdRowCount="0">
+      <SQLQuery />
+      <RunScriptBeforeEmailing>false</RunScriptBeforeEmailing>
+    </PostProcessingCondition>
+    <CopyCondition Enable="false" Operator="&gt;" ThresholdRowCount="0">
+      <SQLQuery />
+      <RunScriptBeforeEmailing>false</RunScriptBeforeEmailing>
+    </CopyCondition>
+    <SMTPServer>smtp.intel.com</SMTPServer>
+    <From>LogAnalyzer2@intel.com</From>
+    <ReplyTo>@{DASHBOARD_OWNER_ALERT_DIST}</ReplyTo>
+    <To />
+    <Subject>[${DOMAIN}] MESStateModel XEUS</Subject>
+    <Body />
+    <MailAttachments FileNamingFormat="${SETTINGS}" Excel="false" CSV="false" LAS="false" LAD="false" Exceptions="false" StatusLogs="false" PivotChart="true" ZipAttachments="false" DoNotSendAttachmentsWithEmail="false" IncludeQuerySettingsFileHeader="false" IncludeVariableDefinitionHeader="false" />
+    <IncludeSQLQueryInBody>false</IncludeSQLQueryInBody>
+    <TableInBody Enable="true">
+      <SQL />
+    </TableInBody>
+    <CopyOutputToDirectory>true</CopyOutputToDirectory>
+    <OutputDirectory>@{DASHBOARD_WEB_SPOOL}\PCAM\Output</OutputDirectory>
+    <IncludeAutoPivotSummary>false</IncludeAutoPivotSummary>
+    <IgnoreExceptions>false</IgnoreExceptions>
+    <OnlyCopyOutputIfEmailConditionIsMet>false</OnlyCopyOutputIfEmailConditionIsMet>
+  </MailConfig>
+  <TableSchema><xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+  <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="Results" msdata:UseCurrentLocale="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Results">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="MESEntity" type="xs:string" minOccurs="0" />
+              <xs:element name="StateModel" type="xs:string" minOccurs="0" />
+              <xs:element name="ToolType" type="xs:string" minOccurs="0" />
+              <xs:element name="CEID" type="xs:string" minOccurs="0" />
+              <xs:element name="FunctionalArea" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
+</TableSchema>
+  <TableData />
+  <LastRunAbsoluteDateFilter />
+  <CustomQueryMethodScripts>using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.IO;
+using System.Text;
+using System.Text.RegularExpressions;
+using Intel.LogAnalyzer;
+using Intel.LogAnalyzer.Common;
+using Intel.LogAnalyzer.Configuration;
+using Intel.LogAnalyzer.Utility;
+
+namespace Intel.LogAnalyzer.BuiltInQueryMethods_Temp
+{
+    public class JoinQueryMethod : CustomQueryMethodBase
+    {
+        /// &lt;summary&gt;
+        /// Test harness
+        /// &lt;/summary&gt;
+        [STAThread]
+        private static void Main()
+        {
+            new JoinQueryMethod
+            {
+                InputFile1 = @"D:\Temp\Anirudh\Table1.csv",
+                InputFile2 = @"D:\Temp\Anirudh\Table2.csv",
+                JoinColumn = "Col2,col3",
+                IgnoreDuplicate = true,
+                IgnoreCase = true
+            }.Test();
+        }
+        
+        // Output type is QueryResult
+        public override CustomQueryOutputType OutputType { get { return CustomQueryOutputType.QueryResult; } }
+
+        public override string Description
+        {
+            get { return "Do an outer join for two tables based on a matching column"; }
+        }
+
+        [Description("Input CSV File #1 containing table data")]
+        public string InputFile1 { get; set; }
+
+        [Description("Input CSV File #2 containing table data")]
+        public string InputFile2 { get; set; }
+
+        [Description("Input CSV File #3 containing table data (optional)")]
+        [DefaultValue("")]
+        public string InputFile3 { get; set; }
+
+        [Description("Input CSV File #4 containing table data (optional)")]
+        [DefaultValue("")]
+        public string InputFile4 { get; set; }
+
+        [Description("Input CSV File #5 containing table data (optional)")]
+        [DefaultValue("")]
+        public string InputFile5 { get; set; }
+
+        [Description("Input CSV File #6 containing table data (optional)")]
+        [DefaultValue("")]
+        public string InputFile6 { get; set; }
+
+        [Description("Column name(s) on which to join the two tables (more than one column can be supplied by using comma as a separator)")]
+        public string JoinColumn { get; set; }
+
+        [Description("Flag to ignore duplicate items in the JoinColumn")]
+        [DefaultValue(false)]
+        public bool IgnoreDuplicate { get; set; }
+
+        [Description("Flag to ignore case in the JoinColumn")]
+        [DefaultValue(false)]
+        public bool IgnoreCase { get; set; }
+
+        [Description("Flag to only show non-matching orphan rows")]
+        [DefaultValue(false)]
+        public bool OnlyShowNonMatchingRows { get; set; }
+
+        [Description("Flag to also include non-matching orphan rows (but with blank entries)")]
+        [DefaultValue(false)]
+        public bool IncludeNonMatchingRows { get; set; }
+
+        [Description("Name of columns (comma-separated) that must be included in output even if the join does not materialize")]
+        [DefaultValue("")]
+        public string MustIncludeOutputColumns { get; set; }
+
+        public override QueryResult GetQueryResult()
+        {
+            List&lt;string&gt; files = new List&lt;string&gt; { InputFile1, InputFile2, InputFile3, InputFile4, InputFile5, InputFile6 }
+                .FindAll(item =&gt; item.Trim().Length &gt; 0);
+
+            DataTable table = new DataTable();
+            string file = files[0];
+
+            for (int i = 1; i &lt; files.Count; i++)
+            {
+                if (i &gt; 1)
+                {
+                    file = table.SaveToTempCSVFile();
+                }
+                table = JoinCSV(file, files[i]);
+                if (i &gt; 1)
+                {
+                    UtilityMethods.DeleteTempFile(file);
+                }
+            }
+
+            return new QueryResult(string.Empty, table);
+        }
+
+        private DataTable JoinCSV(string file1, string file2)
+        {
+            List&lt;string&gt; joinedHeader = new List&lt;string&gt;();
+            List&lt;List&lt;string&gt;&gt; outputLines = new List&lt;List&lt;string&gt;&gt;();
+            Dictionary&lt;string, List&lt;string&gt;&gt; joinDictionary = new Dictionary&lt;string, List&lt;string&gt;&gt;();
+            int numFieldsToAppend;
+            string error;
+            const string KEY_SEPARATOR = "||";
+
+            if (!UtilityMethods.DoesFileExistAndHaveContent(file1, out error))
+            {
+                return new DataTable();
+            }
+
+            if (!UtilityMethods.DoesFileExistAndHaveContent(file2, out error))
+            {
+                numFieldsToAppend = 0;
+            }
+            else
+            {
+                using (CsvReader csv = new CsvReader(file2))
+                {
+                    int fieldCount = csv.FieldCount;
+                    List&lt;string&gt; headers = new List&lt;string&gt;(csv.GetFieldHeaders());
+                    List&lt;int&gt; keyIndices = GetColumnIndices(JoinColumn, headers, "second");
+
+                    numFieldsToAppend = fieldCount - 1;
+                    for (int i = 0; i &lt; fieldCount; i++)
+                    {
+                        if (!keyIndices.Contains(i))
+                        {
+                            joinedHeader.Add(headers[i]);
+                        }
+                    }
+
+                    int count = 0;
+                    while (csv.ReadNextRecord())
+                    {
+                        List&lt;string&gt; fields = new List&lt;string&gt;();
+
+                        for (int i = 0; i &lt; fieldCount; i++)
+                        {
+                            if (!keyIndices.Contains(i))
+                            {
+                                fields.Add(csv[i]);
+                            }
+                        }
+
+                        ++count;
+                        string key = string.Empty;
+                        foreach (int keyIndex in keyIndices)
+                        {
+                            if (key.Length &gt; 0) key += KEY_SEPARATOR;
+                            key += IgnoreCase ? csv[keyIndex].ToLower() : csv[keyIndex];
+                        }
+
+                        if (joinDictionary.ContainsKey(key))
+                        {
+                            if (IgnoreDuplicate)
+                            {
+                                // do nothing....ignore this
+                            }
+                            else
+                            {
+                                string oldValue = joinDictionary[key].ConvertListToCSV();
+                                string newValue = fields.ConvertListToCSV();
+
+                                throw new DuplicateNameException("Duplicate key ["
+                                    + key + "] found in row " + count + " of first CSV "
+                                    + Environment.NewLine
+                                    + Environment.NewLine + "Old value = " + oldValue
+                                    + Environment.NewLine + "New value = " + newValue);
+                            }
+                        }
+                        else
+                        {
+                            joinDictionary.Add(key, fields);
+                        }
+                    }
+                }
+            }
+
+            using (CsvReader csv = new CsvReader(file1))
+            {
+                csv.SupportsMultiline = false;
+                csv.ParseNonStandardQuotedField = true;
+
+                int fieldCount = csv.FieldCount;
+                List&lt;string&gt; headers = new List&lt;string&gt;(csv.GetFieldHeaders());
+                List&lt;int&gt; keyIndices = GetColumnIndices(JoinColumn, headers, "first");
+
+                if (!OnlyShowNonMatchingRows)
+                {
+                    joinedHeader.InsertRange(0, headers);
+                }
+                else
+                {
+                    joinedHeader.Clear();
+                    joinedHeader.AddRange(headers);
+                }
+
+                while (csv.ReadNextRecord())
+                {
+                    string key = string.Empty;
+                    foreach (int keyIndex in keyIndices)
+                    {
+                        if (key.Length &gt; 0) key += KEY_SEPARATOR;
+                        key += IgnoreCase ? csv[keyIndex].ToLower() : csv[keyIndex];
+                    }
+
+                    if (!OnlyShowNonMatchingRows)
+                    {
+                        List&lt;string&gt; fields = new List&lt;string&gt;();
+                        for (int i = 0; i &lt; fieldCount; i++)
+                        {
+                            fields.Add(csv[i]);
+                        }
+
+                        if (joinDictionary.ContainsKey(key))
+                        {
+                            fields.AddRange(joinDictionary[key]);
+                            outputLines.Add(fields);
+                        }
+                        else if (IncludeNonMatchingRows)
+                        {
+                            for (int i = 0; i &lt; numFieldsToAppend; i++)
+                            {
+                                fields.Add(string.Empty);
+                            }
+                            outputLines.Add(fields);
+                        }
+                    }
+                    else
+                    {
+                        if (!(joinDictionary.ContainsKey(key)))
+                        {
+                            List&lt;string&gt; fields = new List&lt;string&gt;();
+                            for (int i = 0; i &lt; fieldCount; i++)
+                            {
+                                fields.Add(csv[i]);
+                            }
+                            outputLines.Add(fields);
+                        }
+                    }
+                }
+            }
+
+            DataTable outTable = UtilityMethods.ConvertToDataTable(joinedHeader, outputLines);
+
+            if (MustIncludeOutputColumns.Trim().Length &gt; 0) // add any must-have columns to output
+            {
+                List&lt;string&gt; colsToAdd = new List&lt;string&gt;(MustIncludeOutputColumns.Split(','))
+                    .ConvertAll(item =&gt; item.Trim())
+                    .FindAll(item =&gt; item.Length &gt; 0);
+                foreach (string colToAdd in colsToAdd)
+                {
+                    if (outTable.GetColumnIndex(colToAdd) &lt; 0) // column does not exist
+                    {
+                        outTable.Columns.Add(colToAdd, typeof(string));
+                    }
+                }
+            }
+
+            return outTable;
+        }
+
+        private static List&lt;int&gt; GetColumnIndices(string columnList, List&lt;string&gt; headers, string csvFileToken)
+        {
+            List&lt;string&gt; columns = new List&lt;string&gt;(columnList.Split(',')).ConvertAll&lt;string&gt;(item =&gt; item.Trim()).FindAll(item =&gt; item.Length &gt; 0);
+            List&lt;int&gt; colIndices = new List&lt;int&gt;();
+            
+            foreach (string column in columns)
+            {
+                string col = column;
+                if (col.StartsWith("[") &amp;&amp; col.EndsWith("]"))
+                {
+                    col = col.Replace("[", string.Empty).Replace("]", string.Empty);
+                }
+                int index = headers.FindIndex(item =&gt; item.Equals(col, StringComparison.CurrentCultureIgnoreCase));
+                if (index &lt; 0)
+                {
+                    throw new Exception("Key column [" + col + "] not found in the " + csvFileToken + " CSV file.");
+                }
+                colIndices.Add(index);
+            }
+
+            return colIndices;
+        }
+    }
+}
+</CustomQueryMethodScripts>
+  <PivotGroupingSettings PivotColumn="">
+    <SortyByColumn>Count</SortyByColumn>
+  </PivotGroupingSettings>
+  <QuerySQL><![CDATA[
+--[FileName:"D:\Dashboard\Jobs\PCAM\24-hr\MES State Model by Entity_XEUS.lasx"]------
+----------<VARIABLES>------------
+var MAO_USERID = "@{USERID_NON_MFG}"
+var DATA_SOURCE = "@{LOCALXEUSDATASOURCE}"
+---[MES300_CSV]---
+BEGIN MES300_CSV
+	---Begin Main Query---
+	Using UNIQE with
+		DataSource = "${DATA_SOURCE}" -- UNIQE data source to query
+		Authentication = "UNP" -- User Authentication Mode
+		UserId = "${MAO_USERID}" -- User ID for authentication
+	SELECT
+	  m.ENTITY                 "MESEntity",
+	  m.CEID                   "CEID",
+	  m.FUNCTIONAL_AREA        "Area",
+	  m.STATE_MODEL
+	  || ';'
+	  || m.STATE_MODEL_VERSION "StateModel",
+	  m.SUBENTITY_ROLE         "ComponentRole"
+	FROM
+	  F_ENTITY m
+	WHERE
+	  m.ENTITY_DELETED_FLAG != 'Y'
+	  AND m.OBJECT_STATUS = '1'
+	  AND m.GENERAL_TYPE = 'Equipment' 
+END MES300_CSV
+---Begin Main Query---
+Using CSV with
+SELECT
+	MESEntity,
+	StateModel,
+	ToolType,
+	CEID,
+	AREA As FunctionalArea
+USING
+	SUBSTR(CEID,0,3) as ToolType
+FROM
+	%{MES300_CSV}
+WHERE
+	ComponentRole = ' '
+	AND AREA IS NOT NULL
+	AND StateModel IS NOT NULL
+	AND CEID NOT LIKE 'Z-EXCLUDE'
+	AND MESEntity NOT LIKE '%MONGO%'
+ORDER BY
+	FunctionalArea,
+	ToolType,
+	MESEntity
+
+]]></QuerySQL>
+</QueryConfig>

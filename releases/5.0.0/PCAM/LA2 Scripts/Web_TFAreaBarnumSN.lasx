@@ -1,0 +1,180 @@
+<QueryConfig AutoExecuteQueryOnLoad="false" PreventSQLBeautification="false">
+  <ChangeLog>Changed by AMR\mfg_tcalford on 1/8/2016 3:24:16 PM from F32PAP216N3.F32PROD.MFG.INTEL.COM using LogAnalyzer2 v2.9.51126.2053</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_tcalford on 12/14/2015 1:42:01 PM from F32PAP216N2.F32PROD.MFG.INTEL.COM using LogAnalyzer2 v2.9.51126.2053</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_tcalford on 6/24/2015 2:21:05 PM from F32PAP216N3.F32PROD.MFG.INTEL.COM using LogAnalyzer2 v2.8.40713.1943</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_tcalford on 3/4/2015 11:15:54 AM from F32PAP216N3.F32PROD.MFG.INTEL.COM using LogAnalyzer2 v2.8.40713.1943</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 9/9/2014 9:54:49 AM from RF3PTS216.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.8.40806.2215</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 9/4/2014 12:30:12 PM from RF3PTS216.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.8.40806.2215</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 9/4/2014 10:54:35 AM from RF3PTS216.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.8.40806.2215</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 9/4/2014 10:34:02 AM from RF3PTS216.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.8.40806.2215</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 9/4/2014 10:33:40 AM from RF3PTS216.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.8.40806.2215</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 9/4/2014 10:32:11 AM from RF3PTS216.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.8.40806.2215</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 9/4/2014 10:18:48 AM from RF3PTS216.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.8.40806.2215</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 9/4/2014 10:18:03 AM from RF3PTS216.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.8.40806.2215</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 9/4/2014 10:17:36 AM from RF3PTS216.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.8.40806.2215</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 9/4/2014 9:59:56 AM from RF3PTS216.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.8.40806.2215</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 9/4/2014 9:55:34 AM from RF3PTS216.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.8.40806.2215</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 8/19/2014 10:18:51 AM from RF3PTS216.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.8.40806.2215</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 8/19/2014 10:18:14 AM from RF3PTS216.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.8.40806.2215</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 8/19/2014 10:15:31 AM from RF3PTS216.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.8.40806.2215</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 8/19/2014 10:14:23 AM from RF3PTS216.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.8.40806.2215</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 8/19/2014 10:09:31 AM from RF3PTS216.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.8.40806.2215</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 8/19/2014 10:01:24 AM from RF3PTS216.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.8.40806.2215</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 8/19/2014 9:56:02 AM from RF3PTS216.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.8.40806.2215</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 8/14/2014 2:34:35 PM from RF3PTS216.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.8.40806.2215</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 8/14/2014 10:37:30 AM from RF3PTS216.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.8.40806.2215</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 8/14/2014 10:06:56 AM from RF3PTS216.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.8.40806.2215</ChangeLog>
+  <QueryAttributes>
+    <OutputDateFormat>MM/dd/yyyy</OutputDateFormat>
+    <AlwaysReplaceDomainWithLocal>false</AlwaysReplaceDomainWithLocal>
+  </QueryAttributes>
+  <PostQuerySQL>select * from %{OUTPUT}</PostQuerySQL>
+  <TableLayoutConfig>
+    <BoundColumnList>Process,Area,BarnumNumber,Priority,ChangeType,Title,Requestor,RequestorGL,RequestDate,NeedDate,Sts,Resource</BoundColumnList>
+  </TableLayoutConfig>
+  <TabOrder>C0</TabOrder>
+  <MainPivotConfig>
+    <ColumnX FieldName="" FieldType="" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <ColumnY FieldName="" FieldType="" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <ColumnData FieldName="" FieldType="" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <CustomPalette />
+    <TableData />
+  </MainPivotConfig>
+  <AutoPivotConfig OutputDateFormat="yyyy ww.w hh tt" />
+  <MailConfig>
+    <PostProcessingSQL Enable="false" />
+    <EmailCondition Enable="false" Operator="&gt;" ThresholdRowCount="0">
+      <SQLQuery />
+      <RunScriptBeforeEmailing>false</RunScriptBeforeEmailing>
+      <Script />
+    </EmailCondition>
+    <PostProcessingCondition Enable="false" Operator="&gt;" ThresholdRowCount="0">
+      <SQLQuery />
+      <RunScriptBeforeEmailing>false</RunScriptBeforeEmailing>
+    </PostProcessingCondition>
+    <CopyCondition Enable="false" ThresholdRowCount="0">
+      <RunScriptBeforeEmailing>false</RunScriptBeforeEmailing>
+    </CopyCondition>
+    <SMTPServer>smtp.intel.com</SMTPServer>
+    <From>LogAnalyzer2@intel.com</From>
+    <ReplyTo>todd.c.alford@intel.com</ReplyTo>
+    <To />
+    <Subject>[${DOMAIN}] Web_ntsc_uicontrol</Subject>
+    <Body />
+    <OnlyProcessIfOutputChangedFromPreviousRun>false</OnlyProcessIfOutputChangedFromPreviousRun>
+    <MailAttachments FileNamingFormat="${SETTINGS}" Excel="false" CSV="false" LAS="false" LAD="false" Exceptions="false" StatusLogs="false" PivotChart="false" ZipAttachments="false" DoNotSendAttachmentsWithEmail="false" />
+    <IncludeSQLQueryInBody>false</IncludeSQLQueryInBody>
+    <TableInBody Enable="false">
+      <SQL />
+    </TableInBody>
+    <CopyOutputToDirectory>false</CopyOutputToDirectory>
+    <OutputDirectory />
+    <IncludeAutoPivotSummary>false</IncludeAutoPivotSummary>
+    <IgnoreExceptions>false</IgnoreExceptions>
+    <OnlyCopyOutputIfEmailConditionIsMet>false</OnlyCopyOutputIfEmailConditionIsMet>
+  </MailConfig>
+  <TableSchema><xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+  <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="Results" msdata:UseCurrentLocale="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Results">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="BarnumNumber" type="xs:string" minOccurs="0" />
+              <xs:element name="ID" type="xs:string" minOccurs="0" />
+              <xs:element name="CreatedOn" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="Estimated_x0020_Delivery" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="AssignedTo" type="xs:string" minOccurs="0" />
+              <xs:element name="Location" type="xs:string" minOccurs="0" />
+              <xs:element name="Description" type="xs:string" minOccurs="0" />
+              <xs:element name="Status" type="xs:string" minOccurs="0" />
+              <xs:element name="Process" type="xs:string" minOccurs="0" />
+              <xs:element name="Area" type="xs:string" minOccurs="0" />
+              <xs:element name="Change_x0020_Type" type="xs:string" minOccurs="0" />
+              <xs:element name="Justification" type="xs:string" minOccurs="0" />
+              <xs:element name="Priority" type="xs:int" minOccurs="0" />
+              <xs:element name="DidUserReply" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
+</TableSchema>
+  <TableData />
+  <LastRunAbsoluteDateFilter />
+  <PivotGroupingSettings PivotColumn="">
+    <SortyByColumn>Count</SortyByColumn>
+  </PivotGroupingSettings>
+  <QuerySQL><![CDATA[
+--[FileName:"Q:\Dashboard\Web\PCAM\LA2 Scripts\Web_TFAreaBarnumSN.lasx"]------
+----------<VARIABLES>------------
+var FILEFILTERD1D = "@{D1DSRFILEFILTER}"
+var FILEFILTERVF = "@{VFSRFILEFILTER}"
+var AREA = "@{TFAREA}"
+var BLINK = "@{BARNUMSN_LINK}"
+var SRSITE = "@{SRSITE}"
+---[D1D_CSV]---
+BEGIN D1D_CSV
+	---Begin Main Query---
+	Using CSV with
+	SELECT
+		BarnumNumber,
+		ID,
+		'D1D' as Location,
+		Process,
+		Area,
+		Sts as Status,
+		Resource,
+		Requestor,
+		ChangeType as [Change Type],
+		Title as Description,
+		RequestDate as [Request Date],
+		NeedDate as [Need Date]
+	USING
+		CASE BarnumNumber when null then NULL else strcat('${BLINK}', to_string(BarnumNumber)) end as ID
+	FROM
+		'${FILEFILTERD1D}'
+	WHERE
+		(isinlist(Area, '${Area}'))
+		AND (Status not like 'rejected' AND Status not like 'resolved')
+	ORDER BY
+		[Request Date]
+END D1D_CSV
+---[VF_CSV]---
+BEGIN VF_CSV
+	---Begin Main Query---
+	Using CSV with
+	SELECT
+		Number as BarnumNumber,
+		Link as ID,
+		CreatedOn,
+		EstimatedDelivery as [Estimated Delivery],
+		AssignedTo,
+		Location,
+		Description,
+		Status,
+		Process,
+		Area,
+		Category as [Change Type],
+		Priority
+	USING
+		case State when 'AwaitingInfo' then case LastUpdateBy when Requestor then case LogType when 'Email' then 1 else 0 end else 0 end else 0 end as DidUserReply,
+		case DidUserReply when 1 then 'AwaitingInfo (Replied)' else State end as Status
+	FROM
+		'${FILEFILTERVF}'
+	WHERE
+		isinlist(Area, '${Area}') and not isinlist(State,'%Complete')
+	ORDER BY
+		Priority, CreatedOn
+END VF_CSV
+---Begin Main Query---
+Using CSV with
+SELECT
+	*
+FROM
+	${SRSITE}
+
+]]></QuerySQL>
+</QueryConfig>

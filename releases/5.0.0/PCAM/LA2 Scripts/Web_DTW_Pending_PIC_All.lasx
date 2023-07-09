@@ -1,0 +1,123 @@
+<QueryConfig AutoExecuteQueryOnLoad="false" PreventSQLBeautification="false">
+  <ChangeLog>Changed by GER\mfg_rlouk on 8/9/2017 10:35:58 AM from F28PRD403N1.F28PROD.MFG.INTEL.COM using LogAnalyzer2 v2.9.60127.1419</ChangeLog>
+  <ChangeLog>Changed by GER\mfg_rlouk on 8/3/2017 3:23:32 PM from F28PAP216N11.F28PROD.MFG.INTEL.COM using LogAnalyzer2 v2.9.61013.0546</ChangeLog>
+  <ChangeLog>Changed by GER\mfg_rlouk on 8/3/2017 3:23:15 PM from F28PAP216N11.F28PROD.MFG.INTEL.COM using LogAnalyzer2 v2.9.61013.0546</ChangeLog>
+  <ChangeLog>Changed by GER\mfg_rlouk on 7/26/2017 10:22:45 AM from F28PRD415N1.F28PROD.MFG.INTEL.COM using LogAnalyzer2 v2.9.61013.0546</ChangeLog>
+  <ChangeLog>Changed by GER\mfg_rlouk on 7/26/2017 10:22:35 AM from F28PRD415N1.F28PROD.MFG.INTEL.COM using LogAnalyzer2 v2.9.61013.0546</ChangeLog>
+  <ChangeLog>Changed by GER\rlouk on 4/27/2017 2:49:49 PM from F28PTS215N1.F28PROD.MFG.INTEL.COM using LogAnalyzer2 v2.9.51126.1053</ChangeLog>
+  <ChangeLog>Changed by GER\rlouk on 4/27/2017 2:49:46 PM from F28PTS215N1.F28PROD.MFG.INTEL.COM using LogAnalyzer2 v2.9.51126.1053</ChangeLog>
+  <ChangeLog>Changed by GER\rlouk on 4/27/2017 2:41:58 PM from F28PTS215N1.F28PROD.MFG.INTEL.COM using LogAnalyzer2 v2.9.51126.1053</ChangeLog>
+  <ChangeLog>Changed by GER\rlouk on 4/27/2017 2:41:31 PM from F28PTS215N1.F28PROD.MFG.INTEL.COM using LogAnalyzer2 v2.9.51126.1053</ChangeLog>
+  <ChangeLog>Changed by GER\rlouk on 4/27/2017 2:34:12 PM from F28PTS215N1.F28PROD.MFG.INTEL.COM using LogAnalyzer2 v2.9.51126.1053</ChangeLog>
+  <ChangeLog>Changed by GER\rlouk on 4/24/2017 3:25:15 PM from F28PTS215N1.F28PROD.MFG.INTEL.COM using LogAnalyzer2 v2.9.51126.1053</ChangeLog>
+  <ChangeLog>Changed by GER\rlouk on 3/19/2017 10:33:25 AM from F28PTS215N1.F28PROD.MFG.INTEL.COM using LogAnalyzer2 v2.9.51126.1053</ChangeLog>
+  <ChangeLog>Changed by GER\mfg_rlouk on 3/19/2017 9:59:37 AM from F28PTS215N1.F28PROD.MFG.INTEL.COM using LogAnalyzer2 v2.9.51126.1053</ChangeLog>
+  <ChangeLog>Changed by GER\mfg_nholin on 1/18/2017 10:49:09 AM from F28PTS215N1.F28PROD.MFG.INTEL.COM using LogAnalyzer2 v2.9.51126.1053</ChangeLog>
+  <ChangeLog>Changed by GER\mfg_nholin on 1/18/2017 10:48:40 AM from F28PTS215N1.F28PROD.MFG.INTEL.COM using LogAnalyzer2 v2.9.51126.1053</ChangeLog>
+  <ChangeLog>Changed by GER\mfg_nholin on 1/18/2017 10:47:28 AM from F28PTS215N1.F28PROD.MFG.INTEL.COM using LogAnalyzer2 v2.9.51126.1053</ChangeLog>
+  <ChangeLog>Changed by GER\mfg_nholin on 1/18/2017 10:42:09 AM from F28PTS215N1.F28PROD.MFG.INTEL.COM using LogAnalyzer2 v2.9.51126.1053</ChangeLog>
+  <ChangeLog>Changed by GER\mfg_nholin on 1/18/2017 10:36:54 AM from F28PTS215N1.F28PROD.MFG.INTEL.COM using LogAnalyzer2 v2.9.51126.1053</ChangeLog>
+  <ChangeLog>Changed by GER\mfg_nholin on 1/18/2017 9:18:39 AM from F28PTS215N1.F28PROD.MFG.INTEL.COM using LogAnalyzer2 v2.9.51126.1053</ChangeLog>
+  <ChangeLog>Changed by GER\mfg_nholin on 1/17/2017 5:34:08 PM from F28PTS215N1.F28PROD.MFG.INTEL.COM using LogAnalyzer2 v2.9.51126.1053</ChangeLog>
+  <ChangeLog>Changed by GER\mfg_nholin on 1/17/2017 2:10:12 PM from F28PTS215N1.F28PROD.MFG.INTEL.COM using LogAnalyzer2 v2.9.51126.1053</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_tcalford on 5/20/2014 9:41:57 PM from F32PTS215.F32PROD.MFG.INTEL.COM using LogAnalyzer2 v2.7.31031.1837</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_tcalford on 5/19/2014 3:48:01 PM from F32PTS215.F32PROD.MFG.INTEL.COM using LogAnalyzer2 v2.7.31031.1837</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_tcalford on 3/24/2014 9:29:37 PM from F32PTS215.F32PROD.MFG.INTEL.COM using LogAnalyzer2 v2.7.31031.1837</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_tcalford on 2/13/2014 4:14:50 PM from F32PTS215.F32PROD.MFG.INTEL.COM using LogAnalyzer2 v2.7.31031.1837</ChangeLog>
+  <QueryAttributes>
+    <OutputDateFormat>MM/dd/yyyy</OutputDateFormat>
+    <AlwaysReplaceDomainWithLocal>false</AlwaysReplaceDomainWithLocal>
+  </QueryAttributes>
+  <PostQuerySQL>select * from %{OUTPUT}</PostQuerySQL>
+  <TableLayoutConfig>
+    <BoundColumnList>ID,MCCB Description,CEID,ChangeDate,PFIContact,OSAChange</BoundColumnList>
+  </TableLayoutConfig>
+  <TabOrder>C0</TabOrder>
+  <MainPivotConfig>
+    <ColumnX FieldName="" FieldType="" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <ColumnY FieldName="" FieldType="" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <ColumnData FieldName="" FieldType="" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <CustomPalette />
+    <TableData />
+  </MainPivotConfig>
+  <AutoPivotConfig OutputDateFormat="yyyy ww.w hh tt" />
+  <MailConfig>
+    <PostProcessingSQL Enable="false" />
+    <EmailCondition Enable="false" Operator="&gt;" ThresholdRowCount="0">
+      <SQLQuery />
+      <RunScriptBeforeEmailing>false</RunScriptBeforeEmailing>
+      <Script />
+    </EmailCondition>
+    <PostProcessingCondition Enable="false" Operator="&gt;" ThresholdRowCount="0">
+      <SQLQuery />
+      <RunScriptBeforeEmailing>false</RunScriptBeforeEmailing>
+    </PostProcessingCondition>
+    <CopyCondition Enable="false" Operator="&gt;" ThresholdRowCount="0">
+      <SQLQuery />
+      <RunScriptBeforeEmailing>false</RunScriptBeforeEmailing>
+    </CopyCondition>
+    <SMTPServer>smtp.intel.com</SMTPServer>
+    <From>LogAnalyzer2@intel.com</From>
+    <ReplyTo>@{DASHBOARD_OWNER_ALERT_DIST}</ReplyTo>
+    <To />
+    <Subject>[${DOMAIN}] DTW</Subject>
+    <Body />
+    <OnlyProcessIfOutputChangedFromPreviousRun>false</OnlyProcessIfOutputChangedFromPreviousRun>
+    <MailAttachments FileNamingFormat="${SETTINGS}" Excel="false" CSV="false" LAS="false" LAD="false" Exceptions="false" StatusLogs="false" PivotChart="false" ZipAttachments="false" DoNotSendAttachmentsWithEmail="false" />
+    <IncludeSQLQueryInBody>false</IncludeSQLQueryInBody>
+    <TableInBody Enable="false">
+      <SQL />
+    </TableInBody>
+    <CopyOutputToDirectory>false</CopyOutputToDirectory>
+    <OutputDirectory />
+    <IncludeAutoPivotSummary>false</IncludeAutoPivotSummary>
+    <IgnoreExceptions>false</IgnoreExceptions>
+    <OnlyCopyOutputIfEmailConditionIsMet>false</OnlyCopyOutputIfEmailConditionIsMet>
+  </MailConfig>
+  <TableSchema><xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+  <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="Results" msdata:UseCurrentLocale="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Results">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="CRMType" type="xs:string" minOccurs="0" />
+              <xs:element name="Title" type="xs:string" minOccurs="0" />
+              <xs:element name="Title2" type="xs:string" minOccurs="0" />
+              <xs:element name="Site" type="xs:string" minOccurs="0" />
+              <xs:element name="DomainOwner" type="xs:string" minOccurs="0" />
+              <xs:element name="CRMTableName" type="xs:string" minOccurs="0" />
+              <xs:element name="DateTime" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="Created_x0020_By" type="xs:string" minOccurs="0" />
+              <xs:element name="ChangeSummary" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
+</TableSchema>
+  <TableData />
+  <LastRunAbsoluteDateFilter />
+  <PivotGroupingSettings PivotColumn="">
+    <SortyByColumn>Count</SortyByColumn>
+  </PivotGroupingSettings>
+  <QuerySQL><![CDATA[
+--[FileName:"\\f28pap216n11\r$\Dashboard\Web\PCAM\LA2 Scripts\Web_DTW_Pending_PIC_All.lasx"]------
+----------<VARIABLES>------------
+var FILEFILTER = "@{DASHBOARD_LOCAL_WEB}\PCAM\Output\DTWPullTransactions.htm"
+---Begin Main Query---
+Using LA2REPORT with
+	TableIndex = 1
+SELECT
+	CRMType,CRMLink as Title,Title as Title2,substr(Title,0,3) as Site,DomainOwner,CRMTableName,DateTime,[Created By] as CreatedBy,SUB(ChangeSummary,'Site|Action(INSERT/UPDATE/DELETE)|Data F28') as ChangeSummary
+FROM
+	'${FILEFILTER}'
+WHERE
+	PullOwner='PIC'
+ORDER BY
+	CRMType
+
+]]></QuerySQL>
+</QueryConfig>

@@ -1,0 +1,417 @@
+<QueryConfig AutoExecuteQueryOnLoad="false">
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 1/29/2015 8:42:39 AM from RF3PAP216N1.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.8.40713.1943</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 12/15/2014 3:54:53 PM from RF3PAP216N1.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.8.40713.1943</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_tcalford on 12/15/2014 3:44:21 PM from F32PAP216N1.F32PROD.MFG.INTEL.COM using LogAnalyzer2 v2.8.40713.1943</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_tcalford on 12/15/2014 3:43:27 PM from F32PTS215.F32PROD.MFG.INTEL.COM using LogAnalyzer2 v2.8.40713.1943</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 10/1/2014 1:17:26 PM from RF3PTS216.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.8.40923.2310</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 9/30/2014 2:46:58 PM from RF3PTS216.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.8.40923.2310</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 9/30/2014 2:38:59 PM from RF3PTS216.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.8.40923.2310</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 9/30/2014 2:37:47 PM from RF3PTS216.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.8.40923.2310</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 9/30/2014 2:30:29 PM from RF3PTS216.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.8.40923.2310</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 9/30/2014 2:29:53 PM from RF3PTS216.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.8.40923.2310</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 9/30/2014 2:28:48 PM from RF3PTS216.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.8.40923.2310</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 9/30/2014 2:24:42 PM from RF3PTS216.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.8.40923.2310</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 9/2/2014 3:47:52 PM from RF3PTS216.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.8.40806.2215</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 8/7/2014 4:49:28 PM from RF3PTS216.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.8.40806.2215</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 8/7/2014 4:45:36 PM from RF3PTS216.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.8.40806.2215</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 8/7/2014 4:45:01 PM from RF3PTS216.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.8.40806.2215</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 8/7/2014 4:43:27 PM from RF3PTS216.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.8.40806.2215</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 8/6/2014 1:07:50 PM from RF3PTS216.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.8.40723.2330</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 7/24/2014 2:54:08 PM from RF3PTS216.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.8.40723.2330</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 7/24/2014 2:52:51 PM from RF3PTS216.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.8.40723.2330</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 7/24/2014 2:28:59 PM from RF3PTS216.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.8.40723.2330</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 7/24/2014 2:25:35 PM from RF3PTS216.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.8.40723.2330</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 7/14/2014 2:57:10 PM from RF3PTS216.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.8.40713.1943</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 2/7/2013 3:29:59 PM from RF3PTS215.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.6.30206.1945</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 12/12/2012 5:10:56 PM from RF3PTS215.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.5.21112.1211</ChangeLog>
+  <QueryAttributes>
+    <OutputDateFormat>MM/dd/yyyy ww.w</OutputDateFormat>
+    <AlwaysReplaceDomainWithLocal>false</AlwaysReplaceDomainWithLocal>
+  </QueryAttributes>
+  <PostQuerySQL>select * from %{OUTPUT}</PostQuerySQL>
+  <TableLayoutConfig>
+    <BoundColumnList>When,Who,Application,Change Information,Comment</BoundColumnList>
+    <AllColumns>When</AllColumns>
+    <AllColumns>Who</AllColumns>
+    <AllColumns>Application</AllColumns>
+    <AllColumns>Change Information</AllColumns>
+    <AllColumns>Comment</AllColumns>
+  </TableLayoutConfig>
+  <TabOrder>C0</TabOrder>
+  <MainPivotConfig>
+    <ColumnX FieldName="" FieldType="" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <ColumnY FieldName="" FieldType="" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <ColumnData FieldName="" FieldType="" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <CustomPalette />
+    <TableData />
+  </MainPivotConfig>
+  <AutoPivotConfig OutputDateFormat="yyyy ww.w hh tt" />
+  <MailConfig>
+    <PostProcessingSQL Enable="false" />
+    <EmailCondition Enable="false" Operator="&gt;" ThresholdRowCount="0">
+      <SQLQuery />
+      <RunScriptBeforeEmailing>false</RunScriptBeforeEmailing>
+      <Script />
+    </EmailCondition>
+    <PostProcessingCondition Enable="false" Operator="&gt;" ThresholdRowCount="0">
+      <SQLQuery />
+      <RunScriptBeforeEmailing>false</RunScriptBeforeEmailing>
+    </PostProcessingCondition>
+    <CopyCondition Enable="false" ThresholdRowCount="0">
+      <RunScriptBeforeEmailing>false</RunScriptBeforeEmailing>
+    </CopyCondition>
+    <SMTPServer>smtp.intel.com</SMTPServer>
+    <From>LogAnalyzer2@intel.com</From>
+    <ReplyTo>todd.c.alford@intel.com</ReplyTo>
+    <To />
+    <Subject>[${DOMAIN}] Web_ntsc_uicontrol</Subject>
+    <Body />
+    <OnlyProcessIfOutputChangedFromPreviousRun>false</OnlyProcessIfOutputChangedFromPreviousRun>
+    <MailAttachments FileNamingFormat="${SETTINGS}" Excel="false" CSV="false" LAS="false" LAD="false" Exceptions="false" StatusLogs="false" PivotChart="false" ZipAttachments="false" DoNotSendAttachmentsWithEmail="false" />
+    <IncludeSQLQueryInBody>false</IncludeSQLQueryInBody>
+    <TableInBody Enable="false">
+      <SQL />
+    </TableInBody>
+    <CopyOutputToDirectory>false</CopyOutputToDirectory>
+    <OutputDirectory />
+    <IncludeAutoPivotSummary>false</IncludeAutoPivotSummary>
+    <IgnoreExceptions>false</IgnoreExceptions>
+    <OnlyCopyOutputIfEmailConditionIsMet>false</OnlyCopyOutputIfEmailConditionIsMet>
+  </MailConfig>
+  <TableSchema><xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+  <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="Results" msdata:UseCurrentLocale="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Results">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="When" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="Who" type="xs:string" minOccurs="0" />
+              <xs:element name="Application" type="xs:string" minOccurs="0" />
+              <xs:element name="Change_x0020_Information" type="xs:string" minOccurs="0" />
+              <xs:element name="Comment" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
+</TableSchema>
+  <TableData />
+  <LastRunAbsoluteDateFilter />
+  <CustomSQLFunctionScripts>using System;
+using System.Collections.Generic;
+using System.Text;
+using System.Text.RegularExpressions;
+using Intel.LogAnalyzer.Common;
+using Intel.LogAnalyzer.Utility;
+
+namespace Intel.LogAnalyzer.BuiltInSQLFunctions_Temp
+{
+    public class ToLA2Date : ICustomSQLFunction
+    {
+        /// &lt;summary&gt;
+        /// Test harness
+        /// &lt;/summary&gt;
+        [STAThread]
+        private static void Main()
+        {
+            new ToLA2Date().Test(@"To_LA2Date(DateTime, 'yyyy ww.w')");
+        }
+
+        private enum FunctionName
+        {
+            To_LA2Date,
+            To_LA2DateString
+        }
+
+        private class WWFilterInput
+        {
+            public string Query;
+            public FunctionName Function;
+            public string DateField;
+            public string FormatFilter;
+            public Match Match;
+        }
+
+        private WWFilterInput _input = null;
+
+        private const string CHECK_PATTERN =
+            @"(?&lt;=(\s+|\())(?&lt;FUNCTION&gt;(To_LA2Date|To_LA2DateString))\s*\(";
+
+        private const string PATTERN = CHECK_PATTERN + @"\s*"
+                + @"(?&lt;DateField&gt;[^,]+)\s*,\s*'(?&lt;FormatFilter&gt;[^']+)'\s*\)(?=(\s*|\)))";
+
+        private const string INPUT_FORMAT_MESSAGE =
+            @"Expected: ${FUNCTION}( &lt;DATE-FIELD&gt; , ""&lt;FORMAT-FILTER&gt;"")";
+
+        public string LogParserType { get; set; }
+
+        public bool IsCustomSQLFunction(string query)
+        {
+            return IsWWFunction(query, out _input);
+        }
+
+        private bool IsWWFunction(string query, out WWFilterInput input)
+        {
+            Match match = Regex.Match(query, PATTERN,
+                RegexOptions.Singleline | RegexOptions.IgnoreCase);
+
+            if (match.Success)
+            {
+                input = new WWFilterInput();
+
+                input.Query = query;
+                input.Function = UtilityMethods.ConvertToEnum&lt;FunctionName&gt;(match.Groups["FUNCTION"].Value);
+                input.DateField = GetMatchValue(match, "DateField");
+                input.FormatFilter = GetMatchValue(match, "FormatFilter");
+                input.Match = match;
+
+                return true;
+            }
+            else
+            {
+                match = Regex.Match(query, CHECK_PATTERN,
+                    RegexOptions.Singleline | RegexOptions.IgnoreCase);
+                if (match.Success)
+                {
+                    FunctionName function = UtilityMethods.ConvertToEnum&lt;FunctionName&gt;(match.Groups["FUNCTION"].Value);
+                    string message = INPUT_FORMAT_MESSAGE.Replace("${FUNCTION}", function.ToString());
+                    throw new Exception(message);
+                }
+                input = null;
+                return false;
+            }
+        }
+
+        public string Execute()
+        {
+            string modifiedQuery = string.Empty;
+
+            while (_input != null)
+            {
+                modifiedQuery = _input.Query;
+                string output = string.Empty;
+
+                switch (_input.Function)
+                {
+                    case FunctionName.To_LA2Date:
+                    case FunctionName.To_LA2DateString:
+                        output = GetStringFormat(_input.DateField, _input.FormatFilter);
+                        break;
+                }
+
+                Match match = _input.Match;
+                modifiedQuery = modifiedQuery.Substring(0, match.Index)
+                    + output + modifiedQuery.Substring(match.Index + match.Length);
+
+                IsWWFunction(modifiedQuery, out _input); // see if there is any other occurence of this function in the query
+            }
+
+            return modifiedQuery;
+        }
+
+        private static string GetStringFormat(string dateField, string format)
+        {
+            string newFormat = string.Empty;
+
+            for (int i = 0; i &lt; format.Length; i++)
+            {
+                newFormat += @"\" + format[i];
+            }
+
+            string newDateField = dateField;
+            string formatString = "yyyy/MM/dd HH:mm:ss.ll";
+
+            if (format.ContainsEx("ww") &amp;&amp; !format.IsMatch("*H*|*h*|*m*|*s*|*f*"))
+            {
+                formatString = "yyyy/MM/dd";
+                if (!format.IsMatch("*ww.w*|*d*")) // just ww
+                {
+                    // add a day and quantize by a week as Intel WW format is off by 1 day (Sunday is part of next WW with .0)
+                    newDateField = "quantize(add(" + dateField + ", TIMESTAMP('2', 'd')), 604800)";
+                }
+            }
+
+            return "to_string(" + newDateField + @", '" + newFormat + "{::}" + formatString + "')";
+        }
+
+        private string GetMatchValue(Match match, string groupName)
+        {
+            string value = match.Groups[groupName].Value.Trim(); ;
+            if (value.Length == 0)
+            {
+                throw new ArgumentException("To_WorkWeek: Parameter [" + groupName + "] cannot be empty.");
+            }
+            return value;
+        }
+
+    }
+}
+</CustomSQLFunctionScripts>
+  <PivotGroupingSettings PivotColumn="">
+    <SortyByColumn>Count</SortyByColumn>
+  </PivotGroupingSettings>
+  <QuerySQL><![CDATA[
+--[FileName:"R:\Dashboard\Web\PCAM\LA2 Scripts\Web_ALLHistory.lasx"]------
+----------<VARIABLES>------------
+var TIMEFILTER = "Last 1 weeks"
+var FILEFILTER = "@{DASHBOARD_LOCAL_WEB}\PCAM\Output\E3 Change History.csv"
+var FILEFILTER2 = "@{DASHBOARD_LOCAL_WEB}\PCAM\Output\TWT - F3 F4 AP Table History.csv"
+var FILEFILTER3 = "@{DASHBOARD_LOCAL_WEB}\PCAM\Output\SCNET CC History Merged_Last Week.csv"
+var FILEFILTER4 = "@{DASHBOARD_LOCAL_WEB}\PCAM\Output\SCNET CC File History_Last Week.csv"
+var FILEFILTER5 = "@{DASHBOARD_LOCAL_WEB}\PCAM\Output\SPCSharp - Monitor Inventory and Change Log from CSV_Change Log - Last 30 Days.csv"
+var FILEFILTER6 = "@{DASHBOARD_LOCAL_WEB}\PCAM\Output\NTSC CC History Merged_Last Week.csv"
+var FILEFILTER7 = "@{DASHBOARD_LOCAL_WEB}\PCAM\Output\TWT Association History_Last Week.csv"
+var FILEFILTER8 = "@{DASHBOARD_LOCAL_WEB}\PCAM\Output\FSUI Change History_Last Week.csv"
+---[E3_CSV]---
+BEGIN E3_CSV
+	---Begin Main Query---
+	Using CSV with
+	SELECT
+		'E3' as Application,
+		When,
+		Who as UserTemp,
+		strcat(strcat(strcat(strcat([Object Type], ': '), Name), ' v.'), to_string(Version)) as [Change Information],
+		Comment
+	FROM
+		'${FILEFILTER}'
+	WHERE
+		ApplyTimeRangeFilter(When,'${TIMEFILTER}')
+END E3_CSV
+---[E3_CSV]---
+BEGIN FSUI_CSV
+	---Begin Main Query---
+	Using CSV with
+	SELECT
+		'FSUI' as Application,
+		When,
+		Who as UserTemp,
+		Table as [Change Information],
+		Comment
+	FROM
+		'${FILEFILTER8}'
+	WHERE
+		ApplyTimeRangeFilter(When,'${TIMEFILTER}')
+END FSUI_CSV
+---[TWT_CSV]---
+BEGIN TWT_CSV
+	---Begin Main Query---
+	Using CSV with
+	SELECT
+		'TWT' as Application,
+		CHANGETIMESTAMP as When,
+		WHO as UserTemp,
+		strcat(strcat(Intro, ' Table: '), TABLENAME) as [Change Information],
+		COMMENTS as Comment
+	FROM
+		'${FILEFILTER2}'
+	WHERE
+		ApplyTimeRangeFilter(When,'${TIMEFILTER}')
+END TWT_CSV
+---[SCNETPARAM_CSV]---
+BEGIN SCNETPARAM_CSV
+	---Begin Main Query---
+	Using CSV with
+	SELECT
+		'SC.NET' as Application,
+		Date as When,
+		UserName as UserTemp,
+		strcat(strcat(strcat(strcat(Action, ' parameter '), to_string(ParameterName)), ' for '), to_string(Location))  as [Change Information],
+		strcat('New Value: ', to_string(NewValue)) as Comment
+	USING
+		case ToolType when null then Entity else ToolType end as ChangeLocation,
+		case ChangeLocation when null then Application else ChangeLocation end as Location
+	FROM
+		'${FILEFILTER3}'
+END SCNETPARAM_CSV
+---[SCNETFILE_CSV]---
+BEGIN SCNETFILE_CSV
+	---Begin Main Query---
+	Using CSV with
+	SELECT
+		'SC.NET' as Application,
+		Date as When,
+		UserName as UserTemp,
+		strcat(strcat(strcat(strcat(Action, ' file '), File), ' for '), Location)  as [Change Information],
+		Comment
+	USING
+		case ToolType when null then Entity else ToolType end as ChangeLocation,
+		case ChangeLocation when null then Application else ChangeLocation end as Location
+	FROM
+		'${FILEFILTER4}'
+END SCNETFILE_CSV
+---[SPC_CSV]---
+BEGIN SPC_CSV
+	---Begin Main Query---
+	Using CSV with
+	SELECT
+		'SPC#' as Application,
+		LastModified as [When],
+		LastModifiedBy as UserTemp,
+		MonitorName as [Change Information],
+		Comments as Comment
+	FROM
+		'${FILEFILTER5}'
+	WHERE
+		ApplyTimeRangeFilter(When,'${TIMEFILTER}')
+END SPC_CSV
+---[NTSC_CSV]---
+BEGIN NTSC_CSV
+	---Begin Main Query---
+	Using CSV with
+	SELECT
+		'NTSC' as Application,
+		Date as [When],
+		Who as UserTemp,
+		strcat(strcat(strcat(strcat(Action, ' '), ParameterName), ' for '), Version)  as [Change Information],
+		Comment
+	USING
+		CASE index_of(Action, 'Modified') when null then null else strcat('New Value: ', NewValue) end as Comment
+	FROM
+		'${FILEFILTER6}'
+END NTSC_CSV
+---[TWTASSOC_CSV]---
+BEGIN TWTASSOC_CSV
+	---Begin Main Query---
+	Using CSV with
+	SELECT
+		'TWT' as Application,
+		CHANGEDate as When,
+		UserName as UserTemp,
+		strcat(strcat(ENTITY, ' associated with '), TABLENAME) as [Change Information],
+		Description as Comment
+	FROM
+		'${FILEFILTER7}'
+END TWTASSOC_CSV
+---Begin Main Query---
+Using CSV with
+SELECT
+	When,
+	Who,
+	Application,
+	[Change Information],
+	Comment
+USING
+	CASE index_of(UserTemp, 'MFG_') when null then UserTemp else substr(UserTemp, 4) end as Who1,
+	CASE index_of(Who1, 'AMR') when null then Who1 else substr(Who1, 4) end as Who2,
+	CASE index_of(Who2, 'GER') when null then Who2 else substr(Who2, 4) end as Who3,
+	CASE index_of(Who3, 'mfg_') when null then Who3 else substr(Who3, 4) end as Who4,
+	TO_LOWERCASE(Who4) as Who
+FROM
+	%{FSUI_CSV},
+	%{E3_CSV},
+	%{TWT_CSV},
+	%{SCNETPARAM_CSV},
+	%{SCNETFILE_CSV},
+	%{SPC_CSV},
+	%{NTSC_CSV},
+	%{TWTASSOC_CSV}
+WHERE
+	When is not null
+ORDER BY
+	When desc
+
+]]></QuerySQL>
+</QueryConfig>

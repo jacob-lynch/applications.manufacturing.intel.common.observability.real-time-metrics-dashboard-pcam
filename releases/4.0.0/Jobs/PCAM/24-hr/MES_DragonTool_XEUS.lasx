@@ -1,0 +1,186 @@
+<QueryConfig AutoExecuteQueryOnLoad="false" PreventSQLBeautification="false">
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 10/26/2016 2:03:20 PM from RF3PVAP416N19.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.9.60808.1615</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 10/26/2016 2:01:47 PM from RF3PVAP416N19.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.9.60808.1615</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_penarvae on 10/27/2015 11:33:51 AM from RF3PAP216N4.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.8.51008.1613</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_penarvae on 10/27/2015 11:28:24 AM from RF3PAP216N4.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.8.51008.1613</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 10/10/2013 3:04:44 PM from RF3PTS216.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.7.31010.0142</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 10/10/2013 3:03:56 PM from RF3PTS216.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.7.31010.0142</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 10/10/2013 3:03:39 PM from RF3PTS216.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.7.31010.0142</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 10/10/2013 3:02:14 PM from RF3PTS216.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.7.31010.0142</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 10/10/2013 2:54:32 PM from RF3PTS216.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.7.31010.0142</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 10/10/2013 2:54:10 PM from RF3PTS216.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.7.31010.0142</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 10/10/2013 2:50:40 PM from RF3PTS216.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.7.31010.0142</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 5/1/2013 4:45:48 PM from RF3PTS215.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.6.30430.2016</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 2/15/2013 5:27:44 PM from RF3PTS215.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.6.30214.1454</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 12/27/2012 2:48:53 PM from RF3PTS215.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.5.21112.1211</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_penarvae on 12/16/2012 1:40:03 AM from RF3PAP216N1.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.5.20326.1729</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_penarvae on 12/16/2012 1:27:22 AM from RF3PAP216N1.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.5.20326.1729</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_penarvae on 12/16/2012 1:24:28 AM from RF3PAP216N1.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.5.20326.1729</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_penarvae on 12/16/2012 1:18:11 AM from RF3PAP216N1.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.5.20326.1729</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 11/29/2012 12:45:00 PM from RF3PTS215.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.5.21112.1211</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 11/29/2012 11:57:34 AM from RF3PTS215.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.5.21112.1211</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 11/29/2012 11:57:25 AM from RF3PTS215.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.5.21112.1211</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 11/29/2012 11:56:36 AM from RF3PTS215.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.5.21112.1211</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 9/9/2011 2:17:43 PM from RF3PTS215.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.4.10908.1430</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 9/6/2011 2:31:16 PM from RF3PTS215.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.4.10902.2313</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 9/6/2011 1:26:10 PM from RF3PTS215.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.4.10902.2313</ChangeLog>
+  <QueryAttributes>
+    <AlwaysReplaceDomainWithLocal>false</AlwaysReplaceDomainWithLocal>
+  </QueryAttributes>
+  <PostQuerySQL>select * from %{OUTPUT}</PostQuerySQL>
+  <TableLayoutConfig>
+    <BoundColumnList>ATTRIBUTE_NAME,ATTRIBUTE_VALUE,ENTITY,ATTRIBUTE_DESCRIPTION</BoundColumnList>
+  </TableLayoutConfig>
+  <TabOrder>C0,G0,G1</TabOrder>
+  <MainPivotConfig>
+    <ColumnX FieldName="ATTRIBUTE_VALUE" FieldType="String" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <ColumnY FieldName="" FieldType="" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <ColumnData FieldName="" FieldType="" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <CustomPalette />
+    <TableData />
+  </MainPivotConfig>
+  <OutputDataGridConfig Name="Dragon Tool Total">
+    <SQL>---Begin Main Query---
+SELECT
+	count(*)
+FROM
+	%{OUTPUT}
+
+</SQL>
+    <TableLayoutConfig>
+      <BoundColumnList>COUNT(ALL *)</BoundColumnList>
+    </TableLayoutConfig>
+    <TableSchema><xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+  <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="Results" msdata:UseCurrentLocale="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Results">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="COUNT_x0028_ALL_x0020__x002A__x0029_" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
+</TableSchema>
+    <TableData />
+  </OutputDataGridConfig>
+  <OutputDataGridConfig Name="Dragon Tools">
+    <SQL>---Begin Main Query---
+SELECT
+	Entity
+FROM
+	%{OUTPUT}
+ORDER BY
+	Entity
+</SQL>
+    <TableLayoutConfig>
+      <BoundColumnList>ENTITY</BoundColumnList>
+    </TableLayoutConfig>
+    <TableSchema><xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+  <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="Results" msdata:UseCurrentLocale="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Results">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ENTITY" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
+</TableSchema>
+    <TableData />
+  </OutputDataGridConfig>
+  <AutoPivotConfig OutputDateFormat="yyyy ww.w hh tt" />
+  <MailConfig>
+    <PostProcessingSQL Enable="false" />
+    <EmailCondition Enable="false" Operator="&gt;" ThresholdRowCount="0">
+      <SQLQuery />
+      <RunScriptBeforeEmailing>false</RunScriptBeforeEmailing>
+      <Script />
+    </EmailCondition>
+    <PostProcessingCondition Enable="false" Operator="&gt;" ThresholdRowCount="0">
+      <SQLQuery />
+      <RunScriptBeforeEmailing>false</RunScriptBeforeEmailing>
+    </PostProcessingCondition>
+    <CopyCondition Enable="false" Operator="&gt;" ThresholdRowCount="0">
+      <SQLQuery />
+      <RunScriptBeforeEmailing>false</RunScriptBeforeEmailing>
+    </CopyCondition>
+    <SMTPServer>smtp.intel.com</SMTPServer>
+    <From>loganalyzer2@intel.com</From>
+    <ReplyTo>@{DASHBOARD_OWNER_ALERT_DIST}</ReplyTo>
+    <To />
+    <Subject>[${DOMAIN}] MES Dragon Summary XEUS</Subject>
+    <Body />
+    <MailAttachments FileNamingFormat="${SETTINGS}" Excel="false" CSV="false" LAS="false" LAD="false" Exceptions="false" StatusLogs="false" PivotChart="false" ZipAttachments="false" DoNotSendAttachmentsWithEmail="false" IncludeQuerySettingsFileHeader="false" IncludeVariableDefinitionHeader="false" IncludeRowCountInSubject="false" />
+    <IncludeSQLQueryInBody>false</IncludeSQLQueryInBody>
+    <TableInBody Enable="true">
+      <SQL />
+    </TableInBody>
+    <CopyOutputToDirectory>true</CopyOutputToDirectory>
+    <OutputDirectory>@{DASHBOARD_WEB_SPOOL}\PCAM\Output</OutputDirectory>
+    <IncludeAutoPivotSummary>false</IncludeAutoPivotSummary>
+    <IncludeCustomPivotSummary>false</IncludeCustomPivotSummary>
+    <IgnoreExceptions>false</IgnoreExceptions>
+    <OnlyCopyOutputIfEmailConditionIsMet>false</OnlyCopyOutputIfEmailConditionIsMet>
+  </MailConfig>
+  <TableSchema><xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+  <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="Results" msdata:UseCurrentLocale="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Results">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ENTITY" type="xs:string" minOccurs="0" />
+              <xs:element name="ATTRIBUTE_NAME" type="xs:string" minOccurs="0" />
+              <xs:element name="ATTRIBUTE_VALUE" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
+</TableSchema>
+  <TableData />
+  <LastRunAbsoluteDateFilter />
+  <PivotGroupingSettings PivotColumn="">
+    <SortyByColumn>Count</SortyByColumn>
+  </PivotGroupingSettings>
+  <QuerySQL><![CDATA[
+--[FileName:"D:\Dashboard\Jobs\PCAM\24-hr\MES_DragonTool.lasx"]------
+----------<VARIABLES>------------
+var MAO_USERID = "@{USERID_NON_MFG}"
+var DATA_SOURCE = "@{LOCALXEUSDATASOURCE}"
+---Begin Main Query---
+Using UNIQE with
+	DataSource = "${DATA_SOURCE}" -- UNIQE data source to query
+	Authentication = "UNP" -- User Authentication Mode
+	UserId = "${MAO_USERID}" -- User ID for authentication
+SELECT
+  m.ENTITY,
+  av.ATTRIBUTE_NAME,
+  av.ATTRIBUTE_VALUE
+FROM
+  F_ENTITY m
+  LEFT OUTER JOIN F_ENTITYATTRIBUTE av
+	ON ( m.ENTITY = av.ENTITY )
+WHERE
+  m.ENTITY_DELETED_FLAG != 'Y'
+  AND m.OBJECT_STATUS = '1'
+  AND av.HISTORY_DELETED_FLAG = 'N'
+  AND av.ATTRIBUTE_NAME LIKE 'Dragon%'
+  AND av.ATTRIBUTE_VALUE LIKE 'Yes'
+ORDER  BY
+  m.ENTITY 
+
+]]></QuerySQL>
+</QueryConfig>

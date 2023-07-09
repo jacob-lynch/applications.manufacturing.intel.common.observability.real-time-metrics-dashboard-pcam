@@ -1,0 +1,149 @@
+<QueryConfig AutoExecuteQueryOnLoad="false">
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 11/10/2014 1:59:28 PM from RF3PAP216N3.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.8.40713.1943</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 8/28/2014 10:09:01 AM from RF3PTS216.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.8.40806.2215</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 8/25/2014 12:32:40 PM from RF3PTS216.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.8.40806.2215</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 8/4/2014 4:16:28 PM from RF3PTS215.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.8.40723.2330</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 8/4/2014 4:12:29 PM from RF3PTS216.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.8.40723.2330</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 8/4/2014 3:07:19 PM from RF3PTS216.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.8.40723.2330</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 12/13/2013 11:01:07 AM from RF3PTS216.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.7.31122.1414</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 12/13/2013 10:58:32 AM from RF3PTS216.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.7.31122.1414</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 12/12/2013 10:52:35 AM from RF3PTS216.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.7.31122.1414</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 12/12/2013 10:51:27 AM from RF3PTS216.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.7.31122.1414</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 12/12/2013 10:51:23 AM from RF3PTS216.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.7.31122.1414</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 12/12/2013 10:46:28 AM from RF3PTS216.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.7.31122.1414</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 12/12/2013 10:46:04 AM from RF3PTS216.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.7.31122.1414</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 12/12/2013 10:43:01 AM from RF3PTS216.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.7.31122.1414</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 12/11/2013 5:06:41 PM from RF3PTS216.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.7.31122.1414</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 12/11/2013 5:05:43 PM from RF3PTS216.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.7.31122.1414</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 12/11/2013 5:04:39 PM from RF3PTS216.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.7.31122.1414</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 12/11/2013 5:03:33 PM from RF3PTS216.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.7.31122.1414</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 12/11/2013 4:20:37 PM from RF3PTS216.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.7.31122.1414</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 12/11/2013 3:22:15 PM from RF3PTS216.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.7.31122.1414</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 12/11/2013 3:15:43 PM from RF3PTS216.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.7.31122.1414</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 12/11/2013 3:13:24 PM from RF3PTS216.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.7.31122.1414</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 12/11/2013 3:10:51 PM from RF3PTS216.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.7.31122.1414</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 12/4/2013 12:43:29 PM from RF3PTS216.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.7.31122.1414</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 12/4/2013 12:06:52 PM from RF3PTS216.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.7.31122.1414</ChangeLog>
+  <QueryAttributes>
+    <AlwaysReplaceDomainWithLocal>false</AlwaysReplaceDomainWithLocal>
+  </QueryAttributes>
+  <PostQuerySQL>select * from %{OUTPUT}</PostQuerySQL>
+  <TableLayoutConfig>
+    <BoundColumnList>NodeName,FunctionalArea,FunctionalSubArea</BoundColumnList>
+    <AllColumns>NodeName</AllColumns>
+    <AllColumns>FunctionalArea</AllColumns>
+    <AllColumns>FunctionalSubArea</AllColumns>
+  </TableLayoutConfig>
+  <TabOrder>C0</TabOrder>
+  <MainPivotConfig>
+    <ColumnX FieldName="" FieldType="" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <ColumnY FieldName="" FieldType="" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <ColumnData FieldName="" FieldType="" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <CustomPalette />
+    <TableData />
+  </MainPivotConfig>
+  <AutoPivotConfig OutputDateFormat="yyyy ww.w hh tt" />
+  <MailConfig>
+    <PostProcessingSQL Enable="false" />
+    <EmailCondition Enable="true" Operator="&gt;" ThresholdRowCount="0">
+      <SQLQuery />
+      <RunScriptBeforeEmailing>false</RunScriptBeforeEmailing>
+      <Script />
+    </EmailCondition>
+    <PostProcessingCondition Enable="false" Operator="&gt;" ThresholdRowCount="0">
+      <SQLQuery />
+      <RunScriptBeforeEmailing>false</RunScriptBeforeEmailing>
+    </PostProcessingCondition>
+    <CopyCondition Enable="false" Operator="&gt;" ThresholdRowCount="0">
+      <SQLQuery />
+      <RunScriptBeforeEmailing>false</RunScriptBeforeEmailing>
+    </CopyCondition>
+    <SMTPServer>smtp.intel.com</SMTPServer>
+    <From>LogAnalyzer2@intel.com</From>
+    <ReplyTo>@{DASHBOARD_OWNER_ALERT_DIST}</ReplyTo>
+    <To>@{PCAM_MONITOR_EMAIL}</To>
+    <Subject>Functional Area Winclient Security Audit</Subject>
+    <Body>&lt;b&gt;&lt;font color="red"&gt;Action Required - Winclient Security is Incorrectly Configured.&lt;/font&gt;&lt;/b&gt;
+&lt;br&gt;
+&lt;br&gt;
+The winclient(s) listed below have incorrect FunctionalArea and/or FunctionalSubArea set-up, which is used by Platforms to define security on the winclient. In order to correct this please update the FunctionalArea and/or FunctionalSubArea values for the winclient. 
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;Additional details can be found &lt;a href="http://autowiki.intel.com/index.php?title=AIT_Monitor_pages_and_response#Functional_Area_Winclient_Security_Audit"&gt;here&lt;/a&gt;.&lt;/b&gt;
+&lt;br&gt;
+&lt;br&gt;</Body>
+    <OnlyProcessIfOutputChangedFromPreviousRun>false</OnlyProcessIfOutputChangedFromPreviousRun>
+    <MailAttachments FileNamingFormat="${SETTINGS}" Excel="false" CSV="false" LAS="false" LAD="false" Exceptions="false" StatusLogs="false" PivotChart="false" ZipAttachments="false" DoNotSendAttachmentsWithEmail="false" IncludeJobStatisticsHeader="false" IncludeQuerySettingsFileHeader="false" IncludeVariableDefinitionHeader="false" IncludeRowCountInSubject="false" />
+    <IncludeSQLQueryInBody>false</IncludeSQLQueryInBody>
+    <TableInBody Enable="true">
+      <SQL />
+    </TableInBody>
+    <CopyOutputToDirectory>false</CopyOutputToDirectory>
+    <OutputDirectory>@{DASHBOARD_WEB_SPOOL}\PCAM\Output</OutputDirectory>
+    <IncludeAutoPivotSummary>false</IncludeAutoPivotSummary>
+    <IgnoreExceptions>false</IgnoreExceptions>
+    <OnlyCopyOutputIfEmailConditionIsMet>false</OnlyCopyOutputIfEmailConditionIsMet>
+  </MailConfig>
+  <TableSchema />
+  <TableData />
+  <LastRunAbsoluteDateFilter />
+  <PivotGroupingSettings PivotColumn="">
+    <SortyByColumn>Count</SortyByColumn>
+  </PivotGroupingSettings>
+  <QuerySQL><![CDATA[
+--[FileName:"D:\Dashboard\Jobs\PCAM\24-hr\Functional Area Winclient Security Audit.lasx"]------
+----------<VARIABLES>------------
+var FILEFILTER = "@{DASHBOARD_PERSIST_DATA}\PCAM\Output\01_SCDOTNET_Summary_and_Timeline_DataPull.csv"
+var FILEFILTER2 = "@{DASHBOARD_PERSIST_DATA}\PCAM\Output\1_NTSC_Summary_and_Timeline_DataPull.csv"
+var TIMEFILTER = "All"
+var NODEFILTER = ""
+var DOMAIN = ""
+var THINFILMS_SUB = "AVD, Dielectric, Metals"
+var SUB_AREA = "Diffusion, ThinFilms"
+---[SCNET_CSV]---
+BEGIN SCNET_CSV
+	---Begin Main Query---
+	Using CSV with
+	SELECT
+		NodeName,
+		FunctionalArea,
+		FunctionalSubArea
+	FROM
+		${FILEFILTER}
+END SCNET_CSV
+---[NTSC_CSV]---
+BEGIN NTSC_CSV
+	---Begin Main Query---
+	Using CSV with
+	SELECT
+		NodeName,
+		FunctionalArea,
+		FunctionalSubArea
+	FROM
+		${FILEFILTER2}
+END NTSC_CSV
+---[MERGE_CSV]---
+BEGIN MERGE_CSV
+	UseMethod MergeTables with -- **Merge content of two tables by doing an outer join on the column schema (no join done here)**
+		InputFile1 = "%{SCNET_CSV}" -- Input CSV File #1 containing table data [String]
+		InputFile2 = "%{NTSC_CSV}" -- Input CSV File #2 containing table data [String]
+		AutoDetectColumnTypes = false -- Auto-detect column types before merging [Boolean]
+END MERGE_CSV
+---Begin Main Query---
+Using CSV with
+SELECT
+	NodeName,
+	FunctionalArea,
+	FunctionalSubArea
+FROM
+	%{MERGE_CSV}
+WHERE
+	FunctionalArea NOT like 'TBD'
+	AND (FunctionalArea is null
+	OR (NodeName like '%EDT%' AND FunctionalArea NOT like 'Diffusion')
+	OR (NodeName like '%EDT%' AND FunctionalSubArea NOT like 'EPI')
+	OR (FunctionalArea like 'ThinFilms' AND NOT IsInList(FunctionalSubArea, '${THINFILMS_SUB}'))
+	OR (NOT IsInList(FunctionalArea, '${SUB_AREA}') AND FunctionalSubArea is NOT null))
+
+]]></QuerySQL>
+</QueryConfig>

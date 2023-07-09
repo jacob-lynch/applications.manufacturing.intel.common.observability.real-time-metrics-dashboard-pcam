@@ -1,0 +1,125 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+<siteMapNode title="PCAM" description="" url="">
+  <siteMapNode title="About" description="Link to AutoWiki Training for This Dashboard" url="http://autowiki.intel.com/index.php?title=RTM.Dashboard.PCAM/Training"/>
+	<siteMapNode title="MCCB Details" description="" url="PCAM/MCCB.aspx?Page=MCCB" />
+	<siteMapNode title="1274 User Dashboard" description="" url="https://usercedashv2.mfg.intel.com/Dashboard/DashboardReport.aspx?Page=P1274_Overall" />
+	<siteMapNode title="1274 PCAM Dashboard" description="" url="https://pcamcedash.mfg.intel.com/Dashboard/?View=PCAM74" />
+  <!--<siteMapNode title="D1C BarnumSN" description="" url="PCAM/GridOnly_Dashboard.aspx?Page=D1CBarnumSNMetricsThisWeekSummary">
+    		<siteMapNode title="Sweeper Dispatch" description="" url="PCAM/Dashboard_D1CBarnumSNSweeperGridOnTop.aspx?Page=D1CBarnumSNSweeperDispatch" />  	 	
+        	<siteMapNode title="Current Queue" description="" url="PCAM/Dashboard_BarnumSN_D1CActiveQ.aspx?Page=D1CBarnumSNCurrentQueue" />
+    		<siteMapNode title="Metrics" description="" url="PCAM/Dashboard_BarnumSN_D1CMetrics.aspx?Page=D1CBarnumSNMetrics" />
+    <siteMapNode title="Customer Profiles" description="" url="">
+        <siteMapNode title="This Year" description="Area/Individual Stats for Same Day, Weekend, and Rejected requests" url="PCAM/GridOnly_Dashboard.aspx?Page=D1CBarnumSNCustomerProfilesThisYear" />
+        <siteMapNode title="Last Year" description="Area/Individual Stats for Same Day, Weekend, and Rejected requests" url="PCAM/GridOnly_Dashboard.aspx?Page=D1CBarnumSNCustomerProfilesLastYear" />
+  </siteMapNode>
+    </siteMapNode> -->
+  <siteMapNode title="LTD BarnumSN" description="" url="PCAM/GridOnly_Dashboard.aspx?Page=BarnumSNMetricsThisWeekSummary">
+    		<siteMapNode title="Sweeper Dispatch" description="" url="PCAM/Dashboard_BarnumSNSweeperGridOnTop.aspx?Page=BarnumSNSweeperDispatch" />  	
+    		<siteMapNode title="Barnum 911" description="" url="PCAM/BarnumSNDashboard911.aspx?Page=BarnumSNHighPrio" />  	
+        <siteMapNode title="Current Queue" description="" url="PCAM/Dashboard_BarnumSN_ActiveQ.aspx?Page=BarnumSNCurrentQueue" />
+    		<siteMapNode title="Metrics" description="" url="PCAM/Dashboard_BarnumSN_Metrics.aspx?Page=BarnumSNMetrics" />
+    <siteMapNode title="Customer Profiles" description="" url="">
+        <siteMapNode title="This Year" description="Area/Individual Stats for Same Day, Weekend, and Rejected requests" url="PCAM/GridOnly_Dashboard.aspx?Page=BarnumSNCustomerProfilesThisYear" />
+        <siteMapNode title="Last Year" description="Area/Individual Stats for Same Day, Weekend, and Rejected requests" url="PCAM/GridOnly_Dashboard.aspx?Page=BarnumSNCustomerProfilesLastYear" />
+  </siteMapNode>
+    </siteMapNode>   
+    	<!--<siteMapNode title="Barnum" description="Link to AutoWiki Page for Barnum" url="http://autowiki.intel.com/index.php?title=Barnum">
+    		<siteMapNode title="Sweeper Dispatch" description="" url="PCAM/Dashboard_SweeperGridOnTop.aspx?Page=SweeperDispatch" />  		
+		<siteMapNode title="Current Queue" description="" url="PCAM/Dashboard_Barnum_ActiveQ.aspx?Page=BarnumCurrentQueue" />
+    		<siteMapNode title="Metrics/ChangeLog" description="" url="PCAM/Dashboard_Barnum_Metrics.aspx?Page=BarnumMetrics" />
+		<siteMapNode title="Customer Profiles" description="" url="">
+			<siteMapNode title="This Year" description="Area/Individual Stats for Same Day, Weekend, and Rejected requests" url="PCAM/GridOnly_Dashboard.aspx?Page=BarnumCustomerProfilesThisYear" />
+			<siteMapNode title="Last Year" description="Area/Individual Stats for Same Day, Weekend, and Rejected requests" url="PCAM/GridOnly_Dashboard.aspx?Page=BarnumCustomerProfilesLastYear" />
+		</siteMapNode>
+  </siteMapNode>-->
+  <siteMapNode title="Oncall/Sustaining" description="" url="">
+		 	<!--<siteMapNode title="ToolFail" description="Escalation Metrics and Misconfg Details" url="PCAM/Dashboard_ToolFail.aspx?Page=ToolFail" />-->
+     <siteMapNode title="MC Upgrades" description="" url="PCAM/Dashboard_MCStatus.aspx?Page=MCStatus"/>
+		 <siteMapNode title="Winclient Uptime" description="" url="PCAM/Dashboard_WinclientPM.aspx?Page=WinclientPM" />
+	</siteMapNode>
+  <!--<siteMapNode title="Area Support" description="" url="">
+		  <siteMapNode title="Defect Metro/FSG" description="" url="PCAM/Dashboard_Area.aspx?Page=DMFSGArea"/>
+		  <siteMapNode title="Diffusion/Implant" description="" url="PCAM/Dashboard_Area.aspx?Page=DiffImpArea"/>
+		  <siteMapNode title="Etch" description="" url="PCAM/Dashboard_Area.aspx?Page=EtchArea"/>
+		  <siteMapNode title="Lithography" description="" url="PCAM/Dashboard_Area.aspx?Page=LithoArea"/>
+		  <siteMapNode title="Planar" description="" url="PCAM/Dashboard_Area.aspx?Page=PlanarArea"/>
+		  <siteMapNode title="Thin Films/TF Metro" description="" url="PCAM/Dashboard_Area.aspx?Page=TFArea"/>
+		  <siteMapNode title="C4/Sort" description="" url="PCAM/Dashboard_Area.aspx?Page=C4SortArea"/>
+		  <siteMapNode title="Global/Other" description="" url="PCAM/Dashboard_GlobalArea.aspx?Page=GlobalArea"/>
+	</siteMapNode>-->
+	<siteMapNode title="TIPR" description="" url="">
+					<siteMapNode title="Install Schedule" description="" url="PCAM/DashboardTIPRInstall.aspx?Page=Install" />
+		<siteMapNode title="Metrics" description="" url="PCAM/DashboardTIPRMetrics.aspx?Page=Metrics" />
+		<siteMapNode title="Issue Report" description="" url="PCAM/DashboardTIPRIssue.aspx?Page=Issues" />
+    		<!--siteMapNode title="Capabilities" description="" url="PCAM/DashboardTIPRCapabilities.aspx?Page=Capabilities" /-->
+    		<siteMapNode title="Schedule Summary" description="" url="PCAM/DashboardTIPRSummary.aspx?Page=ScheduleInfo" />
+	</siteMapNode>
+	<siteMapNode title="Application/Capability" description="" url="">
+		<siteMapNode title="E3" description="" url="">
+      <siteMapNode title="E3 Gold Tools" description="" url="PCAM/Dashboard_E3_Gold.aspx?Page=E3Gold" />
+			<siteMapNode title="UVA" description="" url="PCAM/Dashboard_UVA.aspx?Page=UVA" />
+		</siteMapNode>
+		<!--<siteMapNode title="MES Entity" description="MARS MES Entity Configuration" url="">
+			<siteMapNode title="Core State Model" description="" url="PCAM/DashboardMESStateModel.aspx?Page=MESStateModel" />
+			<siteMapNode title="State Models" description="" url="PCAM/Dashboard_MESEntity.aspx?Page=MESEntity" />
+			<siteMapNode title="Attributes" description="Identify attributes nearing max size" url="PCAM/Dashboard_MES.aspx?Page=MESEntityAttr" />
+			<siteMapNode title="CuDeseg" description="" url="PCAM/Dashboard_MESCuDeseg.aspx?Page=CuDeseg" />	
+			<siteMapNode title="Dragon" description="" url="PCAM/Dashboard_MESDragonTool.aspx?Page=Dragon" />	
+			<siteMapNode title="Virtual Line" description="" url="PCAM/Dashboard_MESEntityVL.aspx?Page=VL" />	
+		</siteMapNode>-->
+		<siteMapNode title="MES Entity" description="XEUS MES Entity Configuration" url="" >
+			<siteMapNode title="Core State Model" description="" url="PCAM/DashboardMESStateModel_XEUS.aspx?Page=MESStateModelXEUS" />
+			<siteMapNode title="State Models" description="" url="PCAM/Dashboard_MESEntity_XEUS.aspx?Page=MESEntityXEUS" />
+			<siteMapNode title="Attributes" description="" url="PCAM/Dashboard_MES_XEUS.aspx?Page=MESEntityAttrXEUS" />
+			<siteMapNode title="CuDeseg" description="" url="PCAM/Dashboard_MESCuDeseg_XEUS.aspx?Page=CuDesegXEUS" />	
+			<siteMapNode title="Dragon" description="" url="PCAM/Dashboard_MESDragonTool_XEUS.aspx?Page=DragonXEUS" />	
+			<siteMapNode title="Virtual Line" description="" url="PCAM/Dashboard_MESEntityVL_XEUS.aspx?Page=VLXEUS" />	
+		</siteMapNode>
+		<siteMapNode title="MES Lot" description="" url="">
+			<siteMapNode title="Attributes" description="" url="PCAM/Dashboard_MESLA_XEUS.aspx?Page=MESLAXEUS" />
+			<siteMapNode title="State Models" description="" url="PCAM/DashboardMESLotStateModel_XEUS.aspx?Page=MESLotStateModelXEUS" />
+		</siteMapNode>
+			<siteMapNode title="MES CRM" description="" url="" >
+      <siteMapNode title="Operation WF" description="" url="PCAM/Dashboard_MESOWD_XEUS.aspx?Page=OWDXEUS" />
+			<siteMapNode title="WIP Steering" description="" url="PCAM/Dashboard_MESWSC_XEUS.aspx?Page=WSCXEUS" />	
+		</siteMapNode>
+		  <siteMapNode title="NTSC Utilities" description="" url="PCAM/Dashboard_NTSCUtilities.aspx?Page=NTSCUtilities" />
+		  <siteMapNode title="Purge" description="" url="">
+		  <siteMapNode title="Data" description="" url="PCAM/Dashboard_Purge_XEUS.aspx?Page=PurgeXEUS" />
+		  <siteMapNode title="Operation Metrics" description="" url="PCAM/Dashboard_PurgeMetrics_XEUS.aspx?Page=PurgeMetricsXEUS" />
+		  <siteMapNode title="Tool Metrics" description="" url="PCAM/Dashboard_PurgeToolMetrics_XEUS.aspx?Page=PurgeToolMetricsXEUS" />
+		</siteMapNode>
+      <siteMapNode title="SPC" description="" url="PCAM/Dashboard_SPCSharp.aspx?Page=SPCSharpInventory" />
+      <siteMapNode title="TWT Inventory" description="" url="PCAM/Dashboard_TWT.aspx?Page=TWTInventory" />
+		</siteMapNode>
+  	<siteMapNode title="NTSC Summary" description="" url="">
+		  <siteMapNode title="FW Versions" description="" url="PCAM/Dashboard_FW.aspx?Page=FrameworkCap" />
+		  <siteMapNode title="MC Versions" description="" url="PCAM/Dashboard_MC.aspx?Page=MachineControllerCap"/>
+		  <siteMapNode title="Config Management" description="" url="PCAM/Dashboard_CM.aspx?Page=CMCap" />
+		  <siteMapNode title="AM" description="" url="PCAM/Dashboard_AM.aspx?Page=AM" />
+		  <siteMapNode title="E3" description="" url="PCAM/Dashboard_E3.aspx?Page=E3EP" />
+		  <siteMapNode title="ID" description="" url="PCAM/Dashboard_ID.aspx?Page=IDCap" />
+		  <siteMapNode title="IR2" description="" url="PCAM/Dashboard_IR2.aspx?Page=IR2EGLCap" />
+		  <siteMapNode title="N2Purge" description="" url="PCAM/Dashboard_N2.aspx?Page=N2PurgeCap" />
+		  <siteMapNode title="Softpin" description="" url="PCAM/Dashboard_SP.aspx?Page=SoftpinCap" />
+		  <siteMapNode title="Tool Management" description="" url="PCAM/Dashboard_TM.aspx?Page=TM" />
+		  <siteMapNode title="WLT" description="" url="PCAM/Dashboard_WLT.aspx?Page=WLTCap" />
+	</siteMapNode> 
+	  	<siteMapNode title="SC.NET Summary" description="" url="">
+		  <siteMapNode title="FW Versions" description="" url="PCAM/Dashboard_DOTNETFW.aspx?Page=DOTNETFrameworkCap" />
+		  <siteMapNode title="MC Versions" description="" url="PCAM/Dashboard_DOTNETMC.aspx?Page=DOTNETMachineControllerCap"/>
+	</siteMapNode>
+	<siteMapNode title="Change History" description="" url="PCAM/GridOnly_Dashboard.aspx?Page=History">
+		  <siteMapNode title="Critical Parameter" description="" url="PCAM/Dashboard_CriticalParam.aspx?Page=CriticalParam" />
+		  <siteMapNode title="E3 Objects" description="" url="PCAM/Dashboard_E3History.aspx?Page=E3History" />
+		  <siteMapNode title="FSUI Table" description="" url="PCAM/Dashboard_FSUIHistory.aspx?Page=FSUIHistory" />
+		  <siteMapNode title="NTSC Parameter" description="" url="PCAM/Dashboard_History.aspx?Page=NTSCHistory" />
+		  <siteMapNode title="SC.NET File" description="" url="PCAM/Dashboard_SCNETFileHistory.aspx?Page=SCNETFileHistory" />
+		  <siteMapNode title="SC.NET Parameter" description="" url="PCAM/Dashboard_SCNETHistory.aspx?Page=SCNETHistory" />
+		  <siteMapNode title="SPC Monitors" description="" url="PCAM/Dashboard_SPCSharpHistory.aspx?Page=SPCSharpHistory" />
+		  <siteMapNode title="Test Wafer Tracking" description="" url="PCAM/Dashboard_TWTHistory.aspx?Page=TWTHistory" />
+	</siteMapNode>
+
+  </siteMapNode>
+</siteMap>

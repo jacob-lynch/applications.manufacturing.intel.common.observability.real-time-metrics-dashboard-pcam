@@ -1,0 +1,197 @@
+<QueryConfig AutoExecuteQueryOnLoad="false" PreventSQLBeautification="false">
+  <ChangeLog>Changed by GER\mfg_rlouk on 8/3/2017 3:03:18 PM from F28PAP216N13.F28PROD.MFG.INTEL.COM using LogAnalyzer2 v2.9.61013.0546</ChangeLog>
+  <ChangeLog>Changed by GER\rlouk on 7/26/2017 1:39:10 PM from F28PRD415N1.F28PROD.MFG.INTEL.COM using LogAnalyzer2 v2.9.61013.0546</ChangeLog>
+  <ChangeLog>Changed by GER\rlouk on 7/26/2017 1:38:39 PM from F28PRD415N1.F28PROD.MFG.INTEL.COM using LogAnalyzer2 v2.9.61013.0546</ChangeLog>
+  <ChangeLog>Changed by GER\rlouk on 7/26/2017 1:20:00 PM from F28PRD415N1.F28PROD.MFG.INTEL.COM using LogAnalyzer2 v2.9.61013.0546</ChangeLog>
+  <ChangeLog>Changed by GER\rlouk on 7/26/2017 11:27:54 AM from F28PRD415N1.F28PROD.MFG.INTEL.COM using LogAnalyzer2 v2.9.61013.0546</ChangeLog>
+  <ChangeLog>Changed by GER\mfg_rlouk on 7/26/2017 11:15:23 AM from F28PRD415N1.F28PROD.MFG.INTEL.COM using LogAnalyzer2 v2.9.61013.0546</ChangeLog>
+  <ChangeLog>Changed by GER\mfg_rlouk on 7/26/2017 11:00:44 AM from F28PRD415N1.F28PROD.MFG.INTEL.COM using LogAnalyzer2 v2.9.61013.0546</ChangeLog>
+  <ChangeLog>Changed by GER\rlouk on 4/27/2017 2:32:06 PM from F28PTS215N1.F28PROD.MFG.INTEL.COM using LogAnalyzer2 v2.9.51126.1053</ChangeLog>
+  <ChangeLog>Changed by GER\rlouk on 4/27/2017 2:31:30 PM from F28PTS215N1.F28PROD.MFG.INTEL.COM using LogAnalyzer2 v2.9.51126.1053</ChangeLog>
+  <ChangeLog>Changed by GER\rlouk on 4/27/2017 2:29:55 PM from F28PTS215N1.F28PROD.MFG.INTEL.COM using LogAnalyzer2 v2.9.51126.1053</ChangeLog>
+  <ChangeLog>Changed by GER\rlouk on 4/27/2017 1:49:46 PM from F28PTS215N1.F28PROD.MFG.INTEL.COM using LogAnalyzer2 v2.9.51126.1053</ChangeLog>
+  <ChangeLog>Changed by GER\rlouk on 4/27/2017 1:47:19 PM from F28PTS215N1.F28PROD.MFG.INTEL.COM using LogAnalyzer2 v2.9.51126.1053</ChangeLog>
+  <ChangeLog>Changed by GER\mfg_rlouk on 4/27/2017 11:51:52 AM from F28PTS215N1.F28PROD.MFG.INTEL.COM using LogAnalyzer2 v2.9.51126.1053</ChangeLog>
+  <ChangeLog>Changed by GER\mfg_rlouk on 4/27/2017 11:51:28 AM from F28PTS215N1.F28PROD.MFG.INTEL.COM using LogAnalyzer2 v2.9.51126.1053</ChangeLog>
+  <ChangeLog>Changed by GER\rlouk on 4/24/2017 3:11:05 PM from F28PTS215N1.F28PROD.MFG.INTEL.COM using LogAnalyzer2 v2.9.51126.1053</ChangeLog>
+  <ChangeLog>Changed by GER\rlouk on 4/24/2017 3:11:01 PM from F28PTS215N1.F28PROD.MFG.INTEL.COM using LogAnalyzer2 v2.9.51126.1053</ChangeLog>
+  <ChangeLog>Changed by GER\rlouk on 4/24/2017 3:02:53 PM from F28PTS215N1.F28PROD.MFG.INTEL.COM using LogAnalyzer2 v2.9.51126.1053</ChangeLog>
+  <ChangeLog>Changed by GER\rlouk on 3/27/2017 10:34:32 AM from F28PTS215N1.F28PROD.MFG.INTEL.COM using LogAnalyzer2 v2.9.51126.1053</ChangeLog>
+  <ChangeLog>Changed by GER\rlouk on 3/27/2017 10:33:44 AM from F28PTS215N1.F28PROD.MFG.INTEL.COM using LogAnalyzer2 v2.9.51126.1053</ChangeLog>
+  <ChangeLog>Changed by GER\rlouk on 3/19/2017 10:36:37 AM from F28PTS215N1.F28PROD.MFG.INTEL.COM using LogAnalyzer2 v2.9.51126.1053</ChangeLog>
+  <ChangeLog>Changed by GER\rlouk on 3/14/2017 4:54:20 PM from F28PTS215N1.F28PROD.MFG.INTEL.COM using LogAnalyzer2 v2.9.51126.1053</ChangeLog>
+  <ChangeLog>Changed by GER\rlouk on 3/14/2017 4:31:01 PM from F28PTS215N1.F28PROD.MFG.INTEL.COM using LogAnalyzer2 v2.9.51126.1053</ChangeLog>
+  <ChangeLog>Changed by GER\rlouk on 3/14/2017 3:28:22 PM from F28PTS215N1.F28PROD.MFG.INTEL.COM using LogAnalyzer2 v2.9.51126.1053</ChangeLog>
+  <ChangeLog>Changed by GER\rlouk on 3/14/2017 3:12:30 PM from F28PTS215N1.F28PROD.MFG.INTEL.COM using LogAnalyzer2 v2.9.51126.1053</ChangeLog>
+  <ChangeLog>Changed by GER\rlouk on 3/14/2017 3:09:23 PM from F28PTS215N1.F28PROD.MFG.INTEL.COM using LogAnalyzer2 v2.9.51126.1053</ChangeLog>
+  <QueryAttributes>
+    <RowThresholdForPivotGrid>1000000</RowThresholdForPivotGrid>
+    <AlwaysReplaceDomainWithLocal>false</AlwaysReplaceDomainWithLocal>
+  </QueryAttributes>
+  <PostQuerySQL>select * from %{OUTPUT}</PostQuerySQL>
+  <TableLayoutConfig>
+    <BoundColumnList>DateTime,NodeName,EventLog,EventID,EventTypeName,Category,SourceName,UserID,Message,Strings</BoundColumnList>
+  </TableLayoutConfig>
+  <RowHighlightingRules Enable="true" ColumnName="*" FilterRegex="Error" RowColorString="NamedColor:Red" />
+  <RowHighlightingRules Enable="true" ColumnName="*" FilterRegex="Warning" RowColorString="NamedColor:Yellow" />
+  <TabOrder>C0</TabOrder>
+  <MainPivotConfig>
+    <ColumnX FieldName="" FieldType="" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <ColumnY FieldName="" FieldType="" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <ColumnData FieldName="" FieldType="" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <CustomPalette />
+    <TableData />
+  </MainPivotConfig>
+  <AutoPivotConfig OutputDateFormat="yyyy ww.w HH:mm" StatisticalFunctionsForColumn="Avg, 50, 90,96, Count" />
+  <MailConfig>
+    <PostProcessingSQL Enable="false" />
+    <EmailCondition Enable="true" Operator="&gt;=" ThresholdRowCount="0">
+      <SQLQuery />
+      <RunScriptBeforeEmailing>false</RunScriptBeforeEmailing>
+      <Script />
+    </EmailCondition>
+    <PostProcessingCondition Enable="false" Operator="&gt;" ThresholdRowCount="0">
+      <SQLQuery />
+      <RunScriptBeforeEmailing>false</RunScriptBeforeEmailing>
+    </PostProcessingCondition>
+    <CopyCondition Enable="false" Operator="&gt;" ThresholdRowCount="">
+      <SQLQuery />
+      <RunScriptBeforeEmailing>false</RunScriptBeforeEmailing>
+    </CopyCondition>
+    <SMTPServer>smtp.intel.com</SMTPServer>
+    <From>LogAnalyzer2@intel.com</From>
+    <ReplyTo>@{DASHBOARD_OWNER_ALERT_DIST}</ReplyTo>
+    <To />
+    <Subject>DTWCRM: Failed Transactions</Subject>
+    <Body />
+    <MailAttachments FileNamingFormat="${SETTINGS}" Excel="false" CSV="false" LAS="false" LAD="false" Exceptions="false" StatusLogs="false" PivotChart="false" ZipAttachments="false" DoNotSendAttachmentsWithEmail="false" IncludeJobStatisticsHeader="false" IncludeQuerySettingsFileHeader="false" IncludeVariableDefinitionHeader="false" />
+    <IncludeSQLQueryInBody>false</IncludeSQLQueryInBody>
+    <TableInBody Enable="true">
+      <SQL />
+    </TableInBody>
+    <CopyOutputToDirectory>true</CopyOutputToDirectory>
+    <OutputDirectory>@{DASHBOARD_WEB_SPOOL}\PCAM\Output</OutputDirectory>
+    <IncludeAutoPivotSummary>false</IncludeAutoPivotSummary>
+    <IgnoreExceptions>false</IgnoreExceptions>
+    <OnlyCopyOutputIfEmailConditionIsMet>false</OnlyCopyOutputIfEmailConditionIsMet>
+  </MailConfig>
+  <TableSchema><xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+  <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="Results" msdata:UseCurrentLocale="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Results">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ListName" type="xs:string" minOccurs="0" />
+              <xs:element name="CRMTableName" type="xs:string" minOccurs="0" />
+              <xs:element name="CRMLink" type="xs:string" minOccurs="0" />
+              <xs:element name="Site" type="xs:string" minOccurs="0" />
+              <xs:element name="DateTime" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="Title" type="xs:string" minOccurs="0" />
+              <xs:element name="ChangeSummary" type="xs:string" minOccurs="0" />
+              <xs:element name="Created_x0020_By" type="xs:string" minOccurs="0" />
+              <xs:element name="Modified_x0020_By" type="xs:string" minOccurs="0" />
+              <xs:element name="TransactionSuccess" type="xs:string" minOccurs="0" />
+              <xs:element name="DIff" type="xs:string" minOccurs="0" />
+              <xs:element name="TO_STRING_x0028_SUB_x0028_2017-07-26_x0020_08_x003A_28_x003A_02_x002C__x0020_DateTime_x0029__x002C__x0020__x0027_dd_x0027__x0029_" type="xs:int" minOccurs="0" />
+              <xs:element name="DateMinus7" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="DateMinus2" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="DomainOwner" type="xs:string" minOccurs="0" />
+              <xs:element name="CRMType" type="xs:string" minOccurs="0" />
+              <xs:element name="PullOwner" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
+</TableSchema>
+  <TableData />
+  <LastRunAbsoluteDateFilter />
+  <PivotGroupingSettings PivotColumn="">
+    <SortyByColumn>Count</SortyByColumn>
+  </PivotGroupingSettings>
+  <QuerySQL><![CDATA[
+--[FileName:"T:\Dashboard\Jobs\PCAM\6-hr\DTWFailureTransactions.lasx"]------
+----------<VARIABLES>------------
+var FILEFILTER_INTERNAL = "http://dtw.rf3prod.mfg.intel.com/DTWCRM/"
+var CRM_LISTS = "PullLists.csv"
+var LISTNAME_INTERNAL = "%{LIST}"
+var VIEWNAME_INTERNAL = "All Items"
+var TIMEFILTER = "Last 1 months"
+---[LIST]---
+[ThreadQuery(1)] --** Invoke a separate thread for every 1 output row(s) of the {LIST} query
+BEGIN LIST
+	---Begin Main Query---
+	Using CSV with
+	SELECT
+		ListName
+	FROM
+		${CRM_LISTS}
+END LIST
+---[SPDATA_CSV]---
+BEGIN SPDATA_CSV
+	UseMethod SharePointPortalReader with -- **Get table data from SharePoint Portal using web-service**
+		SharePointURL = "${FILEFILTER_INTERNAL}" -- Sharepoint URL [String]
+		ListName = "${LISTNAME_INTERNAL}" -- Sharepoint ListName [String]
+		ViewName = "${VIEWNAME_INTERNAL}" -- Sharepoint ViewName [String]
+		Query = "<Where><Eq><FieldRef Name='TransactionSuccess'/><Value Type='Text'>Failure</Value></Eq></Where>" -- Sharepoint Query [String]
+		QueryOptions = "" -- Sharepoint GetListAndView QueryOptions [String]
+		MaxRows = 999999 -- Sharepoint GetListAndView QueryOptions [Int32]
+END SPDATA_CSV
+---[LIST_TYPE_CSV]---
+BEGIN LIST_TYPE_CSV
+	---Begin Main Query---
+	Using CSV with
+	SELECT
+		ListName,DomainOwner,CRMType,PullOwner
+	FROM
+		${CRM_LISTS}
+END LIST_TYPE_CSV
+---[OUTPUT1_CSV]---
+BEGIN OUTPUT1_CSV
+	---Begin Main Query---
+	SELECT
+		'%{LIST}' As ListName,
+		EXTRACT_TOKEN('%{LIST}',0,'_') As CRMTableName,
+		STRCAT(STRCAT(STRCAT('${FILEFILTER_INTERNAL}','Lists/'),'%{LIST}'),'/AllItems.aspx') as CRMLink,
+		EXTRACT_TOKEN('%{LIST}',1,'_') As Site,
+		TO_TIMESTAMP(TimeStamp, 'yyyy-MM-dd HH:mm:ss:ll') As DateTime,
+		Title,
+		ChangeSummary,
+		[Created By],
+		[Modified By],
+		TransactionSuccess,
+		SUB( SYSTEM_TIMESTAMP(), DateTime)  as DIff,
+		TO_STRING(SUB( SYSTEM_TIMESTAMP(), DateTime ) , 'dd'),
+		TO_LOCALTIME( SUB( SYSTEM_TIMESTAMP(), TIMESTAMP( '07', 'dd' ) ) ) as DateMinus7,
+		TO_LOCALTIME( SUB( SYSTEM_TIMESTAMP(), TIMESTAMP( '02', 'dd' ) ) ) as DateMinus2
+	FROM
+		%{SPDATA_CSV}
+	WHERE
+		ApplyTimeRangeFilter(DateTime, '${TIMEFILTER}')
+	ORDER BY
+		DateTime
+END OUTPUT1_CSV
+---[OUTPUT2_CSV]---
+BEGIN OUTPUT2_CSV
+	UseMethod Join with -- **Do an outer join for two tables based on a matching column**
+		InputFile1 = "%{OUTPUT1_CSV}" -- Input CSV File #1 containing table data [String]
+		InputFile2 = "%{LIST_TYPE_CSV}" -- Input CSV File #2 containing table data [String]
+		JoinColumn = "ListName" -- Column name(s) on which to join the two tables (more than one column can be supplied by using comma as a separator) [String]
+		IgnoreDuplicate = true -- Flag to ignore duplicate items in the JoinColumn [Boolean]
+		IgnoreCase = false -- Flag to ignore case in the JoinColumn [Boolean]
+		OnlyShowNonMatchingRows = false -- Flag to only show non-matching orphan rows [Boolean]
+		IncludeNonMatchingRows = false -- Flag to also include non-matching orphan rows (but with blank entries) [Boolean]
+		MustIncludeOutputColumns = "" -- Name of columns (comma-separated) that must be included in output even if the join does not materialize [String]
+		OrderBy = "" -- Name of column(s) to sort the resulting table by [String]
+END OUTPUT2_CSV
+---Begin Main Query---
+SELECT
+	*,'Failure' as TransType
+FROM
+	%{OUTPUT2_CSV}
+
+]]></QuerySQL>
+</QueryConfig>
