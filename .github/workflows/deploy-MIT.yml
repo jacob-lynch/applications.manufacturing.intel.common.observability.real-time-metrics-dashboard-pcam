@@ -24,8 +24,10 @@ env:
   log_file: '\d$\Logs\GitHub\GitHubAppLog.txt'
   Application: "RTM Dashboard PCAM"
   AppShortName: "RTM_PCAM"
-  REMOTE_USER: ${{ secrets[format('{0}_PCAM_USER', github.event.inputs.deployTo)] }}
-  REMOTE_PASS: ${{ secrets[format('{0}_PCAM_PSWD', github.event.inputs.deployTo)] }}  
+  REMOTE_USER: ${{ secrets.REMOTE_USER }}
+  REMOTE_PASS: ${{ secrets.REMOTE_PASS }}
+  #REMOTE_USER: ${{ secrets[format('{0}_PCAM_USER', github.event.inputs.deployTo)] }}
+  #REMOTE_PASS: ${{ secrets[format('{0}_PCAM_PSWD', github.event.inputs.deployTo)] }}  
   username: ${{ secrets[format('{0}_PCAM_USER', github.event.inputs.deployTo)] }}
   password: ${{ secrets[format('{0}_PCAM_PSWD', github.event.inputs.deployTo)] }}
   
