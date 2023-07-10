@@ -9,12 +9,12 @@ releaseName='RTM.Dashboard.PCAM'
 RF3STG = @{
     #----- primary jobs Dashboard node (file staging, overwrites, audit will happen on this node)
     JOBS_NODE="rf3sap216n3.rf3stg.mfgint.intel.com"
-    JOBS_PATH="\S$\Dashboard\Jobs"
+    JOBS_PATH="\t$\Dashboard\Jobs"
     #----- jobs Audit node (usually same as JOBS_NODE) - if you are moving from a different node this path will be used only for comparison
     JOBS_AUDIT_NODE="rf3sap216n3.rf3stg.mfgint.intel.com"
-    JOBS_AUDIT_PATH="\S$\Dashboard\Jobs"
+    JOBS_AUDIT_PATH="\t$\Dashboard\Jobs"
     #----- jobs Backup node (copy of the primary job node) - if you don't have a backup node please place "none"
-    JOBS_NODE_BACKUP="rf3svap616n1.rf3stg.mfgint.intel.com" 
+    JOBS_NODE_BACKUP="rf3svap616n19.rf3stg.mfgint.intel.com" 
     JOBS_BACKUP_PATH="\D$\Dashboard\Jobs"
     #----- primary web Dashboard node 
     WEB_NODE="rf3sap216n3.rf3stg.mfgint.intel.com"
@@ -41,10 +41,10 @@ RF3STG = @{
 F32INT = @{
     #----- primary jobs Dashboard node (file staging, overwrites, audit will happen on this node)
     JOBS_NODE="f32iap216n4.f32int.mfgint.intel.com"
-    JOBS_PATH="\U$\Dashboard\Jobs"
+    JOBS_PATH="\T$\Dashboard\Jobs"
     #----- jobs Audit node (usually same as JOBS_NODE) - if you are moving from a different node this path will be used only for comparison
     JOBS_AUDIT_NODE="f32iap216n4.f32int.mfgint.intel.com"
-    JOBS_AUDIT_PATH="\S$\Dashboard\Jobs"
+    JOBS_AUDIT_PATH="\T$\Dashboard\Jobs"
     #----- jobs Backup node (copy of the primary job node) - if you don't have a backup node please place "none"
     JOBS_NODE_BACKUP="f32ivap616n1.f32int.mfgint.intel.com" 
     JOBS_BACKUP_PATH="\D$\Dashboard\Jobs"
@@ -72,15 +72,13 @@ F32INT = @{
 }
 F28PROD = @{
     #----- primary jobs Dashboard node (file staging, overwrites, audit will happen on this node)
-    JOBS_NODE="f28pvap616n23.f28prod.mfg.intel.com" 
-    JOBS_PATH="\D$\Dashboard\Jobs"
-    #JOBS_PATH="\S$\Dashboard\Jobs"
+    JOBS_NODE="f28pap216n13.f28prod.mfg.intel.com" 
+    JOBS_PATH="\T$\Dashboard\Jobs"
     #----- jobs Audit node (usually same as JOBS_NODE) - if you are moving from a different node this path will be used only for comparison
-    JOBS_AUDIT_NODE="f28pvap616n23.f28prod.mfg.intel.com" 
-    JOBS_AUDIT_PATH="\D$\Dashboard\Jobs"
+    JOBS_AUDIT_NODE="f28pap213n13.f28prod.mfg.intel.com" 
+    JOBS_AUDIT_PATH="\T$\Dashboard\Jobs"
     #----- jobs Backup node (copy of the primary job node) - if you don't have a backup node please place "none"
-    JOBS_NODE_BACKUP="f28pvap616n1.f28prod.mfg.intel.com" 
-    #JOBS_NODE_BACKUP="f28pap216n12.f28prod.mfg.intel.com" 
+    JOBS_NODE_BACKUP="f28pvap616n19.f28prod.mfg.intel.com" 
     JOBS_BACKUP_PATH="\D$\Dashboard\Jobs"
     #----- primary web Dashboard node 
     WEB_NODE="f28pap216n11.f28prod.mfg.intel.com"
