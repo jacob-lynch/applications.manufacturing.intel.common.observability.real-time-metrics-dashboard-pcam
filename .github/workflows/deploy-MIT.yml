@@ -24,7 +24,12 @@ env:
   log_file: '\d$\Logs\GitHub\GitHubAppLog.txt'
   Application: "RTM Dashboard PCAM"
   AppShortName: "RTM_PCAM"
-
+  REMOTE_USER: ${{ secrets[format('{0}_PCAM_USER', github.event.inputs.deployTo)] }}
+  REMOTE_PASS: ${{ secrets[format('{0}_PCAM_PSWD', github.event.inputs.deployTo)] }}  
+  username: ${{ secrets[format('{0}_PCAM_USER', github.event.inputs.deployTo)] }}
+  password: ${{ secrets[format('{0}_PCAM_PSWD', github.event.inputs.deployTo)] }}
+  
+  
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 
 jobs:
@@ -80,69 +85,6 @@ jobs:
           token: ${{ secrets.MIT_TOKEN }}
           path: Shared
         
-      - name: If rf3stg
-        if: ${{github.event.inputs.deployTo == 'rf3stg'}}
-        run: |
-          echo 'username=${{ secrets.RF3STG_PCAM_USER }}' >> $env:GITHUB_ENV
-          echo 'password=${{ secrets.RF3STG_PCAM_PSWD }}' >> $env:GITHUB_ENV
-          echo 'REMOTE_USER=${{ secrets.RF3STG_PCAM_USER }}' >> $env:GITHUB_ENV
-          echo 'REMOTE_PASS=${{ secrets.RF3STG_PCAM_PSWD }}' >> $env:GITHUB_ENV
-      
-      - name: If rf3prod
-        if: ${{github.event.inputs.deployTo == 'rf3prod'}}
-        run: |
-          echo 'username=${{ secrets.RF3PROD_PCAM_USER }}' >> $env:GITHUB_ENV
-          echo 'password=${{ secrets.RF3PROD_PCAM_PSWD }}' >> $env:GITHUB_ENV
-          echo 'REMOTE_USER=${{ secrets.RF3PROD_PCAM_USER }}' >> $env:GITHUB_ENV
-          echo 'REMOTE_PASS=${{ secrets.RF3PROD_PCAM_PSWD }}' >> $env:GITHUB_ENV
-          
-      - name: If f32int
-        if: ${{github.event.inputs.deployTo == 'f32int'}}
-        run: |
-          echo 'username=${{ secrets.F32INT_PCAM_USER }}' >> $env:GITHUB_ENV
-          echo 'password=${{ secrets.F32INT_PCAM_PSWD }}' >> $env:GITHUB_ENV
-          echo 'REMOTE_USER=${{ secrets.F32INT_PCAM_USER }}' >> $env:GITHUB_ENV
-          echo 'REMOTE_PASS=${{ secrets.F32INT_PCAM_PSWD }}' >> $env:GITHUB_ENV
-      
-      - name: If f28prod
-        if: ${{github.event.inputs.deployTo == 'f28prod'}}
-        run: |
-          echo 'username=${{ secrets.F28PROD_PCAM_USER }}' >> $env:GITHUB_ENV
-          echo 'password=${{ secrets.F28PROD_PCAM_PSWD }}' >> $env:GITHUB_ENV
-          echo 'REMOTE_USER=${{ secrets.F28PROD_PCAM_USER }}' >> $env:GITHUB_ENV
-          echo 'REMOTE_PASS=${{ secrets.F28PROD_PCAM_PSWD }}' >> $env:GITHUB_ENV
-    
-      - name: If f24prod
-        if: ${{github.event.inputs.deployTo == 'f24prod'}}
-        run: |
-          echo 'username=${{ secrets.F24PROD_PCAM_USER }}' >> $env:GITHUB_ENV
-          echo 'password=${{ secrets.F24PROD_PCAM_PSWD }}' >> $env:GITHUB_ENV
-          echo 'REMOTE_USER=${{ secrets.F24PROD_PCAM_USER }}' >> $env:GITHUB_ENV
-          echo 'REMOTE_PASS=${{ secrets.F24PROD_PCAM_PSWD }}' >> $env:GITHUB_ENV
-          
-      - name: If f32prod
-        if: ${{github.event.inputs.deployTo == 'f32prod'}}
-        run: |
-          echo 'username=${{ secrets.F32PROD_PCAM_USER }}' >> $env:GITHUB_ENV
-          echo 'password=${{ secrets.F32PROD_PCAM_PSWD }}' >> $env:GITHUB_ENV
-          echo 'REMOTE_USER=${{ secrets.F32PROD_PCAM_USER }}' >> $env:GITHUB_ENV
-          echo 'REMOTE_PASS=${{ secrets.F32PROD_PCAM_PSWD }}' >> $env:GITHUB_ENV
-      
-      - name: If f21prod
-        if: ${{github.event.inputs.deployTo == 'f21prod'}}
-        run: |
-          echo 'username=${{ secrets.F21PROD_PCAM_USER }}' >> $env:GITHUB_ENV
-          echo 'password=${{ secrets.F21PROD_PCAM_PSWD }}' >> $env:GITHUB_ENV
-          echo 'REMOTE_USER=${{ secrets.F21PROD_PCAM_USER }}' >> $env:GITHUB_ENV
-          echo 'REMOTE_PASS=${{ secrets.F21PROD_PCAM_PSWD }}' >> $env:GITHUB_ENV
-          
-      - name: If f68prod
-        if: ${{github.event.inputs.deployTo == 'f68prod'}}
-        run: |
-          echo 'username=${{ secrets.F68PROD_PCAM_USER }}' >> $env:GITHUB_ENV
-          echo 'password=${{ secrets.F68PROD_PCAM_PSWD }}' >> $env:GITHUB_ENV
-          echo 'REMOTE_USER=${{ secrets.F68PROD_PCAM_USER }}' >> $env:GITHUB_ENV
-          echo 'REMOTE_PASS=${{ secrets.F68PROD_PCAM_PSWD }}' >> $env:GITHUB_ENV
           
       # Run pre-validate
       - name: Run pre-validate
@@ -183,70 +125,7 @@ jobs:
           token: ${{ secrets.MIT_TOKEN }}
           path: Shared
         
-      - name: If rf3stg
-        if: ${{github.event.inputs.deployTo == 'rf3stg'}}
-        run: |
-          echo 'username=${{ secrets.RF3STG_PCAM_USER }}' >> $env:GITHUB_ENV
-          echo 'password=${{ secrets.RF3STG_PCAM_PSWD }}' >> $env:GITHUB_ENV
-          echo 'REMOTE_USER=${{ secrets.RF3STG_PCAM_USER }}' >> $env:GITHUB_ENV
-          echo 'REMOTE_PASS=${{ secrets.RF3STG_PCAM_PSWD }}' >> $env:GITHUB_ENV
-      
-      - name: If rf3prod
-        if: ${{github.event.inputs.deployTo == 'rf3prod'}}
-        run: |
-          echo 'username=${{ secrets.RF3PROD_PCAM_USER }}' >> $env:GITHUB_ENV
-          echo 'password=${{ secrets.RF3PROD_PCAM_PSWD }}' >> $env:GITHUB_ENV
-          echo 'REMOTE_USER=${{ secrets.RF3PROD_PCAM_USER }}' >> $env:GITHUB_ENV
-          echo 'REMOTE_PASS=${{ secrets.RF3PROD_PCAM_PSWD }}' >> $env:GITHUB_ENV
-          
-      - name: If f32int
-        if: ${{github.event.inputs.deployTo == 'f32int'}}
-        run: |
-          echo 'username=${{ secrets.F32INT_PCAM_USER }}' >> $env:GITHUB_ENV
-          echo 'password=${{ secrets.F32INT_PCAM_PSWD }}' >> $env:GITHUB_ENV
-          echo 'REMOTE_USER=${{ secrets.F32INT_PCAM_USER }}' >> $env:GITHUB_ENV
-          echo 'REMOTE_PASS=${{ secrets.F32INT_PCAM_PSWD }}' >> $env:GITHUB_ENV
-      
-      - name: If f28prod
-        if: ${{github.event.inputs.deployTo == 'f28prod'}}
-        run: |
-          echo 'username=${{ secrets.F28PROD_PCAM_USER }}' >> $env:GITHUB_ENV
-          echo 'password=${{ secrets.F28PROD_PCAM_PSWD }}' >> $env:GITHUB_ENV
-          echo 'REMOTE_USER=${{ secrets.F28PROD_PCAM_USER }}' >> $env:GITHUB_ENV
-          echo 'REMOTE_PASS=${{ secrets.F28PROD_PCAM_PSWD }}' >> $env:GITHUB_ENV
-    
-      - name: If f24prod
-        if: ${{github.event.inputs.deployTo == 'f24prod'}}
-        run: |
-          echo 'username=${{ secrets.F24PROD_PCAM_USER }}' >> $env:GITHUB_ENV
-          echo 'password=${{ secrets.F24PROD_PCAM_PSWD }}' >> $env:GITHUB_ENV
-          echo 'REMOTE_USER=${{ secrets.F24PROD_PCAM_USER }}' >> $env:GITHUB_ENV
-          echo 'REMOTE_PASS=${{ secrets.F24PROD_PCAM_PSWD }}' >> $env:GITHUB_ENV
-          
-      - name: If f32prod
-        if: ${{github.event.inputs.deployTo == 'f32prod'}}
-        run: |
-          echo 'username=${{ secrets.F32PROD_PCAM_USER }}' >> $env:GITHUB_ENV
-          echo 'password=${{ secrets.F32PROD_PCAM_PSWD }}' >> $env:GITHUB_ENV
-          echo 'REMOTE_USER=${{ secrets.F32PROD_PCAM_USER }}' >> $env:GITHUB_ENV
-          echo 'REMOTE_PASS=${{ secrets.F32PROD_PCAM_PSWD }}' >> $env:GITHUB_ENV
-      
-      - name: If f21prod
-        if: ${{github.event.inputs.deployTo == 'f21prod'}}
-        run: |
-          echo 'username=${{ secrets.F21PROD_PCAM_USER }}' >> $env:GITHUB_ENV
-          echo 'password=${{ secrets.F21PROD_PCAM_PSWD }}' >> $env:GITHUB_ENV
-          echo 'REMOTE_USER=${{ secrets.F21PROD_PCAM_USER }}' >> $env:GITHUB_ENV
-          echo 'REMOTE_PASS=${{ secrets.F21PROD_PCAM_PSWD }}' >> $env:GITHUB_ENV
-          
-      - name: If f68prod
-        if: ${{github.event.inputs.deployTo == 'f68prod'}}
-        run: |
-          echo 'username=${{ secrets.F68PROD_PCAM_USER }}' >> $env:GITHUB_ENV
-          echo 'password=${{ secrets.F68PROD_PCAM_PSWD }}' >> $env:GITHUB_ENV
-          echo 'REMOTE_USER=${{ secrets.F68PROD_PCAM_USER }}' >> $env:GITHUB_ENV
-          echo 'REMOTE_PASS=${{ secrets.F68PROD_PCAM_PSWD }}' >> $env:GITHUB_ENV
-          
+
       # Run Stage Files
       - name: Run Stage Files
         run: |
@@ -285,69 +164,6 @@ jobs:
           token: ${{ secrets.MIT_TOKEN }}
           path: Shared
         
-      - name: If rf3stg
-        if: ${{github.event.inputs.deployTo == 'rf3stg'}}
-        run: |
-          echo 'username=${{ secrets.RF3STG_PCAM_USER }}' >> $env:GITHUB_ENV
-          echo 'password=${{ secrets.RF3STG_PCAM_PSWD }}' >> $env:GITHUB_ENV
-          echo 'REMOTE_USER=${{ secrets.RF3STG_PCAM_USER }}' >> $env:GITHUB_ENV
-          echo 'REMOTE_PASS=${{ secrets.RF3STG_PCAM_PSWD }}' >> $env:GITHUB_ENV
-      
-      - name: If rf3prod
-        if: ${{github.event.inputs.deployTo == 'rf3prod'}}
-        run: |
-          echo 'username=${{ secrets.RF3PROD_PCAM_USER }}' >> $env:GITHUB_ENV
-          echo 'password=${{ secrets.RF3PROD_PCAM_PSWD }}' >> $env:GITHUB_ENV
-          echo 'REMOTE_USER=${{ secrets.RF3PROD_PCAM_USER }}' >> $env:GITHUB_ENV
-          echo 'REMOTE_PASS=${{ secrets.RF3PROD_PCAM_PSWD }}' >> $env:GITHUB_ENV
-          
-      - name: If f32int
-        if: ${{github.event.inputs.deployTo == 'f32int'}}
-        run: |
-          echo 'username=${{ secrets.F32INT_PCAM_USER }}' >> $env:GITHUB_ENV
-          echo 'password=${{ secrets.F32INT_PCAM_PSWD }}' >> $env:GITHUB_ENV
-          echo 'REMOTE_USER=${{ secrets.F32INT_PCAM_USER }}' >> $env:GITHUB_ENV
-          echo 'REMOTE_PASS=${{ secrets.F32INT_PCAM_PSWD }}' >> $env:GITHUB_ENV
-      
-      - name: If f28prod
-        if: ${{github.event.inputs.deployTo == 'f28prod'}}
-        run: |
-          echo 'username=${{ secrets.F28PROD_PCAM_USER }}' >> $env:GITHUB_ENV
-          echo 'password=${{ secrets.F28PROD_PCAM_PSWD }}' >> $env:GITHUB_ENV
-          echo 'REMOTE_USER=${{ secrets.F28PROD_PCAM_USER }}' >> $env:GITHUB_ENV
-          echo 'REMOTE_PASS=${{ secrets.F28PROD_PCAM_PSWD }}' >> $env:GITHUB_ENV
-    
-      - name: If f24prod
-        if: ${{github.event.inputs.deployTo == 'f24prod'}}
-        run: |
-          echo 'username=${{ secrets.F24PROD_PCAM_USER }}' >> $env:GITHUB_ENV
-          echo 'password=${{ secrets.F24PROD_PCAM_PSWD }}' >> $env:GITHUB_ENV
-          echo 'REMOTE_USER=${{ secrets.F24PROD_PCAM_USER }}' >> $env:GITHUB_ENV
-          echo 'REMOTE_PASS=${{ secrets.F24PROD_PCAM_PSWD }}' >> $env:GITHUB_ENV
-          
-      - name: If f32prod
-        if: ${{github.event.inputs.deployTo == 'f32prod'}}
-        run: |
-          echo 'username=${{ secrets.F32PROD_PCAM_USER }}' >> $env:GITHUB_ENV
-          echo 'password=${{ secrets.F32PROD_PCAM_PSWD }}' >> $env:GITHUB_ENV
-          echo 'REMOTE_USER=${{ secrets.F32PROD_PCAM_USER }}' >> $env:GITHUB_ENV
-          echo 'REMOTE_PASS=${{ secrets.F32PROD_PCAM_PSWD }}' >> $env:GITHUB_ENV
-      
-      - name: If f21prod
-        if: ${{github.event.inputs.deployTo == 'f21prod'}}
-        run: |
-          echo 'username=${{ secrets.F21PROD_PCAM_USER }}' >> $env:GITHUB_ENV
-          echo 'password=${{ secrets.F21PROD_PCAM_PSWD }}' >> $env:GITHUB_ENV
-          echo 'REMOTE_USER=${{ secrets.F21PROD_PCAM_USER }}' >> $env:GITHUB_ENV
-          echo 'REMOTE_PASS=${{ secrets.F21PROD_PCAM_PSWD }}' >> $env:GITHUB_ENV
-          
-      - name: If f68prod
-        if: ${{github.event.inputs.deployTo == 'f68prod'}}
-        run: |
-          echo 'username=${{ secrets.F68PROD_PCAM_USER }}' >> $env:GITHUB_ENV
-          echo 'password=${{ secrets.F68PROD_PCAM_PSWD }}' >> $env:GITHUB_ENV
-          echo 'REMOTE_USER=${{ secrets.F68PROD_PCAM_USER }}' >> $env:GITHUB_ENV
-          echo 'REMOTE_PASS=${{ secrets.F68PROD_PCAM_PSWD }}' >> $env:GITHUB_ENV
              
       # Run Backup
       - name: Run Backup
@@ -385,72 +201,8 @@ jobs:
           repository: intel-manufacturing/applications.manufacturing.intel.common.ps-commonscripts
           token: ${{ secrets.MIT_TOKEN }}
           path: Shared
-          
-      - name: If rf3stg
-        if: ${{github.event.inputs.deployTo == 'rf3stg'}}
-        run: |
-          echo 'username=${{ secrets.RF3STG_PCAM_USER }}' >> $env:GITHUB_ENV
-          echo 'password=${{ secrets.RF3STG_PCAM_PSWD }}' >> $env:GITHUB_ENV
-          echo 'REMOTE_USER=${{ secrets.RF3STG_PCAM_USER }}' >> $env:GITHUB_ENV
-          echo 'REMOTE_PASS=${{ secrets.RF3STG_PCAM_PSWD }}' >> $env:GITHUB_ENV
-      
-      - name: If rf3prod
-        if: ${{github.event.inputs.deployTo == 'rf3prod'}}
-        run: |
-          echo 'username=${{ secrets.RF3PROD_PCAM_USER }}' >> $env:GITHUB_ENV
-          echo 'password=${{ secrets.RF3PROD_PCAM_PSWD }}' >> $env:GITHUB_ENV
-          echo 'REMOTE_USER=${{ secrets.RF3PROD_PCAM_USER }}' >> $env:GITHUB_ENV
-          echo 'REMOTE_PASS=${{ secrets.RF3PROD_PCAM_PSWD }}' >> $env:GITHUB_ENV
-          
-      - name: If f32int
-        if: ${{github.event.inputs.deployTo == 'f32int'}}
-        run: |
-          echo 'username=${{ secrets.F32INT_PCAM_USER }}' >> $env:GITHUB_ENV
-          echo 'password=${{ secrets.F32INT_PCAM_PSWD }}' >> $env:GITHUB_ENV
-          echo 'REMOTE_USER=${{ secrets.F32INT_PCAM_USER }}' >> $env:GITHUB_ENV
-          echo 'REMOTE_PASS=${{ secrets.F32INT_PCAM_PSWD }}' >> $env:GITHUB_ENV
-      
-      - name: If f28prod
-        if: ${{github.event.inputs.deployTo == 'f28prod'}}
-        run: |
-          echo 'username=${{ secrets.F28PROD_PCAM_USER }}' >> $env:GITHUB_ENV
-          echo 'password=${{ secrets.F28PROD_PCAM_PSWD }}' >> $env:GITHUB_ENV
-          echo 'REMOTE_USER=${{ secrets.F28PROD_PCAM_USER }}' >> $env:GITHUB_ENV
-          echo 'REMOTE_PASS=${{ secrets.F28PROD_PCAM_PSWD }}' >> $env:GITHUB_ENV
-    
-      - name: If f24prod
-        if: ${{github.event.inputs.deployTo == 'f24prod'}}
-        run: |
-          echo 'username=${{ secrets.F24PROD_PCAM_USER }}' >> $env:GITHUB_ENV
-          echo 'password=${{ secrets.F24PROD_PCAM_PSWD }}' >> $env:GITHUB_ENV
-          echo 'REMOTE_USER=${{ secrets.F24PROD_PCAM_USER }}' >> $env:GITHUB_ENV
-          echo 'REMOTE_PASS=${{ secrets.F24PROD_PCAM_PSWD }}' >> $env:GITHUB_ENV
-          
-      - name: If f32prod
-        if: ${{github.event.inputs.deployTo == 'f32prod'}}
-        run: |
-          echo 'username=${{ secrets.F32PROD_PCAM_USER }}' >> $env:GITHUB_ENV
-          echo 'password=${{ secrets.F32PROD_PCAM_PSWD }}' >> $env:GITHUB_ENV
-          echo 'REMOTE_USER=${{ secrets.F32PROD_PCAM_USER }}' >> $env:GITHUB_ENV
-          echo 'REMOTE_PASS=${{ secrets.F32PROD_PCAM_PSWD }}' >> $env:GITHUB_ENV
-      
-      - name: If f21prod
-        if: ${{github.event.inputs.deployTo == 'f21prod'}}
-        run: |
-          echo 'username=${{ secrets.F21PROD_PCAM_USER }}' >> $env:GITHUB_ENV
-          echo 'password=${{ secrets.F21PROD_PCAM_PSWD }}' >> $env:GITHUB_ENV
-          echo 'REMOTE_USER=${{ secrets.F21PROD_PCAM_USER }}' >> $env:GITHUB_ENV
-          echo 'REMOTE_PASS=${{ secrets.F21PROD_PCAM_PSWD }}' >> $env:GITHUB_ENV
-          
-      - name: If f68prod
-        if: ${{github.event.inputs.deployTo == 'f68prod'}}
-        run: |
-          echo 'username=${{ secrets.F68PROD_PCAM_USER }}' >> $env:GITHUB_ENV
-          echo 'password=${{ secrets.F68PROD_PCAM_PSWD }}' >> $env:GITHUB_ENV
-          echo 'REMOTE_USER=${{ secrets.F68PROD_PCAM_USER }}' >> $env:GITHUB_ENV
-          echo 'REMOTE_PASS=${{ secrets.F68PROD_PCAM_PSWD }}' >> $env:GITHUB_ENV
-            
-      # Run Audit
+        
+       # Run Audit
       - name: Run Audit
         run: |
           echo "Begin Audit"     
@@ -492,69 +244,6 @@ jobs:
           token: ${{ secrets.MIT_TOKEN }}
           path: Shared
         
-      - name: If rf3stg
-        if: ${{github.event.inputs.deployTo == 'rf3stg'}}
-        run: |
-          echo 'username=${{ secrets.RF3STG_PCAM_USER }}' >> $env:GITHUB_ENV
-          echo 'password=${{ secrets.RF3STG_PCAM_PSWD }}' >> $env:GITHUB_ENV
-          echo 'REMOTE_USER=${{ secrets.RF3STG_PCAM_USER }}' >> $env:GITHUB_ENV
-          echo 'REMOTE_PASS=${{ secrets.RF3STG_PCAM_PSWD }}' >> $env:GITHUB_ENV
-      
-      - name: If rf3prod
-        if: ${{github.event.inputs.deployTo == 'rf3prod'}}
-        run: |
-          echo 'username=${{ secrets.RF3PROD_PCAM_USER }}' >> $env:GITHUB_ENV
-          echo 'password=${{ secrets.RF3PROD_PCAM_PSWD }}' >> $env:GITHUB_ENV
-          echo 'REMOTE_USER=${{ secrets.RF3PROD_PCAM_USER }}' >> $env:GITHUB_ENV
-          echo 'REMOTE_PASS=${{ secrets.RF3PROD_PCAM_PSWD }}' >> $env:GITHUB_ENV
-          
-      - name: If f32int
-        if: ${{github.event.inputs.deployTo == 'f32int'}}
-        run: |
-          echo 'username=${{ secrets.F32INT_PCAM_USER }}' >> $env:GITHUB_ENV
-          echo 'password=${{ secrets.F32INT_PCAM_PSWD }}' >> $env:GITHUB_ENV
-          echo 'REMOTE_USER=${{ secrets.F32INT_PCAM_USER }}' >> $env:GITHUB_ENV
-          echo 'REMOTE_PASS=${{ secrets.F32INT_PCAM_PSWD }}' >> $env:GITHUB_ENV
-      
-      - name: If f28prod
-        if: ${{github.event.inputs.deployTo == 'f28prod'}}
-        run: |
-          echo 'username=${{ secrets.F28PROD_PCAM_USER }}' >> $env:GITHUB_ENV
-          echo 'password=${{ secrets.F28PROD_PCAM_PSWD }}' >> $env:GITHUB_ENV
-          echo 'REMOTE_USER=${{ secrets.F28PROD_PCAM_USER }}' >> $env:GITHUB_ENV
-          echo 'REMOTE_PASS=${{ secrets.F28PROD_PCAM_PSWD }}' >> $env:GITHUB_ENV
-    
-      - name: If f24prod
-        if: ${{github.event.inputs.deployTo == 'f24prod'}}
-        run: |
-          echo 'username=${{ secrets.F24PROD_PCAM_USER }}' >> $env:GITHUB_ENV
-          echo 'password=${{ secrets.F24PROD_PCAM_PSWD }}' >> $env:GITHUB_ENV
-          echo 'REMOTE_USER=${{ secrets.F24PROD_PCAM_USER }}' >> $env:GITHUB_ENV
-          echo 'REMOTE_PASS=${{ secrets.F24PROD_PCAM_PSWD }}' >> $env:GITHUB_ENV
-          
-      - name: If f32prod
-        if: ${{github.event.inputs.deployTo == 'f32prod'}}
-        run: |
-          echo 'username=${{ secrets.F32PROD_PCAM_USER }}' >> $env:GITHUB_ENV
-          echo 'password=${{ secrets.F32PROD_PCAM_PSWD }}' >> $env:GITHUB_ENV
-          echo 'REMOTE_USER=${{ secrets.F32PROD_PCAM_USER }}' >> $env:GITHUB_ENV
-          echo 'REMOTE_PASS=${{ secrets.F32PROD_PCAM_PSWD }}' >> $env:GITHUB_ENV
-      
-      - name: If f21prod
-        if: ${{github.event.inputs.deployTo == 'f21prod'}}
-        run: |
-          echo 'username=${{ secrets.F21PROD_PCAM_USER }}' >> $env:GITHUB_ENV
-          echo 'password=${{ secrets.F21PROD_PCAM_PSWD }}' >> $env:GITHUB_ENV
-          echo 'REMOTE_USER=${{ secrets.F21PROD_PCAM_USER }}' >> $env:GITHUB_ENV
-          echo 'REMOTE_PASS=${{ secrets.F21PROD_PCAM_PSWD }}' >> $env:GITHUB_ENV
-          
-      - name: If f68prod
-        if: ${{github.event.inputs.deployTo == 'f68prod'}}
-        run: |
-          echo 'username=${{ secrets.F68PROD_PCAM_USER }}' >> $env:GITHUB_ENV
-          echo 'password=${{ secrets.F68PROD_PCAM_PSWD }}' >> $env:GITHUB_ENV
-          echo 'REMOTE_USER=${{ secrets.F68PROD_PCAM_USER }}' >> $env:GITHUB_ENV
-          echo 'REMOTE_PASS=${{ secrets.F68PROD_PCAM_PSWD }}' >> $env:GITHUB_ENV
           
       # Run Backup
       - name: Run Deploy
@@ -595,69 +284,6 @@ jobs:
           token: ${{ secrets.MIT_TOKEN }}
           path: Shared
           
-      - name: If rf3stg
-        if: ${{github.event.inputs.deployTo == 'rf3stg'}}
-        run: |
-          echo 'username=${{ secrets.RF3STG_PCAM_USER }}' >> $env:GITHUB_ENV
-          echo 'password=${{ secrets.RF3STG_PCAM_PSWD }}' >> $env:GITHUB_ENV
-          echo 'REMOTE_USER=${{ secrets.RF3STG_PCAM_USER }}' >> $env:GITHUB_ENV
-          echo 'REMOTE_PASS=${{ secrets.RF3STG_PCAM_PSWD }}' >> $env:GITHUB_ENV
-      
-      - name: If rf3prod
-        if: ${{github.event.inputs.deployTo == 'rf3prod'}}
-        run: |
-          echo 'username=${{ secrets.RF3PROD_PCAM_USER }}' >> $env:GITHUB_ENV
-          echo 'password=${{ secrets.RF3PROD_PCAM_PSWD }}' >> $env:GITHUB_ENV
-          echo 'REMOTE_USER=${{ secrets.RF3PROD_PCAM_USER }}' >> $env:GITHUB_ENV
-          echo 'REMOTE_PASS=${{ secrets.RF3PROD_PCAM_PSWD }}' >> $env:GITHUB_ENV
-          
-      - name: If f32int
-        if: ${{github.event.inputs.deployTo == 'f32int'}}
-        run: |
-          echo 'username=${{ secrets.F32INT_PCAM_USER }}' >> $env:GITHUB_ENV
-          echo 'password=${{ secrets.F32INT_PCAM_PSWD }}' >> $env:GITHUB_ENV
-          echo 'REMOTE_USER=${{ secrets.F32INT_PCAM_USER }}' >> $env:GITHUB_ENV
-          echo 'REMOTE_PASS=${{ secrets.F32INT_PCAM_PSWD }}' >> $env:GITHUB_ENV
-      
-      - name: If f28prod
-        if: ${{github.event.inputs.deployTo == 'f28prod'}}
-        run: |
-          echo 'username=${{ secrets.F28PROD_PCAM_USER }}' >> $env:GITHUB_ENV
-          echo 'password=${{ secrets.F28PROD_PCAM_PSWD }}' >> $env:GITHUB_ENV
-          echo 'REMOTE_USER=${{ secrets.F28PROD_PCAM_USER }}' >> $env:GITHUB_ENV
-          echo 'REMOTE_PASS=${{ secrets.F28PROD_PCAM_PSWD }}' >> $env:GITHUB_ENV
-    
-      - name: If f24prod
-        if: ${{github.event.inputs.deployTo == 'f24prod'}}
-        run: |
-          echo 'username=${{ secrets.F24PROD_PCAM_USER }}' >> $env:GITHUB_ENV
-          echo 'password=${{ secrets.F24PROD_PCAM_PSWD }}' >> $env:GITHUB_ENV
-          echo 'REMOTE_USER=${{ secrets.F24PROD_PCAM_USER }}' >> $env:GITHUB_ENV
-          echo 'REMOTE_PASS=${{ secrets.F24PROD_PCAM_PSWD }}' >> $env:GITHUB_ENV
-          
-      - name: If f32prod
-        if: ${{github.event.inputs.deployTo == 'f32prod'}}
-        run: |
-          echo 'username=${{ secrets.F32PROD_PCAM_USER }}' >> $env:GITHUB_ENV
-          echo 'password=${{ secrets.F32PROD_PCAM_PSWD }}' >> $env:GITHUB_ENV
-          echo 'REMOTE_USER=${{ secrets.F32PROD_PCAM_USER }}' >> $env:GITHUB_ENV
-          echo 'REMOTE_PASS=${{ secrets.F32PROD_PCAM_PSWD }}' >> $env:GITHUB_ENV
-      
-      - name: If f21prod
-        if: ${{github.event.inputs.deployTo == 'f21prod'}}
-        run: |
-          echo 'username=${{ secrets.F21PROD_PCAM_USER }}' >> $env:GITHUB_ENV
-          echo 'password=${{ secrets.F21PROD_PCAM_PSWD }}' >> $env:GITHUB_ENV
-          echo 'REMOTE_USER=${{ secrets.F21PROD_PCAM_USER }}' >> $env:GITHUB_ENV
-          echo 'REMOTE_PASS=${{ secrets.F21PROD_PCAM_PSWD }}' >> $env:GITHUB_ENV
-          
-      - name: If f68prod
-        if: ${{github.event.inputs.deployTo == 'f68prod'}}
-        run: |
-          echo 'username=${{ secrets.F68PROD_PCAM_USER }}' >> $env:GITHUB_ENV
-          echo 'password=${{ secrets.F68PROD_PCAM_PSWD }}' >> $env:GITHUB_ENV
-          echo 'REMOTE_USER=${{ secrets.F68PROD_PCAM_USER }}' >> $env:GITHUB_ENV
-          echo 'REMOTE_PASS=${{ secrets.F68PROD_PCAM_PSWD }}' >> $env:GITHUB_ENV
           
       # Run Post-Validate
       - name: Run Post-Validate
@@ -743,69 +369,6 @@ jobs:
           token: ${{ secrets.MIT_TOKEN }}
           path: Shared
           
-      - name: If rf3stg
-        if: ${{github.event.inputs.deployTo == 'rf3stg'}}
-        run: |
-          echo 'username=${{ secrets.RF3STG_PCAM_USER }}' >> $env:GITHUB_ENV
-          echo 'password=${{ secrets.RF3STG_PCAM_PSWD }}' >> $env:GITHUB_ENV
-          echo 'REMOTE_USER=${{ secrets.RF3STG_PCAM_USER }}' >> $env:GITHUB_ENV
-          echo 'REMOTE_PASS=${{ secrets.RF3STG_PCAM_PSWD }}' >> $env:GITHUB_ENV
-      
-      - name: If rf3prod
-        if: ${{github.event.inputs.deployTo == 'rf3prod'}}
-        run: |
-          echo 'username=${{ secrets.RF3PROD_PCAM_USER }}' >> $env:GITHUB_ENV
-          echo 'password=${{ secrets.RF3PROD_PCAM_PSWD }}' >> $env:GITHUB_ENV
-          echo 'REMOTE_USER=${{ secrets.RF3PROD_PCAM_USER }}' >> $env:GITHUB_ENV
-          echo 'REMOTE_PASS=${{ secrets.RF3PROD_PCAM_PSWD }}' >> $env:GITHUB_ENV
-          
-      - name: If f32int
-        if: ${{github.event.inputs.deployTo == 'f32int'}}
-        run: |
-          echo 'username=${{ secrets.F32INT_PCAM_USER }}' >> $env:GITHUB_ENV
-          echo 'password=${{ secrets.F32INT_PCAM_PSWD }}' >> $env:GITHUB_ENV
-          echo 'REMOTE_USER=${{ secrets.F32INT_PCAM_USER }}' >> $env:GITHUB_ENV
-          echo 'REMOTE_PASS=${{ secrets.F32INT_PCAM_PSWD }}' >> $env:GITHUB_ENV
-      
-      - name: If f28prod
-        if: ${{github.event.inputs.deployTo == 'f28prod'}}
-        run: |
-          echo 'username=${{ secrets.F28PROD_PCAM_USER }}' >> $env:GITHUB_ENV
-          echo 'password=${{ secrets.F28PROD_PCAM_PSWD }}' >> $env:GITHUB_ENV
-          echo 'REMOTE_USER=${{ secrets.F28PROD_PCAM_USER }}' >> $env:GITHUB_ENV
-          echo 'REMOTE_PASS=${{ secrets.F28PROD_PCAM_PSWD }}' >> $env:GITHUB_ENV
-    
-      - name: If f24prod
-        if: ${{github.event.inputs.deployTo == 'f24prod'}}
-        run: |
-          echo 'username=${{ secrets.F24PROD_PCAM_USER }}' >> $env:GITHUB_ENV
-          echo 'password=${{ secrets.F24PROD_PCAM_PSWD }}' >> $env:GITHUB_ENV
-          echo 'REMOTE_USER=${{ secrets.F24PROD_PCAM_USER }}' >> $env:GITHUB_ENV
-          echo 'REMOTE_PASS=${{ secrets.F24PROD_PCAM_PSWD }}' >> $env:GITHUB_ENV
-          
-      - name: If f32prod
-        if: ${{github.event.inputs.deployTo == 'f32prod'}}
-        run: |
-          echo 'username=${{ secrets.F32PROD_PCAM_USER }}' >> $env:GITHUB_ENV
-          echo 'password=${{ secrets.F32PROD_PCAM_PSWD }}' >> $env:GITHUB_ENV
-          echo 'REMOTE_USER=${{ secrets.F32PROD_PCAM_USER }}' >> $env:GITHUB_ENV
-          echo 'REMOTE_PASS=${{ secrets.F32PROD_PCAM_PSWD }}' >> $env:GITHUB_ENV
-      
-      - name: If f21prod
-        if: ${{github.event.inputs.deployTo == 'f21prod'}}
-        run: |
-          echo 'username=${{ secrets.F21PROD_PCAM_USER }}' >> $env:GITHUB_ENV
-          echo 'password=${{ secrets.F21PROD_PCAM_PSWD }}' >> $env:GITHUB_ENV
-          echo 'REMOTE_USER=${{ secrets.F21PROD_PCAM_USER }}' >> $env:GITHUB_ENV
-          echo 'REMOTE_PASS=${{ secrets.F21PROD_PCAM_PSWD }}' >> $env:GITHUB_ENV
-          
-      - name: If f68prod
-        if: ${{github.event.inputs.deployTo == 'f68prod'}}
-        run: |
-          echo 'username=${{ secrets.F68PROD_PCAM_USER }}' >> $env:GITHUB_ENV
-          echo 'password=${{ secrets.F68PROD_PCAM_PSWD }}' >> $env:GITHUB_ENV
-          echo 'REMOTE_USER=${{ secrets.F68PROD_PCAM_USER }}' >> $env:GITHUB_ENV
-          echo 'REMOTE_PASS=${{ secrets.F68PROD_PCAM_PSWD }}' >> $env:GITHUB_ENV
           
       # Run Rollback
       - name: Run Rollback
