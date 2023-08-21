@@ -1,3 +1,0 @@
-Version: 5.0.0
-LTD Owner: DeJong, Kimberly J
-Domain: PCAM
