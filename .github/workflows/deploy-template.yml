@@ -28,11 +28,11 @@ on:
         description: token
 
 env:
-  version: "3.0.0"
-  PreReqVersion: "2.0.0"
+  version: "5.0.0"
+  PreReqVersion: "4.0.0"
   log_file: '\d$\Logs\GitHub\GitHubAppLog.txt'
-  Application: "RTM Dashboard ALD"
-  AppShortName: "RTM_ALD"
+  Application: "RTM Dashboard PCAM"
+  AppShortName: "RTM_PCAM"
   GITHUB_CONTEXT: ${{ toJson(github) }}
   
   
@@ -203,7 +203,7 @@ jobs:
     
     # will wait until user approves
     environment:
-      name: approve_RTM_ALD_deploy
+      name: approve_RTM_PCAM_deploy
       
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
@@ -281,7 +281,7 @@ jobs:
    
     # will wait until user approves
     environment:
-      name: approve_RTM_ALD_notify
+      name: approve_RTM_PCAM_notify
       
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
@@ -321,7 +321,7 @@ jobs:
 
     # will wait until user approves
     environment:
-      name: approve_RTM_ALD_rollback
+      name: approve_RTM_PCAM_rollback
 
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
