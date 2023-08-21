@@ -35,7 +35,7 @@ jobs:
   RunWorkflow:
     name: Step
     needs: CheckEnvironment
-    uses: intel-manufacturing/applications.manufacturing.intel.common.observability.real-time-metrics-dashboard-ald/.github/workflows/deploy-template.yml@main
+    uses: intel-manufacturing/applications.manufacturing.intel.common.observability.real-time-metrics-dashboard-pcam/.github/workflows/deploy-template.yml@main
     with:
       environment: 'f32int' 
       runner: "['self-hosted', 'Windows', 'deploy','${{ github.event.inputs.deployTo }}']"
