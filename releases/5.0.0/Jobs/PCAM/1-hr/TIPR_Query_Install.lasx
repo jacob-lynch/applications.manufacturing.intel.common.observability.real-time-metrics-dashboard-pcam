@@ -1,0 +1,710 @@
+<QueryConfig AutoExecuteQueryOnLoad="false" PreventSQLBeautification="false">
+  <ChangeLog>Changed by AMR\mfg_mjschlec on 6/15/2023 4:02:56 PM from RF3PVAP616N19.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.9.30612.1700</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_kjdejong on 4/14/2022 3:52:37 PM from RF3PVAP416N19.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.9.10330.1516</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_kjdejong on 4/14/2022 3:52:00 PM from RF3PVAP416N19.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.9.10330.1516</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_kjdejong on 5/5/2021 11:11:24 AM from RF3PVAP416N19.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.9.10330.1516</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_kjdejong on 1/31/2019 9:42:08 AM from RF3PVAP416N19.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.9.70713.2318</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_kjdejong on 1/31/2019 9:41:50 AM from RF3PVAP416N19.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.9.70713.2318</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_mjschlec on 12/19/2018 4:13:53 PM from RF3PVAP416N19.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.9.70713.2318</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_kjdejong on 9/10/2018 4:35:08 PM from RF3PVAP416N19.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.9.70713.2318</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_kjdejong on 9/10/2018 2:57:20 PM from RF3PVAP416N19.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.9.70713.2318</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_kjdejong on 9/10/2018 2:44:14 PM from RF3PVAP416N19.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.9.70713.2318</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_kjdejong on 9/10/2018 2:41:43 PM from RF3PVAP416N19.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.9.70713.2318</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_kjdejong on 9/10/2018 2:37:47 PM from RF3PVAP416N19.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.9.70713.2318</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_kjdejong on 9/10/2018 2:37:33 PM from RF3PVAP416N19.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.9.70713.2318</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_kjdejong on 9/10/2018 2:25:50 PM from RF3PVAP416N19.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.9.70713.2318</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_kjdejong on 9/6/2018 3:39:46 PM from RF3PVAP416N19.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.9.70713.2318</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_kjdejong on 9/6/2018 3:39:27 PM from RF3PVAP416N19.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.9.70713.2318</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_kjdejong on 9/6/2018 3:38:48 PM from RF3PVAP416N19.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.9.70713.2318</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_kjdejong on 9/6/2018 3:28:07 PM from RF3PVAP416N19.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.9.70713.2318</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_kjdejong on 9/6/2018 2:34:04 PM from RF3PVAP416N19.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.9.70713.2318</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_kjdejong on 9/6/2018 2:26:19 PM from RF3PVAP416N19.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.9.70713.2318</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_kjdejong on 9/6/2018 2:10:58 PM from RF3PVAP416N19.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.9.70713.2318</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_kjdejong on 9/6/2018 2:09:58 PM from RF3PVAP416N19.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.9.70713.2318</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 8/11/2016 3:58:25 PM from RF3PVAP416N19.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.9.60808.1615</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 8/11/2016 3:42:48 PM from RF3PVAP416N19.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.9.60808.1615</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 11/14/2014 1:49:15 PM from RF3PAP216N3.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.8.40713.1943</ChangeLog>
+  <UNIQECredentials UserId="uber" Site="rf3sap110-alias.rf3stg.mfgint.intel.com" DataSource="D1D_STAG_LogAnalyzer" SaveCredentials="true" UseUNIQECredentialsOnStartUp="false" QueryTimeOutInSeconds="-1">
+    <Password />
+    <Name />
+  </UNIQECredentials>
+  <QueryAttributes>
+    <OutputDateFormat>MM/dd/yyyy ww.w</OutputDateFormat>
+    <SuppressAllExceptions>true</SuppressAllExceptions>
+  </QueryAttributes>
+  <PostQuerySQL>select * from %{OUTPUT}</PostQuerySQL>
+  <TableLayoutConfig>
+    <BoundColumnList>Entity,AC,Building,Bay,CEID,Process,SL2 Finish,Globals,Platforms,AWIT,MES,Winclient,Tool,Tool IP Address,Barnum Resource,BarnumNumber,Status</BoundColumnList>
+  </TableLayoutConfig>
+  <RowHighlightingRules Enable="true" ColumnName="Globals" FilterRegex="" RowColorString="NamedColor:White" />
+  <RowHighlightingRules Enable="true" ColumnName="Platforms" FilterRegex="" RowColorString="NamedColor:White" />
+  <RowHighlightingRules Enable="true" ColumnName="AWIT" FilterRegex="" RowColorString="NamedColor:White" />
+  <RowHighlightingRules Enable="true" ColumnName="Pingable_WC" FilterRegex="Pingable" RowColorString="NamedColor:Lime" />
+  <RowHighlightingRules Enable="true" ColumnName="Pingable_WC" FilterRegex="" RowColorString="NamedColor:White" />
+  <TabOrder>C0</TabOrder>
+  <MainPivotConfig>
+    <ColumnX FieldName="" FieldType="" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <ColumnY FieldName="" FieldType="" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <ColumnData FieldName="COUNT OF" FieldType="String" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <CustomPalette />
+    <TableData />
+  </MainPivotConfig>
+  <AutoPivotConfig OutputDateFormat="yyyy ww.w hh tt" />
+  <MailConfig>
+    <PostProcessingSQL Enable="false">
+      <SQL />
+    </PostProcessingSQL>
+    <EmailCondition Enable="false" Operator="&gt;" ThresholdRowCount="0">
+      <SQLQuery />
+      <RunScriptBeforeEmailing>false</RunScriptBeforeEmailing>
+      <Script />
+    </EmailCondition>
+    <PostProcessingCondition Enable="false" Operator="&gt;=" ThresholdRowCount="0">
+      <SQLQuery />
+      <RunScriptBeforeEmailing>false</RunScriptBeforeEmailing>
+    </PostProcessingCondition>
+    <CopyCondition Enable="false" Operator="&gt;" ThresholdRowCount="0">
+      <SQLQuery />
+      <RunScriptBeforeEmailing>false</RunScriptBeforeEmailing>
+    </CopyCondition>
+    <SMTPServer>smtpauth.intel.com:587</SMTPServer>
+    <From>LogAnalyzer2@intel.com</From>
+    <ReplyTo>@{DASHBOARD_OWNER_ALERT_DIST}</ReplyTo>
+    <To />
+    <Subject>[${DOMAIN}] TIPR_Query_Install</Subject>
+    <Body />
+    <MailAttachments FileNamingFormat="${SETTINGS}" Excel="false" LAS="false" LAD="false" Exceptions="false" StatusLogs="false" PivotChart="false" ZipAttachments="false" DoNotSendAttachmentsWithEmail="false" IncludeQuerySettingsFileHeader="false" IncludeVariableDefinitionHeader="false" IncludeRowCountInSubject="false" />
+    <IncludeSQLQueryInBody>false</IncludeSQLQueryInBody>
+    <TableInBody Enable="false">
+      <SQL />
+    </TableInBody>
+    <CopyOutputToDirectory>true</CopyOutputToDirectory>
+    <OutputDirectory>@{DASHBOARD_WEB_SPOOL}\PCAM\Output</OutputDirectory>
+    <IncludeAutoPivotSummary>false</IncludeAutoPivotSummary>
+    <IncludeCustomPivotSummary>false</IncludeCustomPivotSummary>
+    <IgnoreExceptions>false</IgnoreExceptions>
+    <SuppressMail>false</SuppressMail>
+    <MailHighImportance>false</MailHighImportance>
+    <OnlyCopyOutputIfEmailConditionIsMet>false</OnlyCopyOutputIfEmailConditionIsMet>
+  </MailConfig>
+  <TableSchema><xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+  <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="Results" msdata:UseCurrentLocale="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Results">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Project" type="xs:string" minOccurs="0" />
+              <xs:element name="Entity" type="xs:string" minOccurs="0" />
+              <xs:element name="Life" type="xs:int" minOccurs="0" />
+              <xs:element name="CEID" type="xs:string" minOccurs="0" />
+              <xs:element name="Event_x0020_Sub_x0020_Type" type="xs:string" minOccurs="0" />
+              <xs:element name="Area" type="xs:string" minOccurs="0" />
+              <xs:element name="Building" type="xs:string" minOccurs="0" />
+              <xs:element name="Bay" type="xs:string" minOccurs="0" />
+              <xs:element name="Process" type="xs:string" minOccurs="0" />
+              <xs:element name="WSTie" type="xs:string" minOccurs="0" />
+              <xs:element name="AC" type="xs:string" minOccurs="0" />
+              <xs:element name="SL1_x0020_Finish" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="SL2Finish" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="FinishDate" type="xs:string" minOccurs="0" />
+              <xs:element name="CapCode" type="xs:string" minOccurs="0" />
+              <xs:element name="Platforms" type="xs:string" minOccurs="0" />
+              <xs:element name="Globals" type="xs:string" minOccurs="0" />
+              <xs:element name="AWIT" type="xs:string" minOccurs="0" />
+              <xs:element name="WinclientOnline" type="xs:string" minOccurs="0" />
+              <xs:element name="Tool_x0020_IP_x0020_Address" type="xs:string" minOccurs="0" />
+              <xs:element name="ToolOnline" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
+</TableSchema>
+  <TableData />
+  <LastRunAbsoluteDateFilter />
+  <CustomQueryMethodScripts>using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.IO;
+using System.Text;
+using System.Text.RegularExpressions;
+using Intel.LogAnalyzer;
+using Intel.LogAnalyzer.Common;
+using Intel.LogAnalyzer.Configuration;
+using Intel.LogAnalyzer.Utility;
+
+namespace Intel.LogAnalyzer.BuiltInQueryMethods_Temp
+{
+    public class JoinWithLikeQueryMethod : CustomQueryMethodBase
+    {
+        /// &lt;summary&gt;
+        /// Test harness
+        /// &lt;/summary&gt;
+        [STAThread]
+        private static void Main()
+        {
+            new JoinWithLikeQueryMethod
+                {
+                    InputFile1 = @"D:\Temp\Join\First.csv",
+                    InputFile2 = @"D:\Temp\Join\Barnum.csv",
+                    JoinColumn = "Entity",
+                    IgnoreDuplicate = true,
+                    IgnoreCase = false,
+                    OnlyShowNonMatchingRows = false,
+                    IncludeNonMatchingRows = true
+                }.Test();
+        }
+        
+        // Output type is QueryResult
+        public override CustomQueryOutputType OutputType { get { return CustomQueryOutputType.QueryResult; } }
+
+        public override string Description
+        {
+            get { return "Do an outer join for two tables based on a matching column"; }
+        }
+
+        [Description("Input CSV File #1 containing table data")]
+        public string InputFile1 { get; set; }
+
+        [Description("Input CSV File #2 containing table data")]
+        public string InputFile2 { get; set; }
+
+        [Description("Column name on which to join the two tables")]
+        public string JoinColumn { get; set; }
+
+        [Description("Flag to ignore duplicate items in the JoinColumn")]
+        [DefaultValue(false)]
+        public bool IgnoreDuplicate { get; set; }
+
+        [Description("Flag to ignore case in the JoinColumn")]
+        [DefaultValue(false)]
+        public bool IgnoreCase { get; set; }
+
+        [Description("Flag to only show non-matching orphan rows")]
+        [DefaultValue(false)]
+        public bool OnlyShowNonMatchingRows { get; set; }
+
+        [Description("Flag to also include non-matching orphan rows (but with blank entries)")]
+        [DefaultValue(false)]
+        public bool IncludeNonMatchingRows { get; set; }
+
+        [Description("Name of columns (comma-separated) that must be included in output even if the join does not materialize")]
+        [DefaultValue("")]
+        public string MustIncludeOutputColumns { get; set; }
+
+        public override QueryResult GetQueryResult()
+        {
+            return new QueryResult(string.Empty, JoinCSV());
+        }
+
+        private DataTable JoinCSV()
+        {
+            List&lt;string&gt; joinedHeader = new List&lt;string&gt;();
+            List&lt;List&lt;string&gt;&gt; outputLines = new List&lt;List&lt;string&gt;&gt;();
+            Dictionary&lt;string, List&lt;string&gt;&gt; joinDictionary = new Dictionary&lt;string, List&lt;string&gt;&gt;();
+            int numFieldsToAppend;
+
+            if (!UtilityMethods.DoesFileExistAndHaveContent(InputFile1))
+            {
+                return new DataTable();
+            }
+
+            if (!UtilityMethods.DoesFileExistAndHaveContent(InputFile2))
+            {
+                numFieldsToAppend = 0;
+            }
+            else
+            {
+                using (CsvReader csv = new CsvReader(InputFile2))
+                {
+                    int fieldCount = csv.FieldCount;
+                    List&lt;string&gt; headers = new List&lt;string&gt;(csv.GetFieldHeaders());
+
+                    int keyIndex = headers.FindIndex(item =&gt; item.ToUpper() == JoinColumn.ToUpper());
+
+                    if (keyIndex &lt; 0)
+                    {
+                        throw new Exception("Key column [" + JoinColumn + "] not found in the second CSV file.");
+                    }
+
+                    numFieldsToAppend = fieldCount - 1;
+                    for (int i = 0; i &lt; fieldCount; i++)
+                    {
+                        if (i != keyIndex)
+                        {
+                            joinedHeader.Add(headers[i]);
+                        }
+                    }
+
+                    int count = 0;
+                    while (csv.ReadNextRecord())
+                    {
+                        List&lt;string&gt; fields = new List&lt;string&gt;();
+
+                        for (int i = 0; i &lt; fieldCount; i++)
+                        {
+                            if (i != keyIndex)
+                            {
+                                fields.Add(csv[i]);
+                            }
+                        }
+
+                        ++count;
+                        string key;
+                        if (IgnoreCase)
+                        {
+                            key = csv[keyIndex].ToLower();
+                        }
+                        else
+                        {
+                            key = csv[keyIndex];
+                        }
+                        if (joinDictionary.ContainsKey(key))
+                        {
+                            if (IgnoreDuplicate)
+                            {
+                                // do nothing....ignore this
+                            }
+                            else
+                            {
+                                string oldValue = joinDictionary[key].ConvertListToCSV();
+                                string newValue = fields.ConvertListToCSV();
+
+                                throw new DuplicateNameException("Duplicate key ["
+                                    + key + "] found in row " + count + " of first CSV "
+                                    + Environment.NewLine
+                                    + Environment.NewLine + "Old value = " + oldValue
+                                    + Environment.NewLine + "New value = " + newValue);
+                            }
+                        }
+                        else
+                        {
+                            joinDictionary.Add(key, fields);
+                        }
+                    }
+                }
+            }
+
+            using (CsvReader csv = new CsvReader(InputFile1))
+            {
+                csv.SupportsMultiline = false;
+                csv.ParseNonStandardQuotedField = true;
+
+                int fieldCount = csv.FieldCount;
+                List&lt;string&gt; headers = new List&lt;string&gt;(csv.GetFieldHeaders());
+
+                int keyIndex = headers.FindIndex(item =&gt; item.ToUpper() == JoinColumn.ToUpper());
+
+                if (keyIndex &lt; 0)
+                {
+                    throw new Exception("Key column [" + JoinColumn + "] not found in the first CSV file.");
+                }
+
+                if (!OnlyShowNonMatchingRows)
+                {
+                    joinedHeader.InsertRange(0, headers);
+                }
+                else
+                {
+                    joinedHeader.Clear();
+                    joinedHeader.AddRange(headers);
+                }
+
+                var keyList = new List&lt;string&gt;(joinDictionary.Keys);
+
+                while (csv.ReadNextRecord())
+                {
+                    string key;
+                    if (IgnoreCase)
+                    {
+                        key = csv[keyIndex].ToLower();
+                    }
+                    else
+                    {
+                        key = csv[keyIndex];
+                    }
+                    if (!OnlyShowNonMatchingRows)
+                    {
+                        List&lt;string&gt; fields = new List&lt;string&gt;();
+                        for (int i = 0; i &lt; fieldCount; i++)
+                        {
+                            fields.Add(csv[i]);
+                        }
+
+                        string keyFound;
+                        if (joinDictionary.ContainsKey(key))
+                        {
+                            fields.AddRange(joinDictionary[key]);
+                            outputLines.Add(fields);
+                        }
+                        else if ((keyFound = keyList.Find(k =&gt; k.Contains(key))) != null)
+                        {
+                            fields.AddRange(joinDictionary[keyFound]);
+                            outputLines.Add(fields);
+                        }
+                        else if (IncludeNonMatchingRows)
+                        {
+                            for (int i = 0; i &lt; numFieldsToAppend; i++)
+                            {
+                                fields.Add(string.Empty);
+                            }
+                            outputLines.Add(fields);
+                        }
+                    }
+                    else
+                    {
+                        if (!(joinDictionary.ContainsKey(key)))
+                        {
+                            List&lt;string&gt; fields = new List&lt;string&gt;();
+                            for (int i = 0; i &lt; fieldCount; i++)
+                            {
+                                fields.Add(csv[i]);
+                            }
+                            outputLines.Add(fields);
+                        }
+                    }
+                }
+            }
+
+            DataTable outTable = UtilityMethods.ConvertToDataTable(joinedHeader, outputLines);
+
+            if (MustIncludeOutputColumns.Trim().Length &gt; 0) // add any must-have columns to output
+            {
+                List&lt;string&gt; colsToAdd = new List&lt;string&gt;(MustIncludeOutputColumns.Split(','))
+                    .ConvertAll(item =&gt; item.Trim())
+                    .FindAll(item =&gt; item.Length &gt; 0);
+                foreach (string colToAdd in colsToAdd)
+                {
+                    if (outTable.GetColumnIndex(colToAdd) &lt; 0) // column does not exist
+                    {
+                        outTable.Columns.Add(colToAdd, typeof(string));
+                    }
+                }
+            }
+
+            return outTable;
+        }
+
+    }
+}
+</CustomQueryMethodScripts>
+  <PivotGroupingSettings Enable="true" PivotColumn="Building">
+    <SortyByColumn>Count</SortyByColumn>
+  </PivotGroupingSettings>
+  <QuerySQL><![CDATA[
+--[FileName:"D:\Dashboard\Jobs\PCAM\1-hr\TIPR_Query_Install.lasx"]------
+----------<VARIABLES>------------
+var NODEFILTER = ""
+var DOMAIN = "RF3PROD"
+var TIMEFILTER = ""
+var SQL_NODE = "@{TIPRSQLNODE}"
+var CATALOG = "DSI"
+var TIPRID = "@{TIPRID}"
+var TIPRPW = "@{TIPRPW}"
+var FAB1 = "@{Fab1}"
+var FAB1PRE = "@{Fab1PRE}"
+var FAB2PRE = "@{Fab2PRE}"
+var POST = "@{POST}"
+var TOOLPOST = "@{TOOLPOST}"
+var STATUS_FILTER = "Install, Install-Conv-Rename, Install-Conv"
+var BUILDING_EXCLUDE_FILTER = "@{TIPR_BUILDING_EXCLUDE}"
+---[OLEDB_CSV]---
+BEGIN OLEDB_CSV
+	---Begin Main Query---
+	Using SQLDB with
+		HostName = "${SQL_NODE}" -- SQL host name to connect to
+		Database = "${CATALOG}" -- Database/catalog name
+		UserID = "${TIPRID}" -- User ID to use for connection (leave blank or specify / for IWA)
+		Password = "${TIPRPW}" -- Password corresponding to the UserID
+	SELECT DISTINCT p.Project,
+		c.Entity,
+		p.AC,
+		p.Life,
+		p.FA AS Area,
+		p.[CE Code],
+		p.[Event Sub Type],
+		p.Process,
+		p.WSTie,
+		p.Building,
+		p.Bay,
+		p.[SL1 Finish],
+		p.[SL2 Finish] AS SL2Finish,
+		c.FinishDate,
+		c.CapCode
+	FROM dbo.EntityCapabilities AS c
+	INNER JOIN dbo.Primavera AS p ON (
+			c.Entity = p.[Entity Code]
+			AND c.Life = p.Life
+			)
+		AND IsInList(CapCode, 'PCAM')
+	WHERE p.[SL2 Finish] < getdate() + 45
+		AND c.FinishDate IS NULL
+		AND (
+			p.[Event Sub Type] LIKE '%Install%'
+			OR p.[Event Sub Type] LIKE '%Rename%'
+			)
+	ORDER BY p.[SL2 Finish]
+END OLEDB_CSV
+---[IQOLEDB_CSV]---
+BEGIN IQOLEDB_CSV
+	---Begin Main Query---
+	Using SQLDB with
+		HostName = "${SQL_NODE}" -- SQL host name to connect to
+		Database = "${CATALOG}" -- Database/catalog name
+		UserID = "${TIPRID}" -- User ID to use for connection (leave blank or specify / for IWA)
+		Password = "${TIPRPW}" -- Password corresponding to the UserID
+	SELECT
+	  Entity,
+	  Life,
+	  InstallDate
+	FROM
+	  dbo.entitywstncomponents
+	WHERE
+	  quantity > 0
+	ORDER  BY
+	  Entity 
+END IQOLEDB_CSV
+---[ITOLEDB_CSV]---
+BEGIN ITOLEDB_CSV
+	---Begin Main Query---
+	Using SQLDB with
+		HostName = "${SQL_NODE}" -- SQL host name to connect to
+		Database = "${CATALOG}" -- Database/catalog name
+		UserID = "${TIPRID}" -- User ID to use for connection (leave blank or specify / for IWA)
+		Password = "${TIPRPW}" -- Password corresponding to the UserID
+	SELECT
+	  Entity,
+	  Life,
+	  CapCode,
+	  FinishDate
+	FROM
+	  dbo.EntityCapabilities
+	WHERE
+	  Isinlist(CapCode, 'Net,WC')
+	ORDER  BY
+	  Entity 
+END ITOLEDB_CSV
+---[IQCAP_CSV]---
+BEGIN IQCAP_CSV
+	---Begin Main Query---
+	Using CSV with
+	SELECT
+		Entity, Life, Globals
+	USING
+		case InstallDate when NULL then '' else 'X' end as Globals
+	FROM
+		%{IQOLEDB_CSV}
+END IQCAP_CSV
+---[ITCAP_CSV]---
+BEGIN ITCAP_CSV
+	---Begin Main Query---
+	Using CSV with
+	SELECT
+		Entity, Life, Platforms
+	USING
+		case FinishDate when NULL then '' else 'X' end as Platforms
+	FROM
+		%{ITOLEDB_CSV}
+	WHERE
+		CapCode = 'Net'
+END ITCAP_CSV
+---[WCCAP_CSV]---
+BEGIN WCCAP_CSV
+	---Begin Main Query---
+	Using CSV with
+	SELECT
+		Entity, Life, AWIT
+	USING
+		case FinishDate when NULL then '' else 'X' end as AWIT
+	FROM
+		%{ITOLEDB_CSV}
+	WHERE
+		CapCode = 'WC'
+END WCCAP_CSV
+---[GETNODES]---
+BEGIN GETNODES
+	---Begin Main Query---
+	Using CSV with
+	SELECT
+		NodeName
+	USING
+		case Building
+		when 'D1D' then 'R3P'
+		when 'D1X' then 'R4P'
+		when 'D1XM2' then 'R5P'
+		when 'D1XM3' then 'R6P'
+		when 'MSB' then 'R5P'
+		when 'RA4' then 'RA4'
+		when 'RB1' then 'R3P'
+		else 'R2P'
+		end as Prefix,
+		strcat(Prefix, strcat (Entity, '${POST}')) as NodeName
+	FROM
+		%{OLEDB_CSV}
+END GETNODES
+---[GETTOOLNODES]---
+BEGIN GETTOOLNODES
+	---Begin Main Query---
+	Using CSV with
+	SELECT
+		NodeName
+	USING
+		case Building
+		when 'D1D' then 'R3P'
+		when 'D1X' then 'R4P'
+		when 'D1XM2' then 'R5P'
+		when 'D1XM3' then 'R6P'
+		when 'MSB' then 'R5P'
+		when 'RA4' then 'RA4'
+		when 'RB1' then 'R3P'
+		else 'R2P'
+		end as Prefix,
+		strcat(Prefix, strcat (Entity, '${TOOLPOST}')) as NodeName
+	FROM
+		%{OLEDB_CSV}
+END GETTOOLNODES
+---[PING_CSV]---
+BEGIN PING_CSV
+	UseMethod GetNodeList with -- **Get the list of nodes matching specified domain and filter**
+		Domain = "" -- Domain to search for nodes in (can be comma-separated-list) [String]
+		NodeFilter = "" -- Pattern to look for nodes (comma-separated-list) [String]
+		ExcludeFilter = "" -- Pattern to exclude from the list of nodes (comma-separated-list) [String]
+		NodeList = "%{GETNODES}" -- Comma separated list of nodes [String]
+		NodeListFile = "" -- Location of file containing list of nodes (one node on each line) [String]
+		OnlyIncludePingableNodes = true -- Only include nodes that can be pinged [Boolean]
+		PingTimeOutInMilliseconds = 2000 -- Ping time-out in milliseconds [Int32]
+		OnlyIncludeNonPingableNodes = false -- Only include nodes that cannot be pinged [Boolean]
+		IncludeIPAddress = true -- Include IPAddress column in output [Boolean]
+		OnlyIncludeDNSComputerNameMatchedNodes = true -- DNS hostname from IP must match computername from registry [Boolean]
+END PING_CSV
+---[PINGTOOL_CSV]---
+BEGIN PINGTOOL_CSV
+	UseMethod GetNodeList with -- **Get the list of nodes matching specified domain and filter**
+		Domain = "" -- Domain to search for nodes in (can be comma-separated-list) [String]
+		NodeFilter = "" -- Pattern to look for nodes (comma-separated-list) [String]
+		ExcludeFilter = "" -- Pattern to exclude from the list of nodes (comma-separated-list) [String]
+		NodeList = "%{GETTOOLNODES}" -- Comma separated list of nodes [String]
+		NodeListFile = "" -- Location of file containing list of nodes (one node on each line) [String]
+		OnlyIncludePingableNodes = false -- Only include nodes that can be pinged [Boolean]
+		PingTimeOutInMilliseconds = 2000 -- Ping time-out in milliseconds [Int32]
+		OnlyIncludeNonPingableNodes = false -- Only include nodes that cannot be pinged [Boolean]
+		IncludeIPAddress = true -- Include IPAddress column in output [Boolean]
+END PINGTOOL_CSV
+---[JOIN_CSV]---
+BEGIN JOIN_CSV
+	UseMethod Join with -- **Do an outer join for two tables based on a matching column**
+		InputFile1 = "%{OLEDB_CSV}" -- Input CSV File #1 containing table data [String]
+		InputFile2 = "%{IQCAP_CSV}" -- Input CSV File #2 containing table data [String]
+		JoinColumn = "Entity,Life" -- Column name(s) on which to join the two tables (more than one column can be supplied by using comma as a separator) [String]
+		IgnoreDuplicate = true -- Flag to ignore duplicate items in the JoinColumn [Boolean]
+		IgnoreCase = false -- Flag to ignore case in the JoinColumn [Boolean]
+		OnlyShowNonMatchingRows = false -- Flag to only show non-matching orphan rows [Boolean]
+		IncludeNonMatchingRows = true -- Flag to also include non-matching orphan rows (but with blank entries) [Boolean]
+		MustIncludeOutputColumns = "" -- Name of columns (comma-separated) that must be included in output even if the join does not materialize [String]
+END JOIN_CSV
+---[JOIN2_CSV]---
+BEGIN JOIN2_CSV
+	UseMethod Join with -- **Do an outer join for two tables based on a matching column**
+		InputFile1 = "%{JOIN_CSV}" -- Input CSV File #1 containing table data [String]
+		InputFile2 = "%{ITCAP_CSV}" -- Input CSV File #2 containing table data [String]
+		JoinColumn = "Entity,Life" -- Column name(s) on which to join the two tables (more than one column can be supplied by using comma as a separator) [String]
+		IgnoreDuplicate = true -- Flag to ignore duplicate items in the JoinColumn [Boolean]
+		IgnoreCase = false -- Flag to ignore case in the JoinColumn [Boolean]
+		OnlyShowNonMatchingRows = false -- Flag to only show non-matching orphan rows [Boolean]
+		IncludeNonMatchingRows = true -- Flag to also include non-matching orphan rows (but with blank entries) [Boolean]
+		MustIncludeOutputColumns = "" -- Name of columns (comma-separated) that must be included in output even if the join does not materialize [String]
+END JOIN2_CSV
+---[JOIN3_CSV]---
+BEGIN JOIN3_CSV
+	UseMethod Join with -- **Do an outer join for two tables based on a matching column**
+		InputFile1 = "%{JOIN2_CSV}" -- Input CSV File #1 containing table data [String]
+		InputFile2 = "%{WCCAP_CSV}" -- Input CSV File #2 containing table data [String]
+		JoinColumn = "Entity,Life" -- Column name(s) on which to join the two tables (more than one column can be supplied by using comma as a separator) [String]
+		IgnoreDuplicate = true -- Flag to ignore duplicate items in the JoinColumn [Boolean]
+		IgnoreCase = false -- Flag to ignore case in the JoinColumn [Boolean]
+		OnlyShowNonMatchingRows = false -- Flag to only show non-matching orphan rows [Boolean]
+		IncludeNonMatchingRows = true -- Flag to also include non-matching orphan rows (but with blank entries) [Boolean]
+		MustIncludeOutputColumns = "" -- Name of columns (comma-separated) that must be included in output even if the join does not materialize [String]
+END JOIN3_CSV
+---[GETPING_CSV]---
+BEGIN GETPING_CSV
+	---Begin Main Query---
+	Using CSV with
+	SELECT
+		Entity, Pingable_WC
+	USING
+		case IPAddress when Nodename then '' else 'Pingable' end as Pingable_WC,
+		strrev(substr(strrev(substr(NodeName, 3)),1)) as Entity
+	FROM
+		%{PING_CSV}
+END GETPING_CSV
+---[GETTOOLPING_CSV]---
+BEGIN GETTOOLPING_CSV
+	---Begin Main Query---
+	Using CSV with
+	SELECT
+		Entity, Pingable_Tool, Tool_IPAddress
+	USING
+		case IPAddress when Nodename then '' else 'Pingable' end as Pingable_Tool,
+		case IPAddress when Nodename then '' else IPAddress end as Tool_IPAddress,
+		strrev(substr(strrev(substr(NodeName, 3)),1)) as Entity
+	FROM
+		%{PINGTool_CSV}
+END GETTOOLPING_CSV
+---[JOIN5_CSV]---
+BEGIN JOIN5_CSV
+	UseMethod Join with -- **Do an outer join for two tables based on a matching column**
+		InputFile1 = "%{JOIN3_CSV}" -- Input CSV File #1 containing table data [String]
+		InputFile2 = "%{GETPING_CSV}" -- Input CSV File #2 containing table data [String]
+		JoinColumn = "Entity" -- Column name(s) on which to join the two tables (more than one column can be supplied by using comma as a separator) [String]
+		IgnoreDuplicate = true -- Flag to ignore duplicate items in the JoinColumn [Boolean]
+		IgnoreCase = false -- Flag to ignore case in the JoinColumn [Boolean]
+		OnlyShowNonMatchingRows = false -- Flag to only show non-matching orphan rows [Boolean]
+		IncludeNonMatchingRows = true -- Flag to also include non-matching orphan rows (but with blank entries) [Boolean]
+		MustIncludeOutputColumns = "" -- Name of columns (comma-separated) that must be included in output even if the join does not materialize [String]
+END JOIN5_CSV
+---[JOIN6_CSV]---
+BEGIN JOIN6_CSV
+	UseMethod Join with -- **Do an outer join for two tables based on a matching column**
+		InputFile1 = "%{JOIN5_CSV}" -- Input CSV File #1 containing table data [String]
+		InputFile2 = "%{GETTOOLPING_CSV}" -- Input CSV File #2 containing table data [String]
+		JoinColumn = "Entity" -- Column name(s) on which to join the two tables (more than one column can be supplied by using comma as a separator) [String]
+		IgnoreDuplicate = true -- Flag to ignore duplicate items in the JoinColumn [Boolean]
+		IgnoreCase = false -- Flag to ignore case in the JoinColumn [Boolean]
+		OnlyShowNonMatchingRows = false -- Flag to only show non-matching orphan rows [Boolean]
+		IncludeNonMatchingRows = true -- Flag to also include non-matching orphan rows (but with blank entries) [Boolean]
+		MustIncludeOutputColumns = "" -- Name of columns (comma-separated) that must be included in output even if the join does not materialize [String]
+END JOIN6_CSV
+---Begin Main Query---
+Using CSV with
+SELECT
+	Project,
+	Entity,
+	Life,
+	[CE Code] as CEID,
+	[Event Sub Type],
+	Area,
+	Building,
+	Bay,
+	Process,
+	WSTie,
+	AC,
+	[SL1 Finish],
+	SL2Finish,
+	FinishDate,
+	CapCode,
+	Platforms,
+	Globals,
+	AWIT,
+	Pingable_WC as WinclientOnline,
+	Tool_IPAddress as [Tool IP Address],
+	Pingable_Tool as ToolOnline
+FROM
+	%{JOIN6_CSV}
+
+]]></QuerySQL>
+</QueryConfig>

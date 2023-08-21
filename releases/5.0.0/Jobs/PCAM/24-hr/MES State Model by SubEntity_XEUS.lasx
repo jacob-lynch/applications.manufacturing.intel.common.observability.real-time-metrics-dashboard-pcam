@@ -1,0 +1,832 @@
+<QueryConfig AutoExecuteQueryOnLoad="false" PreventSQLBeautification="false">
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 10/26/2016 2:48:50 PM from RF3PVAP416N19.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.9.60808.1615</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 10/26/2016 2:45:22 PM from RF3PVAP416N19.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.9.60808.1615</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 6/25/2015 10:11:54 AM from RF3PAP216N3.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.8.50323.2106</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 6/24/2015 10:37:07 AM from RF3PAP216N3.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.8.50323.2106</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 6/24/2015 10:35:59 AM from RF3PAP216N3.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.8.50323.2106</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 5/1/2013 4:46:36 PM from RF3PTS215.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.6.30430.2016</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 4/29/2013 3:33:04 PM from RF3PTS215.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.6.30427.2018</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 4/22/2013 9:14:11 AM from RF3PTS215.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.6.30421.2033</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 4/22/2013 9:13:23 AM from RF3PTS215.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.6.30421.2033</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 4/22/2013 9:11:03 AM from RF3PTS215.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.6.30421.2033</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 4/22/2013 8:46:23 AM from RF3PTS215.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.6.30421.2033</ChangeLog>
+  <ChangeLog>Changed by AMR\amodi on 2/3/2011 3:53:21 PM from AMODI-DEV1.LTDAUTO.INTEL.COM using LogAnalyzer2 v2.3.10203.1546</ChangeLog>
+  <ChangeLog>Changed by AMR\amodi on 9/3/2009 10:36:46 PM from AMODI-DEV1.LTDAUTO.INTEL.COM</ChangeLog>
+  <QueryAttributes>
+    <RowThresholdForPivotGrid>1000000</RowThresholdForPivotGrid>
+    <AlwaysReplaceDomainWithLocal>false</AlwaysReplaceDomainWithLocal>
+  </QueryAttributes>
+  <PostQuerySQL>select * from %{OUTPUT}</PostQuerySQL>
+  <TableLayoutConfig>
+    <BoundColumnList>MESEntity,StateModel,ToolType,CEID,FunctionalArea</BoundColumnList>
+    <AllColumns>MESEntity</AllColumns>
+    <AllColumns>StateModel</AllColumns>
+    <AllColumns>ToolType</AllColumns>
+    <AllColumns>CEID</AllColumns>
+    <AllColumns>FunctionalArea</AllColumns>
+  </TableLayoutConfig>
+  <RowHighlightingRules Enable="true" ColumnName="*" FilterRegex="Error" RowColorString="NamedColor:Red" />
+  <RowHighlightingRules Enable="true" ColumnName="*" FilterRegex="Warning" RowColorString="NamedColor:Yellow" />
+  <TabOrder>C0,G0,C1,G1,C2,G2,C3,G3,C4,G4,C5,G5,C6,G6,C7,G7,C8,G8,C9,G9,C10,G10,C11,G11</TabOrder>
+  <MainPivotConfig Enable="true">
+    <QuerySQL>SELECT
+	*
+FROM
+	%{output}
+WHERE
+	FunctionalArea = 'Diffusion'
+</QuerySQL>
+    <ColumnX FieldName="ToolType" FieldType="String" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <ColumnY FieldName="StateModel" FieldType="String" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <ColumnData FieldName="COUNT OF" FieldType="String" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <ChartType>StackedBar</ChartType>
+    <RotateXAxisLabels>false</RotateXAxisLabels>
+    <ShowColumnTotals>false</ShowColumnTotals>
+    <Name>MES State Models for Diffusion Sub-Entities</Name>
+    <ChartTitle>MES State Models for Diffusion Sub-Entities</ChartTitle>
+    <ColorPalette>Median</ColorPalette>
+    <ChartExportSize>800x400</ChartExportSize>
+    <ShowLegend>false</ShowLegend>
+    <CustomPalette />
+    <TableData />
+  </MainPivotConfig>
+  <MainPivotConfig Enable="true">
+    <QuerySQL>SELECT
+	*
+FROM
+	%{output}
+WHERE
+	FunctionalArea = 'Etch'
+</QuerySQL>
+    <ColumnX FieldName="ToolType" FieldType="String" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <ColumnY FieldName="StateModel" FieldType="String" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <ColumnData FieldName="COUNT OF" FieldType="String" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <ChartType>StackedBar</ChartType>
+    <RotateXAxisLabels>false</RotateXAxisLabels>
+    <ShowColumnTotals>false</ShowColumnTotals>
+    <Name>MES State Models for Dry Etch Sub-Entities</Name>
+    <ChartTitle>MES State Models for Dry Etch Sub-Entities</ChartTitle>
+    <ColorPalette>Median</ColorPalette>
+    <ChartExportSize>800x400</ChartExportSize>
+    <ShowLegend>false</ShowLegend>
+    <CustomPalette />
+    <TableData />
+  </MainPivotConfig>
+  <MainPivotConfig Enable="true">
+    <QuerySQL>SELECT
+	*
+FROM
+	%{output}
+WHERE
+	FunctionalArea = 'FabSupportGroup'
+</QuerySQL>
+    <ColumnX FieldName="ToolType" FieldType="String" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <ColumnY FieldName="StateModel" FieldType="String" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <ColumnData FieldName="COUNT OF" FieldType="String" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <ChartType>StackedBar</ChartType>
+    <RotateXAxisLabels>false</RotateXAxisLabels>
+    <ShowColumnTotals>false</ShowColumnTotals>
+    <Name>MES State Models for FSG Sub-Entities</Name>
+    <ChartTitle>MES State Models for FSG Sub-Entities</ChartTitle>
+    <ColorPalette>Median</ColorPalette>
+    <ChartExportSize>800x400</ChartExportSize>
+    <ShowLegend>false</ShowLegend>
+    <CustomPalette />
+    <TableData />
+  </MainPivotConfig>
+  <MainPivotConfig Enable="true">
+    <QuerySQL>SELECT
+	*
+FROM
+	%{output}
+WHERE
+	FunctionalArea = 'Implant'
+</QuerySQL>
+    <ColumnX FieldName="ToolType" FieldType="String" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <ColumnY FieldName="StateModel" FieldType="String" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <ColumnData FieldName="COUNT OF" FieldType="String" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <ChartType>StackedBar</ChartType>
+    <RotateXAxisLabels>false</RotateXAxisLabels>
+    <ShowColumnTotals>false</ShowColumnTotals>
+    <Name>MES State Models for Implant Sub-Entities</Name>
+    <ChartTitle>MES State Models for Implant Sub-Entities</ChartTitle>
+    <ColorPalette>Median</ColorPalette>
+    <ChartExportSize>800x400</ChartExportSize>
+    <ShowLegend>false</ShowLegend>
+    <CustomPalette />
+    <TableData />
+  </MainPivotConfig>
+  <MainPivotConfig Enable="true">
+    <QuerySQL>SELECT
+	*
+FROM
+	%{output}
+WHERE
+	FunctionalArea = 'Lithography'
+</QuerySQL>
+    <ColumnX FieldName="ToolType" FieldType="String" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <ColumnY FieldName="StateModel" FieldType="String" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <ColumnData FieldName="COUNT OF" FieldType="String" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <ChartType>StackedBar</ChartType>
+    <RotateXAxisLabels>false</RotateXAxisLabels>
+    <ShowColumnTotals>false</ShowColumnTotals>
+    <Name>MES State Models for Lithography Sub-Entities</Name>
+    <ChartTitle>MES State Models for Lithography Sub-Entities</ChartTitle>
+    <ColorPalette>Median</ColorPalette>
+    <ChartExportSize>800x400</ChartExportSize>
+    <ShowLegend>false</ShowLegend>
+    <CustomPalette />
+    <TableData />
+  </MainPivotConfig>
+  <MainPivotConfig Enable="true">
+    <QuerySQL>SELECT
+	*
+FROM
+	%{output}
+WHERE
+	FunctionalArea = 'Planar'
+</QuerySQL>
+    <ColumnX FieldName="ToolType" FieldType="String" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <ColumnY FieldName="StateModel" FieldType="String" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <ColumnData FieldName="COUNT OF" FieldType="String" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <ChartType>StackedBar</ChartType>
+    <RotateXAxisLabels>false</RotateXAxisLabels>
+    <ShowColumnTotals>false</ShowColumnTotals>
+    <Name>MES State Models for Planar Sub-Entities</Name>
+    <ChartTitle>MES State Models for Planar Sub-Entities</ChartTitle>
+    <ColorPalette>Median</ColorPalette>
+    <ChartExportSize>800x400</ChartExportSize>
+    <ShowLegend>false</ShowLegend>
+    <CustomPalette />
+    <TableData />
+  </MainPivotConfig>
+  <MainPivotConfig Enable="true">
+    <QuerySQL>SELECT
+	*
+FROM
+	%{output}
+WHERE
+	FunctionalArea = 'ThinFilms'
+</QuerySQL>
+    <ColumnX FieldName="ToolType" FieldType="String" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <ColumnY FieldName="StateModel" FieldType="String" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <ColumnData FieldName="COUNT OF" FieldType="String" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <ChartType>StackedBar</ChartType>
+    <RotateXAxisLabels>false</RotateXAxisLabels>
+    <ShowColumnTotals>false</ShowColumnTotals>
+    <Name>MES State Models for ThinFilms Sub-Entities</Name>
+    <ChartTitle>MES State Models for ThinFilms Sub-Entities</ChartTitle>
+    <ColorPalette>Median</ColorPalette>
+    <ChartExportSize>800x400</ChartExportSize>
+    <ShowLegend>false</ShowLegend>
+    <CustomPalette />
+    <TableData />
+  </MainPivotConfig>
+  <MainPivotConfig Enable="true">
+    <QuerySQL>SELECT
+	*
+FROM
+	%{output}
+WHERE
+	FunctionalArea = 'WetEtch'
+</QuerySQL>
+    <ColumnX FieldName="ToolType" FieldType="String" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <ColumnY FieldName="StateModel" FieldType="String" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <ColumnData FieldName="COUNT OF" FieldType="String" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <ChartType>StackedBar</ChartType>
+    <RotateXAxisLabels>false</RotateXAxisLabels>
+    <ShowColumnTotals>false</ShowColumnTotals>
+    <Name>MES State Models for Wet Etch Sub-Entities</Name>
+    <ChartTitle>MES State Models for Wet Etch Sub-Entities</ChartTitle>
+    <ColorPalette>Median</ColorPalette>
+    <ChartExportSize>800x400</ChartExportSize>
+    <ShowLegend>false</ShowLegend>
+    <CustomPalette />
+    <TableData />
+  </MainPivotConfig>
+  <MainPivotConfig Enable="true">
+    <QuerySQL>---Begin Main Query---
+SELECT
+	*
+FROM
+	%{output}
+WHERE
+	FunctionalArea = 'Sort'
+</QuerySQL>
+    <ColumnX FieldName="ToolType" FieldType="String" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <ColumnY FieldName="StateModel" FieldType="String" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <ColumnData FieldName="COUNT OF" FieldType="String" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <ChartType>StackedBar</ChartType>
+    <RotateXAxisLabels>false</RotateXAxisLabels>
+    <ShowColumnTotals>false</ShowColumnTotals>
+    <Name>MES State Models for Sort Sub-Entities</Name>
+    <ChartTitle>MES State Models for Sort Sub-Entities</ChartTitle>
+    <ColorPalette>Median</ColorPalette>
+    <ChartExportSize>800x400</ChartExportSize>
+    <ShowLegend>false</ShowLegend>
+    <CustomPalette />
+    <TableData />
+  </MainPivotConfig>
+  <MainPivotConfig Enable="true">
+    <QuerySQL>---Begin Main Query---
+SELECT
+	*
+FROM
+	%{output}
+WHERE
+	FunctionalArea = 'TSV'
+</QuerySQL>
+    <ColumnX FieldName="ToolType" FieldType="String" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <ColumnY FieldName="StateModel" FieldType="String" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <ColumnData FieldName="COUNT OF" FieldType="String" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <ChartType>StackedBar</ChartType>
+    <RotateXAxisLabels>false</RotateXAxisLabels>
+    <ShowColumnTotals>false</ShowColumnTotals>
+    <Name>MES State Models for TSV Sub-Entities</Name>
+    <ChartTitle>MES State Models for TSV Sub-Entities</ChartTitle>
+    <ColorPalette>Median</ColorPalette>
+    <ChartExportSize>800x400</ChartExportSize>
+    <ShowLegend>false</ShowLegend>
+    <CustomPalette />
+    <TableData />
+  </MainPivotConfig>
+  <MainPivotConfig Enable="true">
+    <QuerySQL>---Begin Main Query---
+SELECT
+	*
+FROM
+	%{output}
+WHERE
+	FunctionalArea = 'DieSort'
+</QuerySQL>
+    <ColumnX FieldName="ToolType" FieldType="String" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <ColumnY FieldName="StateModel" FieldType="String" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <ColumnData FieldName="COUNT OF" FieldType="String" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <ChartType>StackedBar</ChartType>
+    <RotateXAxisLabels>false</RotateXAxisLabels>
+    <ShowColumnTotals>false</ShowColumnTotals>
+    <Name>MES State Models for DieSort Sub-Entities</Name>
+    <ChartTitle>MES State Models for DieSort Sub-Entities</ChartTitle>
+    <ColorPalette>Median</ColorPalette>
+    <ChartExportSize>800x400</ChartExportSize>
+    <ShowLegend>false</ShowLegend>
+    <CustomPalette />
+    <TableData />
+  </MainPivotConfig>
+  <MainPivotConfig Enable="true">
+    <QuerySQL>---Begin Main Query---
+SELECT
+	*
+FROM
+	%{output}
+WHERE
+	FunctionalArea = 'FBE' OR FunctionalArea like '%C4%'
+</QuerySQL>
+    <ColumnX FieldName="ToolType" FieldType="String" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <ColumnY FieldName="StateModel" FieldType="String" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <ColumnData FieldName="COUNT OF" FieldType="String" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <ChartType>StackedBar</ChartType>
+    <RotateXAxisLabels>false</RotateXAxisLabels>
+    <ShowColumnTotals>false</ShowColumnTotals>
+    <Name>MES State Models for FBE Sub-Entities</Name>
+    <ChartTitle>MES State Models for FBE Sub-Entities</ChartTitle>
+    <ColorPalette>Median</ColorPalette>
+    <ChartExportSize>800x400</ChartExportSize>
+    <ShowLegend>false</ShowLegend>
+    <CustomPalette />
+    <TableData />
+  </MainPivotConfig>
+  <OutputDataGridConfig Name="Diffusion Sub-Entity State Models">
+    <SQL>SELECT
+	MESEntity as Entity,
+	CEID,
+	StateModel
+FROM
+	%{output}
+WHERE
+	FunctionalArea = 'Diffusion'
+ORDER BY
+	CEID
+</SQL>
+    <TableLayoutConfig>
+      <BoundColumnList>Entity,CEID,StateModel</BoundColumnList>
+    </TableLayoutConfig>
+    <TableSchema><xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+  <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="Results" msdata:UseCurrentLocale="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Results">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Entity" type="xs:string" minOccurs="0" />
+              <xs:element name="CEID" type="xs:string" minOccurs="0" />
+              <xs:element name="StateModel" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
+</TableSchema>
+    <TableData />
+  </OutputDataGridConfig>
+  <OutputDataGridConfig Name="Dry Etch Sub-Entity State Models">
+    <SQL>SELECT
+	MESEntity as Entity,
+	CEID,
+	StateModel
+FROM
+	%{output}
+WHERE
+	FunctionalArea = 'Etch'
+ORDER BY
+	CEID
+</SQL>
+    <TableLayoutConfig>
+      <BoundColumnList>Entity,CEID,StateModel</BoundColumnList>
+    </TableLayoutConfig>
+    <TableSchema><xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+  <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="Results" msdata:UseCurrentLocale="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Results">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Entity" type="xs:string" minOccurs="0" />
+              <xs:element name="CEID" type="xs:string" minOccurs="0" />
+              <xs:element name="StateModel" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
+</TableSchema>
+    <TableData />
+  </OutputDataGridConfig>
+  <OutputDataGridConfig Name="FSG Sub-Entity State Models">
+    <SQL>SELECT
+	MESEntity as Entity,
+	CEID,
+	StateModel
+FROM
+	%{output}
+WHERE
+	FunctionalArea = 'FabSupportGroup'
+ORDER BY
+	CEID
+</SQL>
+    <TableLayoutConfig>
+      <BoundColumnList>Entity,CEID,StateModel</BoundColumnList>
+    </TableLayoutConfig>
+    <TableSchema><xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+  <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="Results" msdata:UseCurrentLocale="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Results">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Entity" type="xs:string" minOccurs="0" />
+              <xs:element name="CEID" type="xs:string" minOccurs="0" />
+              <xs:element name="StateModel" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
+</TableSchema>
+    <TableData />
+  </OutputDataGridConfig>
+  <OutputDataGridConfig Name="Implant Sub-Entity State Models">
+    <SQL>SELECT
+	MESEntity as Entity,
+	CEID,
+	StateModel
+FROM
+	%{output}
+WHERE
+	FunctionalArea = 'Implant'
+ORDER BY
+	CEID
+</SQL>
+    <TableLayoutConfig>
+      <BoundColumnList>Entity,CEID,StateModel</BoundColumnList>
+    </TableLayoutConfig>
+    <TableSchema><xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+  <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="Results" msdata:UseCurrentLocale="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Results">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Entity" type="xs:string" minOccurs="0" />
+              <xs:element name="CEID" type="xs:string" minOccurs="0" />
+              <xs:element name="StateModel" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
+</TableSchema>
+    <TableData />
+  </OutputDataGridConfig>
+  <OutputDataGridConfig Name="Lithography Sub-Entity State Models">
+    <SQL>SELECT
+	MESEntity as Entity,
+	CEID,
+	StateModel
+FROM
+	%{output}
+WHERE
+	FunctionalArea = 'Lithography'
+ORDER BY
+	CEID
+</SQL>
+    <TableLayoutConfig>
+      <BoundColumnList>Entity,CEID,StateModel</BoundColumnList>
+    </TableLayoutConfig>
+    <TableSchema><xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+  <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="Results" msdata:UseCurrentLocale="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Results">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Entity" type="xs:string" minOccurs="0" />
+              <xs:element name="CEID" type="xs:string" minOccurs="0" />
+              <xs:element name="StateModel" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
+</TableSchema>
+    <TableData />
+  </OutputDataGridConfig>
+  <OutputDataGridConfig Name="Planar Sub-Entity State Models">
+    <SQL>SELECT
+	MESEntity as Entity,
+	CEID,
+	StateModel
+FROM
+	%{output}
+WHERE
+	FunctionalArea = 'Planar'
+ORDER BY
+	CEID
+</SQL>
+    <TableLayoutConfig>
+      <BoundColumnList>Entity,CEID,StateModel</BoundColumnList>
+    </TableLayoutConfig>
+    <TableSchema><xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+  <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="Results" msdata:UseCurrentLocale="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Results">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Entity" type="xs:string" minOccurs="0" />
+              <xs:element name="CEID" type="xs:string" minOccurs="0" />
+              <xs:element name="StateModel" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
+</TableSchema>
+    <TableData />
+  </OutputDataGridConfig>
+  <OutputDataGridConfig Name="ThinFilms Sub-Entity State Models">
+    <SQL>SELECT
+	MESEntity as Entity,
+	CEID,
+	StateModel
+FROM
+	%{output}
+WHERE
+	FunctionalArea = 'ThinFilms'
+ORDER BY
+	CEID
+</SQL>
+    <TableLayoutConfig>
+      <BoundColumnList>Entity,CEID,StateModel</BoundColumnList>
+    </TableLayoutConfig>
+    <TableSchema><xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+  <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="Results" msdata:UseCurrentLocale="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Results">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Entity" type="xs:string" minOccurs="0" />
+              <xs:element name="CEID" type="xs:string" minOccurs="0" />
+              <xs:element name="StateModel" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
+</TableSchema>
+    <TableData />
+  </OutputDataGridConfig>
+  <OutputDataGridConfig Name="Wet Etch Sub-Entity State Models">
+    <SQL>SELECT
+	MESEntity as Entity,
+	CEID,
+	StateModel
+FROM
+	%{output}
+WHERE
+	FunctionalArea = 'WetEtch'
+ORDER BY
+	CEID
+</SQL>
+    <TableLayoutConfig>
+      <BoundColumnList>Entity,CEID,StateModel</BoundColumnList>
+    </TableLayoutConfig>
+    <TableSchema><xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+  <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="Results" msdata:UseCurrentLocale="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Results">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Entity" type="xs:string" minOccurs="0" />
+              <xs:element name="CEID" type="xs:string" minOccurs="0" />
+              <xs:element name="StateModel" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
+</TableSchema>
+    <TableData />
+  </OutputDataGridConfig>
+  <OutputDataGridConfig Name="Sort Sub-Entity State Models">
+    <SQL>---Begin Main Query---
+SELECT
+	MESEntity as Entity,
+	CEID,
+	StateModel
+FROM
+	%{output}
+WHERE
+	FunctionalArea = 'Sort'
+ORDER BY
+	CEID
+</SQL>
+    <TableLayoutConfig>
+      <BoundColumnList>Entity,CEID,StateModel</BoundColumnList>
+    </TableLayoutConfig>
+    <TableSchema><xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+  <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="Results" msdata:UseCurrentLocale="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Results">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Entity" type="xs:string" minOccurs="0" />
+              <xs:element name="CEID" type="xs:string" minOccurs="0" />
+              <xs:element name="StateModel" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
+</TableSchema>
+    <TableData />
+  </OutputDataGridConfig>
+  <OutputDataGridConfig Name="TSV Sub-Entity State Models">
+    <SQL>---Begin Main Query---
+SELECT
+	MESEntity as Entity,
+	CEID,
+	StateModel
+FROM
+	%{output}
+WHERE
+	FunctionalArea = 'TSV'
+ORDER BY
+	CEID
+</SQL>
+    <TableLayoutConfig>
+      <BoundColumnList>Entity,CEID,StateModel</BoundColumnList>
+    </TableLayoutConfig>
+    <TableSchema><xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+  <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="Results" msdata:UseCurrentLocale="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Results">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Entity" type="xs:string" minOccurs="0" />
+              <xs:element name="CEID" type="xs:string" minOccurs="0" />
+              <xs:element name="StateModel" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
+</TableSchema>
+    <TableData />
+  </OutputDataGridConfig>
+  <OutputDataGridConfig Name="DieSort Sub-Entity State Models">
+    <SQL>---Begin Main Query---
+SELECT
+	MESEntity as Entity,
+	CEID,
+	StateModel
+FROM
+	%{output}
+WHERE
+	FunctionalArea = 'DieSort'
+ORDER BY
+	CEID
+</SQL>
+    <TableLayoutConfig>
+      <BoundColumnList>Entity,CEID,StateModel</BoundColumnList>
+    </TableLayoutConfig>
+    <TableSchema><xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+  <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="Results" msdata:UseCurrentLocale="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Results">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Entity" type="xs:string" minOccurs="0" />
+              <xs:element name="CEID" type="xs:string" minOccurs="0" />
+              <xs:element name="StateModel" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
+</TableSchema>
+    <TableData />
+  </OutputDataGridConfig>
+  <OutputDataGridConfig Name="FBE Sub-Entity State Models">
+    <SQL>---Begin Main Query---
+SELECT
+	MESEntity as Entity,
+	CEID,
+	StateModel
+FROM
+	%{output}
+WHERE
+	FunctionalArea = 'FBE' OR FunctionalArea like '%C4%'
+ORDER BY
+	CEID
+</SQL>
+    <TableLayoutConfig>
+      <BoundColumnList>Entity,CEID,StateModel</BoundColumnList>
+    </TableLayoutConfig>
+    <TableSchema><xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+  <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="Results" msdata:UseCurrentLocale="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Results">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Entity" type="xs:string" minOccurs="0" />
+              <xs:element name="CEID" type="xs:string" minOccurs="0" />
+              <xs:element name="StateModel" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
+</TableSchema>
+    <TableData />
+  </OutputDataGridConfig>
+  <AutoPivotConfig OutputDateFormat="yyyy ww.w HH:mm" StatisticalFunctionsForColumn="Avg, 50, 90,96, Count" />
+  <MailConfig>
+    <PostProcessingSQL Enable="false" />
+    <EmailCondition Enable="false" Operator="&gt;=" ThresholdRowCount="0">
+      <SQLQuery />
+      <RunScriptBeforeEmailing>false</RunScriptBeforeEmailing>
+      <Script />
+    </EmailCondition>
+    <PostProcessingCondition Enable="false" Operator="&gt;" ThresholdRowCount="0">
+      <SQLQuery />
+      <RunScriptBeforeEmailing>false</RunScriptBeforeEmailing>
+    </PostProcessingCondition>
+    <CopyCondition Enable="false" Operator="&gt;" ThresholdRowCount="0">
+      <SQLQuery />
+      <RunScriptBeforeEmailing>false</RunScriptBeforeEmailing>
+    </CopyCondition>
+    <SMTPServer>smtp.intel.com</SMTPServer>
+    <From>LogAnalyzer2@intel.com</From>
+    <ReplyTo>@{DASHBOARD_OWNER_ALERT_DIST}</ReplyTo>
+    <To />
+    <Subject>[${DOMAIN}] MESStateModel SubEntity XEUS</Subject>
+    <Body />
+    <MailAttachments FileNamingFormat="${SETTINGS}" Excel="false" CSV="false" LAS="false" LAD="false" Exceptions="false" StatusLogs="false" PivotChart="true" ZipAttachments="false" DoNotSendAttachmentsWithEmail="false" IncludeQuerySettingsFileHeader="false" IncludeVariableDefinitionHeader="false" />
+    <IncludeSQLQueryInBody>false</IncludeSQLQueryInBody>
+    <TableInBody Enable="true">
+      <SQL />
+    </TableInBody>
+    <CopyOutputToDirectory>true</CopyOutputToDirectory>
+    <OutputDirectory>@{DASHBOARD_WEB_SPOOL}\PCAM\Output</OutputDirectory>
+    <IncludeAutoPivotSummary>false</IncludeAutoPivotSummary>
+    <IgnoreExceptions>false</IgnoreExceptions>
+    <OnlyCopyOutputIfEmailConditionIsMet>false</OnlyCopyOutputIfEmailConditionIsMet>
+  </MailConfig>
+  <TableSchema><xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+  <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="Results" msdata:UseCurrentLocale="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Results">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="MESEntity" type="xs:string" minOccurs="0" />
+              <xs:element name="StateModel" type="xs:string" minOccurs="0" />
+              <xs:element name="ToolType" type="xs:string" minOccurs="0" />
+              <xs:element name="CEID" type="xs:string" minOccurs="0" />
+              <xs:element name="FunctionalArea" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
+</TableSchema>
+  <TableData />
+  <LastRunAbsoluteDateFilter />
+  <PivotGroupingSettings PivotColumn="">
+    <SortyByColumn>Count</SortyByColumn>
+  </PivotGroupingSettings>
+  <QuerySQL><![CDATA[
+--[FileName:"D:\Dashboard\Jobs\PCAM\24-hr\MES State Model by SubEntity.lasx"]------
+----------<VARIABLES>------------
+var MAO_USERID = "@{USERID_NON_MFG}"
+var DATA_SOURCE = "@{LOCALXEUSDATASOURCE}"
+---[MES300_CSV]---
+BEGIN MES300_CSV
+	---Begin Main Query---
+	Using UNIQE with
+		DataSource = "${DATA_SOURCE}" -- UNIQE data source to query
+		Authentication = "UNP" -- User Authentication Mode
+		UserId = "${MAO_USERID}" -- User ID for authentication
+	SELECT
+	  m.ENTITY                 "MESEntity",
+	  m.CEID                   "CEID",
+	  m.FUNCTIONAL_AREA        "Area",
+	  m.STATE_MODEL
+	  || ';'
+	  || m.STATE_MODEL_VERSION "StateModel",
+	  m.SUBENTITY_ROLE         "ComponentRole"
+	FROM
+	  F_ENTITY m
+	WHERE
+	  m.ENTITY_DELETED_FLAG != 'Y'
+	  AND m.OBJECT_STATUS = '1'
+	  AND m.GENERAL_TYPE = 'Equipment' 
+END MES300_CSV
+---Begin Main Query---
+Using CSV with
+SELECT
+	MESEntity,
+	StateModel,
+	ToolType,
+	CEID,
+	AREA As FunctionalArea
+USING
+	SUBSTR(CEID,0,3) as ToolType
+FROM
+	%{MES300_CSV}
+WHERE
+	ComponentRole NOT LIKE ' '
+	AND AREA IS NOT NULL
+	AND StateModel IS NOT NULL
+	AND CEID NOT LIKE 'Z-EXCLUDE'
+	AND MESEntity NOT LIKE '%MONGO%'
+ORDER BY
+	FunctionalArea,
+	ToolType,
+	MESEntity
+
+]]></QuerySQL>
+</QueryConfig>

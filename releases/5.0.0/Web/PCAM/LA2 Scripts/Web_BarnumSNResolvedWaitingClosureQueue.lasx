@@ -1,0 +1,119 @@
+<QueryConfig AutoExecuteQueryOnLoad="false" PreventSQLBeautification="false">
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 7/28/2016 4:51:59 PM from RF3PAP216N1.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.9.60629.2150</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 8/19/2014 9:06:49 AM from RF3PTS216.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.8.40806.2215</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 7/31/2013 3:56:37 PM from RF3PTS216.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.7.30730.2231</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_penarvae on 7/22/2013 11:55:30 AM from RF3PAP216N3.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.7.30712.1530</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_penarvae on 7/19/2013 12:55:23 AM from RF3PAP216N3.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.7.30711.1341</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_penarvae on 7/12/2013 4:21:19 PM from RF3PAP216N1.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.7.30527.2151</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_penarvae on 7/12/2013 4:12:00 PM from RF3PAP216N1.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.7.30527.2151</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_penarvae on 7/12/2013 8:57:40 AM from RF3PAP216N1.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.7.30527.2151</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_penarvae on 7/12/2013 8:57:03 AM from RF3PAP216N1.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.7.30527.2151</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 2/13/2013 1:37:23 PM from RF3PTS215.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.6.30208.1000</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 2/13/2013 1:28:13 PM from RF3PTS215.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.6.30208.1000</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 2/7/2013 2:50:21 PM from RF3PTS215.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.6.30206.1945</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 2/1/2013 10:46:11 AM from RF3PTS215.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.6.30131.1353</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 2/1/2013 10:44:29 AM from RF3PTS215.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.6.30131.1353</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 2/1/2013 10:31:52 AM from RF3PTS215.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.6.30131.1353</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 2/1/2013 10:28:44 AM from RF3PTS215.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.6.30131.1353</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 1/31/2013 4:12:36 PM from RF3PTS215.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.6.30130.2047</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 1/31/2013 4:00:01 PM from RF3PTS215.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.6.30130.2047</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 1/31/2013 3:37:00 PM from RF3PTS215.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.6.30130.2047</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 1/31/2013 3:02:06 PM from RF3PTS215.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.6.30130.2047</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_penarvae on 12/11/2012 1:12:04 AM from RF3PAP216N1.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.5.20326.1729</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_penarvae on 11/19/2012 4:27:33 PM from RF3PAP216N3.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.5.20418.1102</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_penarvae on 11/19/2012 3:53:23 PM from RF3PAP216N3.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.5.20418.1102</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_penarvae on 11/19/2012 2:30:42 PM from RF3PAP216N3.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.5.20418.1102</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_penarvae on 11/19/2012 1:49:05 PM from RF3PAP216N3.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.5.20418.1102</ChangeLog>
+  <QueryAttributes>
+    <OutputDateFormat>MM/dd/yyyy hh:mmtt</OutputDateFormat>
+    <AlwaysReplaceDomainWithLocal>false</AlwaysReplaceDomainWithLocal>
+  </QueryAttributes>
+  <PostQuerySQL>select * from %{OUTPUT}</PostQuerySQL>
+  <TableLayoutConfig>
+    <BoundColumnList>Request Date,Area,Process,Requestor,Change Type,Title,Resource,Barnum</BoundColumnList>
+  </TableLayoutConfig>
+  <RowHighlightingRules Enable="true" ColumnName="isGL?" FilterRegex="TRUE" RowColorString="NamedColor:Yellow" />
+  <TabOrder>C0</TabOrder>
+  <MainPivotConfig>
+    <ColumnX FieldName="" FieldType="" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <ColumnY FieldName="" FieldType="" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <ColumnData FieldName="" FieldType="" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <CustomPalette />
+    <TableData />
+  </MainPivotConfig>
+  <AutoPivotConfig OutputDateFormat="yyyy ww.w hh tt" />
+  <MailConfig>
+    <PostProcessingSQL Enable="false" />
+    <EmailCondition Enable="false" ThresholdRowCount="0">
+      <RunScriptBeforeEmailing>false</RunScriptBeforeEmailing>
+    </EmailCondition>
+    <PostProcessingCondition Enable="false" ThresholdRowCount="0">
+      <RunScriptBeforeEmailing>false</RunScriptBeforeEmailing>
+    </PostProcessingCondition>
+    <CopyCondition Enable="false" ThresholdRowCount="0">
+      <RunScriptBeforeEmailing>false</RunScriptBeforeEmailing>
+    </CopyCondition>
+    <Body />
+    <MailAttachments Excel="false" LAS="false" LAD="false" Exceptions="false" StatusLogs="false" PivotChart="true" ZipAttachments="true" DoNotSendAttachmentsWithEmail="false" />
+    <IncludeSQLQueryInBody>false</IncludeSQLQueryInBody>
+    <TableInBody Enable="false" />
+    <CopyOutputToDirectory>false</CopyOutputToDirectory>
+    <IncludeAutoPivotSummary>false</IncludeAutoPivotSummary>
+    <IgnoreExceptions>false</IgnoreExceptions>
+    <OnlyCopyOutputIfEmailConditionIsMet>false</OnlyCopyOutputIfEmailConditionIsMet>
+  </MailConfig>
+  <TableSchema><xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+  <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="Results" msdata:UseCurrentLocale="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Results">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Resolved_x0020_Date" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="Area" type="xs:string" minOccurs="0" />
+              <xs:element name="Process" type="xs:string" minOccurs="0" />
+              <xs:element name="Requestor" type="xs:string" minOccurs="0" />
+              <xs:element name="Requestor_x0020_GL" type="xs:string" minOccurs="0" />
+              <xs:element name="Resource" type="xs:string" minOccurs="0" />
+              <xs:element name="Change_x0020_Type" type="xs:string" minOccurs="0" />
+              <xs:element name="Title" type="xs:string" minOccurs="0" />
+              <xs:element name="Barnum" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
+</TableSchema>
+  <TableData />
+  <LastRunAbsoluteDateFilter />
+  <PivotGroupingSettings PivotColumn="">
+    <SortyByColumn>Count</SortyByColumn>
+  </PivotGroupingSettings>
+  <QuerySQL><![CDATA[
+--[FileName:"R:\Dashboard\Web\PCAM\LA2 Scripts\Web_BarnumSNResolvedWaitingClosureQueue.lasx"]------
+----------<VARIABLES>------------
+var FILEFILTER = "@{DASHBOARD_LOCAL_WEB}\PCAM\Output\BarnumSN_Metrics_Resolved_Closure_Details.csv"
+var BLINK = "@{BARNUMSN_LINK}"
+---Begin Main Query---
+Using CSV with
+SELECT
+	TO_TIMESTAMP(ResolvedDate,'MM/dd/yyyy hh:mmtt') as [Resolved Date],
+	Area,
+	Process,
+	Requestor,
+	RequestorGL as [Requestor GL],
+	Resource,
+	ChangeType as [Change Type],
+	Title,
+	Barnum
+USING
+	CASE BarnumNumber when null then NULL else strcat('${BLINK}', to_string(BarnumNumber)) end as Barnum
+FROM
+	${FILEFILTER}
+ORDER BY
+	[Resolved Date] asc
+
+]]></QuerySQL>
+</QueryConfig>

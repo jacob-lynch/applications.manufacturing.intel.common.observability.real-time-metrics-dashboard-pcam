@@ -1,0 +1,3685 @@
+<QueryConfig AutoExecuteQueryOnLoad="false" PreventSQLBeautification="false">
+  <ChangeLog>Changed by AMR\afodash on 8/21/2017 9:52:40 AM from AFSPAP216N12.AFOPROD.MFG.INTEL.COM using LogAnalyzer2 v2.9.61013.1546</ChangeLog>
+  <ChangeLog>Changed by AMR\afodash on 8/16/2017 2:44:14 PM from AFSPAP216N12.AFOPROD.MFG.INTEL.COM using LogAnalyzer2 v2.9.61013.1546</ChangeLog>
+  <ChangeLog>Changed by AMR\afodash on 8/16/2017 2:34:56 PM from AFSPAP216N1.AFOPROD.MFG.INTEL.COM using LogAnalyzer2 v2.9.51126.2153</ChangeLog>
+  <ChangeLog>Changed by GER\mfg_hgurarie on 6/5/2016 3:28:04 PM from F28PAP216N3.F28PROD.MFG.INTEL.COM using LogAnalyzer2 v2.9.51126.1153</ChangeLog>
+  <ChangeLog>Changed by GER\mfg_hgurarie on 6/5/2016 2:36:10 PM from F28PAP216N3.F28PROD.MFG.INTEL.COM using LogAnalyzer2 v2.9.51126.1153</ChangeLog>
+  <ChangeLog>Changed by GER\mfg_hgurarie on 6/5/2016 2:15:50 PM from F28PAP216N3.F28PROD.MFG.INTEL.COM using LogAnalyzer2 v2.9.51126.1153</ChangeLog>
+  <ChangeLog>Changed by GER\mfg_hgurarie on 6/5/2016 11:19:02 AM from F28PAP216N3.F28PROD.MFG.INTEL.COM using LogAnalyzer2 v2.9.51126.1153</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_tcalford on 2/24/2016 12:20:41 PM from F32PAP216N3.F32PROD.MFG.INTEL.COM using LogAnalyzer2 v2.9.51126.2053</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_tcalford on 11/17/2015 3:02:15 PM from F32PAP216N3.F32PROD.MFG.INTEL.COM using LogAnalyzer2 v2.8.40713.1943</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_tcalford on 11/10/2015 1:15:13 PM from F32PAP216N3.F32PROD.MFG.INTEL.COM using LogAnalyzer2 v2.8.40713.1943</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_tcalford on 11/10/2015 11:19:49 AM from F32PAP216N3.F32PROD.MFG.INTEL.COM using LogAnalyzer2 v2.8.40713.1943</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_tcalford on 11/10/2015 11:18:21 AM from F32PAP216N3.F32PROD.MFG.INTEL.COM using LogAnalyzer2 v2.8.40713.1943</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_tcalford on 11/9/2015 3:55:26 PM from F32PAP216N3.F32PROD.MFG.INTEL.COM using LogAnalyzer2 v2.8.40713.1943</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_tcalford on 11/9/2015 2:05:57 PM from F32PAP216N3.F32PROD.MFG.INTEL.COM using LogAnalyzer2 v2.8.40713.1943</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_tcalford on 11/6/2015 12:59:38 PM from F32PAP216N3.F32PROD.MFG.INTEL.COM using LogAnalyzer2 v2.8.40713.1943</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_tcalford on 9/28/2015 3:07:13 PM from F32PAP216N3.F32PROD.MFG.INTEL.COM using LogAnalyzer2 v2.8.40713.1943</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_tcalford on 8/17/2015 8:05:27 PM from F32PAP216N3.F32PROD.MFG.INTEL.COM using LogAnalyzer2 v2.8.40713.1943</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_tcalford on 2/10/2015 1:29:38 PM from F32PAP216N3.F32PROD.MFG.INTEL.COM using LogAnalyzer2 v2.8.40713.1943</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_tcalford on 12/16/2014 9:29:37 AM from F32PAP216N3.F32PROD.MFG.INTEL.COM using LogAnalyzer2 v2.8.40713.1943</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_tcalford on 10/24/2014 12:04:44 PM from F32PAP216N3.F32PROD.MFG.INTEL.COM using LogAnalyzer2 v2.8.40713.1943</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_tcalford on 10/24/2014 11:58:10 AM from F32PAP216N3.F32PROD.MFG.INTEL.COM using LogAnalyzer2 v2.8.40713.1943</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_tcalford on 10/24/2014 11:58:03 AM from F32PAP216N3.F32PROD.MFG.INTEL.COM using LogAnalyzer2 v2.8.40713.1943</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_tcalford on 10/21/2014 8:25:43 PM from F32PAP216N3.F32PROD.MFG.INTEL.COM using LogAnalyzer2 v2.8.40713.1943</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 9/9/2014 9:33:03 AM from RF3PTS216.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.8.40806.2215</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 9/9/2014 9:30:53 AM from RF3PTS216.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.8.40806.2215</ChangeLog>
+  <QueryAttributes>
+    <OutputDateFormat>MM/dd/yyyy</OutputDateFormat>
+    <AlwaysReplaceDomainWithLocal>false</AlwaysReplaceDomainWithLocal>
+  </QueryAttributes>
+  <PostQuerySQL>select * from %{OUTPUT}</PostQuerySQL>
+  <TableLayoutConfig>
+    <BoundColumnList>ID,MCCB Description,CEID,ChangeDate,PFIContact,OSAChange</BoundColumnList>
+  </TableLayoutConfig>
+  <TabOrder>C0,C1,C2,C3,C4,C5,C6,C7,C8,C9,C10,C11,C12,C13,C14,C15</TabOrder>
+  <MainPivotConfig>
+    <ColumnX FieldName="" FieldType="" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <ColumnY FieldName="" FieldType="" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <ColumnData FieldName="" FieldType="" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <CustomPalette />
+    <TableData />
+  </MainPivotConfig>
+  <MainPivotConfig Enable="true">
+    <QuerySQL>----------&lt;VARIABLES&gt;------------
+var FILEFILTERD1DSR = "@{D1DSRFILEFILTER}"
+var FILEFILTERVF = "@{VFSRFILEFILTER}"
+var SRSITE = "@{SRSITE}"
+var REQUEST_NAME = "@{REQUEST_NAME}"
+var FILEFILTERF32 = "@{F32TIPRFILEFILTER}"
+var FILEFILTERF24 = "@{F24TIPRFILEFILTER}"
+var FILEFILTERD1C = "@{D1CTIPRFILEFILTER}"
+var FILEFILTERD1D = "@{D1DTIPRFILEFILTER}"
+var TIPRSITE = "@{TIPRSITE}"
+var AREA = "@{DIFFIMPAREA}"
+---[D1DSR_CSV]---
+BEGIN D1DSR_CSV
+	---Begin Main Query---
+	Using CSV with
+	SELECT
+		'D1D' as Site,
+		Sts as Status,
+		Title as Description,
+		RequestDate as Date
+	FROM
+		'${FILEFILTERD1DSR}'
+	WHERE
+		isinlist(Area, '${Area}')
+		AND (Status not like 'rejected' AND Status not like 'resolved')
+END D1DSR_CSV
+---[VF_CSV]---
+BEGIN VF_CSV
+	---Begin Main Query---
+	Using LA2REPORT with
+		TableIndex = 1 -- Index representing the table instance to look for (specify -1 for first non-empty table)
+	SELECT
+		Site,
+		Description,
+		CreatedOn as [Date],
+		State as Status
+	USING
+		EXTRACT_TOKEN(Location, 0, ' ') as Site
+	FROM
+		'${FILEFILTERVF}'
+	WHERE
+		isinlist(Area, '${Area}')
+END VF_CSV
+---[REQUEST_CSV]---
+BEGIN REQUEST_CSV
+	---Begin Main Query---
+	Using CSV with
+	SELECT
+		'${REQUEST_NAME}' as Project,
+		Site,
+		Date
+	FROM
+		${SRSITE}
+END REQUEST_CSV
+---[MCCB_CSV]---
+BEGIN MCCB_CSV
+	---Begin Main Query---
+	SELECT
+		*
+	FROM
+		%{OUTPUT}
+	WHERE
+		isinlist(Area, '${Area}')
+END MCCB_CSV
+---[TRANS_CSV]---
+BEGIN TRANS_CSV
+	UseMethod TransformColumnToRow with -- **Transforms selected table columns into rows**
+		InputFiles = "%{MCCB_CSV}" -- Input files (comma-separated) containing table data [String]
+		ColumnsToConvert = "*" -- Name of columns to convert into rows (comma-separated) [String]
+		ColumnsToExclude = "Process,Name,Area,Transfer Date" -- Name of columns to exclude from conversion (comma-separated) [String]
+		ColumnNameForCaption = "Site" -- Caption for new column type created after transformation [String]
+		ColumnNameForValue = "Value" -- Caption for new column value created after transformation [String]
+END TRANS_CSV
+---[MCCB2_CSV]---
+BEGIN MCCB2_CSV
+	---Begin Main Query---
+	Using CSV with
+	SELECT
+		Project,
+		mccbsite AS Site,
+		[Transfer Date] as Date
+	USING
+		CASE to_string(Process) when '1270' then '1270 MCCB' when '1274' then '1274 MCCB' else '1272 MCCB' end as Project,
+		case Site when 'OSA' then 'F32' else Site end as mccbsite
+	FROM
+		%{TRANS_CSV}
+	WHERE
+		Site not like 'Filename' and Site not like 'RowNumber'
+		AND IsInList(Value, '${MCCB_STATUS}')
+END MCCB2_CSV
+---[F32_CSV]---
+BEGIN F32_CSV
+	---Begin Main Query---
+	Using LA2REPORT with
+		TableIndex = 10 -- Index representing the table instance to look for (specify -1 for first non-empty table)
+	SELECT
+		'F32' as Site,
+		IQFinishDate as Date
+	FROM
+		'${FILEFILTERF32}'
+	WHERE
+		isinlist(Area, '${Area}')
+END F32_CSV
+---[F24_CSV]---
+BEGIN F24_CSV
+	---Begin Main Query---
+	Using LA2REPORT with
+		TableIndex = 10 -- Index representing the table instance to look for (specify -1 for first non-empty table)
+	SELECT
+		'F24' as Site,
+		IQFinishDate as Date
+	FROM
+		'${FILEFILTERF24}'
+	WHERE
+		isinlist(Area, '${Area}')
+END F24_CSV
+---[D1D_CSV]---
+BEGIN D1D_CSV
+	---Begin Main Query---
+	Using CSV with
+	SELECT
+		'D1D' as Site,
+		[SL2 Finish] as Date
+	FROM
+		'${FILEFILTERD1D}'
+	WHERE
+		isinlist(Area, '${Area}')
+END D1D_CSV
+---[D1C_CSV]---
+BEGIN D1C_CSV
+	---Begin Main Query---
+	Using CSV with
+	SELECT
+		'D1C' as Site,
+		[SL2 Finish] as Date
+	FROM
+		${FILEFILTERD1C}
+	WHERE
+		isinlist(Area, '${Area}')
+END D1C_CSV
+---[MERGE_CSV]---
+BEGIN MERGE_CSV
+	UseMethod MergeTables with -- **Merge content of two tables by doing an outer join on the column schema (no join done here)**
+		InputFile1 = "%{F32_CSV}" -- Input CSV File #1 containing table data [String]
+		InputFile2 = "%{F24_CSV}" -- Input CSV File #2 containing table data [String]
+		AutoDetectColumnTypes = false -- Auto-detect column types before merging [Boolean]
+END MERGE_CSV
+---[INSTALL_CSV]---
+BEGIN INSTALL_CSV
+	---Begin Main Query---
+	Using CSV with
+	SELECT
+		'Tool Install' as Project,
+		Site,
+		Date
+	FROM
+		${TIPRSITE}
+END INSTALL_CSV
+---Begin Main Query---
+Using CSV with
+SELECT
+	*
+FROM
+	%{REQUEST_CSV},
+	%{MCCB2_CSV},
+	%{INSTALL_CSV}
+</QuerySQL>
+    <ColumnX FieldName="Site" FieldType="String" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <ColumnY FieldName="Project" FieldType="String" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <ColumnData FieldName="COUNT OF" FieldType="String" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <RotateXAxisLabels>false</RotateXAxisLabels>
+    <Name>Diffusion/Implant Summary</Name>
+    <ChartTitle>DIP Open Summary</ChartTitle>
+    <ColorPalette>Office</ColorPalette>
+    <ChartExportSize>600x200</ChartExportSize>
+    <IsYAxisVisible>false</IsYAxisVisible>
+    <CustomPalette />
+    <TableData />
+  </MainPivotConfig>
+  <MainPivotConfig Enable="true">
+    <QuerySQL>----------&lt;VARIABLES&gt;------------
+var FILEFILTERD1DSR = "@{D1DSRFILEFILTER}"
+var FILEFILTERVF = "@{DASHBOARD_PERSIST_DATA}\PCAM\Output\1_ISMP_Request_Query_All.csv"
+var MCCB = "@{DASHBOARD_PERSIST_DATA}\PCAM\Output\1_ALL_MCCB_Data.csv"
+var SRSITE = "@{SRSITE}"
+var REQUEST_NAME = "@{REQUEST_NAME}"
+var FILEFILTERF32 = "@{F32TIPRFILEFILTER}"
+var FILEFILTERF24 = "@{F24TIPRFILEFILTER}"
+var FILEFILTERD1C = "@{D1CTIPRFILEFILTER}"
+var FILEFILTERD1D = "@{D1DTIPRFILEFILTER}"
+var TIPRSITE = "@{TIPRSITE}"
+var AREA = "@{DIFFIMPAREA}"
+var MCCB_STATUS2 = "Active%, ActiveHold%, Proliferation%, Done"
+---[SROPEN_CSV]---
+BEGIN SROPEN_CSV
+	---Begin Main Query---
+	Using CSV with
+	SELECT
+		'Request - New' as Project,
+		Site,
+		CreatedOn as [Date]
+	USING
+		EXTRACT_TOKEN(Location, 0, ' ') as Site
+	FROM
+		'${FILEFILTERVF}'
+	WHERE
+		isinlist(Area, '${Area}')
+END SROPEN_CSV
+---[SRCLOSED_CSV]---
+BEGIN SRCLOSED_CSV
+	---Begin Main Query---
+	Using CSV with
+	SELECT
+		'Request - Completed' as Project,
+		Site,
+		UpdatedOn as [Date]
+	USING
+		EXTRACT_TOKEN(Location, 0, ' ') as Site
+	FROM
+		'${FILEFILTERVF}'
+	WHERE
+		isinlist(Area, '${Area}')
+		and isinlist(State,'%Complete')
+END SRCLOSED_CSV
+---[MCCB_CSV]---
+BEGIN MCCB_CSV
+	---Begin Main Query---
+	Using CSV with
+	SELECT
+		Process,
+		Author,
+		ChangeType as [Change Type],
+		Area,
+		ID,
+		site,
+		Name,
+		CEID,
+		TxfrDate as [Transfer Date],
+		F24tmp as F24Change,
+		F28Change,
+		OSAChange,
+		MCCB,
+		OSACompletedOn,
+		F28CompletedOn,
+		F24CompletedOn
+	USING
+		CASE MCCBSite when '1272' then '1272' when '1274' then '1274' else '1270' end as Process,
+		CASE Process when '1270' then NULL when '1274' then NULL else F24Change end as [F24tmp],
+		CASE MCCBSite when 'Old' then strcat('${1270EOLMCCB}', to_string(Name)) when 'New' then strcat('${1270MCCB}', to_string(Name)) when '1272' then strcat('${1272MCCB}', to_string(Name)) when '1274' then strcat('${1274MCCB}', to_string(Name)) else NULL end as MCCB
+	FROM
+		'${MCCB}'
+	WHERE
+		isinlist(Area, '${Area}')
+	ORDER BY
+		Process, ID desc
+END MCCB_CSV
+---[TRANS_CSV]---
+BEGIN TRANS_CSV
+	UseMethod TransformColumnToRow with -- **Transforms selected table columns into rows**
+		InputFiles = "%{MCCB_CSV}" -- Input files (comma-separated) containing table data [String]
+		ColumnsToConvert = "*" -- Name of columns to convert into rows (comma-separated) [String]
+		ColumnsToExclude = "Process,Name,Area,Transfer Date" -- Name of columns to exclude from conversion (comma-separated) [String]
+		ColumnNameForCaption = "Site" -- Caption for new column type created after transformation [String]
+		ColumnNameForValue = "Value" -- Caption for new column value created after transformation [String]
+END TRANS_CSV
+---[MCCB2_CSV]---
+BEGIN MCCB2_CSV
+	---Begin Main Query---
+	Using CSV with
+	SELECT
+		Project,
+		Site,
+		[Transfer Date] as Date
+	USING
+		CASE to_string(Process) when '1270' then '1270 MCCB - New' when '1274' then '1274 MCCB - New' else '1272 MCCB - New' end as Project
+	FROM
+		%{TRANS_CSV}
+	WHERE
+		Site not like 'Filename' and Site not like 'RowNumber'
+		AND IsInList(Value, '${MCCB_STATUS2}')
+END MCCB2_CSV
+---[F32DONEMCCB_CSV]---
+BEGIN F32DONEMCCB_CSV
+	---Begin Main Query---
+	Using CSV with
+	SELECT
+		Project,
+		'OSA' as Site,
+		OSACompletedOn as Date
+	USING
+		CASE to_string(Process) when '1270' then '1270 MCCB - Completed' when '1274' then '1274 MCCB - Completed' else '1272 MCCB - Completed' end as Project
+	FROM
+		%{MCCB_CSV}
+	WHERE
+		OSAChange = 'Done'
+END F32DONEMCCB_CSV
+---[F24DONEMCCB_CSV]---
+BEGIN F24DONEMCCB_CSV
+	---Begin Main Query---
+	Using CSV with
+	SELECT
+		Project,
+		'F24' as Site,
+		F24CompletedOn as Date
+	USING
+		CASE to_string(Process) when '1270' then '1270 MCCB - Completed' when '1274' then '1274 MCCB - Completed' else '1272 MCCB - Completed' end as Project
+	FROM
+		%{MCCB_CSV}
+	WHERE
+		F24Change = 'Done'
+END F24DONEMCCB_CSV
+---[F28DONEMCCB_CSV]---
+BEGIN F28DONEMCCB_CSV
+	---Begin Main Query---
+	Using CSV with
+	SELECT
+		Project,
+		'F28' as Site,
+		F28CompletedOn as Date
+	USING
+		CASE to_string(Process) when '1270' then '1270 MCCB - Completed' when '1274' then '1274 MCCB - Completed' else '1272 MCCB - Completed' end as Project
+	FROM
+		%{MCCB_CSV}
+	WHERE
+		F28Change = 'Done'
+END F28DONEMCCB_CSV
+---[MERGEMCCB1_CSV]---
+BEGIN MERGEMCCB1_CSV
+	UseMethod MergeTables with -- **Merge content of two tables by doing an outer join on the column schema (no join done here)**
+		InputFile1 = "%{F32DoneMCCB_CSV}" -- Input CSV File #1 containing table data [String]
+		InputFile2 = "%{F24DoneMCCB_CSV}" -- Input CSV File #2 containing table data [String]
+		AutoDetectColumnTypes = false -- Auto-detect column types before merging [Boolean]
+END MERGEMCCB1_CSV
+---[MERGEMCCB2_CSV]---
+BEGIN MERGEMCCB2_CSV
+	UseMethod MergeTables with -- **Merge content of two tables by doing an outer join on the column schema (no join done here)**
+		InputFile1 = "%{MERGEmccb1_CSV}" -- Input CSV File #1 containing table data [String]
+		InputFile2 = "%{F28DoneMCCB_CSV}" -- Input CSV File #2 containing table data [String]
+		AutoDetectColumnTypes = false -- Auto-detect column types before merging [Boolean]
+END MERGEMCCB2_CSV
+---[F32TIDONE_CSV]---
+BEGIN F32TIDONE_CSV
+	---Begin Main Query---
+	Using LA2REPORT with
+		TableIndex = 4
+	SELECT
+		'Tool Install - Completed' as Project,
+		'F32' as Site,
+		PCAMFinish as Date
+	FROM
+		'${FILEFILTERF32}'
+	WHERE
+		isinlist(Area, '${Area}') and PCAMFinish is not null and IQFinishDate is not null
+END F32TIDONE_CSV
+---[F24TIDONE_CSV]---
+BEGIN F24TIDONE_CSV
+	---Begin Main Query---
+	Using LA2REPORT with
+		TableIndex = 4
+	SELECT
+		'Tool Install - Completed' as Project,
+		'F24' as Site,
+		PCAMFinish as Date
+	FROM
+		'${FILEFILTERF24}'
+	WHERE
+		isinlist(Area, '${Area}') and PCAMFinish is not null and IQFinishDate is not null
+END F24TIDONE_CSV
+---[MERGETIDONE_CSV]---
+BEGIN MERGETIDONE_CSV
+	UseMethod MergeTables with -- **Merge content of two tables by doing an outer join on the column schema (no join done here)**
+		InputFile1 = "%{F32TIDone_CSV}" -- Input CSV File #1 containing table data [String]
+		InputFile2 = "%{F24TIDone_CSV}" -- Input CSV File #2 containing table data [String]
+		AutoDetectColumnTypes = false -- Auto-detect column types before merging [Boolean]
+END MERGETIDONE_CSV
+---[F32TISCHED_CSV]---
+BEGIN F32TISCHED_CSV
+	---Begin Main Query---
+	Using LA2REPORT with
+		TableIndex = 4
+	SELECT
+		'Tool Install - New' as Project,
+		'F32' as Site,
+		SL2Finish as Date
+	FROM
+		'${FILEFILTERF32}'
+	WHERE
+		isinlist(Area, '${Area}') and IQFinishDate is not null
+END F32TISCHED_CSV
+---[F24TISCHED_CSV]---
+BEGIN F24TISCHED_CSV
+	---Begin Main Query---
+	Using LA2REPORT with
+		TableIndex = 4
+	SELECT
+		'Tool Install - New' as Project,
+		'F24' as Site,
+		SL2Finish as Date
+	FROM
+		'${FILEFILTERF24}'
+	WHERE
+		isinlist(Area, '${Area}') and IQFinishDate is not null
+END F24TISCHED_CSV
+---[MERGETISCHED_CSV]---
+BEGIN MERGETISCHED_CSV
+	UseMethod MergeTables with -- **Merge content of two tables by doing an outer join on the column schema (no join done here)**
+		InputFile1 = "%{F32TISched_CSV}" -- Input CSV File #1 containing table data [String]
+		InputFile2 = "%{F24TISched_CSV}" -- Input CSV File #2 containing table data [String]
+		AutoDetectColumnTypes = false -- Auto-detect column types before merging [Boolean]
+END MERGETISCHED_CSV
+---[INCOMING_CSV]---
+BEGIN INCOMING_CSV
+	---Begin Main Query---
+	Using CSV with
+	SELECT
+		'Incoming' as Work, *
+	FROM
+		%{MCCB2_CSV},
+		%{SROPEN_CSV},
+		%{MERGETISched_CSV}
+	WHERE
+		project like '%New'
+END INCOMING_CSV
+---[OUTGOING_CSV]---
+BEGIN OUTGOING_CSV
+	---Begin Main Query---
+	Using CSV with
+	SELECT
+		'Outgoing' as Work, *
+	FROM
+		%{MERGEmccb2_CSV},
+		%{SRclosed_CSV},
+		%{MERGETIDone_CSV}
+	WHERE
+		project like '%Completed'
+END OUTGOING_CSV
+---Begin Main Query---
+Using CSV with
+SELECT
+	*
+FROM
+	%{incoming_csv},%{outgoing_csv}
+---[POST]---
+BEGIN POST
+	---Begin Main Query---
+	Using CSV with
+	SELECT
+		*
+	FROM
+		%{output}
+	WHERE
+		applytimerangefilter(Date, 'last 10 weeks (prev mode)')
+END POST
+</QuerySQL>
+    <ColumnX FieldName="Date" FieldType="String" SortMode="Default" SortOrder="Ascending" SummaryType="Sum" SortBySummaryInfo="false" />
+    <ColumnY FieldName="Work" FieldType="String" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <ColumnData FieldName="COUNT OF" FieldType="Int32" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <XaxisLabelSpacing>1</XaxisLabelSpacing>
+    <ChartType>Spline</ChartType>
+    <RotateXAxisLabels>false</RotateXAxisLabels>
+    <ShowColumnTotals>false</ShowColumnTotals>
+    <Name>Diffusion/Implant Timeline</Name>
+    <ChartTitle>DIP Incoming vs Outgoing</ChartTitle>
+    <ChartExportSize>600x200</ChartExportSize>
+    <ThresholdLineValue>Mean</ThresholdLineValue>
+    <ShowThresholdLineCaption>false</ShowThresholdLineCaption>
+    <ShowThresholdLineCaptionInLegend>true</ShowThresholdLineCaptionInLegend>
+    <PointSize>5</PointSize>
+    <YAxisRange>0.9min,1.1max</YAxisRange>
+    <TimeIntervalForDateScale>1W</TimeIntervalForDateScale>
+    <DateFormat>Auto</DateFormat>
+    <CustomPalette />
+    <TableData />
+  </MainPivotConfig>
+  <MainPivotConfig Enable="true">
+    <QuerySQL>----------&lt;VARIABLES&gt;------------
+var FILEFILTERD1DSR = "@{D1DSRFILEFILTER}"
+var FILEFILTERVF = "@{VFSRFILEFILTER}"
+var SRSITE = "@{SRSITE}"
+var REQUEST_NAME = "@{REQUEST_NAME}"
+var FILEFILTERF32 = "@{F32TIPRFILEFILTER}"
+var FILEFILTERF24 = "@{F24TIPRFILEFILTER}"
+var FILEFILTERD1C = "@{D1CTIPRFILEFILTER}"
+var FILEFILTERD1D = "@{D1DTIPRFILEFILTER}"
+var TIPRSITE = "@{TIPRSITE}"
+var AREA = "@{ETCHAREA}"
+---[D1DSR_CSV]---
+BEGIN D1DSR_CSV
+	---Begin Main Query---
+	Using CSV with
+	SELECT
+		'D1D' as Site,
+		Sts as Status,
+		Title as Description,
+		RequestDate as Date
+	FROM
+		'${FILEFILTERD1DSR}'
+	WHERE
+		isinlist(Area, '${Area}')
+		AND (Status not like 'rejected' AND Status not like 'resolved')
+END D1DSR_CSV
+---[VF_CSV]---
+BEGIN VF_CSV
+	---Begin Main Query---
+	Using LA2REPORT with
+		TableIndex = 1
+	SELECT
+		Site,
+		Description,
+		CreatedOn as [Date],
+		State as Status
+	USING
+		EXTRACT_TOKEN(Location, 0, ' ') as Site
+	FROM
+		'${FILEFILTERVF}'
+	WHERE
+		isinlist(Area, '${Area}')
+END VF_CSV
+---[REQUEST_CSV]---
+BEGIN REQUEST_CSV
+	---Begin Main Query---
+	Using CSV with
+	SELECT
+		'${REQUEST_NAME}' as Project,
+		Site,
+		Date
+	FROM
+		${SRSITE}
+END REQUEST_CSV
+---[MCCB_CSV]---
+BEGIN MCCB_CSV
+	---Begin Main Query---
+	SELECT
+		*
+	FROM
+		%{OUTPUT}
+	WHERE
+		isinlist(Area, '${Area}')
+END MCCB_CSV
+---[TRANS_CSV]---
+BEGIN TRANS_CSV
+	UseMethod TransformColumnToRow with -- **Transforms selected table columns into rows**
+		InputFiles = "%{MCCB_CSV}" -- Input files (comma-separated) containing table data [String]
+		ColumnsToConvert = "*" -- Name of columns to convert into rows (comma-separated) [String]
+		ColumnsToExclude = "Process,Name,Area,Transfer Date" -- Name of columns to exclude from conversion (comma-separated) [String]
+		ColumnNameForCaption = "Site" -- Caption for new column type created after transformation [String]
+		ColumnNameForValue = "Value" -- Caption for new column value created after transformation [String]
+END TRANS_CSV
+---[MCCB2_CSV]---
+BEGIN MCCB2_CSV
+	---Begin Main Query---
+	Using CSV with
+	SELECT
+		Project,
+		mccbsite AS Site,
+		[Transfer Date] as Date
+	USING
+		CASE to_string(Process) when '1270' then '1270 MCCB' when '1274' then '1274 MCCB' else '1272 MCCB' end as Project,
+		case Site when 'OSA' then 'F32' else Site end as mccbsite
+	FROM
+		%{TRANS_CSV}
+	WHERE
+		Site not like 'Filename' and Site not like 'RowNumber'
+		AND IsInList(Value, '${MCCB_STATUS}')
+END MCCB2_CSV
+---[F32_CSV]---
+BEGIN F32_CSV
+	---Begin Main Query---
+	Using LA2REPORT with
+		TableIndex = 10
+	SELECT
+		'F32' as Site,
+		IQFinishDate as Date
+	FROM
+		'${FILEFILTERF32}'
+	WHERE
+		isinlist(Area, '${Area}')
+END F32_CSV
+---[F24_CSV]---
+BEGIN F24_CSV
+	---Begin Main Query---
+	Using LA2REPORT with
+		TableIndex = 10
+	SELECT
+		'F24' as Site,
+		IQFinishDate as Date
+	FROM
+		'${FILEFILTERF24}'
+	WHERE
+		isinlist(Area, '${Area}')
+END F24_CSV
+---[D1D_CSV]---
+BEGIN D1D_CSV
+	---Begin Main Query---
+	Using CSV with
+	SELECT
+		'D1D' as Site,
+		[SL2 Finish] as Date
+	FROM
+		'${FILEFILTERD1D}'
+	WHERE
+		isinlist(Area, '${Area}')
+END D1D_CSV
+---[D1C_CSV]---
+BEGIN D1C_CSV
+	---Begin Main Query---
+	Using CSV with
+	SELECT
+		'D1C' as Site,
+		[SL2 Finish] as Date
+	FROM
+		${FILEFILTERD1C}
+	WHERE
+		isinlist(Area, '${Area}')
+END D1C_CSV
+---[MERGE_CSV]---
+BEGIN MERGE_CSV
+	UseMethod MergeTables with -- **Merge content of two tables by doing an outer join on the column schema (no join done here)**
+		InputFile1 = "%{F32_CSV}" -- Input CSV File #1 containing table data [String]
+		InputFile2 = "%{F24_CSV}" -- Input CSV File #2 containing table data [String]
+		AutoDetectColumnTypes = false -- Auto-detect column types before merging [Boolean]
+END MERGE_CSV
+---[INSTALL_CSV]---
+BEGIN INSTALL_CSV
+	---Begin Main Query---
+	Using CSV with
+	SELECT
+		'Tool Install' as Project,
+		Site,
+		Date
+	FROM
+		${TIPRSITE}
+END INSTALL_CSV
+---Begin Main Query---
+Using CSV with
+SELECT
+	*
+FROM
+	%{REQUEST_CSV},
+	%{MCCB2_CSV},
+	%{INSTALL_CSV}
+</QuerySQL>
+    <ColumnX FieldName="Site" FieldType="String" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <ColumnY FieldName="Project" FieldType="String" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <ColumnData FieldName="COUNT OF" FieldType="String" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <RotateXAxisLabels>false</RotateXAxisLabels>
+    <ShowColumnTotals>false</ShowColumnTotals>
+    <Name>Etch Summary</Name>
+    <ChartTitle>Etch Open Summary</ChartTitle>
+    <ColorPalette>Office</ColorPalette>
+    <ChartExportSize>600x200</ChartExportSize>
+    <IsYAxisVisible>false</IsYAxisVisible>
+    <CustomPalette />
+    <TableData />
+  </MainPivotConfig>
+  <MainPivotConfig Enable="true">
+    <QuerySQL>----------&lt;VARIABLES&gt;------------
+var FILEFILTERD1DSR = "@{D1DSRFILEFILTER}"
+var FILEFILTERVF = "@{DASHBOARD_PERSIST_DATA}\PCAM\Output\1_ISMP_Request_Query_All.csv"
+var MCCB = "@{DASHBOARD_PERSIST_DATA}\PCAM\Output\1_ALL_MCCB_Data.csv"
+var SRSITE = "@{SRSITE}"
+var REQUEST_NAME = "@{REQUEST_NAME}"
+var FILEFILTERF32 = "@{F32TIPRFILEFILTER}"
+var FILEFILTERF24 = "@{F24TIPRFILEFILTER}"
+var FILEFILTERD1C = "@{D1CTIPRFILEFILTER}"
+var FILEFILTERD1D = "@{D1DTIPRFILEFILTER}"
+var TIPRSITE = "@{TIPRSITE}"
+var AREA = "@{EtchAREA}"
+var MCCB_STATUS2 = "Active%, ActiveHold%, Proliferation%, Done"
+---[SROPEN_CSV]---
+BEGIN SROPEN_CSV
+	---Begin Main Query---
+	Using CSV with
+	SELECT
+		'Request - New' as Project,
+		Site,
+		CreatedOn as [Date]
+	USING
+		EXTRACT_TOKEN(Location, 0, ' ') as Site
+	FROM
+		'${FILEFILTERVF}'
+	WHERE
+		isinlist(Area, '${Area}')
+END SROPEN_CSV
+---[SRCLOSED_CSV]---
+BEGIN SRCLOSED_CSV
+	---Begin Main Query---
+	Using CSV with
+	SELECT
+		'Request - Completed' as Project,
+		Site,
+		UpdatedOn as [Date]
+	USING
+		EXTRACT_TOKEN(Location, 0, ' ') as Site
+	FROM
+		'${FILEFILTERVF}'
+	WHERE
+		isinlist(Area, '${Area}')
+		and isinlist(State,'%Complete')
+END SRCLOSED_CSV
+---[MCCB_CSV]---
+BEGIN MCCB_CSV
+	---Begin Main Query---
+	Using CSV with
+	SELECT
+		Process,
+		Author,
+		ChangeType as [Change Type],
+		Area,
+		ID,
+		site,
+		Name,
+		CEID,
+		TxfrDate as [Transfer Date],
+		F24tmp as F24Change,
+		F28Change,
+		OSAChange,
+		MCCB,
+		OSACompletedOn,
+		F28CompletedOn,
+		F24CompletedOn
+	USING
+		CASE MCCBSite when '1272' then '1272' when '1274' then '1274' else '1270' end as Process,
+		CASE Process when '1270' then NULL when '1274' then NULL else F24Change end as [F24tmp],
+		CASE MCCBSite when 'Old' then strcat('${1270EOLMCCB}', to_string(Name)) when 'New' then strcat('${1270MCCB}', to_string(Name)) when '1272' then strcat('${1272MCCB}', to_string(Name)) when '1274' then strcat('${1274MCCB}', to_string(Name)) else NULL end as MCCB
+	FROM
+		'${MCCB}'
+	WHERE
+		isinlist(Area, '${Area}')
+	ORDER BY
+		Process, ID desc
+END MCCB_CSV
+---[TRANS_CSV]---
+BEGIN TRANS_CSV
+	UseMethod TransformColumnToRow with -- **Transforms selected table columns into rows**
+		InputFiles = "%{MCCB_CSV}" -- Input files (comma-separated) containing table data [String]
+		ColumnsToConvert = "*" -- Name of columns to convert into rows (comma-separated) [String]
+		ColumnsToExclude = "Process,Name,Area,Transfer Date" -- Name of columns to exclude from conversion (comma-separated) [String]
+		ColumnNameForCaption = "Site" -- Caption for new column type created after transformation [String]
+		ColumnNameForValue = "Value" -- Caption for new column value created after transformation [String]
+END TRANS_CSV
+---[MCCB2_CSV]---
+BEGIN MCCB2_CSV
+	---Begin Main Query---
+	Using CSV with
+	SELECT
+		Project,
+		Site,
+		[Transfer Date] as Date
+	USING
+		CASE to_string(Process) when '1270' then '1270 MCCB - New' when '1274' then '1274 MCCB - New' else '1272 MCCB - New' end as Project
+	FROM
+		%{TRANS_CSV}
+	WHERE
+		Site not like 'Filename' and Site not like 'RowNumber'
+		AND IsInList(Value, '${MCCB_STATUS2}')
+END MCCB2_CSV
+---[F32DONEMCCB_CSV]---
+BEGIN F32DONEMCCB_CSV
+	---Begin Main Query---
+	Using CSV with
+	SELECT
+		Project,
+		'OSA' as Site,
+		OSACompletedOn as Date
+	USING
+		CASE to_string(Process) when '1270' then '1270 MCCB - Completed' when '1274' then '1274 MCCB - Completed' else '1272 MCCB - Completed' end as Project
+	FROM
+		%{MCCB_CSV}
+	WHERE
+		OSAChange = 'Done'
+END F32DONEMCCB_CSV
+---[F24DONEMCCB_CSV]---
+BEGIN F24DONEMCCB_CSV
+	---Begin Main Query---
+	Using CSV with
+	SELECT
+		Project,
+		'F24' as Site,
+		F24CompletedOn as Date
+	USING
+		CASE to_string(Process) when '1270' then '1270 MCCB - Completed' when '1274' then '1274 MCCB - Completed' else '1272 MCCB - Completed' end as Project
+	FROM
+		%{MCCB_CSV}
+	WHERE
+		F24Change = 'Done'
+END F24DONEMCCB_CSV
+---[F28DONEMCCB_CSV]---
+BEGIN F28DONEMCCB_CSV
+	---Begin Main Query---
+	Using CSV with
+	SELECT
+		Project,
+		'F28' as Site,
+		F28CompletedOn as Date
+	USING
+		CASE to_string(Process) when '1270' then '1270 MCCB - Completed' when '1274' then '1274 MCCB - Completed' else '1272 MCCB - Completed' end as Project
+	FROM
+		%{MCCB_CSV}
+	WHERE
+		F28Change = 'Done'
+END F28DONEMCCB_CSV
+---[MERGEMCCB1_CSV]---
+BEGIN MERGEMCCB1_CSV
+	UseMethod MergeTables with -- **Merge content of two tables by doing an outer join on the column schema (no join done here)**
+		InputFile1 = "%{F32DoneMCCB_CSV}" -- Input CSV File #1 containing table data [String]
+		InputFile2 = "%{F24DoneMCCB_CSV}" -- Input CSV File #2 containing table data [String]
+		AutoDetectColumnTypes = false -- Auto-detect column types before merging [Boolean]
+END MERGEMCCB1_CSV
+---[MERGEMCCB2_CSV]---
+BEGIN MERGEMCCB2_CSV
+	UseMethod MergeTables with -- **Merge content of two tables by doing an outer join on the column schema (no join done here)**
+		InputFile1 = "%{MERGEmccb1_CSV}" -- Input CSV File #1 containing table data [String]
+		InputFile2 = "%{F28DoneMCCB_CSV}" -- Input CSV File #2 containing table data [String]
+		AutoDetectColumnTypes = false -- Auto-detect column types before merging [Boolean]
+END MERGEMCCB2_CSV
+---[F32TIDONE_CSV]---
+BEGIN F32TIDONE_CSV
+	---Begin Main Query---
+	Using LA2REPORT with
+		TableIndex = 4
+	SELECT
+		'Tool Install - Completed' as Project,
+		'F32' as Site,
+		PCAMFinish as Date
+	FROM
+		'${FILEFILTERF32}'
+	WHERE
+		isinlist(Area, '${Area}') and PCAMFinish is not null and IQFinishDate is not null
+END F32TIDONE_CSV
+---[F24TIDONE_CSV]---
+BEGIN F24TIDONE_CSV
+	---Begin Main Query---
+	Using LA2REPORT with
+		TableIndex = 4
+	SELECT
+		'Tool Install - Completed' as Project,
+		'F24' as Site,
+		PCAMFinish as Date
+	FROM
+		'${FILEFILTERF24}'
+	WHERE
+		isinlist(Area, '${Area}') and PCAMFinish is not null and IQFinishDate is not null
+END F24TIDONE_CSV
+---[MERGETIDONE_CSV]---
+BEGIN MERGETIDONE_CSV
+	UseMethod MergeTables with -- **Merge content of two tables by doing an outer join on the column schema (no join done here)**
+		InputFile1 = "%{F32TIDone_CSV}" -- Input CSV File #1 containing table data [String]
+		InputFile2 = "%{F24TIDone_CSV}" -- Input CSV File #2 containing table data [String]
+		AutoDetectColumnTypes = false -- Auto-detect column types before merging [Boolean]
+END MERGETIDONE_CSV
+---[F32TISCHED_CSV]---
+BEGIN F32TISCHED_CSV
+	---Begin Main Query---
+	Using LA2REPORT with
+		TableIndex = 4
+	SELECT
+		'Tool Install - New' as Project,
+		'F32' as Site,
+		SL2Finish as Date
+	FROM
+		'${FILEFILTERF32}'
+	WHERE
+		isinlist(Area, '${Area}') and IQFinishDate is not null
+END F32TISCHED_CSV
+---[F24TISCHED_CSV]---
+BEGIN F24TISCHED_CSV
+	---Begin Main Query---
+	Using LA2REPORT with
+		TableIndex = 4
+	SELECT
+		'Tool Install - New' as Project,
+		'F24' as Site,
+		SL2Finish as Date
+	FROM
+		'${FILEFILTERF24}'
+	WHERE
+		isinlist(Area, '${Area}') and IQFinishDate is not null
+END F24TISCHED_CSV
+---[MERGETISCHED_CSV]---
+BEGIN MERGETISCHED_CSV
+	UseMethod MergeTables with -- **Merge content of two tables by doing an outer join on the column schema (no join done here)**
+		InputFile1 = "%{F32TISched_CSV}" -- Input CSV File #1 containing table data [String]
+		InputFile2 = "%{F24TISched_CSV}" -- Input CSV File #2 containing table data [String]
+		AutoDetectColumnTypes = false -- Auto-detect column types before merging [Boolean]
+END MERGETISCHED_CSV
+---[INCOMING_CSV]---
+BEGIN INCOMING_CSV
+	---Begin Main Query---
+	Using CSV with
+	SELECT
+		'Incoming' as Work, *
+	FROM
+		%{MCCB2_CSV},
+		%{SROPEN_CSV},
+		%{MERGETISched_CSV}
+	WHERE
+		project like '%New'
+END INCOMING_CSV
+---[OUTGOING_CSV]---
+BEGIN OUTGOING_CSV
+	---Begin Main Query---
+	Using CSV with
+	SELECT
+		'Outgoing' as Work, *
+	FROM
+		%{MERGEmccb2_CSV},
+		%{SRclosed_CSV},
+		%{MERGETIDone_CSV}
+	WHERE
+		project like '%Completed'
+END OUTGOING_CSV
+---Begin Main Query---
+Using CSV with
+SELECT
+	*
+FROM
+	%{incoming_csv},%{outgoing_csv}
+---[POST]---
+BEGIN POST
+	---Begin Main Query---
+	Using CSV with
+	SELECT
+		*
+	FROM
+		%{output}
+	WHERE
+		applytimerangefilter(Date, 'last 10 weeks (prev mode)')
+END POST
+</QuerySQL>
+    <ColumnX FieldName="Date" FieldType="String" SortMode="Default" SortOrder="Ascending" SummaryType="Sum" SortBySummaryInfo="false" />
+    <ColumnY FieldName="Work" FieldType="String" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <ColumnData FieldName="COUNT OF" FieldType="Int32" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <XaxisLabelSpacing>1</XaxisLabelSpacing>
+    <ChartType>Spline</ChartType>
+    <RotateXAxisLabels>false</RotateXAxisLabels>
+    <ShowColumnTotals>false</ShowColumnTotals>
+    <Name>Etch TimeLine</Name>
+    <ChartTitle>Etch Incoming vs Outgoing</ChartTitle>
+    <ChartExportSize>600x200</ChartExportSize>
+    <ThresholdLineValue>Mean</ThresholdLineValue>
+    <ShowThresholdLineCaption>false</ShowThresholdLineCaption>
+    <ShowThresholdLineCaptionInLegend>true</ShowThresholdLineCaptionInLegend>
+    <PointSize>5</PointSize>
+    <YAxisRange>0.9min,1.1max</YAxisRange>
+    <TimeIntervalForDateScale>1W</TimeIntervalForDateScale>
+    <DateFormat>Auto</DateFormat>
+    <CustomPalette />
+    <TableData />
+  </MainPivotConfig>
+  <MainPivotConfig Enable="true">
+    <QuerySQL>----------&lt;VARIABLES&gt;------------
+var FILEFILTERD1DSR = "@{D1DSRFILEFILTER}"
+var FILEFILTERVF = "@{VFSRFILEFILTER}"
+var SRSITE = "@{SRSITE}"
+var REQUEST_NAME = "@{REQUEST_NAME}"
+var FILEFILTERF32 = "@{F32TIPRFILEFILTER}"
+var FILEFILTERF24 = "@{F24TIPRFILEFILTER}"
+var FILEFILTERD1C = "@{D1CTIPRFILEFILTER}"
+var FILEFILTERD1D = "@{D1DTIPRFILEFILTER}"
+var TIPRSITE = "@{TIPRSITE}"
+var AREA = "@{LITHOAREA}"
+---[D1DSR_CSV]---
+BEGIN D1DSR_CSV
+	---Begin Main Query---
+	Using CSV with
+	SELECT
+		'D1D' as Site,
+		Sts as Status,
+		Title as Description,
+		RequestDate as Date
+	FROM
+		'${FILEFILTERD1DSR}'
+	WHERE
+		isinlist(Area, '${Area}')
+		AND (Status not like 'rejected' AND Status not like 'resolved')
+END D1DSR_CSV
+---[VF_CSV]---
+BEGIN VF_CSV
+	---Begin Main Query---
+	Using LA2REPORT with
+		TableIndex = 1 -- Index representing the table instance to look for (specify -1 for first non-empty table)
+	SELECT
+		Site,
+		Description,
+		CreatedOn as [Date],
+		State as Status
+	USING
+		EXTRACT_TOKEN(Location, 0, ' ') as Site
+	FROM
+		'${FILEFILTERVF}'
+	WHERE
+		isinlist(Area, '${Area}')
+END VF_CSV
+---[REQUEST_CSV]---
+BEGIN REQUEST_CSV
+	---Begin Main Query---
+	Using CSV with
+	SELECT
+		'${REQUEST_NAME}' as Project,
+		Site,
+		Date
+	FROM
+		${SRSITE}
+END REQUEST_CSV
+---[MCCB_CSV]---
+BEGIN MCCB_CSV
+	---Begin Main Query---
+	SELECT
+		*
+	FROM
+		%{OUTPUT}
+	WHERE
+		isinlist(Area, '${Area}')
+END MCCB_CSV
+---[TRANS_CSV]---
+BEGIN TRANS_CSV
+	UseMethod TransformColumnToRow with -- **Transforms selected table columns into rows**
+		InputFiles = "%{MCCB_CSV}" -- Input files (comma-separated) containing table data [String]
+		ColumnsToConvert = "*" -- Name of columns to convert into rows (comma-separated) [String]
+		ColumnsToExclude = "Process,Name,Area,Transfer Date" -- Name of columns to exclude from conversion (comma-separated) [String]
+		ColumnNameForCaption = "Site" -- Caption for new column type created after transformation [String]
+		ColumnNameForValue = "Value" -- Caption for new column value created after transformation [String]
+END TRANS_CSV
+---[MCCB2_CSV]---
+BEGIN MCCB2_CSV
+	---Begin Main Query---
+	Using CSV with
+	SELECT
+		Project,
+		mccbsite AS Site,
+		[Transfer Date] as Date
+	USING
+		CASE to_string(Process) when '1270' then '1270 MCCB' when '1274' then '1274 MCCB' else '1272 MCCB' end as Project,
+		case Site when 'OSA' then 'F32' else Site end as mccbsite
+	FROM
+		%{TRANS_CSV}
+	WHERE
+		Site not like 'Filename' and Site not like 'RowNumber'
+		AND IsInList(Value, '${MCCB_STATUS}')
+END MCCB2_CSV
+---[F32_CSV]---
+BEGIN F32_CSV
+	---Begin Main Query---
+	Using LA2REPORT with
+		TableIndex = 10 -- Index representing the table instance to look for (specify -1 for first non-empty table)
+	SELECT
+		'F32' as Site,
+		IQFinishDate as Date
+	FROM
+		'${FILEFILTERF32}'
+	WHERE
+		isinlist(Area, '${Area}')
+END F32_CSV
+---[F24_CSV]---
+BEGIN F24_CSV
+	---Begin Main Query---
+	Using LA2REPORT with
+		TableIndex = 10 -- Index representing the table instance to look for (specify -1 for first non-empty table)
+	SELECT
+		'F24' as Site,
+		IQFinishDate as Date
+	FROM
+		'${FILEFILTERF24}'
+	WHERE
+		isinlist(Area, '${Area}')
+END F24_CSV
+---[D1D_CSV]---
+BEGIN D1D_CSV
+	---Begin Main Query---
+	Using CSV with
+	SELECT
+		'D1D' as Site,
+		[SL2 Finish] as Date
+	FROM
+		'${FILEFILTERD1D}'
+	WHERE
+		isinlist(Area, '${Area}')
+END D1D_CSV
+---[D1C_CSV]---
+BEGIN D1C_CSV
+	---Begin Main Query---
+	Using CSV with
+	SELECT
+		'D1C' as Site,
+		[SL2 Finish] as Date
+	FROM
+		${FILEFILTERD1C}
+	WHERE
+		isinlist(Area, '${Area}')
+END D1C_CSV
+---[MERGE_CSV]---
+BEGIN MERGE_CSV
+	UseMethod MergeTables with -- **Merge content of two tables by doing an outer join on the column schema (no join done here)**
+		InputFile1 = "%{F32_CSV}" -- Input CSV File #1 containing table data [String]
+		InputFile2 = "%{F24_CSV}" -- Input CSV File #2 containing table data [String]
+		AutoDetectColumnTypes = false -- Auto-detect column types before merging [Boolean]
+END MERGE_CSV
+---[INSTALL_CSV]---
+BEGIN INSTALL_CSV
+	---Begin Main Query---
+	Using CSV with
+	SELECT
+		'Tool Install' as Project,
+		Site,
+		Date
+	FROM
+		${TIPRSITE}
+END INSTALL_CSV
+---Begin Main Query---
+Using CSV with
+SELECT
+	*
+FROM
+	%{REQUEST_CSV},
+	%{MCCB2_CSV},
+	%{INSTALL_CSV}
+</QuerySQL>
+    <ColumnX FieldName="Site" FieldType="String" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <ColumnY FieldName="Project" FieldType="String" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <ColumnData FieldName="COUNT OF" FieldType="String" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <RotateXAxisLabels>false</RotateXAxisLabels>
+    <ShowColumnTotals>false</ShowColumnTotals>
+    <Name>Litho Summary</Name>
+    <ChartTitle>Litho Open Summary</ChartTitle>
+    <ColorPalette>Office</ColorPalette>
+    <ChartExportSize>600x200</ChartExportSize>
+    <IsYAxisVisible>false</IsYAxisVisible>
+    <CustomPalette />
+    <TableData />
+  </MainPivotConfig>
+  <MainPivotConfig Enable="true">
+    <QuerySQL>----------&lt;VARIABLES&gt;------------
+var FILEFILTERD1DSR = "@{D1DSRFILEFILTER}"
+var FILEFILTERVF = "@{DASHBOARD_PERSIST_DATA}\PCAM\Output\1_ISMP_Request_Query_All.csv"
+var MCCB = "@{DASHBOARD_PERSIST_DATA}\PCAM\Output\1_ALL_MCCB_Data.csv"
+var SRSITE = "@{SRSITE}"
+var REQUEST_NAME = "@{REQUEST_NAME}"
+var FILEFILTERF32 = "@{F32TIPRFILEFILTER}"
+var FILEFILTERF24 = "@{F24TIPRFILEFILTER}"
+var FILEFILTERD1C = "@{D1CTIPRFILEFILTER}"
+var FILEFILTERD1D = "@{D1DTIPRFILEFILTER}"
+var TIPRSITE = "@{TIPRSITE}"
+var AREA = "@{LITHOAREA}"
+var MCCB_STATUS2 = "Active%, ActiveHold%, Proliferation%, Done"
+---[SROPEN_CSV]---
+BEGIN SROPEN_CSV
+	---Begin Main Query---
+	Using CSV with
+	SELECT
+		'Request - New' as Project,
+		Site,
+		CreatedOn as [Date]
+	USING
+		EXTRACT_TOKEN(Location, 0, ' ') as Site
+	FROM
+		'${FILEFILTERVF}'
+	WHERE
+		isinlist(Area, '${Area}')
+END SROPEN_CSV
+---[SRCLOSED_CSV]---
+BEGIN SRCLOSED_CSV
+	---Begin Main Query---
+	Using CSV with
+	SELECT
+		'Request - Completed' as Project,
+		Site,
+		UpdatedOn as [Date]
+	USING
+		EXTRACT_TOKEN(Location, 0, ' ') as Site
+	FROM
+		'${FILEFILTERVF}'
+	WHERE
+		isinlist(Area, '${Area}')
+		and isinlist(State,'%Complete')
+END SRCLOSED_CSV
+---[MCCB_CSV]---
+BEGIN MCCB_CSV
+	---Begin Main Query---
+	Using CSV with
+	SELECT
+		Process,
+		Author,
+		ChangeType as [Change Type],
+		Area,
+		ID,
+		site,
+		Name,
+		CEID,
+		TxfrDate as [Transfer Date],
+		F24tmp as F24Change,
+		F28Change,
+		OSAChange,
+		MCCB,
+		OSACompletedOn,
+		F28CompletedOn,
+		F24CompletedOn
+	USING
+		CASE MCCBSite when '1272' then '1272' when '1274' then '1274' else '1270' end as Process,
+		CASE Process when '1270' then NULL when '1274' then NULL else F24Change end as [F24tmp],
+		CASE MCCBSite when 'Old' then strcat('${1270EOLMCCB}', to_string(Name)) when 'New' then strcat('${1270MCCB}', to_string(Name)) when '1272' then strcat('${1272MCCB}', to_string(Name)) when '1274' then strcat('${1274MCCB}', to_string(Name)) else NULL end as MCCB
+	FROM
+		'${MCCB}'
+	WHERE
+		isinlist(Area, '${Area}')
+	ORDER BY
+		Process, ID desc
+END MCCB_CSV
+---[TRANS_CSV]---
+BEGIN TRANS_CSV
+	UseMethod TransformColumnToRow with -- **Transforms selected table columns into rows**
+		InputFiles = "%{MCCB_CSV}" -- Input files (comma-separated) containing table data [String]
+		ColumnsToConvert = "*" -- Name of columns to convert into rows (comma-separated) [String]
+		ColumnsToExclude = "Process,Name,Area,Transfer Date" -- Name of columns to exclude from conversion (comma-separated) [String]
+		ColumnNameForCaption = "Site" -- Caption for new column type created after transformation [String]
+		ColumnNameForValue = "Value" -- Caption for new column value created after transformation [String]
+END TRANS_CSV
+---[MCCB2_CSV]---
+BEGIN MCCB2_CSV
+	---Begin Main Query---
+	Using CSV with
+	SELECT
+		Project,
+		Site,
+		[Transfer Date] as Date
+	USING
+		CASE to_string(Process) when '1270' then '1270 MCCB - New' when '1274' then '1274 MCCB - New' else '1272 MCCB - New' end as Project
+	FROM
+		%{TRANS_CSV}
+	WHERE
+		Site not like 'Filename' and Site not like 'RowNumber'
+		AND IsInList(Value, '${MCCB_STATUS2}')
+END MCCB2_CSV
+---[F32DONEMCCB_CSV]---
+BEGIN F32DONEMCCB_CSV
+	---Begin Main Query---
+	Using CSV with
+	SELECT
+		Project,
+		'OSA' as Site,
+		OSACompletedOn as Date
+	USING
+		CASE to_string(Process) when '1270' then '1270 MCCB - Completed' when '1274' then '1274 MCCB - Completed' else '1272 MCCB - Completed' end as Project
+	FROM
+		%{MCCB_CSV}
+	WHERE
+		OSAChange = 'Done'
+END F32DONEMCCB_CSV
+---[F24DONEMCCB_CSV]---
+BEGIN F24DONEMCCB_CSV
+	---Begin Main Query---
+	Using CSV with
+	SELECT
+		Project,
+		'F24' as Site,
+		F24CompletedOn as Date
+	USING
+		CASE to_string(Process) when '1270' then '1270 MCCB - Completed' when '1274' then '1274 MCCB - Completed' else '1272 MCCB - Completed' end as Project
+	FROM
+		%{MCCB_CSV}
+	WHERE
+		F24Change = 'Done'
+END F24DONEMCCB_CSV
+---[F28DONEMCCB_CSV]---
+BEGIN F28DONEMCCB_CSV
+	---Begin Main Query---
+	Using CSV with
+	SELECT
+		Project,
+		'F28' as Site,
+		F28CompletedOn as Date
+	USING
+		CASE to_string(Process) when '1270' then '1270 MCCB - Completed' when '1274' then '1274 MCCB - Completed' else '1272 MCCB - Completed' end as Project
+	FROM
+		%{MCCB_CSV}
+	WHERE
+		F28Change = 'Done'
+END F28DONEMCCB_CSV
+---[MERGEMCCB1_CSV]---
+BEGIN MERGEMCCB1_CSV
+	UseMethod MergeTables with -- **Merge content of two tables by doing an outer join on the column schema (no join done here)**
+		InputFile1 = "%{F32DoneMCCB_CSV}" -- Input CSV File #1 containing table data [String]
+		InputFile2 = "%{F24DoneMCCB_CSV}" -- Input CSV File #2 containing table data [String]
+		AutoDetectColumnTypes = false -- Auto-detect column types before merging [Boolean]
+END MERGEMCCB1_CSV
+---[MERGEMCCB2_CSV]---
+BEGIN MERGEMCCB2_CSV
+	UseMethod MergeTables with -- **Merge content of two tables by doing an outer join on the column schema (no join done here)**
+		InputFile1 = "%{MERGEmccb1_CSV}" -- Input CSV File #1 containing table data [String]
+		InputFile2 = "%{F28DoneMCCB_CSV}" -- Input CSV File #2 containing table data [String]
+		AutoDetectColumnTypes = false -- Auto-detect column types before merging [Boolean]
+END MERGEMCCB2_CSV
+---[F32TIDONE_CSV]---
+BEGIN F32TIDONE_CSV
+	---Begin Main Query---
+	Using LA2REPORT with
+		TableIndex = 4
+	SELECT
+		'Tool Install - Completed' as Project,
+		'F32' as Site,
+		PCAMFinish as Date
+	FROM
+		'${FILEFILTERF32}'
+	WHERE
+		isinlist(Area, '${Area}') and PCAMFinish is not null and IQFinishDate is not null
+END F32TIDONE_CSV
+---[F24TIDONE_CSV]---
+BEGIN F24TIDONE_CSV
+	---Begin Main Query---
+	Using LA2REPORT with
+		TableIndex = 4
+	SELECT
+		'Tool Install - Completed' as Project,
+		'F24' as Site,
+		PCAMFinish as Date
+	FROM
+		'${FILEFILTERF24}'
+	WHERE
+		isinlist(Area, '${Area}') and PCAMFinish is not null and IQFinishDate is not null
+END F24TIDONE_CSV
+---[MERGETIDONE_CSV]---
+BEGIN MERGETIDONE_CSV
+	UseMethod MergeTables with -- **Merge content of two tables by doing an outer join on the column schema (no join done here)**
+		InputFile1 = "%{F32TIDone_CSV}" -- Input CSV File #1 containing table data [String]
+		InputFile2 = "%{F24TIDone_CSV}" -- Input CSV File #2 containing table data [String]
+		AutoDetectColumnTypes = false -- Auto-detect column types before merging [Boolean]
+END MERGETIDONE_CSV
+---[F32TISCHED_CSV]---
+BEGIN F32TISCHED_CSV
+	---Begin Main Query---
+	Using LA2REPORT with
+		TableIndex = 4
+	SELECT
+		'Tool Install - New' as Project,
+		'F32' as Site,
+		SL2Finish as Date
+	FROM
+		'${FILEFILTERF32}'
+	WHERE
+		isinlist(Area, '${Area}') and IQFinishDate is not null
+END F32TISCHED_CSV
+---[F24TISCHED_CSV]---
+BEGIN F24TISCHED_CSV
+	---Begin Main Query---
+	Using LA2REPORT with
+		TableIndex = 4
+	SELECT
+		'Tool Install - New' as Project,
+		'F24' as Site,
+		SL2Finish as Date
+	FROM
+		'${FILEFILTERF24}'
+	WHERE
+		isinlist(Area, '${Area}') and IQFinishDate is not null
+END F24TISCHED_CSV
+---[MERGETISCHED_CSV]---
+BEGIN MERGETISCHED_CSV
+	UseMethod MergeTables with -- **Merge content of two tables by doing an outer join on the column schema (no join done here)**
+		InputFile1 = "%{F32TISched_CSV}" -- Input CSV File #1 containing table data [String]
+		InputFile2 = "%{F24TISched_CSV}" -- Input CSV File #2 containing table data [String]
+		AutoDetectColumnTypes = false -- Auto-detect column types before merging [Boolean]
+END MERGETISCHED_CSV
+---[INCOMING_CSV]---
+BEGIN INCOMING_CSV
+	---Begin Main Query---
+	Using CSV with
+	SELECT
+		'Incoming' as Work, *
+	FROM
+		%{MCCB2_CSV},
+		%{SROPEN_CSV},
+		%{MERGETISched_CSV}
+	WHERE
+		project like '%New'
+END INCOMING_CSV
+---[OUTGOING_CSV]---
+BEGIN OUTGOING_CSV
+	---Begin Main Query---
+	Using CSV with
+	SELECT
+		'Outgoing' as Work, *
+	FROM
+		%{MERGEmccb2_CSV},
+		%{SRclosed_CSV},
+		%{MERGETIDone_CSV}
+	WHERE
+		project like '%Completed'
+END OUTGOING_CSV
+---Begin Main Query---
+Using CSV with
+SELECT
+	*
+FROM
+	%{incoming_csv},%{outgoing_csv}
+---[POST]---
+BEGIN POST
+	---Begin Main Query---
+	Using CSV with
+	SELECT
+		*
+	FROM
+		%{output}
+	WHERE
+		applytimerangefilter(Date, 'last 10 weeks (prev mode)')
+END POST
+</QuerySQL>
+    <ColumnX FieldName="Date" FieldType="String" SortMode="Default" SortOrder="Ascending" SummaryType="Sum" SortBySummaryInfo="false" />
+    <ColumnY FieldName="Work" FieldType="String" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <ColumnData FieldName="COUNT OF" FieldType="Int32" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <XaxisLabelSpacing>1</XaxisLabelSpacing>
+    <ChartType>Spline</ChartType>
+    <RotateXAxisLabels>false</RotateXAxisLabels>
+    <ShowColumnTotals>false</ShowColumnTotals>
+    <Name>Litho TimeLine</Name>
+    <ChartTitle>Litho Incoming vs Outgoing</ChartTitle>
+    <ChartExportSize>600x200</ChartExportSize>
+    <ThresholdLineValue>Mean</ThresholdLineValue>
+    <ShowThresholdLineCaption>false</ShowThresholdLineCaption>
+    <ShowThresholdLineCaptionInLegend>true</ShowThresholdLineCaptionInLegend>
+    <PointSize>5</PointSize>
+    <YAxisRange>0.9min,1.1max</YAxisRange>
+    <TimeIntervalForDateScale>1W</TimeIntervalForDateScale>
+    <DateFormat>Auto</DateFormat>
+    <CustomPalette />
+    <TableData />
+  </MainPivotConfig>
+  <MainPivotConfig Enable="true">
+    <QuerySQL>----------&lt;VARIABLES&gt;------------
+var FILEFILTERD1DSR = "@{D1DSRFILEFILTER}"
+var FILEFILTERVF = "@{VFSRFILEFILTER}"
+var SRSITE = "@{SRSITE}"
+var REQUEST_NAME = "@{REQUEST_NAME}"
+var FILEFILTERF32 = "@{F32TIPRFILEFILTER}"
+var FILEFILTERF24 = "@{F24TIPRFILEFILTER}"
+var FILEFILTERD1C = "@{D1CTIPRFILEFILTER}"
+var FILEFILTERD1D = "@{D1DTIPRFILEFILTER}"
+var TIPRSITE = "@{TIPRSITE}"
+var AREA = "@{TFAREA}"
+---[D1DSR_CSV]---
+BEGIN D1DSR_CSV
+	---Begin Main Query---
+	Using CSV with
+	SELECT
+		'D1D' as Site,
+		Sts as Status,
+		Title as Description,
+		RequestDate as Date
+	FROM
+		'${FILEFILTERD1DSR}'
+	WHERE
+		isinlist(Area, '${Area}')
+		AND (Status not like 'rejected' AND Status not like 'resolved')
+END D1DSR_CSV
+---[VF_CSV]---
+BEGIN VF_CSV
+	---Begin Main Query---
+	Using LA2REPORT with
+		TableIndex = 1
+	SELECT
+		Site,
+		Description,
+		CreatedOn as [Date],
+		State as Status
+	USING
+		EXTRACT_TOKEN(Location, 0, ' ') as Site
+	FROM
+		'${FILEFILTERVF}'
+	WHERE
+		isinlist(Area, '${Area}')
+END VF_CSV
+---[REQUEST_CSV]---
+BEGIN REQUEST_CSV
+	---Begin Main Query---
+	Using CSV with
+	SELECT
+		'${REQUEST_NAME}' as Project,
+		Site,
+		Date
+	FROM
+		${SRSITE}
+END REQUEST_CSV
+---[MCCB_CSV]---
+BEGIN MCCB_CSV
+	---Begin Main Query---
+	SELECT
+		*
+	FROM
+		%{OUTPUT}
+	WHERE
+		isinlist(Area, '${Area}')
+END MCCB_CSV
+---[TRANS_CSV]---
+BEGIN TRANS_CSV
+	UseMethod TransformColumnToRow with -- **Transforms selected table columns into rows**
+		InputFiles = "%{MCCB_CSV}" -- Input files (comma-separated) containing table data [String]
+		ColumnsToConvert = "*" -- Name of columns to convert into rows (comma-separated) [String]
+		ColumnsToExclude = "Process,Name,Area,Transfer Date" -- Name of columns to exclude from conversion (comma-separated) [String]
+		ColumnNameForCaption = "Site" -- Caption for new column type created after transformation [String]
+		ColumnNameForValue = "Value" -- Caption for new column value created after transformation [String]
+END TRANS_CSV
+---[MCCB2_CSV]---
+BEGIN MCCB2_CSV
+	---Begin Main Query---
+	Using CSV with
+	SELECT
+		Project,
+		mccbsite AS Site,
+		[Transfer Date] as Date
+	USING
+		CASE to_string(Process) when '1270' then '1270 MCCB' when '1274' then '1274 MCCB' else '1272 MCCB' end as Project,
+		case Site when 'OSA' then 'F32' else Site end as mccbsite
+	FROM
+		%{TRANS_CSV}
+	WHERE
+		Site not like 'Filename' and Site not like 'RowNumber'
+		AND IsInList(Value, '${MCCB_STATUS}')
+END MCCB2_CSV
+---[F32_CSV]---
+BEGIN F32_CSV
+	---Begin Main Query---
+	Using LA2REPORT with
+		TableIndex = 10
+	SELECT
+		'F32' as Site,
+		IQFinishDate as Date
+	FROM
+		'${FILEFILTERF32}'
+	WHERE
+		isinlist(Area, '${Area}')
+END F32_CSV
+---[F24_CSV]---
+BEGIN F24_CSV
+	---Begin Main Query---
+	Using LA2REPORT with
+		TableIndex = 10
+	SELECT
+		'F24' as Site,
+		IQFinishDate as Date
+	FROM
+		'${FILEFILTERF24}'
+	WHERE
+		isinlist(Area, '${Area}')
+END F24_CSV
+---[D1D_CSV]---
+BEGIN D1D_CSV
+	---Begin Main Query---
+	Using CSV with
+	SELECT
+		'D1D' as Site,
+		[SL2 Finish] as Date
+	FROM
+		'${FILEFILTERD1D}'
+	WHERE
+		isinlist(Area, '${Area}')
+END D1D_CSV
+---[D1C_CSV]---
+BEGIN D1C_CSV
+	---Begin Main Query---
+	Using CSV with
+	SELECT
+		'D1C' as Site,
+		[SL2 Finish] as Date
+	FROM
+		${FILEFILTERD1C}
+	WHERE
+		isinlist(Area, '${Area}')
+END D1C_CSV
+---[MERGE_CSV]---
+BEGIN MERGE_CSV
+	UseMethod MergeTables with -- **Merge content of two tables by doing an outer join on the column schema (no join done here)**
+		InputFile1 = "%{F32_CSV}" -- Input CSV File #1 containing table data [String]
+		InputFile2 = "%{F24_CSV}" -- Input CSV File #2 containing table data [String]
+		AutoDetectColumnTypes = false -- Auto-detect column types before merging [Boolean]
+END MERGE_CSV
+---[INSTALL_CSV]---
+BEGIN INSTALL_CSV
+	---Begin Main Query---
+	Using CSV with
+	SELECT
+		'Tool Install' as Project,
+		Site,
+		Date
+	FROM
+		${TIPRSITE}
+END INSTALL_CSV
+---Begin Main Query---
+Using CSV with
+SELECT
+	*
+FROM
+	%{REQUEST_CSV},
+	%{MCCB2_CSV},
+	%{INSTALL_CSV}
+</QuerySQL>
+    <ColumnX FieldName="Site" FieldType="String" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <ColumnY FieldName="Project" FieldType="String" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <ColumnData FieldName="COUNT OF" FieldType="String" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <RotateXAxisLabels>false</RotateXAxisLabels>
+    <ShowColumnTotals>false</ShowColumnTotals>
+    <Name>ThinFilms/TF Metro Summary</Name>
+    <ChartTitle>TMC Open Summary</ChartTitle>
+    <ColorPalette>Office</ColorPalette>
+    <ChartExportSize>600x200</ChartExportSize>
+    <IsYAxisVisible>false</IsYAxisVisible>
+    <CustomPalette />
+    <TableData />
+  </MainPivotConfig>
+  <MainPivotConfig Enable="true">
+    <QuerySQL>----------&lt;VARIABLES&gt;------------
+var FILEFILTERD1DSR = "@{D1DSRFILEFILTER}"
+var FILEFILTERVF = "@{DASHBOARD_PERSIST_DATA}\PCAM\Output\1_ISMP_Request_Query_All.csv"
+var MCCB = "@{DASHBOARD_PERSIST_DATA}\PCAM\Output\1_ALL_MCCB_Data.csv"
+var SRSITE = "@{SRSITE}"
+var REQUEST_NAME = "@{REQUEST_NAME}"
+var FILEFILTERF32 = "@{F32TIPRFILEFILTER}"
+var FILEFILTERF24 = "@{F24TIPRFILEFILTER}"
+var FILEFILTERD1C = "@{D1CTIPRFILEFILTER}"
+var FILEFILTERD1D = "@{D1DTIPRFILEFILTER}"
+var TIPRSITE = "@{TIPRSITE}"
+var AREA = "@{TFAREA}"
+var MCCB_STATUS2 = "Active%, ActiveHold%, Proliferation%, Done"
+---[SROPEN_CSV]---
+BEGIN SROPEN_CSV
+	---Begin Main Query---
+	Using CSV with
+	SELECT
+		'Request - New' as Project,
+		Site,
+		CreatedOn as [Date]
+	USING
+		EXTRACT_TOKEN(Location, 0, ' ') as Site
+	FROM
+		'${FILEFILTERVF}'
+	WHERE
+		isinlist(Area, '${Area}')
+END SROPEN_CSV
+---[SRCLOSED_CSV]---
+BEGIN SRCLOSED_CSV
+	---Begin Main Query---
+	Using CSV with
+	SELECT
+		'Request - Completed' as Project,
+		Site,
+		UpdatedOn as [Date]
+	USING
+		EXTRACT_TOKEN(Location, 0, ' ') as Site
+	FROM
+		'${FILEFILTERVF}'
+	WHERE
+		isinlist(Area, '${Area}')
+		and isinlist(State,'%Complete')
+END SRCLOSED_CSV
+---[MCCB_CSV]---
+BEGIN MCCB_CSV
+	---Begin Main Query---
+	Using CSV with
+	SELECT
+		Process,
+		Author,
+		ChangeType as [Change Type],
+		Area,
+		ID,
+		site,
+		Name,
+		CEID,
+		TxfrDate as [Transfer Date],
+		F24tmp as F24Change,
+		F28Change,
+		OSAChange,
+		MCCB,
+		OSACompletedOn,
+		F28CompletedOn,
+		F24CompletedOn
+	USING
+		CASE MCCBSite when '1272' then '1272' when '1274' then '1274' else '1270' end as Process,
+		CASE Process when '1270' then NULL when '1274' then NULL else F24Change end as [F24tmp],
+		CASE MCCBSite when 'Old' then strcat('${1270EOLMCCB}', to_string(Name)) when 'New' then strcat('${1270MCCB}', to_string(Name)) when '1272' then strcat('${1272MCCB}', to_string(Name)) when '1274' then strcat('${1274MCCB}', to_string(Name)) else NULL end as MCCB
+	FROM
+		'${MCCB}'
+	WHERE
+		isinlist(Area, '${Area}')
+	ORDER BY
+		Process, ID desc
+END MCCB_CSV
+---[TRANS_CSV]---
+BEGIN TRANS_CSV
+	UseMethod TransformColumnToRow with -- **Transforms selected table columns into rows**
+		InputFiles = "%{MCCB_CSV}" -- Input files (comma-separated) containing table data [String]
+		ColumnsToConvert = "*" -- Name of columns to convert into rows (comma-separated) [String]
+		ColumnsToExclude = "Process,Name,Area,Transfer Date" -- Name of columns to exclude from conversion (comma-separated) [String]
+		ColumnNameForCaption = "Site" -- Caption for new column type created after transformation [String]
+		ColumnNameForValue = "Value" -- Caption for new column value created after transformation [String]
+END TRANS_CSV
+---[MCCB2_CSV]---
+BEGIN MCCB2_CSV
+	---Begin Main Query---
+	Using CSV with
+	SELECT
+		Project,
+		Site,
+		[Transfer Date] as Date
+	USING
+		CASE to_string(Process) when '1270' then '1270 MCCB - New' when '1274' then '1274 MCCB - New' else '1272 MCCB - New' end as Project
+	FROM
+		%{TRANS_CSV}
+	WHERE
+		Site not like 'Filename' and Site not like 'RowNumber'
+		AND IsInList(Value, '${MCCB_STATUS2}')
+END MCCB2_CSV
+---[F32DONEMCCB_CSV]---
+BEGIN F32DONEMCCB_CSV
+	---Begin Main Query---
+	Using CSV with
+	SELECT
+		Project,
+		'OSA' as Site,
+		OSACompletedOn as Date
+	USING
+		CASE to_string(Process) when '1270' then '1270 MCCB - Completed' when '1274' then '1274 MCCB - Completed' else '1272 MCCB - Completed' end as Project
+	FROM
+		%{MCCB_CSV}
+	WHERE
+		OSAChange = 'Done'
+END F32DONEMCCB_CSV
+---[F24DONEMCCB_CSV]---
+BEGIN F24DONEMCCB_CSV
+	---Begin Main Query---
+	Using CSV with
+	SELECT
+		Project,
+		'F24' as Site,
+		F24CompletedOn as Date
+	USING
+		CASE to_string(Process) when '1270' then '1270 MCCB - Completed' when '1274' then '1274 MCCB - Completed' else '1272 MCCB - Completed' end as Project
+	FROM
+		%{MCCB_CSV}
+	WHERE
+		F24Change = 'Done'
+END F24DONEMCCB_CSV
+---[F28DONEMCCB_CSV]---
+BEGIN F28DONEMCCB_CSV
+	---Begin Main Query---
+	Using CSV with
+	SELECT
+		Project,
+		'F28' as Site,
+		F28CompletedOn as Date
+	USING
+		CASE to_string(Process) when '1270' then '1270 MCCB - Completed' when '1274' then '1274 MCCB - Completed' else '1272 MCCB - Completed' end as Project
+	FROM
+		%{MCCB_CSV}
+	WHERE
+		F28Change = 'Done'
+END F28DONEMCCB_CSV
+---[MERGEMCCB1_CSV]---
+BEGIN MERGEMCCB1_CSV
+	UseMethod MergeTables with -- **Merge content of two tables by doing an outer join on the column schema (no join done here)**
+		InputFile1 = "%{F32DoneMCCB_CSV}" -- Input CSV File #1 containing table data [String]
+		InputFile2 = "%{F24DoneMCCB_CSV}" -- Input CSV File #2 containing table data [String]
+		AutoDetectColumnTypes = false -- Auto-detect column types before merging [Boolean]
+END MERGEMCCB1_CSV
+---[MERGEMCCB2_CSV]---
+BEGIN MERGEMCCB2_CSV
+	UseMethod MergeTables with -- **Merge content of two tables by doing an outer join on the column schema (no join done here)**
+		InputFile1 = "%{MERGEmccb1_CSV}" -- Input CSV File #1 containing table data [String]
+		InputFile2 = "%{F28DoneMCCB_CSV}" -- Input CSV File #2 containing table data [String]
+		AutoDetectColumnTypes = false -- Auto-detect column types before merging [Boolean]
+END MERGEMCCB2_CSV
+---[F32TIDONE_CSV]---
+BEGIN F32TIDONE_CSV
+	---Begin Main Query---
+	Using LA2REPORT with
+		TableIndex = 4
+	SELECT
+		'Tool Install - Completed' as Project,
+		'F32' as Site,
+		PCAMFinish as Date
+	FROM
+		'${FILEFILTERF32}'
+	WHERE
+		isinlist(Area, '${Area}') and PCAMFinish is not null and IQFinishDate is not null
+END F32TIDONE_CSV
+---[F24TIDONE_CSV]---
+BEGIN F24TIDONE_CSV
+	---Begin Main Query---
+	Using LA2REPORT with
+		TableIndex = 4
+	SELECT
+		'Tool Install - Completed' as Project,
+		'F24' as Site,
+		PCAMFinish as Date
+	FROM
+		'${FILEFILTERF24}'
+	WHERE
+		isinlist(Area, '${Area}') and PCAMFinish is not null and IQFinishDate is not null
+END F24TIDONE_CSV
+---[MERGETIDONE_CSV]---
+BEGIN MERGETIDONE_CSV
+	UseMethod MergeTables with -- **Merge content of two tables by doing an outer join on the column schema (no join done here)**
+		InputFile1 = "%{F32TIDone_CSV}" -- Input CSV File #1 containing table data [String]
+		InputFile2 = "%{F24TIDone_CSV}" -- Input CSV File #2 containing table data [String]
+		AutoDetectColumnTypes = false -- Auto-detect column types before merging [Boolean]
+END MERGETIDONE_CSV
+---[F32TISCHED_CSV]---
+BEGIN F32TISCHED_CSV
+	---Begin Main Query---
+	Using LA2REPORT with
+		TableIndex = 4
+	SELECT
+		'Tool Install - New' as Project,
+		'F32' as Site,
+		SL2Finish as Date
+	FROM
+		'${FILEFILTERF32}'
+	WHERE
+		isinlist(Area, '${Area}') and IQFinishDate is not null
+END F32TISCHED_CSV
+---[F24TISCHED_CSV]---
+BEGIN F24TISCHED_CSV
+	---Begin Main Query---
+	Using LA2REPORT with
+		TableIndex = 4
+	SELECT
+		'Tool Install - New' as Project,
+		'F24' as Site,
+		SL2Finish as Date
+	FROM
+		'${FILEFILTERF24}'
+	WHERE
+		isinlist(Area, '${Area}') and IQFinishDate is not null
+END F24TISCHED_CSV
+---[MERGETISCHED_CSV]---
+BEGIN MERGETISCHED_CSV
+	UseMethod MergeTables with -- **Merge content of two tables by doing an outer join on the column schema (no join done here)**
+		InputFile1 = "%{F32TISched_CSV}" -- Input CSV File #1 containing table data [String]
+		InputFile2 = "%{F24TISched_CSV}" -- Input CSV File #2 containing table data [String]
+		AutoDetectColumnTypes = false -- Auto-detect column types before merging [Boolean]
+END MERGETISCHED_CSV
+---[INCOMING_CSV]---
+BEGIN INCOMING_CSV
+	---Begin Main Query---
+	Using CSV with
+	SELECT
+		'Incoming' as Work, *
+	FROM
+		%{MCCB2_CSV},
+		%{SROPEN_CSV},
+		%{MERGETISched_CSV}
+	WHERE
+		project like '%New'
+END INCOMING_CSV
+---[OUTGOING_CSV]---
+BEGIN OUTGOING_CSV
+	---Begin Main Query---
+	Using CSV with
+	SELECT
+		'Outgoing' as Work, *
+	FROM
+		%{MERGEmccb2_CSV},
+		%{SRclosed_CSV},
+		%{MERGETIDone_CSV}
+	WHERE
+		project like '%Completed'
+END OUTGOING_CSV
+---Begin Main Query---
+Using CSV with
+SELECT
+	*
+FROM
+	%{incoming_csv},%{outgoing_csv}
+---[POST]---
+BEGIN POST
+	---Begin Main Query---
+	Using CSV with
+	SELECT
+		*
+	FROM
+		%{output}
+	WHERE
+		applytimerangefilter(Date, 'last 10 weeks (prev mode)')
+END POST
+</QuerySQL>
+    <ColumnX FieldName="Date" FieldType="String" SortMode="Default" SortOrder="Ascending" SummaryType="Sum" SortBySummaryInfo="false" />
+    <ColumnY FieldName="Work" FieldType="String" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <ColumnData FieldName="COUNT OF" FieldType="Int32" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <XaxisLabelSpacing>1</XaxisLabelSpacing>
+    <ChartType>Spline</ChartType>
+    <RotateXAxisLabels>false</RotateXAxisLabels>
+    <ShowColumnTotals>false</ShowColumnTotals>
+    <Name>ThinFilms/TF Metro Timeline</Name>
+    <ChartTitle>TMC Incoming vs Outgoing</ChartTitle>
+    <ChartExportSize>600x200</ChartExportSize>
+    <ThresholdLineValue>Mean</ThresholdLineValue>
+    <ShowThresholdLineCaption>false</ShowThresholdLineCaption>
+    <ShowThresholdLineCaptionInLegend>true</ShowThresholdLineCaptionInLegend>
+    <PointSize>5</PointSize>
+    <YAxisRange>0.9min,1.1max</YAxisRange>
+    <TimeIntervalForDateScale>1W</TimeIntervalForDateScale>
+    <DateFormat>Auto</DateFormat>
+    <CustomPalette />
+    <TableData />
+  </MainPivotConfig>
+  <MainPivotConfig Enable="true">
+    <QuerySQL>----------&lt;VARIABLES&gt;------------
+var FILEFILTERD1DSR = "@{D1DSRFILEFILTER}"
+var FILEFILTERVF = "@{DASHBOARD_PERSIST_DATA}\PCAM\Output\1_ISMP_Request_Query_All.csv"
+var MCCB = "@{DASHBOARD_PERSIST_DATA}\PCAM\Output\1_ALL_MCCB_Data.csv"
+var SRSITE = "@{SRSITE}"
+var REQUEST_NAME = "@{REQUEST_NAME}"
+var FILEFILTERF32 = "@{F32TIPRFILEFILTER}"
+var FILEFILTERF24 = "@{F24TIPRFILEFILTER}"
+var FILEFILTERD1C = "@{D1CTIPRFILEFILTER}"
+var FILEFILTERD1D = "@{D1DTIPRFILEFILTER}"
+var TIPRSITE = "@{TIPRSITE}"
+var AREA = "@{DIFFIMPAREA}"
+var MCCB_STATUS2 = "Active%, ActiveHold%, Proliferation%, Done"
+---[SRCLOSED_CSV]---
+BEGIN SRCLOSED_CSV
+	---Begin Main Query---
+	Using CSV with
+	SELECT
+		'Request - Completed' as Project,
+		Site,
+		AssignedTo as Resource,
+		UpdatedOn as [Date]
+	USING
+		EXTRACT_TOKEN(Location, 0, ' ') as Site
+	FROM
+		'${FILEFILTERVF}'
+	WHERE
+		isinlist(Area, '${Area}')
+		and isinlist(State,'%Complete')
+END SRCLOSED_CSV
+---[MCCB_CSV]---
+BEGIN MCCB_CSV
+	---Begin Main Query---
+	Using CSV with
+	SELECT
+		Process,
+		Author,
+		ChangeType as [Change Type],
+		Area,
+		ID,
+		site,
+		Name,
+		CEID,
+		TxfrDate as [Transfer Date],
+		F24tmp as F24Change,
+		F28Change,
+		OSAChange,
+		MCCB,
+		OSACompletedOn,
+		F28CompletedOn,
+		F24CompletedOn,
+		OSACompletedBy,
+		F28CompletedBy,
+		F24CompletedBy
+	USING
+		CASE MCCBSite when '1272' then '1272' when '1274' then '1274'else '1270' end as Process,
+		CASE Process when '1270' then NULL when '1274' then NULL else F24Change end as [F24tmp],
+		CASE MCCBSite when 'Old' then strcat('${1270EOLMCCB}', to_string(Name)) when 'New' then strcat('${1270MCCB}', to_string(Name)) when '1272' then strcat('${1272MCCB}', to_string(Name)) when '1274' then strcat('${1274MCCB}', to_string(Name)) else NULL end as MCCB
+	FROM
+		'${MCCB}'
+	WHERE
+		isinlist(Area, '${Area}')
+	ORDER BY
+		Process, ID desc
+END MCCB_CSV
+---[F32DONEMCCB_CSV]---
+BEGIN F32DONEMCCB_CSV
+	---Begin Main Query---
+	Using CSV with
+	SELECT
+		Project,
+		'OSA' as Site,
+		OSACompletedBy as Resource,
+		OSACompletedOn as Date
+	USING
+		CASE to_string(Process) when '1270' then '1270 MCCB - Completed' when '1274' then '1274 MCCB - Completed' else '1272 MCCB - Completed' end as Project
+	FROM
+		%{MCCB_CSV}
+	WHERE
+		OSAChange = 'Done'
+END F32DONEMCCB_CSV
+---[F24DONEMCCB_CSV]---
+BEGIN F24DONEMCCB_CSV
+	---Begin Main Query---
+	Using CSV with
+	SELECT
+		Project,
+		'F24' as Site,
+		F24CompletedBy as Resource,
+		F24CompletedOn as Date
+	USING
+		CASE to_string(Process) when '1270' then '1270 MCCB - Completed' when '1274' then '1274 MCCB - Completed' else '1272 MCCB - Completed' end as Project
+	FROM
+		%{MCCB_CSV}
+	WHERE
+		F24Change = 'Done'
+END F24DONEMCCB_CSV
+---[F28DONEMCCB_CSV]---
+BEGIN F28DONEMCCB_CSV
+	---Begin Main Query---
+	Using CSV with
+	SELECT
+		Project,
+		'F28' as Site,
+		F28CompletedBy as Resource,
+		F28CompletedOn as Date
+	USING
+		CASE to_string(Process) when '1270' then '1270 MCCB - Completed' when '1274' then '1274 MCCB - Completed' else '1272 MCCB - Completed' end as Project
+	FROM
+		%{MCCB_CSV}
+	WHERE
+		F28Change = 'Done'
+END F28DONEMCCB_CSV
+---[MERGEMCCB1_CSV]---
+BEGIN MERGEMCCB1_CSV
+	UseMethod MergeTables with -- **Merge content of two tables by doing an outer join on the column schema (no join done here)**
+		InputFile1 = "%{F32DoneMCCB_CSV}" -- Input CSV File #1 containing table data [String]
+		InputFile2 = "%{F24DoneMCCB_CSV}" -- Input CSV File #2 containing table data [String]
+		AutoDetectColumnTypes = false -- Auto-detect column types before merging [Boolean]
+END MERGEMCCB1_CSV
+---[MERGEMCCB2_CSV]---
+BEGIN MERGEMCCB2_CSV
+	UseMethod MergeTables with -- **Merge content of two tables by doing an outer join on the column schema (no join done here)**
+		InputFile1 = "%{MERGEmccb1_CSV}" -- Input CSV File #1 containing table data [String]
+		InputFile2 = "%{F28DoneMCCB_CSV}" -- Input CSV File #2 containing table data [String]
+		AutoDetectColumnTypes = false -- Auto-detect column types before merging [Boolean]
+END MERGEMCCB2_CSV
+---[F32TIDONE_CSV]---
+BEGIN F32TIDONE_CSV
+	---Begin Main Query---
+	Using LA2REPORT with
+		TableIndex = 4
+	SELECT
+		'Tool Install - Completed' as Project,
+		'F32' as Site,
+		PFI as Resource,
+		PCAMFinish as Date
+	FROM
+		'${FILEFILTERF32}'
+	WHERE
+		isinlist(Area, '${Area}') and PCAMFinish is not null and IQFinishDate is not null
+END F32TIDONE_CSV
+---[F24TIDONE_CSV]---
+BEGIN F24TIDONE_CSV
+	---Begin Main Query---
+	Using LA2REPORT with
+		TableIndex = 4
+	SELECT
+		'Tool Install - Completed' as Project,
+		'F24' as Site,
+		PFI as Resource,
+		PCAMFinish as Date
+	FROM
+		'${FILEFILTERF24}'
+	WHERE
+		isinlist(Area, '${Area}') and PCAMFinish is not null and IQFinishDate is not null
+END F24TIDONE_CSV
+---[MERGETIDONE_CSV]---
+BEGIN MERGETIDONE_CSV
+	UseMethod MergeTables with -- **Merge content of two tables by doing an outer join on the column schema (no join done here)**
+		InputFile1 = "%{F32TIDone_CSV}" -- Input CSV File #1 containing table data [String]
+		InputFile2 = "%{F24TIDone_CSV}" -- Input CSV File #2 containing table data [String]
+		AutoDetectColumnTypes = false -- Auto-detect column types before merging [Boolean]
+END MERGETIDONE_CSV
+---[OUTGOING_CSV]---
+BEGIN OUTGOING_CSV
+	---Begin Main Query---
+	Using CSV with
+	SELECT
+		*
+	FROM
+		%{MERGEmccb2_CSV},
+		%{SRclosed_CSV},
+		%{MERGETIDone_CSV}
+	WHERE
+		project like '%Completed'
+END OUTGOING_CSV
+---Begin Main Query---
+Using CSV with
+SELECT
+	*
+FROM
+	%{outgoing_csv}
+---[POST]---
+BEGIN POST
+	---Begin Main Query---
+	SELECT
+		distinct
+		WW,
+		Resource
+	USING
+		to_la2date(Date, 'ww') as WW
+	FROM
+		%{output}
+	WHERE
+		ApplyTimeRangeFilter(Date, 'last 10 weeks (prev mode)')
+		AND ApplyEndTimeFilter(Date, 'last 1 week (prev mode)')
+		and Resource is not null
+END POST
+</QuerySQL>
+    <ColumnX FieldName="WW" FieldType="String" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <ColumnY FieldName="" FieldType="" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <ColumnData FieldName="COUNT OF" FieldType="String" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <XaxisLabelSpacing>1</XaxisLabelSpacing>
+    <ChartType>Spline</ChartType>
+    <RotateXAxisLabels>false</RotateXAxisLabels>
+    <Name>DIP Resources</Name>
+    <ChartTitle>DIP Resources Used</ChartTitle>
+    <ChartExportSize>600x200</ChartExportSize>
+    <ThresholdLineValue>Mean</ThresholdLineValue>
+    <ShowThresholdLineCaptionInLegend>true</ShowThresholdLineCaptionInLegend>
+    <ShowLegend>false</ShowLegend>
+    <PointSize>5</PointSize>
+    <YAxisRange>0.9min,1.1max</YAxisRange>
+    <TimeIntervalForDateScale>1W</TimeIntervalForDateScale>
+    <DateFormat>Auto</DateFormat>
+    <CustomPalette />
+    <TableData />
+  </MainPivotConfig>
+  <MainPivotConfig Enable="true">
+    <QuerySQL>----------&lt;VARIABLES&gt;------------
+var FILEFILTERD1DSR = "@{D1DSRFILEFILTER}"
+var FILEFILTERVF = "@{DASHBOARD_PERSIST_DATA}\PCAM\Output\1_ISMP_Request_Query_All.csv"
+var MCCB = "@{DASHBOARD_PERSIST_DATA}\PCAM\Output\1_ALL_MCCB_Data.csv"
+var SRSITE = "@{SRSITE}"
+var REQUEST_NAME = "@{REQUEST_NAME}"
+var FILEFILTERF32 = "@{F32TIPRFILEFILTER}"
+var FILEFILTERF24 = "@{F24TIPRFILEFILTER}"
+var FILEFILTERD1C = "@{D1CTIPRFILEFILTER}"
+var FILEFILTERD1D = "@{D1DTIPRFILEFILTER}"
+var TIPRSITE = "@{TIPRSITE}"
+var AREA = "@{EtchAREA}"
+var MCCB_STATUS2 = "Active%, ActiveHold%, Proliferation%, Done"
+---[SRCLOSED_CSV]---
+BEGIN SRCLOSED_CSV
+	---Begin Main Query---
+	Using CSV with
+	SELECT
+		'Request - Completed' as Project,
+		Site,
+		AssignedTo as Resource,
+		UpdatedOn as [Date]
+	USING
+		EXTRACT_TOKEN(Location, 0, ' ') as Site
+	FROM
+		'${FILEFILTERVF}'
+	WHERE
+		isinlist(Area, '${Area}')
+		and isinlist(State,'%Complete')
+END SRCLOSED_CSV
+---[MCCB_CSV]---
+BEGIN MCCB_CSV
+	---Begin Main Query---
+	Using CSV with
+	SELECT
+		Process,
+		Author,
+		ChangeType as [Change Type],
+		Area,
+		ID,
+		site,
+		Name,
+		CEID,
+		TxfrDate as [Transfer Date],
+		F24tmp as F24Change,
+		F28Change,
+		OSAChange,
+		MCCB,
+		OSACompletedOn,
+		F28CompletedOn,
+		F24CompletedOn,
+		OSACompletedBy,
+		F28CompletedBy,
+		F24CompletedBy
+	USING
+		CASE MCCBSite when '1272' then '1272' when '1274' then '1274' else '1270' end as Process,
+		CASE Process when '1270' then NULL when '1274' then NULL else F24Change end as [F24tmp],
+		CASE MCCBSite when 'Old' then strcat('${1270EOLMCCB}', to_string(Name)) when 'New' then strcat('${1270MCCB}', to_string(Name)) when '1272' then strcat('${1272MCCB}', to_string(Name)) when '1274' then strcat('${1274MCCB}', to_string(Name)) else NULL end as MCCB
+	FROM
+		'${MCCB}'
+	WHERE
+		isinlist(Area, '${Area}')
+	ORDER BY
+		Process, ID desc
+END MCCB_CSV
+---[F32DONEMCCB_CSV]---
+BEGIN F32DONEMCCB_CSV
+	---Begin Main Query---
+	Using CSV with
+	SELECT
+		Project,
+		'OSA' as Site,
+		OSACompletedBy as Resource,
+		OSACompletedOn as Date
+	USING
+		CASE to_string(Process) when '1270' then '1270 MCCB - Completed' when '1274' then '1274 MCCB - Completed' else '1272 MCCB - Completed' end as Project
+	FROM
+		%{MCCB_CSV}
+	WHERE
+		OSAChange = 'Done'
+END F32DONEMCCB_CSV
+---[F24DONEMCCB_CSV]---
+BEGIN F24DONEMCCB_CSV
+	---Begin Main Query---
+	Using CSV with
+	SELECT
+		Project,
+		'F24' as Site,
+		F24CompletedBy as Resource,
+		F24CompletedOn as Date
+	USING
+		CASE to_string(Process) when '1270' then '1270 MCCB - Completed' when '1274' then '1274 MCCB - Completed' else '1272 MCCB - Completed' end as Project
+	FROM
+		%{MCCB_CSV}
+	WHERE
+		F24Change = 'Done'
+END F24DONEMCCB_CSV
+---[F28DONEMCCB_CSV]---
+BEGIN F28DONEMCCB_CSV
+	---Begin Main Query---
+	Using CSV with
+	SELECT
+		Project,
+		'F28' as Site,
+		F28CompletedBy as Resource,
+		F28CompletedOn as Date
+	USING
+		CASE to_string(Process) when '1270' then '1270 MCCB - Completed' when '1274' then '1274 MCCB - Completed' else '1272 MCCB - Completed' end as Project
+	FROM
+		%{MCCB_CSV}
+	WHERE
+		F28Change = 'Done'
+END F28DONEMCCB_CSV
+---[MERGEMCCB1_CSV]---
+BEGIN MERGEMCCB1_CSV
+	UseMethod MergeTables with -- **Merge content of two tables by doing an outer join on the column schema (no join done here)**
+		InputFile1 = "%{F32DoneMCCB_CSV}" -- Input CSV File #1 containing table data [String]
+		InputFile2 = "%{F24DoneMCCB_CSV}" -- Input CSV File #2 containing table data [String]
+		AutoDetectColumnTypes = false -- Auto-detect column types before merging [Boolean]
+END MERGEMCCB1_CSV
+---[MERGEMCCB2_CSV]---
+BEGIN MERGEMCCB2_CSV
+	UseMethod MergeTables with -- **Merge content of two tables by doing an outer join on the column schema (no join done here)**
+		InputFile1 = "%{MERGEmccb1_CSV}" -- Input CSV File #1 containing table data [String]
+		InputFile2 = "%{F28DoneMCCB_CSV}" -- Input CSV File #2 containing table data [String]
+		AutoDetectColumnTypes = false -- Auto-detect column types before merging [Boolean]
+END MERGEMCCB2_CSV
+---[F32TIDONE_CSV]---
+BEGIN F32TIDONE_CSV
+	---Begin Main Query---
+	Using LA2REPORT with
+		TableIndex = 4
+	SELECT
+		'Tool Install - Completed' as Project,
+		'F32' as Site,
+		PFI as Resource,
+		PCAMFinish as Date
+	FROM
+		'${FILEFILTERF32}'
+	WHERE
+		isinlist(Area, '${Area}') and PCAMFinish is not null and IQFinishDate is not null
+END F32TIDONE_CSV
+---[F24TIDONE_CSV]---
+BEGIN F24TIDONE_CSV
+	---Begin Main Query---
+	Using LA2REPORT with
+		TableIndex = 4
+	SELECT
+		'Tool Install - Completed' as Project,
+		'F24' as Site,
+		PFI as Resource,
+		PCAMFinish as Date
+	FROM
+		'${FILEFILTERF24}'
+	WHERE
+		isinlist(Area, '${Area}') and PCAMFinish is not null and IQFinishDate is not null
+END F24TIDONE_CSV
+---[MERGETIDONE_CSV]---
+BEGIN MERGETIDONE_CSV
+	UseMethod MergeTables with -- **Merge content of two tables by doing an outer join on the column schema (no join done here)**
+		InputFile1 = "%{F32TIDone_CSV}" -- Input CSV File #1 containing table data [String]
+		InputFile2 = "%{F24TIDone_CSV}" -- Input CSV File #2 containing table data [String]
+		AutoDetectColumnTypes = false -- Auto-detect column types before merging [Boolean]
+END MERGETIDONE_CSV
+---[OUTGOING_CSV]---
+BEGIN OUTGOING_CSV
+	---Begin Main Query---
+	Using CSV with
+	SELECT
+		*
+	FROM
+		%{MERGEmccb2_CSV},
+		%{SRclosed_CSV},
+		%{MERGETIDone_CSV}
+	WHERE
+		project like '%Completed'
+END OUTGOING_CSV
+---Begin Main Query---
+Using CSV with
+SELECT
+	*
+FROM
+	%{outgoing_csv}
+---[POST]---
+BEGIN POST
+	---Begin Main Query---
+	SELECT
+		distinct
+		WW,
+		Resource
+	USING
+		to_la2date(Date, 'ww') as WW
+	FROM
+		%{output}
+	WHERE
+		ApplyTimeRangeFilter(Date, 'last 10 weeks (prev mode)')
+		AND ApplyEndTimeFilter(Date, 'last 1 week (prev mode)')
+		and Resource is not null
+END POST
+</QuerySQL>
+    <ColumnX FieldName="WW" FieldType="String" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <ColumnY FieldName="" FieldType="" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <ColumnData FieldName="COUNT OF" FieldType="String" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <XaxisLabelSpacing>1</XaxisLabelSpacing>
+    <ChartType>Spline</ChartType>
+    <RotateXAxisLabels>false</RotateXAxisLabels>
+    <Name>Etch Resources</Name>
+    <ChartTitle>Etch Resources Used</ChartTitle>
+    <ChartExportSize>600x200</ChartExportSize>
+    <ThresholdLineValue>Mean</ThresholdLineValue>
+    <ShowThresholdLineCaptionInLegend>true</ShowThresholdLineCaptionInLegend>
+    <ShowLegend>false</ShowLegend>
+    <PointSize>5</PointSize>
+    <YAxisRange>0.9min,1.1max</YAxisRange>
+    <TimeIntervalForDateScale>1W</TimeIntervalForDateScale>
+    <DateFormat>Auto</DateFormat>
+    <CustomPalette />
+    <TableData />
+  </MainPivotConfig>
+  <MainPivotConfig Enable="true">
+    <QuerySQL>----------&lt;VARIABLES&gt;------------
+var FILEFILTERD1DSR = "@{D1DSRFILEFILTER}"
+var FILEFILTERVF = "@{DASHBOARD_PERSIST_DATA}\PCAM\Output\1_ISMP_Request_Query_All.csv"
+var MCCB = "@{DASHBOARD_PERSIST_DATA}\PCAM\Output\1_ALL_MCCB_Data.csv"
+var SRSITE = "@{SRSITE}"
+var REQUEST_NAME = "@{REQUEST_NAME}"
+var FILEFILTERF32 = "@{F32TIPRFILEFILTER}"
+var FILEFILTERF24 = "@{F24TIPRFILEFILTER}"
+var FILEFILTERD1C = "@{D1CTIPRFILEFILTER}"
+var FILEFILTERD1D = "@{D1DTIPRFILEFILTER}"
+var TIPRSITE = "@{TIPRSITE}"
+var AREA = "@{LithoAREA}"
+var MCCB_STATUS2 = "Active%, ActiveHold%, Proliferation%, Done"
+---[SRCLOSED_CSV]---
+BEGIN SRCLOSED_CSV
+	---Begin Main Query---
+	Using CSV with
+	SELECT
+		'Request - Completed' as Project,
+		Site,
+		AssignedTo as Resource,
+		UpdatedOn as [Date]
+	USING
+		EXTRACT_TOKEN(Location, 0, ' ') as Site
+	FROM
+		'${FILEFILTERVF}'
+	WHERE
+		isinlist(Area, '${Area}')
+		and isinlist(State,'%Complete')
+END SRCLOSED_CSV
+---[MCCB_CSV]---
+BEGIN MCCB_CSV
+	---Begin Main Query---
+	Using CSV with
+	SELECT
+		Process,
+		Author,
+		ChangeType as [Change Type],
+		Area,
+		ID,
+		site,
+		Name,
+		CEID,
+		TxfrDate as [Transfer Date],
+		F24tmp as F24Change,
+		F28Change,
+		OSAChange,
+		MCCB,
+		OSACompletedOn,
+		F28CompletedOn,
+		F24CompletedOn,
+		OSACompletedBy,
+		F28CompletedBy,
+		F24CompletedBy
+	USING
+		CASE MCCBSite when '1272' then '1272' when '1274' then '1274' else '1270' end as Process,
+		CASE Process when '1270' then NULL when '1274' then NULL else F24Change end as [F24tmp],
+		CASE MCCBSite when 'Old' then strcat('${1270EOLMCCB}', to_string(Name)) when 'New' then strcat('${1270MCCB}', to_string(Name)) when '1272' then strcat('${1272MCCB}', to_string(Name)) when '1274' then strcat('${1274MCCB}', to_string(Name)) else NULL end as MCCB
+	FROM
+		'${MCCB}'
+	WHERE
+		isinlist(Area, '${Area}')
+	ORDER BY
+		Process, ID desc
+END MCCB_CSV
+---[F32DONEMCCB_CSV]---
+BEGIN F32DONEMCCB_CSV
+	---Begin Main Query---
+	Using CSV with
+	SELECT
+		Project,
+		'OSA' as Site,
+		OSACompletedBy as Resource,
+		OSACompletedOn as Date
+	USING
+		CASE to_string(Process) when '1270' then '1270 MCCB - Completed' when '1274' then '1274 MCCB - Completed' else '1272 MCCB - Completed' end as Project
+	FROM
+		%{MCCB_CSV}
+	WHERE
+		OSAChange = 'Done'
+END F32DONEMCCB_CSV
+---[F24DONEMCCB_CSV]---
+BEGIN F24DONEMCCB_CSV
+	---Begin Main Query---
+	Using CSV with
+	SELECT
+		Project,
+		'F24' as Site,
+		F24CompletedBy as Resource,
+		F24CompletedOn as Date
+	USING
+		CASE to_string(Process) when '1270' then '1270 MCCB - Completed' when '1274' then '1274 MCCB - Completed' else '1272 MCCB - Completed' end as Project
+	FROM
+		%{MCCB_CSV}
+	WHERE
+		F24Change = 'Done'
+END F24DONEMCCB_CSV
+---[F28DONEMCCB_CSV]---
+BEGIN F28DONEMCCB_CSV
+	---Begin Main Query---
+	Using CSV with
+	SELECT
+		Project,
+		'F28' as Site,
+		F28CompletedBy as Resource,
+		F28CompletedOn as Date
+	USING
+		CASE to_string(Process) when '1270' then '1270 MCCB - Completed' when '1274' then '1274 MCCB - Completed' else '1272 MCCB - Completed' end as Project
+	FROM
+		%{MCCB_CSV}
+	WHERE
+		F28Change = 'Done'
+END F28DONEMCCB_CSV
+---[MERGEMCCB1_CSV]---
+BEGIN MERGEMCCB1_CSV
+	UseMethod MergeTables with -- **Merge content of two tables by doing an outer join on the column schema (no join done here)**
+		InputFile1 = "%{F32DoneMCCB_CSV}" -- Input CSV File #1 containing table data [String]
+		InputFile2 = "%{F24DoneMCCB_CSV}" -- Input CSV File #2 containing table data [String]
+		AutoDetectColumnTypes = false -- Auto-detect column types before merging [Boolean]
+END MERGEMCCB1_CSV
+---[MERGEMCCB2_CSV]---
+BEGIN MERGEMCCB2_CSV
+	UseMethod MergeTables with -- **Merge content of two tables by doing an outer join on the column schema (no join done here)**
+		InputFile1 = "%{MERGEmccb1_CSV}" -- Input CSV File #1 containing table data [String]
+		InputFile2 = "%{F28DoneMCCB_CSV}" -- Input CSV File #2 containing table data [String]
+		AutoDetectColumnTypes = false -- Auto-detect column types before merging [Boolean]
+END MERGEMCCB2_CSV
+---[F32TIDONE_CSV]---
+BEGIN F32TIDONE_CSV
+	---Begin Main Query---
+	Using LA2REPORT with
+		TableIndex = 4
+	SELECT
+		'Tool Install - Completed' as Project,
+		'F32' as Site,
+		PFI as Resource,
+		PCAMFinish as Date
+	FROM
+		'${FILEFILTERF32}'
+	WHERE
+		isinlist(Area, '${Area}') and PCAMFinish is not null and IQFinishDate is not null
+END F32TIDONE_CSV
+---[F24TIDONE_CSV]---
+BEGIN F24TIDONE_CSV
+	---Begin Main Query---
+	Using LA2REPORT with
+		TableIndex = 4
+	SELECT
+		'Tool Install - Completed' as Project,
+		'F24' as Site,
+		PFI as Resource,
+		PCAMFinish as Date
+	FROM
+		'${FILEFILTERF24}'
+	WHERE
+		isinlist(Area, '${Area}') and PCAMFinish is not null and IQFinishDate is not null
+END F24TIDONE_CSV
+---[MERGETIDONE_CSV]---
+BEGIN MERGETIDONE_CSV
+	UseMethod MergeTables with -- **Merge content of two tables by doing an outer join on the column schema (no join done here)**
+		InputFile1 = "%{F32TIDone_CSV}" -- Input CSV File #1 containing table data [String]
+		InputFile2 = "%{F24TIDone_CSV}" -- Input CSV File #2 containing table data [String]
+		AutoDetectColumnTypes = false -- Auto-detect column types before merging [Boolean]
+END MERGETIDONE_CSV
+---[OUTGOING_CSV]---
+BEGIN OUTGOING_CSV
+	---Begin Main Query---
+	Using CSV with
+	SELECT
+		*
+	FROM
+		%{MERGEmccb2_CSV},
+		%{SRclosed_CSV},
+		%{MERGETIDone_CSV}
+	WHERE
+		project like '%Completed'
+END OUTGOING_CSV
+---Begin Main Query---
+Using CSV with
+SELECT
+	*
+FROM
+	%{outgoing_csv}
+---[POST]---
+BEGIN POST
+	---Begin Main Query---
+	SELECT
+		distinct
+		WW,
+		Resource
+	USING
+		to_la2date(Date, 'ww') as WW
+	FROM
+		%{output}
+	WHERE
+		ApplyTimeRangeFilter(Date, 'last 10 weeks (prev mode)')
+		AND ApplyEndTimeFilter(Date, 'last 1 week (prev mode)')
+		and Resource is not null
+END POST
+</QuerySQL>
+    <ColumnX FieldName="WW" FieldType="String" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <ColumnY FieldName="" FieldType="" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <ColumnData FieldName="COUNT OF" FieldType="String" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <XaxisLabelSpacing>1</XaxisLabelSpacing>
+    <ChartType>Spline</ChartType>
+    <RotateXAxisLabels>false</RotateXAxisLabels>
+    <Name>Litho Resources</Name>
+    <ChartTitle>Litho Resources Used</ChartTitle>
+    <ChartExportSize>600x200</ChartExportSize>
+    <ThresholdLineValue>Mean</ThresholdLineValue>
+    <ShowThresholdLineCaptionInLegend>true</ShowThresholdLineCaptionInLegend>
+    <ShowLegend>false</ShowLegend>
+    <PointSize>5</PointSize>
+    <YAxisRange>0.9min,1.1max</YAxisRange>
+    <TimeIntervalForDateScale>1W</TimeIntervalForDateScale>
+    <DateFormat>Auto</DateFormat>
+    <CustomPalette />
+    <TableData />
+  </MainPivotConfig>
+  <MainPivotConfig Enable="true">
+    <QuerySQL>----------&lt;VARIABLES&gt;------------
+var FILEFILTERD1DSR = "@{D1DSRFILEFILTER}"
+var FILEFILTERVF = "@{DASHBOARD_PERSIST_DATA}\PCAM\Output\1_ISMP_Request_Query_All.csv"
+var MCCB = "@{DASHBOARD_PERSIST_DATA}\PCAM\Output\1_ALL_MCCB_Data.csv"
+var SRSITE = "@{SRSITE}"
+var REQUEST_NAME = "@{REQUEST_NAME}"
+var FILEFILTERF32 = "@{F32TIPRFILEFILTER}"
+var FILEFILTERF24 = "@{F24TIPRFILEFILTER}"
+var FILEFILTERD1C = "@{D1CTIPRFILEFILTER}"
+var FILEFILTERD1D = "@{D1DTIPRFILEFILTER}"
+var TIPRSITE = "@{TIPRSITE}"
+var AREA = "@{TFAREA}"
+var MCCB_STATUS2 = "Active%, ActiveHold%, Proliferation%, Done"
+---[SRCLOSED_CSV]---
+BEGIN SRCLOSED_CSV
+	---Begin Main Query---
+	Using CSV with
+	SELECT
+		'Request - Completed' as Project,
+		Site,
+		AssignedTo as Resource,
+		UpdatedOn as [Date]
+	USING
+		EXTRACT_TOKEN(Location, 0, ' ') as Site
+	FROM
+		'${FILEFILTERVF}'
+	WHERE
+		isinlist(Area, '${Area}')
+		and isinlist(State,'%Complete')
+END SRCLOSED_CSV
+---[MCCB_CSV]---
+BEGIN MCCB_CSV
+	---Begin Main Query---
+	Using CSV with
+	SELECT
+		Process,
+		Author,
+		ChangeType as [Change Type],
+		Area,
+		ID,
+		site,
+		Name,
+		CEID,
+		TxfrDate as [Transfer Date],
+		F24tmp as F24Change,
+		F28Change,
+		OSAChange,
+		MCCB,
+		OSACompletedOn,
+		F28CompletedOn,
+		F24CompletedOn,
+		OSACompletedBy,
+		F28CompletedBy,
+		F24CompletedBy
+	USING
+		CASE MCCBSite when '1272' then '1272' when '1274' then '1274' else '1270' end as Process,
+		CASE Process when '1270' then NULL when '1274' then NULL else F24Change end as [F24tmp],
+		CASE MCCBSite when 'Old' then strcat('${1270EOLMCCB}', to_string(Name)) when 'New' then strcat('${1270MCCB}', to_string(Name)) when '1272' then strcat('${1272MCCB}', to_string(Name)) when '1274' then strcat('${1274MCCB}', to_string(Name)) else NULL end as MCCB
+	FROM
+		'${MCCB}'
+	WHERE
+		isinlist(Area, '${Area}')
+	ORDER BY
+		Process, ID desc
+END MCCB_CSV
+---[F32DONEMCCB_CSV]---
+BEGIN F32DONEMCCB_CSV
+	---Begin Main Query---
+	Using CSV with
+	SELECT
+		Project,
+		'OSA' as Site,
+		OSACompletedBy as Resource,
+		OSACompletedOn as Date
+	USING
+		CASE to_string(Process) when '1270' then '1270 MCCB - Completed' when '1274' then '1274 MCCB - Completed' else '1272 MCCB - Completed' end as Project
+	FROM
+		%{MCCB_CSV}
+	WHERE
+		OSAChange = 'Done'
+END F32DONEMCCB_CSV
+---[F24DONEMCCB_CSV]---
+BEGIN F24DONEMCCB_CSV
+	---Begin Main Query---
+	Using CSV with
+	SELECT
+		Project,
+		'F24' as Site,
+		F24CompletedBy as Resource,
+		F24CompletedOn as Date
+	USING
+		CASE to_string(Process) when '1270' then '1270 MCCB - Completed' when '1274' then '1274 MCCB - Completed' else '1272 MCCB - Completed' end as Project
+	FROM
+		%{MCCB_CSV}
+	WHERE
+		F24Change = 'Done'
+END F24DONEMCCB_CSV
+---[F28DONEMCCB_CSV]---
+BEGIN F28DONEMCCB_CSV
+	---Begin Main Query---
+	Using CSV with
+	SELECT
+		Project,
+		'F28' as Site,
+		F28CompletedBy as Resource,
+		F28CompletedOn as Date
+	USING
+		CASE to_string(Process) when '1270' then '1270 MCCB - Completed' when '1274' then '1274 MCCB - Completed' else '1272 MCCB - Completed' end as Project
+	FROM
+		%{MCCB_CSV}
+	WHERE
+		F28Change = 'Done'
+END F28DONEMCCB_CSV
+---[MERGEMCCB1_CSV]---
+BEGIN MERGEMCCB1_CSV
+	UseMethod MergeTables with -- **Merge content of two tables by doing an outer join on the column schema (no join done here)**
+		InputFile1 = "%{F32DoneMCCB_CSV}" -- Input CSV File #1 containing table data [String]
+		InputFile2 = "%{F24DoneMCCB_CSV}" -- Input CSV File #2 containing table data [String]
+		AutoDetectColumnTypes = false -- Auto-detect column types before merging [Boolean]
+END MERGEMCCB1_CSV
+---[MERGEMCCB2_CSV]---
+BEGIN MERGEMCCB2_CSV
+	UseMethod MergeTables with -- **Merge content of two tables by doing an outer join on the column schema (no join done here)**
+		InputFile1 = "%{MERGEmccb1_CSV}" -- Input CSV File #1 containing table data [String]
+		InputFile2 = "%{F28DoneMCCB_CSV}" -- Input CSV File #2 containing table data [String]
+		AutoDetectColumnTypes = false -- Auto-detect column types before merging [Boolean]
+END MERGEMCCB2_CSV
+---[F32TIDONE_CSV]---
+BEGIN F32TIDONE_CSV
+	---Begin Main Query---
+	Using LA2REPORT with
+		TableIndex = 4 -- Index representing the table instance to look for (specify -1 for first non-empty table)
+	SELECT
+		'Tool Install - Completed' as Project,
+		'F32' as Site,
+		PFI as Resource,
+		PCAMFinish as Date
+	FROM
+		'${FILEFILTERF32}'
+	WHERE
+		isinlist(Area, '${Area}') and PCAMFinish is not null and IQFinishDate is not null
+END F32TIDONE_CSV
+---[F24TIDONE_CSV]---
+BEGIN F24TIDONE_CSV
+	---Begin Main Query---
+	Using LA2REPORT with
+		TableIndex = 4 -- Index representing the table instance to look for (specify -1 for first non-empty table)
+	SELECT
+		'Tool Install - Completed' as Project,
+		'F24' as Site,
+		PFI as Resource,
+		PCAMFinish as Date
+	FROM
+		'${FILEFILTERF24}'
+	WHERE
+		isinlist(Area, '${Area}') and PCAMFinish is not null and IQFinishDate is not null
+END F24TIDONE_CSV
+---[MERGETIDONE_CSV]---
+BEGIN MERGETIDONE_CSV
+	UseMethod MergeTables with -- **Merge content of two tables by doing an outer join on the column schema (no join done here)**
+		InputFile1 = "%{F32TIDone_CSV}" -- Input CSV File #1 containing table data [String]
+		InputFile2 = "%{F24TIDone_CSV}" -- Input CSV File #2 containing table data [String]
+		AutoDetectColumnTypes = false -- Auto-detect column types before merging [Boolean]
+END MERGETIDONE_CSV
+---[OUTGOING_CSV]---
+BEGIN OUTGOING_CSV
+	---Begin Main Query---
+	Using CSV with
+	SELECT
+		*
+	FROM
+		%{MERGEmccb2_CSV},
+		%{SRclosed_CSV},
+		%{MERGETIDone_CSV}
+	WHERE
+		project like '%Completed'
+END OUTGOING_CSV
+---Begin Main Query---
+Using CSV with
+SELECT
+	*
+FROM
+	%{outgoing_csv}
+---[POST]---
+BEGIN POST
+	---Begin Main Query---
+	SELECT
+		distinct
+		WW,
+		Resource
+	USING
+		to_la2date(Date, 'ww') as WW
+	FROM
+		%{output}
+	WHERE
+		ApplyTimeRangeFilter(Date, 'last 10 weeks (prev mode)')
+		AND ApplyEndTimeFilter(Date, 'last 1 week (prev mode)')
+		and Resource is not null
+END POST
+</QuerySQL>
+    <ColumnX FieldName="WW" FieldType="String" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <ColumnY FieldName="" FieldType="" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <ColumnData FieldName="COUNT OF" FieldType="String" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <XaxisLabelSpacing>1</XaxisLabelSpacing>
+    <ChartType>Spline</ChartType>
+    <RotateXAxisLabels>false</RotateXAxisLabels>
+    <Name>TMC Resources</Name>
+    <ChartTitle>TMC Resources Used</ChartTitle>
+    <ChartExportSize>600x200</ChartExportSize>
+    <ThresholdLineValue>Mean</ThresholdLineValue>
+    <ShowThresholdLineCaptionInLegend>true</ShowThresholdLineCaptionInLegend>
+    <ShowLegend>false</ShowLegend>
+    <PointSize>5</PointSize>
+    <YAxisRange>0.9min,1.1max</YAxisRange>
+    <TimeIntervalForDateScale>1W</TimeIntervalForDateScale>
+    <DateFormat>Auto</DateFormat>
+    <CustomPalette />
+    <TableData />
+  </MainPivotConfig>
+  <MainPivotConfig Enable="true">
+    <QuerySQL>----------&lt;VARIABLES&gt;------------
+var FILEFILTERD1DSR = "@{D1DSRFILEFILTER}"
+var FILEFILTERVF = "@{VFSRFILEFILTER}"
+var SRSITE = "@{SRSITE}"
+var REQUEST_NAME = "@{REQUEST_NAME}"
+var FILEFILTERF32 = "@{F32TIPRFILEFILTER}"
+var FILEFILTERF24 = "@{F24TIPRFILEFILTER}"
+var FILEFILTERD1C = "@{D1CTIPRFILEFILTER}"
+var FILEFILTERD1D = "@{D1DTIPRFILEFILTER}"
+var TIPRSITE = "@{TIPRSITE}"
+var AREA = "@{C4SORTAREA}"
+---[D1DSR_CSV]---
+BEGIN D1DSR_CSV
+	---Begin Main Query---
+	Using CSV with
+	SELECT
+		'D1D' as Site,
+		Sts as Status,
+		Title as Description,
+		RequestDate as Date
+	FROM
+		'${FILEFILTERD1DSR}'
+	WHERE
+		isinlist(Area, '${Area}')
+		AND (Status not like 'rejected' AND Status not like 'resolved')
+END D1DSR_CSV
+---[VF_CSV]---
+BEGIN VF_CSV
+	---Begin Main Query---
+	Using LA2REPORT with
+		TableIndex = 1
+	SELECT
+		Site,
+		Description,
+		CreatedOn as [Date],
+		State as Status
+	USING
+		EXTRACT_TOKEN(Location, 0, ' ') as Site
+	FROM
+		'${FILEFILTERVF}'
+	WHERE
+		isinlist(Area, '${Area}')
+END VF_CSV
+---[REQUEST_CSV]---
+BEGIN REQUEST_CSV
+	---Begin Main Query---
+	Using CSV with
+	SELECT
+		'${REQUEST_NAME}' as Project,
+		Site,
+		Date
+	FROM
+		${SRSITE}
+END REQUEST_CSV
+---[MCCB_CSV]---
+BEGIN MCCB_CSV
+	---Begin Main Query---
+	SELECT
+		*
+	FROM
+		%{OUTPUT}
+	WHERE
+		isinlist(Area, '${Area}')
+END MCCB_CSV
+---[TRANS_CSV]---
+BEGIN TRANS_CSV
+	UseMethod TransformColumnToRow with -- **Transforms selected table columns into rows**
+		InputFiles = "%{MCCB_CSV}" -- Input files (comma-separated) containing table data [String]
+		ColumnsToConvert = "*" -- Name of columns to convert into rows (comma-separated) [String]
+		ColumnsToExclude = "Process,Name,Area,Transfer Date" -- Name of columns to exclude from conversion (comma-separated) [String]
+		ColumnNameForCaption = "Site" -- Caption for new column type created after transformation [String]
+		ColumnNameForValue = "Value" -- Caption for new column value created after transformation [String]
+END TRANS_CSV
+---[MCCB2_CSV]---
+BEGIN MCCB2_CSV
+	---Begin Main Query---
+	Using CSV with
+	SELECT
+		Project,
+		mccbsite AS Site,
+		[Transfer Date] as Date
+	USING
+		CASE to_string(Process) when '1270' then '1270 MCCB' when '1274' then '1274 MCCB' else '1272 MCCB' end as Project,
+		case Site when 'OSA' then 'F32' else Site end as mccbsite
+	FROM
+		%{TRANS_CSV}
+	WHERE
+		Site not like 'Filename' and Site not like 'RowNumber'
+		AND IsInList(Value, '${MCCB_STATUS}')
+END MCCB2_CSV
+---[F32_CSV]---
+BEGIN F32_CSV
+	---Begin Main Query---
+	Using LA2REPORT with
+		TableIndex = 10
+	SELECT
+		'F32' as Site,
+		IQFinishDate as Date
+	FROM
+		'${FILEFILTERF32}'
+	WHERE
+		isinlist(Area, '${Area}')
+END F32_CSV
+---[F24_CSV]---
+BEGIN F24_CSV
+	---Begin Main Query---
+	Using LA2REPORT with
+		TableIndex = 10
+	SELECT
+		'F24' as Site,
+		IQFinishDate as Date
+	FROM
+		'${FILEFILTERF24}'
+	WHERE
+		isinlist(Area, '${Area}')
+END F24_CSV
+---[D1D_CSV]---
+BEGIN D1D_CSV
+	---Begin Main Query---
+	Using CSV with
+	SELECT
+		'D1D' as Site,
+		[SL2 Finish] as Date
+	FROM
+		'${FILEFILTERD1D}'
+	WHERE
+		isinlist(Area, '${Area}')
+END D1D_CSV
+---[D1C_CSV]---
+BEGIN D1C_CSV
+	---Begin Main Query---
+	Using CSV with
+	SELECT
+		'D1C' as Site,
+		[SL2 Finish] as Date
+	FROM
+		${FILEFILTERD1C}
+	WHERE
+		isinlist(Area, '${Area}')
+END D1C_CSV
+---[MERGE_CSV]---
+BEGIN MERGE_CSV
+	UseMethod MergeTables with -- **Merge content of two tables by doing an outer join on the column schema (no join done here)**
+		InputFile1 = "%{F32_CSV}" -- Input CSV File #1 containing table data [String]
+		InputFile2 = "%{F24_CSV}" -- Input CSV File #2 containing table data [String]
+		AutoDetectColumnTypes = false -- Auto-detect column types before merging [Boolean]
+END MERGE_CSV
+---[INSTALL_CSV]---
+BEGIN INSTALL_CSV
+	---Begin Main Query---
+	Using CSV with
+	SELECT
+		'Tool Install' as Project,
+		Site,
+		Date
+	FROM
+		${TIPRSITE}
+END INSTALL_CSV
+---Begin Main Query---
+Using CSV with
+SELECT
+	*
+FROM
+	%{REQUEST_CSV},
+	%{MCCB2_CSV},
+	%{INSTALL_CSV}
+</QuerySQL>
+    <ColumnX FieldName="Site" FieldType="String" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <ColumnY FieldName="Project" FieldType="String" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <ColumnData FieldName="COUNT OF" FieldType="String" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <RotateXAxisLabels>false</RotateXAxisLabels>
+    <ShowColumnTotals>false</ShowColumnTotals>
+    <Name>C4/Sort Summary</Name>
+    <ChartTitle>C4/Sort Open Summary</ChartTitle>
+    <ColorPalette>Office</ColorPalette>
+    <ChartExportSize>600x200</ChartExportSize>
+    <IsYAxisVisible>false</IsYAxisVisible>
+    <CustomPalette />
+    <TableData />
+  </MainPivotConfig>
+  <MainPivotConfig Enable="true">
+    <QuerySQL>----------&lt;VARIABLES&gt;------------
+var FILEFILTERD1DSR = "@{D1DSRFILEFILTER}"
+var FILEFILTERVF = "@{DASHBOARD_PERSIST_DATA}\PCAM\Output\1_ISMP_Request_Query_All.csv"
+var MCCB = "@{DASHBOARD_PERSIST_DATA}\PCAM\Output\1_ALL_MCCB_Data.csv"
+var SRSITE = "@{SRSITE}"
+var REQUEST_NAME = "@{REQUEST_NAME}"
+var FILEFILTERF32 = "@{F32TIPRFILEFILTER}"
+var FILEFILTERF24 = "@{F24TIPRFILEFILTER}"
+var FILEFILTERD1C = "@{D1CTIPRFILEFILTER}"
+var FILEFILTERD1D = "@{D1DTIPRFILEFILTER}"
+var TIPRSITE = "@{TIPRSITE}"
+var AREA = "@{C4SORTAREA}"
+var MCCB_STATUS2 = "Active%, ActiveHold%, Proliferation%, Done"
+---[SROPEN_CSV]---
+BEGIN SROPEN_CSV
+	---Begin Main Query---
+	Using CSV with
+	SELECT
+		'Request - New' as Project,
+		Site,
+		CreatedOn as [Date]
+	USING
+		EXTRACT_TOKEN(Location, 0, ' ') as Site
+	FROM
+		'${FILEFILTERVF}'
+	WHERE
+		isinlist(Area, '${Area}')
+END SROPEN_CSV
+---[SRCLOSED_CSV]---
+BEGIN SRCLOSED_CSV
+	---Begin Main Query---
+	Using CSV with
+	SELECT
+		'Request - Completed' as Project,
+		Site,
+		UpdatedOn as [Date]
+	USING
+		EXTRACT_TOKEN(Location, 0, ' ') as Site
+	FROM
+		'${FILEFILTERVF}'
+	WHERE
+		isinlist(Area, '${Area}')
+		and isinlist(State,'%Complete')
+END SRCLOSED_CSV
+---[MCCB_CSV]---
+BEGIN MCCB_CSV
+	---Begin Main Query---
+	Using CSV with
+	SELECT
+		Process,
+		Author,
+		ChangeType as [Change Type],
+		Area,
+		ID,
+		site,
+		Name,
+		CEID,
+		TxfrDate as [Transfer Date],
+		F24tmp as F24Change,
+		F28Change,
+		OSAChange,
+		MCCB,
+		OSACompletedOn,
+		F28CompletedOn,
+		F24CompletedOn
+	USING
+		CASE MCCBSite when '1272' then '1272' when '1274' then '1274' else '1270' end as Process,
+		CASE Process when '1270' then NULL when '1274' then NULL else F24Change end as [F24tmp],
+		CASE MCCBSite when 'Old' then strcat('${1270EOLMCCB}', to_string(Name)) when 'New' then strcat('${1270MCCB}', to_string(Name)) when '1272' then strcat('${1272MCCB}', to_string(Name)) when '1274' then strcat('${1274MCCB}', to_string(Name)) else NULL end as MCCB
+	FROM
+		'${MCCB}'
+	WHERE
+		isinlist(Area, '${Area}')
+	ORDER BY
+		Process, ID desc
+END MCCB_CSV
+---[TRANS_CSV]---
+BEGIN TRANS_CSV
+	UseMethod TransformColumnToRow with -- **Transforms selected table columns into rows**
+		InputFiles = "%{MCCB_CSV}" -- Input files (comma-separated) containing table data [String]
+		ColumnsToConvert = "*" -- Name of columns to convert into rows (comma-separated) [String]
+		ColumnsToExclude = "Process,Name,Area,Transfer Date" -- Name of columns to exclude from conversion (comma-separated) [String]
+		ColumnNameForCaption = "Site" -- Caption for new column type created after transformation [String]
+		ColumnNameForValue = "Value" -- Caption for new column value created after transformation [String]
+END TRANS_CSV
+---[MCCB2_CSV]---
+BEGIN MCCB2_CSV
+	---Begin Main Query---
+	Using CSV with
+	SELECT
+		Project,
+		Site,
+		[Transfer Date] as Date
+	USING
+		CASE to_string(Process) when '1270' then '1270 MCCB - New' when '1274' then '1274 MCCB - New' else '1272 MCCB - New' end as Project
+	FROM
+		%{TRANS_CSV}
+	WHERE
+		Site not like 'Filename' and Site not like 'RowNumber'
+		AND IsInList(Value, '${MCCB_STATUS2}')
+END MCCB2_CSV
+---[F32DONEMCCB_CSV]---
+BEGIN F32DONEMCCB_CSV
+	---Begin Main Query---
+	Using CSV with
+	SELECT
+		Project,
+		'OSA' as Site,
+		OSACompletedOn as Date
+	USING
+		CASE to_string(Process) when '1270' then '1270 MCCB - Completed' when '1274' then '1274 MCCB - Completed' else '1272 MCCB - Completed' end as Project
+	FROM
+		%{MCCB_CSV}
+	WHERE
+		OSAChange = 'Done'
+END F32DONEMCCB_CSV
+---[F24DONEMCCB_CSV]---
+BEGIN F24DONEMCCB_CSV
+	---Begin Main Query---
+	Using CSV with
+	SELECT
+		Project,
+		'F24' as Site,
+		F24CompletedOn as Date
+	USING
+		CASE to_string(Process) when '1270' then '1270 MCCB - Completed' when '1274' then '1274 MCCB - Completed' else '1272 MCCB - Completed' end as Project
+	FROM
+		%{MCCB_CSV}
+	WHERE
+		F24Change = 'Done'
+END F24DONEMCCB_CSV
+---[F28DONEMCCB_CSV]---
+BEGIN F28DONEMCCB_CSV
+	---Begin Main Query---
+	Using CSV with
+	SELECT
+		Project,
+		'F28' as Site,
+		F28CompletedOn as Date
+	USING
+		CASE to_string(Process) when '1270' then '1270 MCCB - Completed' when '1274' then '1274 MCCB - Completed' else '1272 MCCB - Completed' end as Project
+	FROM
+		%{MCCB_CSV}
+	WHERE
+		F28Change = 'Done'
+END F28DONEMCCB_CSV
+---[MERGEMCCB1_CSV]---
+BEGIN MERGEMCCB1_CSV
+	UseMethod MergeTables with -- **Merge content of two tables by doing an outer join on the column schema (no join done here)**
+		InputFile1 = "%{F32DoneMCCB_CSV}" -- Input CSV File #1 containing table data [String]
+		InputFile2 = "%{F24DoneMCCB_CSV}" -- Input CSV File #2 containing table data [String]
+		AutoDetectColumnTypes = false -- Auto-detect column types before merging [Boolean]
+END MERGEMCCB1_CSV
+---[MERGEMCCB2_CSV]---
+BEGIN MERGEMCCB2_CSV
+	UseMethod MergeTables with -- **Merge content of two tables by doing an outer join on the column schema (no join done here)**
+		InputFile1 = "%{MERGEmccb1_CSV}" -- Input CSV File #1 containing table data [String]
+		InputFile2 = "%{F28DoneMCCB_CSV}" -- Input CSV File #2 containing table data [String]
+		AutoDetectColumnTypes = false -- Auto-detect column types before merging [Boolean]
+END MERGEMCCB2_CSV
+---[F32TIDONE_CSV]---
+BEGIN F32TIDONE_CSV
+	---Begin Main Query---
+	Using LA2REPORT with
+		TableIndex = 4
+	SELECT
+		'Tool Install - Completed' as Project,
+		'F32' as Site,
+		PCAMFinish as Date
+	FROM
+		'${FILEFILTERF32}'
+	WHERE
+		isinlist(Area, '${Area}') and PCAMFinish is not null and IQFinishDate is not null
+END F32TIDONE_CSV
+---[F24TIDONE_CSV]---
+BEGIN F24TIDONE_CSV
+	---Begin Main Query---
+	Using LA2REPORT with
+		TableIndex = 4
+	SELECT
+		'Tool Install - Completed' as Project,
+		'F24' as Site,
+		PCAMFinish as Date
+	FROM
+		'${FILEFILTERF24}'
+	WHERE
+		isinlist(Area, '${Area}') and PCAMFinish is not null and IQFinishDate is not null
+END F24TIDONE_CSV
+---[MERGETIDONE_CSV]---
+BEGIN MERGETIDONE_CSV
+	UseMethod MergeTables with -- **Merge content of two tables by doing an outer join on the column schema (no join done here)**
+		InputFile1 = "%{F32TIDone_CSV}" -- Input CSV File #1 containing table data [String]
+		InputFile2 = "%{F24TIDone_CSV}" -- Input CSV File #2 containing table data [String]
+		AutoDetectColumnTypes = false -- Auto-detect column types before merging [Boolean]
+END MERGETIDONE_CSV
+---[F32TISCHED_CSV]---
+BEGIN F32TISCHED_CSV
+	---Begin Main Query---
+	Using LA2REPORT with
+		TableIndex = 4
+	SELECT
+		'Tool Install - New' as Project,
+		'F32' as Site,
+		SL2Finish as Date
+	FROM
+		'${FILEFILTERF32}'
+	WHERE
+		isinlist(Area, '${Area}') and IQFinishDate is not null
+END F32TISCHED_CSV
+---[F24TISCHED_CSV]---
+BEGIN F24TISCHED_CSV
+	---Begin Main Query---
+	Using LA2REPORT with
+		TableIndex = 4
+	SELECT
+		'Tool Install - New' as Project,
+		'F24' as Site,
+		SL2Finish as Date
+	FROM
+		'${FILEFILTERF24}'
+	WHERE
+		isinlist(Area, '${Area}') and IQFinishDate is not null
+END F24TISCHED_CSV
+---[MERGETISCHED_CSV]---
+BEGIN MERGETISCHED_CSV
+	UseMethod MergeTables with -- **Merge content of two tables by doing an outer join on the column schema (no join done here)**
+		InputFile1 = "%{F32TISched_CSV}" -- Input CSV File #1 containing table data [String]
+		InputFile2 = "%{F24TISched_CSV}" -- Input CSV File #2 containing table data [String]
+		AutoDetectColumnTypes = false -- Auto-detect column types before merging [Boolean]
+END MERGETISCHED_CSV
+---[INCOMING_CSV]---
+BEGIN INCOMING_CSV
+	---Begin Main Query---
+	Using CSV with
+	SELECT
+		'Incoming' as Work, *
+	FROM
+		%{MCCB2_CSV},
+		%{SROPEN_CSV},
+		%{MERGETISched_CSV}
+	WHERE
+		project like '%New'
+END INCOMING_CSV
+---[OUTGOING_CSV]---
+BEGIN OUTGOING_CSV
+	---Begin Main Query---
+	Using CSV with
+	SELECT
+		'Outgoing' as Work, *
+	FROM
+		%{MERGEmccb2_CSV},
+		%{SRclosed_CSV},
+		%{MERGETIDone_CSV}
+	WHERE
+		project like '%Completed'
+END OUTGOING_CSV
+---Begin Main Query---
+Using CSV with
+SELECT
+	*
+FROM
+	%{incoming_csv},%{outgoing_csv}
+---[POST]---
+BEGIN POST
+	---Begin Main Query---
+	Using CSV with
+	SELECT
+		*
+	FROM
+		%{output}
+	WHERE
+		applytimerangefilter(Date, 'last 10 weeks (prev mode)')
+END POST
+</QuerySQL>
+    <ColumnX FieldName="Date" FieldType="String" SortMode="Default" SortOrder="Ascending" SummaryType="Sum" SortBySummaryInfo="false" />
+    <ColumnY FieldName="Work" FieldType="String" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <ColumnData FieldName="COUNT OF" FieldType="Int32" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <XaxisLabelSpacing>1</XaxisLabelSpacing>
+    <ChartType>Spline</ChartType>
+    <RotateXAxisLabels>false</RotateXAxisLabels>
+    <ShowColumnTotals>false</ShowColumnTotals>
+    <Name>C4/Sort TimeLine</Name>
+    <ChartTitle>C4/Sort Incoming vs Outgoing</ChartTitle>
+    <ChartExportSize>600x200</ChartExportSize>
+    <ThresholdLineValue>Mean</ThresholdLineValue>
+    <ShowThresholdLineCaption>false</ShowThresholdLineCaption>
+    <ShowThresholdLineCaptionInLegend>true</ShowThresholdLineCaptionInLegend>
+    <PointSize>5</PointSize>
+    <YAxisRange>0.9min,1.1max</YAxisRange>
+    <TimeIntervalForDateScale>1W</TimeIntervalForDateScale>
+    <DateFormat>Auto</DateFormat>
+    <CustomPalette />
+    <TableData />
+  </MainPivotConfig>
+  <MainPivotConfig Enable="true">
+    <QuerySQL>----------&lt;VARIABLES&gt;------------
+var FILEFILTERD1DSR = "@{D1DSRFILEFILTER}"
+var FILEFILTERVF = "@{DASHBOARD_PERSIST_DATA}\PCAM\Output\1_ISMP_Request_Query_All.csv"
+var MCCB = "@{DASHBOARD_PERSIST_DATA}\PCAM\Output\1_ALL_MCCB_Data.csv"
+var SRSITE = "@{SRSITE}"
+var REQUEST_NAME = "@{REQUEST_NAME}"
+var FILEFILTERF32 = "@{F32TIPRFILEFILTER}"
+var FILEFILTERF24 = "@{F24TIPRFILEFILTER}"
+var FILEFILTERD1C = "@{D1CTIPRFILEFILTER}"
+var FILEFILTERD1D = "@{D1DTIPRFILEFILTER}"
+var TIPRSITE = "@{TIPRSITE}"
+var AREA = "@{C4SORTAREA}"
+var MCCB_STATUS2 = "Active%, ActiveHold%, Proliferation%, Done"
+---[SRCLOSED_CSV]---
+BEGIN SRCLOSED_CSV
+	---Begin Main Query---
+	Using CSV with
+	SELECT
+		'Request - Completed' as Project,
+		Site,
+		AssignedTo as Resource,
+		UpdatedOn as [Date]
+	USING
+		EXTRACT_TOKEN(Location, 0, ' ') as Site
+	FROM
+		'${FILEFILTERVF}'
+	WHERE
+		isinlist(Area, '${Area}')
+		and isinlist(State,'%Complete')
+END SRCLOSED_CSV
+---[MCCB_CSV]---
+BEGIN MCCB_CSV
+	---Begin Main Query---
+	Using CSV with
+	SELECT
+		Process,
+		Author,
+		ChangeType as [Change Type],
+		Area,
+		ID,
+		site,
+		Name,
+		CEID,
+		TxfrDate as [Transfer Date],
+		F24tmp as F24Change,
+		F28Change,
+		OSAChange,
+		MCCB,
+		OSACompletedOn,
+		F28CompletedOn,
+		F24CompletedOn,
+		OSACompletedBy,
+		F28CompletedBy,
+		F24CompletedBy
+	USING
+		CASE MCCBSite when '1272' then '1272' when '1274' then '1274' else '1270' end as Process,
+		CASE Process when '1270' then NULL when '1274' then NULL else F24Change end as [F24tmp],
+		CASE MCCBSite when 'Old' then strcat('${1270EOLMCCB}', to_string(Name)) when 'New' then strcat('${1270MCCB}', to_string(Name)) when '1272' then strcat('${1272MCCB}', to_string(Name)) when '1274' then strcat('${1274MCCB}', to_string(Name)) else NULL end as MCCB
+	FROM
+		'${MCCB}'
+	WHERE
+		isinlist(Area, '${Area}')
+	ORDER BY
+		Process, ID desc
+END MCCB_CSV
+---[F32DONEMCCB_CSV]---
+BEGIN F32DONEMCCB_CSV
+	---Begin Main Query---
+	Using CSV with
+	SELECT
+		Project,
+		'OSA' as Site,
+		OSACompletedBy as Resource,
+		OSACompletedOn as Date
+	USING
+		CASE to_string(Process) when '1270' then '1270 MCCB - Completed' when '1274' then '1274 MCCB - Completed' else '1272 MCCB - Completed' end as Project
+	FROM
+		%{MCCB_CSV}
+	WHERE
+		OSAChange = 'Done'
+END F32DONEMCCB_CSV
+---[F24DONEMCCB_CSV]---
+BEGIN F24DONEMCCB_CSV
+	---Begin Main Query---
+	Using CSV with
+	SELECT
+		Project,
+		'F24' as Site,
+		F24CompletedBy as Resource,
+		F24CompletedOn as Date
+	USING
+		CASE to_string(Process) when '1270' then '1270 MCCB - Completed' when '1274' then '1274 MCCB - Completed' else '1272 MCCB - Completed' end as Project
+	FROM
+		%{MCCB_CSV}
+	WHERE
+		F24Change = 'Done'
+END F24DONEMCCB_CSV
+---[F28DONEMCCB_CSV]---
+BEGIN F28DONEMCCB_CSV
+	---Begin Main Query---
+	Using CSV with
+	SELECT
+		Project,
+		'F28' as Site,
+		F28CompletedBy as Resource,
+		F28CompletedOn as Date
+	USING
+		CASE to_string(Process) when '1270' then '1270 MCCB - Completed' when '1274' then '1274 MCCB - Completed' else '1272 MCCB - Completed' end as Project
+	FROM
+		%{MCCB_CSV}
+	WHERE
+		F28Change = 'Done'
+END F28DONEMCCB_CSV
+---[MERGEMCCB1_CSV]---
+BEGIN MERGEMCCB1_CSV
+	UseMethod MergeTables with -- **Merge content of two tables by doing an outer join on the column schema (no join done here)**
+		InputFile1 = "%{F32DoneMCCB_CSV}" -- Input CSV File #1 containing table data [String]
+		InputFile2 = "%{F24DoneMCCB_CSV}" -- Input CSV File #2 containing table data [String]
+		AutoDetectColumnTypes = false -- Auto-detect column types before merging [Boolean]
+END MERGEMCCB1_CSV
+---[MERGEMCCB2_CSV]---
+BEGIN MERGEMCCB2_CSV
+	UseMethod MergeTables with -- **Merge content of two tables by doing an outer join on the column schema (no join done here)**
+		InputFile1 = "%{MERGEmccb1_CSV}" -- Input CSV File #1 containing table data [String]
+		InputFile2 = "%{F28DoneMCCB_CSV}" -- Input CSV File #2 containing table data [String]
+		AutoDetectColumnTypes = false -- Auto-detect column types before merging [Boolean]
+END MERGEMCCB2_CSV
+---[F32TIDONE_CSV]---
+BEGIN F32TIDONE_CSV
+	---Begin Main Query---
+	Using LA2REPORT with
+		TableIndex = 4 -- Index representing the table instance to look for (specify -1 for first non-empty table)
+	SELECT
+		'Tool Install - Completed' as Project,
+		'F32' as Site,
+		PFI as Resource,
+		PCAMFinish as Date
+	FROM
+		'${FILEFILTERF32}'
+	WHERE
+		isinlist(Area, '${Area}') and PCAMFinish is not null and IQFinishDate is not null
+END F32TIDONE_CSV
+---[F24TIDONE_CSV]---
+BEGIN F24TIDONE_CSV
+	---Begin Main Query---
+	Using LA2REPORT with
+		TableIndex = 4 -- Index representing the table instance to look for (specify -1 for first non-empty table)
+	SELECT
+		'Tool Install - Completed' as Project,
+		'F24' as Site,
+		PFI as Resource,
+		PCAMFinish as Date
+	FROM
+		'${FILEFILTERF24}'
+	WHERE
+		isinlist(Area, '${Area}') and PCAMFinish is not null and IQFinishDate is not null
+END F24TIDONE_CSV
+---[MERGETIDONE_CSV]---
+BEGIN MERGETIDONE_CSV
+	UseMethod MergeTables with -- **Merge content of two tables by doing an outer join on the column schema (no join done here)**
+		InputFile1 = "%{F32TIDone_CSV}" -- Input CSV File #1 containing table data [String]
+		InputFile2 = "%{F24TIDone_CSV}" -- Input CSV File #2 containing table data [String]
+		AutoDetectColumnTypes = false -- Auto-detect column types before merging [Boolean]
+END MERGETIDONE_CSV
+---[OUTGOING_CSV]---
+BEGIN OUTGOING_CSV
+	---Begin Main Query---
+	Using CSV with
+	SELECT
+		*
+	FROM
+		%{MERGEmccb2_CSV},
+		%{SRclosed_CSV},
+		%{MERGETIDone_CSV}
+	WHERE
+		project like '%Completed'
+END OUTGOING_CSV
+---Begin Main Query---
+Using CSV with
+SELECT
+	*
+FROM
+	%{outgoing_csv}
+---[POST]---
+BEGIN POST
+	---Begin Main Query---
+	SELECT
+		distinct
+		WW,
+		Resource
+	USING
+		to_la2date(Date, 'ww') as WW
+	FROM
+		%{output}
+	WHERE
+		ApplyTimeRangeFilter(Date, 'last 10 weeks (prev mode)')
+		AND ApplyEndTimeFilter(Date, 'last 1 week (prev mode)')
+		and Resource is not null
+END POST
+</QuerySQL>
+    <ColumnX FieldName="WW" FieldType="String" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <ColumnY FieldName="" FieldType="" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <ColumnData FieldName="COUNT OF" FieldType="String" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <XaxisLabelSpacing>1</XaxisLabelSpacing>
+    <ChartType>Spline</ChartType>
+    <RotateXAxisLabels>false</RotateXAxisLabels>
+    <Name>C4/Sort Resources</Name>
+    <ChartTitle>C4/Sort Resources Used</ChartTitle>
+    <ChartExportSize>600x200</ChartExportSize>
+    <ThresholdLineValue>Mean</ThresholdLineValue>
+    <ShowThresholdLineCaptionInLegend>true</ShowThresholdLineCaptionInLegend>
+    <ShowLegend>false</ShowLegend>
+    <PointSize>5</PointSize>
+    <YAxisRange>0.9min,1.1max</YAxisRange>
+    <TimeIntervalForDateScale>1W</TimeIntervalForDateScale>
+    <DateFormat>Auto</DateFormat>
+    <CustomPalette />
+    <TableData />
+  </MainPivotConfig>
+  <AutoPivotConfig OutputDateFormat="yyyy ww.w hh tt" />
+  <MailConfig>
+    <PostProcessingSQL Enable="false" />
+    <EmailCondition Enable="false" Operator="&gt;" ThresholdRowCount="0">
+      <SQLQuery />
+      <RunScriptBeforeEmailing>false</RunScriptBeforeEmailing>
+      <Script />
+    </EmailCondition>
+    <PostProcessingCondition Enable="false" Operator="&gt;" ThresholdRowCount="0">
+      <SQLQuery />
+      <RunScriptBeforeEmailing>false</RunScriptBeforeEmailing>
+    </PostProcessingCondition>
+    <CopyCondition Enable="false" Operator="&gt;" ThresholdRowCount="0">
+      <SQLQuery />
+      <RunScriptBeforeEmailing>false</RunScriptBeforeEmailing>
+    </CopyCondition>
+    <SMTPServer>smtp.intel.com</SMTPServer>
+    <From>LogAnalyzer2@intel.com</From>
+    <ReplyTo>@{DASHBOARD_OWNER_ALERT_DIST}</ReplyTo>
+    <To />
+    <Subject>[${DOMAIN}] AREA Images</Subject>
+    <Body />
+    <MailAttachments FileNamingFormat="${SETTINGS}" Excel="false" CSV="false" LAS="false" LAD="false" Exceptions="false" StatusLogs="false" PivotChart="true" ZipAttachments="false" DoNotSendAttachmentsWithEmail="false" IncludeJobStatisticsHeader="false" IncludeQuerySettingsFileHeader="false" IncludeVariableDefinitionHeader="false" IncludeRowCountInSubject="false" />
+    <IncludeSQLQueryInBody>false</IncludeSQLQueryInBody>
+    <TableInBody Enable="false">
+      <SQL />
+    </TableInBody>
+    <CopyOutputToDirectory>true</CopyOutputToDirectory>
+    <OutputDirectory>@{DASHBOARD_WEB_SPOOL}\PCAM\Output</OutputDirectory>
+    <IncludeAutoPivotSummary>false</IncludeAutoPivotSummary>
+    <IgnoreExceptions>true</IgnoreExceptions>
+    <OnlyCopyOutputIfEmailConditionIsMet>false</OnlyCopyOutputIfEmailConditionIsMet>
+  </MailConfig>
+  <TableSchema><xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+  <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="Results" msdata:UseCurrentLocale="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Results">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="AFO" type="xs:string" minOccurs="0" />
+              <xs:element name="F28" type="xs:string" minOccurs="0" />
+              <xs:element name="F11x" type="xs:string" minOccurs="0" />
+              <xs:element name="F24" type="xs:string" minOccurs="0" />
+              <xs:element name="OSA" type="xs:string" minOccurs="0" />
+              <xs:element name="Process" type="xs:int" minOccurs="0" />
+              <xs:element name="Name" type="xs:string" minOccurs="0" />
+              <xs:element name="Area" type="xs:string" minOccurs="0" />
+              <xs:element name="Transfer_x0020_Date" type="xs:dateTime" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
+</TableSchema>
+  <TableData />
+  <LastRunAbsoluteDateFilter />
+  <PivotGroupingSettings Enable="true" PivotColumn="Resource">
+    <SortyByColumn>Count</SortyByColumn>
+  </PivotGroupingSettings>
+  <QuerySQL><![CDATA[
+--[FileName:"T:\Dashboard\Jobs\PCAM\15-min\ALL_VF_Images.lasx"]------
+----------<VARIABLES>------------
+var FILEFILTER = "@{DASHBOARD_PERSIST_DATA}\PCAM\Output\1_ALL_MCCB_Data.csv"
+var MCCBFILTER = "Done, NA, Cancel, Divergence"
+var 1274MCCB = "http://autosp.rf3prod.mfg.intel.com/sites/AutoXfer/PCAM/127475%20PCAM%20MCCB/"
+var 1272MCCB = "http://autosp.rf3prod.mfg.intel.com/sites/AutoXfer/PCAM/127273%20PCAM%20MCCB/"
+var 1270MCCB = "http://autosp.rf3prod.mfg.intel.com/sites/AutoXfer/PCAM/127071%20PCAM%20MCCB/"
+var 1270EOLMCCB = "http://autosp.rf3prod.mfg.intel.com/sites/AutoXfer/PCAM/300mm%20PCAM%20MCCB/"
+var SUPPORTSITEVIEW = "@{SUPPORTSITEVIEW}"
+var AFOMCCBSTATUS = "@{AFOMCCBSTATUS}"
+var D1CMCCBSTATUS = "@{D1CMCCBSTATUS}"
+var D1DMCCBSTATUS = "@{D1DMCCBSTATUS}"
+var F11XMCCBSTATUS = "@{F11xMCCBSTATUS}"
+var F24MCCBSTATUS = "@{F24MCCBSTATUS}"
+var F28MCCBSTATUS = "@{F28MCCBSTATUS}"
+var OSAMCCBSTATUS = "@{OSAMCCBSTATUS}"
+var MCCB_STATUS = "Active%, ActiveHold%, Proliferation%"
+---[MAIN_CSV]---
+BEGIN MAIN_CSV
+	---Begin Main Query---
+	Using CSV with
+	SELECT
+		Process,
+		Author,
+		ChangeType as [Change Type],
+		Area,
+		ID,
+		site,
+		Name,
+		CEID,
+		TxfrDate as [Transfer Date],
+		AFOChange as [AFOtmp],
+		D1CChange as [D1Ctmp],
+		[D1Dtmp],
+		F11xChange as [F11xtmp],
+		[F24tmp],
+		F28Change as [F28tmp],
+		OSAChange as [OSAtmp],
+		MCCB,
+		AFOCompletedBy,
+		D1CCompletedBy,
+		D1DCompletedBy,
+		F11xCompletedBy,
+		OSACompletedBy,
+		F28CompletedBy,
+		F24CompletedBy
+	USING
+		CASE MCCBSite when '1272' then '1272' when '1274' then '1274'else '1270' end as Process,
+		CASE Process when '1270' then NULL else D1DChange end as [D1Dtmp],
+		CASE Process when '1270' then NULL when '1274' then NULL else F24Change end as [F24tmp],
+		CASE MCCBSite when 'Old' then strcat('${1270EOLMCCB}', to_string(Name)) when 'New' then strcat('${1270MCCB}', to_string(Name)) when '1272' then strcat('${1272MCCB}', to_string(Name)) when '1274' then strcat('${1274MCCB}', to_string(Name)) else NULL end as MCCB
+	FROM
+		'${FILEFILTER}'
+	WHERE
+		(ChangeType like 'Pending'
+		OR (ChangeType like 'Final' AND (NOT IsInList(AFOtmp, '${MCCBFILTER}') AND AFOtmp IS NOT NULL)
+		OR (NOT IsInList(D1Ctmp, '${MCCBFILTER}') AND D1Ctmp IS NOT NULL)
+		OR (NOT IsInList([D1Dtmp], '${MCCBFILTER}') AND [D1Dtmp] IS NOT NULL)
+		OR (NOT IsInList(F11xtmp, '${MCCBFILTER}') AND F11xtmp IS NOT NULL)
+		OR (NOT IsInList(F28tmp, '${MCCBFILTER}') AND F28tmp IS NOT NULL)
+		OR (NOT IsInList(OSAtmp, '${MCCBFILTER}') AND OSAtmp IS NOT NULL)
+		OR (NOT IsInList([F24tmp], '${MCCBFILTER}') AND [F24tmp] IS NOT NULL)))
+	ORDER BY
+		Process, ID desc
+END MAIN_CSV
+---Begin Main Query---
+Using CSV with
+SELECT
+	${SUPPORTSITEVIEW},
+	Process,
+	Name,
+	Area,
+	[Transfer Date]
+USING
+	CASE AFOCompletedBy when null then AFOtmp else strcat(strcat(AFOtmp, ' - '), AFOCompletedBy) end as AFOTmp2,
+	CASE D1CCompletedBy when null then D1Ctmp else strcat(strcat(D1Ctmp, ' - '), D1CCompletedBy) end as D1CTmp2,
+	CASE D1DCompletedBy when null then D1Dtmp else strcat(strcat(D1Dtmp, ' - '), D1DCompletedBy) end as D1DTmp2,
+	CASE F11xCompletedBy when null then F11xtmp else strcat(strcat(F11xtmp, ' - '), F11xCompletedBy) end as F11xTmp2,
+	CASE F24CompletedBy when null then F24tmp else strcat(strcat(F24tmp, ' - '), F24CompletedBy) end as F24Tmp2,
+	CASE F28CompletedBy when null then F28tmp else strcat(strcat(F28tmp, ' - '), F28CompletedBy) end as F28Tmp2,
+	CASE OSACompletedBy when null then OSAtmp else strcat(strcat(OSAtmp, ' - '), OSACompletedBy) end as OSATmp2,
+	CASE [Change Type] when 'Pending' then CASE Site when 'AFO' then strcat('Pending - ', Author) else AFOTmp2 end else AFOTmp2 end as AFO,
+	CASE [Change Type] when 'Pending' then CASE Site when 'D1C' then strcat('Pending - ', Author) else D1CTmp2 end else D1CTmp2 end as D1C,
+	CASE [Change Type] when 'Pending' then CASE Site when 'D1D' then strcat('Pending - ', Author) else D1DTmp2 end else D1DTmp2 end as D1D,
+	CASE [Change Type] when 'Pending' then CASE Site when 'F11x' then strcat('Pending - ', Author) else F11xTmp2 end else F11xTmp2 end as F11x,
+	CASE [Change Type] when 'Pending' then CASE Site when 'F24' then strcat('Pending - ', Author) else F24Tmp2 end else F24Tmp2 end as F24,
+	CASE [Change Type] when 'Pending' then CASE Site when 'F28' then strcat('Pending - ', Author) else F28Tmp2 end else F28Tmp2 end as F28,
+	CASE [Change Type] when 'Pending' then CASE Site when 'OSA' then strcat('Pending - ', Author) else OSATmp2 end else OSATmp2 end as OSA
+FROM
+	%{MAIN_CSV}
+WHERE
+	IsInList(AFO, '${AFOMCCBSTATUS}')
+	OR IsInList(D1C, '${D1CMCCBSTATUS}')
+	OR IsInList(D1D, '${D1DMCCBSTATUS}')
+	OR IsInList(F11x, '${F11xMCCBSTATUS}')
+	OR IsInList(F24, '${F24MCCBSTATUS}')
+	OR IsInList(F28, '${F28MCCBSTATUS}')
+	OR IsInList(OSA, '${OSAMCCBSTATUS}')
+
+]]></QuerySQL>
+</QueryConfig>

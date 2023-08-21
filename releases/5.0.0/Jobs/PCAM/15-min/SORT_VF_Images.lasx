@@ -1,0 +1,558 @@
+<QueryConfig AutoExecuteQueryOnLoad="false">
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 11/14/2014 2:09:16 PM from RF3PAP216N3.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.8.40713.1943</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 10/3/2014 1:14:34 PM from RF3PTS216.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.8.40923.2310</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 10/3/2014 1:13:41 PM from RF3PTS216.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.8.40923.2310</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 10/3/2014 1:13:36 PM from RF3PTS216.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.8.40923.2310</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 10/3/2014 12:51:17 PM from RF3PTS216.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.8.40923.2310</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 10/3/2014 11:02:59 AM from RF3PTS216.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.8.40923.2310</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 10/3/2014 11:01:07 AM from RF3PTS216.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.8.40923.2310</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 10/3/2014 10:57:56 AM from RF3PTS216.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.8.40923.2310</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 10/3/2014 10:57:43 AM from RF3PTS216.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.8.40923.2310</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 10/3/2014 10:56:48 AM from RF3PTS216.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.8.40923.2310</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 10/3/2014 10:55:39 AM from RF3PTS216.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.8.40923.2310</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 10/3/2014 10:39:05 AM from RF3PTS216.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.8.40923.2310</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 10/3/2014 10:38:18 AM from RF3PTS216.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.8.40923.2310</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 10/2/2014 4:15:48 PM from RF3PTS216.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.8.40923.2310</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 10/2/2014 4:15:27 PM from RF3PTS216.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.8.40923.2310</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 10/2/2014 3:57:22 PM from RF3PTS216.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.8.40923.2310</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 10/2/2014 3:03:54 PM from RF3PTS216.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.8.40923.2310</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 10/2/2014 2:55:35 PM from RF3PTS216.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.8.40923.2310</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 9/30/2014 5:09:30 PM from RF3PTS216.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.8.40923.2310</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 9/9/2014 9:49:59 AM from RF3PTS216.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.8.40806.2215</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 9/4/2014 1:07:01 PM from RF3PTS216.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.8.40806.2215</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 9/3/2014 4:21:18 PM from RF3PTS216.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.8.40806.2215</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 8/19/2014 10:07:09 AM from RF3PTS216.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.8.40806.2215</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 8/14/2014 2:39:16 PM from RF3PTS216.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.8.40806.2215</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 8/14/2014 2:38:24 PM from RF3PTS216.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.8.40806.2215</ChangeLog>
+  <QueryAttributes>
+    <OutputDateFormat>MM/dd/yyyy</OutputDateFormat>
+    <AlwaysReplaceDomainWithLocal>false</AlwaysReplaceDomainWithLocal>
+  </QueryAttributes>
+  <PostQuerySQL>select * from %{OUTPUT}</PostQuerySQL>
+  <TableLayoutConfig>
+    <BoundColumnList>ID,MCCB Description,CEID,ChangeDate,PFIContact,OSAChange</BoundColumnList>
+  </TableLayoutConfig>
+  <TabOrder>C0,C1</TabOrder>
+  <MainPivotConfig Enable="true">
+    <QuerySQL>----------&lt;VARIABLES&gt;------------
+var MCCB_STATUS = "Active%, Pending%, ActiveHold%, Proliferation%"
+var FILEFILTERD1DSR = "@{D1DSRFILEFILTER}"
+var FILEFILTERVF = "@{VFSRFILEFILTER}"
+var SRSITE = "@{SRSITE}"
+var REQUEST_NAME = "@{REQUEST_NAME}"
+var FILEFILTERF32 = "@{F32TIPRFILEFILTER}"
+var FILEFILTERF24 = "@{F24TIPRFILEFILTER}"
+var FILEFILTERD1C = "@{D1CTIPRFILEFILTER}"
+var FILEFILTERD1D = "@{D1DTIPRFILEFILTER}"
+var TIPRSITE = "@{TIPRSITE}"
+var AREA = "@{C4SORTAREA}"
+---[D1DSR_CSV]---
+BEGIN D1DSR_CSV
+	---Begin Main Query---
+	Using CSV with
+	SELECT
+		'D1D' as Site,
+		Sts as Status,
+		Title as Description,
+		RequestDate as Date
+	FROM
+		'${FILEFILTERD1DSR}'
+	WHERE
+		isinlist(Area, '${Area}')
+		AND (Status not like 'rejected' AND Status not like 'resolved')
+END D1DSR_CSV
+---[VF_CSV]---
+BEGIN VF_CSV
+	---Begin Main Query---
+	Using LA2REPORT with
+		TableIndex = 1
+	SELECT
+		Site,
+		Description,
+		CreatedOn as [Date],
+		State as Status
+	USING
+		EXTRACT_TOKEN(Location, 0, ' ') as Site
+	FROM
+		'${FILEFILTERVF}'
+	WHERE
+		isinlist(Area, '${Area}')
+END VF_CSV
+---[REQUEST_CSV]---
+BEGIN REQUEST_CSV
+	---Begin Main Query---
+	Using CSV with
+	SELECT
+		'${REQUEST_NAME}' as Project,
+		Site,
+		Date
+	FROM
+		${SRSITE}
+END REQUEST_CSV
+---[MCCB_CSV]---
+BEGIN MCCB_CSV
+	---Begin Main Query---
+	SELECT
+		*
+	FROM
+		%{OUTPUT}
+	WHERE
+		isinlist(Area, '${Area}')
+END MCCB_CSV
+---[TRANS_CSV]---
+BEGIN TRANS_CSV
+	UseMethod TransformColumnToRow with -- **Transforms selected table columns into rows**
+		InputFiles = "%{MCCB_CSV}" -- Input files (comma-separated) containing table data [String]
+		ColumnsToConvert = "*" -- Name of columns to convert into rows (comma-separated) [String]
+		ColumnsToExclude = "Process,Name,Area,Transfer Date,Sort" -- Name of columns to exclude from conversion (comma-separated) [String]
+		ColumnNameForCaption = "Site" -- Caption for new column type created after transformation [String]
+		ColumnNameForValue = "Value" -- Caption for new column value created after transformation [String]
+END TRANS_CSV
+---[MCCB2_CSV]---
+BEGIN MCCB2_CSV
+	---Begin Main Query---
+	Using CSV with
+	SELECT
+		Project,
+		Site,
+		[Transfer Date] as Date
+	USING
+		CASE Sort when null then CASE to_string(Process) when '1270' then '1270 MCCB' else '1272 MCCB' end else '300mm MCCB' end as Project
+	FROM
+		%{TRANS_CSV}
+	WHERE
+		Site not like 'Filename' and Site not like 'RowNumber'
+		AND IsInList(Value, '${MCCB_STATUS}')
+END MCCB2_CSV
+---[F32_CSV]---
+BEGIN F32_CSV
+	---Begin Main Query---
+	Using LA2REPORT with
+		TableIndex = 10
+	SELECT
+		'F32' as Site,
+		IQFinishDate as Date
+	FROM
+		'${FILEFILTERF32}'
+	WHERE
+		isinlist(Area, '${Area}')
+END F32_CSV
+---[F24_CSV]---
+BEGIN F24_CSV
+	---Begin Main Query---
+	Using LA2REPORT with
+		TableIndex = 9
+	SELECT
+		'F24' as Site,
+		IQFinishDate as Date
+	FROM
+		'${FILEFILTERF24}'
+	WHERE
+		isinlist(Area, '${Area}')
+END F24_CSV
+---[D1D_CSV]---
+BEGIN D1D_CSV
+	---Begin Main Query---
+	Using CSV with
+	SELECT
+		'D1D' as Site,
+		[SL2 Finish] as Date
+	FROM
+		'${FILEFILTERD1D}'
+	WHERE
+		isinlist(Area, '${Area}')
+END D1D_CSV
+---[D1C_CSV]---
+BEGIN D1C_CSV
+	---Begin Main Query---
+	Using CSV with
+	SELECT
+		'D1C' as Site,
+		[SL2 Finish] as Date
+	FROM
+		${FILEFILTERD1C}
+	WHERE
+		isinlist(Area, '${Area}')
+END D1C_CSV
+---[MERGE_CSV]---
+BEGIN MERGE_CSV
+	UseMethod MergeTables with -- **Merge content of two tables by doing an outer join on the column schema (no join done here)**
+		InputFile1 = "%{F32_CSV}" -- Input CSV File #1 containing table data [String]
+		InputFile2 = "%{F24_CSV}" -- Input CSV File #2 containing table data [String]
+		AutoDetectColumnTypes = false -- Auto-detect column types before merging [Boolean]
+END MERGE_CSV
+---[INSTALL_CSV]---
+BEGIN INSTALL_CSV
+	---Begin Main Query---
+	Using CSV with
+	SELECT
+		'Tool Install' as Project,
+		Site,
+		Date
+	FROM
+		${TIPRSITE}
+END INSTALL_CSV
+---Begin Main Query---
+Using CSV with
+SELECT
+	*
+FROM
+	%{REQUEST_CSV},
+	%{MCCB2_CSV},
+	%{INSTALL_CSV}
+</QuerySQL>
+    <ColumnX FieldName="Site" FieldType="String" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <ColumnY FieldName="Project" FieldType="String" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <ColumnData FieldName="COUNT OF" FieldType="String" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <RotateXAxisLabels>false</RotateXAxisLabels>
+    <ShowColumnTotals>false</ShowColumnTotals>
+    <Name>C4/Sort Summary</Name>
+    <ChartTitle>C4/Sort Summary</ChartTitle>
+    <ColorPalette>Median</ColorPalette>
+    <ChartExportSize>600x300</ChartExportSize>
+    <CustomPalette />
+    <TableData />
+  </MainPivotConfig>
+  <MainPivotConfig Enable="true">
+    <QuerySQL>----------&lt;VARIABLES&gt;------------
+var MCCB_STATUS = "Active%, Pending%, ActiveHold%, Proliferation%"
+var FILEFILTERD1DSR = "@{D1DSRFILEFILTER}"
+var FILEFILTERVF = "@{VFSRFILEFILTER}"
+var SRSITE = "@{SRSITE}"
+var REQUEST_NAME = "@{REQUEST_NAME}"
+var FILEFILTERF32 = "@{F32TIPRFILEFILTER}"
+var FILEFILTERF24 = "@{F24TIPRFILEFILTER}"
+var FILEFILTERD1C = "@{D1CTIPRFILEFILTER}"
+var FILEFILTERD1D = "@{D1DTIPRFILEFILTER}"
+var TIPRSITE = "@{TIPRSITE}"
+var AREA = "@{C4SORTAREA}"
+---[D1DSR_CSV]---
+BEGIN D1DSR_CSV
+	---Begin Main Query---
+	Using CSV with
+	SELECT
+		'D1D' as Site,
+		Sts as Status,
+		Title as Description,
+		RequestDate as Date
+	FROM
+		'${FILEFILTERD1DSR}'
+	WHERE
+		isinlist(Area, '${Area}')
+		AND (Status not like 'rejected' AND Status not like 'resolved')
+END D1DSR_CSV
+---[VF_CSV]---
+BEGIN VF_CSV
+	---Begin Main Query---
+	Using LA2REPORT with
+		TableIndex = 1
+	SELECT
+		Site,
+		Description,
+		CreatedOn as [Date],
+		State as Status
+	USING
+		EXTRACT_TOKEN(Location, 0, ' ') as Site
+	FROM
+		'${FILEFILTERVF}'
+	WHERE
+		isinlist(Area, '${Area}')
+END VF_CSV
+---[REQUEST_CSV]---
+BEGIN REQUEST_CSV
+	---Begin Main Query---
+	Using CSV with
+	SELECT
+		'${REQUEST_NAME}' as Project,
+		Site,
+		Date
+	FROM
+		${SRSITE}
+END REQUEST_CSV
+---[MCCB_CSV]---
+BEGIN MCCB_CSV
+	---Begin Main Query---
+	SELECT
+		*
+	FROM
+		%{OUTPUT}
+	WHERE
+		isinlist(Area, '${Area}')
+END MCCB_CSV
+---[TRANS_CSV]---
+BEGIN TRANS_CSV
+	UseMethod TransformColumnToRow with -- **Transforms selected table columns into rows**
+		InputFiles = "%{MCCB_CSV}" -- Input files (comma-separated) containing table data [String]
+		ColumnsToConvert = "*" -- Name of columns to convert into rows (comma-separated) [String]
+		ColumnsToExclude = "Process,Name,Area,Transfer Date,Sort" -- Name of columns to exclude from conversion (comma-separated) [String]
+		ColumnNameForCaption = "Site" -- Caption for new column type created after transformation [String]
+		ColumnNameForValue = "Value" -- Caption for new column value created after transformation [String]
+END TRANS_CSV
+---[MCCB2_CSV]---
+BEGIN MCCB2_CSV
+	---Begin Main Query---
+	Using CSV with
+	SELECT
+		Project,
+		Site,
+		[Transfer Date] as Date
+	USING
+		CASE Sort when null then CASE to_string(Process) when '1270' then '1270 MCCB' else '1272 MCCB' end else '300mm MCCB' end as Project
+	FROM
+		%{TRANS_CSV}
+	WHERE
+		Site not like 'Filename' and Site not like 'RowNumber'
+		AND IsInList(Value, '${MCCB_STATUS}')
+END MCCB2_CSV
+---[F32_CSV]---
+BEGIN F32_CSV
+	---Begin Main Query---
+	Using LA2REPORT with
+		TableIndex = 10
+	SELECT
+		'F32' as Site,
+		IQFinishDate as Date
+	FROM
+		'${FILEFILTERF32}'
+	WHERE
+		isinlist(Area, '${Area}')
+END F32_CSV
+---[F24_CSV]---
+BEGIN F24_CSV
+	---Begin Main Query---
+	Using LA2REPORT with
+		TableIndex = 9
+	SELECT
+		'F24' as Site,
+		IQFinishDate as Date
+	FROM
+		'${FILEFILTERF24}'
+	WHERE
+		isinlist(Area, '${Area}')
+END F24_CSV
+---[D1D_CSV]---
+BEGIN D1D_CSV
+	---Begin Main Query---
+	Using CSV with
+	SELECT
+		'D1D' as Site,
+		[SL2 Finish] as Date
+	FROM
+		'${FILEFILTERD1D}'
+	WHERE
+		isinlist(Area, '${Area}')
+END D1D_CSV
+---[D1C_CSV]---
+BEGIN D1C_CSV
+	---Begin Main Query---
+	Using CSV with
+	SELECT
+		'D1C' as Site,
+		[SL2 Finish] as Date
+	FROM
+		${FILEFILTERD1C}
+	WHERE
+		isinlist(Area, '${Area}')
+END D1C_CSV
+---[MERGE_CSV]---
+BEGIN MERGE_CSV
+	UseMethod MergeTables with -- **Merge content of two tables by doing an outer join on the column schema (no join done here)**
+		InputFile1 = "%{F32_CSV}" -- Input CSV File #1 containing table data [String]
+		InputFile2 = "%{F24_CSV}" -- Input CSV File #2 containing table data [String]
+		AutoDetectColumnTypes = false -- Auto-detect column types before merging [Boolean]
+END MERGE_CSV
+---[INSTALL_CSV]---
+BEGIN INSTALL_CSV
+	---Begin Main Query---
+	Using CSV with
+	SELECT
+		'Tool Install' as Project,
+		Site,
+		Date
+	FROM
+		${TIPRSITE}
+END INSTALL_CSV
+---Begin Main Query---
+Using CSV with
+SELECT
+	*
+FROM
+	%{REQUEST_CSV},
+	%{MCCB2_CSV},
+	%{INSTALL_CSV}
+</QuerySQL>
+    <ColumnX FieldName="Date" FieldType="String" SortMode="Default" SortOrder="Ascending" SummaryType="Sum" SortBySummaryInfo="false" />
+    <ColumnY FieldName="Project" FieldType="String" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <ColumnData FieldName="COUNT OF" FieldType="Int32" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <XaxisLabelSpacing>5</XaxisLabelSpacing>
+    <RotateXAxisLabels>false</RotateXAxisLabels>
+    <ShowColumnTotals>false</ShowColumnTotals>
+    <Name>C4/Sort Timeline</Name>
+    <ChartTitle>C4/Sort Timeline</ChartTitle>
+    <ColorPalette>Median</ColorPalette>
+    <ChartExportSize>600x300</ChartExportSize>
+    <TimeIntervalForDateScale>1W</TimeIntervalForDateScale>
+    <DateFormat>Auto</DateFormat>
+    <CustomPalette />
+    <TableData />
+  </MainPivotConfig>
+  <AutoPivotConfig OutputDateFormat="yyyy ww.w hh tt" />
+  <MailConfig>
+    <PostProcessingSQL Enable="false" />
+    <EmailCondition Enable="false" Operator="&gt;" ThresholdRowCount="0">
+      <SQLQuery />
+      <RunScriptBeforeEmailing>false</RunScriptBeforeEmailing>
+      <Script />
+    </EmailCondition>
+    <PostProcessingCondition Enable="false" Operator="&gt;" ThresholdRowCount="0">
+      <SQLQuery />
+      <RunScriptBeforeEmailing>false</RunScriptBeforeEmailing>
+    </PostProcessingCondition>
+    <CopyCondition Enable="false" Operator="&gt;" ThresholdRowCount="0">
+      <SQLQuery />
+      <RunScriptBeforeEmailing>false</RunScriptBeforeEmailing>
+    </CopyCondition>
+    <SMTPServer>smtp.intel.com</SMTPServer>
+    <From>LogAnalyzer2@intel.com</From>
+    <ReplyTo>@{DASHBOARD_OWNER_ALERT_DIST}</ReplyTo>
+    <To />
+    <Subject>[${DOMAIN}] SORT Images</Subject>
+    <Body />
+    <OnlyProcessIfOutputChangedFromPreviousRun>false</OnlyProcessIfOutputChangedFromPreviousRun>
+    <MailAttachments FileNamingFormat="${SETTINGS}" Excel="false" CSV="false" LAS="false" LAD="false" Exceptions="false" StatusLogs="false" PivotChart="true" ZipAttachments="false" DoNotSendAttachmentsWithEmail="false" IncludeJobStatisticsHeader="false" IncludeQuerySettingsFileHeader="false" IncludeVariableDefinitionHeader="false" IncludeRowCountInSubject="false" />
+    <IncludeSQLQueryInBody>false</IncludeSQLQueryInBody>
+    <TableInBody Enable="false">
+      <SQL />
+    </TableInBody>
+    <CopyOutputToDirectory>true</CopyOutputToDirectory>
+    <OutputDirectory>@{DASHBOARD_WEB_SPOOL}\PCAM\Output</OutputDirectory>
+    <IncludeAutoPivotSummary>false</IncludeAutoPivotSummary>
+    <IgnoreExceptions>false</IgnoreExceptions>
+    <OnlyCopyOutputIfEmailConditionIsMet>false</OnlyCopyOutputIfEmailConditionIsMet>
+  </MailConfig>
+  <TableSchema />
+  <TableData />
+  <LastRunAbsoluteDateFilter />
+  <PivotGroupingSettings PivotColumn="">
+    <SortyByColumn>Count</SortyByColumn>
+  </PivotGroupingSettings>
+  <QuerySQL><![CDATA[
+--[FileName:"D:\Dashboard\Jobs\PCAM\15-min\SORT_VF_Images.lasx"]------
+----------<VARIABLES>------------
+var FILEFILTER = "@{DASHBOARD_PERSIST_DATA}\PCAM\Output\1_ALL_MCCB_Data.csv"
+var MCCBFILTER = "Done, NA, Cancel, Divergence"
+var 1272MCCB = "http://autosp.rf3prod.mfg.intel.com/sites/AutoXfer/PCAM/127273%20PCAM%20MCCB/"
+var 1270MCCB = "http://autosp.rf3prod.mfg.intel.com/sites/AutoXfer/PCAM/127071%20PCAM%20MCCB/"
+var 1270EOLMCCB = "http://autosp.rf3prod.mfg.intel.com/sites/AutoXfer/PCAM/300mm%20PCAM%20MCCB/"
+var SORTMCCB = "http://autosp.rf3prod.mfg.intel.com/sites/AutoXfer/PCAM/300mm%20PCAM%20Sort%20MCCB/"
+var SUPPORTSITEVIEW = "@{SUPPORTSITEVIEWC4SORT}"
+var AFOMCCBSTATUS = "@{AFOC4SORTMCCBSTATUS}"
+var D1CMCCBSTATUS = "@{D1CC4SORTMCCBSTATUS}"
+var D1DMCCBSTATUS = "@{D1DC4SORTMCCBSTATUS}"
+var F11XMCCBSTATUS = "@{F11xC4SORTMCCBSTATUS}"
+var F24MCCBSTATUS = "@{F24C4SORTMCCBSTATUS}"
+var F28MCCBSTATUS = "@{F28C4SORTMCCBSTATUS}"
+var F68MCCBSTATUS = "@{F68C4SORTMCCBSTATUS}"
+var OSAMCCBSTATUS = "@{OSAC4SORTMCCBSTATUS}"
+var AREA = "@{C4SORTAREA}"
+---[MAIN_CSV]---
+BEGIN MAIN_CSV
+	---Begin Main Query---
+	Using CSV with
+	SELECT
+		Process,
+		Author,
+		ChangeType as [Change Type],
+		ID,
+		site,
+		Area,
+		Name,
+		CEID,
+		TxfrDate as [Transfer Date],
+		AFOChange as [AFOtmp],
+		D1CChange as [D1Ctmp],
+		[D1Dtmp],
+		F11xChange as [F11xtmp],
+		[F24tmp],
+		F28Change as [F28tmp],
+		F68Change as [F68tmp],
+		OSAChange as [OSAtmp],
+		MCCB,
+		AFOCompletedBy,
+		D1CCompletedBy,
+		D1DCompletedBy,
+		F11xCompletedBy,
+		OSACompletedBy,
+		F28CompletedBy,
+		F68CompletedBy,
+		F24CompletedBy,
+		Sort
+	USING
+		CASE Sort when null then CASE MCCBSite when '1272' then '1272' else '1270' end else MCCBSite end as Process,
+		CASE Process when '1270' then NULL else D1DChange end as [D1Dtmp],
+		CASE Process when '1270' then NULL else F24Change end as [F24tmp],
+		CASE MCCBSite when 'Old' then strcat('${1270EOLMCCB}', to_string(Name)) when 'New' then strcat('${1270MCCB}', to_string(Name)) when '1272' then strcat('${1272MCCB}', to_string(Name)) else NULL end as MCCBTemp,
+		CASE Sort when 'Sort' then strcat('${SORTMCCB}', to_string(Name)) else MCCBTemp end as MCCB
+	FROM
+		'${FILEFILTER}'
+	WHERE
+		(isinlist(Area, '${Area}')) AND (ChangeType like 'Pending'
+		OR (ChangeType like 'Final' AND (NOT IsInList(AFOtmp, '${MCCBFILTER}') AND AFOtmp IS NOT NULL)
+		OR (NOT IsInList(D1Ctmp, '${MCCBFILTER}') AND D1Ctmp IS NOT NULL)
+		OR (NOT IsInList([D1Dtmp], '${MCCBFILTER}') AND [D1Dtmp] IS NOT NULL)
+		OR (NOT IsInList(F11xtmp, '${MCCBFILTER}') AND F11xtmp IS NOT NULL)
+		OR (NOT IsInList(F28tmp, '${MCCBFILTER}') AND F28tmp IS NOT NULL)
+		OR (NOT IsInList(F68tmp, '${MCCBFILTER}') AND F68tmp IS NOT NULL)
+		OR (NOT IsInList(OSAtmp, '${MCCBFILTER}') AND OSAtmp IS NOT NULL)
+		OR (NOT IsInList([F24tmp], '${MCCBFILTER}') AND [F24tmp] IS NOT NULL)))
+	ORDER BY
+		Process, ID desc
+END MAIN_CSV
+---Begin Main Query---
+Using CSV with
+SELECT
+	${SUPPORTSITEVIEW},
+	Process,
+	Name,
+	Area,
+	[Transfer Date],
+	Sort
+USING
+	CASE AFOCompletedBy when null then AFOtmp else strcat(strcat(strcat(AFOtmp, ' ('), AFOCompletedBy), ')') end as AFOTmp2,
+	CASE D1CCompletedBy when null then D1Ctmp else strcat(strcat(strcat(D1Ctmp, ' ('), D1CCompletedBy), ')') end as D1CTmp2,
+	CASE D1DCompletedBy when null then D1Dtmp else strcat(strcat(strcat(D1Dtmp, ' ('), D1DCompletedBy), ')') end as D1DTmp2,
+	CASE F11xCompletedBy when null then F11xtmp else strcat(strcat(strcat(F11xtmp, ' ('), F11xCompletedBy), ')') end as F11xTmp2,
+	CASE F24CompletedBy when null then F24tmp else strcat(strcat(strcat(F24tmp, ' ('), F24CompletedBy), ')') end as F24Tmp2,
+	CASE F28CompletedBy when null then F28tmp else strcat(strcat(strcat(F28tmp, ' ('), F28CompletedBy), ')') end as F28Tmp2,
+	CASE F68CompletedBy when null then F68tmp else strcat(strcat(strcat(F68tmp, ' ('), F68CompletedBy), ')') end as F68Tmp2,
+	CASE OSACompletedBy when null then OSAtmp else strcat(strcat(strcat(OSAtmp, ' ('), OSACompletedBy), ')') end as OSATmp2,
+	CASE [Change Type] when 'Pending' then CASE Site when 'AFO' then strcat(strcat('Pending (', Author), ')') else AFOTmp2 end else AFOTmp2 end as AFOTmp3,
+	CASE [Change Type] when 'Pending' then CASE Site when 'D1C' then strcat(strcat('Pending (', Author), ')') else D1CTmp2 end else D1CTmp2 end as D1CTmp3,
+	CASE [Change Type] when 'Pending' then CASE Site when 'D1D' then strcat(strcat('Pending (', Author), ')') else D1DTmp2 end else D1DTmp2 end as D1DTmp3,
+	CASE [Change Type] when 'Pending' then CASE Site when 'F11x' then strcat(strcat('Pending (', Author), ')') else F11xTmp2 end else F11xTmp2 end as F11xTmp3,
+	CASE [Change Type] when 'Pending' then CASE Site when 'F24' then strcat(strcat('Pending (', Author), ')') else F24Tmp2 end else F24Tmp2 end as F24Tmp3,
+	CASE [Change Type] when 'Pending' then CASE Site when 'F28' then strcat(strcat('Pending (', Author), ')') else F28Tmp2 end else F28Tmp2 end as F28Tmp3,
+	CASE [Change Type] when 'Pending' then CASE Site when 'F68' then strcat(strcat('Pending (', Author), ')') else F68Tmp2 end else F68Tmp2 end as F68Tmp3,
+	CASE [Change Type] when 'Pending' then CASE Site when 'OSA' then strcat(strcat('Pending (', Author), ')') else OSATmp2 end else OSATmp2 end as OSATmp3,
+	CASE AFOTmp3 when ' (NA)' then null when 'NA (NA)' then null else AFOTmp3 end as AFO,
+	CASE D1CTmp3 when ' (NA)' then null when 'NA (NA)' then null else D1CTmp3 end as D1C,
+	CASE D1DTmp3 when ' (NA)' then null when 'NA (NA)' then null else D1DTmp3 end as D1D,
+	CASE F11xTmp3 when ' (NA)' then null when 'NA (NA)' then null else F11xTmp3 end as F11x,
+	CASE F24Tmp3 when ' (NA)' then null when 'NA (NA)' then null else F24Tmp3 end as F24,
+	CASE F28Tmp3 when ' (NA)' then null when 'NA (NA)' then null else F28Tmp3 end as F28,
+	CASE F68Tmp3 when ' (NA)' then null when 'NA (NA)' then null else F68Tmp3 end as F68,
+	CASE OSATmp3 when ' (NA)' then null when 'NA (NA)' then null else OSATmp3 end as OSA
+FROM
+	%{MAIN_CSV}
+WHERE
+	IsInList(AFO, '${AFOMCCBSTATUS}')
+	OR IsInList(D1C, '${D1CMCCBSTATUS}')
+	OR IsInList(D1D, '${D1DMCCBSTATUS}')
+	OR IsInList(F11x, '${F11xMCCBSTATUS}')
+	OR IsInList(F24, '${F24MCCBSTATUS}')
+	OR IsInList(F28, '${F28MCCBSTATUS}')
+	OR IsInList(F68, '${F68MCCBSTATUS}')
+	OR IsInList(OSA, '${OSAMCCBSTATUS}')
+
+]]></QuerySQL>
+</QueryConfig>

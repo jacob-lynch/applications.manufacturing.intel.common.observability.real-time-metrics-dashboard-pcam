@@ -1,0 +1,409 @@
+<QueryConfig AutoExecuteQueryOnLoad="false" PreventSQLBeautification="false">
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 2/4/2019 9:27:07 AM from RF3PVAP416N19.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.9.70713.2318</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 2/4/2019 9:24:58 AM from RF3PVAP416N19.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.9.70713.2318</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 2/4/2019 9:23:32 AM from RF3PVAP416N19.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.9.70713.2318</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_mkotovsk on 1/20/2019 6:30:56 AM from RF3PRD415N2.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.9.70713.2318</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_mkotovsk on 1/20/2019 6:22:29 AM from RF3PRD415N2.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.9.70713.2318</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_mkotovsk on 1/20/2019 6:20:48 AM from RF3PRD415N2.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.9.70713.2318</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_mkotovsk on 1/20/2019 6:05:16 AM from RF3PRD415N2.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.9.70713.2318</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_mkotovsk on 1/19/2019 10:00:53 PM from RF3PRD415N2.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.9.70713.2318</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_mkotovsk on 1/19/2019 8:20:46 PM from RF3PRD415N2.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.9.70713.2318</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_mkotovsk on 1/18/2019 5:36:38 AM from RF3PRD415N2.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.9.70713.2318</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_mkotovsk on 1/12/2019 5:07:58 AM from RF3PRD415N2.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.9.70713.2318</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_mkotovsk on 12/29/2018 3:17:40 AM from RF3PRD415N2.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.9.70713.2318</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_mkotovsk on 12/29/2018 3:16:22 AM from RF3PRD415N2.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.9.70713.2318</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_mkotovsk on 12/29/2018 2:41:18 AM from RF3PRD415N2.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.9.70713.2318</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_mkotovsk on 12/28/2018 6:49:42 AM from RF3PRD415N2.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.9.70713.2318</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_mkotovsk on 12/27/2018 11:30:15 PM from RF3PRD415N2.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.9.70713.2318</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_mkotovsk on 12/27/2018 10:24:04 PM from RF3PRD415N2.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.9.70713.2318</ChangeLog>
+  <ChangeLog>Changed by AMR\amodi on 2/3/2011 3:53:21 PM from AMODI-DEV1.LTDAUTO.INTEL.COM using LogAnalyzer2 v2.3.10203.1546</ChangeLog>
+  <ChangeLog>Changed by AMR\amodi on 9/3/2009 10:36:46 PM from AMODI-DEV1.LTDAUTO.INTEL.COM</ChangeLog>
+  <QueryAttributes>
+    <RowThresholdForPivotGrid>1000000</RowThresholdForPivotGrid>
+    <AlwaysReplaceDomainWithLocal>false</AlwaysReplaceDomainWithLocal>
+  </QueryAttributes>
+  <PostQuerySQL>select * from %{OUTPUT}</PostQuerySQL>
+  <TableLayoutConfig>
+    <BoundColumnList>DateTime,NodeName,EventLog,EventID,EventTypeName,Category,SourceName,UserID,Message,Strings</BoundColumnList>
+  </TableLayoutConfig>
+  <RowHighlightingRules Enable="true" ColumnName="*" FilterRegex="Error" RowColorString="NamedColor:Red" />
+  <RowHighlightingRules Enable="true" ColumnName="*" FilterRegex="Warning" RowColorString="NamedColor:Yellow" />
+  <TabOrder>C0</TabOrder>
+  <MainPivotConfig>
+    <ColumnX FieldName="" FieldType="" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <ColumnY FieldName="" FieldType="" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <ColumnData FieldName="" FieldType="" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <CustomPalette />
+    <TableData />
+  </MainPivotConfig>
+  <AutoPivotConfig OutputDateFormat="yyyy ww.w HH:mm" StatisticalFunctionsForColumn="Avg, 50, 90,96, Count" />
+  <MailConfig>
+    <PostProcessingSQL Enable="false" />
+    <EmailCondition Enable="false" Operator="&gt;=" ThresholdRowCount="0">
+      <SQLQuery />
+      <RunScriptBeforeEmailing>false</RunScriptBeforeEmailing>
+      <Script />
+    </EmailCondition>
+    <PostProcessingCondition Enable="false" Operator="&gt;" ThresholdRowCount="0">
+      <SQLQuery />
+      <RunScriptBeforeEmailing>false</RunScriptBeforeEmailing>
+    </PostProcessingCondition>
+    <CopyCondition Enable="false" Operator="&gt;" ThresholdRowCount="">
+      <SQLQuery />
+      <RunScriptBeforeEmailing>false</RunScriptBeforeEmailing>
+    </CopyCondition>
+    <SMTPServer>smtp.intel.com</SMTPServer>
+    <From>LogAnalyzer2@intel.com</From>
+    <ReplyTo>@{DASHBOARD_OWNER_ALERT_DIST}</ReplyTo>
+    <To />
+    <Subject>[${DOMAIN}] 1_MES Litho DualMA_XEUS</Subject>
+    <Body />
+    <MailAttachments FileNamingFormat="${SETTINGS}" Excel="false" LAS="false" LAD="false" Exceptions="false" StatusLogs="false" PivotChart="false" ZipAttachments="false" DoNotSendAttachmentsWithEmail="false" IncludeJobStatisticsHeader="false" IncludeQuerySettingsFileHeader="false" IncludeVariableDefinitionHeader="false" IncludeRowCountInSubject="false" />
+    <IncludeSQLQueryInBody>false</IncludeSQLQueryInBody>
+    <TableInBody Enable="false">
+      <SQL />
+    </TableInBody>
+    <CopyOutputToDirectory>true</CopyOutputToDirectory>
+    <OutputDirectory>@{DASHBOARD_PERSIST_DATA}\PCAM\Output</OutputDirectory>
+    <IncludeAutoPivotSummary>false</IncludeAutoPivotSummary>
+    <IncludeCustomPivotSummary>false</IncludeCustomPivotSummary>
+    <IgnoreExceptions>false</IgnoreExceptions>
+    <OnlyCopyOutputIfEmailConditionIsMet>false</OnlyCopyOutputIfEmailConditionIsMet>
+  </MailConfig>
+  <TableSchema><xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+  <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="Results" msdata:UseCurrentLocale="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Results">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Entity" type="xs:string" minOccurs="0" />
+              <xs:element name="Mapping" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
+</TableSchema>
+  <TableData />
+  <LastRunAbsoluteDateFilter />
+  <CustomQueryMethodScripts>//css_searchdir C:\Users\mfg_mkotovsk\Desktop; /* Added automatically by LA2 (please do not modify) */
+//css_ref System.Xml; /* Added automatically by LA2 (please do not modify) */
+//css_searchdir C:\Users\mfg_mkotovsk\Desktop; /* Added automatically by LA2 (please do not modify) */
+//css_ref System.Xml; /* Added automatically by LA2 (please do not modify) */
+using System;
+using System.ComponentModel;
+using System.Collections.Generic;
+using System.Data;
+using System.IO;
+using System.Net;
+using System.Text.RegularExpressions;
+using Intel.LogAnalyzer.Common;
+using Intel.LogAnalyzer.Utility;
+
+namespace Intel.LogAnalyzer.CustomQueryMethods_ToolNSLookup
+{
+    public class ToolNSLookupQueryMethod : CustomQueryMethodBase
+    {
+        /// &lt;summary&gt;
+        /// Test harness
+        /// &lt;/summary&gt;
+        [STAThread]
+        private static void Main()
+        {
+            String cfg, dns;
+            ToolNSLookupQueryMethod q = new ToolNSLookupQueryMethod();
+
+            DataTable xeus = UtilityMethods.ConvertCSVFileToDataTable(@"C:\Users\mfg_mkotovsk\Desktop\xeus_sample.csv", false);
+            DataTable test = UtilityMethods.ConvertCSVFileToDataTable(@"C:\Users\mfg_mkotovsk\Desktop\HSMS_tester_mapping.csv", false);
+            DataTable over = UtilityMethods.ConvertCSVFileToDataTable(@"C:\Users\mfg_mkotovsk\Desktop\HSMS_secport_override.csv", false);
+            List&lt;String&gt; litho = ("TelNikonLink,LithiusAsmlLink,Nikon_LithoLink,ASML_LithoLink").Split(",");
+            List&lt;String&gt; tool = ("DOR,TEN").Split(",");
+
+            var x = q.DoLookupMatch("R2PCVD04", @"\\R2PCVD04U\C$\SC\SC.NET\MachineControllers\SC.NET_NVLS_C3_CVD_1.1.0.900_FW_1.2.1\config\HSMS_secsport.cfg", out cfg, out dns, xeus, test, over, litho, tool);
+        }
+
+        // Output type is QueryResult
+        public override CustomQueryOutputType OutputType { get { return CustomQueryOutputType.QueryResult; } }
+
+        public override string Description
+        {
+            get { return "Custom NSLookup for SC"; }
+        }
+
+        [Description("Input CSV File containing table data")]
+        public string InputFile { get; set; }
+
+        [Description("Input CSV File containing litho mapping")]
+        public string XEUSLithoMap { get; set; }
+
+        [Description("Input CSV File containing winclient/ip overrides")]
+        public string SecportOverride { get; set; }
+
+        [Description("Input CSV File containing tester mapping")]
+        public string TesterMap { get; set; }
+        
+        [Description("Comma separated list of litho MachineControllers")]
+        public string LithoApps { get; set; }
+                
+        [Description("Comma separated list of Tool Exclusions")]
+        public string ToolExclude { get; set; }
+        
+        [Description("Column containing NodeName")]
+        public string NodeColumnName { get; set; }
+
+        [Description(@"File name to check for = \\ NODENAME FOLDERNAME FILENAME (without spaces) ex: cmd.exe")]
+        public string FileColumnName { get; set; }
+
+        public override QueryResult GetQueryResult()
+        {
+            return new QueryResult(string.Empty, Compute());
+        }
+
+        private DataTable Compute()
+        {
+            DataTable table = UtilityMethods.ConvertCSVFileToDataTable(InputFile, false);
+            DataTable xeus = UtilityMethods.ConvertCSVFileToDataTable(XEUSLithoMap, false);
+            DataTable test = UtilityMethods.ConvertCSVFileToDataTable(TesterMap, false);
+            DataTable over = UtilityMethods.ConvertCSVFileToDataTable(SecportOverride, false);
+            List&lt;String&gt; litho = LithoApps.Split(",");
+            List&lt;String&gt; tool_excludes = ToolExclude.Split(",");
+
+            table.Columns.Add("NSLookup", typeof(String));
+            table.Columns.Add("CFG");
+            table.Columns.Add("DNS");
+			
+            String tool, dns, cfg;
+            foreach (DataRow dr in table.Rows)
+            {
+                try
+                {
+                    tool = dr[NodeColumnName].ToString();
+                    tool = tool.Substring(0, tool.Length - 1);
+                    dr["NSLookup"] = DoLookupMatch(tool, dr[FileColumnName].ToString(), out cfg, out dns, xeus, test, over, litho, tool_excludes);
+                    dr["CFG"] = cfg;
+                    dr["DNS"] = dns;
+                }
+                catch (Exception e) { }
+            }
+
+            return table;
+        }
+
+        private String DoLookupMatch(String node, String file, out String cfg_vals, out String dns_vals, DataTable xeus, DataTable tester, DataTable overrides, List&lt;String&gt; litho, List&lt;String&gt; tool_excludes)
+        {
+            List&lt;String&gt; config = new List&lt;string&gt;(); // list of all the addresses we need to validate
+            bool parse_flag = false;
+            bool parse_exception_flag = false;
+            bool dns_flag = false;
+            cfg_vals = dns_vals = "";
+
+            node = node.ToUpper();
+
+            foreach(String tool in tool_excludes)
+            {
+                if (node.Contains(tool.ToUpper()))
+                    return "WARNING Ignored excluded Tool";
+            }
+            if (file.Contains("Dummy"))
+                return "WARNING Ignored Dummy config";
+
+
+            // Lookup SecPort configuration
+            DoSecPortLookup(file, ref parse_flag, ref parse_exception_flag, ref cfg_vals, ref config);
+
+            // process manual overrides
+            foreach (DataRow row in overrides.Rows)
+            {
+                if (row["winclient"].ToString().ToUpper() == (node.ToUpper() + "U") &amp;&amp; config.Contains(row["ip"].ToString()))
+                { 
+                    config.Remove(row["ip"].ToString());
+                    dns_vals = "OVERRIDE " + row["ip"];
+                    if (!parse_flag &amp;&amp; !parse_exception_flag &amp;&amp; config.Count == 0)
+                        return "Match";
+                }
+            }
+
+            // Process DNS entry
+            dns_flag = DoDNSLookup(node, ref dns_vals, ref config);
+
+            // Check tester information for Etest dual-MA tools
+            foreach (DataRow row in tester.Rows)
+            {
+                if (node.ToUpper().Contains(row["tool"].ToString().ToUpper()))
+                    dns_flag = dns_flag &amp; DoDNSLookup(node.Replace(row["tool"].ToString().ToUpper(), row["tester"].ToString().ToUpper()), ref dns_vals,ref config);
+            }
+
+            // Check for Litho exceptions
+            foreach (String l in litho)
+            {
+                // If this is a litho tool, see if we can map it in XEUS
+                if (!file.Contains(l)) continue;
+                foreach (DataRow row in xeus.Rows)
+                {
+                    if (node.ToUpper().Contains(row["Entity"].ToString().ToUpper()))
+                    {
+                        List&lt;String&gt; map = row["Mapping"].ToString().ToUpper().Replace(",",";").Replace(" ","").Split(";");
+                        foreach (String tool in map)
+                        {
+                            dns_flag = dns_flag &amp; DoDNSLookup(node.Replace(row["Entity"].ToString().ToUpper(),tool), ref dns_vals, ref config);
+                        }
+                    }
+                }
+            }
+
+            if (!parse_flag &amp;&amp; !dns_flag &amp;&amp; config.Count == 0)
+                return "Match";
+            if (!File.Exists(file))
+                return "WARNING secport file not found";
+            if (parse_flag &amp;&amp; parse_exception_flag)
+                return "WARNING ${TOOLIPADDRESS} found";
+            if (parse_flag)
+                return "ERROR Parsing secport file";
+            if (dns_flag)
+                return "ERROR resolving DNS for node";
+            return "ERROR Mismatch DNS &amp; Config";
+        }
+
+        // Parses file to scrape ip addresses and leave them in config
+        private void DoSecPortLookup(String file, ref bool parse_flag, ref bool parse_exception_flag, ref String cfg_vals, ref List&lt;String&gt; config)
+        {
+            StreamReader reader = null;
+
+            if (!File.Exists(file))
+                parse_flag = true;
+            else
+            {
+                try
+                {
+                    String raw, address;
+                    reader = new StreamReader(file);
+                    // For each line in the file:
+                    while ((raw = reader.ReadLine()) != null)
+                    {
+                        // An odd configuration exception
+                        if (raw.Contains(@"${TOOLIPADDRESS}"))
+                            parse_exception_flag = true;
+                        // Trim out any trailing comments
+                        if (raw.Contains(@"//*"))
+                            raw = raw.Substring(0, raw.IndexOf(@"//*"));
+                        // If it contains a 10.*.*.* passive entity address
+                        if (raw.ToUpper().Trim().Contains("PASSIVE ENTITY IPADDRESS 10."))
+                        {
+                            // Trim down to the 10. address and regex for an IP address like block
+                            address = raw.Substring(raw.LastIndexOf("IPADDRESS") + 10).Trim();
+                            Match match = Regex.Match(address, @"(\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3})");
+                            if (match.Success)
+                                address = match.Captures[0].ToString();
+                            if (!config.Contains(address))
+                            {
+                                // If the address is valid and not already in our list, add it
+                                config.Add(address);
+                                cfg_vals += (cfg_vals.Length == 0 ? "" : ";") + address;
+                            }
+                        }
+                    }
+                    if (config.Count == 0)
+                        parse_flag = true;
+                    reader.Close();
+                }
+                catch (Exception e)
+                {
+                    try
+                    {
+                        if (reader != null) reader.Close();
+                    }
+                    catch (Exception e2) { }
+                    parse_flag = true;
+                }
+            }
+        }
+
+        // Does DNS lookup on node and removes config entries for found IP addresses from config
+        // returns true if it cannot do any DNS lookup
+        // returns false if DNS is addressable
+        private bool DoDNSLookup(String node, ref String dns_vals, ref List&lt;String&gt; config)
+        {
+            try
+            {
+                bool unresolved = false;
+                IPHostEntry resolved;
+                try
+                {
+                    // Try to resolve without H, for each IP match in config, remove from config
+                    resolved = Dns.GetHostEntry(node);
+                    foreach (IPAddress ip in resolved.AddressList)
+                    {
+                        dns_vals += (dns_vals.Length == 0 ? "" : ";") + ip.ToString();
+                        if (config.Contains(ip.ToString()))
+                            config.Remove(ip.ToString());
+                    }
+                }
+                catch (Exception e)
+                {
+                    // This should be expected most of the time, this is to catch some odd mappings
+                    if (e.Message != "No such host is known")
+                        throw e;
+                    unresolved = true;
+                }
+                try
+                {
+                    // Try to resolve with H, for each IP match in config, remove from config
+                    resolved = Dns.GetHostEntry(node + "H");
+                    foreach (IPAddress ip in resolved.AddressList)
+                    {
+                        dns_vals += (dns_vals.Length == 0 ? "" : ";") + ip.ToString();
+                        if (config.Contains(ip.ToString()))
+                            config.Remove(ip.ToString());
+                    }
+                }
+                catch (Exception e)
+                {
+                    if (unresolved || e.Message != "No such host is known")
+                        throw e;
+                }
+            }
+            catch (Exception e)
+            {
+                return true;
+            }
+            return false;
+        }
+    }
+}
+
+</CustomQueryMethodScripts>
+  <PivotGroupingSettings PivotColumn="">
+    <SortyByColumn>Count</SortyByColumn>
+  </PivotGroupingSettings>
+  <QuerySQL><![CDATA[
+--[FileName:"D:\Dashboard\Jobs\PCAM\Monitor-6hr\1_MES Litho DualMA_XEUS.lasx"]------
+----------<VARIABLES>------------
+var MAO_USERID = "@{USERID_NON_MFG}"
+var DATA_SOURCE = "@{LOCALXEUSDATASOURCE}"
+---Begin Main Query---
+Using UNIQE with
+	DataSource = "${DATA_SOURCE}" -- UNIQE data source to query
+	Authentication = "UNP" -- User Authentication Mode
+	UserId = "${MAO_USERID}" -- User ID for authentication
+SELECT
+  m.ENTITY           "Entity",
+  av.ATTRIBUTE_VALUE "Mapping"
+FROM
+  F_ENTITY m
+  LEFT OUTER JOIN F_ENTITYATTRIBUTE av
+	ON ( m.ENTITY = av.ENTITY )
+WHERE
+  av.ATTRIBUTE_NAME = 'ReferenceEntity'
+  AND av.ATTRIBUTE_VALUE <> ' '
+  AND m.ENTITY_DELETED_FLAG != 'Y'
+  AND m.OBJECT_STATUS = '1'
+  AND av.HISTORY_DELETED_FLAG = 'N'
+ORDER  BY
+  m.ENTITY,
+  av.ATTRIBUTE_NAME 
+
+]]></QuerySQL>
+</QueryConfig>

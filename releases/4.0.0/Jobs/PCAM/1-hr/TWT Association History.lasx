@@ -1,0 +1,188 @@
+<QueryConfig AutoExecuteQueryOnLoad="false" PreventSQLBeautification="false">
+  <ChangeLog>Changed by AMR\mfg_palse on 8/20/2020 10:48:13 AM from RF3PRD415N1.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.9.00628.2048</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 10/1/2014 1:12:22 PM from RF3PTS216.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.8.40923.2310</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 10/1/2014 1:12:16 PM from RF3PTS216.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.8.40923.2310</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 10/1/2014 1:12:07 PM from RF3PTS216.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.8.40923.2310</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 10/1/2014 1:09:14 PM from RF3PTS216.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.8.40923.2310</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 10/1/2014 1:07:06 PM from RF3PTS216.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.8.40923.2310</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 10/1/2014 1:01:30 PM from RF3PTS216.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.8.40923.2310</ChangeLog>
+  <ChangeLog>Changed by AMR\tcalford on 9/30/2014 1:55:19 PM from TCALFORD-MOBL.AMR.CORP.INTEL.COM using LogAnalyzer2 v2.8.40806.2215</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_tcalford on 8/29/2014 2:48:28 PM from F32PTS215.F32PROD.MFG.INTEL.COM using LogAnalyzer2 v2.8.40713.1943</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_tcalford on 8/29/2014 2:48:22 PM from F32PTS215.F32PROD.MFG.INTEL.COM using LogAnalyzer2 v2.8.40713.1943</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_tcalford on 8/29/2014 2:47:51 PM from F32PTS215.F32PROD.MFG.INTEL.COM using LogAnalyzer2 v2.8.40713.1943</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_tcalford on 8/29/2014 2:47:28 PM from F32PTS215.F32PROD.MFG.INTEL.COM using LogAnalyzer2 v2.8.40713.1943</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_tcalford on 7/28/2014 1:30:40 PM from F32PTS215.F32PROD.MFG.INTEL.COM using LogAnalyzer2 v2.8.40713.1943</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_tcalford on 7/28/2014 1:30:19 PM from F32PTS215.F32PROD.MFG.INTEL.COM using LogAnalyzer2 v2.8.40713.1943</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_tcalford on 7/25/2014 11:43:17 AM from F32PTS215.F32PROD.MFG.INTEL.COM using LogAnalyzer2 v2.8.40713.1943</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_tcalford on 7/25/2014 11:43:11 AM from F32PTS215.F32PROD.MFG.INTEL.COM using LogAnalyzer2 v2.8.40713.1943</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_tcalford on 5/13/2014 7:35:24 AM from F32PTS215.F32PROD.MFG.INTEL.COM using LogAnalyzer2 v2.7.31031.1837</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_tcalford on 5/13/2014 7:27:23 AM from F32PTS215.F32PROD.MFG.INTEL.COM using LogAnalyzer2 v2.7.31031.1837</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_tcalford on 5/13/2014 7:26:43 AM from F32PTS215.F32PROD.MFG.INTEL.COM using LogAnalyzer2 v2.7.31031.1837</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 10/31/2013 9:24:40 AM from RF3PTS216.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.7.31030.2226</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_mjschlec on 10/25/2013 9:18:42 AM from RF2PTS215.RF2PROD.MFG.INTEL.COM using LogAnalyzer2 v2.6.30225.0830</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_mjschlec on 10/25/2013 9:15:56 AM from RF2PTS215.RF2PROD.MFG.INTEL.COM using LogAnalyzer2 v2.6.30225.0830</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_mjschlec on 10/25/2013 9:01:26 AM from RF2PTS215.RF2PROD.MFG.INTEL.COM using LogAnalyzer2 v2.6.30225.0830</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_mjschlec on 10/25/2013 9:01:13 AM from RF2PTS215.RF2PROD.MFG.INTEL.COM using LogAnalyzer2 v2.6.30225.0830</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_mjschlec on 10/17/2013 2:19:00 PM from RF2PTS215.RF2PROD.MFG.INTEL.COM using LogAnalyzer2 v2.6.30225.0830</ChangeLog>
+  <QueryAttributes>
+    <OutputDateFormat>yyyy/MM/dd HH:mm:ss</OutputDateFormat>
+    <RowThresholdForPivotGrid>1000000</RowThresholdForPivotGrid>
+  </QueryAttributes>
+  <PostQuerySQL>select * from %{OUTPUT}</PostQuerySQL>
+  <TableLayoutConfig>
+    <BoundColumnList>ENTITY,TABLENAME,TWUSER,TRANDATE,DESCRIPTION,EquipCEID,EquipProcessType</BoundColumnList>
+  </TableLayoutConfig>
+  <RowHighlightingRules Enable="true" ColumnName="*" FilterRegex="Error" RowColorString="NamedColor:Red" />
+  <RowHighlightingRules Enable="true" ColumnName="*" FilterRegex="Warning" RowColorString="NamedColor:Yellow" />
+  <TabOrder>C0,G0</TabOrder>
+  <MainPivotConfig>
+    <ColumnX FieldName="" FieldType="" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <ColumnY FieldName="" FieldType="" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <ColumnData FieldName="" FieldType="" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <CustomPalette />
+    <TableData />
+  </MainPivotConfig>
+  <OutputDataGridConfig Name="Last Week" IncludeInBody="false" IncludeInAttachment="true">
+    <SQL>----------&lt;VARIABLES&gt;------------
+var TIMEFILTER = "Last 1 weeks"
+---Begin Main Query---
+SELECT
+	*
+FROM
+	%{OUTPUT}
+WHERE
+	ApplyTimeRangeFilter(CHANGEDATE, '${TIMEFILTER}')
+</SQL>
+    <TableLayoutConfig>
+      <BoundColumnList>UserName,CHANGEDATE,ENTITY,TABLENAME,DESCRIPTION</BoundColumnList>
+    </TableLayoutConfig>
+    <TableSchema><xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+  <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="Results" msdata:UseCurrentLocale="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Results">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="UserName" type="xs:string" minOccurs="0" />
+              <xs:element name="CHANGEDATE" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="ENTITY" type="xs:string" minOccurs="0" />
+              <xs:element name="TABLENAME" type="xs:string" minOccurs="0" />
+              <xs:element name="DESCRIPTION" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
+</TableSchema>
+    <TableData />
+  </OutputDataGridConfig>
+  <AutoPivotConfig OutputDateFormat="yyyy ww.w HH:mm" StatisticalFunctionsForColumn="Avg, 50, 90,96, Count" />
+  <MailConfig>
+    <PostProcessingSQL Enable="false" />
+    <EmailCondition Enable="false" Operator="&gt;=" ThresholdRowCount="0">
+      <SQLQuery />
+      <RunScriptBeforeEmailing>false</RunScriptBeforeEmailing>
+      <Script />
+    </EmailCondition>
+    <PostProcessingCondition Enable="false" Operator="&gt;" ThresholdRowCount="0">
+      <SQLQuery />
+      <RunScriptBeforeEmailing>false</RunScriptBeforeEmailing>
+    </PostProcessingCondition>
+    <CopyCondition Enable="false" Operator="&gt;" ThresholdRowCount="0">
+      <SQLQuery />
+      <RunScriptBeforeEmailing>false</RunScriptBeforeEmailing>
+    </CopyCondition>
+    <SMTPServer>smtpauth.intel.com:587</SMTPServer>
+    <From>LogAnalyzer2@intel.com</From>
+    <ReplyTo>@{DASHBOARD_OWNER_ALERT_DIST}</ReplyTo>
+    <To />
+    <Subject>TWT Table Association History</Subject>
+    <Body />
+    <MailAttachments FileNamingFormat="${SETTINGS}" Excel="false" LAS="false" LAD="false" Exceptions="false" StatusLogs="false" PivotChart="false" ZipAttachments="false" DoNotSendAttachmentsWithEmail="false" IncludeJobStatisticsHeader="false" IncludeQuerySettingsFileHeader="false" IncludeVariableDefinitionHeader="false" IncludeRowCountInSubject="false" />
+    <IncludeSQLQueryInBody>false</IncludeSQLQueryInBody>
+    <TableInBody Enable="false">
+      <SQL />
+    </TableInBody>
+    <CopyOutputToDirectory>true</CopyOutputToDirectory>
+    <OutputDirectory>@{DASHBOARD_WEB_SPOOL}\PCAM\Output</OutputDirectory>
+    <IncludeAutoPivotSummary>false</IncludeAutoPivotSummary>
+    <IncludeCustomPivotSummary>false</IncludeCustomPivotSummary>
+    <IgnoreExceptions>false</IgnoreExceptions>
+    <OnlyCopyOutputIfEmailConditionIsMet>false</OnlyCopyOutputIfEmailConditionIsMet>
+  </MailConfig>
+  <TableSchema><xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+  <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="Results" msdata:UseCurrentLocale="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Results">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="UserName" type="xs:string" minOccurs="0" />
+              <xs:element name="CHANGEDATE" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="ENTITY" type="xs:string" minOccurs="0" />
+              <xs:element name="TABLENAME" type="xs:string" minOccurs="0" />
+              <xs:element name="DESCRIPTION" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
+</TableSchema>
+  <TableData />
+  <LastRunAbsoluteDateFilter />
+  <PivotGroupingSettings PivotColumn="">
+    <SortyByColumn>Count</SortyByColumn>
+  </PivotGroupingSettings>
+  <QuerySQL><![CDATA[
+--[FileName:"\\Rf3pvap416n19\d$\Dashboard\Jobs\PCAM\1-hr\TWT Association History.lasx"]------
+----------<VARIABLES>------------
+var LOCAL_TWT_DATA_SOURCE_INTERNAL = "@{LOCALTWDATASOURCE}"
+var TABLE_FILTER = "*"
+var OPER_FILTER = "*"
+var USER_FILTER = "*"
+---[RAW_CSV]---
+BEGIN RAW_CSV
+	---Begin Main Query---
+	Using UNIQE with
+		DataSource = "${LOCAL_TWT_DATA_SOURCE_INTERNAL}" -- UNIQE data source to query
+		Authentication = "IWA" -- User Authentication Mode
+		DataAccessor = "default" -- Data accessor to use on the server side when executing the query (e.g., default, ODP, SQL, DevArtODP)
+		Application = "LogAnalyzer2" -- Application name to send to server
+		GetSchemaTable = false -- Get only the schema table for the output query table
+		UserId = "n/a" -- User ID for authentication
+		Password = "n/a" -- User password for UPWD authentication
+		Site = "" -- Default UNIQE Server to connect to
+	SELECT
+	  TWUser,
+	  TranDate AS ChangeDate,
+	  Entity,
+	  TableName,
+	  Description
+	FROM
+	  twentity
+	WHERE
+	  TranDate > SYSDATE - 30
+	ORDER  BY
+	  ChangeDate DESC 
+END RAW_CSV
+---Begin Main Query---
+Using CSV with
+SELECT
+	UserName,
+	ChangeDate,
+	Entity,
+	TableName,
+	Description
+USING
+	case substr(TWUser, 0, 4)
+	when 'MFG_' then Substr(TWUser, 4)
+	else TWUser end as UserName
+FROM
+	%{raw_csv}
+
+]]></QuerySQL>
+</QueryConfig>

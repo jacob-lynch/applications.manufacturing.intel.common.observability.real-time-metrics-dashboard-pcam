@@ -1,0 +1,118 @@
+<QueryConfig AutoExecuteQueryOnLoad="false" PreventSQLBeautification="false">
+  <ChangeLog>Changed by GER\mfg_hgurarie on 8/17/2017 4:30:22 PM from F28PAP216N11.F28PROD.MFG.INTEL.COM using LogAnalyzer2 v2.9.61013.0546</ChangeLog>
+  <ChangeLog>Changed by GER\mfg_hgurarie on 8/17/2017 4:29:14 PM from F28PAP216N11.F28PROD.MFG.INTEL.COM using LogAnalyzer2 v2.9.61013.0546</ChangeLog>
+  <ChangeLog>Changed by GER\mfg_rlouk on 7/6/2017 5:40:25 AM from F32PAP216N11.F32PROD.MFG.INTEL.COM using LogAnalyzer2 v2.9.61013.1446</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_tcalford on 10/22/2015 2:42:06 PM from F32PAP216N3.F32PROD.MFG.INTEL.COM using LogAnalyzer2 v2.8.40713.1943</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_tcalford on 3/5/2015 12:45:48 PM from F32PAP216N3.F32PROD.MFG.INTEL.COM using LogAnalyzer2 v2.8.40713.1943</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_tcalford on 12/5/2014 12:23:44 PM from F32PAP216N3.F32PROD.MFG.INTEL.COM using LogAnalyzer2 v2.8.40713.1943</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_tcalford on 12/5/2014 12:20:40 PM from F32PTS215.F32PROD.MFG.INTEL.COM using LogAnalyzer2 v2.8.40713.1943</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_tcalford on 12/5/2014 12:06:06 PM from F21PAP216N3.F21PROD.MFG.INTEL.COM using LogAnalyzer2 v2.8.40713.1843</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_tcalford on 6/18/2014 10:36:35 PM from F24PAP216N3.F24PROD.MFG.INTEL.COM using LogAnalyzer2 v2.7.31031.1137</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_tcalford on 6/17/2014 1:16:24 PM from F32PTS215.F32PROD.MFG.INTEL.COM using LogAnalyzer2 v2.7.31031.1837</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_tcalford on 6/16/2014 9:04:35 PM from F32PTS215.F32PROD.MFG.INTEL.COM using LogAnalyzer2 v2.7.31031.1837</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_tcalford on 6/16/2014 7:00:16 PM from F32PTS215.F32PROD.MFG.INTEL.COM using LogAnalyzer2 v2.7.31031.1837</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_tcalford on 6/9/2014 3:55:21 PM from F32PTS215.F32PROD.MFG.INTEL.COM using LogAnalyzer2 v2.7.31031.1837</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_tcalford on 6/9/2014 3:51:54 PM from F32PTS215.F32PROD.MFG.INTEL.COM using LogAnalyzer2 v2.7.31031.1837</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_tcalford on 5/27/2014 4:32:25 PM from F32PTS215.F32PROD.MFG.INTEL.COM using LogAnalyzer2 v2.7.31031.1837</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_tcalford on 5/27/2014 1:23:35 PM from F32PTS215.F32PROD.MFG.INTEL.COM using LogAnalyzer2 v2.7.31031.1837</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_tcalford on 5/23/2014 8:39:40 PM from F32PTS215.F32PROD.MFG.INTEL.COM using LogAnalyzer2 v2.7.31031.1837</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_tcalford on 5/23/2014 8:37:34 PM from F32PTS215.F32PROD.MFG.INTEL.COM using LogAnalyzer2 v2.7.31031.1837</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_tcalford on 5/23/2014 3:17:21 PM from F32PTS215.F32PROD.MFG.INTEL.COM using LogAnalyzer2 v2.7.31031.1837</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_tcalford on 5/23/2014 3:17:11 PM from F32PTS215.F32PROD.MFG.INTEL.COM using LogAnalyzer2 v2.7.31031.1837</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_tcalford on 5/23/2014 3:17:03 PM from F32PTS215.F32PROD.MFG.INTEL.COM using LogAnalyzer2 v2.7.31031.1837</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_tcalford on 4/22/2014 6:36:38 PM from F32PTS215.F32PROD.MFG.INTEL.COM using LogAnalyzer2 v2.7.31031.1837</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_tcalford on 4/21/2014 4:22:00 PM from F32PTS215.F32PROD.MFG.INTEL.COM using LogAnalyzer2 v2.7.31031.1837</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_tcalford on 4/17/2014 7:49:46 PM from F32PTS215.F32PROD.MFG.INTEL.COM using LogAnalyzer2 v2.7.31031.1837</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_tcalford on 4/17/2014 7:49:10 PM from F32PTS215.F32PROD.MFG.INTEL.COM using LogAnalyzer2 v2.7.31031.1837</ChangeLog>
+  <QueryAttributes>
+    <AlwaysReplaceDomainWithLocal>false</AlwaysReplaceDomainWithLocal>
+  </QueryAttributes>
+  <PostQuerySQL>select * from %{OUTPUT}</PostQuerySQL>
+  <TableLayoutConfig>
+    <BoundColumnList>Queue</BoundColumnList>
+  </TableLayoutConfig>
+  <TabOrder>C0</TabOrder>
+  <MainPivotConfig>
+    <ColumnX FieldName="" FieldType="" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <ColumnY FieldName="" FieldType="" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <ColumnData FieldName="" FieldType="" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <CustomPalette />
+    <TableData />
+  </MainPivotConfig>
+  <AutoPivotConfig OutputDateFormat="yyyy ww.w hh tt" />
+  <MailConfig>
+    <PostProcessingSQL Enable="false" />
+    <EmailCondition Enable="false" ThresholdRowCount="0">
+      <RunScriptBeforeEmailing>false</RunScriptBeforeEmailing>
+    </EmailCondition>
+    <PostProcessingCondition Enable="false" ThresholdRowCount="0">
+      <RunScriptBeforeEmailing>false</RunScriptBeforeEmailing>
+    </PostProcessingCondition>
+    <CopyCondition Enable="false" ThresholdRowCount="0">
+      <RunScriptBeforeEmailing>false</RunScriptBeforeEmailing>
+    </CopyCondition>
+    <Body />
+    <MailAttachments Excel="false" LAS="false" LAD="false" Exceptions="false" StatusLogs="false" PivotChart="true" ZipAttachments="true" DoNotSendAttachmentsWithEmail="false" />
+    <IncludeSQLQueryInBody>false</IncludeSQLQueryInBody>
+    <TableInBody Enable="false" />
+    <CopyOutputToDirectory>false</CopyOutputToDirectory>
+    <IncludeAutoPivotSummary>false</IncludeAutoPivotSummary>
+    <IgnoreExceptions>false</IgnoreExceptions>
+    <OnlyCopyOutputIfEmailConditionIsMet>false</OnlyCopyOutputIfEmailConditionIsMet>
+  </MailConfig>
+  <TableSchema><xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+  <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="Results" msdata:UseCurrentLocale="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Results">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Number" type="xs:string" minOccurs="0" />
+              <xs:element name="Location" type="xs:string" minOccurs="0" />
+              <xs:element name="Process" type="xs:string" minOccurs="0" />
+              <xs:element name="Area" type="xs:string" minOccurs="0" />
+              <xs:element name="AssignedTo" type="xs:string" minOccurs="0" />
+              <xs:element name="Description" type="xs:string" minOccurs="0" />
+              <xs:element name="Category" type="xs:string" minOccurs="0" />
+              <xs:element name="LastUpdated" type="xs:dateTime" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
+</TableSchema>
+  <TableData />
+  <LastRunAbsoluteDateFilter />
+  <PivotGroupingSettings PivotColumn="">
+    <SortyByColumn>Count</SortyByColumn>
+  </PivotGroupingSettings>
+  <QuerySQL><![CDATA[
+--[FileName:"R:\Dashboard\Web\PCAM\LA2 Scripts\Web_CapabilitySRClosed.lasx"]------
+----------<VARIABLES>------------
+var FILEFILTER = "@{DASHBOARD_LOCAL_WEB}\PCAM\Output\1_ISMP_Request_Query_All_Closed Requests.csv"
+var COMEMBERS = "@{COMembers}"
+var COCATEGORY = "@{COCategory}"
+---Begin Main Query---
+Using CSV with
+SELECT
+	Number,
+	Location,
+	Process,
+	Area,
+	AssignedTo,
+	Description,
+	Category,
+	UpdatedOn as LastUpdated
+USING
+	replace_str(NumberURL, '&lt;', '<') as temp3,
+	replace_str(temp3, '&quot;', '"') as temp4,
+	replace_str(temp4, '&gt;', '>') as Number
+FROM
+	'${FILEFILTER}'
+WHERE
+	isinlist(Category, '${COCategory}') or isinlist(AssignedTo, '${COMembers}')
+
+]]></QuerySQL>
+</QueryConfig>

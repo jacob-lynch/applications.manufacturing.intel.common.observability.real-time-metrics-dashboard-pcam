@@ -1,0 +1,349 @@
+<QueryConfig AutoExecuteQueryOnLoad="false" PreventSQLBeautification="false">
+  <ChangeLog>Changed by GER\mfg_rlouk on 9/5/2017 9:50:34 AM from F28PAP216N11.F28PROD.MFG.INTEL.COM using LogAnalyzer2 v2.9.61013.0546</ChangeLog>
+  <ChangeLog>Changed by GER\mfg_rlouk on 9/5/2017 9:47:45 AM from F28PAP216N11.F28PROD.MFG.INTEL.COM using LogAnalyzer2 v2.9.61013.0546</ChangeLog>
+  <ChangeLog>Changed by GER\mfg_rlouk on 8/2/2017 1:11:01 PM from F24PAP216N11.F24PROD.MFG.INTEL.COM using LogAnalyzer2 v2.9.61013.0746</ChangeLog>
+  <ChangeLog>Changed by GER\mfg_rlouk on 8/2/2017 12:39:36 PM from F24PAP216N11.F24PROD.MFG.INTEL.COM using LogAnalyzer2 v2.9.61013.0746</ChangeLog>
+  <ChangeLog>Changed by GER\mfg_hgurarie on 6/6/2016 10:55:28 AM from F28PAP216N1.F28PROD.MFG.INTEL.COM using LogAnalyzer2 v2.9.51126.1153</ChangeLog>
+  <ChangeLog>Changed by GER\mfg_hgurarie on 1/27/2016 10:12:20 AM from F28PAP216N1.F28PROD.MFG.INTEL.COM using LogAnalyzer2 v2.9.51126.1153</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_tcalford on 12/14/2015 1:36:53 PM from F32PAP216N2.F32PROD.MFG.INTEL.COM using LogAnalyzer2 v2.9.51126.2053</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_tcalford on 11/5/2015 11:42:39 AM from F32PAP216N3.F32PROD.MFG.INTEL.COM using LogAnalyzer2 v2.8.40713.1943</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_tcalford on 11/5/2015 11:30:32 AM from F32PAP216N3.F32PROD.MFG.INTEL.COM using LogAnalyzer2 v2.8.40713.1943</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_tcalford on 11/5/2015 11:21:16 AM from F32PAP216N3.F32PROD.MFG.INTEL.COM using LogAnalyzer2 v2.8.40713.1943</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_tcalford on 10/22/2015 1:46:52 PM from F32PAP216N3.F32PROD.MFG.INTEL.COM using LogAnalyzer2 v2.8.40713.1943</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_tcalford on 10/20/2015 12:03:34 PM from F32PAP216N3.F32PROD.MFG.INTEL.COM using LogAnalyzer2 v2.8.40713.1943</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_tcalford on 10/20/2015 11:59:28 AM from F32PAP216N3.F32PROD.MFG.INTEL.COM using LogAnalyzer2 v2.8.40713.1943</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_tcalford on 10/19/2015 10:20:00 AM from F32PAP216N3.F32PROD.MFG.INTEL.COM using LogAnalyzer2 v2.8.40713.1943</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_tcalford on 10/19/2015 10:05:16 AM from F32PAP216N3.F32PROD.MFG.INTEL.COM using LogAnalyzer2 v2.8.40713.1943</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_tcalford on 6/16/2015 1:11:40 PM from F32PAP216N3.F32PROD.MFG.INTEL.COM using LogAnalyzer2 v2.8.40713.1943</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_tcalford on 6/16/2015 1:08:45 PM from F32PAP216N3.F32PROD.MFG.INTEL.COM using LogAnalyzer2 v2.8.40713.1943</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_tcalford on 6/9/2015 2:21:49 PM from F32PAP216N3.F32PROD.MFG.INTEL.COM using LogAnalyzer2 v2.8.40713.1943</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_tcalford on 5/20/2015 3:34:15 PM from F32PTS215.F32PROD.MFG.INTEL.COM using LogAnalyzer2 v2.8.40713.1943</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 9/30/2014 5:07:41 PM from RF3PTS216.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.8.40923.2310</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 9/9/2014 9:52:17 AM from RF3PTS216.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.8.40806.2215</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 9/4/2014 1:04:22 PM from RF3PTS216.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.8.40806.2215</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 9/3/2014 4:08:45 PM from RF3PTS216.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.8.40806.2215</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 8/19/2014 10:04:06 AM from RF3PTS216.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.8.40806.2215</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 8/14/2014 2:37:32 PM from RF3PTS216.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.8.40806.2215</ChangeLog>
+  <QueryAttributes>
+    <OutputDateFormat>MM/dd/yyyy</OutputDateFormat>
+    <AlwaysReplaceDomainWithLocal>false</AlwaysReplaceDomainWithLocal>
+  </QueryAttributes>
+  <PostQuerySQL>select * from %{OUTPUT}</PostQuerySQL>
+  <TableLayoutConfig>
+    <BoundColumnList>ID,MCCB Description,CEID,ChangeDate,PFIContact,OSAChange</BoundColumnList>
+  </TableLayoutConfig>
+  <TabOrder>C0</TabOrder>
+  <MainPivotConfig>
+    <ColumnX FieldName="" FieldType="" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <ColumnY FieldName="" FieldType="" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <ColumnData FieldName="" FieldType="" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <CustomPalette />
+    <TableData />
+  </MainPivotConfig>
+  <AutoPivotConfig OutputDateFormat="yyyy ww.w hh tt" />
+  <MailConfig>
+    <PostProcessingSQL Enable="false" />
+    <EmailCondition Enable="false" Operator="&gt;" ThresholdRowCount="0">
+      <SQLQuery />
+      <RunScriptBeforeEmailing>false</RunScriptBeforeEmailing>
+      <Script />
+    </EmailCondition>
+    <PostProcessingCondition Enable="false" Operator="&gt;" ThresholdRowCount="0">
+      <SQLQuery />
+      <RunScriptBeforeEmailing>false</RunScriptBeforeEmailing>
+    </PostProcessingCondition>
+    <CopyCondition Enable="false" ThresholdRowCount="0">
+      <RunScriptBeforeEmailing>false</RunScriptBeforeEmailing>
+    </CopyCondition>
+    <SMTPServer>smtp.intel.com</SMTPServer>
+    <From>LogAnalyzer2@intel.com</From>
+    <ReplyTo>todd.c.alford@intel.com</ReplyTo>
+    <To />
+    <Subject>[${DOMAIN}] Web_ntsc_uicontrol</Subject>
+    <Body />
+    <MailAttachments FileNamingFormat="${SETTINGS}" Excel="false" CSV="false" LAS="false" LAD="false" Exceptions="false" StatusLogs="false" PivotChart="false" ZipAttachments="false" DoNotSendAttachmentsWithEmail="false" />
+    <IncludeSQLQueryInBody>false</IncludeSQLQueryInBody>
+    <TableInBody Enable="false">
+      <SQL />
+    </TableInBody>
+    <CopyOutputToDirectory>false</CopyOutputToDirectory>
+    <OutputDirectory />
+    <IncludeAutoPivotSummary>false</IncludeAutoPivotSummary>
+    <IgnoreExceptions>false</IgnoreExceptions>
+    <OnlyCopyOutputIfEmailConditionIsMet>false</OnlyCopyOutputIfEmailConditionIsMet>
+  </MailConfig>
+  <TableSchema><xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+  <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="Results" msdata:UseCurrentLocale="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Results">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ID" type="xs:int" minOccurs="0" />
+              <xs:element name="MCCB" type="xs:string" minOccurs="0" />
+              <xs:element name="Process" type="xs:string" minOccurs="0" />
+              <xs:element name="Transfer_x0020_Date" type="xs:string" minOccurs="0" />
+              <xs:element name="Area" type="xs:string" minOccurs="0" />
+              <xs:element name="Type" type="xs:string" minOccurs="0" />
+              <xs:element name="Name" type="xs:string" minOccurs="0" />
+              <xs:element name="OSA" type="xs:string" minOccurs="0" />
+              <xs:element name="F24" type="xs:string" minOccurs="0" />
+              <xs:element name="F28" type="xs:string" minOccurs="0" />
+              <xs:element name="F11x" type="xs:string" minOccurs="0" />
+              <xs:element name="Site_x0020_Comments" type="xs:string" minOccurs="0" />
+              <xs:element name="Change_x0020_Type" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
+</TableSchema>
+  <TableData />
+  <LastRunAbsoluteDateFilter />
+  <PivotGroupingSettings PivotColumn="">
+    <SortyByColumn>Count</SortyByColumn>
+  </PivotGroupingSettings>
+  <QuerySQL><![CDATA[
+--[FileName:"R:\Dashboard\Web\PCAM\LA2 Scripts\Web_CoreSweeperAreaMCCB.lasx"]------
+----------<VARIABLES>------------
+var FILEFILTER = "@{DASHBOARD_LOCAL_WEB}\PCAM\Output\ALL_MCCB.csv"
+var FILEFILTER2 = "@{DASHBOARD_LOCAL_WEB}\PCAM\Output\Global_MCCB.csv"
+var MCCBFILTER = "Done, NA, Cancel, Divergence"
+var 1274MCCB = "http://autosp.rf3prod.mfg.intel.com/sites/AutoXfer/PCAM/127475%20PCAM%20MCCB/"
+var 1272MCCB = "http://autosp.rf3prod.mfg.intel.com/sites/AutoXfer/PCAM/127273%20PCAM%20MCCB/"
+var 1270MCCB = "http://autosp.rf3prod.mfg.intel.com/sites/AutoXfer/PCAM/127071%20PCAM%20MCCB/"
+var 1270EOLMCCB = "http://autosp.rf3prod.mfg.intel.com/sites/AutoXfer/PCAM/300mm%20PCAM%20MCCB/"
+var GLOBALMCCB = "http://autosp.rf3prod.mfg.intel.com/sites/AutoXfer/PCAM/300mm%20Global%20PCAM%20MCCB/"
+var 300SORTMCCB = "http://autosp.rf3prod.mfg.intel.com/sites/AutoXfer/PCAM/300mm%20PCAM%20Sort%20MCCB/"
+var SUPPORTSITEVIEW = "@{SUPPORTSITEVIEW}"
+var AFOMCCBSTATUS = "@{AFOMCCBSTATUS}"
+var D1CMCCBSTATUS = "@{D1CMCCBSTATUS}"
+var D1DMCCBSTATUS = "@{D1DMCCBSTATUS}"
+var F11XMCCBSTATUS = "@{F11xMCCBSTATUS}"
+var F24MCCBSTATUS = "@{F24MCCBSTATUS}"
+var F28MCCBSTATUS = "@{F28MCCBSTATUS}"
+var OSAMCCBSTATUS = "@{OSAMCCBSTATUS}"
+---[MAIN_CSV]---
+BEGIN MAIN_CSV
+	---Begin Main Query---
+	Using CSV with
+	SELECT
+		Process,
+		Author,
+		ChangeType as [Change Type],
+		ID,
+		site,
+		Name,
+		Area,
+		CEID,
+		TxfrDate,
+		AFOChange as [AFOtmp],
+		D1CChange as [D1Ctmp],
+		[D1Dtmp],
+		F11xChange as [F11xtmp],
+		[F24tmp],
+		F28Change as [F28tmp],
+		OSAChange as [OSAtmp],
+		MCCB,
+		AFOCompletedBy,
+		D1CCompletedBy,
+		D1DCompletedBy,
+		F11xCompletedBy,
+		OSACompletedBy,
+		F28CompletedBy,
+		F24CompletedBy,
+		F28OwnedBy,
+		OSAOwnedBy,
+		F24OwnedBy,
+		F11xOwnedBy,
+		[F24 Local Comments],
+		[F28 Local Comments],
+		[OSA Local Comments],
+		Type
+	USING
+		CASE 'Yes' when E3 then 'E3' when WIP then 'WIP' when SC then 'SC' when FSUI then 'FSUI'
+		when Level78Change then 'L78' when MES300 then 'MES' when SPC then 'SPC' when TWT then 'TWT' else 'Other' end as Type,
+		CASE to_string(MCCBSite) when '1272' then '1272' when '1274' then '1274' when 'New' then '1270' when 'Old' then '1270' else to_string(MCCBSite) end as Process,
+		CASE Process when '1270' then NULL else D1DChange end as [D1Dtmp],
+		CASE Process when '1270' then NULL  else F24Change end as [F24tmp],
+		CASE to_string(MCCBSite) when '1272' then '1272' when '1274' then '1274' else '1270' end as ProcessTechnology,
+		CASE to_string(MCCBSite) when 'Old' then strcat('${1270EOLMCCB}', to_string(Name)) when 'New' then strcat('${1270MCCB}', to_string(Name)) when 'Sort' then strcat('${300SortMCCB}', to_string(Name)) when '1272' then strcat('${1272MCCB}', to_string(Name)) when '1274' then strcat('${1274MCCB}', to_string(Name)) else NULL end as MCCB
+	FROM
+		'${FILEFILTER}'
+	WHERE
+		(ChangeType like 'Pending'
+		OR (ChangeType like 'Final' AND (NOT IsInList(AFOtmp, '${MCCBFILTER}') AND AFOtmp IS NOT NULL)
+		OR (NOT IsInList(D1Ctmp, '${MCCBFILTER}') AND D1Ctmp IS NOT NULL)
+		OR (NOT IsInList([D1Dtmp], '${MCCBFILTER}') AND [D1Dtmp] IS NOT NULL)
+		OR (NOT IsInList(F11xtmp, '${MCCBFILTER}') AND F11xtmp IS NOT NULL)
+		OR (NOT IsInList(F28tmp, '${MCCBFILTER}') AND F28tmp IS NOT NULL)
+		OR (NOT IsInList(OSAtmp, '${MCCBFILTER}') AND OSAtmp IS NOT NULL)
+		OR (NOT IsInList([F24tmp], '${MCCBFILTER}') AND [F24tmp] IS NOT NULL)))
+	ORDER BY
+		Process, ID desc
+END MAIN_CSV
+---[GLOBALMAIN_CSV]---
+BEGIN GLOBALMAIN_CSV
+	---Begin Main Query---
+	Using CSV with
+	SELECT
+		Process,
+		Author,
+		ChangeType as [Change Type],
+		ID,
+		site,
+		Name,
+		CEID,
+		Area,
+		TxfrDate,
+		AFOChange as [AFOtmp],
+		D1CChange as [D1Ctmp],
+		D1DChange as [D1Dtmp],
+		F11xChange as [F11xtmp],
+		F24Change as [F24tmp],
+		F28Change as [F28tmp],
+		OSAChange as [OSAtmp],
+		F68Change as [F68tmp],
+		MCCB,
+		AFOCompletedBy,
+		D1CCompletedBy,
+		D1DCompletedBy,
+		F11xCompletedBy,
+		OSACompletedBy,
+		F28CompletedBy,
+		F24CompletedBy,
+		F68CompletedBy,
+		F28OwnedBy,
+		OSAOwnedBy,
+		F24OwnedBy,
+		F11xOwnedBy,
+		[F24 Local Comments],
+		[F28 Local Comments],
+		[OSA Local Comments],
+		[F11x Local Comments],
+		'Global' as Type
+	USING
+		'Global' as Process,
+		strcat('${GLOBALMCCB}', to_string(Name)) as MCCB
+	FROM
+		'${FILEFILTER2}'
+	WHERE
+		(ChangeType like 'Pending'
+		OR (ChangeType like 'Final' AND (NOT IsInList(AFOtmp, '${MCCBFILTER}') AND AFOtmp IS NOT NULL)
+		OR (NOT IsInList(D1Ctmp, '${MCCBFILTER}') AND D1Ctmp IS NOT NULL)
+		OR (NOT IsInList([D1Dtmp], '${MCCBFILTER}') AND [D1Dtmp] IS NOT NULL)
+		OR (NOT IsInList(F11xtmp, '${MCCBFILTER}') AND F11xtmp IS NOT NULL)
+		OR (NOT IsInList(F28tmp, '${MCCBFILTER}') AND F28tmp IS NOT NULL)
+		OR (NOT IsInList(OSAtmp, '${MCCBFILTER}') AND OSAtmp IS NOT NULL)
+		OR (NOT IsInList(F68tmp, '${MCCBFILTER}') AND F68tmp IS NOT NULL)
+		OR (NOT IsInList([F24tmp], '${MCCBFILTER}') AND [F24tmp] IS NOT NULL)))
+	ORDER BY
+		Process, ID desc
+END GLOBALMAIN_CSV
+---[MERGE_CSV]---
+BEGIN MERGE_CSV
+	UseMethod MergeTables with -- **Merge content of two tables by doing an outer join on the column schema (no join done here)**
+		InputFile1 = "%{MAIN_CSV}" -- Input CSV File #1 containing table data [String]
+		InputFile2 = "%{GlobalMAIN_CSV}" -- Input CSV File #2 containing table data [String]
+		AutoDetectColumnTypes = false -- Auto-detect column types before merging [Boolean]
+END MERGE_CSV
+---[FINAL_CSV]---
+BEGIN FINAL_CSV
+	---Begin Main Query---
+	Using CSV with
+	SELECT
+		ID,
+		MCCB,
+		Area,
+		Process,
+		${SUPPORTSITEVIEW},F11x,
+		[F24 Local Comments],
+		[F28 Local Comments],
+		[OSA Local Comments],
+		[F11x Local Comments],
+		F28OwnedBy,
+		OSAOwnedBy,
+		F24OwnedBy,
+		F11xOwnedBy,
+		Name,
+		CEID,
+		Type,
+		TxfrDate,
+		[Change Type]
+	USING
+		CASE AFOCompletedBy when null then AFOtmp else strcat(strcat(strcat(AFOtmp, ' ('), AFOCompletedBy), ')') end as AFOTmp2,
+		CASE D1CCompletedBy when null then D1Ctmp else strcat(strcat(strcat(D1Ctmp, ' ('), D1CCompletedBy), ')') end as D1CTmp2,
+		CASE D1DCompletedBy when null then D1Dtmp else strcat(strcat(strcat(D1Dtmp, ' ('), D1DCompletedBy), ')') end as D1DTmp2,
+		CASE F11xCompletedBy when null then F11xtmp else strcat(strcat(strcat(F11xtmp, ' ('), F11xCompletedBy), ')') end as F11xTmp2,
+		CASE F24CompletedBy when null then F24tmp else strcat(strcat(strcat(F24tmp, ' ('), F24CompletedBy), ')') end as F24Tmp2,
+		CASE F28CompletedBy when null then F28tmp else strcat(strcat(strcat(F28tmp, ' ('), F28CompletedBy), ')') end as F28Tmp2,
+		CASE OSACompletedBy when null then OSAtmp else strcat(strcat(strcat(OSAtmp, ' ('), OSACompletedBy), ')') end as OSATmp2,
+		CASE [Change Type] when 'Pending' then CASE Site when 'AFO' then strcat(strcat('Pending (', Author), ')') else AFOTmp2 end else AFOTmp2 end as AFOTmp3,
+		CASE [Change Type] when 'Pending' then CASE Site when 'D1C' then strcat(strcat('Pending (', Author), ')') else D1CTmp2 end else D1CTmp2 end as D1CTmp3,
+		CASE [Change Type] when 'Pending' then CASE Site when 'D1D' then strcat(strcat('Pending (', Author), ')') else D1DTmp2 end else D1DTmp2 end as D1DTmp3,
+		CASE [Change Type] when 'Pending' then CASE Site when 'F11x' then strcat(strcat('Pending (', Author), ')') else F11xTmp2 end else F11xTmp2 end as F11xTmp3,
+		CASE [Change Type] when 'Pending' then CASE Site when 'F24' then strcat(strcat('Pending (', Author), ')') else F24Tmp2 end else F24Tmp2 end as F24Tmp3,
+		CASE [Change Type] when 'Pending' then CASE Site when 'F28' then strcat(strcat('Pending (', Author), ')') else F28Tmp2 end else F28Tmp2 end as F28Tmp3,
+		CASE [Change Type] when 'Pending' then CASE Site when 'OSA' then strcat(strcat('Pending (', Author), ')') else OSATmp2 end else OSATmp2 end as OSATmp3,
+		CASE AFOTmp3 when ' (NA)' then null when 'NA (NA)' then null else AFOTmp3 end as AFO,
+		CASE D1CTmp3 when ' (NA)' then null when 'NA (NA)' then null else D1CTmp3 end as D1C,
+		CASE D1DTmp3 when ' (NA)' then null when 'NA (NA)' then null else D1DTmp3 end as D1D,
+		CASE F11xTmp3 when ' (NA)' then null when 'NA (NA)' then null else F11xTmp3 end as F11x,
+		CASE F24Tmp3 when ' (NA)' then null when 'NA (NA)' then null else F24Tmp3 end as F24,
+		CASE F28Tmp3 when ' (NA)' then null when 'NA (NA)' then null else F28Tmp3 end as F28,
+		CASE OSATmp3 when ' (NA)' then null when 'NA (NA)' then null else OSATmp3 end as OSA
+	FROM
+		%{MERGE_CSV}
+	WHERE
+		IsInList(AFO, '${AFOMCCBSTATUS}')
+		OR IsInList(D1C, '${D1CMCCBSTATUS}')
+		OR IsInList(D1D, '${D1DMCCBSTATUS}')
+		OR IsInList(F11x, '${F11xMCCBSTATUS}')
+		OR IsInList(F24, '${F24MCCBSTATUS}')
+		OR IsInList(F28, '${F28MCCBSTATUS}')
+		OR IsInList(OSA, '${OSAMCCBSTATUS}')
+END FINAL_CSV
+---[CRUNCH_CSV]---
+BEGIN CRUNCH_CSV
+	UseMethod SortTable with -- **Sort Table (with support for multiple orderbys)**
+		InputFile = "%{FINAL_CSV}" -- Input Table csv [String]
+		OrderBy = "TxfrDate asc" -- Order By string (e.g., DateTime desc, Name asc, Metrics desc) [String]
+END CRUNCH_CSV
+---Begin Main Query---
+Using CSV with
+SELECT
+	ID,
+	MCCB,
+	Process,
+	[Transfer Date],
+	Area,
+	Type,
+	Name,
+	OSA,
+	F24,
+	F28,
+	F11x,
+	[Site Comments],
+	[Change Type] as ChangeType
+USING
+	to_la2date(TxfrDate, 'MM/dd/yyyy') as [Transfer Date],
+	case [OSA Local Comments] when null then null else strcat(' OSA: ',[OSA Local Comments]) end as OSAComments,
+	case [F24 Local Comments] when null then null else strcat(' F24: ',[F24 Local Comments]) end as F24Comments,
+	case [F28 Local Comments] when null then null else strcat(' F28: ',[F28 Local Comments]) end as F28Comments,
+	case [F11x Local Comments] when null then null else strcat(' F11x: ',[F11x Local Comments]) end as F11xComments,
+	strcat(strcat(strcat(OSAComments,F24Comments),F28Comments),F11xComments) as [Site Comments]
+FROM
+	%{CRUNCH_CSV}
+WHERE
+	(OSA = 'Active' and applytimerangefilter(txfrdate, 'last 7 days') and not isinlist(OSAOwnedBy,'%PCT%'))
+	or
+	(F24 = 'Active' and applytimerangefilter(txfrdate, 'last 7 days') and not isinlist(F24OwnedBy,'%PCT%'))
+	or
+	(F28 = 'Active' and applytimerangefilter(txfrdate, 'last 7 days') and not isinlist(F28OwnedBy,'%PCT%'))
+	or
+	(F11x = 'Active' and applytimerangefilter(txfrdate, 'last 7 days') and not isinlist(F11xOwnedBy,'%PCT%'))
+
+]]></QuerySQL>
+</QueryConfig>

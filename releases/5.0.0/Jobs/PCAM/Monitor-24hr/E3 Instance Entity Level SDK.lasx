@@ -1,0 +1,153 @@
+<QueryConfig AutoExecuteQueryOnLoad="false" PreventSQLBeautification="false">
+  <ChangeLog>Changed by AMR\mfg_kjdejong on 12/7/2016 5:10:21 PM from RF3PVAP416N19.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.9.60808.1615</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_kjdejong on 12/7/2016 5:08:12 PM from RF3PVAP416N19.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.9.60808.1615</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_kjdejong on 12/7/2016 5:07:17 PM from RF3PVAP416N19.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.9.60808.1615</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_kjdejong on 12/7/2016 5:00:32 PM from RF3PVAP416N19.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.9.60808.1615</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 4/14/2015 4:17:40 PM from RF3PAP216N3.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.8.50323.2106</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 4/14/2015 4:17:13 PM from RF3PAP216N3.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.8.50323.2106</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 4/14/2015 4:15:54 PM from RF3PAP216N3.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.8.50323.2106</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 8/5/2014 1:38:05 PM from RF3PTS216.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.8.40723.2330</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 6/30/2014 3:59:49 PM from RF3PTS216.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.8.40626.2211</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 2/4/2014 11:17:18 AM from RF3PTS216.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.7.40202.2213</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 2/4/2014 11:16:51 AM from RF3PTS216.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.7.40202.2213</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_hmarley on 2/3/2014 12:58:25 PM from RF3PTS216.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.7.40202.2213</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 1/30/2014 1:54:35 PM from RF3PTS216.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.7.40127.1431</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 1/30/2014 1:54:22 PM from RF3PTS216.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.7.40127.1431</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 1/30/2014 1:53:52 PM from RF3PTS216.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.7.40127.1431</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 1/30/2014 1:46:11 PM from RF3PTS216.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.7.40127.1431</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 1/30/2014 1:42:44 PM from RF3PTS216.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.7.40127.1431</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 1/30/2014 1:41:04 PM from RF3PTS216.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.7.40127.1431</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_hmarley on 11/19/2013 2:23:14 PM from RF3PTS216.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.7.31110.0013</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_hmarley on 11/12/2013 1:27:56 PM from RF3PTS216.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.7.31110.0013</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_hmarley on 11/12/2013 1:26:23 PM from RF3PTS216.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.7.31110.0013</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_hmarley on 11/12/2013 1:24:10 PM from RF3PTS216.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.7.31110.0013</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_hmarley on 11/11/2013 9:51:46 AM from RF3PTS216.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.7.31031.1837</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_hmarley on 10/18/2013 1:35:01 PM from RF3PTS216.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.7.31017.1946</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_hmarley on 10/18/2013 1:25:25 PM from RF3PTS216.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.7.31017.1946</ChangeLog>
+  <UNIQECredentials UserId="uber" Site="rf3sap110-alias.rf3stg.mfgint.intel.com" DataSource="D1D_STAG_LogAnalyzer" SaveCredentials="true" UseUNIQECredentialsOnStartUp="false" QueryTimeOutInSeconds="-1">
+    <Password />
+    <Name />
+  </UNIQECredentials>
+  <QueryAttributes>
+    <RowThresholdForPivotGrid>1000000</RowThresholdForPivotGrid>
+    <AlwaysReplaceDomainWithLocal>false</AlwaysReplaceDomainWithLocal>
+  </QueryAttributes>
+  <PostQuerySQL>select * from %{OUTPUT}</PostQuerySQL>
+  <TableLayoutConfig>
+    <BoundColumnList>NAME</BoundColumnList>
+  </TableLayoutConfig>
+  <RowHighlightingRules Enable="true" ColumnName="*" FilterRegex="Error" RowColorString="NamedColor:Red" />
+  <RowHighlightingRules Enable="true" ColumnName="*" FilterRegex="Warning" RowColorString="NamedColor:Yellow" />
+  <TabOrder>C0</TabOrder>
+  <MainPivotConfig>
+    <ColumnX FieldName="" FieldType="" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <ColumnY FieldName="" FieldType="" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <ColumnData FieldName="" FieldType="" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <CustomPalette />
+    <TableData />
+  </MainPivotConfig>
+  <AutoPivotConfig OutputDateFormat="yyyy ww.w HH:mm" StatisticalFunctionsForColumn="Avg, 50, 90,96, Count" />
+  <MailConfig>
+    <PostProcessingSQL Enable="false" />
+    <EmailCondition Enable="true" Operator="&gt;" ThresholdRowCount="0">
+      <SQLQuery />
+      <RunScriptBeforeEmailing>false</RunScriptBeforeEmailing>
+      <Script />
+    </EmailCondition>
+    <PostProcessingCondition Enable="false" Operator="&gt;" ThresholdRowCount="0">
+      <SQLQuery />
+      <RunScriptBeforeEmailing>false</RunScriptBeforeEmailing>
+    </PostProcessingCondition>
+    <CopyCondition Enable="false" Operator="&gt;" ThresholdRowCount="0">
+      <SQLQuery />
+      <RunScriptBeforeEmailing>false</RunScriptBeforeEmailing>
+    </CopyCondition>
+    <SMTPServer>smtp.intel.com</SMTPServer>
+    <From>LogAnalyzer2@intel.com</From>
+    <ReplyTo>@{DASHBOARD_OWNER_ALERT_DIST}</ReplyTo>
+    <To>@{PCAM_MONITOR_EMAIL}</To>
+    <Subject>E3 Instance Entity Level SDK</Subject>
+    <Body>&lt;b&gt;&lt;font color="red"&gt;Action Required - The Following E3 Instance(s) have SDK Setting Configured Incorrectly.&lt;br&gt;  Exceptions are as follows: @{SDK_INSTANCE_EXCLUDE}&lt;/font&gt;&lt;/b&gt;
+&lt;br&gt;
+&lt;br&gt;
+The following E3 Instance(s) need SDK blanked out and saved.
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;Additional details can be found &lt;a href="http://autowiki.intel.com/index.php?title=AIT_Monitor_pages_and_response&amp;stable=0#E3_Instance_Entity_Level_SDK"&gt;here&lt;/a&gt;.&lt;/b&gt;
+&lt;br&gt;
+&lt;br&gt;</Body>
+    <MailAttachments FileNamingFormat="${SETTINGS}" Excel="false" CSV="false" LAS="false" LAD="false" Exceptions="false" StatusLogs="false" PivotChart="false" ZipAttachments="false" DoNotSendAttachmentsWithEmail="false" IncludeJobStatisticsHeader="false" IncludeQuerySettingsFileHeader="false" IncludeVariableDefinitionHeader="false" IncludeRowCountInSubject="false" />
+    <IncludeSQLQueryInBody>false</IncludeSQLQueryInBody>
+    <TableInBody Enable="true">
+      <SQL />
+    </TableInBody>
+    <CopyOutputToDirectory>false</CopyOutputToDirectory>
+    <OutputDirectory>@{DASHBOARD_WEB_SPOOL}\PCAM\Output</OutputDirectory>
+    <IncludeAutoPivotSummary>false</IncludeAutoPivotSummary>
+    <IncludeCustomPivotSummary>false</IncludeCustomPivotSummary>
+    <IgnoreExceptions>false</IgnoreExceptions>
+    <OnlyCopyOutputIfEmailConditionIsMet>false</OnlyCopyOutputIfEmailConditionIsMet>
+  </MailConfig>
+  <TableSchema><xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+  <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="Results" msdata:UseCurrentLocale="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Results">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Instance" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
+</TableSchema>
+  <TableData />
+  <LastRunAbsoluteDateFilter />
+  <PivotGroupingSettings PivotColumn="">
+    <SortyByColumn>Count</SortyByColumn>
+  </PivotGroupingSettings>
+  <QuerySQL><![CDATA[
+--[FileName:"D:\Dashboard\Jobs\PCAM\Monitor-24hr\E3 Instance Entity Level SDK.lasx"]------
+----------<VARIABLES>------------
+var SITE_INTERNAL = ""
+var DATA_SOURCE = "@{LOCALE3DATASOURCE}"
+var APPLICATION_INTERNAL = "LogAnalyzer2"
+var GETSCHEMATABLE_INTERNAL = "false"
+var AUTH_MODE_INTERNAL = "UNP"
+var ACCESSOR_INTERNAL = "default"
+var USERID_INTERNAL = "@{USERID_NON_MFG}"
+var PASSWORD_INTERNAL = "n/a"
+var INSTANCE_EXCLUDE = "@{SDK_INSTANCE_EXCLUDE}"
+---[MAIN_CSV]---
+BEGIN MAIN_CSV
+	---Begin Main Query---
+	Using UNIQE with
+		DataSource = "${DATA_SOURCE}" -- UNIQE data source to query
+		Authentication = "${AUTH_MODE_INTERNAL}" -- User Authentication Mode
+		UserId = "${USERID_INTERNAL}" -- User ID for authentication
+		Site = "${SITE_INTERNAL}" -- Default UNIQE Server to connect to
+	SELECT
+	  *
+	FROM
+	  e3suite.ees_tool_config
+	WHERE
+	  TYPE = 'SDK'
+	  AND DATA IS NOT NULL
+	  AND DATA LIKE '%To try for reconnect to E3%'
+	ORDER  BY
+	  name 
+END MAIN_CSV
+---Begin Main Query---
+Using CSV with
+SELECT
+	NAME as Instance
+FROM
+	%{MAIN_CSV}
+WHERE
+	NOT IsInList(Instance, '${INSTANCE_EXCLUDE}')
+
+]]></QuerySQL>
+</QueryConfig>

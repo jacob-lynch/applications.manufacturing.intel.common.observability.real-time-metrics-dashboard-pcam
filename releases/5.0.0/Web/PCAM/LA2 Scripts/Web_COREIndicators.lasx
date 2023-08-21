@@ -1,0 +1,1243 @@
+<QueryConfig AutoExecuteQueryOnLoad="false" PreventSQLBeautification="false">
+  <ChangeLog>Changed by GER\mfg_mkarni on 8/30/2017 10:03:22 AM from F28PAP216N11.F28PROD.MFG.INTEL.COM using LogAnalyzer2 v2.9.61013.0546</ChangeLog>
+  <ChangeLog>Changed by GER\mfg_mkarni on 8/29/2017 3:49:50 PM from F28PAP216N11.F28PROD.MFG.INTEL.COM using LogAnalyzer2 v2.9.61013.0546</ChangeLog>
+  <ChangeLog>Changed by GER\mfg_mkarni on 8/29/2017 3:22:25 PM from F28PAP216N11.F28PROD.MFG.INTEL.COM using LogAnalyzer2 v2.9.61013.0546</ChangeLog>
+  <ChangeLog>Changed by GER\mfg_mkarni on 8/29/2017 2:13:43 PM from F28PAP216N11.F28PROD.MFG.INTEL.COM using LogAnalyzer2 v2.9.61013.0546</ChangeLog>
+  <ChangeLog>Changed by GER\mfg_mkarni on 8/29/2017 1:56:38 PM from F28PAP216N11.F28PROD.MFG.INTEL.COM using LogAnalyzer2 v2.9.61013.0546</ChangeLog>
+  <ChangeLog>Changed by GER\mfg_mkarni on 8/29/2017 1:40:45 PM from F28PAP216N11.F28PROD.MFG.INTEL.COM using LogAnalyzer2 v2.9.61013.0546</ChangeLog>
+  <ChangeLog>Changed by GER\mfg_mkarni on 8/29/2017 1:13:29 PM from F28PAP216N11.F28PROD.MFG.INTEL.COM using LogAnalyzer2 v2.9.61013.0546</ChangeLog>
+  <ChangeLog>Changed by GER\mfg_mkarni on 8/29/2017 1:01:11 PM from F28PAP216N11.F28PROD.MFG.INTEL.COM using LogAnalyzer2 v2.9.61013.0546</ChangeLog>
+  <ChangeLog>Changed by GER\mfg_mkarni on 8/29/2017 12:58:59 PM from F28PAP216N11.F28PROD.MFG.INTEL.COM using LogAnalyzer2 v2.9.61013.0546</ChangeLog>
+  <ChangeLog>Changed by GER\mfg_mkarni on 8/29/2017 11:47:27 AM from F28PAP216N11.F28PROD.MFG.INTEL.COM using LogAnalyzer2 v2.9.61013.0546</ChangeLog>
+  <ChangeLog>Changed by GER\mfg_mkarni on 8/28/2017 4:44:24 PM from F28PAP216N11.F28PROD.MFG.INTEL.COM using LogAnalyzer2 v2.9.61013.0546</ChangeLog>
+  <ChangeLog>Changed by GER\mfg_mkarni on 8/28/2017 3:29:37 PM from F28PAP216N11.F28PROD.MFG.INTEL.COM using LogAnalyzer2 v2.9.61013.0546</ChangeLog>
+  <ChangeLog>Changed by GER\mfg_mkarni on 8/28/2017 3:08:05 PM from F28PAP216N11.F28PROD.MFG.INTEL.COM using LogAnalyzer2 v2.9.61013.0546</ChangeLog>
+  <ChangeLog>Changed by GER\mfg_mkarni on 8/28/2017 2:31:37 PM from F28PAP216N11.F28PROD.MFG.INTEL.COM using LogAnalyzer2 v2.9.61013.0546</ChangeLog>
+  <ChangeLog>Changed by GER\mfg_mkarni on 8/28/2017 1:15:37 PM from F28PAP216N11.F28PROD.MFG.INTEL.COM using LogAnalyzer2 v2.9.61013.0546</ChangeLog>
+  <ChangeLog>Changed by GER\mfg_mkarni on 8/28/2017 1:05:33 PM from F28PAP216N11.F28PROD.MFG.INTEL.COM using LogAnalyzer2 v2.9.61013.0546</ChangeLog>
+  <ChangeLog>Changed by GER\mfg_mkarni on 8/28/2017 1:02:11 PM from F28PAP216N11.F28PROD.MFG.INTEL.COM using LogAnalyzer2 v2.9.61013.0546</ChangeLog>
+  <ChangeLog>Changed by GER\mfg_mkarni on 8/28/2017 12:47:16 PM from F28PAP216N11.F28PROD.MFG.INTEL.COM using LogAnalyzer2 v2.9.61013.0546</ChangeLog>
+  <ChangeLog>Changed by GER\mfg_mkarni on 8/28/2017 12:43:43 PM from F28PAP216N11.F28PROD.MFG.INTEL.COM using LogAnalyzer2 v2.9.61013.0546</ChangeLog>
+  <ChangeLog>Changed by GER\mfg_mkarni on 8/28/2017 12:42:51 PM from F28PAP216N11.F28PROD.MFG.INTEL.COM using LogAnalyzer2 v2.9.61013.0546</ChangeLog>
+  <ChangeLog>Changed by GER\mfg_mkarni on 8/28/2017 12:41:50 PM from F28PAP216N11.F28PROD.MFG.INTEL.COM using LogAnalyzer2 v2.9.61013.0546</ChangeLog>
+  <ChangeLog>Changed by GER\mfg_mkarni on 8/28/2017 11:37:15 AM from F28PAP216N11.F28PROD.MFG.INTEL.COM using LogAnalyzer2 v2.9.61013.0546</ChangeLog>
+  <ChangeLog>Changed by GER\mfg_mkarni on 8/28/2017 11:35:14 AM from F28PAP216N11.F28PROD.MFG.INTEL.COM using LogAnalyzer2 v2.9.61013.0546</ChangeLog>
+  <ChangeLog>Changed by GER\mfg_mkarni on 8/28/2017 11:34:35 AM from F28PAP216N11.F28PROD.MFG.INTEL.COM using LogAnalyzer2 v2.9.61013.0546</ChangeLog>
+  <ChangeLog>Changed by GER\mfg_mkarni on 8/28/2017 11:18:36 AM from F28PAP216N11.F28PROD.MFG.INTEL.COM using LogAnalyzer2 v2.9.61013.0546</ChangeLog>
+  <QueryAttributes>
+    <OutputDateFormat>MM/dd/yyyy</OutputDateFormat>
+    <AlwaysReplaceDomainWithLocal>false</AlwaysReplaceDomainWithLocal>
+  </QueryAttributes>
+  <PostQuerySQL>select * from %{OUTPUT}</PostQuerySQL>
+  <TableLayoutConfig>
+    <BoundColumnList>Process,ID,MCCB,State,Contact,MCCB Description,CEID,Area,SubArea,Transfer Date</BoundColumnList>
+  </TableLayoutConfig>
+  <TabOrder>C0</TabOrder>
+  <MainPivotConfig>
+    <ColumnX FieldName="" FieldType="" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <ColumnY FieldName="" FieldType="" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <ColumnData FieldName="" FieldType="" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <CustomPalette />
+    <TableData />
+  </MainPivotConfig>
+  <AutoPivotConfig OutputDateFormat="yyyy ww.w hh tt" />
+  <MailConfig>
+    <PostProcessingSQL Enable="false" />
+    <EmailCondition Enable="false" Operator="&gt;" ThresholdRowCount="0">
+      <SQLQuery />
+      <RunScriptBeforeEmailing>false</RunScriptBeforeEmailing>
+      <Script />
+    </EmailCondition>
+    <PostProcessingCondition Enable="false" Operator="&gt;" ThresholdRowCount="0">
+      <SQLQuery />
+      <RunScriptBeforeEmailing>false</RunScriptBeforeEmailing>
+    </PostProcessingCondition>
+    <CopyCondition Enable="false" ThresholdRowCount="0">
+      <RunScriptBeforeEmailing>false</RunScriptBeforeEmailing>
+    </CopyCondition>
+    <SMTPServer>smtp.intel.com</SMTPServer>
+    <From>LogAnalyzer2@intel.com</From>
+    <ReplyTo>todd.c.alford@intel.com</ReplyTo>
+    <To />
+    <Subject>[${DOMAIN}] Web_ntsc_uicontrol</Subject>
+    <Body />
+    <MailAttachments FileNamingFormat="${SETTINGS}" Excel="false" CSV="false" LAS="false" LAD="false" Exceptions="false" StatusLogs="false" PivotChart="false" ZipAttachments="false" DoNotSendAttachmentsWithEmail="false" />
+    <IncludeSQLQueryInBody>false</IncludeSQLQueryInBody>
+    <TableInBody Enable="false">
+      <SQL />
+    </TableInBody>
+    <CopyOutputToDirectory>false</CopyOutputToDirectory>
+    <OutputDirectory />
+    <IncludeAutoPivotSummary>false</IncludeAutoPivotSummary>
+    <IgnoreExceptions>false</IgnoreExceptions>
+    <OnlyCopyOutputIfEmailConditionIsMet>false</OnlyCopyOutputIfEmailConditionIsMet>
+  </MailConfig>
+  <TableSchema><xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+  <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="Results" msdata:UseCurrentLocale="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Results">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Activity" type="xs:string" minOccurs="0" />
+              <xs:element name="CurrentDay_x0020_AZ" type="xs:double" minOccurs="0" />
+              <xs:element name="CurrentDay_x0020_MY" type="xs:double" minOccurs="0" />
+              <xs:element name="PreviousDay_x0020_AZ" type="xs:double" minOccurs="0" />
+              <xs:element name="PreviousDay_x0020_MY" type="xs:double" minOccurs="0" />
+              <xs:element name="WTD" type="xs:double" minOccurs="0" />
+              <xs:element name="PreviousWeek" type="xs:double" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
+</TableSchema>
+  <TableData />
+  <LastRunAbsoluteDateFilter />
+  <PivotGroupingSettings PivotColumn="">
+    <SortyByColumn>Count</SortyByColumn>
+  </PivotGroupingSettings>
+  <QuerySQL><![CDATA[
+--[FileName:"R:\Dashboard\Web\PCAM\LA2 Scripts\Web_COREIndicators_mkarni6.lasx"]------
+----------<VARIABLES>------------
+var FILEFILTER = "@{DASHBOARD_LOCAL_WEB}\PCAM\Output\ALL_MCCB.csv"
+var FILEFILTER2 = "@{DASHBOARD_LOCAL_WEB}\PCAM\Output\Global_MCCB_Month.csv"
+var CHANGETYPE = "Done"
+var PCTMEMBERS = "@{PCTMembers}"
+var PCTMEMBERSAZ = "@{PCTMembers_AZ}"
+var PCTMEMBERSMY = "@{PCTMembers_MY}"
+var FILEFILTER3 = "@{DASHBOARD_LOCAL_WEB}\PCAM\Output\1_ISMP_Request_Query_All.csv"
+var FILEFILTER4 = "@{DASHBOARD_LOCAL_WEB}\PCAM\Output\ECCCB.htm"
+var FILEFILTER5 = "@{DASHBOARD_LOCAL_WEB}\PCAM\Output\1_AMCCB.csv"
+var WEEKLYTARGET = "@{PCTWeeklyTarget}"
+---[OSA_CSV]---
+BEGIN OSA_CSV
+	---Begin Main Query---
+	Using CSV with
+	SELECT
+		ID,
+		'OSA' as Location,
+		OSAChange as State,
+		OSACompletedBy as [Contact],
+		OSACompletedOn as CompletedOn
+	FROM
+		'${FILEFILTER}'
+END OSA_CSV
+---[OSAGLOBAL_CSV]---
+BEGIN OSAGLOBAL_CSV
+	---Begin Main Query---
+	Using CSV with
+	SELECT
+		ID,
+		'OSA' as Location,
+		OSAChange as State,
+		OSACompletedBy as [Contact],
+		OSACompletedOn as CompletedOn
+	FROM
+		'${FILEFILTER2}'
+END OSAGLOBAL_CSV
+---[F24_CSV]---
+BEGIN F24_CSV
+	---Begin Main Query---
+	Using CSV with
+	SELECT
+		ID,
+		'F24' as Location,
+		F24Change as State,
+		F24CompletedBy as [Contact],
+		F24CompletedOn as CompletedOn
+	FROM
+		'${FILEFILTER}'
+END F24_CSV
+---[F24GLOBAL_CSV]---
+BEGIN F24GLOBAL_CSV
+	---Begin Main Query---
+	Using CSV with
+	SELECT
+		ID,
+		'F24' as Location,
+		F24Change as State,
+		F24CompletedBy as [Contact],
+		F24CompletedOn as CompletedOn
+	FROM
+		'${FILEFILTER2}'
+END F24GLOBAL_CSV
+---[F28_CSV]---
+BEGIN F28_CSV
+	---Begin Main Query---
+	Using CSV with
+	SELECT
+		ID,
+		'F28' as Location,
+		F28Change as State,
+		F28CompletedBy as [Contact],
+		F28CompletedOn as CompletedOn
+	FROM
+		'${FILEFILTER}'
+END F28_CSV
+---[F28GLOBAL_CSV]---
+BEGIN F28GLOBAL_CSV
+	---Begin Main Query---
+	Using CSV with
+	SELECT
+		ID,
+		'F28' as Location,
+		F28Change as State,
+		F28CompletedBy as [Contact],
+		F28CompletedOn as CompletedOn
+	FROM
+		'${FILEFILTER2}'
+END F28GLOBAL_CSV
+---[F21_CSV]---
+BEGIN F21_CSV
+	---Begin Main Query---
+	Using CSV with
+	SELECT
+		ID,
+		'F11x' as Location,
+		F11xChange as State,
+		F11xCompletedBy as [Contact],
+		F11xCompletedOn as CompletedOn
+	FROM
+		'${FILEFILTER}'
+END F21_CSV
+---[F21GLOBAL_CSV]---
+BEGIN F21GLOBAL_CSV
+	---Begin Main Query---
+	Using CSV with
+	SELECT
+		ID,
+		'F11x' as Location,
+		F11xChange as State,
+		F11xCompletedBy as [Contact],
+		F11xCompletedOn as CompletedOn
+	FROM
+		'${FILEFILTER2}'
+END F21GLOBAL_CSV
+---[MERGEOSA_CSV]---
+BEGIN MERGEOSA_CSV
+	UseMethod MergeTables with -- **Merge content of two tables by doing an outer join on the column schema (no join done here)**
+		InputFile1 = "%{OSA_CSV}" -- Input CSV File #1 containing table data [String]
+		InputFile2 = "%{OSAGLOBAL_CSV}" -- Input CSV File #2 containing table data [String]
+		AutoDetectColumnTypes = false -- Auto-detect column types before merging [Boolean]
+END MERGEOSA_CSV
+---[MERGEF24_CSV]---
+BEGIN MERGEF24_CSV
+	UseMethod MergeTables with -- **Merge content of two tables by doing an outer join on the column schema (no join done here)**
+		InputFile1 = "%{F24_CSV}" -- Input CSV File #1 containing table data [String]
+		InputFile2 = "%{F24GLOBAL_CSV}" -- Input CSV File #2 containing table data [String]
+		AutoDetectColumnTypes = false -- Auto-detect column types before merging [Boolean]
+END MERGEF24_CSV
+---[MERGEF28_CSV]---
+BEGIN MERGEF28_CSV
+	UseMethod MergeTables with -- **Merge content of two tables by doing an outer join on the column schema (no join done here)**
+		InputFile1 = "%{F28_CSV}" -- Input CSV File #1 containing table data [String]
+		InputFile2 = "%{F28GLOBAL_CSV}" -- Input CSV File #2 containing table data [String]
+		AutoDetectColumnTypes = false -- Auto-detect column types before merging [Boolean]
+END MERGEF28_CSV
+---[MERGEF21_CSV]---
+BEGIN MERGEF21_CSV
+	UseMethod MergeTables with -- **Merge content of two tables by doing an outer join on the column schema (no join done here)**
+		InputFile1 = "%{F21_CSV}" -- Input CSV File #1 containing table data [String]
+		InputFile2 = "%{F21GLOBAL_CSV}" -- Input CSV File #2 containing table data [String]
+		AutoDetectColumnTypes = false -- Auto-detect column types before merging [Boolean]
+END MERGEF21_CSV
+---[MERGE1_CSV]---
+BEGIN MERGE1_CSV
+	UseMethod MergeTables with -- **Merge content of two tables by doing an outer join on the column schema (no join done here)**
+		InputFile1 = "%{MergeOSA_CSV}" -- Input CSV File #1 containing table data [String]
+		InputFile2 = "%{MergeF24_CSV}" -- Input CSV File #2 containing table data [String]
+		AutoDetectColumnTypes = false -- Auto-detect column types before merging [Boolean]
+END MERGE1_CSV
+---[MERGE2_CSV]---
+BEGIN MERGE2_CSV
+	UseMethod MergeTables with -- **Merge content of two tables by doing an outer join on the column schema (no join done here)**
+		InputFile1 = "%{MergeF28_CSV}" -- Input CSV File #1 containing table data [String]
+		InputFile2 = "%{MergeF21_CSV}" -- Input CSV File #2 containing table data [String]
+		AutoDetectColumnTypes = false -- Auto-detect column types before merging [Boolean]
+END MERGE2_CSV
+---[MERGE3_CSV]---
+BEGIN MERGE3_CSV
+	UseMethod MergeTables with -- **Merge content of two tables by doing an outer join on the column schema (no join done here)**
+		InputFile1 = "%{Merge1_CSV}" -- Input CSV File #1 containing table data [String]
+		InputFile2 = "%{Merge2_CSV}" -- Input CSV File #2 containing table data [String]
+		AutoDetectColumnTypes = false -- Auto-detect column types before merging [Boolean]
+END MERGE3_CSV
+---[FINAL_CSV]---
+BEGIN FINAL_CSV
+	---Begin Main Query---
+	Using CSV with
+	SELECT
+		ID,
+		Location,
+		CompletedOn
+	FROM
+		%{MERGE3_CSV}
+	WHERE
+		IsInList(State, '${CHANGETYPE}') and
+		isinlist(Contact,'${PCTMEMBERS}')
+END FINAL_CSV
+---[FINAL_AZ_CSV]---
+BEGIN FINAL_AZ_CSV
+	---Begin Main Query---
+	Using CSV with
+	SELECT
+		ID,
+		Location,
+		CompletedOn
+	FROM
+		%{MERGE3_CSV}
+	WHERE
+		IsInList(State, '${CHANGETYPE}') and
+		isinlist(Contact,'${PCTMEMBERSAZ}')
+END FINAL_AZ_CSV
+---[FINAL_MY_CSV]---
+BEGIN FINAL_MY_CSV
+	---Begin Main Query---
+	Using CSV with
+	SELECT
+		ID,
+		Location,
+		CompletedOn
+	FROM
+		%{MERGE3_CSV}
+	WHERE
+		IsInList(State, '${CHANGETYPE}') and
+		isinlist(Contact,'${PCTMEMBERSMY}')
+END FINAL_MY_CSV
+---[CRUNCH_AZ_CSV]---
+BEGIN CRUNCH_AZ_CSV
+	UseMethod SortTable with -- **Sort Table (with support for multiple orderbys)**
+		InputFile = "%{FINAL_AZ_CSV}" -- Input Table csv [String]
+		OrderBy = "CompletedOn desc" -- Order By string (e.g., DateTime desc, Name asc, Metrics desc) [String]
+END CRUNCH_AZ_CSV
+---[CRUNCH_MY_CSV]---
+BEGIN CRUNCH_MY_CSV
+	UseMethod SortTable with -- **Sort Table (with support for multiple orderbys)**
+		InputFile = "%{FINAL_MY_CSV}" -- Input Table csv [String]
+		OrderBy = "CompletedOn desc" -- Order By string (e.g., DateTime desc, Name asc, Metrics desc) [String]
+END CRUNCH_MY_CSV
+---[CRUNCH_CSV]---
+BEGIN CRUNCH_CSV
+	UseMethod SortTable with -- **Sort Table (with support for multiple orderbys)**
+		InputFile = "%{FINAL_CSV}" -- Input Table csv [String]
+		OrderBy = "CompletedOn desc" -- Order By string (e.g., DateTime desc, Name asc, Metrics desc) [String]
+END CRUNCH_CSV
+---[CURRENTDAY_CSV]---
+BEGIN CURRENTDAY_CSV
+	---Begin Main Query---
+	Using CSV with
+	SELECT
+		'MCCB' as Activity,
+		count(*) as [Current Day]
+	FROM
+		%{CRUNCH_CSV}
+	WHERE
+		CompletedOn =  SYSTEM_date()
+END CURRENTDAY_CSV
+---[CURRENTDAY_AZ_CSV]---
+BEGIN CURRENTDAY_AZ_CSV
+	---Begin Main Query---
+	Using CSV with
+	SELECT
+		'MCCB' as Activity,
+		count(*) as [Current Day AZ]
+	FROM
+		%{CRUNCH_AZ_CSV}
+	WHERE
+		CompletedOn =  SYSTEM_date()
+END CURRENTDAY_AZ_CSV
+---[CURRENTDAY_MY_CSV]---
+BEGIN CURRENTDAY_MY_CSV
+	---Begin Main Query---
+	Using CSV with
+	SELECT
+		'MCCB' as Activity,
+		count(*) as [Current Day MY]
+	FROM
+		%{CRUNCH_MY_CSV}
+	WHERE
+		CompletedOn =  SYSTEM_date()
+END CURRENTDAY_MY_CSV
+---[PREVIOUSDAY_CSV]---
+BEGIN PREVIOUSDAY_CSV
+	---Begin Main Query---
+	Using CSV with
+	SELECT
+		'MCCB' as Activity,
+		count(*) as [Previous Day]
+	FROM
+		%{CRUNCH_CSV}
+	WHERE
+		applytimerangefilter(CompletedOn, 'Last 1 days (prev mode)')
+END PREVIOUSDAY_CSV
+---[PREVIOUSDAY_AZ_CSV]---
+BEGIN PREVIOUSDAY_AZ_CSV
+	---Begin Main Query---
+	Using CSV with
+	SELECT
+		'MCCB' as Activity,
+		count(*) as [Previous Day AZ]
+	FROM
+		%{CRUNCH_AZ_CSV}
+	WHERE
+		applytimerangefilter(CompletedOn, 'Last 1 days (prev mode)')
+END PREVIOUSDAY_AZ_CSV
+---[PREVIOUSDAY_MY_CSV]---
+BEGIN PREVIOUSDAY_MY_CSV
+	---Begin Main Query---
+	Using CSV with
+	SELECT
+		'MCCB' as Activity,
+		count(*) as [Previous Day MY]
+	FROM
+		%{CRUNCH_MY_CSV}
+	WHERE
+		applytimerangefilter(CompletedOn, 'Last 1 days (prev mode)')
+END PREVIOUSDAY_MY_CSV
+---[CURRENTWEEK_CSV]---
+BEGIN CURRENTWEEK_CSV
+	---Begin Main Query---
+	Using CSV with
+	SELECT
+		'MCCB' as Activity,
+		count(*) as WTD
+	FROM
+		%{CRUNCH_CSV}
+	WHERE
+		To_LA2DAte(CompletedOn, 'WW') = To_LA2DAte(system_date(), 'WW')
+END CURRENTWEEK_CSV
+---[PREVIOUSWEEK_CSV]---
+BEGIN PREVIOUSWEEK_CSV
+	---Begin Main Query---
+	Using CSV with
+	SELECT
+		'MCCB' as Activity,
+		count(*) as [Previous Week]
+	FROM
+		%{CRUNCH_CSV}
+	WHERE
+		applytimerangefilter(CompletedOn, 'Last 1 weeks (prev mode)')
+END PREVIOUSWEEK_CSV
+---[JOINMCCB_CSV]---
+BEGIN JOINMCCB_CSV
+	UseMethod Join with -- **Do an outer join for two tables based on a matching column**
+		InputFile1 = "%{CurrentDay_AZ_CSV}" -- Input CSV File #1 containing table data [String]
+		InputFile2 = "%{CurrentDay_MY_CSV}" -- Input CSV File #2 containing table data [String]
+		InputFile3 = "%{PreviousDay_AZ_CSV}" -- Input CSV File #3 containing table data (optional) [String]
+		InputFile4 = "%{PreviousDay_MY_CSV}" -- Input CSV File #4 containing table data (optional) [String]
+		InputFile5 = "%{CurrentWeek_CSV}" -- Input CSV File #5 containing table data (optional) [String]
+		InputFile6 = "%{PreviousWeek_CSV}" -- Input CSV File #6 containing table data (optional) [String]
+		JoinColumn = "Activity" -- Column name(s) on which to join the two tables (more than one column can be supplied by using comma as a separator) [String]
+		IgnoreDuplicate = true -- Flag to ignore duplicate items in the JoinColumn [Boolean]
+		IgnoreCase = false -- Flag to ignore case in the JoinColumn [Boolean]
+		OnlyShowNonMatchingRows = false -- Flag to only show non-matching orphan rows [Boolean]
+		IncludeNonMatchingRows = true -- Flag to also include non-matching orphan rows (but with blank entries) [Boolean]
+		MustIncludeOutputColumns = "" -- Name of columns (comma-separated) that must be included in output even if the join does not materialize [String]
+		OrderBy = "" -- Name of column(s) to sort the resulting table by [String]
+END JOINMCCB_CSV
+---[SR_CSV]---
+BEGIN SR_CSV
+	---Begin Main Query---
+	Using CSV with
+	SELECT
+		*,date
+	USING
+		TO_TIMESTAMP(UpdatedOn,'MM/dd/yyyy hh:mm:ss') as date
+	FROM
+		'${FILEFILTER3}'
+	WHERE
+		((isinlist(Description, '%PCT%')	and AssignedTo is null) or isinlist(AssignedTo,'${PCTMEMBERS}'))
+		and
+		(isinlist(State, 'Complete') or isinlist(State, 'InComplete'))
+END SR_CSV
+---[SR_AZ_CSV]---
+BEGIN SR_AZ_CSV
+	---Begin Main Query---
+	Using CSV with
+	SELECT
+		*,date
+	USING
+		TO_TIMESTAMP(UpdatedOn,'MM/dd/yyyy hh:mm:ss') as date
+	FROM
+		'${FILEFILTER3}'
+	WHERE
+		((isinlist(Description, '%PCT%')	and AssignedTo is null) or isinlist(AssignedTo,'${PCTMEMBERSAZ}'))
+		and
+		(isinlist(State, 'Complete') or isinlist(State, 'InComplete'))
+END SR_AZ_CSV
+---[SR_MY_CSV]---
+BEGIN SR_MY_CSV
+	---Begin Main Query---
+	Using CSV with
+	SELECT
+		*,date
+	USING
+		TO_TIMESTAMP(UpdatedOn,'MM/dd/yyyy hh:mm:ss') as date
+	FROM
+		'${FILEFILTER3}'
+	WHERE
+		((isinlist(Description, '%PCT%')	and AssignedTo is null) or isinlist(AssignedTo,'${PCTMEMBERSMY}'))
+		and
+		(isinlist(State, 'Complete') or isinlist(State, 'InComplete'))
+END SR_MY_CSV
+---[SRCURRENTDAY_CSV]---
+BEGIN SRCURRENTDAY_CSV
+	---Begin Main Query---
+	Using CSV with
+	SELECT
+		'Service Request' as Activity,
+		Count(*) as [Current Day]
+	FROM
+		%{SR_CSV}
+	WHERE
+		TO_DATE (date) = system_date()
+END SRCURRENTDAY_CSV
+---[SRCURRENTDAY_AZ_CSV]---
+BEGIN SRCURRENTDAY_AZ_CSV
+	---Begin Main Query---
+	Using CSV with
+	SELECT
+		'Service Request' as Activity,
+		Count(*) as [Current Day AZ]
+	FROM
+		%{SR_AZ_CSV}
+	WHERE
+		TO_DATE (date) = system_date()
+END SRCURRENTDAY_AZ_CSV
+---[SRCURRENTDAY_MY_CSV]---
+BEGIN SRCURRENTDAY_MY_CSV
+	---Begin Main Query---
+	Using CSV with
+	SELECT
+		'Service Request' as Activity,
+		Count(*) as [Current Day MY]
+	FROM
+		%{SR_MY_CSV}
+	WHERE
+		TO_DATE (date) = system_date()
+END SRCURRENTDAY_MY_CSV
+---[SRPREVIOUSDAY_CSV]---
+BEGIN SRPREVIOUSDAY_CSV
+	---Begin Main Query---
+	Using CSV with
+	SELECT
+		'Service Request' as Activity,
+		Count(*) as [Previous Day]
+	FROM
+		%{SR_CSV}
+	WHERE
+		applytimerangefilter(date, 'Last 1 days (prev mode)')
+END SRPREVIOUSDAY_CSV
+---[SRPREVIOUSDAY_AZ_CSV]---
+BEGIN SRPREVIOUSDAY_AZ_CSV
+	---Begin Main Query---
+	Using CSV with
+	SELECT
+		'Service Request' as Activity,
+		Count(*) as [Previous Day AZ]
+	FROM
+		%{SR_AZ_CSV}
+	WHERE
+		applytimerangefilter(date, 'Last 1 days (prev mode)')
+END SRPREVIOUSDAY_AZ_CSV
+---[SRPREVIOUSDAY_MY_CSV]---
+BEGIN SRPREVIOUSDAY_MY_CSV
+	---Begin Main Query---
+	Using CSV with
+	SELECT
+		'Service Request' as Activity,
+		Count(*) as [Previous Day MY]
+	FROM
+		%{SR_MY_CSV}
+	WHERE
+		applytimerangefilter(date, 'Last 1 days (prev mode)')
+END SRPREVIOUSDAY_MY_CSV
+---[SRCURRENTWEEK_CSV]---
+BEGIN SRCURRENTWEEK_CSV
+	---Begin Main Query---
+	Using CSV with
+	SELECT
+		'Service Request' as Activity,
+		Count(*) as WTD
+	FROM
+		%{SR_CSV}
+	WHERE
+		To_LA2DAte(date, 'WW') = To_LA2DAte(system_date(), 'WW')
+END SRCURRENTWEEK_CSV
+---[SRPREVIOUSWEEK_CSV]---
+BEGIN SRPREVIOUSWEEK_CSV
+	---Begin Main Query---
+	Using CSV with
+	SELECT
+		'Service Request' as Activity,
+		Count(*) as [Previous Week]
+	FROM
+		%{SR_CSV}
+	WHERE
+		applytimerangefilter(date, 'Last 1 weeks (prev mode)')
+END SRPREVIOUSWEEK_CSV
+---[JOINSR_CSV]---
+BEGIN JOINSR_CSV
+	UseMethod Join with -- **Do an outer join for two tables based on a matching column**
+		InputFile1 = "%{SRCurrentDay_AZ_CSV}" -- Input CSV File #1 containing table data [String]
+		InputFile2 = "%{SRCurrentDay_MY_CSV}" -- Input CSV File #2 containing table data [String]
+		InputFile3 = "%{SRPreviousDay_AZ_CSV}" -- Input CSV File #3 containing table data (optional) [String]
+		InputFile4 = "%{SRPreviousDay_MY_CSV}" -- Input CSV File #4 containing table data (optional) [String]
+		InputFile5 = "%{SRCURRENTWEEK_CSV}" -- Input CSV File #5 containing table data (optional) [String]
+		InputFile6 = "%{SRPREVIOUSWEEK_CSV}" -- Input CSV File #6 containing table data (optional) [String]
+		JoinColumn = "Activity" -- Column name(s) on which to join the two tables (more than one column can be supplied by using comma as a separator) [String]
+		IgnoreDuplicate = true -- Flag to ignore duplicate items in the JoinColumn [Boolean]
+		IgnoreCase = false -- Flag to ignore case in the JoinColumn [Boolean]
+		OnlyShowNonMatchingRows = false -- Flag to only show non-matching orphan rows [Boolean]
+		IncludeNonMatchingRows = true -- Flag to also include non-matching orphan rows (but with blank entries) [Boolean]
+		MustIncludeOutputColumns = "" -- Name of columns (comma-separated) that must be included in output even if the join does not materialize [String]
+		OrderBy = "" -- Name of column(s) to sort the resulting table by [String]
+END JOINSR_CSV
+---[MERGE4_CSV]---
+BEGIN MERGE4_CSV
+	UseMethod MergeTables with -- **Merge content of two tables by doing an outer join on the column schema (no join done here)**
+		InputFile1 = "%{JOINMCCB_CSV}" -- Input CSV File #1 containing table data [String]
+		InputFile2 = "%{JOINSR_CSV}" -- Input CSV File #2 containing table data [String]
+		AutoDetectColumnTypes = false -- Auto-detect column types before merging [Boolean]
+END MERGE4_CSV
+---[F32ECCCB_CSV]---
+BEGIN F32ECCCB_CSV
+	---Begin Main Query---
+	Using LA2REPORT with
+		TableIndex = 7 -- Index representing the table instance to look for (specify -1 for first non-empty table)
+	SELECT
+		ID, 'OSA' as  Location, F32Change as State, F32CompletedBy as Contact, F32CompletedOn as CompletedOn
+	FROM
+		'${FILEFILTER4}'
+	WHERE
+		isinlist(Contact,'${PCTMEMBERS}')
+END F32ECCCB_CSV
+---[F32ECCCB_AZ_CSV]---
+BEGIN F32ECCCB_AZ_CSV
+	---Begin Main Query---
+	Using LA2REPORT with
+		TableIndex = 7 -- Index representing the table instance to look for (specify -1 for first non-empty table)
+	SELECT
+		ID, 'OSA' as  Location, F32Change as State, F32CompletedBy as Contact, F32CompletedOn as CompletedOn
+	FROM
+		'${FILEFILTER4}'
+	WHERE
+		isinlist(Contact,'${PCTMEMBERSAZ}')
+END F32ECCCB_AZ_CSV
+---[F32ECCCB_MY_CSV]---
+BEGIN F32ECCCB_MY_CSV
+	---Begin Main Query---
+	Using LA2REPORT with
+		TableIndex = 7 -- Index representing the table instance to look for (specify -1 for first non-empty table)
+	SELECT
+		ID, 'OSA' as  Location, F32Change as State, F32CompletedBy as Contact, F32CompletedOn as CompletedOn
+	FROM
+		'${FILEFILTER4}'
+	WHERE
+		isinlist(Contact,'${PCTMEMBERSMY}')
+END F32ECCCB_MY_CSV
+---[F11XECCCB_CSV]---
+BEGIN F11XECCCB_CSV
+	---Begin Main Query---
+	Using LA2REPORT with
+		TableIndex = 8 -- Index representing the table instance to look for (specify -1 for first non-empty table)
+	SELECT
+		ID, 'F11x' as  Location, F11xChange as State, F11xCompletedBy as Contact, F11xCompletedOn as CompletedOn
+	FROM
+		'${FILEFILTER4}'
+	WHERE
+		isinlist(Contact,'${PCTMEMBERS}')
+END F11XECCCB_CSV
+---[F11XECCCB_AZ_CSV]---
+BEGIN F11XECCCB_AZ_CSV
+	---Begin Main Query---
+	Using LA2REPORT with
+		TableIndex = 8 -- Index representing the table instance to look for (specify -1 for first non-empty table)
+	SELECT
+		ID, 'F11x' as  Location, F11xChange as State, F11xCompletedBy as Contact, F11xCompletedOn as CompletedOn
+	FROM
+		'${FILEFILTER4}'
+	WHERE
+		isinlist(Contact,'${PCTMEMBERSAZ}')
+END F11XECCCB_AZ_CSV
+---[F11XECCCB_MY_CSV]---
+BEGIN F11XECCCB_MY_CSV
+	---Begin Main Query---
+	Using LA2REPORT with
+		TableIndex = 8 -- Index representing the table instance to look for (specify -1 for first non-empty table)
+	SELECT
+		ID, 'F11x' as  Location, F11xChange as State, F11xCompletedBy as Contact, F11xCompletedOn as CompletedOn
+	FROM
+		'${FILEFILTER4}'
+	WHERE
+		isinlist(Contact,'${PCTMEMBERSMY}')
+END F11XECCCB_MY_CSV
+---[F24ECCCB_CSV]---
+BEGIN F24ECCCB_CSV
+	---Begin Main Query---
+	Using LA2REPORT with
+		TableIndex = 9 -- Index representing the table instance to look for (specify -1 for first non-empty table)
+	SELECT
+		ID, 'F24' as  Location, F24Change as State, F24CompletedBy as Contact, F24CompletedOn as CompletedOn
+	FROM
+		'${FILEFILTER4}'
+	WHERE
+		isinlist(Contact,'${PCTMEMBERS}')
+END F24ECCCB_CSV
+---[F24ECCCB_AZ_CSV]---
+BEGIN F24ECCCB_AZ_CSV
+	---Begin Main Query---
+	Using LA2REPORT with
+		TableIndex = 9 -- Index representing the table instance to look for (specify -1 for first non-empty table)
+	SELECT
+		ID, 'F24' as  Location, F24Change as State, F24CompletedBy as Contact, F24CompletedOn as CompletedOn
+	FROM
+		'${FILEFILTER4}'
+	WHERE
+		isinlist(Contact,'${PCTMEMBERSAZ}')
+END F24ECCCB_AZ_CSV
+---[F24ECCCB_MY_CSV]---
+BEGIN F24ECCCB_MY_CSV
+	---Begin Main Query---
+	Using LA2REPORT with
+		TableIndex = 9 -- Index representing the table instance to look for (specify -1 for first non-empty table)
+	SELECT
+		ID, 'F24' as  Location, F24Change as State, F24CompletedBy as Contact, F24CompletedOn as CompletedOn
+	FROM
+		'${FILEFILTER4}'
+	WHERE
+		isinlist(Contact,'${PCTMEMBERSMY}')
+END F24ECCCB_MY_CSV
+---[F28ECCCB_CSV]---
+BEGIN F28ECCCB_CSV
+	---Begin Main Query---
+	Using LA2REPORT with
+		TableIndex = 10 -- Index representing the table instance to look for (specify -1 for first non-empty table)
+	SELECT
+		ID, 'F28' as  Location, F28Change as State, F28CompletedBy as Contact, F28CompletedOn as CompletedOn
+	FROM
+		'${FILEFILTER4}'
+	WHERE
+		isinlist(Contact,'${PCTMEMBERS}')
+END F28ECCCB_CSV
+---[F28ECCCB_AZ_CSV]---
+BEGIN F28ECCCB_AZ_CSV
+	---Begin Main Query---
+	Using LA2REPORT with
+		TableIndex = 10 -- Index representing the table instance to look for (specify -1 for first non-empty table)
+	SELECT
+		ID, 'F28' as  Location, F28Change as State, F28CompletedBy as Contact, F28CompletedOn as CompletedOn
+	FROM
+		'${FILEFILTER4}'
+	WHERE
+		isinlist(Contact,'${PCTMEMBERSAZ}')
+END F28ECCCB_AZ_CSV
+---[F28ECCCB_MY_CSV]---
+BEGIN F28ECCCB_MY_CSV
+	---Begin Main Query---
+	Using LA2REPORT with
+		TableIndex = 10 -- Index representing the table instance to look for (specify -1 for first non-empty table)
+	SELECT
+		ID, 'F28' as  Location, F28Change as State, F28CompletedBy as Contact, F28CompletedOn as CompletedOn
+	FROM
+		'${FILEFILTER4}'
+	WHERE
+		isinlist(Contact,'${PCTMEMBERSMY}')
+END F28ECCCB_MY_CSV
+---[MERGEECCB1_CSV]---
+BEGIN MERGEECCB1_CSV
+	UseMethod MergeTables with -- **Merge content of two tables by doing an outer join on the column schema (no join done here)**
+		InputFile1 = "%{F32ECCCB_CSV}" -- Input CSV File #1 containing table data [String]
+		InputFile2 = "%{F11xECCCB_CSV}" -- Input CSV File #2 containing table data [String]
+		AutoDetectColumnTypes = false -- Auto-detect column types before merging [Boolean]
+END MERGEECCB1_CSV
+---[MERGEECCB2_CSV]---
+BEGIN MERGEECCB2_CSV
+	UseMethod MergeTables with -- **Merge content of two tables by doing an outer join on the column schema (no join done here)**
+		InputFile1 = "%{F24ECCCB_CSV}" -- Input CSV File #1 containing table data [String]
+		InputFile2 = "%{F28ECCCB_CSV}" -- Input CSV File #2 containing table data [String]
+		AutoDetectColumnTypes = false -- Auto-detect column types before merging [Boolean]
+END MERGEECCB2_CSV
+---[MERGEECCB3_CSV]---
+BEGIN MERGEECCB3_CSV
+	UseMethod MergeTables with -- **Merge content of two tables by doing an outer join on the column schema (no join done here)**
+		InputFile1 = "%{F32ECCCB_AZ_CSV}" -- Input CSV File #1 containing table data [String]
+		InputFile2 = "%{F11xECCCB_AZ_CSV}" -- Input CSV File #2 containing table data [String]
+		AutoDetectColumnTypes = false -- Auto-detect column types before merging [Boolean]
+END MERGEECCB3_CSV
+---[MERGEECCB4_CSV]---
+BEGIN MERGEECCB4_CSV
+	UseMethod MergeTables with -- **Merge content of two tables by doing an outer join on the column schema (no join done here)**
+		InputFile1 = "%{F24ECCCB_AZ_CSV}" -- Input CSV File #1 containing table data [String]
+		InputFile2 = "%{F28ECCCB_AZ_CSV}" -- Input CSV File #2 containing table data [String]
+		AutoDetectColumnTypes = false -- Auto-detect column types before merging [Boolean]
+END MERGEECCB4_CSV
+---[MERGEECCB_AZ_CSV]---
+BEGIN MERGEECCB_AZ_CSV
+	UseMethod MergeTables with -- **Merge content of two tables by doing an outer join on the column schema (no join done here)**
+		InputFile1 = "%{MERGEECCB3_CSV}" -- Input CSV File #1 containing table data [String]
+		InputFile2 = "%{MERGEECCB4_CSV}" -- Input CSV File #2 containing table data [String]
+		AutoDetectColumnTypes = false -- Auto-detect column types before merging [Boolean]
+END MERGEECCB_AZ_CSV
+---[MERGEECCB5_CSV]---
+BEGIN MERGEECCB5_CSV
+	UseMethod MergeTables with -- **Merge content of two tables by doing an outer join on the column schema (no join done here)**
+		InputFile1 = "%{F32ECCCB_MY_CSV}" -- Input CSV File #1 containing table data [String]
+		InputFile2 = "%{F11xECCCB_MY_CSV}" -- Input CSV File #2 containing table data [String]
+		AutoDetectColumnTypes = false -- Auto-detect column types before merging [Boolean]
+END MERGEECCB5_CSV
+---[MERGEECCB6_CSV]---
+BEGIN MERGEECCB6_CSV
+	UseMethod MergeTables with -- **Merge content of two tables by doing an outer join on the column schema (no join done here)**
+		InputFile1 = "%{F24ECCCB_MY_CSV}" -- Input CSV File #1 containing table data [String]
+		InputFile2 = "%{F28ECCCB_MY_CSV}" -- Input CSV File #2 containing table data [String]
+		AutoDetectColumnTypes = false -- Auto-detect column types before merging [Boolean]
+END MERGEECCB6_CSV
+---[MERGEECCB_MY_CSV]---
+BEGIN MERGEECCB_MY_CSV
+	UseMethod MergeTables with -- **Merge content of two tables by doing an outer join on the column schema (no join done here)**
+		InputFile1 = "%{MERGEECCB5_CSV}" -- Input CSV File #1 containing table data [String]
+		InputFile2 = "%{MERGEECCB6_CSV}" -- Input CSV File #2 containing table data [String]
+		AutoDetectColumnTypes = false -- Auto-detect column types before merging [Boolean]
+END MERGEECCB_MY_CSV
+---[MERGEECCB_CSV]---
+BEGIN MERGEECCB_CSV
+	UseMethod MergeTables with -- **Merge content of two tables by doing an outer join on the column schema (no join done here)**
+		InputFile1 = "%{MERGEECCB1_CSV}" -- Input CSV File #1 containing table data [String]
+		InputFile2 = "%{MERGEECCB2_CSV}" -- Input CSV File #2 containing table data [String]
+		AutoDetectColumnTypes = false -- Auto-detect column types before merging [Boolean]
+END MERGEECCB_CSV
+---[CURRENTDAYECCB_CSV]---
+BEGIN CURRENTDAYECCB_CSV
+	---Begin Main Query---
+	Using CSV with
+	SELECT
+		'ECCB' as Activity,
+		count(*) as [Current Day]
+	FROM
+		%{MERGEECCB_CSV}
+	WHERE
+		CompletedOn =  SYSTEM_date()
+END CURRENTDAYECCB_CSV
+---[CURRENTDAYECCB_AZ_CSV]---
+BEGIN CURRENTDAYECCB_AZ_CSV
+	---Begin Main Query---
+	Using CSV with
+	SELECT
+		'ECCB' as Activity,
+		count(*) as [Current Day AZ]
+	FROM
+		%{MERGEECCB_AZ_CSV}
+	WHERE
+		CompletedOn =  SYSTEM_date()
+END CURRENTDAYECCB_AZ_CSV
+---[CURRENTDAYECCB_MY_CSV]---
+BEGIN CURRENTDAYECCB_MY_CSV
+	---Begin Main Query---
+	Using CSV with
+	SELECT
+		'ECCB' as Activity,
+		count(*) as [Current Day MY]
+	FROM
+		%{MERGEECCB_MY_CSV}
+	WHERE
+		CompletedOn =  SYSTEM_date()
+END CURRENTDAYECCB_MY_CSV
+---[PREVIOUSDAYECCB_CSV]---
+BEGIN PREVIOUSDAYECCB_CSV
+	---Begin Main Query---
+	Using CSV with
+	SELECT
+		'ECCB' as Activity,
+		count(*) as [Previous Day]
+	FROM
+		%{MERGEECCB_CSV}
+	WHERE
+		applytimerangefilter(CompletedOn, 'Last 1 days (prev mode)')
+END PREVIOUSDAYECCB_CSV
+---[PREVIOUSDAYECCB_AZ_CSV]---
+BEGIN PREVIOUSDAYECCB_AZ_CSV
+	---Begin Main Query---
+	Using CSV with
+	SELECT
+		'ECCB' as Activity,
+		count(*) as [Previous Day AZ]
+	FROM
+		%{MERGEECCB_AZ_CSV}
+	WHERE
+		applytimerangefilter(CompletedOn, 'Last 1 days (prev mode)')
+END PREVIOUSDAYECCB_AZ_CSV
+---[PREVIOUSDAYECCB_MY_CSV]---
+BEGIN PREVIOUSDAYECCB_MY_CSV
+	---Begin Main Query---
+	Using CSV with
+	SELECT
+		'ECCB' as Activity,
+		count(*) as [Previous Day MY]
+	FROM
+		%{MERGEECCB_MY_CSV}
+	WHERE
+		applytimerangefilter(CompletedOn, 'Last 1 days (prev mode)')
+END PREVIOUSDAYECCB_MY_CSV
+---[CURRENTWEEKECCB_CSV]---
+BEGIN CURRENTWEEKECCB_CSV
+	---Begin Main Query---
+	Using CSV with
+	SELECT
+		'ECCB' as Activity,
+		count(*) as WTD
+	FROM
+		%{MERGEECCB_CSV}
+	WHERE
+		To_LA2DAte(CompletedOn, 'WW') = To_LA2DAte(system_date(), 'WW')
+END CURRENTWEEKECCB_CSV
+---[PREVIOUSWEEKECCB_CSV]---
+BEGIN PREVIOUSWEEKECCB_CSV
+	---Begin Main Query---
+	Using CSV with
+	SELECT
+		'ECCB' as Activity,
+		count(*) as [Previous Week]
+	FROM
+		%{MERGEECCB_CSV}
+	WHERE
+		applytimerangefilter(CompletedOn, 'Last 1 weeks (prev mode)')
+END PREVIOUSWEEKECCB_CSV
+---[JOINECCB_CSV]---
+BEGIN JOINECCB_CSV
+	UseMethod Join with -- **Do an outer join for two tables based on a matching column**
+		InputFile1 = "%{CurrentDayECCB_AZ_CSV}" -- Input CSV File #1 containing table data [String]
+		InputFile2 = "%{CurrentDayECCB_MY_CSV}" -- Input CSV File #2 containing table data [String]
+		InputFile3 = "%{PREVIOUSDAYECCB_AZ_CSV}" -- Input CSV File #3 containing table data (optional) [String]
+		InputFile4 = "%{PREVIOUSDAYECCB_MY_CSV}" -- Input CSV File #4 containing table data (optional) [String]
+		InputFile5 = "%{CurrentWeekECCB_CSV}" -- Input CSV File #5 containing table data (optional) [String]
+		InputFile6 = "%{PreviousWeekECCB_CSV}" -- Input CSV File #6 containing table data (optional) [String]
+		JoinColumn = "Activity" -- Column name(s) on which to join the two tables (more than one column can be supplied by using comma as a separator) [String]
+		IgnoreDuplicate = true -- Flag to ignore duplicate items in the JoinColumn [Boolean]
+		IgnoreCase = false -- Flag to ignore case in the JoinColumn [Boolean]
+		OnlyShowNonMatchingRows = false -- Flag to only show non-matching orphan rows [Boolean]
+		IncludeNonMatchingRows = true -- Flag to also include non-matching orphan rows (but with blank entries) [Boolean]
+		MustIncludeOutputColumns = "" -- Name of columns (comma-separated) that must be included in output even if the join does not materialize [String]
+		OrderBy = "" -- Name of column(s) to sort the resulting table by [String]
+END JOINECCB_CSV
+---[MERGE5_CSV]---
+BEGIN MERGE5_CSV
+	UseMethod MergeTables with -- **Merge content of two tables by doing an outer join on the column schema (no join done here)**
+		InputFile1 = "%{MERGE4_CSV}" -- Input CSV File #1 containing table data [String]
+		InputFile2 = "%{JOINECCB_CSV}" -- Input CSV File #2 containing table data [String]
+		AutoDetectColumnTypes = false -- Auto-detect column types before merging [Boolean]
+END MERGE5_CSV
+---[AMCCB_F28_CSV]---
+BEGIN AMCCB_F28_CSV
+	---Begin Main Query---
+	Using CSV with
+	SELECT
+		ID,
+		'F28' as Location,
+		F28ChangeState as State,
+		F28CompletedBy as [Contact],
+		F28CompletedOn as CompletedOn,
+		TxfrDate
+	FROM
+		'${FILEFILTER5}'
+	WHERE
+		isinlist(Contact,'${PCTMEMBERS}') and IsInList(State, '${CHANGETYPE}')
+	ORDER BY
+		TxfrDate
+END AMCCB_F28_CSV
+---[AMCCB_F24_CSV]---
+BEGIN AMCCB_F24_CSV
+	---Begin Main Query---
+	Using CSV with
+	SELECT
+		ID,
+		'F24' as Location,
+		F24ChangeState as State,
+		F24CompletedBy as [Contact],
+		F24CompletedOn as CompletedOn,
+		TxfrDate
+	FROM
+		'${FILEFILTER5}'
+	WHERE
+		isinlist(Contact,'${PCTMEMBERS}') and IsInList(State, '${CHANGETYPE}')
+	ORDER BY
+		TxfrDate
+END AMCCB_F24_CSV
+---[AMCCB_F32_CSV]---
+BEGIN AMCCB_F32_CSV
+	---Begin Main Query---
+	Using CSV with
+	SELECT
+		ID,
+		'F32' as Location,
+		F32ChangeState as State,
+		F32CompletedBy as [Contact],
+		F32CompletedOn as CompletedOn,
+		TxfrDate
+	FROM
+		'${FILEFILTER5}'
+	WHERE
+		isinlist(Contact,'${PCTMEMBERS}') and IsInList(State, '${CHANGETYPE}')
+	ORDER BY
+		TxfrDate
+END AMCCB_F32_CSV
+---[MERGE_AMCCB1_CSV]---
+BEGIN MERGE_AMCCB1_CSV
+	UseMethod MergeTables with -- **Merge content of two tables by doing an outer join on the column schema (no join done here)**
+		InputFile1 = "%{AMCCB_F28_CSV}" -- Input CSV File #1 containing table data [String]
+		InputFile2 = "%{AMCCB_F24_CSV}" -- Input CSV File #2 containing table data [String]
+		AutoDetectColumnTypes = false -- Auto-detect column types before merging [Boolean]
+END MERGE_AMCCB1_CSV
+---[MERGE_AMCCB2_CSV]---
+BEGIN MERGE_AMCCB2_CSV
+	UseMethod MergeTables with -- **Merge content of two tables by doing an outer join on the column schema (no join done here)**
+		InputFile1 = "%{AMCCB_F32_CSV}" -- Input CSV File #1 containing table data [String]
+		InputFile2 = "%{MERGE_AMCCB1_CSV}" -- Input CSV File #2 containing table data [String]
+		AutoDetectColumnTypes = false -- Auto-detect column types before merging [Boolean]
+END MERGE_AMCCB2_CSV
+---[FINAL_AMCCB_CSV]---
+BEGIN FINAL_AMCCB_CSV
+	---Begin Main Query---
+	Using CSV with
+	SELECT
+		ID,
+		Location,
+		CompletedOn
+	FROM
+		%{MERGE_AMCCB2_CSV}
+	WHERE
+		IsInList(State, '${CHANGETYPE}') and
+		isinlist(Contact,'${PCTMEMBERS}')
+END FINAL_AMCCB_CSV
+---[FINAL_AMCCB_AZ_CSV]---
+BEGIN FINAL_AMCCB_AZ_CSV
+	---Begin Main Query---
+	Using CSV with
+	SELECT
+		ID,
+		Location,
+		CompletedOn
+	FROM
+		%{MERGE_AMCCB2_CSV}
+	WHERE
+		IsInList(State, '${CHANGETYPE}') and
+		isinlist(Contact,'${PCTMEMBERSAZ}')
+END FINAL_AMCCB_AZ_CSV
+---[FINAL_AMCCB_MY_CSV]---
+BEGIN FINAL_AMCCB_MY_CSV
+	---Begin Main Query---
+	Using CSV with
+	SELECT
+		ID,
+		Location,
+		CompletedOn
+	FROM
+		%{MERGE_AMCCB2_CSV}
+	WHERE
+		IsInList(State, '${CHANGETYPE}') and
+		isinlist(Contact,'${PCTMEMBERSMY}')
+END FINAL_AMCCB_MY_CSV
+---[CRUNCH_AMCCB_AZ_CSV]---
+BEGIN CRUNCH_AMCCB_AZ_CSV
+	UseMethod SortTable with -- **Sort Table (with support for multiple orderbys)**
+		InputFile = "%{FINAL_AMCCB_AZ_CSV}" -- Input Table csv [String]
+		OrderBy = "CompletedOn desc" -- Order By string (e.g., DateTime desc, Name asc, Metrics desc) [String]
+END CRUNCH_AMCCB_AZ_CSV
+---[CRUNCH_AMCCB_MY_CSV]---
+BEGIN CRUNCH_AMCCB_MY_CSV
+	UseMethod SortTable with -- **Sort Table (with support for multiple orderbys)**
+		InputFile = "%{FINAL_AMCCB_MY_CSV}" -- Input Table csv [String]
+		OrderBy = "CompletedOn desc" -- Order By string (e.g., DateTime desc, Name asc, Metrics desc) [String]
+END CRUNCH_AMCCB_MY_CSV
+---[CRUNCH_AMCCB_CSV]---
+BEGIN CRUNCH_AMCCB_CSV
+	UseMethod SortTable with -- **Sort Table (with support for multiple orderbys)**
+		InputFile = "%{FINAL_AMCCB_CSV}" -- Input Table csv [String]
+		OrderBy = "CompletedOn desc" -- Order By string (e.g., DateTime desc, Name asc, Metrics desc) [String]
+END CRUNCH_AMCCB_CSV
+---[CURRENTDAY_AMCCB_CSV]---
+BEGIN CURRENTDAY_AMCCB_CSV
+	---Begin Main Query---
+	Using CSV with
+	SELECT
+		'AMCCB' as Activity,
+		count(*) as [Current Day]
+	FROM
+		%{CRUNCH_AMCCB_CSV}
+	WHERE
+		CompletedOn =  SYSTEM_date()
+END CURRENTDAY_AMCCB_CSV
+---[CURRENTDAY_AMCCB_AZ_CSV]---
+BEGIN CURRENTDAY_AMCCB_AZ_CSV
+	---Begin Main Query---
+	Using CSV with
+	SELECT
+		'AMCCB' as Activity,
+		count(*) as [Current Day AZ]
+	FROM
+		%{CRUNCH_AMCCB_AZ_CSV}
+	WHERE
+		CompletedOn =  SYSTEM_date()
+END CURRENTDAY_AMCCB_AZ_CSV
+---[CURRENTDAY_AMCCB_MY_CSV]---
+BEGIN CURRENTDAY_AMCCB_MY_CSV
+	---Begin Main Query---
+	Using CSV with
+	SELECT
+		'AMCCB' as Activity,
+		count(*) as [Current Day MY]
+	FROM
+		%{CRUNCH_AMCCB_MY_CSV}
+	WHERE
+		CompletedOn =  SYSTEM_date()
+END CURRENTDAY_AMCCB_MY_CSV
+---[PREVIOUSDAY_AMCCB_CSV]---
+BEGIN PREVIOUSDAY_AMCCB_CSV
+	---Begin Main Query---
+	Using CSV with
+	SELECT
+		'AMCCB' as Activity,
+		count(*) as [Previous Day]
+	FROM
+		%{CRUNCH_AMCCB_CSV}
+	WHERE
+		applytimerangefilter(CompletedOn, 'Last 1 days (prev mode)')
+END PREVIOUSDAY_AMCCB_CSV
+---[PREVIOUSDAY_AMCCB_AZ_CSV]---
+BEGIN PREVIOUSDAY_AMCCB_AZ_CSV
+	---Begin Main Query---
+	Using CSV with
+	SELECT
+		'AMCCB' as Activity,
+		count(*) as [Previous Day AZ]
+	FROM
+		%{CRUNCH_AMCCB_AZ_CSV}
+	WHERE
+		applytimerangefilter(CompletedOn, 'Last 1 days (prev mode)')
+END PREVIOUSDAY_AMCCB_AZ_CSV
+---[PREVIOUSDAY_AMCCB_MY_CSV]---
+BEGIN PREVIOUSDAY_AMCCB_MY_CSV
+	---Begin Main Query---
+	Using CSV with
+	SELECT
+		'AMCCB' as Activity,
+		count(*) as [Previous Day MY]
+	FROM
+		%{CRUNCH_AMCCB_MY_CSV}
+	WHERE
+		applytimerangefilter(CompletedOn, 'Last 1 days (prev mode)')
+END PREVIOUSDAY_AMCCB_MY_CSV
+---[CURRENTWEEK_AMCCB_CSV]---
+BEGIN CURRENTWEEK_AMCCB_CSV
+	---Begin Main Query---
+	Using CSV with
+	SELECT
+		'AMCCB' as Activity,
+		count(*) as WTD
+	FROM
+		%{CRUNCH_AMCCB_CSV}
+	WHERE
+		To_LA2DAte(CompletedOn, 'WW') = To_LA2DAte(system_date(), 'WW')
+END CURRENTWEEK_AMCCB_CSV
+---[PREVIOUSWEEK_AMCCB_CSV]---
+BEGIN PREVIOUSWEEK_AMCCB_CSV
+	---Begin Main Query---
+	Using CSV with
+	SELECT
+		'AMCCB' as Activity,
+		count(*) as [Previous Week]
+	FROM
+		%{CRUNCH_AMCCB_CSV}
+	WHERE
+		applytimerangefilter(CompletedOn, 'Last 1 weeks (prev mode)')
+END PREVIOUSWEEK_AMCCB_CSV
+---[JOINAMCCB_CSV]---
+BEGIN JOINAMCCB_CSV
+	UseMethod Join with -- **Do an outer join for two tables based on a matching column**
+		InputFile1 = "%{CurrentDay_AMCCB_AZ_CSV}" -- Input CSV File #1 containing table data [String]
+		InputFile2 = "%{CurrentDay_AMCCB_MY_CSV}" -- Input CSV File #2 containing table data [String]
+		InputFile3 = "%{PreviousDay_AMCCB_AZ_CSV}" -- Input CSV File #3 containing table data (optional) [String]
+		InputFile4 = "%{PreviousDay_AMCCB_MY_CSV}" -- Input CSV File #4 containing table data (optional) [String]
+		InputFile5 = "%{CurrentWeek_AMCCB_CSV}" -- Input CSV File #5 containing table data (optional) [String]
+		InputFile6 = "%{PreviousWeek_AMCCB_CSV}" -- Input CSV File #6 containing table data (optional) [String]
+		JoinColumn = "Activity" -- Column name(s) on which to join the two tables (more than one column can be supplied by using comma as a separator) [String]
+		IgnoreDuplicate = true -- Flag to ignore duplicate items in the JoinColumn [Boolean]
+		IgnoreCase = false -- Flag to ignore case in the JoinColumn [Boolean]
+		OnlyShowNonMatchingRows = false -- Flag to only show non-matching orphan rows [Boolean]
+		IncludeNonMatchingRows = true -- Flag to also include non-matching orphan rows (but with blank entries) [Boolean]
+		MustIncludeOutputColumns = "" -- Name of columns (comma-separated) that must be included in output even if the join does not materialize [String]
+		OrderBy = "" -- Name of column(s) to sort the resulting table by [String]
+END JOINAMCCB_CSV
+---[MERGE6_CSV]---
+BEGIN MERGE6_CSV
+	UseMethod MergeTables with -- **Merge content of two tables by doing an outer join on the column schema (no join done here)**
+		InputFile1 = "%{MERGE5_CSV}" -- Input CSV File #1 containing table data [String]
+		InputFile2 = "%{JOINAMCCB_CSV}" -- Input CSV File #2 containing table data [String]
+		AutoDetectColumnTypes = false -- Auto-detect column types before merging [Boolean]
+END MERGE6_CSV
+---[SUM_CSV]---
+BEGIN SUM_CSV
+	---Begin Main Query---
+	Using CSV with
+	SELECT
+		'Total' as Activity,
+		sum([Current Day AZ]) as [Current Day AZ],
+		sum([Current Day MY]) as [Current Day MY],
+		sum([Previous Day AZ]) as [Previous Day AZ],
+		sum([Previous Day MY]) as [Previous Day MY],
+		sum(WTD) as WTD,
+		sum([Previous Week]) as [Previous Week]
+	FROM
+		%{MERGE6_CSV}
+END SUM_CSV
+---[DB_CSV]---
+BEGIN DB_CSV
+	---Begin Main Query---
+	Using CSV with
+	SELECT
+		'Ticket Rate' as Activity,
+		DayDBMY as [Current Day MY],
+		DayDBAZ as [Current Day AZ],
+		PreviousDayDBMY as [Previous Day MY],
+		PreviousDayDBAZ as [Previous Day AZ],
+		WTDDB as [WTD],
+		PreviousWeekDBMY as [Previous Week]
+	USING
+		To_String(system_date(), 'ddd') as day,
+		case day when 'Sun' then 30 when 'Mon' then 30 when 'Tue' then 30 when 'Wed' then 60 when 'Thu' then 30 when 'Fri' then 30 else  30 end as ShiftlyHoursMY,
+		case day when 'Sun' then 30 when 'Mon' then 30 when 'Tue' then 30 when 'Wed' then 30 when 'Thu' then 60 when 'Fri' then 30 else  30 end as PreviousShiftlyHoursMY,
+		case day when 'Sun' then 50 when 'Mon' then 100 when 'Tue' then 150 when 'Wed' then 230 when 'Thu' then 280 when 'Fri' then 330 else  380 end as WTDHours,
+		div(to_real(ShiftlyHoursMY), to_real([Current Day MY]))  as DayDBMY,
+		div(to_real(20), to_real([Current Day AZ]))  as DayDBAZ,
+		div(to_real(PreviousShiftlyHoursMY), to_real([Previous Day MY]))  as PreviousDayDBMY,
+		div(to_real(20), to_real([Previous Day AZ]))  as PreviousDayDBAZ,
+		div(to_real(WTDHours), to_real(WTD))  as WTDDB,
+		div(to_real(380), to_real([Previous Week]))  as PreviousWeekDBMY
+	FROM
+		%{SUM_CSV}
+END DB_CSV
+---[MERGE7_CSV]---
+BEGIN MERGE7_CSV
+	UseMethod MergeTables with -- **Merge content of two tables by doing an outer join on the column schema (no join done here)**
+		InputFile1 = "%{MERGE6_CSV}" -- Input CSV File #1 containing table data [String]
+		InputFile2 = "%{DB_CSV}" -- Input CSV File #2 containing table data [String]
+		AutoDetectColumnTypes = false -- Auto-detect column types before merging [Boolean]
+END MERGE7_CSV
+---Begin Main Query---
+Using CSV with
+SELECT
+	Activity,
+	[Current Day AZ] as [CurrentDay AZ] ,
+	[Current Day MY] as [CurrentDay MY]   ,
+	[Previous Day AZ] as [PreviousDay AZ]  ,
+	[Previous Day MY] as [PreviousDay MY]  ,
+	[WTD],
+	[Previous Week] as [PreviousWeek]
+FROM
+	%{MERGE7_CSV}
+
+]]></QuerySQL>
+</QueryConfig>

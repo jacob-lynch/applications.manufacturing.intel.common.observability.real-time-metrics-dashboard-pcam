@@ -1,0 +1,120 @@
+<QueryConfig AutoExecuteQueryOnLoad="false">
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 8/19/2014 1:00:12 PM from RF3PTS216.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.8.40806.2215</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 8/1/2014 1:31:40 PM from RF3PTS216.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.8.40723.2330</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 10/30/2013 12:53:38 PM from RF3PTS216.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.7.31030.0015</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 10/29/2013 3:01:40 PM from RF3PTS216.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.7.31028.1315</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 10/29/2013 12:08:23 PM from RF3PTS216.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.7.31028.1315</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 10/29/2013 9:48:19 AM from RF3PTS216.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.7.31028.1315</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 10/28/2013 5:32:06 PM from RF3PTS216.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.7.31027.2229</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 10/28/2013 5:17:21 PM from RF3PTS216.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.7.31027.2229</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 10/28/2013 5:16:40 PM from RF3PTS216.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.7.31027.2229</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 10/28/2013 5:15:22 PM from RF3PTS216.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.7.31027.2229</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 10/28/2013 5:11:28 PM from RF3PTS216.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.7.31027.2229</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 10/28/2013 5:10:00 PM from RF3PTS216.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.7.31027.2229</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 10/28/2013 5:08:51 PM from RF3PTS216.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.7.31027.2229</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 10/28/2013 5:08:03 PM from RF3PTS216.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.7.31027.2229</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 10/28/2013 5:00:37 PM from RF3PTS216.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.7.31027.2229</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 10/10/2013 3:15:03 PM from RF3PTS216.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.7.31010.0142</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 10/10/2013 3:07:48 PM from RF3PTS216.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.7.31010.0142</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 10/10/2013 3:06:27 PM from RF3PTS216.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.7.31010.0142</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 10/10/2013 3:06:07 PM from RF3PTS216.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.7.31010.0142</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 10/7/2013 8:57:24 AM from RF3PTS216.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.7.31003.1608</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 10/7/2013 8:51:13 AM from RF3PTS216.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.7.31003.1608</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 10/3/2013 10:19:38 PM from RF3PTS216.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.7.31001.1233</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 10/3/2013 10:10:55 PM from RF3PTS216.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.7.31001.1233</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 2/15/2013 3:55:00 PM from RF3PTS215.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.6.30214.1454</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 2/15/2013 3:44:21 PM from RF3PTS215.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.6.30214.1454</ChangeLog>
+  <QueryAttributes>
+    <OutputDateFormat>MM/dd/yyyy hh:mmtt</OutputDateFormat>
+    <AlwaysReplaceDomainWithLocal>false</AlwaysReplaceDomainWithLocal>
+  </QueryAttributes>
+  <PostQuerySQL>select * from %{OUTPUT}</PostQuerySQL>
+  <TableLayoutConfig>
+    <BoundColumnList>TitleDet,Barnum,Process,Area,ChangeType,Requestor,Resource,Request Date,Need Date,Status</BoundColumnList>
+  </TableLayoutConfig>
+  <TabOrder>C0</TabOrder>
+  <MainPivotConfig>
+    <ColumnX FieldName="" FieldType="" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <ColumnY FieldName="" FieldType="" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <ColumnData FieldName="" FieldType="" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <CustomPalette />
+    <TableData />
+  </MainPivotConfig>
+  <AutoPivotConfig OutputDateFormat="yyyy ww.w hh tt" />
+  <MailConfig>
+    <PostProcessingSQL Enable="false" />
+    <EmailCondition Enable="false" ThresholdRowCount="0">
+      <RunScriptBeforeEmailing>false</RunScriptBeforeEmailing>
+    </EmailCondition>
+    <PostProcessingCondition Enable="false" ThresholdRowCount="0">
+      <RunScriptBeforeEmailing>false</RunScriptBeforeEmailing>
+    </PostProcessingCondition>
+    <CopyCondition Enable="false" ThresholdRowCount="0">
+      <RunScriptBeforeEmailing>false</RunScriptBeforeEmailing>
+    </CopyCondition>
+    <Body />
+    <OnlyProcessIfOutputChangedFromPreviousRun>false</OnlyProcessIfOutputChangedFromPreviousRun>
+    <MailAttachments Excel="false" LAS="false" LAD="false" Exceptions="false" StatusLogs="false" PivotChart="true" ZipAttachments="true" DoNotSendAttachmentsWithEmail="false" />
+    <IncludeSQLQueryInBody>false</IncludeSQLQueryInBody>
+    <TableInBody Enable="false" />
+    <CopyOutputToDirectory>false</CopyOutputToDirectory>
+    <IncludeAutoPivotSummary>false</IncludeAutoPivotSummary>
+    <IgnoreExceptions>false</IgnoreExceptions>
+    <OnlyCopyOutputIfEmailConditionIsMet>false</OnlyCopyOutputIfEmailConditionIsMet>
+  </MailConfig>
+  <TableSchema><xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+  <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="Results" msdata:UseCurrentLocale="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Results">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Enable" type="xs:string" minOccurs="0" />
+              <xs:element name="State" type="xs:string" minOccurs="0" />
+              <xs:element name="Operation" type="xs:int" minOccurs="0" />
+              <xs:element name="Process" type="xs:string" minOccurs="0" />
+              <xs:element name="Line_x0020_Segment" type="xs:string" minOccurs="0" />
+              <xs:element name="Route" type="xs:string" minOccurs="0" />
+              <xs:element name="PurgeOnLoadPort" type="xs:string" minOccurs="0" />
+              <xs:element name="PurgeInStocker" type="xs:string" minOccurs="0" />
+              <xs:element name="Operation_x0020_Short_x0020_Description" type="xs:string" minOccurs="0" />
+              <xs:element name="Associated_x0020_Entities_x0020_with_x0020_Purge_x0020_Enabled" type="xs:string" minOccurs="0" />
+              <xs:element name="Associated_x0020_Entities_x0020_with_x0020_Purge_x0020_Disabled_x0020_or_x0020_Status_x0020_Unknown" type="xs:string" minOccurs="0" />
+              <xs:element name="Comment" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
+</TableSchema>
+  <TableData />
+  <LastRunAbsoluteDateFilter />
+  <PivotGroupingSettings PivotColumn="">
+    <SortyByColumn>Count</SortyByColumn>
+  </PivotGroupingSettings>
+  <QuerySQL><![CDATA[
+--[FileName:"W:\PCAM\LA2 Scripts\Web_PurgeDetails.lasx"]------
+----------<VARIABLES>------------
+var FILEFILTER = "@{DASHBOARD_LOCAL_WEB}\PCAM\Output\Purge_CRM_Configuration.csv"
+---Begin Main Query---
+Using CSV with
+SELECT
+	Enable,
+	State,
+	Operation,
+	Process,
+	LineSegment as [Line Segment],
+	Route,
+	PurgeOnLoadPort,
+	PurgeInStocker,
+	OperShortDescription as [Operation Short Description],
+	[Associated Entities with Purge Enabled],
+	[Associated Entities with Purge Disabled or Status Unknown],
+	Comment
+FROM
+	${FILEFILTER}
+
+]]></QuerySQL>
+</QueryConfig>

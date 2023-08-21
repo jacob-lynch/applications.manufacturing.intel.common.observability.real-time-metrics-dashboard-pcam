@@ -1,0 +1,82 @@
+<QueryConfig AutoExecuteQueryOnLoad="false">
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 2/7/2013 2:54:34 PM from RF3PTS215.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.6.30206.1945</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 12/27/2012 3:13:16 PM from RF3PTS215.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.5.21112.1211</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 12/27/2012 3:07:49 PM from RF3PTS215.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.5.21112.1211</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 12/27/2012 2:21:35 PM from RF3PTS215.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.5.21112.1211</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 12/27/2012 2:20:54 PM from RF3PTS215.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.5.21112.1211</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 9/21/2012 4:55:47 PM from RF3PTS215.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.5.20920.1557</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 9/19/2012 11:51:57 AM from RF3PTS215.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.5.20917.2301</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 9/18/2012 9:39:16 PM from RF3PTS215.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.5.20917.2301</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 9/18/2012 2:38:42 PM from RF3PAP216N1.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.5.20326.1729</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 9/18/2012 2:37:00 PM from RF3PAP216N1.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.5.20326.1729</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 9/18/2012 2:28:40 PM from RF3PAP216N1.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.5.20326.1729</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 9/18/2012 8:53:01 AM from RF3PAP216N1.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.5.20326.1729</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 9/18/2012 8:52:03 AM from RF3PAP216N1.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.5.20326.1729</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 9/17/2012 3:49:45 PM from RF3PAP216N1.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.5.20326.1729</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 8/8/2012 11:48:36 AM from RF3PAP216N3.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.5.20418.1102</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 8/8/2012 11:36:24 AM from RF3PAP216N3.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.5.20418.1102</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_penarvae on 11/19/2011 2:15:53 AM from RF3PTS216.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.4.11118.1704</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_penarvae on 11/19/2011 2:15:02 AM from RF3PTS216.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.4.11118.1704</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_penarvae on 11/19/2011 1:57:29 AM from RF3PTS216.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.4.11118.1704</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_penarvae on 11/19/2011 1:53:48 AM from RF3PTS216.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.4.11118.1704</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_penarvae on 11/18/2011 10:49:30 PM from RF3PTS216.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.4.11118.1704</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_penarvae on 11/18/2011 10:48:25 PM from RF3PTS216.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.4.11118.1704</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_mberger on 11/18/2011 2:18:45 PM from RF3PTS216.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.4.11117.2217</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_mberger on 2/8/2011 10:18:39 AM from RF3PTS216.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.3.10207.1516</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_mberger on 1/21/2011 11:11:47 AM from RF3PTS216.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.2.10117.1045</ChangeLog>
+  <QueryAttributes>
+    <AlwaysReplaceDomainWithLocal>false</AlwaysReplaceDomainWithLocal>
+  </QueryAttributes>
+  <PostQuerySQL>select * from %{OUTPUT}</PostQuerySQL>
+  <TableLayoutConfig />
+  <TabOrder>C0</TabOrder>
+  <MainPivotConfig>
+    <ColumnX FieldName="" FieldType="" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <ColumnY FieldName="" FieldType="" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <ColumnData FieldName="" FieldType="" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <TableData />
+  </MainPivotConfig>
+  <AutoPivotConfig OutputDateFormat="yyyy ww.w hh tt" />
+  <MailConfig>
+    <PostProcessingSQL Enable="false" />
+    <EmailCondition Enable="false" ThresholdRowCount="0">
+      <RunScriptBeforeEmailing>false</RunScriptBeforeEmailing>
+    </EmailCondition>
+    <PostProcessingCondition Enable="false" ThresholdRowCount="0">
+      <RunScriptBeforeEmailing>false</RunScriptBeforeEmailing>
+    </PostProcessingCondition>
+    <CopyCondition Enable="false" ThresholdRowCount="0">
+      <RunScriptBeforeEmailing>false</RunScriptBeforeEmailing>
+    </CopyCondition>
+    <Body />
+    <OnlyProcessIfOutputChangedFromPreviousRun>false</OnlyProcessIfOutputChangedFromPreviousRun>
+    <MailAttachments Excel="false" LAS="false" LAD="false" Exceptions="false" StatusLogs="false" PivotChart="true" ZipAttachments="true" DoNotSendAttachmentsWithEmail="false" />
+    <IncludeSQLQueryInBody>false</IncludeSQLQueryInBody>
+    <TableInBody Enable="false" />
+    <CopyOutputToDirectory>false</CopyOutputToDirectory>
+    <IncludeAutoPivotSummary>false</IncludeAutoPivotSummary>
+    <IgnoreExceptions>false</IgnoreExceptions>
+    <OnlyCopyOutputIfEmailConditionIsMet>false</OnlyCopyOutputIfEmailConditionIsMet>
+  </MailConfig>
+  <TableSchema />
+  <TableData />
+  <LastRunAbsoluteDateFilter />
+  <PivotGroupingSettings PivotColumn="">
+    <SortyByColumn>Count</SortyByColumn>
+  </PivotGroupingSettings>
+  <QuerySQL><![CDATA[
+--[FileName:"W:\Dashboard\Web\PCAM\LA2 Scripts\Web_GetEntityAttributeMaxAverage.lasx"]------
+----------<VARIABLES>------------
+var FILEFILTER = "@{DASHBOARD_LOCAL_WEB}\PCAM\Output\MES Entity Attributes.htm"
+---Begin Main Query---
+Using LA2REPORT with
+	TableIndex = 1
+SELECT
+	AttributeName as [Attribute Name],
+	MaxLength as [Max Length],
+	AverageLength as [Average Length]
+FROM
+	'${FILEFILTER}'
+
+]]></QuerySQL>
+</QueryConfig>

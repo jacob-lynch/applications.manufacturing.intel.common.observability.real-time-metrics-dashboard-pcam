@@ -1,0 +1,159 @@
+<QueryConfig AutoExecuteQueryOnLoad="false" PreventSQLBeautification="false">
+  <ChangeLog>Changed by GER\mfg_mkarni on 8/14/2017 3:11:19 PM from F28PAP216N11.F28PROD.MFG.INTEL.COM using LogAnalyzer2 v2.9.61013.0546</ChangeLog>
+  <ChangeLog>Changed by GER\mfg_mkarni on 8/14/2017 3:01:35 PM from F28PAP216N11.F28PROD.MFG.INTEL.COM using LogAnalyzer2 v2.9.61013.0546</ChangeLog>
+  <ChangeLog>Changed by GER\mfg_mkarni on 8/14/2017 2:42:27 PM from F28PAP216N11.F28PROD.MFG.INTEL.COM using LogAnalyzer2 v2.9.61013.0546</ChangeLog>
+  <ChangeLog>Changed by GER\mfg_mkarni on 8/14/2017 1:29:22 PM from F28PAP216N11.F28PROD.MFG.INTEL.COM using LogAnalyzer2 v2.9.61013.0546</ChangeLog>
+  <ChangeLog>Changed by GER\mfg_mkarni on 8/14/2017 1:29:03 PM from F28PAP216N11.F28PROD.MFG.INTEL.COM using LogAnalyzer2 v2.9.61013.0546</ChangeLog>
+  <ChangeLog>Changed by GER\mfg_mkarni on 8/14/2017 1:23:05 PM from F28PAP216N11.F28PROD.MFG.INTEL.COM using LogAnalyzer2 v2.9.61013.0546</ChangeLog>
+  <ChangeLog>Changed by GER\mfg_mkarni on 8/14/2017 1:19:08 PM from F28PAP216N11.F28PROD.MFG.INTEL.COM using LogAnalyzer2 v2.9.61013.0546</ChangeLog>
+  <ChangeLog>Changed by GER\mfg_mkarni on 8/14/2017 12:28:31 PM from F28PAP216N11.F28PROD.MFG.INTEL.COM using LogAnalyzer2 v2.9.61013.0546</ChangeLog>
+  <ChangeLog>Changed by GER\mfg_mkarni on 8/14/2017 12:25:33 PM from F28PAP216N11.F28PROD.MFG.INTEL.COM using LogAnalyzer2 v2.9.61013.0546</ChangeLog>
+  <ChangeLog>Changed by GER\mfg_mkarni on 8/14/2017 10:46:31 AM from F28PAP216N11.F28PROD.MFG.INTEL.COM using LogAnalyzer2 v2.9.61013.0546</ChangeLog>
+  <ChangeLog>Changed by GER\mfg_mkarni on 8/14/2017 10:46:15 AM from F28PAP216N11.F28PROD.MFG.INTEL.COM using LogAnalyzer2 v2.9.61013.0546</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_cakiu on 11/14/2016 8:10:17 AM from F12PTS215.F32PROD.MFG.INTEL.COM using LogAnalyzer2 v2.8.40713.1943</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_cakiu on 11/10/2016 8:26:30 AM from F12PTS215.F32PROD.MFG.INTEL.COM using LogAnalyzer2 v2.8.40713.1943</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_cakiu on 11/10/2016 8:25:59 AM from F12PTS215.F32PROD.MFG.INTEL.COM using LogAnalyzer2 v2.8.40713.1943</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_cakiu on 11/10/2016 8:24:26 AM from F12PTS215.F32PROD.MFG.INTEL.COM using LogAnalyzer2 v2.8.40713.1943</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_cakiu on 11/9/2016 3:48:46 PM from F12PTS215.F32PROD.MFG.INTEL.COM using LogAnalyzer2 v2.8.40713.1943</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_cakiu on 11/9/2016 3:48:29 PM from F12PTS215.F32PROD.MFG.INTEL.COM using LogAnalyzer2 v2.8.40713.1943</ChangeLog>
+  <ChangeLog>Changed by GER\mfg_hgurarie on 9/14/2016 10:51:19 AM from F28PAP216N1.F28PROD.MFG.INTEL.COM using LogAnalyzer2 v2.9.51126.1153</ChangeLog>
+  <ChangeLog>Changed by GER\mfg_hgurarie on 9/14/2016 10:44:06 AM from F28PAP216N1.F28PROD.MFG.INTEL.COM using LogAnalyzer2 v2.9.51126.1153</ChangeLog>
+  <ChangeLog>Changed by GER\mfg_hgurarie on 9/14/2016 10:11:40 AM from F28PAP216N1.F28PROD.MFG.INTEL.COM using LogAnalyzer2 v2.9.51126.1153</ChangeLog>
+  <ChangeLog>Changed by GER\mfg_hgurarie on 9/14/2016 9:47:03 AM from F28PAP216N1.F28PROD.MFG.INTEL.COM using LogAnalyzer2 v2.9.51126.1153</ChangeLog>
+  <ChangeLog>Changed by GER\mfg_hgurarie on 6/6/2016 10:25:06 AM from F28PAP216N1.F28PROD.MFG.INTEL.COM using LogAnalyzer2 v2.9.51126.1153</ChangeLog>
+  <ChangeLog>Changed by GER\mfg_hgurarie on 3/29/2016 4:12:26 PM from F28PAP216N1.F28PROD.MFG.INTEL.COM using LogAnalyzer2 v2.9.51126.1153</ChangeLog>
+  <ChangeLog>Changed by GER\mfg_icohen1 on 7/8/2015 11:17:58 AM from F28PTS215N1.F28PROD.MFG.INTEL.COM using LogAnalyzer2 v2.8.40713.0943</ChangeLog>
+  <ChangeLog>Changed by GER\mfg_icohen1 on 7/8/2015 11:17:51 AM from F28PTS215N1.F28PROD.MFG.INTEL.COM using LogAnalyzer2 v2.8.40713.0943</ChangeLog>
+  <QueryAttributes>
+    <OutputDateFormat>MM/dd/yyyy</OutputDateFormat>
+    <PreserveTempFiles>true</PreserveTempFiles>
+    <AlwaysReplaceDomainWithLocal>false</AlwaysReplaceDomainWithLocal>
+  </QueryAttributes>
+  <PostQuerySQL>select * from %{OUTPUT}</PostQuerySQL>
+  <TableLayoutConfig>
+    <BoundColumnList>Process,ID,MCCB,State,Contact,MCCB Description,CEID,Area,SubArea,Transfer Date</BoundColumnList>
+  </TableLayoutConfig>
+  <TabOrder>C0</TabOrder>
+  <MainPivotConfig>
+    <ColumnX FieldName="" FieldType="" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <ColumnY FieldName="" FieldType="" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <ColumnData FieldName="" FieldType="" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <CustomPalette />
+    <TableData />
+  </MainPivotConfig>
+  <AutoPivotConfig OutputDateFormat="yyyy ww.w hh tt" />
+  <MailConfig>
+    <PostProcessingSQL Enable="false" />
+    <EmailCondition Enable="false" Operator="&gt;" ThresholdRowCount="0">
+      <SQLQuery />
+      <RunScriptBeforeEmailing>false</RunScriptBeforeEmailing>
+      <Script />
+    </EmailCondition>
+    <PostProcessingCondition Enable="false" Operator="&gt;" ThresholdRowCount="0">
+      <SQLQuery />
+      <RunScriptBeforeEmailing>false</RunScriptBeforeEmailing>
+    </PostProcessingCondition>
+    <CopyCondition Enable="false" Operator="&gt;" ThresholdRowCount="0">
+      <SQLQuery />
+      <RunScriptBeforeEmailing>false</RunScriptBeforeEmailing>
+    </CopyCondition>
+    <SMTPServer>smtp.intel.com</SMTPServer>
+    <From>LogAnalyzer2@intel.com</From>
+    <ReplyTo>chris.m.akiu@intel.com</ReplyTo>
+    <To />
+    <Subject>[${DOMAIN}] Web_amccb_uicontrol</Subject>
+    <Body />
+    <MailAttachments FileNamingFormat="${SETTINGS}" Excel="false" CSV="false" LAS="false" LAD="false" Exceptions="false" StatusLogs="false" PivotChart="false" ZipAttachments="false" DoNotSendAttachmentsWithEmail="false" />
+    <IncludeSQLQueryInBody>false</IncludeSQLQueryInBody>
+    <TableInBody Enable="false">
+      <SQL />
+    </TableInBody>
+    <CopyOutputToDirectory>false</CopyOutputToDirectory>
+    <OutputDirectory />
+    <IncludeAutoPivotSummary>false</IncludeAutoPivotSummary>
+    <IgnoreExceptions>false</IgnoreExceptions>
+    <OnlyCopyOutputIfEmailConditionIsMet>false</OnlyCopyOutputIfEmailConditionIsMet>
+  </MailConfig>
+  <TableSchema><xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+  <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="Results" msdata:UseCurrentLocale="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Results">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ID" type="xs:int" minOccurs="0" />
+              <xs:element name="MCCB" type="xs:string" minOccurs="0" />
+              <xs:element name="process" type="xs:int" minOccurs="0" />
+              <xs:element name="F28" type="xs:string" minOccurs="0" />
+              <xs:element name="F24" type="xs:string" minOccurs="0" />
+              <xs:element name="OSA" type="xs:string" minOccurs="0" />
+              <xs:element name="MCCB_x0020_Description" type="xs:string" minOccurs="0" />
+              <xs:element name="Author" type="xs:string" minOccurs="0" />
+              <xs:element name="Transfer_x0020_Date" type="xs:dateTime" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
+</TableSchema>
+  <TableData />
+  <LastRunAbsoluteDateFilter />
+  <PivotGroupingSettings PivotColumn="">
+    <SortyByColumn>Count</SortyByColumn>
+  </PivotGroupingSettings>
+  <QuerySQL><![CDATA[
+--[FileName:"\\f28pap216-web12\r$\Dashboard\Web\PCAM\LA2 Scripts\Web_AMCCBActive_coredashboard_mkarni.lasx"]------
+----------<VARIABLES>------------
+var FILEFILTER = "@{DASHBOARD_LOCAL_WEB}\PCAM\Output\1_AMCCB.csv"
+var MCCBAREAEXCLUDE = ""
+var MCCBPROCESSEXCLUDE = ""
+var CHANGETYPE = "Active,ActiveHold"
+var AMCCB = "http://autosp.rf3prod.mfg.intel.com/sites/AutoXfer/ES/AM/AM%20CCB/"
+---[MAIN_CSV]---
+BEGIN MAIN_CSV
+	---Begin Main Query---
+	Using CSV with
+	SELECT
+		ID,
+		AMCCB,
+		Process,
+		Name as [MCCB Description],
+		TxfrDate as [Transfer Date],
+		F32ChangeState as OSA,
+		F24ChangeState as F24,
+		F28ChangeState as F28,
+		Author
+	USING
+		case process when 1270 then strcat(strcat('${AMCCB}', '1270/'),to_string(Name))when 1272 then  strcat(strcat('${AMCCB}', '1272/'),to_string(Name)) when 1274 then  strcat(strcat('${AMCCB}', '1274/'),to_string(Name)) else strcat('${AMCCB}',to_string(Name))end as AMCCB
+	FROM
+		'${FILEFILTER}'
+	WHERE
+		NOT IsInList(name, '${MCCBAREAEXCLUDE}')
+		and not IsInList(process, '${MCCBPROCESSEXCLUDE}')
+	ORDER BY
+		TxfrDate
+END MAIN_CSV
+---Begin Main Query---
+Using CSV with
+SELECT
+	ID,
+	AMCCB,
+	Process,
+	[MCCB Description],
+	F28,
+	F24,
+	OSA,
+	Author,
+	[Transfer Date]
+FROM
+	%{MAIN_CSV}
+WHERE
+	(OSA like 'Active%' or F24 like 'Active%' or F28 like 'Active%')
+	and applytimerangefilter([Transfer Date], 'last 6 months')
+ORDER BY
+	[Transfer Date]
+
+]]></QuerySQL>
+</QueryConfig>

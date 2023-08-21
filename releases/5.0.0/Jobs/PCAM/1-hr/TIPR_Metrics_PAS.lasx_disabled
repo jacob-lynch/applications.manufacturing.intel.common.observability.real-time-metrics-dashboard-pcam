@@ -1,0 +1,2341 @@
+<QueryConfig AutoExecuteQueryOnLoad="false" PreventSQLBeautification="false">
+  <ChangeLog>Changed by GER\mfg_rlouk on 3/29/2018 3:43:46 PM from F28PAP216N13.F28PROD.MFG.INTEL.COM using LogAnalyzer2 v2.9.61013.0546</ChangeLog>
+  <ChangeLog>Changed by GER\mfg_rlouk on 2/7/2018 3:56:53 PM from F28PAP216N13.F28PROD.MFG.INTEL.COM using LogAnalyzer2 v2.9.61013.0546</ChangeLog>
+  <ChangeLog>Changed by GER\mfg_rlouk on 2/7/2018 3:20:52 PM from F28PAP216N13.F28PROD.MFG.INTEL.COM using LogAnalyzer2 v2.9.61013.0546</ChangeLog>
+  <ChangeLog>Changed by GER\mfg_rlouk on 2/7/2018 2:23:46 PM from F28PAP216N13.F28PROD.MFG.INTEL.COM using LogAnalyzer2 v2.9.61013.0546</ChangeLog>
+  <ChangeLog>Changed by GER\mfg_rlouk on 2/4/2018 4:59:19 PM from F28PAP216N13.F28PROD.MFG.INTEL.COM using LogAnalyzer2 v2.9.61013.0546</ChangeLog>
+  <ChangeLog>Changed by GER\mfg_rlouk on 2/4/2018 4:37:45 PM from F28PAP216N13.F28PROD.MFG.INTEL.COM using LogAnalyzer2 v2.9.61013.0546</ChangeLog>
+  <ChangeLog>Changed by GER\mfg_rlouk on 2/4/2018 3:06:10 PM from F28PAP216N13.F28PROD.MFG.INTEL.COM using LogAnalyzer2 v2.9.61013.0546</ChangeLog>
+  <ChangeLog>Changed by GER\mfg_rlouk on 2/4/2018 11:23:23 AM from F28PAP216N13.F28PROD.MFG.INTEL.COM using LogAnalyzer2 v2.9.61013.0546</ChangeLog>
+  <ChangeLog>Changed by GER\mfg_rlouk on 2/4/2018 11:19:59 AM from F28PAP216N13.F28PROD.MFG.INTEL.COM using LogAnalyzer2 v2.9.61013.0546</ChangeLog>
+  <ChangeLog>Changed by GER\mfg_rlouk on 2/4/2018 11:14:55 AM from F28PAP216N13.F28PROD.MFG.INTEL.COM using LogAnalyzer2 v2.9.61013.0546</ChangeLog>
+  <ChangeLog>Changed by GER\mfg_rlouk on 2/4/2018 11:02:10 AM from F28PAP216N13.F28PROD.MFG.INTEL.COM using LogAnalyzer2 v2.9.61013.0546</ChangeLog>
+  <ChangeLog>Changed by GER\mfg_rlouk on 2/4/2018 10:57:17 AM from F28PAP216N13.F28PROD.MFG.INTEL.COM using LogAnalyzer2 v2.9.61013.0546</ChangeLog>
+  <ChangeLog>Changed by GER\mfg_rlouk on 2/4/2018 10:46:46 AM from F28PAP216N13.F28PROD.MFG.INTEL.COM using LogAnalyzer2 v2.9.61013.0546</ChangeLog>
+  <ChangeLog>Changed by GER\mfg_rlouk on 2/4/2018 10:43:18 AM from F28PAP216N13.F28PROD.MFG.INTEL.COM using LogAnalyzer2 v2.9.61013.0546</ChangeLog>
+  <ChangeLog>Changed by GER\mfg_rlouk on 2/4/2018 10:41:00 AM from F28PAP216N13.F28PROD.MFG.INTEL.COM using LogAnalyzer2 v2.9.61013.0546</ChangeLog>
+  <ChangeLog>Changed by GER\mfg_rlouk on 11/14/2016 3:29:38 PM from F28PTS215N1.F28PROD.MFG.INTEL.COM using LogAnalyzer2 v2.9.51126.1053</ChangeLog>
+  <ChangeLog>Changed by GER\mfg_rlouk on 10/25/2016 11:35:18 AM from F28PAP216N3.F28PROD.MFG.INTEL.COM using LogAnalyzer2 v2.9.51126.1153</ChangeLog>
+  <ChangeLog>Changed by GER\mfg_rlouk on 10/25/2016 11:31:12 AM from F28PAP216N3.F28PROD.MFG.INTEL.COM using LogAnalyzer2 v2.9.51126.1153</ChangeLog>
+  <ChangeLog>Changed by GER\mfg_hgurarie on 9/29/2016 10:08:30 AM from F28PAP216N3.F28PROD.MFG.INTEL.COM using LogAnalyzer2 v2.9.51126.1153</ChangeLog>
+  <ChangeLog>Changed by GER\mfg_hgurarie on 9/14/2016 1:47:17 PM from F28PAP216N3.F28PROD.MFG.INTEL.COM using LogAnalyzer2 v2.9.51126.1153</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_tcalford on 4/11/2016 10:51:38 PM from F28PAP216N3.F28PROD.MFG.INTEL.COM using LogAnalyzer2 v2.9.51126.1153</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_tcalford on 4/11/2016 10:50:27 PM from F28PAP216N3.F28PROD.MFG.INTEL.COM using LogAnalyzer2 v2.9.51126.1153</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_tcalford on 4/11/2016 10:48:53 PM from F28PAP216N3.F28PROD.MFG.INTEL.COM using LogAnalyzer2 v2.9.51126.1153</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_tcalford on 10/27/2015 10:01:03 PM from F28PAP216N3.F28PROD.MFG.INTEL.COM using LogAnalyzer2 v2.8.40713.0943</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_tcalford on 10/27/2015 9:20:40 PM from F28PAP216N3.F28PROD.MFG.INTEL.COM using LogAnalyzer2 v2.8.40713.0943</ChangeLog>
+  <UNIQECredentials UserId="uber" Site="rf3sap110-alias.rf3stg.mfgint.intel.com" DataSource="D1D_STAG_LogAnalyzer" SaveCredentials="true" UseUNIQECredentialsOnStartUp="false" QueryTimeOutInSeconds="-1">
+    <Password />
+    <Name />
+  </UNIQECredentials>
+  <QueryAttributes>
+    <OutputDateFormat>MM/dd/yyyy</OutputDateFormat>
+  </QueryAttributes>
+  <PostQuerySQL>select * from %{OUTPUT}</PostQuerySQL>
+  <TableLayoutConfig>
+    <BoundColumnList>Entity,CE Code,life,Process,Building,Bay,WS Tie,Event Sub Type,SL2Finish,IQFinishDate,ITFinishDate,ACESFinishDate,Pingable_WC,FinishDate,L8FinishDate,CapCode,capcode8,PCAMTransferSent,L8TransferSent,PFIOwner,Status,Issue,PFI</BoundColumnList>
+  </TableLayoutConfig>
+  <TabOrder>C0,C1,G0,G1,G2,G3,G4,G5,G6,G7,G8,C2,C3,G9,G10,G11,C4,C5,G12,C6,G13,G14,C7,C8</TabOrder>
+  <MainPivotConfig>
+    <QuerySQL>---[MAIN_CSV]---
+BEGIN MAIN_CSV
+	---Begin Main Query---
+	Using CSV with
+	SELECT
+		*
+	FROM
+		%{output}
+	WHERE
+		NOT Isinlist(Entity, '${Entity_Query_filter}')
+END MAIN_CSV
+---[PCAMACTUAL_CSV]---
+BEGIN PCAMACTUAL_CSV
+	---Begin Main Query---
+	Using CSV with
+	SELECT
+		WW, Count(*) as TotalPCAMActual
+	USING
+		quantize(FinishDate, 604800) as WW
+	FROM
+		%{MAIN_CSV}
+	WHERE
+		capcode like 'PCAM' and FinishDate is not null
+	GROUP BY
+		WW
+	ORDER BY
+		WW
+END PCAMACTUAL_CSV
+---[L8ACTUAL_CSV]---
+BEGIN L8ACTUAL_CSV
+	---Begin Main Query---
+	Using CSV with
+	SELECT
+		WW, Count(*) as TotalL8Actual
+	USING
+		quantize(L8FinishDate, 604800) as WW
+	FROM
+		%{MAIN_CSV}
+	WHERE
+		capcode8 like 'L8' and L8FinishDate is not null
+	GROUP BY
+		WW
+	ORDER BY
+		WW
+END L8ACTUAL_CSV
+---[PLAN_CSV]---
+BEGIN PLAN_CSV
+	---Begin Main Query---
+	Using CSV with
+	SELECT
+		WW, Count(*) as TotalPlan
+	USING
+		quantize([SL2Finish], 604800) as WW
+	FROM
+		%{MAIN_CSV}
+	WHERE
+		capcode like 'PCAM' and capcode8 like 'L8'
+	GROUP BY
+		WW
+	ORDER BY
+		WW
+END PLAN_CSV
+---[FILLP_CSV]---
+BEGIN FILLP_CSV
+	UseMethod QuantizeDateWithGaps with -- **Convert to time-scale with NULL values for missing time data**
+		InputFile = "%{PLAN_CSV}" -- Input CSV File containing table data [String]
+		DateColumn = "WW" -- Column containing the date/time [String]
+		PivotColumns = "" -- Column containing the pivot key(s) (comma-separated if more than one) [String]
+		ColumnsToSelect = "*" -- Columns to select from the input table for output (comma-separated) [String]
+		TimeInterval = "1w" -- Time interval for which gaps are to be found (specify -1 to auto-determine) [e.g., 60s for 60 seconds, 2m for 2 mins, 3 h for 3 hrs, 1d for 1 day] [String]
+		QuantizeDateColumn = false -- Quantize the DateColumn using TimeInterval and replace it's value [Boolean]
+		MissingValueSubstituteForStringFields = "null" -- Replacement for missing value for string columns (specify "null" to populate with DBNull) [e.g., null, N/A] [String]
+		MissingValueSubstituteForNumericFields = "0" -- Replacement for missing value for numeric columns (specify "null" to populate with DBNull) [e.g., null, 0, -1] [String]
+END FILLP_CSV
+---[FILLA_CSV]---
+BEGIN FILLA_CSV
+	UseMethod QuantizeDateWithGaps with -- **Convert to time-scale with NULL values for missing time data**
+		InputFile = "%{PCAMACTUAL_CSV}" -- Input CSV File containing table data [String]
+		DateColumn = "WW" -- Column containing the date/time [String]
+		PivotColumns = "" -- Column containing the pivot key(s) (comma-separated if more than one) [String]
+		ColumnsToSelect = "*" -- Columns to select from the input table for output (comma-separated) [String]
+		TimeInterval = "1w" -- Time interval for which gaps are to be found (specify -1 to auto-determine) [e.g., 60s for 60 seconds, 2m for 2 mins, 3 h for 3 hrs, 1d for 1 day] [String]
+		QuantizeDateColumn = false -- Quantize the DateColumn using TimeInterval and replace it's value [Boolean]
+		MissingValueSubstituteForStringFields = "null" -- Replacement for missing value for string columns (specify "null" to populate with DBNull) [e.g., null, N/A] [String]
+		MissingValueSubstituteForNumericFields = "0" -- Replacement for missing value for numeric columns (specify "null" to populate with DBNull) [e.g., null, 0, -1] [String]
+END FILLA_CSV
+---[FILL8_CSV]---
+BEGIN FILL8_CSV
+	UseMethod QuantizeDateWithGaps with -- **Convert to time-scale with NULL values for missing time data**
+		InputFile = "%{L8ACTUAL_CSV}" -- Input CSV File containing table data [String]
+		DateColumn = "WW" -- Column containing the date/time [String]
+		PivotColumns = "" -- Column containing the pivot key(s) (comma-separated if more than one) [String]
+		ColumnsToSelect = "*" -- Columns to select from the input table for output (comma-separated) [String]
+		TimeInterval = "1w" -- Time interval for which gaps are to be found (specify -1 to auto-determine) [e.g., 60s for 60 seconds, 2m for 2 mins, 3 h for 3 hrs, 1d for 1 day] [String]
+		QuantizeDateColumn = false -- Quantize the DateColumn using TimeInterval and replace it's value [Boolean]
+		MissingValueSubstituteForStringFields = "null" -- Replacement for missing value for string columns (specify "null" to populate with DBNull) [e.g., null, N/A] [String]
+		MissingValueSubstituteForNumericFields = "0" -- Replacement for missing value for numeric columns (specify "null" to populate with DBNull) [e.g., null, 0, -1] [String]
+END FILL8_CSV
+---[SORTA_CSV]---
+BEGIN SORTA_CSV
+	---Begin Main Query---
+	Using CSV with
+	SELECT
+		WW, TotalPCAMActual
+	FROM
+		%{FILLA_CSV}
+	ORDER BY
+		WW
+END SORTA_CSV
+---[SORT8_CSV]---
+BEGIN SORT8_CSV
+	---Begin Main Query---
+	Using CSV with
+	SELECT
+		WW, TotalL8Actual
+	FROM
+		%{FILL8_CSV}
+	ORDER BY
+		WW
+END SORT8_CSV
+---[SORTP_CSV]---
+BEGIN SORTP_CSV
+	---Begin Main Query---
+	Using CSV with
+	SELECT
+		WW, TotalPlan
+	FROM
+		%{FILLP_CSV}
+	ORDER BY
+		WW
+END SORTP_CSV
+---[SUM_CSV]---
+BEGIN SUM_CSV
+	UseMethod CalculateRunningSum with -- **Get Running Sum for a Column in the Table**
+		InputFile = "%{SORTA_CSV}" -- Input CSV file [String]
+		ColumnToCalculateSumFor = "TotalPCAMActual" -- Input CSV file [String]
+		PivotColumn = "" -- Pivot column (optional) [String]
+		NewColumnForRunningSum = "PCAMActual" -- New column to be added with running sum [String]
+		NewColumnForAbsoluteRunningSum = "PCAMAbsoluteRunningTotalActual" -- New column to be added with absolute running sum which ignores the pivot column [String]
+END SUM_CSV
+---[SUM8_CSV]---
+BEGIN SUM8_CSV
+	UseMethod CalculateRunningSum with -- **Get Running Sum for a Column in the Table**
+		InputFile = "%{SORT8_CSV}" -- Input CSV file [String]
+		ColumnToCalculateSumFor = "TotalL8Actual" -- Input CSV file [String]
+		PivotColumn = "" -- Pivot column (optional) [String]
+		NewColumnForRunningSum = "L8Actual" -- New column to be added with running sum [String]
+		NewColumnForAbsoluteRunningSum = "L8AbsoluteRunningTotalActual" -- New column to be added with absolute running sum which ignores the pivot column [String]
+END SUM8_CSV
+---[SUMPLAN_CSV]---
+BEGIN SUMPLAN_CSV
+	UseMethod CalculateRunningSum with -- **Get Running Sum for a Column in the Table**
+		InputFile = "%{SORTP_CSV}" -- Input CSV file [String]
+		ColumnToCalculateSumFor = "TotalPlan" -- Input CSV file [String]
+		PivotColumn = "" -- Pivot column (optional) [String]
+		NewColumnForRunningSum = "Planned" -- New column to be added with running sum [String]
+		NewColumnForAbsoluteRunningSum = "AbsoluteRunningPlan" -- New column to be added with absolute running sum which ignores the pivot column [String]
+END SUMPLAN_CSV
+---[JOIN_CSV]---
+BEGIN JOIN_CSV
+	UseMethod Join with -- **Do an outer join for two tables based on a matching column**
+		InputFile1 = "%{SUM_CSV}" -- Input CSV File #1 containing table data [String]
+		InputFile2 = "%{SUM8_CSV}" -- Input CSV File #2 containing table data [String]
+		InputFile3 = "%{SUMPLAN_CSV}" -- Input CSV File #3 containing table data (optional) [String]
+		JoinColumn = "WW" -- Column name(s) on which to join the two tables (more than one column can be supplied by using comma as a separator) [String]
+		IgnoreDuplicate = false -- Flag to ignore duplicate items in the JoinColumn [Boolean]
+		IgnoreCase = false -- Flag to ignore case in the JoinColumn [Boolean]
+		OnlyShowNonMatchingRows = false -- Flag to only show non-matching orphan rows [Boolean]
+		IncludeNonMatchingRows = true -- Flag to also include non-matching orphan rows (but with blank entries) [Boolean]
+		MustIncludeOutputColumns = "" -- Name of columns (comma-separated) that must be included in output even if the join does not materialize [String]
+END JOIN_CSV
+---Begin Main Query---
+Using CSV with
+SELECT
+	top 10
+	WW,
+	PCAMActual,
+	L8Actual,
+	Planned
+FROM
+	%{JOIN_CSV}
+WHERE
+	WW &lt; SUB(TO_LOCALTIME(SYSTEM_TIMESTAMP()), TIMESTAMP( '7', 'd' ) )
+ORDER BY
+	WW desc
+</QuerySQL>
+    <ColumnX FieldName="" FieldType="" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <ColumnY FieldName="" FieldType="" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <ColumnData FieldName="" FieldType="" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <ChartType>Line</ChartType>
+    <Name>Tool Install PAS</Name>
+    <ChartTitle>Tool Install PCAM and L8 PAS
+Planned vs. Actual</ChartTitle>
+    <ColorPalette>Aspect</ColorPalette>
+    <ChartExportSize>825x300</ChartExportSize>
+    <TimeIntervalForDateScale>7d</TimeIntervalForDateScale>
+    <DateFormat>yyyy.ww</DateFormat>
+    <CustomPalette />
+    <TableData />
+  </MainPivotConfig>
+  <MainPivotConfig>
+    <QuerySQL>---[MAIN_CSV]---
+BEGIN MAIN_CSV
+	---Begin Main Query---
+	Using CSV with
+	SELECT
+		*
+	FROM
+		%{output}
+END MAIN_CSV
+---[ACTUAL_CSV]---
+BEGIN ACTUAL_CSV
+	---Begin Main Query---
+	Using CSV with
+	SELECT
+		WW, Count(*) as TotalActual
+	USING
+		quantize(IQFinishDate, 604800) as WW
+	FROM
+		%{MAIN_CSV}
+	WHERE
+		IQFinishDate is not null
+	GROUP BY
+		WW
+	ORDER BY
+		WW
+END ACTUAL_CSV
+---[PLAN_CSV]---
+BEGIN PLAN_CSV
+	---Begin Main Query---
+	Using CSV with
+	SELECT
+		WW, Count(*) as TotalPlan
+	USING
+		quantize([SL2Finish], 604800) as WW
+	FROM
+		%{MAIN_CSV}
+	GROUP BY
+		WW
+	ORDER BY
+		WW
+END PLAN_CSV
+---[FILLP_CSV]---
+BEGIN FILLP_CSV
+	UseMethod QuantizeDateWithGaps with -- **Convert to time-scale with NULL values for missing time data**
+		InputFile = "%{PLAN_CSV}" -- Input CSV File containing table data [String]
+		DateColumn = "WW" -- Column containing the date/time [String]
+		PivotColumns = "" -- Column containing the pivot key(s) (comma-separated if more than one) [String]
+		ColumnsToSelect = "*" -- Columns to select from the input table for output (comma-separated) [String]
+		TimeInterval = "1w" -- Time interval for which gaps are to be found (specify -1 to auto-determine) [e.g., 60s for 60 seconds, 2m for 2 mins, 3 h for 3 hrs, 1d for 1 day] [String]
+		QuantizeDateColumn = false -- Quantize the DateColumn using TimeInterval and replace it's value [Boolean]
+		MissingValueSubstituteForStringFields = "null" -- Replacement for missing value for string columns (specify "null" to populate with DBNull) [e.g., null, N/A] [String]
+		MissingValueSubstituteForNumericFields = "0" -- Replacement for missing value for numeric columns (specify "null" to populate with DBNull) [e.g., null, 0, -1] [String]
+END FILLP_CSV
+---[FILLA_CSV]---
+BEGIN FILLA_CSV
+	UseMethod QuantizeDateWithGaps with -- **Convert to time-scale with NULL values for missing time data**
+		InputFile = "%{ACTUAL_CSV}" -- Input CSV File containing table data [String]
+		DateColumn = "WW" -- Column containing the date/time [String]
+		PivotColumns = "" -- Column containing the pivot key(s) (comma-separated if more than one) [String]
+		ColumnsToSelect = "*" -- Columns to select from the input table for output (comma-separated) [String]
+		TimeInterval = "1w" -- Time interval for which gaps are to be found (specify -1 to auto-determine) [e.g., 60s for 60 seconds, 2m for 2 mins, 3 h for 3 hrs, 1d for 1 day] [String]
+		QuantizeDateColumn = false -- Quantize the DateColumn using TimeInterval and replace it's value [Boolean]
+		MissingValueSubstituteForStringFields = "null" -- Replacement for missing value for string columns (specify "null" to populate with DBNull) [e.g., null, N/A] [String]
+		MissingValueSubstituteForNumericFields = "0" -- Replacement for missing value for numeric columns (specify "null" to populate with DBNull) [e.g., null, 0, -1] [String]
+END FILLA_CSV
+---[SORTA_CSV]---
+BEGIN SORTA_CSV
+	---Begin Main Query---
+	Using CSV with
+	SELECT
+		WW, TotalActual
+	FROM
+		%{FILLA_CSV}
+	ORDER BY
+		WW
+END SORTA_CSV
+---[SORTP_CSV]---
+BEGIN SORTP_CSV
+	---Begin Main Query---
+	Using CSV with
+	SELECT
+		WW, TotalPlan
+	FROM
+		%{FILLP_CSV}
+	ORDER BY
+		WW
+END SORTP_CSV
+---[SUM_CSV]---
+BEGIN SUM_CSV
+	UseMethod CalculateRunningSum with -- **Get Running Sum for a Column in the Table**
+		InputFile = "%{SORTA_CSV}" -- Input CSV file [String]
+		ColumnToCalculateSumFor = "TotalActual" -- Input CSV file [String]
+		PivotColumn = "" -- Pivot column (optional) [String]
+		NewColumnForRunningSum = "Actual" -- New column to be added with running sum [String]
+		NewColumnForAbsoluteRunningSum = "AbsoluteRunningTotalActual" -- New column to be added with absolute running sum which ignores the pivot column [String]
+END SUM_CSV
+---[SUMPLAN_CSV]---
+BEGIN SUMPLAN_CSV
+	UseMethod CalculateRunningSum with -- **Get Running Sum for a Column in the Table**
+		InputFile = "%{SORTP_CSV}" -- Input CSV file [String]
+		ColumnToCalculateSumFor = "TotalPlan" -- Input CSV file [String]
+		PivotColumn = "" -- Pivot column (optional) [String]
+		NewColumnForRunningSum = "Planned" -- New column to be added with running sum [String]
+		NewColumnForAbsoluteRunningSum = "AbsoluteRunningPlan" -- New column to be added with absolute running sum which ignores the pivot column [String]
+END SUMPLAN_CSV
+---[JOIN_CSV]---
+BEGIN JOIN_CSV
+	UseMethod Join with -- **Do an outer join for two tables based on a matching column**
+		InputFile1 = "%{SUM_CSV}" -- Input CSV File #1 containing table data [String]
+		InputFile2 = "%{SUMPLAN_CSV}" -- Input CSV File #2 containing table data [String]
+		JoinColumn = "WW" -- Column name(s) on which to join the two tables (more than one column can be supplied by using comma as a separator) [String]
+		IgnoreDuplicate = false -- Flag to ignore duplicate items in the JoinColumn [Boolean]
+		IgnoreCase = false -- Flag to ignore case in the JoinColumn [Boolean]
+		OnlyShowNonMatchingRows = false -- Flag to only show non-matching orphan rows [Boolean]
+		IncludeNonMatchingRows = true -- Flag to also include non-matching orphan rows (but with blank entries) [Boolean]
+		MustIncludeOutputColumns = "" -- Name of columns (comma-separated) that must be included in output even if the join does not materialize [String]
+END JOIN_CSV
+---Begin Main Query---
+Using CSV with
+SELECT
+	top 10
+	WW,
+	Actual,
+	Planned
+FROM
+	%{JOIN_CSV}
+WHERE
+	WW &lt; SUB(TO_LOCALTIME(SYSTEM_TIMESTAMP()), TIMESTAMP( '7', 'd' ) )
+ORDER BY
+	WW desc
+</QuerySQL>
+    <ColumnX FieldName="" FieldType="" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <ColumnY FieldName="" FieldType="" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <ColumnData FieldName="" FieldType="" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <ChartType>Line</ChartType>
+    <Name>IQ Tool Install</Name>
+    <ChartTitle>IQ Tool Install PAS
+Planned vs. Actual</ChartTitle>
+    <ColorPalette>Aspect</ColorPalette>
+    <ChartExportSize>825x300</ChartExportSize>
+    <TimeIntervalForDateScale>7d</TimeIntervalForDateScale>
+    <DateFormat>yyyy.ww</DateFormat>
+    <CustomPalette />
+    <TableData />
+  </MainPivotConfig>
+  <MainPivotConfig Enable="true">
+    <QuerySQL>---[FULL_CSV]---
+BEGIN FULL_CSV
+	---Begin Main Query---
+	Using CSV with
+	SELECT
+		distinct [CE Code], SL2Finish, Pcamtransfersent
+	FROM
+		%{output}
+	WHERE
+		[WS Tie] = 'ETS'
+END FULL_CSV
+---[CEID_CSV]---
+BEGIN CEID_CSV
+	---Begin Main Query---
+	Using CSV with
+	SELECT
+		distinct [CE Code]
+	FROM
+		%{full_csv}
+END CEID_CSV
+---[JOIN2_CSV]---
+BEGIN JOIN2_CSV
+	UseMethod Join with -- **Do an outer join for two tables based on a matching column**
+		InputFile1 = "%{ceid_csv}" -- Input CSV File #1 containing table data [String]
+		InputFile2 = "%{full_csv}" -- Input CSV File #2 containing table data [String]
+		InputFile3 = "" -- Input CSV File #3 containing table data (optional) [String]
+		InputFile4 = "" -- Input CSV File #4 containing table data (optional) [String]
+		InputFile5 = "" -- Input CSV File #5 containing table data (optional) [String]
+		InputFile6 = "" -- Input CSV File #6 containing table data (optional) [String]
+		JoinColumn = "[CE Code]" -- Column name(s) on which to join the two tables (more than one column can be supplied by using comma as a separator) [String]
+		IgnoreDuplicate = true -- Flag to ignore duplicate items in the JoinColumn [Boolean]
+		IgnoreCase = false -- Flag to ignore case in the JoinColumn [Boolean]
+		OnlyShowNonMatchingRows = false -- Flag to only show non-matching orphan rows [Boolean]
+		IncludeNonMatchingRows = true -- Flag to also include non-matching orphan rows (but with blank entries) [Boolean]
+		MustIncludeOutputColumns = "" -- Name of columns (comma-separated) that must be included in output even if the join does not materialize [String]
+END JOIN2_CSV
+---[ACTUAL_CSV]---
+BEGIN ACTUAL_CSV
+	---Begin Main Query---
+	Using CSV with
+	SELECT
+		WW, Count(*) as TotalActual
+	USING
+		quantize(PCAMTransferSent, 604800) as WW
+	FROM
+		%{join2_CSV}
+	WHERE
+		PCAMTransferSent is not null
+	GROUP BY
+		WW
+	ORDER BY
+		WW
+END ACTUAL_CSV
+---[PLAN_CSV]---
+BEGIN PLAN_CSV
+	---Begin Main Query---
+	Using CSV with
+	SELECT
+		WW, Count(*) as TotalPlan
+	USING
+		quantize([SL2Finish], 604800) as WW
+	FROM
+		%{join2_CSV}
+	GROUP BY
+		WW
+	ORDER BY
+		WW
+END PLAN_CSV
+---[FILLP_CSV]---
+BEGIN FILLP_CSV
+	UseMethod QuantizeDateWithGaps with -- **Convert to time-scale with NULL values for missing time data**
+		InputFile = "%{PLAN_CSV}" -- Input CSV File containing table data [String]
+		DateColumn = "WW" -- Column containing the date/time [String]
+		PivotColumns = "" -- Column containing the pivot key(s) (comma-separated if more than one) [String]
+		ColumnsToSelect = "*" -- Columns to select from the input table for output (comma-separated) [String]
+		TimeInterval = "1w" -- Time interval for which gaps are to be found (specify -1 to auto-determine) [e.g., 60s for 60 seconds, 2m for 2 mins, 3 h for 3 hrs, 1d for 1 day] [String]
+		QuantizeDateColumn = false -- Quantize the DateColumn using TimeInterval and replace it's value [Boolean]
+		MissingValueSubstituteForStringFields = "null" -- Replacement for missing value for string columns (specify "null" to populate with DBNull) [e.g., null, N/A] [String]
+		MissingValueSubstituteForNumericFields = "0" -- Replacement for missing value for numeric columns (specify "null" to populate with DBNull) [e.g., null, 0, -1] [String]
+END FILLP_CSV
+---[FILLA_CSV]---
+BEGIN FILLA_CSV
+	UseMethod QuantizeDateWithGaps with -- **Convert to time-scale with NULL values for missing time data**
+		InputFile = "%{ACTUAL_CSV}" -- Input CSV File containing table data [String]
+		DateColumn = "WW" -- Column containing the date/time [String]
+		PivotColumns = "" -- Column containing the pivot key(s) (comma-separated if more than one) [String]
+		ColumnsToSelect = "*" -- Columns to select from the input table for output (comma-separated) [String]
+		TimeInterval = "1w" -- Time interval for which gaps are to be found (specify -1 to auto-determine) [e.g., 60s for 60 seconds, 2m for 2 mins, 3 h for 3 hrs, 1d for 1 day] [String]
+		QuantizeDateColumn = false -- Quantize the DateColumn using TimeInterval and replace it's value [Boolean]
+		MissingValueSubstituteForStringFields = "null" -- Replacement for missing value for string columns (specify "null" to populate with DBNull) [e.g., null, N/A] [String]
+		MissingValueSubstituteForNumericFields = "0" -- Replacement for missing value for numeric columns (specify "null" to populate with DBNull) [e.g., null, 0, -1] [String]
+END FILLA_CSV
+---[SORTA_CSV]---
+BEGIN SORTA_CSV
+	---Begin Main Query---
+	Using CSV with
+	SELECT
+		WW, TotalActual
+	FROM
+		%{FILLA_CSV}
+	ORDER BY
+		WW
+END SORTA_CSV
+---[SORTP_CSV]---
+BEGIN SORTP_CSV
+	---Begin Main Query---
+	Using CSV with
+	SELECT
+		WW, TotalPlan
+	FROM
+		%{FILLP_CSV}
+	ORDER BY
+		WW
+END SORTP_CSV
+---[SUM_CSV]---
+BEGIN SUM_CSV
+	UseMethod CalculateRunningSum with -- **Get Running Sum for a Column in the Table**
+		InputFile = "%{SORTA_CSV}" -- Input CSV file [String]
+		ColumnToCalculateSumFor = "TotalActual" -- Input CSV file [String]
+		PivotColumn = "" -- Pivot column (optional) [String]
+		NewColumnForRunningSum = "Actual" -- New column to be added with running sum [String]
+		NewColumnForAbsoluteRunningSum = "AbsoluteRunningTotalActual" -- New column to be added with absolute running sum which ignores the pivot column [String]
+END SUM_CSV
+---[SUMPLAN_CSV]---
+BEGIN SUMPLAN_CSV
+	UseMethod CalculateRunningSum with -- **Get Running Sum for a Column in the Table**
+		InputFile = "%{SORTP_CSV}" -- Input CSV file [String]
+		ColumnToCalculateSumFor = "TotalPlan" -- Input CSV file [String]
+		PivotColumn = "" -- Pivot column (optional) [String]
+		NewColumnForRunningSum = "Planned" -- New column to be added with running sum [String]
+		NewColumnForAbsoluteRunningSum = "AbsoluteRunningPlan" -- New column to be added with absolute running sum which ignores the pivot column [String]
+END SUMPLAN_CSV
+---[JOIN_CSV]---
+BEGIN JOIN_CSV
+	UseMethod Join with -- **Do an outer join for two tables based on a matching column**
+		InputFile1 = "%{SUM_CSV}" -- Input CSV File #1 containing table data [String]
+		InputFile2 = "%{SUMPLAN_CSV}" -- Input CSV File #2 containing table data [String]
+		JoinColumn = "WW" -- Column name(s) on which to join the two tables (more than one column can be supplied by using comma as a separator) [String]
+		IgnoreDuplicate = false -- Flag to ignore duplicate items in the JoinColumn [Boolean]
+		IgnoreCase = false -- Flag to ignore case in the JoinColumn [Boolean]
+		OnlyShowNonMatchingRows = false -- Flag to only show non-matching orphan rows [Boolean]
+		IncludeNonMatchingRows = true -- Flag to also include non-matching orphan rows (but with blank entries) [Boolean]
+		MustIncludeOutputColumns = "" -- Name of columns (comma-separated) that must be included in output even if the join does not materialize [String]
+END JOIN_CSV
+---Begin Main Query---
+Using CSV with
+SELECT
+	top 10
+	WW,
+	Actual,
+	Planned
+FROM
+	%{JOIN_CSV}
+WHERE
+	WW &lt; SUB(TO_LOCALTIME(SYSTEM_TIMESTAMP()), TIMESTAMP( '7', 'd' ) )
+ORDER BY
+	WW desc
+</QuerySQL>
+    <ColumnX FieldName="WW" FieldType="String" SortMode="Default" SortOrder="Ascending" SummaryType="Sum" SortBySummaryInfo="false" />
+    <ColumnY FieldName="" FieldType="" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <ColumnData FieldName="Actual, Planned" FieldType="Int32" SortMode="Default" SortOrder="Ascending" SummaryType="Average,Average" SortBySummaryInfo="false" />
+    <ChartType>Line</ChartType>
+    <Name>PCAM Transfer PAS</Name>
+    <ChartTitle>PCAM Transfer PAS
+ Planned vs. Actual</ChartTitle>
+    <ColorPalette>Aspect</ColorPalette>
+    <ChartExportSize>825x300</ChartExportSize>
+    <TimeIntervalForDateScale>7d</TimeIntervalForDateScale>
+    <DateFormat>yyyy.ww</DateFormat>
+    <CustomPalette />
+    <TableData />
+  </MainPivotConfig>
+  <MainPivotConfig>
+    <QuerySQL>---[FULL_CSV]---
+BEGIN FULL_CSV
+	---Begin Main Query---
+	Using CSV with
+	SELECT
+		distinct [CE Code], SL2Finish, L8TransferSent
+	FROM
+		%{output}
+	WHERE
+		[WS Tie] = 'ETS' and Capcode8 like 'L8'
+END FULL_CSV
+---[CEID_CSV]---
+BEGIN CEID_CSV
+	---Begin Main Query---
+	Using CSV with
+	SELECT
+		distinct [CE Code]
+	FROM
+		%{full_csv}
+END CEID_CSV
+---[JOIN2_CSV]---
+BEGIN JOIN2_CSV
+	UseMethod Join with -- **Do an outer join for two tables based on a matching column**
+		InputFile1 = "%{ceid_csv}" -- Input CSV File #1 containing table data [String]
+		InputFile2 = "%{full_csv}" -- Input CSV File #2 containing table data [String]
+		InputFile3 = "" -- Input CSV File #3 containing table data (optional) [String]
+		InputFile4 = "" -- Input CSV File #4 containing table data (optional) [String]
+		InputFile5 = "" -- Input CSV File #5 containing table data (optional) [String]
+		InputFile6 = "" -- Input CSV File #6 containing table data (optional) [String]
+		JoinColumn = "[CE Code]" -- Column name(s) on which to join the two tables (more than one column can be supplied by using comma as a separator) [String]
+		IgnoreDuplicate = true -- Flag to ignore duplicate items in the JoinColumn [Boolean]
+		IgnoreCase = false -- Flag to ignore case in the JoinColumn [Boolean]
+		OnlyShowNonMatchingRows = false -- Flag to only show non-matching orphan rows [Boolean]
+		IncludeNonMatchingRows = false -- Flag to also include non-matching orphan rows (but with blank entries) [Boolean]
+		MustIncludeOutputColumns = "" -- Name of columns (comma-separated) that must be included in output even if the join does not materialize [String]
+END JOIN2_CSV
+---[ACTUAL_CSV]---
+BEGIN ACTUAL_CSV
+	---Begin Main Query---
+	Using CSV with
+	SELECT
+		WW, Count(*) as TotalActual
+	USING
+		quantize(L8TransferSent, 604800) as WW
+	FROM
+		%{join2_CSV}
+	WHERE
+		L8TransferSent is not null
+	GROUP BY
+		WW
+	ORDER BY
+		WW
+END ACTUAL_CSV
+---[PLAN_CSV]---
+BEGIN PLAN_CSV
+	---Begin Main Query---
+	Using CSV with
+	SELECT
+		WW, Count(*) as TotalPlan
+	USING
+		quantize([SL2Finish], 604800) as WW
+	FROM
+		%{join2_CSV}
+	GROUP BY
+		WW
+	ORDER BY
+		WW
+END PLAN_CSV
+---[FILLP_CSV]---
+BEGIN FILLP_CSV
+	UseMethod QuantizeDateWithGaps with -- **Convert to time-scale with NULL values for missing time data**
+		InputFile = "%{PLAN_CSV}" -- Input CSV File containing table data [String]
+		DateColumn = "WW" -- Column containing the date/time [String]
+		PivotColumns = "" -- Column containing the pivot key(s) (comma-separated if more than one) [String]
+		ColumnsToSelect = "*" -- Columns to select from the input table for output (comma-separated) [String]
+		TimeInterval = "1w" -- Time interval for which gaps are to be found (specify -1 to auto-determine) [e.g., 60s for 60 seconds, 2m for 2 mins, 3 h for 3 hrs, 1d for 1 day] [String]
+		QuantizeDateColumn = false -- Quantize the DateColumn using TimeInterval and replace it's value [Boolean]
+		MissingValueSubstituteForStringFields = "null" -- Replacement for missing value for string columns (specify "null" to populate with DBNull) [e.g., null, N/A] [String]
+		MissingValueSubstituteForNumericFields = "0" -- Replacement for missing value for numeric columns (specify "null" to populate with DBNull) [e.g., null, 0, -1] [String]
+END FILLP_CSV
+---[FILLA_CSV]---
+BEGIN FILLA_CSV
+	UseMethod QuantizeDateWithGaps with -- **Convert to time-scale with NULL values for missing time data**
+		InputFile = "%{ACTUAL_CSV}" -- Input CSV File containing table data [String]
+		DateColumn = "WW" -- Column containing the date/time [String]
+		PivotColumns = "" -- Column containing the pivot key(s) (comma-separated if more than one) [String]
+		ColumnsToSelect = "*" -- Columns to select from the input table for output (comma-separated) [String]
+		TimeInterval = "1w" -- Time interval for which gaps are to be found (specify -1 to auto-determine) [e.g., 60s for 60 seconds, 2m for 2 mins, 3 h for 3 hrs, 1d for 1 day] [String]
+		QuantizeDateColumn = false -- Quantize the DateColumn using TimeInterval and replace it's value [Boolean]
+		MissingValueSubstituteForStringFields = "null" -- Replacement for missing value for string columns (specify "null" to populate with DBNull) [e.g., null, N/A] [String]
+		MissingValueSubstituteForNumericFields = "0" -- Replacement for missing value for numeric columns (specify "null" to populate with DBNull) [e.g., null, 0, -1] [String]
+END FILLA_CSV
+---[SORTA_CSV]---
+BEGIN SORTA_CSV
+	---Begin Main Query---
+	Using CSV with
+	SELECT
+		WW, TotalActual
+	FROM
+		%{FILLA_CSV}
+	ORDER BY
+		WW
+END SORTA_CSV
+---[SORTP_CSV]---
+BEGIN SORTP_CSV
+	---Begin Main Query---
+	Using CSV with
+	SELECT
+		WW, TotalPlan
+	FROM
+		%{FILLP_CSV}
+	ORDER BY
+		WW
+END SORTP_CSV
+---[SUM_CSV]---
+BEGIN SUM_CSV
+	UseMethod CalculateRunningSum with -- **Get Running Sum for a Column in the Table**
+		InputFile = "%{SORTA_CSV}" -- Input CSV file [String]
+		ColumnToCalculateSumFor = "TotalActual" -- Input CSV file [String]
+		PivotColumn = "" -- Pivot column (optional) [String]
+		NewColumnForRunningSum = "Actual" -- New column to be added with running sum [String]
+		NewColumnForAbsoluteRunningSum = "AbsoluteRunningTotalActual" -- New column to be added with absolute running sum which ignores the pivot column [String]
+END SUM_CSV
+---[SUMPLAN_CSV]---
+BEGIN SUMPLAN_CSV
+	UseMethod CalculateRunningSum with -- **Get Running Sum for a Column in the Table**
+		InputFile = "%{SORTP_CSV}" -- Input CSV file [String]
+		ColumnToCalculateSumFor = "TotalPlan" -- Input CSV file [String]
+		PivotColumn = "" -- Pivot column (optional) [String]
+		NewColumnForRunningSum = "Planned" -- New column to be added with running sum [String]
+		NewColumnForAbsoluteRunningSum = "AbsoluteRunningPlan" -- New column to be added with absolute running sum which ignores the pivot column [String]
+END SUMPLAN_CSV
+---[JOIN_CSV]---
+BEGIN JOIN_CSV
+	UseMethod Join with -- **Do an outer join for two tables based on a matching column**
+		InputFile1 = "%{SUM_CSV}" -- Input CSV File #1 containing table data [String]
+		InputFile2 = "%{SUMPLAN_CSV}" -- Input CSV File #2 containing table data [String]
+		JoinColumn = "WW" -- Column name(s) on which to join the two tables (more than one column can be supplied by using comma as a separator) [String]
+		IgnoreDuplicate = false -- Flag to ignore duplicate items in the JoinColumn [Boolean]
+		IgnoreCase = false -- Flag to ignore case in the JoinColumn [Boolean]
+		OnlyShowNonMatchingRows = false -- Flag to only show non-matching orphan rows [Boolean]
+		IncludeNonMatchingRows = true -- Flag to also include non-matching orphan rows (but with blank entries) [Boolean]
+		MustIncludeOutputColumns = "" -- Name of columns (comma-separated) that must be included in output even if the join does not materialize [String]
+END JOIN_CSV
+---Begin Main Query---
+Using CSV with
+SELECT
+	top 10
+	WW,
+	Actual,
+	Planned
+FROM
+	%{JOIN_CSV}
+WHERE
+	WW &lt; SUB(TO_LOCALTIME(SYSTEM_TIMESTAMP()), TIMESTAMP( '7', 'd' ) )
+ORDER BY
+	WW desc
+</QuerySQL>
+    <ColumnX FieldName="" FieldType="" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <ColumnY FieldName="" FieldType="" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <ColumnData FieldName="" FieldType="" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <ChartType>Line</ChartType>
+    <Name>L8 Transfer PAS</Name>
+    <ChartTitle>L8 Transfer PAS 
+Planned vs. Actual</ChartTitle>
+    <ColorPalette>Aspect</ColorPalette>
+    <ChartExportSize>825x300</ChartExportSize>
+    <TimeIntervalForDateScale>7d</TimeIntervalForDateScale>
+    <DateFormat>yyyy.ww</DateFormat>
+    <CustomPalette />
+    <TableData />
+  </MainPivotConfig>
+  <MainPivotConfig Enable="true">
+    <ColumnX FieldName="FinishDate" FieldType="String" SortMode="Default" SortOrder="Ascending" SummaryType="Sum" SortBySummaryInfo="false" />
+    <ColumnY FieldName="PFI" FieldType="String" SortMode="Default" SortOrder="Descending" SummaryType="Count" SortBySummaryInfo="true" SortBySummaryInfoFieldName="COUNT OF" />
+    <ColumnData FieldName="COUNT OF" FieldType="Int32" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <ChartType>StackedBar</ChartType>
+    <RotateXAxisLabels>false</RotateXAxisLabels>
+    <ShowColumnTotals>false</ShowColumnTotals>
+    <Name>PFI Completed</Name>
+    <ChartTitle>Tool Completed by PFI, per WW</ChartTitle>
+    <ColorPalette>Civic</ColorPalette>
+    <ChartExportSize>825x300</ChartExportSize>
+    <TimeIntervalForDateScale>7d</TimeIntervalForDateScale>
+    <DateFormat>Auto</DateFormat>
+    <CustomPalette />
+    <TableData />
+  </MainPivotConfig>
+  <MainPivotConfig Enable="true">
+    <QuerySQL>---Begin Main Query---
+SELECT
+	PFIAssigned, SL2Finish
+USING
+	case PFIOwner when null then 'Unassigned' else PFIOwner end as PFIAssigned
+FROM
+	%{output}
+</QuerySQL>
+    <ColumnX FieldName="SL2Finish" FieldType="String" SortMode="Default" SortOrder="Ascending" SummaryType="Sum" SortBySummaryInfo="false" />
+    <ColumnY FieldName="PFIAssigned" FieldType="String" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <ColumnData FieldName="COUNT OF" FieldType="Int32" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <ChartType>StackedBar</ChartType>
+    <RotateXAxisLabels>false</RotateXAxisLabels>
+    <ShowColumnTotals>false</ShowColumnTotals>
+    <Name>PFI Assigned</Name>
+    <ChartTitle>Tools Assigned per PFI, by WW</ChartTitle>
+    <ColorPalette>Default</ColorPalette>
+    <ChartExportSize>825x300</ChartExportSize>
+    <TimeIntervalForDateScale>7d</TimeIntervalForDateScale>
+    <DateFormat>Auto</DateFormat>
+    <CustomPalette />
+    <TableData />
+  </MainPivotConfig>
+  <MainPivotConfig Enable="true">
+    <QuerySQL>---Begin Main Query---
+SELECT
+	*
+FROM
+	%{output}
+WHERE
+	finishdate is not null
+</QuerySQL>
+    <ColumnX FieldName="PFI" FieldType="String" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <ColumnY FieldName="" FieldType="" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <ColumnData FieldName="COUNT OF" FieldType="String" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <RotateChart>true</RotateChart>
+    <RotateXAxisLabels>false</RotateXAxisLabels>
+    <Name>PFI Leaderboard</Name>
+    <ChartTitle>Install Leaderboard</ChartTitle>
+    <ColorPalette>Civic</ColorPalette>
+    <ChartExportSize>825x300</ChartExportSize>
+    <ShowLegend>false</ShowLegend>
+    <TimeIntervalForDateScale>7d</TimeIntervalForDateScale>
+    <DateFormat>Auto</DateFormat>
+    <CustomPalette />
+    <TableData />
+  </MainPivotConfig>
+  <MainPivotConfig Enable="true">
+    <QuerySQL>---Begin Main Query---
+SELECT
+	*
+FROM
+	%{output}
+WHERE
+	applytimerangefilter(FinishDate, 'last 1 month')
+	and pfi not like 'AutoComplete'
+</QuerySQL>
+    <ColumnX FieldName="PFI" FieldType="String" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <ColumnY FieldName="" FieldType="" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <ColumnData FieldName="COUNT OF" FieldType="String" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <ChartType>StackedBar</ChartType>
+    <RotateXAxisLabels>false</RotateXAxisLabels>
+    <Name>PFI Completed, Last Month</Name>
+    <ChartTitle>Tool Installs Completed by, -1 Month</ChartTitle>
+    <ColorPalette>Civic</ColorPalette>
+    <ChartExportSize>1000x300</ChartExportSize>
+    <ShowLegend>false</ShowLegend>
+    <DateFormat>Auto</DateFormat>
+    <CustomPalette />
+    <TableData />
+  </MainPivotConfig>
+  <MainPivotConfig Enable="true">
+    <QuerySQL>---Begin Main Query---
+SELECT
+	*
+FROM
+	%{output}
+WHERE
+	applytimerangefilter(FinishDate, 'last 1 month')
+	and pfi not like 'AutoComplete'
+</QuerySQL>
+    <ColumnX FieldName="FinishDate" FieldType="String" SortMode="Default" SortOrder="Ascending" SummaryType="Sum" SortBySummaryInfo="false" />
+    <ColumnY FieldName="PFI" FieldType="String" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <ColumnData FieldName="COUNT OF" FieldType="Int32" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <ChartType>Line</ChartType>
+    <RotateXAxisLabels>false</RotateXAxisLabels>
+    <Name>PFI Completed Trend, Last Month</Name>
+    <ChartTitle>Tool Installs Completed by Trend, -1 Month</ChartTitle>
+    <ColorPalette>Civic</ColorPalette>
+    <ChartExportSize>1000x300</ChartExportSize>
+    <TimeIntervalForDateScale>7d</TimeIntervalForDateScale>
+    <DateFormat>ww</DateFormat>
+    <CustomPalette />
+    <TableData />
+  </MainPivotConfig>
+  <OutputDataGridConfig Name="PCAM Gap">
+    <SQL>---[MAIN_CSV]---
+BEGIN MAIN_CSV
+	---Begin Main Query---
+	Using CSV with
+	SELECT
+		*
+	FROM
+		%{OUTPUT}
+	WHERE
+		NOT Isinlist(Entity, '${Entity_Query_filter}')
+END MAIN_CSV
+---[LATE_CSV]---
+BEGIN LATE_CSV
+	---Begin Main Query---
+	Using CSV with
+	SELECT
+		Entity, SL2Finish, IQFinishDate, Issue, Process, [CE Code] as CEID, [WS Tie]
+	FROM
+		%{MAIN_CSV}
+	WHERE
+		CapCode = 'PCAM' and
+		[SL2Finish] &lt; SUB(TO_LOCALTIME(SYSTEM_TIMESTAMP()), TIMESTAMP( '7', 'd' ) )
+		and (FinishDate is null)
+END LATE_CSV
+---Begin Main Query---
+Using CSV with
+SELECT
+	Entity, CEID, Process, [WS Tie], SL2Finish, IQSignoff, Issue
+USING
+	case IQFinishDate when null then 'Not signed off by IQ/Tool Owner' else IQFinishDate end as IQSignoff
+FROM
+	%{LATE_CSV}
+ORDER BY
+	SL2Finish
+</SQL>
+    <TableLayoutConfig>
+      <BoundColumnList>Entity,CEID,PFIOwner,WS Tie,SL2Finish,IQSignoff,PCAMTransferSent,Issue</BoundColumnList>
+    </TableLayoutConfig>
+    <TableSchema><xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+  <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="Results" msdata:UseCurrentLocale="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Results">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Entity" type="xs:string" minOccurs="0" />
+              <xs:element name="CEID" type="xs:string" minOccurs="0" />
+              <xs:element name="Process" type="xs:int" minOccurs="0" />
+              <xs:element name="WS_x0020_Tie" type="xs:string" minOccurs="0" />
+              <xs:element name="SL2Finish" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="IQSignoff" type="xs:string" minOccurs="0" />
+              <xs:element name="Issue" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
+</TableSchema>
+    <TableData />
+  </OutputDataGridConfig>
+  <OutputDataGridConfig Name="L8 Gap">
+    <SQL>---[MAIN_CSV]---
+BEGIN MAIN_CSV
+	---Begin Main Query---
+	Using CSV with
+	SELECT
+		*
+	FROM
+		%{OUTPUT}
+END MAIN_CSV
+---[LATE_CSV]---
+BEGIN LATE_CSV
+	---Begin Main Query---
+	Using CSV with
+	SELECT
+		'Late' as PAS, Process, [CE Code] as CEID,
+		SL2Finish, IQFinishDate,
+		FinishDate, L8FinishDate,
+		Entity, Issue, [WS Tie]
+	FROM
+		%{MAIN_CSV}
+	WHERE
+		CapCode8 = 'L8' and
+		[SL2Finish] &lt; SUB(TO_LOCALTIME(SYSTEM_TIMESTAMP()), TIMESTAMP( '7', 'd' ) )
+		and
+		(L8FinishDate is null)
+END LATE_CSV
+---Begin Main Query---
+Using CSV with
+SELECT
+	Entity, CEID, Process, [WS Tie], SL2Finish, IQSignoff, Issue
+USING
+	case IQFinishDate when null then 'Not signed off by IQ/Tool Owner' else to_string(IQFinishDate, 'MM/dd/yyyy') end as IQSignoff
+FROM
+	%{LATE_CSV}
+ORDER BY
+	SL2Finish
+</SQL>
+    <TableLayoutConfig>
+      <BoundColumnList>Entity,CEID,PFIOwner,WS Tie,SL2Finish,IQSignoff,Issue</BoundColumnList>
+    </TableLayoutConfig>
+    <TableSchema />
+    <TableData />
+  </OutputDataGridConfig>
+  <OutputDataGridConfig Name="PCAM vs L8">
+    <SQL>---[LATE_CSV]---
+BEGIN LATE_CSV
+	---Begin Main Query---
+	Using CSV with
+	SELECT
+		Entity, FinishDate, [WS Tie], L8FinishDate, Process, [CE Code] as CEID, SL2Finish
+	FROM
+		%{OUTPUT}
+	WHERE
+		CapCode8 = 'L8' and
+		[SL2Finish] &lt; SUB(TO_LOCALTIME(SYSTEM_TIMESTAMP()), TIMESTAMP( '7', 'd' ) )
+		and ((L8FinishDate is null and FinishDate is not null) or (L8FinishDate is not null and FinishDate is null))
+	ORDER BY
+		SL2Finish
+END LATE_CSV
+---Begin Main Query---
+Using CSV with
+SELECT
+	Entity, CEID, Process, [WS Tie], FinishDate as PCAMFinish, L8FinishDate as L8Finish
+FROM
+	%{LATE_CSV}
+</SQL>
+    <TableLayoutConfig>
+      <BoundColumnList>Entity,CEID,PFIOwner,WS Tie,PCAMFinish,L8Finish</BoundColumnList>
+    </TableLayoutConfig>
+    <TableSchema><xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+  <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="Results" msdata:UseCurrentLocale="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Results">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Entity" type="xs:string" minOccurs="0" />
+              <xs:element name="CEID" type="xs:string" minOccurs="0" />
+              <xs:element name="Process" type="xs:int" minOccurs="0" />
+              <xs:element name="WS_x0020_Tie" type="xs:string" minOccurs="0" />
+              <xs:element name="PCAMFinish" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="L8Finish" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
+</TableSchema>
+    <TableData />
+  </OutputDataGridConfig>
+  <OutputDataGridConfig Name="PCAM Details">
+    <SQL>---Begin Main Query---
+Using CSV with
+SELECT
+	Entity,
+	Life,
+	[CE Code] as CEID,
+	Area,
+	[WS Tie],
+	SL2Finish,
+	IQFinishDate,
+	FinishDate as PCAMFinish,
+	L8FinishDate as L8Finish,
+	ASISFinishDate,
+	ACESFinishDate,
+	PFI,
+	Process
+FROM
+	%{output}
+WHERE
+	NOT Isinlist(Entity, '${Entity_Query_filter}')
+	and (capcode like 'PCAM' or capcode8 like 'L8')
+</SQL>
+    <TableLayoutConfig>
+      <BoundColumnList>Entity,CEID,WS Tie,SL2Finish,PCAMFinish,L8Finish</BoundColumnList>
+    </TableLayoutConfig>
+    <TableSchema><xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+  <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="Results" msdata:UseCurrentLocale="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Results">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Entity" type="xs:string" minOccurs="0" />
+              <xs:element name="life" type="xs:int" minOccurs="0" />
+              <xs:element name="CEID" type="xs:string" minOccurs="0" />
+              <xs:element name="Area" type="xs:string" minOccurs="0" />
+              <xs:element name="WS_x0020_Tie" type="xs:string" minOccurs="0" />
+              <xs:element name="SL2Finish" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="IQFinishDate" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="PCAMFinish" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="L8Finish" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="ASISFinishDate" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="ACESFinishDate" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="PFI" type="xs:string" minOccurs="0" />
+              <xs:element name="Process" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
+</TableSchema>
+    <TableData />
+  </OutputDataGridConfig>
+  <OutputDataGridConfig Name="PAS Numbers">
+    <SQL>---[MAIN_CSV]---
+BEGIN MAIN_CSV
+	---Begin Main Query---
+	Using CSV with
+	SELECT
+		*
+	FROM
+		%{output}
+	WHERE
+		NOT Isinlist(Entity, '${Entity_Query_filter}')
+END MAIN_CSV
+---[PCAMACTUAL_CSV]---
+BEGIN PCAMACTUAL_CSV
+	---Begin Main Query---
+	Using CSV with
+	SELECT
+		WW, Count(*) as TotalPCAMActual
+	USING
+		quantize(FinishDate, 604800) as WW
+	FROM
+		%{MAIN_CSV}
+	WHERE
+		capcode like 'PCAM' and FinishDate is not null
+	GROUP BY
+		WW
+	ORDER BY
+		WW
+END PCAMACTUAL_CSV
+---[L8ACTUAL_CSV]---
+BEGIN L8ACTUAL_CSV
+	---Begin Main Query---
+	Using CSV with
+	SELECT
+		WW, Count(*) as TotalL8Actual
+	USING
+		quantize(L8FinishDate, 604800) as WW
+	FROM
+		%{MAIN_CSV}
+	WHERE
+		capcode8 like 'L8' and L8FinishDate is not null
+	GROUP BY
+		WW
+	ORDER BY
+		WW
+END L8ACTUAL_CSV
+---[PLAN_CSV]---
+BEGIN PLAN_CSV
+	---Begin Main Query---
+	Using CSV with
+	SELECT
+		WW, Count(*) as TotalPlan
+	USING
+		quantize([SL2Finish], 604800) as WW
+	FROM
+		%{MAIN_CSV}
+	WHERE
+		capcode like 'PCAM' and capcode8 like 'L8'
+	GROUP BY
+		WW
+	ORDER BY
+		WW
+END PLAN_CSV
+---[FILLP_CSV]---
+BEGIN FILLP_CSV
+	UseMethod QuantizeDateWithGaps with -- **Convert to time-scale with NULL values for missing time data**
+		InputFile = "%{PLAN_CSV}" -- Input CSV File containing table data [String]
+		DateColumn = "WW" -- Column containing the date/time [String]
+		PivotColumns = "" -- Column containing the pivot key(s) (comma-separated if more than one) [String]
+		ColumnsToSelect = "*" -- Columns to select from the input table for output (comma-separated) [String]
+		TimeInterval = "1w" -- Time interval for which gaps are to be found (specify -1 to auto-determine) [e.g., 60s for 60 seconds, 2m for 2 mins, 3 h for 3 hrs, 1d for 1 day] [String]
+		QuantizeDateColumn = false -- Quantize the DateColumn using TimeInterval and replace it's value [Boolean]
+		MissingValueSubstituteForStringFields = "null" -- Replacement for missing value for string columns (specify "null" to populate with DBNull) [e.g., null, N/A] [String]
+		MissingValueSubstituteForNumericFields = "0" -- Replacement for missing value for numeric columns (specify "null" to populate with DBNull) [e.g., null, 0, -1] [String]
+END FILLP_CSV
+---[FILLA_CSV]---
+BEGIN FILLA_CSV
+	UseMethod QuantizeDateWithGaps with -- **Convert to time-scale with NULL values for missing time data**
+		InputFile = "%{PCAMACTUAL_CSV}" -- Input CSV File containing table data [String]
+		DateColumn = "WW" -- Column containing the date/time [String]
+		PivotColumns = "" -- Column containing the pivot key(s) (comma-separated if more than one) [String]
+		ColumnsToSelect = "*" -- Columns to select from the input table for output (comma-separated) [String]
+		TimeInterval = "1w" -- Time interval for which gaps are to be found (specify -1 to auto-determine) [e.g., 60s for 60 seconds, 2m for 2 mins, 3 h for 3 hrs, 1d for 1 day] [String]
+		QuantizeDateColumn = false -- Quantize the DateColumn using TimeInterval and replace it's value [Boolean]
+		MissingValueSubstituteForStringFields = "null" -- Replacement for missing value for string columns (specify "null" to populate with DBNull) [e.g., null, N/A] [String]
+		MissingValueSubstituteForNumericFields = "0" -- Replacement for missing value for numeric columns (specify "null" to populate with DBNull) [e.g., null, 0, -1] [String]
+END FILLA_CSV
+---[FILL8_CSV]---
+BEGIN FILL8_CSV
+	UseMethod QuantizeDateWithGaps with -- **Convert to time-scale with NULL values for missing time data**
+		InputFile = "%{L8ACTUAL_CSV}" -- Input CSV File containing table data [String]
+		DateColumn = "WW" -- Column containing the date/time [String]
+		PivotColumns = "" -- Column containing the pivot key(s) (comma-separated if more than one) [String]
+		ColumnsToSelect = "*" -- Columns to select from the input table for output (comma-separated) [String]
+		TimeInterval = "1w" -- Time interval for which gaps are to be found (specify -1 to auto-determine) [e.g., 60s for 60 seconds, 2m for 2 mins, 3 h for 3 hrs, 1d for 1 day] [String]
+		QuantizeDateColumn = false -- Quantize the DateColumn using TimeInterval and replace it's value [Boolean]
+		MissingValueSubstituteForStringFields = "null" -- Replacement for missing value for string columns (specify "null" to populate with DBNull) [e.g., null, N/A] [String]
+		MissingValueSubstituteForNumericFields = "0" -- Replacement for missing value for numeric columns (specify "null" to populate with DBNull) [e.g., null, 0, -1] [String]
+END FILL8_CSV
+---[SORTA_CSV]---
+BEGIN SORTA_CSV
+	---Begin Main Query---
+	Using CSV with
+	SELECT
+		WW, TotalPCAMActual
+	FROM
+		%{FILLA_CSV}
+	ORDER BY
+		WW
+END SORTA_CSV
+---[SORT8_CSV]---
+BEGIN SORT8_CSV
+	---Begin Main Query---
+	Using CSV with
+	SELECT
+		WW, TotalL8Actual
+	FROM
+		%{FILL8_CSV}
+	ORDER BY
+		WW
+END SORT8_CSV
+---[SORTP_CSV]---
+BEGIN SORTP_CSV
+	---Begin Main Query---
+	Using CSV with
+	SELECT
+		WW, TotalPlan
+	FROM
+		%{FILLP_CSV}
+	ORDER BY
+		WW
+END SORTP_CSV
+---[SUM_CSV]---
+BEGIN SUM_CSV
+	UseMethod CalculateRunningSum with -- **Get Running Sum for a Column in the Table**
+		InputFile = "%{SORTA_CSV}" -- Input CSV file [String]
+		ColumnToCalculateSumFor = "TotalPCAMActual" -- Input CSV file [String]
+		PivotColumn = "" -- Pivot column (optional) [String]
+		NewColumnForRunningSum = "PCAMActual" -- New column to be added with running sum [String]
+		NewColumnForAbsoluteRunningSum = "PCAMAbsoluteRunningTotalActual" -- New column to be added with absolute running sum which ignores the pivot column [String]
+END SUM_CSV
+---[SUM8_CSV]---
+BEGIN SUM8_CSV
+	UseMethod CalculateRunningSum with -- **Get Running Sum for a Column in the Table**
+		InputFile = "%{SORT8_CSV}" -- Input CSV file [String]
+		ColumnToCalculateSumFor = "TotalL8Actual" -- Input CSV file [String]
+		PivotColumn = "" -- Pivot column (optional) [String]
+		NewColumnForRunningSum = "L8Actual" -- New column to be added with running sum [String]
+		NewColumnForAbsoluteRunningSum = "L8AbsoluteRunningTotalActual" -- New column to be added with absolute running sum which ignores the pivot column [String]
+END SUM8_CSV
+---[SUMPLAN_CSV]---
+BEGIN SUMPLAN_CSV
+	UseMethod CalculateRunningSum with -- **Get Running Sum for a Column in the Table**
+		InputFile = "%{SORTP_CSV}" -- Input CSV file [String]
+		ColumnToCalculateSumFor = "TotalPlan" -- Input CSV file [String]
+		PivotColumn = "" -- Pivot column (optional) [String]
+		NewColumnForRunningSum = "Planned" -- New column to be added with running sum [String]
+		NewColumnForAbsoluteRunningSum = "AbsoluteRunningPlan" -- New column to be added with absolute running sum which ignores the pivot column [String]
+END SUMPLAN_CSV
+---[JOIN_CSV]---
+BEGIN JOIN_CSV
+	UseMethod Join with -- **Do an outer join for two tables based on a matching column**
+		InputFile1 = "%{SUM_CSV}" -- Input CSV File #1 containing table data [String]
+		InputFile2 = "%{SUM8_CSV}" -- Input CSV File #2 containing table data [String]
+		InputFile3 = "%{SUMPLAN_CSV}" -- Input CSV File #3 containing table data (optional) [String]
+		JoinColumn = "WW" -- Column name(s) on which to join the two tables (more than one column can be supplied by using comma as a separator) [String]
+		IgnoreDuplicate = false -- Flag to ignore duplicate items in the JoinColumn [Boolean]
+		IgnoreCase = false -- Flag to ignore case in the JoinColumn [Boolean]
+		OnlyShowNonMatchingRows = false -- Flag to only show non-matching orphan rows [Boolean]
+		IncludeNonMatchingRows = true -- Flag to also include non-matching orphan rows (but with blank entries) [Boolean]
+		MustIncludeOutputColumns = "" -- Name of columns (comma-separated) that must be included in output even if the join does not materialize [String]
+END JOIN_CSV
+---Begin Main Query---
+Using CSV with
+SELECT
+	top 1
+	WW,
+	to_int(mul(div(to_real(PCAMActual), to_real(Planned)),100)) as PCAMPAS,
+	to_int(mul(div(to_real(L8Actual), to_real(Planned)),100)) as L8PAS
+FROM
+	%{JOIN_CSV}
+WHERE
+	WW &lt; SUB(TO_LOCALTIME(SYSTEM_TIMESTAMP()), TIMESTAMP( '7', 'd' ) )
+ORDER BY
+	WW desc
+</SQL>
+    <TableLayoutConfig>
+      <BoundColumnList>WW,PCAMPAS,L8PAS</BoundColumnList>
+    </TableLayoutConfig>
+    <TableSchema><xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+  <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="Results" msdata:UseCurrentLocale="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Results">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="WW" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="PCAMPAS" type="xs:int" minOccurs="0" />
+              <xs:element name="L8PAS" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
+</TableSchema>
+    <TableData />
+  </OutputDataGridConfig>
+  <OutputDataGridConfig Name="PCAM GAP Number">
+    <SQL>---[MAIN_CSV]---
+BEGIN MAIN_CSV
+	---Begin Main Query---
+	Using CSV with
+	SELECT
+		*
+	FROM
+		%{OUTPUT}
+	WHERE
+		NOT Isinlist(Entity, '${Entity_Query_filter}')
+END MAIN_CSV
+---[LATE_CSV]---
+BEGIN LATE_CSV
+	---Begin Main Query---
+	Using CSV with
+	SELECT
+		Entity, SL2Finish, IQFinishDate, Issue
+	FROM
+		%{MAIN_CSV}
+	WHERE
+		CapCode = 'PCAM' and
+		[SL2Finish] &lt; SUB(TO_LOCALTIME(SYSTEM_TIMESTAMP()), TIMESTAMP( '7', 'd' ) )
+		and (FinishDate is null)
+END LATE_CSV
+---Begin Main Query---
+Using CSV with
+SELECT
+	Count (*) as PCAMGap
+FROM
+	%{LATE_CSV}
+</SQL>
+    <TableLayoutConfig>
+      <BoundColumnList>PCAMGap</BoundColumnList>
+    </TableLayoutConfig>
+    <TableSchema><xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+  <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="Results" msdata:UseCurrentLocale="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Results">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="PCAMGap" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
+</TableSchema>
+    <TableData />
+  </OutputDataGridConfig>
+  <OutputDataGridConfig Name="L8 GAP Number">
+    <SQL>---[MAIN_CSV]---
+BEGIN MAIN_CSV
+	---Begin Main Query---
+	Using CSV with
+	SELECT
+		*
+	FROM
+		%{OUTPUT}
+END MAIN_CSV
+---[LATE_CSV]---
+BEGIN LATE_CSV
+	---Begin Main Query---
+	Using CSV with
+	SELECT
+		Entity, SL2Finish, IQFinishDate,
+		FinishDate, L8FinishDate,
+		Issue
+	FROM
+		%{MAIN_CSV}
+	WHERE
+		CapCode8 = 'L8' and
+		[SL2Finish] &lt; SUB(TO_LOCALTIME(SYSTEM_TIMESTAMP()), TIMESTAMP( '7', 'd' ) )
+		and
+		(L8FinishDate is null)
+END LATE_CSV
+---Begin Main Query---
+Using CSV with
+SELECT
+	count (*) as L8Gap
+FROM
+	%{LATE_CSV}
+</SQL>
+    <TableLayoutConfig>
+      <BoundColumnList>L8Gap</BoundColumnList>
+    </TableLayoutConfig>
+    <TableSchema><xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+  <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="Results" msdata:UseCurrentLocale="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Results">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="L8Gap" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
+</TableSchema>
+    <TableData />
+  </OutputDataGridConfig>
+  <OutputDataGridConfig Name="PCAM Early/Late">
+    <SQL>---[MAIN_CSV]---
+BEGIN MAIN_CSV
+	---Begin Main Query---
+	Using CSV with
+	SELECT
+		*
+	FROM
+		%{OUTPUT}
+END MAIN_CSV
+---[LATE_CSV]---
+BEGIN LATE_CSV
+	---Begin Main Query---
+	Using CSV with
+	SELECT
+		'Late' as Status,
+		Entity as Completed
+	FROM
+		%{MAIN_CSV}
+	WHERE
+		CapCode = 'PCAM' and
+		[SL2Finish] &lt; SUB(TO_LOCALTIME(SYSTEM_TIMESTAMP()), TIMESTAMP( '7', 'd' ) )
+		and ((PCAMTransferSent is null) or ((PCAMTransferSent &gt; [SL2Finish]) and PCAMTransferSent &gt; SUB(TO_LOCALTIME(SYSTEM_TIMESTAMP()), TIMESTAMP( '7', 'd' ) )))
+END LATE_CSV
+---[LATETRAN_CSV]---
+BEGIN LATETRAN_CSV
+	UseMethod MergeRows with -- **Merge consecutive rows in a given table based on matching column values**
+		InputFiles = "%{LATE_CSV}" -- Input files (comma-separated) containing table data [String]
+		MergeKeyColumn = "Status" -- Columns (comma-separated) to use for comparing values between consecutive rows before merging [String]
+		ColumnsToMerge = "Completed" -- Columns (comma-separated) whose values will be merged [String]
+		LineSeparator = ", " -- Line separator to use when merging consecutive consecutive rows [String]
+		MaxRowsToMerge = -1 -- Maximum number of rows to merge [Int32]
+		MaxCellSizeInBytes = 100000 -- Maximum size of merged cell in bytes [Int32]
+END LATETRAN_CSV
+---[EARLY_CSV]---
+BEGIN EARLY_CSV
+	---Begin Main Query---
+	Using CSV with
+	SELECT
+		'Early' as Status,
+		Entity as Completed
+	FROM
+		%{MAIN_CSV}
+	WHERE
+		CapCode = 'PCAM' and
+		PCAMTransferSent is not null and
+		[SL2Finish] &gt; SUB(TO_LOCALTIME(SYSTEM_TIMESTAMP()), TIMESTAMP( '7', 'd' ) ) and
+		PCAMTransferSent &lt; SUB(TO_LOCALTIME(SYSTEM_TIMESTAMP()), TIMESTAMP( '7', 'd' ) )
+END EARLY_CSV
+---[EARLYTRAN_CSV]---
+BEGIN EARLYTRAN_CSV
+	UseMethod MergeRows with -- **Merge consecutive rows in a given table based on matching column values**
+		InputFiles = "%{EARLY_CSV}" -- Input files (comma-separated) containing table data [String]
+		MergeKeyColumn = "Status" -- Columns (comma-separated) to use for comparing values between consecutive rows before merging [String]
+		ColumnsToMerge = "Completed" -- Columns (comma-separated) whose values will be merged [String]
+		LineSeparator = ", " -- Line separator to use when merging consecutive consecutive rows [String]
+		MaxRowsToMerge = -1 -- Maximum number of rows to merge [Int32]
+		MaxCellSizeInBytes = 100000 -- Maximum size of merged cell in bytes [Int32]
+END EARLYTRAN_CSV
+---[JOIN_CSV]---
+BEGIN JOIN_CSV
+	UseMethod MergeTables with -- **Merge content of two tables by doing an outer join on the column schema (no join done here)**
+		InputFile1 = "%{LATETRAN_CSV}" -- Input CSV File #1 containing table data [String]
+		InputFile2 = "%{EARLYTRAN_CSV}" -- Input CSV File #2 containing table data [String]
+		AutoDetectColumnTypes = false -- Auto-detect column types before merging [Boolean]
+END JOIN_CSV
+---Begin Main Query---
+Using CSV with
+SELECT
+	*
+FROM
+	%{JOIN_CSV}
+</SQL>
+    <TableLayoutConfig>
+      <BoundColumnList>Status,Completed</BoundColumnList>
+    </TableLayoutConfig>
+    <TableSchema><xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+  <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="Results" msdata:UseCurrentLocale="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Results">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Status" type="xs:string" minOccurs="0" />
+              <xs:element name="Completed" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
+</TableSchema>
+    <TableData />
+  </OutputDataGridConfig>
+  <OutputDataGridConfig Name="L8 Early/Late">
+    <SQL>---[MAIN_CSV]---
+BEGIN MAIN_CSV
+	---Begin Main Query---
+	Using CSV with
+	SELECT
+		*
+	FROM
+		%{OUTPUT}
+END MAIN_CSV
+---[LATE_CSV]---
+BEGIN LATE_CSV
+	---Begin Main Query---
+	Using CSV with
+	SELECT
+		'Late' as Status,
+		Entity as Completed
+	FROM
+		%{MAIN_CSV}
+	WHERE
+		CapCode8 = 'L8' and
+		[SL2Finish] &lt; SUB(TO_LOCALTIME(SYSTEM_TIMESTAMP()), TIMESTAMP( '7', 'd' ) )
+		and ((L8TransferSent is null) or ((L8TransferSent &gt; [SL2Finish]) and L8TransferSent &gt; SUB(TO_LOCALTIME(SYSTEM_TIMESTAMP()), TIMESTAMP( '7', 'd' ) )))
+END LATE_CSV
+---[LATETRAN_CSV]---
+BEGIN LATETRAN_CSV
+	UseMethod MergeRows with -- **Merge consecutive rows in a given table based on matching column values**
+		InputFiles = "%{LATE_CSV}" -- Input files (comma-separated) containing table data [String]
+		MergeKeyColumn = "Status" -- Columns (comma-separated) to use for comparing values between consecutive rows before merging [String]
+		ColumnsToMerge = "Completed" -- Columns (comma-separated) whose values will be merged [String]
+		LineSeparator = ", " -- Line separator to use when merging consecutive consecutive rows [String]
+		MaxRowsToMerge = -1 -- Maximum number of rows to merge [Int32]
+		MaxCellSizeInBytes = 100000 -- Maximum size of merged cell in bytes [Int32]
+END LATETRAN_CSV
+---[EARLY_CSV]---
+BEGIN EARLY_CSV
+	---Begin Main Query---
+	Using CSV with
+	SELECT
+		'Early' as Status,
+		Entity as Completed
+	FROM
+		%{MAIN_CSV}
+	WHERE
+		CapCode8 = 'L8' and
+		L8TransferSent is not null and
+		[SL2Finish] &gt; SUB(TO_LOCALTIME(SYSTEM_TIMESTAMP()), TIMESTAMP( '7', 'd' ) ) and
+		L8TransferSent &lt; SUB(TO_LOCALTIME(SYSTEM_TIMESTAMP()), TIMESTAMP( '7', 'd' ) )
+END EARLY_CSV
+---[EARLYTRAN_CSV]---
+BEGIN EARLYTRAN_CSV
+	UseMethod MergeRows with -- **Merge consecutive rows in a given table based on matching column values**
+		InputFiles = "%{EARLY_CSV}" -- Input files (comma-separated) containing table data [String]
+		MergeKeyColumn = "Status" -- Columns (comma-separated) to use for comparing values between consecutive rows before merging [String]
+		ColumnsToMerge = "Completed" -- Columns (comma-separated) whose values will be merged [String]
+		LineSeparator = ", " -- Line separator to use when merging consecutive consecutive rows [String]
+		MaxRowsToMerge = -1 -- Maximum number of rows to merge [Int32]
+		MaxCellSizeInBytes = 100000 -- Maximum size of merged cell in bytes [Int32]
+END EARLYTRAN_CSV
+---[JOIN_CSV]---
+BEGIN JOIN_CSV
+	UseMethod MergeTables with -- **Merge content of two tables by doing an outer join on the column schema (no join done here)**
+		InputFile1 = "%{LATETRAN_CSV}" -- Input CSV File #1 containing table data [String]
+		InputFile2 = "%{EARLYTRAN_CSV}" -- Input CSV File #2 containing table data [String]
+		AutoDetectColumnTypes = false -- Auto-detect column types before merging [Boolean]
+END JOIN_CSV
+---Begin Main Query---
+Using CSV with
+SELECT
+	*
+FROM
+	%{JOIN_CSV}
+</SQL>
+    <TableLayoutConfig>
+      <BoundColumnList>Status,Completed</BoundColumnList>
+    </TableLayoutConfig>
+    <TableSchema><xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+  <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="Results" msdata:UseCurrentLocale="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Results">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Status" type="xs:string" minOccurs="0" />
+              <xs:element name="Completed" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
+</TableSchema>
+    <TableData />
+  </OutputDataGridConfig>
+  <OutputDataGridConfig Name="Waiting PFI">
+    <SQL>----------&lt;VARIABLES&gt;------------
+var WETETCH = "@{TIPR_PAS_WETETCH}"
+---[NONETCH_CSV]---
+BEGIN NONETCH_CSV
+	---Begin Main Query---
+	SELECT
+		ToolName, [CE Code] as CEID, Process, Area, [WS Tie], IQFinishDate, ACESFinishDate, SL2Finish, Pingable_WC
+	USING
+		strcat('&lt;a href="@{TIPR_ENTITY_LINK}/tipr/AIT.asp?FA=All&amp;EntityType=All&amp;Entity=', Entity) as temp,
+		strcat(temp, '"&gt;') as temp2,
+		strcat(temp2, Entity) as temp3,
+		strcat(temp3, '&lt;/a&gt;') as ToolName,
+		substr(Entity, 0, 3) as TT
+	FROM
+		%{OUTPUT}
+	WHERE
+		IQFinishDate is not null
+		and
+		ACESFinishDate is not null
+		and
+		Pingable_WC is not null
+		and
+		FinishDate is null
+		and
+		not isinlist(tt, '${wetetch}')
+	ORDER BY
+		SL2Finish
+END NONETCH_CSV
+---[ETCH_CSV]---
+BEGIN ETCH_CSV
+	---Begin Main Query---
+	SELECT
+		ToolName, [CE Code] as CEID, Process, 'WE' as Area, [WS Tie], IQFinishDate, ACESFinishDate, SL2Finish, Pingable_WC
+	USING
+		strcat('&lt;a href="@{TIPR_ENTITY_LINK}/tipr/AIT.asp?FA=All&amp;EntityType=All&amp;Entity=', Entity) as temp,
+		strcat(temp, '"&gt;') as temp2,
+		strcat(temp2, Entity) as temp3,
+		strcat(temp3, '&lt;/a&gt;') as ToolName,
+		substr(Entity, 0, 3) as TT
+	FROM
+		%{OUTPUT}
+	WHERE
+		IQFinishDate is not null
+		and
+		ACESFinishDate is not null
+		and
+		Pingable_WC is not null
+		and
+		FinishDate is null
+		and
+		isinlist(tt, '${wetetch}')
+	ORDER BY
+		SL2Finish
+END ETCH_CSV
+---Begin Main Query---
+UseMethod MergeTables with -- **Merge content of two tables by doing an outer join on the column schema (no join done here)**
+	InputFile1 = "%{nonetch_csv}" -- Input CSV File #1 containing table data [String]
+	InputFile2 = "%{etch_csv}" -- Input CSV File #2 containing table data [String]
+	AutoDetectColumnTypes = false -- Auto-detect column types before merging [Boolean]
+</SQL>
+    <TableLayoutConfig>
+      <BoundColumnList>ToolName,CEID,PFIOwner,WS Tie,IQFinishDate,ACESFinishDate,PCAMTransferSent,Pingable_WC</BoundColumnList>
+    </TableLayoutConfig>
+    <TableSchema><xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+  <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="Results" msdata:UseCurrentLocale="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Results">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ToolName" type="xs:string" minOccurs="0" />
+              <xs:element name="CEID" type="xs:string" minOccurs="0" />
+              <xs:element name="Process" type="xs:string" minOccurs="0" />
+              <xs:element name="Area" type="xs:string" minOccurs="0" />
+              <xs:element name="WS_x0020_Tie" type="xs:string" minOccurs="0" />
+              <xs:element name="IQFinishDate" type="xs:string" minOccurs="0" />
+              <xs:element name="ACESFinishDate" type="xs:string" minOccurs="0" />
+              <xs:element name="SL2Finish" type="xs:string" minOccurs="0" />
+              <xs:element name="Pingable_WC" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
+</TableSchema>
+    <TableData />
+  </OutputDataGridConfig>
+  <OutputDataGridConfig Name="Count">
+    <SQL>---Begin Main Query---
+SELECT
+	count(*)
+FROM
+	%{OUTPUT}
+</SQL>
+    <TableLayoutConfig>
+      <BoundColumnList>COUNT(ALL *)</BoundColumnList>
+    </TableLayoutConfig>
+    <TableSchema><xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+  <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="Results" msdata:UseCurrentLocale="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Results">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="COUNT_x0028_ALL_x0020__x002A__x0029_" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
+</TableSchema>
+    <TableData />
+  </OutputDataGridConfig>
+  <OutputDataGridConfig Name="Waiting Memo">
+    <SQL>---Begin Main Query---
+SELECT
+	Entity, [CE Code], PFIOwner, SL2Finish
+FROM
+	%{OUTPUT}
+WHERE
+	IQFinishDate is not null
+	and
+	FinishDate is null
+	and
+	PCAMTransferSent is null
+</SQL>
+    <TableLayoutConfig>
+      <BoundColumnList>Entity,CE Code,PFIOwner,SL2Finish</BoundColumnList>
+    </TableLayoutConfig>
+    <TableSchema><xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+  <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="Results" msdata:UseCurrentLocale="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Results">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Entity" type="xs:string" minOccurs="0" />
+              <xs:element name="CE_x0020_Code" type="xs:string" minOccurs="0" />
+              <xs:element name="PFIOwner" type="xs:string" minOccurs="0" />
+              <xs:element name="SL2Finish" type="xs:dateTime" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
+</TableSchema>
+    <TableData />
+  </OutputDataGridConfig>
+  <OutputDataGridConfig Name="ETS Horizon">
+    <SQL>---Begin Main Query---
+SELECT
+	Entity, [CE Code] as CEID, Process, [WS Tie], Pingable_WC
+FROM
+	%{OUTPUT}
+WHERE
+	FinishDate is null
+	and
+	[WS Tie] = 'ETS'
+</SQL>
+    <TableLayoutConfig>
+      <BoundColumnList>Entity,CEID,PFIOwner,WS Tie,PCAMTransferSent,Pingable_WC</BoundColumnList>
+    </TableLayoutConfig>
+    <TableSchema><xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+  <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="Results" msdata:UseCurrentLocale="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Results">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Entity" type="xs:string" minOccurs="0" />
+              <xs:element name="CEID" type="xs:string" minOccurs="0" />
+              <xs:element name="Process" type="xs:int" minOccurs="0" />
+              <xs:element name="WS_x0020_Tie" type="xs:string" minOccurs="0" />
+              <xs:element name="Pingable_WC" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
+</TableSchema>
+    <TableData />
+  </OutputDataGridConfig>
+  <OutputDataGridConfig Name="Waiting PFI but no Pingable WC">
+    <SQL>----------&lt;VARIABLES&gt;------------
+var WETETCH = "@{TIPR_PAS_WETETCH}"
+---[NONETCH_CSV]---
+BEGIN NONETCH_CSV
+	---Begin Main Query---
+	SELECT
+		ToolName, [CE Code] as CEID, Process, Area, [WS Tie], IQFinishDate, ACESFinishDate, SL2Finish, Pingable_WC
+	USING
+		strcat('&lt;a href="@{TIPR_ENTITY_LINK}/tipr/AIT.asp?FA=All&amp;EntityType=All&amp;Entity=', Entity) as temp,
+		strcat(temp, '"&gt;') as temp2,
+		strcat(temp2, Entity) as temp3,
+		strcat(temp3, '&lt;/a&gt;') as ToolName,
+		substr(Entity, 0, 3) as TT
+	FROM
+		%{OUTPUT}
+	WHERE
+		IQFinishDate is not null
+		and
+		ACESFinishDate is not null
+		and
+		Pingable_WC is null
+		and
+		FinishDate is null
+		and
+		not isinlist(tt, '${wetetch}')
+	ORDER BY
+		SL2Finish
+END NONETCH_CSV
+---[ETCH_CSV]---
+BEGIN ETCH_CSV
+	---Begin Main Query---
+	SELECT
+		ToolName, [CE Code] as CEID, Process, 'WE' as Area, [WS Tie], IQFinishDate, ACESFinishDate, SL2Finish, Pingable_WC
+	USING
+		strcat('&lt;a href="@{TIPR_ENTITY_LINK}/tipr/AIT.asp?FA=All&amp;EntityType=All&amp;Entity=', Entity) as temp,
+		strcat(temp, '"&gt;') as temp2,
+		strcat(temp2, Entity) as temp3,
+		strcat(temp3, '&lt;/a&gt;') as ToolName,
+		substr(Entity, 0, 3) as TT
+	FROM
+		%{OUTPUT}
+	WHERE
+		IQFinishDate is not null
+		and
+		ACESFinishDate is not null
+		and
+		Pingable_WC is null
+		and
+		FinishDate is null
+		and
+		isinlist(tt, '${wetetch}')
+	ORDER BY
+		SL2Finish
+END ETCH_CSV
+---Begin Main Query---
+UseMethod MergeTables with -- **Merge content of two tables by doing an outer join on the column schema (no join done here)**
+	InputFile1 = "%{nonetch_csv}" -- Input CSV File #1 containing table data [String]
+	InputFile2 = "%{etch_csv}" -- Input CSV File #2 containing table data [String]
+	AutoDetectColumnTypes = false -- Auto-detect column types before merging [Boolean]
+</SQL>
+    <TableLayoutConfig>
+      <BoundColumnList>ToolName,CEID,PFIOwner,WS Tie,IQFinishDate,ACESFinishDate,PCAMTransferSent,Pingable_WC</BoundColumnList>
+    </TableLayoutConfig>
+    <TableSchema />
+    <TableData />
+  </OutputDataGridConfig>
+  <OutputDataGridConfig Name="WaitPFI">
+    <SQL>---Begin Main Query---
+SELECT
+	count(entity) as WaitPFI
+FROM
+	%{OUTPUT}
+WHERE
+	IQFinishDate is not null
+	and
+	ACESFinishDate is not null
+	and
+	Pingable_WC is not null
+	and
+	FinishDate is null
+</SQL>
+    <TableLayoutConfig>
+      <BoundColumnList>ToolName,CEID,PFIOwner,WS Tie,IQFinishDate,ACESFinishDate,PCAMTransferSent,Pingable_WC</BoundColumnList>
+    </TableLayoutConfig>
+    <TableSchema><xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+  <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="Results" msdata:UseCurrentLocale="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Results">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="WaitPFI" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
+</TableSchema>
+    <TableData />
+  </OutputDataGridConfig>
+  <AutoPivotConfig OutputDateFormat="yyyy ww.w hh tt" />
+  <MailConfig>
+    <PostProcessingSQL Enable="false" />
+    <EmailCondition Enable="false" Operator="&gt;" ThresholdRowCount="0">
+      <SQLQuery />
+      <RunScriptBeforeEmailing>false</RunScriptBeforeEmailing>
+      <Script />
+    </EmailCondition>
+    <PostProcessingCondition Enable="false" Operator="&gt;" ThresholdRowCount="0">
+      <SQLQuery />
+      <RunScriptBeforeEmailing>false</RunScriptBeforeEmailing>
+    </PostProcessingCondition>
+    <CopyCondition Enable="false" Operator="&gt;" ThresholdRowCount="0">
+      <SQLQuery />
+      <RunScriptBeforeEmailing>false</RunScriptBeforeEmailing>
+    </CopyCondition>
+    <SMTPServer>smtp.intel.com</SMTPServer>
+    <From>LogAnalyzer2@intel.com</From>
+    <ReplyTo>@{DASHBOARD_OWNER_ALERT_DIST}</ReplyTo>
+    <To />
+    <Subject>[${DOMAIN}] TI PAS Metrics</Subject>
+    <Body />
+    <MailAttachments FileNamingFormat="${SETTINGS}" Excel="false" CSV="false" LAS="false" LAD="false" Exceptions="false" StatusLogs="false" PivotChart="true" ZipAttachments="false" DoNotSendAttachmentsWithEmail="false" IncludeJobStatisticsHeader="false" IncludeQuerySettingsFileHeader="false" IncludeVariableDefinitionHeader="false" IncludeRowCountInSubject="false" />
+    <IncludeSQLQueryInBody>false</IncludeSQLQueryInBody>
+    <TableInBody Enable="false">
+      <SQL />
+    </TableInBody>
+    <CopyOutputToDirectory>true</CopyOutputToDirectory>
+    <OutputDirectory>@{DASHBOARD_WEB_SPOOL}\PCAM\Output</OutputDirectory>
+    <IncludeAutoPivotSummary>false</IncludeAutoPivotSummary>
+    <IncludeCustomPivotSummary>false</IncludeCustomPivotSummary>
+    <IgnoreExceptions>false</IgnoreExceptions>
+    <OnlyCopyOutputIfEmailConditionIsMet>false</OnlyCopyOutputIfEmailConditionIsMet>
+  </MailConfig>
+  <TableSchema><xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+  <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="Results" msdata:UseCurrentLocale="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Results">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Entity" type="xs:string" minOccurs="0" />
+              <xs:element name="CE_x0020_Code" type="xs:string" minOccurs="0" />
+              <xs:element name="life" type="xs:int" minOccurs="0" />
+              <xs:element name="Process" type="xs:int" minOccurs="0" />
+              <xs:element name="Building" type="xs:string" minOccurs="0" />
+              <xs:element name="Bay" type="xs:string" minOccurs="0" />
+              <xs:element name="Area" type="xs:string" minOccurs="0" />
+              <xs:element name="WS_x0020_Tie" type="xs:string" minOccurs="0" />
+              <xs:element name="Event_x0020_Sub_x0020_Type" type="xs:string" minOccurs="0" />
+              <xs:element name="SL2Finish" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="IQFinishDate" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="ITFinishDate" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="ACESFinishDate" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="Pingable_WC" type="xs:string" minOccurs="0" />
+              <xs:element name="FinishDate" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="ASISFinishDate" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="L8FinishDate" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="CapCode" type="xs:string" minOccurs="0" />
+              <xs:element name="capcode8" type="xs:string" minOccurs="0" />
+              <xs:element name="PCAMTransferSent" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="L8TransferSent" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="PFIOwner" type="xs:string" minOccurs="0" />
+              <xs:element name="Status" type="xs:string" minOccurs="0" />
+              <xs:element name="Issue" type="xs:string" minOccurs="0" />
+              <xs:element name="PFI" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
+</TableSchema>
+  <TableData />
+  <LastRunAbsoluteDateFilter />
+  <CustomQueryMethodScripts>using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.IO;
+using System.Text;
+using System.Diagnostics;
+using System.Text.RegularExpressions;
+using Intel.LogAnalyzer;
+using Intel.LogAnalyzer.Common;
+using Intel.LogAnalyzer.Configuration;
+using Intel.LogAnalyzer.Utility;
+
+namespace Intel.LogAnalyzer.BuiltInQueryMethods_Sample
+{
+    public class CalculateRunningSum : CustomQueryMethodBase
+    {
+
+        /// &lt;summary&gt;
+        /// Test harness
+        /// &lt;/summary&gt;
+        [STAThread]
+        private static void Main()
+        {
+            new CalculateRunningSum
+            {
+                InputFile = @"D:\Temp\test.csv",
+                ColumnToCalculateSumFor = "Total",
+                PivotColumn = "MetSLA",
+                NewColumnForRunningSum = "RunningTotal",
+                NewColumnForAbsoluteRunningSum = "AbsoluteRunningTotal"
+            }.Test();
+        }
+
+        // Output type is QueryResult
+        public override CustomQueryOutputType OutputType { get { return CustomQueryOutputType.QueryResult; } }
+
+        public override string Description
+        {
+            get { return "Get Running Sum for a Column in the Table"; }
+        }
+
+        [Description("Input CSV file")]
+        public string InputFile { get; set; }
+        
+        [Description("Input CSV file")]
+        public string ColumnToCalculateSumFor { get; set; }
+        
+        [Description("Pivot column (optional)")]
+        [DefaultValue("")]
+        public string PivotColumn { get; set; }
+
+        [Description("New column to be added with running sum")]
+        [DefaultValue("RunningSum")]
+        public string NewColumnForRunningSum { get; set; }
+        
+        [Description("New column to be added with absolute running sum which ignores the pivot column")]
+        [DefaultValue("")]
+        public string NewColumnForAbsoluteRunningSum { get; set; }
+
+        public override QueryResult GetQueryResult()
+        {
+            DataTable table = UtilityMethods.ConvertCSVFileToDataTable(InputFile, true);
+            int colIndex = GetColumnIndex(table, ColumnToCalculateSumFor, true);
+            int pivotIndex = -1;
+
+            if (PivotColumn.Trim().Length &gt; 0)
+            {
+                pivotIndex = GetColumnIndex(table, PivotColumn, true);
+            }
+
+            table.Columns.Add(NewColumnForRunningSum, typeof(double));
+            int newColIndex = GetColumnIndex(table, NewColumnForRunningSum);
+
+            NewColumnForAbsoluteRunningSum = NewColumnForAbsoluteRunningSum.Trim();
+            int newAbsColIndex = -1;
+            if (NewColumnForAbsoluteRunningSum.Length &gt; 0)
+            {
+                table.Columns.Add(NewColumnForAbsoluteRunningSum, typeof(double));
+                newAbsColIndex = GetColumnIndex(table, NewColumnForAbsoluteRunningSum);
+            }
+
+            Dictionary&lt;string, double&gt; dict = new Dictionary&lt;string, double&gt;();
+            double absoluteSum = 0.0;
+
+            foreach (DataRow row in table.Rows)
+            {
+                string key = string.Empty;
+                if (pivotIndex &gt;= 0)
+                {
+                    key = row[pivotIndex].ToStringEx();
+                }
+                double value = Convert.ToDouble(row[colIndex]);
+                absoluteSum += value;
+                double sum;
+                if (dict.TryGetValue(key, out sum))
+                {
+                    sum += value;
+                    dict[key] = sum;
+                }
+                else
+                {
+                    sum = value;
+                    dict.Add(key, sum);
+                }
+                row[newColIndex] = sum;
+                if (newAbsColIndex &gt;= 0)
+                {
+                    row[newAbsColIndex] = absoluteSum;
+                }
+            }
+           
+            return new QueryResult(table);
+        }
+
+    }
+}</CustomQueryMethodScripts>
+  <PivotGroupingSettings Enable="true" PivotColumn="IQ_WS">
+    <SortyByColumn>Count</SortyByColumn>
+  </PivotGroupingSettings>
+  <QuerySQL><![CDATA[
+--[FileName:"T:\Dashboard\Jobs\PCAM\1-hr\TIPR_Metrics_PAS.lasx"]------
+----------<VARIABLES>------------
+var NODEFILTER = "*"
+var DOMAIN = "F28PROD"
+var TIMEFILTER = ""
+var SQL_NODE = "@{TIPRSQLNODE}"
+var CATALOG = "DSI"
+var PRE = "@{Fab1PRE}"
+var POST = "@{POST}"
+var ENTITY_QUERY_FILTER = "@{TIPR_ENTITY_EXCLUDE}"
+var TIPRPW = "@{TIPRPW}"
+var TIPRID = "@{TIPRID}"
+var EXCLUDE_TYPE = "Demo"
+var PROCESS = "@{TIPRPROCESS}"
+var LOOKAHEAD_DAYS = "@{TIPR_PAS_LOOKAHEAD}"
+---[OLEDB_CSV]---
+BEGIN OLEDB_CSV
+	---Begin Main Query---
+	Using SQLDB with
+		HostName = "${SQL_NODE}" -- SQL host name to connect to
+		Database = "${CATALOG}" -- Database/catalog name
+		UserID = "${TIPRID}" -- User ID to use for connection (leave blank or specify / for IWA)
+		Password = "${TIPRPW}" -- Password corresponding to the UserID
+	SELECT
+		DISTINCT c.Entity,
+		p.[CE Code],
+		p.life,
+		p.Process,
+		p.Building,
+		p.Bay,
+		p.FA,
+		p.[Event Sub Type],
+		p.[WS Tie],
+		p.[SL2 Finish] AS SL2Finish,
+		c.FinishDate AS FinishDate,
+		c.CapCode,
+		t.PCAMTransferSent,
+		t.L8TransferSent,
+		s.IDSid AS PFIOwner,
+		c.FinishedBy AS PFI
+	FROM
+		dbo.EntityCapabilities AS c
+		INNER JOIN dbo.Primavera AS p ON (
+		c.Entity = p.[Entity Code]
+		AND c.Life = p.Life
+		)
+		AND (CapCode = 'PCAM')
+		LEFT OUTER JOIN dbo.Transfer AS t ON p.[CE Code] = t.CEID
+		LEFT OUTER JOIN dbo.User_CEID AS s ON p.[CE Code] = s.CEID
+	WHERE
+		p.[SL2 Finish] < getdate() + ${LOOKAHEAD_DAYS}
+		AND [event sub type] NOT LIKE '${EXCLUDE_TYPE}'
+		AND process like '${PROCESS}'
+	ORDER BY
+		p.[SL2 Finish]
+END OLEDB_CSV
+---[IQ_CSV]---
+BEGIN IQ_CSV
+	---Begin Main Query---
+	Using SQLDB with
+		HostName = "${SQL_NODE}" -- SQL host name to connect to
+		Database = "${CATALOG}" -- Database/catalog name
+		UserID = "${TIPRID}" -- User ID to use for connection (leave blank or specify / for IWA)
+		Password = "${TIPRPW}" -- Password corresponding to the UserID
+	SELECT
+		DISTINCT c.Entity,
+		c.Life,
+		c.FinishDate AS IQFinishDate
+	FROM
+		dbo.EntityCapabilities AS c
+		INNER JOIN dbo.Primavera AS p ON (
+		c.Entity = p.[Entity Code]
+		AND c.Life = p.Life
+		)
+		AND (CapCode = 'WStn')
+	WHERE
+		p.[SL2 Finish] < getdate() + ${LOOKAHEAD_DAYS}
+		AND [event sub type] NOT LIKE '${EXCLUDE_TYPE}'
+		AND process like '${PROCESS}'
+END IQ_CSV
+---[L8_CSV]---
+BEGIN L8_CSV
+	---Begin Main Query---
+	Using SQLDB with
+		HostName = "${SQL_NODE}" -- SQL host name to connect to
+		Database = "${CATALOG}" -- Database/catalog name
+		UserID = "${TIPRID}" -- User ID to use for connection (leave blank or specify / for IWA)
+		Password = "${TIPRPW}" -- Password corresponding to the UserID
+	SELECT
+		DISTINCT c.Entity,
+		c.Life,
+		c.Capcode AS capcode8,
+		c.FinishDate AS L8FinishDate
+	FROM
+		dbo.EntityCapabilities AS c
+		INNER JOIN dbo.Primavera AS p ON (
+		c.Entity = p.[Entity Code]
+		AND c.Life = p.Life
+		)
+		AND (CapCode = 'L8')
+	WHERE
+		p.[SL2 Finish] < getdate() + ${LOOKAHEAD_DAYS}
+		AND [event sub type] NOT LIKE '${EXCLUDE_TYPE}'
+		AND process like '${PROCESS}'
+END L8_CSV
+---[IT_CSV]---
+BEGIN IT_CSV
+	---Begin Main Query---
+	Using SQLDB with
+		HostName = "${SQL_NODE}" -- SQL host name to connect to
+		Database = "${CATALOG}" -- Database/catalog name
+		UserID = "${TIPRID}" -- User ID to use for connection (leave blank or specify / for IWA)
+		Password = "${TIPRPW}" -- Password corresponding to the UserID
+	SELECT
+		DISTINCT c.Entity,
+		c.Life,
+		c.FinishDate AS ITFinishDate
+	FROM
+		dbo.EntityCapabilities AS c
+		INNER JOIN dbo.Primavera AS p ON (
+		c.Entity = p.[Entity Code]
+		AND c.Life = p.Life
+		)
+		AND (CapCode = 'Net')
+	WHERE
+		p.[SL2 Finish] < getdate() + ${LOOKAHEAD_DAYS}
+		AND [event sub type] NOT LIKE '${EXCLUDE_TYPE}'
+		AND process like '${PROCESS}'
+END IT_CSV
+---[ACES_CSV]---
+BEGIN ACES_CSV
+	---Begin Main Query---
+	Using SQLDB with
+		HostName = "${SQL_NODE}" -- SQL host name to connect to
+		Database = "${CATALOG}" -- Database/catalog name
+		UserID = "${TIPRID}" -- User ID to use for connection (leave blank or specify / for IWA)
+		Password = "${TIPRPW}" -- Password corresponding to the UserID
+	SELECT
+		DISTINCT c.Entity,
+		c.Life,
+		c.FinishDate AS ACESFinishDate
+	FROM
+		dbo.EntityCapabilities AS c
+		INNER JOIN dbo.Primavera AS p ON (
+		c.Entity = p.[Entity Code]
+		AND c.Life = p.Life
+		)
+		AND (CapCode = 'WC')
+	WHERE
+		p.[SL2 Finish] < getdate() + ${LOOKAHEAD_DAYS}
+		AND [event sub type] NOT LIKE '${EXCLUDE_TYPE}'
+		AND process like '${PROCESS}'
+END ACES_CSV
+---[ASIS_CSV]---
+BEGIN ASIS_CSV
+	---Begin Main Query---
+	Using SQLDB with
+		HostName = "${SQL_NODE}" -- SQL host name to connect to
+		Database = "${CATALOG}" -- Database/catalog name
+		UserID = "${TIPRID}" -- User ID to use for connection (leave blank or specify / for IWA)
+		Password = "${TIPRPW}" -- Password corresponding to the UserID
+	SELECT
+		DISTINCT c.Entity,
+		c.Life,
+		c.FinishDate AS ASISFinishDate
+	FROM
+		dbo.EntityCapabilities AS c
+		INNER JOIN dbo.Primavera AS p ON (
+		c.Entity = p.[Entity Code]
+		AND c.Life = p.Life
+		)
+		AND (CapCode = 'ASIS')
+	WHERE
+		p.[SL2 Finish] < getdate() + ${LOOKAHEAD_DAYS}
+		AND [event sub type] NOT LIKE '${EXCLUDE_TYPE}'
+		AND process like '${PROCESS}'
+END ASIS_CSV
+---[ISSUES_CSV]---
+BEGIN ISSUES_CSV
+	UseMethod QueryOLEDB with -- **Run an OLEDB query**
+		ConnectionString = "Provider=SQLOLEDB.1;User ID=${TIPRID};Password=${TIPRPW};Persist Security Info=True;Data Source=${SQL_NODE}; Initial Catalog=${CATALOG};" -- OLEDB connection string [String]
+		Query = "SELECT Entity, Status, Issue
+FROM dbo.SetupIssues WHERE Status = 'Open'" -- SQL Query to run against OLEDB provider [String]
+END ISSUES_CSV
+---[GETNODES]---
+BEGIN GETNODES
+	---Begin Main Query---
+	Using CSV with
+	SELECT
+		NodeName
+	USING
+		strcat('${PRE}', strcat (Entity, '${POST}')) as NodeName
+	FROM
+		%{OLEDB_CSV}
+END GETNODES
+---[PING_CSV]---
+BEGIN PING_CSV
+	UseMethod GetNodeList with -- **Get the list of nodes matching specified domain and filter**
+		Domain = "" -- Domain to search for nodes in (can be comma-separated-list) [String]
+		NodeFilter = "" -- Pattern to look for nodes (comma-separated-list) [String]
+		ExcludeFilter = "" -- Pattern to exclude from the list of nodes (comma-separated-list) [String]
+		NodeList = "%{GETNODES}" -- Comma separated list of nodes [String]
+		NodeListFile = "" -- Location of file containing list of nodes (one node on each line) [String]
+		OnlyIncludePingableNodes = true -- Only include nodes that can be pinged [Boolean]
+		PingTimeOutInMilliseconds = 2000 -- Ping time-out in milliseconds [Int32]
+		OnlyIncludeNonPingableNodes = false -- Only include nodes that cannot be pinged [Boolean]
+		IncludeIPAddress = true -- Include IPAddress column in output [Boolean]
+END PING_CSV
+---[GETPING_CSV]---
+BEGIN GETPING_CSV
+	---Begin Main Query---
+	Using CSV with
+	SELECT
+		Entity, Pingable_WC
+	USING
+		case IPAddress when Nodename then '' else 'Pingable' end as Pingable_WC,
+		substr(NodeName, 3, 6) as Entity
+	FROM
+		%{PING_CSV}
+	WHERE
+		ipaddress not like '10.32.24%'
+END GETPING_CSV
+---[JOINISSUES_CSV]---
+BEGIN JOINISSUES_CSV
+	UseMethod Join with -- **Do an outer join for two tables based on a matching column**
+		InputFile1 = "%{OLEDB_CSV}" -- Input CSV File #1 containing table data [String]
+		InputFile2 = "%{IQ_CSV}" -- Input CSV File #2 containing table data [String]
+		InputFile3 = "%{L8_CSV}" -- Input CSV File #3 containing table data (optional) [String]
+		InputFile4 = "%{IT_CSV}" -- Input CSV File #4 containing table data (optional) [String]
+		InputFile5 = "%{ACES_CSV}" -- Input CSV File #5 containing table data (optional) [String]
+		InputFile6 = "%{ASIS_CSV}" -- Input CSV File #6 containing table data (optional) [String]
+		JoinColumn = "Entity, Life" -- Column name(s) on which to join the two tables (more than one column can be supplied by using comma as a separator) [String]
+		IgnoreDuplicate = true -- Flag to ignore duplicate items in the JoinColumn [Boolean]
+		IgnoreCase = false -- Flag to ignore case in the JoinColumn [Boolean]
+		OnlyShowNonMatchingRows = false -- Flag to only show non-matching orphan rows [Boolean]
+		IncludeNonMatchingRows = true -- Flag to also include non-matching orphan rows (but with blank entries) [Boolean]
+		MustIncludeOutputColumns = "" -- Name of columns (comma-separated) that must be included in output even if the join does not materialize [String]
+END JOINISSUES_CSV
+---[FINAL_CSV]---
+BEGIN FINAL_CSV
+	UseMethod Join with -- **Do an outer join for two tables based on a matching column**
+		InputFile1 = "%{JOINISSUES_CSV}" -- Input CSV File #1 containing table data [String]
+		InputFile2 = "%{GETPING_CSV}" -- Input CSV File #2 containing table data [String]
+		InputFile3 = "%{ISSUES_CSV}" -- Input CSV File #3 containing table data (optional) [String]
+		InputFile4 = "" -- Input CSV File #4 containing table data (optional) [String]
+		InputFile5 = "" -- Input CSV File #5 containing table data (optional) [String]
+		InputFile6 = "" -- Input CSV File #6 containing table data (optional) [String]
+		JoinColumn = "Entity" -- Column name(s) on which to join the two tables (more than one column can be supplied by using comma as a separator) [String]
+		IgnoreDuplicate = true -- Flag to ignore duplicate items in the JoinColumn [Boolean]
+		IgnoreCase = false -- Flag to ignore case in the JoinColumn [Boolean]
+		OnlyShowNonMatchingRows = false -- Flag to only show non-matching orphan rows [Boolean]
+		IncludeNonMatchingRows = true -- Flag to also include non-matching orphan rows (but with blank entries) [Boolean]
+		MustIncludeOutputColumns = "" -- Name of columns (comma-separated) that must be included in output even if the join does not materialize [String]
+END FINAL_CSV
+---Begin Main Query---
+Using CSV with
+SELECT
+	Entity,
+	[CE Code],
+	life,
+	Process,
+	Building,
+	Bay,
+	FA as Area,
+	[WS Tie],
+	[Event Sub Type],
+	SL2Finish,
+	IQFinishDate,
+	ITFinishDate,
+	ACESFinishDate,
+	Pingable_WC,
+	FinishDate,
+	ASISFinishDate,
+	L8FinishDate,
+	CapCode,
+	CapCode8,
+	PCAMTransferSent,
+	L8TransferSent,
+	PFIOwner,
+	Status,
+	Issue,
+	PFI
+FROM
+	%{Final_CSV}
+ORDER BY
+	SL2Finish, entity
+
+]]></QuerySQL>
+</QueryConfig>

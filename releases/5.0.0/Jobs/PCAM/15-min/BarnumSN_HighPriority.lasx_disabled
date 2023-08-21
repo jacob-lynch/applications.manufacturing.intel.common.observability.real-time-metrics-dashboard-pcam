@@ -1,0 +1,362 @@
+<QueryConfig AutoExecuteQueryOnLoad="false" PreventSQLBeautification="false">
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 8/4/2016 4:57:52 PM from RF3PAP216N3.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.9.60608.1636</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_penarvae on 8/27/2014 4:34:22 PM from RF3PAP216N1.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.8.40713.1943</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 4/9/2014 2:07:46 PM from RF3PTS216.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.7.40407.1754</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 4/9/2014 2:07:30 PM from RF3PTS216.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.7.40407.1754</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 4/9/2014 2:06:26 PM from RF3PTS216.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.7.40407.1754</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 4/9/2014 2:05:08 PM from RF3PTS216.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.7.40407.1754</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 4/9/2014 2:05:02 PM from RF3PTS216.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.7.40407.1754</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 4/9/2014 2:02:17 PM from RF3PTS216.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.7.40407.1754</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 4/9/2014 2:02:10 PM from RF3PTS216.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.7.40407.1754</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 4/9/2014 2:00:28 PM from RF3PTS216.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.7.40407.1754</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 4/9/2014 1:28:41 PM from RF3PTS216.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.7.40407.1754</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 4/9/2014 12:58:29 PM from RF3PTS216.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.7.40407.1754</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_penarvae on 4/8/2014 10:40:45 PM from RF3PAP216N3.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.7.40203.0000</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 4/8/2014 4:45:27 PM from RF3PTS216.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.7.40407.1754</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 4/8/2014 4:44:27 PM from RF3PTS216.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.7.40407.1754</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 4/8/2014 4:43:11 PM from RF3PTS216.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.7.40407.1754</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 4/8/2014 4:43:06 PM from RF3PTS216.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.7.40407.1754</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 4/8/2014 4:00:38 PM from RF3PTS216.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.7.40407.1754</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 4/8/2014 4:00:20 PM from RF3PTS216.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.7.40407.1754</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 4/8/2014 4:00:15 PM from RF3PTS216.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.7.40407.1754</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 4/8/2014 3:06:50 PM from RF3PTS216.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.7.40407.1754</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 4/8/2014 2:45:33 PM from RF3PTS216.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.7.40407.1754</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 4/8/2014 2:43:25 PM from RF3PTS216.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.7.40407.1754</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 4/8/2014 2:35:07 PM from RF3PTS216.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.7.40407.1754</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 4/8/2014 2:33:59 PM from RF3PTS216.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.7.40407.1754</ChangeLog>
+  <QueryAttributes>
+    <RowThresholdForPivotGrid>1000000</RowThresholdForPivotGrid>
+    <AlwaysReplaceDomainWithLocal>false</AlwaysReplaceDomainWithLocal>
+  </QueryAttributes>
+  <PostQuerySQL>select * from %{OUTPUT}</PostQuerySQL>
+  <TableLayoutConfig>
+    <BoundColumnList>DateTime,NodeName,EventLog,EventID,EventTypeName,Category,SourceName,UserID,Message,Strings</BoundColumnList>
+  </TableLayoutConfig>
+  <RowHighlightingRules Enable="true" ColumnName="*" FilterRegex="Error" RowColorString="NamedColor:Red" />
+  <RowHighlightingRules Enable="true" ColumnName="*" FilterRegex="Warning" RowColorString="NamedColor:Yellow" />
+  <TabOrder>C0,C1,C2,C3,C4,C5,C6,C7</TabOrder>
+  <MainPivotConfig Enable="true">
+    <QuerySQL>----------&lt;VARIABLES&gt;------------
+var TIMEFILTER = "last 1 month"
+---Begin Main Query---
+SELECT
+	*
+FROM
+	%{OUTPUT}
+WHERE
+	ApplyTimeRangeFilter(created_on, '${TIMEFILTER}')
+</QuerySQL>
+    <ColumnX FieldName="created_on" FieldType="String" SortMode="Default" SortOrder="Ascending" SummaryType="Sum" SortBySummaryInfo="false" />
+    <ColumnY FieldName="" FieldType="" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <ColumnData FieldName="COUNT OF" FieldType="Int32" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <XaxisLabelSpacing>2</XaxisLabelSpacing>
+    <ChartType>Spline</ChartType>
+    <Name>High Priority Last Month daily trend</Name>
+    <ChartTitle>Barnum 911 Daily Trend - Last Month</ChartTitle>
+    <ColorPalette>Office</ColorPalette>
+    <ChartExportSize>525x300</ChartExportSize>
+    <ThresholdLineValue>M+3S</ThresholdLineValue>
+    <AlwaysShowThresholdLines>true</AlwaysShowThresholdLines>
+    <ShowLegend>false</ShowLegend>
+    <TimeIntervalForDateScale>1d</TimeIntervalForDateScale>
+    <DateFormat>Auto</DateFormat>
+    <CustomPalette />
+    <TableData />
+  </MainPivotConfig>
+  <MainPivotConfig Enable="true">
+    <QuerySQL>----------&lt;VARIABLES&gt;------------
+var TIMEFILTER = "this year"
+---Begin Main Query---
+SELECT
+	*
+FROM
+	%{OUTPUT}
+WHERE
+	ApplyTimeRangeFilter(created_on, '${TIMEFILTER}')
+</QuerySQL>
+    <ColumnX FieldName="created_on" FieldType="String" SortMode="Default" SortOrder="Ascending" SummaryType="Sum" SortBySummaryInfo="false" />
+    <ColumnY FieldName="" FieldType="" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <ColumnData FieldName="COUNT OF" FieldType="Int32" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <XaxisLabelSpacing>2</XaxisLabelSpacing>
+    <ChartType>Spline</ChartType>
+    <Name>High Priority This Year weekly trend</Name>
+    <ChartTitle>Barnum 911 Weekly Trend - This Year</ChartTitle>
+    <ColorPalette>Office</ColorPalette>
+    <ChartExportSize>525x300</ChartExportSize>
+    <ThresholdLineValue>M+3S</ThresholdLineValue>
+    <AlwaysShowThresholdLines>true</AlwaysShowThresholdLines>
+    <ShowLegend>false</ShowLegend>
+    <TimeIntervalForDateScale>1w</TimeIntervalForDateScale>
+    <DateFormat>Auto</DateFormat>
+    <CustomPalette />
+    <TableData />
+  </MainPivotConfig>
+  <MainPivotConfig Enable="true">
+    <QuerySQL>----------&lt;VARIABLES&gt;------------
+var TIMEFILTER = "last 1 year (prev mode)"
+---Begin Main Query---
+SELECT
+	*
+FROM
+	%{OUTPUT}
+WHERE
+	ApplyTimeRangeFilter(created_on, '${TIMEFILTER}')
+</QuerySQL>
+    <ColumnX FieldName="created_on" FieldType="String" SortMode="Default" SortOrder="Ascending" SummaryType="Sum" SortBySummaryInfo="false" />
+    <ColumnY FieldName="" FieldType="" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <ColumnData FieldName="COUNT OF" FieldType="Int32" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <XaxisLabelSpacing>2</XaxisLabelSpacing>
+    <ChartType>Spline</ChartType>
+    <Name>High Priority Last Year weekly trend</Name>
+    <ChartTitle>Barnum 911 Weekly Trend - Last Year</ChartTitle>
+    <ColorPalette>Office</ColorPalette>
+    <ChartExportSize>525x300</ChartExportSize>
+    <ThresholdLineValue>M+3S</ThresholdLineValue>
+    <AlwaysShowThresholdLines>true</AlwaysShowThresholdLines>
+    <ShowLegend>false</ShowLegend>
+    <TimeIntervalForDateScale>1w</TimeIntervalForDateScale>
+    <DateFormat>Auto</DateFormat>
+    <CustomPalette />
+    <TableData />
+  </MainPivotConfig>
+  <MainPivotConfig Enable="true">
+    <QuerySQL>----------&lt;VARIABLES&gt;------------
+var TIMEFILTER = "this year"
+---Begin Main Query---
+SELECT
+	*
+FROM
+	%{OUTPUT}
+WHERE
+	ApplyTimeRangeFilter(created_on, '${TIMEFILTER}')
+</QuerySQL>
+    <ColumnX FieldName="change_type" FieldType="String" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="true" SortBySummaryInfoFieldName="COUNT OF" />
+    <ColumnY FieldName="" FieldType="" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <ColumnData FieldName="COUNT OF" FieldType="DateTime" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <TopN>10</TopN>
+    <RotateXAxisLabels>false</RotateXAxisLabels>
+    <Name>High Priority This Year by Change Type</Name>
+    <ChartTitle>Top 10 Barnum 911 Requests - This Year</ChartTitle>
+    <ColorPalette>Office</ColorPalette>
+    <ChartExportSize>525x300</ChartExportSize>
+    <ThresholdLineValue />
+    <AlwaysShowThresholdLines>true</AlwaysShowThresholdLines>
+    <ShowLegend>false</ShowLegend>
+    <TimeIntervalForDateScale>1w</TimeIntervalForDateScale>
+    <DateFormat>Auto</DateFormat>
+    <CustomPalette />
+    <TableData />
+  </MainPivotConfig>
+  <MainPivotConfig Enable="true">
+    <QuerySQL>----------&lt;VARIABLES&gt;------------
+var TIMEFILTER = "this year"
+---Begin Main Query---
+SELECT
+	*
+FROM
+	%{OUTPUT}
+WHERE
+	ApplyTimeRangeFilter(created_on, '${TIMEFILTER}')
+</QuerySQL>
+    <ColumnX FieldName="requestor" FieldType="String" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="true" SortBySummaryInfoFieldName="COUNT OF" />
+    <ColumnY FieldName="" FieldType="" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <ColumnData FieldName="COUNT OF" FieldType="DateTime" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <TopN>10</TopN>
+    <RotateXAxisLabels>false</RotateXAxisLabels>
+    <Name>High Priority This Year by Customer</Name>
+    <ChartTitle>Top 10 Barnum 911 Requestors - This Year</ChartTitle>
+    <ColorPalette>Office</ColorPalette>
+    <ChartExportSize>525x300</ChartExportSize>
+    <ThresholdLineValue />
+    <AlwaysShowThresholdLines>true</AlwaysShowThresholdLines>
+    <ShowLegend>false</ShowLegend>
+    <TimeIntervalForDateScale>1w</TimeIntervalForDateScale>
+    <DateFormat>Auto</DateFormat>
+    <CustomPalette />
+    <TableData />
+  </MainPivotConfig>
+  <MainPivotConfig Enable="true">
+    <QuerySQL>----------&lt;VARIABLES&gt;------------
+var TIMEFILTER = "this year"
+---Begin Main Query---
+SELECT
+	*
+FROM
+	%{OUTPUT}
+WHERE
+	ApplyTimeRangeFilter(created_on, '${TIMEFILTER}')
+</QuerySQL>
+    <ColumnX FieldName="u_functional_area" FieldType="String" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="true" SortBySummaryInfoFieldName="COUNT OF" />
+    <ColumnY FieldName="" FieldType="" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <ColumnData FieldName="COUNT OF" FieldType="DateTime" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <TopN>10</TopN>
+    <RotateXAxisLabels>false</RotateXAxisLabels>
+    <Name>High Priority This Year by Area</Name>
+    <ChartTitle>Top 10 Barnum 911 Areas - This Year</ChartTitle>
+    <ColorPalette>Office</ColorPalette>
+    <ChartExportSize>525x300</ChartExportSize>
+    <ThresholdLineValue />
+    <AlwaysShowThresholdLines>true</AlwaysShowThresholdLines>
+    <ShowLegend>false</ShowLegend>
+    <TimeIntervalForDateScale>1w</TimeIntervalForDateScale>
+    <DateFormat>Auto</DateFormat>
+    <CustomPalette />
+    <TableData />
+  </MainPivotConfig>
+  <MainPivotConfig Enable="true">
+    <QuerySQL>---Begin Main Query---
+Using CSV with
+SELECT
+	created,
+	count(*) as number
+USING
+	quantize(to_time(created_on), 3600) as created
+FROM
+	%{OUTPUT}
+GROUP BY
+	CREATED
+</QuerySQL>
+    <ColumnX FieldName="created" FieldType="String" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <ColumnY FieldName="" FieldType="" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <ColumnData FieldName="number" FieldType="Int32" SortMode="Default" SortOrder="Ascending" SummaryType="Average" SortBySummaryInfo="false" />
+    <ChartType>Spline</ChartType>
+    <RotateXAxisLabels>false</RotateXAxisLabels>
+    <Name>Incoming Barnum 911 by Hour - All Time</Name>
+    <ChartTitle>Incoming Barnum 911 by Hour - All Time</ChartTitle>
+    <ColorPalette>Office</ColorPalette>
+    <ChartExportSize>525x300</ChartExportSize>
+    <ThresholdLineValue />
+    <AlwaysShowThresholdLines>true</AlwaysShowThresholdLines>
+    <ShowLegend>false</ShowLegend>
+    <TimeIntervalForDateScale>1w</TimeIntervalForDateScale>
+    <DateFormat>Auto</DateFormat>
+    <CustomPalette />
+    <TableData />
+  </MainPivotConfig>
+  <MainPivotConfig Enable="true">
+    <QuerySQL>----------&lt;VARIABLES&gt;------------
+var TIMEFILTER = "this year"
+---Begin Main Query---
+SELECT
+	*
+FROM
+	%{OUTPUT}
+WHERE
+	ApplyTimeRangeFilter(created_on, '${TIMEFILTER}')
+</QuerySQL>
+    <ColumnX FieldName="requestor_manager" FieldType="String" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="true" SortBySummaryInfoFieldName="COUNT OF" />
+    <ColumnY FieldName="" FieldType="" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <ColumnData FieldName="COUNT OF" FieldType="DateTime" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <TopN>10</TopN>
+    <RotateXAxisLabels>false</RotateXAxisLabels>
+    <Name>High Priority This Year by GL</Name>
+    <ChartTitle>Top 10 Barnum 911 GLs - This Year</ChartTitle>
+    <ColorPalette>Office</ColorPalette>
+    <ChartExportSize>525x300</ChartExportSize>
+    <ThresholdLineValue />
+    <AlwaysShowThresholdLines>true</AlwaysShowThresholdLines>
+    <ShowLegend>false</ShowLegend>
+    <TimeIntervalForDateScale>1w</TimeIntervalForDateScale>
+    <DateFormat>Auto</DateFormat>
+    <CustomPalette />
+    <TableData />
+  </MainPivotConfig>
+  <AutoPivotConfig OutputDateFormat="yyyy ww.w HH:mm" StatisticalFunctionsForColumn="Avg, 50, 90,96, Count" />
+  <MailConfig>
+    <PostProcessingSQL Enable="false" />
+    <EmailCondition Enable="false" Operator="&gt;=" ThresholdRowCount="0">
+      <SQLQuery />
+      <RunScriptBeforeEmailing>false</RunScriptBeforeEmailing>
+      <Script />
+    </EmailCondition>
+    <PostProcessingCondition Enable="false" Operator="&gt;" ThresholdRowCount="0">
+      <SQLQuery />
+      <RunScriptBeforeEmailing>false</RunScriptBeforeEmailing>
+    </PostProcessingCondition>
+    <CopyCondition Enable="false" Operator="&gt;" ThresholdRowCount="">
+      <SQLQuery />
+      <RunScriptBeforeEmailing>false</RunScriptBeforeEmailing>
+    </CopyCondition>
+    <SMTPServer>smtp.intel.com</SMTPServer>
+    <From>LogAnalyzer2@intel.com</From>
+    <ReplyTo>@{DASHBOARD_OWNER_ALERT_DIST}</ReplyTo>
+    <To />
+    <Subject>[${DOMAIN}] Barnum High Priority</Subject>
+    <Body />
+    <OnlyProcessIfOutputChangedFromPreviousRun>false</OnlyProcessIfOutputChangedFromPreviousRun>
+    <MailAttachments FileNamingFormat="${SETTINGS}" Excel="false" CSV="false" LAS="false" LAD="false" Exceptions="false" StatusLogs="false" PivotChart="true" ZipAttachments="false" DoNotSendAttachmentsWithEmail="false" IncludeJobStatisticsHeader="false" IncludeQuerySettingsFileHeader="false" IncludeVariableDefinitionHeader="false" IncludeRowCountInSubject="false" />
+    <IncludeSQLQueryInBody>false</IncludeSQLQueryInBody>
+    <TableInBody Enable="true">
+      <SQL />
+    </TableInBody>
+    <CopyOutputToDirectory>true</CopyOutputToDirectory>
+    <OutputDirectory>@{DASHBOARD_WEB_SPOOL}\PCAM\Output</OutputDirectory>
+    <IncludeAutoPivotSummary>false</IncludeAutoPivotSummary>
+    <IncludeCustomPivotSummary>false</IncludeCustomPivotSummary>
+    <IgnoreExceptions>true</IgnoreExceptions>
+    <OnlyCopyOutputIfEmailConditionIsMet>false</OnlyCopyOutputIfEmailConditionIsMet>
+  </MailConfig>
+  <TableSchema><xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+  <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="Results" msdata:UseCurrentLocale="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Results">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="created_on" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="resolved_at" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="closed_at" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="incident_state" type="xs:string" minOccurs="0" />
+              <xs:element name="requestor" type="xs:string" minOccurs="0" />
+              <xs:element name="assigned_to_person" type="xs:string" minOccurs="0" />
+              <xs:element name="opened_by" type="xs:string" minOccurs="0" />
+              <xs:element name="requestor_manager" type="xs:string" minOccurs="0" />
+              <xs:element name="change_type" type="xs:string" minOccurs="0" />
+              <xs:element name="barnum_priority_reason" type="xs:string" minOccurs="0" />
+              <xs:element name="ait_fab_impact" type="xs:string" minOccurs="0" />
+              <xs:element name="parent" type="xs:string" minOccurs="0" />
+              <xs:element name="number" type="xs:string" minOccurs="0" />
+              <xs:element name="u_process" type="xs:string" minOccurs="0" />
+              <xs:element name="u_functional_area" type="xs:string" minOccurs="0" />
+              <xs:element name="sys_created_on" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="short_description" type="xs:string" minOccurs="0" />
+              <xs:element name="calendar_duration" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="resolve_time" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
+</TableSchema>
+  <TableData />
+  <LastRunAbsoluteDateFilter />
+  <PivotGroupingSettings PivotColumn="">
+    <SortyByColumn>Count</SortyByColumn>
+  </PivotGroupingSettings>
+  <QuerySQL><![CDATA[
+--[FileName:"D:\Dashboard\Jobs\PCAM\15-min\BarnumSN_HighPriority.lasx"]------
+----------<VARIABLES>------------
+var TIMEFILTER = "All"
+var SQL_NODE = "@{BARNUMSN_SQL_NODE}"
+var CATALOG = "@{BARNUMSN_CATALOG}"
+var TABLE = "@{BARNUMSN_TABLE}"
+var BLINK = "@{BARNUMSN_LINK}"
+---Begin Main Query---
+Using SQLDB with
+	HostName = "${SQL_NODE}"
+	Database = "${CATALOG}"
+	UserID = "SN_Reports"
+	Password = "SN_Reports"
+SELECT
+	*
+FROM
+	${TABLE}
+WHERE
+	barnum_Priority = 'High'
+	ORDER  BY
+	created_on DESC
+
+]]></QuerySQL>
+</QueryConfig>

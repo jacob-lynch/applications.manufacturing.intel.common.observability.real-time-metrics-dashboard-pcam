@@ -1,0 +1,181 @@
+<QueryConfig AutoExecuteQueryOnLoad="false" PreventSQLBeautification="false">
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 6/13/2017 8:38:56 AM from RF3PVAP416N19.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.9.60808.1615</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 6/13/2017 8:37:42 AM from RF3PVAP416N19.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.9.60808.1615</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_kjdejong on 11/10/2016 4:32:50 PM from RF3PVAP416N19.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.9.60808.1615</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_kjdejong on 11/7/2016 10:58:40 AM from RF3PVAP416N19.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.9.60808.1615</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_kjdejong on 11/7/2016 10:58:07 AM from RF3PVAP416N19.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.9.60808.1615</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_kjdejong on 11/1/2016 5:33:38 PM from RF3PVAP416N19.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.9.60808.1615</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_kjdejong on 11/1/2016 5:31:56 PM from RF3PVAP416N19.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.9.60808.1615</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_kjdejong on 10/11/2016 4:00:34 PM from RF3PVAP416N19.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.9.60808.1615</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_kjdejong on 10/11/2016 3:59:51 PM from RF3PVAP416N19.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.9.60808.1615</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_kjdejong on 10/11/2016 3:19:47 PM from RF3PVAP416N19.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.9.60808.1615</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 2/10/2016 12:53:43 PM from RF3PAP216N4.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.9.60128.0019</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 2/10/2016 12:52:28 PM from RF3PAP216N4.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.9.60128.0019</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 2/9/2016 1:52:36 PM from RF3PRD415N1.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.9.60127.2349</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 2/9/2016 10:56:49 AM from RF3PAP216N4.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.9.60128.0019</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 2/9/2016 10:56:05 AM from RF3PAP216N4.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.9.60128.0019</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 2/9/2016 10:55:48 AM from RF3PAP216N4.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.9.60128.0019</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 2/9/2016 10:22:27 AM from RF3PAP216N4.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.9.60128.0019</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 2/9/2016 10:19:13 AM from RF3PAP216N4.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.9.60128.0019</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 2/9/2016 10:18:42 AM from RF3PAP216N4.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.9.60128.0019</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 2/9/2016 10:01:00 AM from RF3PAP216N4.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.9.60128.0019</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 2/9/2016 9:27:17 AM from RF3PAP216N4.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.9.60128.0019</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 2/9/2016 9:24:36 AM from RF3PAP216N4.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.9.60128.0019</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 2/8/2016 8:47:47 PM from RF3PRD415N1.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.9.60127.2349</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 2/8/2016 8:45:49 PM from RF3PRD415N1.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.9.60127.2349</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 2/8/2016 8:35:31 PM from RF3PRD415N1.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.9.60127.2349</ChangeLog>
+  <QueryAttributes>
+    <AlwaysReplaceDomainWithLocal>false</AlwaysReplaceDomainWithLocal>
+  </QueryAttributes>
+  <PostQuerySQL>select * from %{OUTPUT}</PostQuerySQL>
+  <TableLayoutConfig>
+    <BoundColumnList>EquipGroup,ENTITY,ENTITY_DELETED_FLAG,CEGoldTool</BoundColumnList>
+  </TableLayoutConfig>
+  <RowHighlightingRules Enable="true" ColumnName="TotalGoldTools" FilterRegex="=0" RowColorString="NamedColor:Red" />
+  <TabOrder>C0</TabOrder>
+  <MainPivotConfig>
+    <ColumnX FieldName="" FieldType="" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <ColumnY FieldName="" FieldType="" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <ColumnData FieldName="" FieldType="" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <CustomPalette />
+    <TableData />
+  </MainPivotConfig>
+  <AutoPivotConfig OutputDateFormat="yyyy ww.w hh tt" />
+  <MailConfig>
+    <PostProcessingSQL Enable="false" />
+    <EmailCondition Enable="true" Operator="&gt;" ThresholdRowCount="0">
+      <SQLQuery />
+      <RunScriptBeforeEmailing>false</RunScriptBeforeEmailing>
+      <Script />
+    </EmailCondition>
+    <PostProcessingCondition Enable="false" Operator="&gt;" ThresholdRowCount="0">
+      <SQLQuery />
+      <RunScriptBeforeEmailing>false</RunScriptBeforeEmailing>
+    </PostProcessingCondition>
+    <CopyCondition Enable="false" Operator="&gt;" ThresholdRowCount="">
+      <SQLQuery />
+      <RunScriptBeforeEmailing>false</RunScriptBeforeEmailing>
+    </CopyCondition>
+    <SMTPServer>smtp.intel.com</SMTPServer>
+    <From>LogAnalyzer2@intel.com</From>
+    <ReplyTo>@{DASHBOARD_OWNER_ALERT_DIST}</ReplyTo>
+    <To>@{PCAM_MONITOR_EMAIL}</To>
+    <Subject>[${DOMAIN}] MES EquipGroup Gold Tool Audit</Subject>
+    <Body>&lt;b&gt;&lt;font color="red"&gt;Action Required - The EquipGroup(s) listed below have no CEGoldTool Defined.&lt;/font&gt;&lt;/b&gt;
+&lt;br&gt;
+&lt;br&gt;
+The EquipGroup(s) listed below have entities associated, but none of them have the CEGoldTool UDA enabled. In order to correct please update in MES300. 
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;Additional details can be found &lt;a href="http://autowiki.intel.com/index.php?title=AIT_Monitor_pages_and_response#MES_EquipGroup_Gold_Tool_Audit"&gt;here&lt;/a&gt;.&lt;/b&gt;
+&lt;br&gt;
+&lt;br&gt;
+</Body>
+    <MailAttachments FileNamingFormat="${SETTINGS}" Excel="false" CSV="false" LAS="false" LAD="false" Exceptions="false" StatusLogs="false" PivotChart="false" ZipAttachments="false" DoNotSendAttachmentsWithEmail="false" IncludeJobStatisticsHeader="false" IncludeQuerySettingsFileHeader="false" IncludeVariableDefinitionHeader="false" IncludeRowCountInSubject="false" />
+    <IncludeSQLQueryInBody>false</IncludeSQLQueryInBody>
+    <TableInBody Enable="true">
+      <SQL />
+    </TableInBody>
+    <CopyOutputToDirectory>false</CopyOutputToDirectory>
+    <OutputDirectory>@{DASHBOARD_WEB_SPOOL}\PCAM\Output</OutputDirectory>
+    <IncludeAutoPivotSummary>false</IncludeAutoPivotSummary>
+    <IgnoreExceptions>false</IgnoreExceptions>
+    <OnlyCopyOutputIfEmailConditionIsMet>false</OnlyCopyOutputIfEmailConditionIsMet>
+  </MailConfig>
+  <TableSchema />
+  <TableData />
+  <LastRunAbsoluteDateFilter />
+  <PivotGroupingSettings PivotColumn="">
+    <SortyByColumn>Count</SortyByColumn>
+  </PivotGroupingSettings>
+  <QuerySQL><![CDATA[
+--[FileName:"D:\Dashboard\Jobs\PCAM\Monitor-24hr\MES EquipGroup Gold Tool Audit_XEUS.lasx"]------
+----------<VARIABLES>------------
+var MAO_USERID_INTERNAL = "@{USERID_NON_MFG}"
+var DATA_SOURCE = "@{LOCALXEUSDATASOURCE}"
+var FA_EXCLUDE = "@{MES300_FA_EXCLUDE}"
+var SITE_EXCLUDE = "@{MES300_SITE_EXCLUDE}"
+var ENTITY_EXCLUDE = "@{MES300_EQUIPGROUP_ENTITY_EXCLUDE}"
+---[MES300_CSV]---
+BEGIN MES300_CSV
+	---Begin Main Query---
+	Using UNIQE with
+		DataSource = "${DATA_SOURCE}" -- UNIQE data source to query
+		Authentication = "UNP" -- User Authentication Mode
+		UserId = "${MAO_USERID_INTERNAL}" -- User ID for authentication
+	SELECT
+	  m.ENTITY           "Entity",
+	  m.ENTITY_GROUP     "EquipGroup",
+	  m.CURRENT_SITE     "Site",
+	  m.FUNCTIONAL_AREA  "FunctionalArea",
+	  av.ATTRIBUTE_NAME  "AttributeName",
+	  av.ATTRIBUTE_VALUE "AttributeValue"
+	FROM
+	  F_ENTITY m
+	  LEFT OUTER JOIN F_ENTITYATTRIBUTE av
+		ON ( m.ENTITY = av.ENTITY )
+	WHERE
+	  ATTRIBUTE_NAME = 'CEGoldTool'
+	  AND m.ENTITY_DELETED_FLAG != 'Y'
+	  AND m.OBJECT_STATUS = '1'
+	  AND av.HISTORY_DELETED_FLAG = 'N'
+	  AND NOT Isinlist(m.FUNCTIONAL_AREA, '${FA_EXCLUDE}')
+	  AND NOT Isinlist(m.CURRENT_SITE, '${SITE_EXCLUDE}')
+	  AND NOT Isinlist(m.ENTITY, '${ENTITY_EXCLUDE}')
+	ORDER  BY
+	  m.ENTITY_GROUP,
+	  m.ENTITY 
+END MES300_CSV
+---[SUM_CSV]---
+BEGIN SUM_CSV
+	---Begin Main Query---
+	Using CSV with
+	SELECT
+		EquipGroup,
+		SUM(AttributeValue) as NumberOfGoldTools
+	FROM
+		%{MES300_CSV}
+	GROUP BY
+		EquipGroup
+	ORDER BY
+		EquipGroup
+END SUM_CSV
+---[GROUP_CSV]---
+BEGIN GROUP_CSV
+	UseMethod MergeRows with -- **Merge consecutive rows in a given table based on matching column values**
+		InputFiles = "%{MES300_CSV}" -- Input files (comma-separated) containing table data [String]
+		MergeKeyColumn = "EquipGroup" -- Columns (comma-separated) to use for comparing values between consecutive rows before merging [String]
+		ColumnsToMerge = "Entity" -- Columns (comma-separated) whose values will be merged [String]
+		RemoveDuplicatesWhenMerging = false -- Remove duplicate values when merging columns [Boolean]
+		IgnoreEmptyValuesWhenMerging = false -- Ignore empty column values when merging [Boolean]
+		LineSeparator = ", " -- Line separator to use when merging consecutive consecutive rows [String]
+		MaxRowsToMerge = -1 -- Maximum number of rows to merge [Int32]
+		MaxCellSizeInBytes = 100000 -- Maximum size of merged cell in bytes [Int32]
+END GROUP_CSV
+---[JOIN_CSV]---
+BEGIN JOIN_CSV
+	UseMethod Join with -- **Do an outer join for two tables based on a matching column**
+		InputFile1 = "%{SUM_CSV}" -- Input CSV File #1 containing table data [String]
+		InputFile2 = "%{GROUP_CSV}" -- Input CSV File #2 containing table data [String]
+		JoinColumn = "EquipGroup" -- Column name(s) on which to join the two tables (more than one column can be supplied by using comma as a separator) [String]
+		IgnoreDuplicate = false -- Flag to ignore duplicate items in the JoinColumn [Boolean]
+		IgnoreCase = false -- Flag to ignore case in the JoinColumn [Boolean]
+		OnlyShowNonMatchingRows = false -- Flag to only show non-matching orphan rows [Boolean]
+		IncludeNonMatchingRows = false -- Flag to also include non-matching orphan rows (but with blank entries) [Boolean]
+		MustIncludeOutputColumns = "" -- Name of columns (comma-separated) that must be included in output even if the join does not materialize [String]
+		OrderBy = "" -- Name of column(s) to sort the resulting table by [String]
+END JOIN_CSV
+---Begin Main Query---
+Using CSV with
+SELECT
+	EquipGroup as [EquipGroup],
+	ENTITY as [Entity(s) Using EquipGroup]
+FROM
+	%{JOIN_CSV}
+WHERE
+	NumberOfGoldTools = '0'
+ORDER BY
+	EquipGroup
+
+]]></QuerySQL>
+</QueryConfig>

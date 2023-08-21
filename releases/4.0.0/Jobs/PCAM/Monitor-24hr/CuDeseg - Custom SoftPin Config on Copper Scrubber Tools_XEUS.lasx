@@ -1,0 +1,204 @@
+<QueryConfig AutoExecuteQueryOnLoad="false" PreventSQLBeautification="false">
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 10/13/2017 2:38:45 PM from RF3PVAP416N19.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.9.70713.2318</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_kjdejong on 11/7/2016 4:01:44 PM from RF3PVAP416N19.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.9.60808.1615</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 11/10/2014 1:59:01 PM from RF3PAP216N3.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.8.40713.1943</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 8/11/2014 4:33:01 PM from RF3PTS216.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.8.40806.2215</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 8/11/2014 1:02:40 PM from RF3PTS216.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.8.40806.2215</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 8/7/2014 12:11:32 PM from RF3PTS216.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.8.40806.2215</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 8/5/2014 3:12:47 PM from RF3PTS216.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.8.40723.2330</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 8/5/2014 3:07:31 PM from RF3PTS216.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.8.40723.2330</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 8/5/2014 3:06:33 PM from RF3PTS216.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.8.40723.2330</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 8/5/2014 2:59:39 PM from RF3PTS216.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.8.40723.2330</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 8/5/2014 2:59:31 PM from RF3PTS216.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.8.40723.2330</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 8/5/2014 2:45:53 PM from RF3PTS216.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.8.40723.2330</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 8/5/2014 1:35:04 PM from RF3PTS216.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.8.40723.2330</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 8/1/2014 1:42:46 PM from RF3PTS216.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.8.40723.2330</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 8/1/2014 1:35:11 PM from RF3PTS216.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.8.40723.2330</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 8/1/2014 1:25:37 PM from RF3PTS216.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.8.40723.2330</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 8/1/2014 1:24:28 PM from RF3PTS216.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.8.40723.2330</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 7/7/2014 9:30:35 AM from RF3PTS216.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.8.40703.2316</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 7/7/2014 9:21:55 AM from RF3PTS216.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.8.40703.2316</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 7/2/2014 2:16:51 PM from RF3PTS216.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.8.40626.2211</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 7/1/2014 1:50:36 PM from RF3PTS216.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.8.40626.2211</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 6/30/2014 3:10:46 PM from RF3PTS216.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.8.40626.2211</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 10/30/2013 12:51:14 PM from RF3PTS216.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.7.31030.0015</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 10/29/2013 4:37:26 PM from RF3PTS216.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.7.31028.1315</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 10/29/2013 4:31:18 PM from RF3PTS216.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.7.31028.1315</ChangeLog>
+  <QueryAttributes>
+    <RowThresholdForPivotGrid>1000000</RowThresholdForPivotGrid>
+    <AlwaysReplaceDomainWithLocal>false</AlwaysReplaceDomainWithLocal>
+  </QueryAttributes>
+  <PostQuerySQL>select * from %{OUTPUT}</PostQuerySQL>
+  <TableLayoutConfig>
+    <BoundColumnList>DateTime,NodeName,EventLog,EventID,EventTypeName,Category,SourceName,UserID,Message,Strings</BoundColumnList>
+  </TableLayoutConfig>
+  <RowHighlightingRules Enable="true" ColumnName="*" FilterRegex="Error" RowColorString="NamedColor:Red" />
+  <RowHighlightingRules Enable="true" ColumnName="*" FilterRegex="Warning" RowColorString="NamedColor:Yellow" />
+  <TabOrder>C0</TabOrder>
+  <MainPivotConfig>
+    <ColumnX FieldName="" FieldType="" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <ColumnY FieldName="" FieldType="" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <ColumnData FieldName="" FieldType="" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <CustomPalette />
+    <TableData />
+  </MainPivotConfig>
+  <AutoPivotConfig OutputDateFormat="yyyy ww.w HH:mm" StatisticalFunctionsForColumn="Avg, 50, 90,96, Count" />
+  <MailConfig>
+    <PostProcessingSQL Enable="false" />
+    <EmailCondition Enable="true" Operator="&gt;" ThresholdRowCount="0">
+      <SQLQuery />
+      <RunScriptBeforeEmailing>false</RunScriptBeforeEmailing>
+      <Script />
+    </EmailCondition>
+    <PostProcessingCondition Enable="false" Operator="&gt;" ThresholdRowCount="0">
+      <SQLQuery />
+      <RunScriptBeforeEmailing>false</RunScriptBeforeEmailing>
+    </PostProcessingCondition>
+    <CopyCondition Enable="false" Operator="&gt;" ThresholdRowCount="">
+      <SQLQuery />
+      <RunScriptBeforeEmailing>false</RunScriptBeforeEmailing>
+    </CopyCondition>
+    <SMTPServer>smtp.intel.com</SMTPServer>
+    <From>LogAnalyzer2@intel.com</From>
+    <ReplyTo>@{DASHBOARD_OWNER_ALERT_DIST}</ReplyTo>
+    <To>@{PCAM_MONITOR_EMAIL}</To>
+    <Subject>CuDeseg - Custom SoftPin Config on Copper Scrubber Tools</Subject>
+    <Body>&lt;b&gt;&lt;font color="red"&gt;Action Required - A Copper Scrubber Tool is Incorrectly Configured for SoftPin.&lt;/font&gt;&lt;/b&gt;
+&lt;br&gt;
+&lt;br&gt;
+The copper scrubber tool(s) listed below have incorrect SoftPin configuration.  Update as outlined in the &lt;b&gt;Action Required&lt;/b&gt; column and work with tool owners to reload the configurations. 
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;Additional details can be found &lt;a href="http://autowiki.intel.com/index.php?title=AIT_Monitor_pages_and_response#CuDeseg_-_Custom_SoftPin_Config_on_Copper_Scrubber_Tools"&gt;here&lt;/a&gt;.&lt;/b&gt;
+&lt;br&gt;
+&lt;br&gt;</Body>
+    <MailAttachments FileNamingFormat="${SETTINGS}" Excel="false" CSV="false" LAS="false" LAD="false" Exceptions="false" StatusLogs="false" PivotChart="false" ZipAttachments="false" DoNotSendAttachmentsWithEmail="false" IncludeJobStatisticsHeader="false" IncludeQuerySettingsFileHeader="false" IncludeVariableDefinitionHeader="false" IncludeRowCountInSubject="false" />
+    <IncludeSQLQueryInBody>false</IncludeSQLQueryInBody>
+    <TableInBody Enable="true">
+      <SQL />
+    </TableInBody>
+    <CopyOutputToDirectory>false</CopyOutputToDirectory>
+    <OutputDirectory>@{DASHBOARD_WEB_SPOOL}\PCAM\Output</OutputDirectory>
+    <IncludeAutoPivotSummary>false</IncludeAutoPivotSummary>
+    <IgnoreExceptions>false</IgnoreExceptions>
+    <OnlyCopyOutputIfEmailConditionIsMet>false</OnlyCopyOutputIfEmailConditionIsMet>
+  </MailConfig>
+  <TableSchema />
+  <TableData />
+  <LastRunAbsoluteDateFilter />
+  <PivotGroupingSettings PivotColumn="">
+    <SortyByColumn>Count</SortyByColumn>
+  </PivotGroupingSettings>
+  <QuerySQL><![CDATA[
+--[FileName:"D:\Dashboard\Jobs\PCAM\Monitor-24hr\CuDeseg - Custom SoftPin Config on Copper Scrubber Tools_XEUS.lasx"]------
+----------<VARIABLES>------------
+var MAO_USERID_INTERNAL = "@{USERID_NON_MFG}"
+var DATA_SOURCE = "@{LOCALXEUSDATASOURCE}"
+var FILEFILTER = "@{DASHBOARD_PERSIST_DATA}\PCAM\Output\1_NTSC_Capability_Summary_DataPull.csv"
+var FILEFILTER2 = "@{DASHBOARD_PERSIST_DATA}\PCAM\Output\01_SCDOTNET_Capability_Summary_DataPull.csv"
+var CUDESEG_SOFTPINIGNORETOOLS = "@{CUDESEG_SOFTPINIGNORETOOLS}"
+var SITE_EXCLUDE = "@{MES300_SITE_EXCLUDE}"
+---[MES300_CSV]---
+BEGIN MES300_CSV
+	---Begin Main Query---
+	Using UNIQE with
+		DataSource = "${DATA_SOURCE}" -- UNIQE data source to query
+		Authentication = "UNP" -- User Authentication Mode
+		UserId = "${MAO_USERID_INTERNAL}" -- User ID for authentication
+	SELECT
+	  ENTITY       "Entity",
+	  CURRENT_SITE "Site",
+	  PARENT_ENTITY,
+	  CU_FLAG      "Contaminants/Cu"
+	FROM
+	  F_ENTITY
+	WHERE
+	  CU_FLAG = 'Required'
+	  AND ENTITY_DELETED_FLAG != 'Y'
+	  AND OBJECT_STATUS = '1'
+	  AND ENTITY = PARENT_ENTITY
+	  AND Isinlist(Entity, '${CUDESEG_SOFTPINIGNORETOOLS}')
+	  AND NOT Isinlist(CURRENT_SITE, '${SITE_EXCLUDE}')
+	ORDER  BY
+	  ENTITY 
+END MES300_CSV
+---[ENTITY_CSV]---
+BEGIN ENTITY_CSV
+	---Begin Main Query---
+	Using CSV with
+	SELECT
+		NodeName,
+		Name,
+		Value
+	FROM
+		${FILEFILTER}
+	WHERE
+		(NAME = 'Entity' OR NAME = 'SoftPin_IgnoreUndockFoups')
+END ENTITY_CSV
+---[DOTNETENTITY_CSV]---
+BEGIN DOTNETENTITY_CSV
+	---Begin Main Query---
+	Using CSV with
+	SELECT
+		NodeName,
+		Name,
+		Value
+	FROM
+		${FILEFILTER2}
+	WHERE
+		(NAME = 'Entity' OR NAME = 'SP_ExcludeLotsExitedRun')
+END DOTNETENTITY_CSV
+---[ENTITYTRANS_CSV]---
+BEGIN ENTITYTRANS_CSV
+	UseMethod TransformRowsToColumn with -- **Transforms multiple table rows into new name/value columns**
+		InputFile = "%{ENTITY_CSV}" -- Input CSV file containing table data [String]
+		ColumnNameForCaption = "NAME" -- Caption for new column type created after transformation [String]
+		ColumnNameForValue = "VALUE" -- Caption for new column value created after transformation [String]
+		ExcludeColumnFilter = "" -- Columns to be excluded from output table (can include wild-cards and be separated by commas) [String]
+		DefaultValue = "" -- Default value for cell if one does not exist [String]
+END ENTITYTRANS_CSV
+---[ENTITYTRANS2_CSV]---
+BEGIN ENTITYTRANS2_CSV
+	UseMethod TransformRowsToColumn with -- **Transforms multiple table rows into new name/value columns**
+		InputFile = "%{DOTNETENTITY_CSV}" -- Input CSV file containing table data [String]
+		ColumnNameForCaption = "NAME" -- Caption for new column type created after transformation [String]
+		ColumnNameForValue = "VALUE" -- Caption for new column value created after transformation [String]
+		ExcludeColumnFilter = "" -- Columns to be excluded from output table (can include wild-cards and be separated by commas) [String]
+		DefaultValue = "" -- Default value for cell if one does not exist [String]
+END ENTITYTRANS2_CSV
+---[MERGESC_CSV]---
+BEGIN MERGESC_CSV
+	UseMethod MergeTables with -- **Merge content of two tables by doing an outer join on the column schema (no join done here)**
+		InputFile1 = "%{ENTITYTRANS_CSV}" -- Input CSV File #1 containing table data [String]
+		InputFile2 = "%{ENTITYTRANS2_CSV}" -- Input CSV File #2 containing table data [String]
+		AutoDetectColumnTypes = false -- Auto-detect column types before merging [Boolean]
+END MERGESC_CSV
+---[JOIN_CSV]---
+BEGIN JOIN_CSV
+	UseMethod Join with -- **Do an outer join for two tables based on a matching column**
+		InputFile1 = "%{MES300_CSV}" -- Input CSV File #1 containing table data [String]
+		InputFile2 = "%{MERGESC_CSV}" -- Input CSV File #2 containing table data [String]
+		JoinColumn = "Entity" -- Column name(s) on which to join the two tables (more than one column can be supplied by using comma as a separator) [String]
+		IgnoreDuplicate = true -- Flag to ignore duplicate items in the JoinColumn [Boolean]
+		IgnoreCase = false -- Flag to ignore case in the JoinColumn [Boolean]
+		OnlyShowNonMatchingRows = false -- Flag to only show non-matching orphan rows [Boolean]
+		IncludeNonMatchingRows = false -- Flag to also include non-matching orphan rows (but with blank entries) [Boolean]
+		MustIncludeOutputColumns = "" -- Name of columns (comma-separated) that must be included in output even if the join does not materialize [String]
+		OrderBy = "" -- Name of column(s) to sort the resulting table by [String]
+END JOIN_CSV
+---Begin Main Query---
+Using CSV with
+SELECT
+	ENTITY as Entity,
+	NodeName,
+	[Action Required]
+USING
+	CASE [SoftPin_IgnoreUndockFoups] when null then 'NA' when 'Yes_With_MO' then 'Good' else 'Update NTSC Parameter Parameter SoftPin_IgnoreUndockFoups to "YES_with_MO"' end as NTSC,
+	CASE [SP_ExcludeLotsExitedRun] when null then NTSC when 'Yes' then 'Good' else 'Update SC.NET Parameter SP_ExcludeLotsExitedRun to "Yes"' end as [Action Required]
+FROM
+	%{JOIN_CSV}
+WHERE
+	[Action Required] like 'Update%'
+
+]]></QuerySQL>
+</QueryConfig>

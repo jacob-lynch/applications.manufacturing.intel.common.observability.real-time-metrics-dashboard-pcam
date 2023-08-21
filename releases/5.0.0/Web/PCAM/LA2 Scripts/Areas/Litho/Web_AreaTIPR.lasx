@@ -1,0 +1,228 @@
+<QueryConfig AutoExecuteQueryOnLoad="false">
+  <ChangeLog>Changed by AMR\mfg_tcalford on 5/22/2015 12:37:39 PM from F32PTS215.F32PROD.MFG.INTEL.COM using LogAnalyzer2 v2.8.40713.1943</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_tcalford on 5/22/2015 12:31:51 PM from F32PTS215.F32PROD.MFG.INTEL.COM using LogAnalyzer2 v2.8.40713.1943</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_tcalford on 10/27/2014 8:29:11 PM from F32PAP216N3.F32PROD.MFG.INTEL.COM using LogAnalyzer2 v2.8.40713.1943</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_tcalford on 10/27/2014 4:03:23 PM from F32PAP216N3.F32PROD.MFG.INTEL.COM using LogAnalyzer2 v2.8.40713.1943</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 9/9/2014 9:46:12 AM from RF3PTS216.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.8.40806.2215</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 9/9/2014 9:39:01 AM from RF3PTS216.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.8.40806.2215</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 9/4/2014 2:12:50 PM from RF3PTS216.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.8.40806.2215</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 9/4/2014 9:20:58 AM from RF3PTS216.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.8.40806.2215</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 9/4/2014 9:20:38 AM from RF3PTS216.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.8.40806.2215</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 9/4/2014 9:20:17 AM from RF3PTS216.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.8.40806.2215</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 9/4/2014 9:19:51 AM from RF3PTS216.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.8.40806.2215</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 9/4/2014 9:19:15 AM from RF3PTS216.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.8.40806.2215</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 9/4/2014 9:19:06 AM from RF3PTS216.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.8.40806.2215</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 9/4/2014 9:18:49 AM from RF3PTS216.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.8.40806.2215</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 9/4/2014 9:17:15 AM from RF3PTS216.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.8.40806.2215</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 9/4/2014 9:15:55 AM from RF3PTS216.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.8.40806.2215</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 9/4/2014 9:09:25 AM from RF3PTS216.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.8.40806.2215</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 9/4/2014 9:06:50 AM from RF3PTS216.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.8.40806.2215</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 9/4/2014 9:05:32 AM from RF3PTS216.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.8.40806.2215</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 9/4/2014 9:04:51 AM from RF3PTS216.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.8.40806.2215</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 9/4/2014 8:44:35 AM from RF3PTS216.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.8.40806.2215</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 9/3/2014 6:05:51 PM from RF3PTS216.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.8.40806.2215</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 9/3/2014 5:53:35 PM from RF3PTS216.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.8.40806.2215</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 9/3/2014 5:39:09 PM from RF3PTS216.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.8.40806.2215</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 9/3/2014 5:35:37 PM from RF3PTS216.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.8.40806.2215</ChangeLog>
+  <QueryAttributes>
+    <OutputDateFormat>MM/dd/yyyy</OutputDateFormat>
+    <AlwaysReplaceDomainWithLocal>false</AlwaysReplaceDomainWithLocal>
+  </QueryAttributes>
+  <PostQuerySQL>select * from %{OUTPUT}</PostQuerySQL>
+  <TableLayoutConfig>
+    <BoundColumnList>Entity,CEID,PFIOwner,WS Tie,IQFinishDate,ACESFinishDate,PCAMTransferSent,Pingable_WC</BoundColumnList>
+  </TableLayoutConfig>
+  <TabOrder>C0</TabOrder>
+  <MainPivotConfig>
+    <ColumnX FieldName="" FieldType="" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <ColumnY FieldName="" FieldType="" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <ColumnData FieldName="" FieldType="" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <CustomPalette />
+    <TableData />
+  </MainPivotConfig>
+  <AutoPivotConfig OutputDateFormat="yyyy ww.w hh tt" />
+  <MailConfig>
+    <PostProcessingSQL Enable="false" />
+    <EmailCondition Enable="false" Operator="&gt;" ThresholdRowCount="0">
+      <SQLQuery />
+      <RunScriptBeforeEmailing>false</RunScriptBeforeEmailing>
+      <Script />
+    </EmailCondition>
+    <PostProcessingCondition Enable="false" Operator="&gt;" ThresholdRowCount="0">
+      <SQLQuery />
+      <RunScriptBeforeEmailing>false</RunScriptBeforeEmailing>
+    </PostProcessingCondition>
+    <CopyCondition Enable="false" ThresholdRowCount="0">
+      <RunScriptBeforeEmailing>false</RunScriptBeforeEmailing>
+    </CopyCondition>
+    <SMTPServer>smtp.intel.com</SMTPServer>
+    <From>LogAnalyzer2@intel.com</From>
+    <ReplyTo>todd.c.alford@intel.com</ReplyTo>
+    <To />
+    <Subject>[${DOMAIN}] Web_ntsc_uicontrol</Subject>
+    <Body />
+    <OnlyProcessIfOutputChangedFromPreviousRun>false</OnlyProcessIfOutputChangedFromPreviousRun>
+    <MailAttachments FileNamingFormat="${SETTINGS}" Excel="false" CSV="false" LAS="false" LAD="false" Exceptions="false" StatusLogs="false" PivotChart="false" ZipAttachments="false" DoNotSendAttachmentsWithEmail="false" />
+    <IncludeSQLQueryInBody>false</IncludeSQLQueryInBody>
+    <TableInBody Enable="false">
+      <SQL />
+    </TableInBody>
+    <CopyOutputToDirectory>false</CopyOutputToDirectory>
+    <OutputDirectory />
+    <IncludeAutoPivotSummary>false</IncludeAutoPivotSummary>
+    <IgnoreExceptions>false</IgnoreExceptions>
+    <OnlyCopyOutputIfEmailConditionIsMet>false</OnlyCopyOutputIfEmailConditionIsMet>
+  </MailConfig>
+  <TableSchema><xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+  <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="Results" msdata:UseCurrentLocale="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Results">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ID" type="xs:string" minOccurs="0" />
+              <xs:element name="Entity" type="xs:string" minOccurs="0" />
+              <xs:element name="Site" type="xs:string" minOccurs="0" />
+              <xs:element name="CEID" type="xs:string" minOccurs="0" />
+              <xs:element name="Process" type="xs:int" minOccurs="0" />
+              <xs:element name="Area" type="xs:string" minOccurs="0" />
+              <xs:element name="Pingable_WC" type="xs:string" minOccurs="0" />
+              <xs:element name="Tool_x0020_IP_x0020_Address" type="xs:string" minOccurs="0" />
+              <xs:element name="Barnum_x0020_Resource" type="xs:string" minOccurs="0" />
+              <xs:element name="Status" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
+</TableSchema>
+  <TableData />
+  <LastRunAbsoluteDateFilter />
+  <PivotGroupingSettings PivotColumn="">
+    <SortyByColumn>Count</SortyByColumn>
+  </PivotGroupingSettings>
+  <QuerySQL><![CDATA[
+--[FileName:"V:\Dashboard\Web\PCAM\LA2 Scripts\Areas\Litho\Web_AreaTIPR.lasx"]------
+----------<VARIABLES>------------
+var FILEFILTERF32 = "@{F32TIPRFILEFILTER}"
+var FILEFILTERF24 = "@{F24TIPRFILEFILTER}"
+var FILEFILTERD1D = "@{D1DTIPRFILEFILTER}"
+var FILEFILTERD1C = "@{D1CTIPRFILEFILTER}"
+var TIPRSITE = "@{TIPRSITE}"
+var D1DTIPRLINK = "@{D1D_TIPR_LINK}"
+var D1CTIPRLINK = "@{D1C_TIPR_LINK}"
+var F32TIPRLINK = "@{F32_TIPR_LINK}"
+var F24TIPRLINK = "@{F24_TIPR_LINK}"
+var AREA = "@{LITHOAREA}"
+---[F32_CSV]---
+BEGIN F32_CSV
+	---Begin Main Query---
+	Using LA2REPORT with
+		TableIndex = 10
+	SELECT
+		ID,
+		[Tool ID] as Entity,
+		'F32' as Site,
+		CEID,
+		Process,
+		Area,
+		[WS Tie],
+		IQFinishDate,
+		ACESFinishDate,
+		Pingable_WC
+	USING
+		EXTRACT_TOKEN(ToolName, 6, ';') as ToolNameTmp,
+		REPLACE_STR(ToolNameTmp, '&lt', '' ) as ID,
+		strcat('${F32TIPRLINK}', to_string(ID)) as [Tool ID]
+	FROM
+		'${FILEFILTERF32}'
+	WHERE
+		isinlist(Area, '${Area}')
+END F32_CSV
+---[F24_CSV]---
+BEGIN F24_CSV
+	---Begin Main Query---
+	Using LA2REPORT with
+		TableIndex = 9
+	SELECT
+		ID,
+		[Tool ID] as Entity,
+		'F24' as Site,
+		CEID,
+		'1272' as Process,
+		Area,
+		[WS Tie],
+		IQFinishDate,
+		ACESFinishDate,
+		Pingable_WC
+	USING
+		EXTRACT_TOKEN(ToolName, 6, ';') as ToolNameTmp,
+		REPLACE_STR(ToolNameTmp, '&lt', '' ) as ID,
+		strcat('${F24TIPRLINK}', to_string(ID)) as [Tool ID]
+	FROM
+		'${FILEFILTERF24}'
+	WHERE
+		isinlist(Area, '${Area}')
+END F24_CSV
+---[D1D_CSV]---
+BEGIN D1D_CSV
+	---Begin Main Query---
+	Using CSV with
+	SELECT
+		Entity as ID,
+		[Tool ID] as Entity,
+		'D1D' as Site,
+		CEID,
+		Process,
+		Area,
+		[SL2 Finish],
+		Winclient as Pingable_WC,
+		[Tool IP Address],
+		[Barnum Resource],
+		Status
+	USING
+		strcat('${D1DTIPRLINK}', to_string(ID)) as [Tool ID]
+	FROM
+		${FILEFILTERD1D}
+	WHERE
+		isinlist(Area, '${Area}')
+END D1D_CSV
+---[D1C_CSV]---
+BEGIN D1C_CSV
+	---Begin Main Query---
+	Using CSV with
+	SELECT
+		Entity as ID,
+		[Tool ID] as Entity,
+		'D1C' as Site,
+		CEID,
+		Process,
+		Winclient as Pingable_WC,
+		[Tool IP Address],
+		[Barnum Resource],
+		Status
+	USING
+		strcat('${D1CTIPRLINK}', to_string(ID)) as [Tool ID]
+	FROM
+		${FILEFILTERD1C}
+	WHERE
+		isinlist(Area, '${Area}')
+END D1C_CSV
+---[MERGE_CSV]---
+BEGIN MERGE_CSV
+	UseMethod MergeTables with -- **Merge content of two tables by doing an outer join on the column schema (no join done here)**
+		InputFile1 = "%{F32_CSV}" -- Input CSV File #1 containing table data [String]
+		InputFile2 = "%{F24_CSV}" -- Input CSV File #2 containing table data [String]
+		AutoDetectColumnTypes = false -- Auto-detect column types before merging [Boolean]
+END MERGE_CSV
+---Begin Main Query---
+Using CSV with
+SELECT
+	*
+FROM
+	%{F32_CSV}
+
+]]></QuerySQL>
+</QueryConfig>
