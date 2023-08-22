@@ -5,7 +5,6 @@ domain='PCAM'
 #----- secondary domain of dashboard (place "none" if not exists)
 domain1="none"
 releaseName='RTM.Dashboard.PCAM'
-#PreReq_100= @{PreReqVersion="0.0.1"}
 RF3STG = @{
     #----- primary jobs Dashboard node (file staging, overwrites, audit will happen on this node)
     JOBS_NODE="rf3sap216n3.rf3stg.mfgint.intel.com"
@@ -47,6 +46,7 @@ F32INT = @{
     JOBS_AUDIT_PATH="\T$\Dashboard\Jobs"
     #----- jobs Backup node (copy of the primary job node) - if you don't have a backup node please place "none"
     JOBS_NODE_BACKUP="f32ivap616n1.f32int.mfgint.intel.com" 
+    #JOBS_NODE_BACKUP="none"
     JOBS_BACKUP_PATH="\D$\Dashboard\Jobs"
     #----- primary web Dashboard node 
     WEB_NODE="f32iap216n3.f32int.mfgint.intel.com"
@@ -78,7 +78,8 @@ F28PROD = @{
     JOBS_AUDIT_NODE="f28pap213n13.f28prod.mfg.intel.com" 
     JOBS_AUDIT_PATH="\T$\Dashboard\Jobs"
     #----- jobs Backup node (copy of the primary job node) - if you don't have a backup node please place "none"
-    JOBS_NODE_BACKUP="f28pvap616n19.f28prod.mfg.intel.com" 
+    #JOBS_NODE_BACKUP="f28pvap616n19.f28prod.mfg.intel.com" 
+    JOBS_NODE_BACKUP="none"
     JOBS_BACKUP_PATH="\D$\Dashboard\Jobs"
     #----- primary web Dashboard node 
     WEB_NODE="f28pap216n11.f28prod.mfg.intel.com"
@@ -97,7 +98,7 @@ F28PROD = @{
     SQL_POSTFIX_D1D="RF3PROD"
     SQL_POSTFIX_LOCAL="F28PROD"
     #----- you can specify multiple emails for completion notification (e.g. smtpTo = @('ricarda.louk@intel.com','kar.seng.wong@intel.com') )
-    smtpTo = @('ricarda.louk@intel.com','kar.seng.wong@intel.com','wei.li.sue@intel.com')
+    smtpTo = @('ricarda.louk@intel.com')
     smtpFrom ="sys_cicd@intel.com"
     #----- credentials for Scheduled task setup
     SchedTaskPath="\Dashboard\PCAM\"
@@ -194,7 +195,7 @@ F32PROD = @{
     SQL_POSTFIX_D1D="RF3PROD"
     SQL_POSTFIX_LOCAL="F32PROD"
     #----- you can specify multiple emails for completion notification (e.g. smtpTo = @('ricarda.louk@intel.com','kar.seng.wong@intel.com') )
-    smtpTo = @('ricarda.louk@intel.com','kar.seng.wong@intel.com','wei.li.sue@intel.com','hendrix.hartana@intel.com','kimberley.moellenberndt@intel.com')
+    smtpTo = @('ricarda.louk@intel.com')
     smtpFrom ="sys_cicd@intel.com"
     #----- credentials for Scheduled task setup
     SchedTaskPath="\Dashboard\PCAM\"
@@ -226,7 +227,7 @@ F68PROD = @{
     SQL_POSTFIX_D1D="RF3PROD"
     SQL_POSTFIX_LOCAL="F68PROD"
     #----- you can specify multiple emails for completion notification (e.g. smtpTo = @('ricarda.louk@intel.com','kar.seng.wong@intel.com') )
-    smtpTo = @('ricarda.louk@intel.com','kar.seng.wong@intel.com','wei.li.sue@intel.com')
+    smtpTo = @('ricarda.louk@intel.com')
     smtpFrom ="sys_cicd@intel.com"
     #----- credentials for Scheduled task setup
     SchedTaskPath="\Dashboard\PCAM\"
