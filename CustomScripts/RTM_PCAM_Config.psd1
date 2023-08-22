@@ -63,7 +63,7 @@ F32INT = @{
     EXCLUDE_FILES_BACKUP_COPY=@('*.sql')
     #----- needed for AUDIT to replace TD domain with local domain name
     SQL_POSTFIX_D1D="RF3PROD"
-    SQL_POSTFIX_LOCAL="F32PROD"
+    SQL_POSTFIX_LOCAL="F32INT"
     #----- you can specify multiple emails for completion notification (e.g. smtpTo = @('ricarda.louk@intel.com','hendrix.hartana@intel.com') )
     smtpTo = @('ricarda.louk@intel.com')
     smtpFrom ="sys_cicd@intel.com"
