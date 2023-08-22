@@ -49,10 +49,10 @@ F32INT = @{
     JOBS_NODE_BACKUP="f32ivap616n1.f32int.mfgint.intel.com" 
     JOBS_BACKUP_PATH="\D$\Dashboard\Jobs"
     #----- primary web Dashboard node 
-    WEB_NODE="f32iap216n4.f32int.mfgint.intel.com"
+    WEB_NODE="f32iap216n3.f32int.mfgint.intel.com"
     WEB_PATH="\r$\Dashboard\Web"
     #----- web Audit node (usually same as WEB_NODE) - if you are moving from a different node this path will be used only for comparison
-    WEB_AUDIT_NODE="f32iap216n4.f32int.mfgint.intel.com"
+    WEB_AUDIT_NODE="f32iap216n3.f32int.mfgint.intel.com"
     WEB_AUDIT_PATH="\r$\Dashboard\Web"
     #----- web Backup node (copy of the primary web node) - if you don't have a backup node please place "none"
     WEB_NODE_BACKUP="none"
