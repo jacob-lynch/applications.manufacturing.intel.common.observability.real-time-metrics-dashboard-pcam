@@ -37,7 +37,7 @@ jobs:
     needs: CheckEnvironment
     uses: intel-manufacturing/applications.manufacturing.intel.common.observability.real-time-metrics-dashboard-pcam/.github/workflows/deploy-template.yml@main
     with:
-      environment: 'f28prod' 
+      environment: '${{ github.event.inputs.deployTo }}' 
       runner: "['self-hosted', 'Windows', 'deploy','${{ github.event.inputs.deployTo }}']"
     secrets: 
       REMOTE_USER: ${{ secrets.REMOTE_USER }}
