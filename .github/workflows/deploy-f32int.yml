@@ -20,8 +20,8 @@ jobs:
     # The type of runner that the job will run on
     runs-on: [self-hosted, Windows, deploy, "${{ github.event.inputs.deployTo }}"]
 
-    environment:
-       name: Confirm_RTM_PCAM_MIT_Team
+    #environment:
+    #   name: Confirm_RTM_PCAM_MIT_Team
      
     steps:
        
