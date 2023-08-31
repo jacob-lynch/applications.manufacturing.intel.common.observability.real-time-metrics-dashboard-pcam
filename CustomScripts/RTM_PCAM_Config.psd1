@@ -25,7 +25,7 @@ RF3STG = @{
     WEB_NODE_BACKUP="none"
     WEB_BACKUP_PATH="\r$\Dashboard\Web"
     #----- Files to exclude when copying from install directory to primary nodes e.g. EXCLUDE_FILES_INSTALL_COPY=@('*.sql','web.config')
-    EXCLUDE_FILES_INSTALL_COPY=@('*.sql','web.config')
+    EXCLUDE_FILES_INSTALL_COPY=@('*.sql','web.config','pcam.sitemap')
     #----- Files to exclude when copying from primary dashboard node to secondary dashboard node (if relevant)
     EXCLUDE_FILES_BACKUP_COPY=@('*.sql')
     #----- needed for AUDIT to replace TD domain with local domain name
@@ -58,7 +58,7 @@ F32INT = @{
     WEB_NODE_BACKUP="none"
     WEB_BACKUP_PATH="\r$\Dashboard\Web"
     #----- Files to exclude when copying from install directory to primary nodes e.g. EXCLUDE_FILES_INSTALL_COPY=@('*.sql','web.config')
-    EXCLUDE_FILES_INSTALL_COPY=@('*.sql','web.config')
+    EXCLUDE_FILES_INSTALL_COPY=@('*.sql','web.config','pcam.sitemap')
     #----- Files to exclude when copying from primary dashboard node to secondary dashboard node (if relevant)
     EXCLUDE_FILES_BACKUP_COPY=@('*.sql')
     #----- needed for AUDIT to replace TD domain with local domain name
@@ -91,14 +91,14 @@ F28PROD = @{
     WEB_NODE_BACKUP="none"
     WEB_BACKUP_PATH="\r$\Dashboard\Web"
     #----- Files to exclude when copying from install directory to primary nodes (e.g. EXCLUDE_FILES_INSTALL_COPY=@('*.sql','web.config') )
-    EXCLUDE_FILES_INSTALL_COPY=@('*.sql')
+    EXCLUDE_FILES_INSTALL_COPY=@('*.sql','web.config','pcam.sitemap')
     #----- Files to exclude when copying from primary dashboard node to secondary dashboard node (if relevant)
     EXCLUDE_FILES_BACKUP_COPY=@('*.dummy')
     #----- needed for AUDIT to replace TD domain with local domain name
     SQL_POSTFIX_D1D="RF3PROD"
     SQL_POSTFIX_LOCAL="F28PROD"
     #----- you can specify multiple emails for completion notification (e.g. smtpTo = @('ricarda.louk@intel.com','kar.seng.wong@intel.com') )
-    smtpTo = @('ricarda.louk@intel.com')
+    smtpTo = @('ricarda.louk@intel.com','yaniv.ben-zaken@intel.com')
     smtpFrom ="sys_cicd@intel.com"
     #----- credentials for Scheduled task setup
     SchedTaskPath="\Dashboard\PCAM\"
@@ -123,7 +123,7 @@ F21PROD = @{
     WEB_NODE_BACKUP="none"
     WEB_BACKUP_PATH="\r$\Dashboard\Web"
     #----- Files to exclude when copying from install directory to primary nodes (e.g. EXCLUDE_FILES_INSTALL_COPY=@('*.sql','web.config') )
-    EXCLUDE_FILES_INSTALL_COPY=@('*.sql')
+    EXCLUDE_FILES_INSTALL_COPY=@('*.sql','web.config','pcam.sitemap')
     #----- Files to exclude when copying from primary dashboard node to secondary dashboard node (if relevant)
     EXCLUDE_FILES_BACKUP_COPY=@('*.dummy')
     #----- needed for AUDIT to replace TD domain with local domain name
@@ -156,7 +156,7 @@ F24PROD = @{
     WEB_NODE_BACKUP="none"
     WEB_BACKUP_PATH="\r$\Dashboard\Web"
     #----- Files to exclude when copying from install directory to primary nodes (e.g. EXCLUDE_FILES_INSTALL_COPY=@('*.sql','web.config') )
-    EXCLUDE_FILES_INSTALL_COPY=@('*.sql')
+    EXCLUDE_FILES_INSTALL_COPY=@('*.sql','web.config','pcam.sitemap')
     #----- Files to exclude when copying from primary dashboard node to secondary dashboard node (if relevant)
     EXCLUDE_FILES_BACKUP_COPY=@('*.dummy')
     #----- needed for AUDIT to replace TD domain with local domain name
@@ -188,7 +188,7 @@ F32PROD = @{
     WEB_NODE_BACKUP="none"
     WEB_BACKUP_PATH="\r$\Dashboard\Web"
     #----- Files to exclude when copying from install directory to primary nodes (e.g. EXCLUDE_FILES_INSTALL_COPY=@('*.sql','web.config') )
-    EXCLUDE_FILES_INSTALL_COPY=@('*.sql')
+    EXCLUDE_FILES_INSTALL_COPY=@('*.sql','web.config','pcam.sitemap')
     #----- Files to exclude when copying from primary dashboard node to secondary dashboard node (if relevant)
     EXCLUDE_FILES_BACKUP_COPY=@('*.dummy')
     #----- needed for AUDIT to replace TD domain with local domain name
@@ -220,7 +220,7 @@ F68PROD = @{
     WEB_NODE_BACKUP="none"
     WEB_BACKUP_PATH="\r$\Dashboard\Web"
     #----- Files to exclude when copying from install directory to primary nodes (e.g. EXCLUDE_FILES_INSTALL_COPY=@('*.sql','web.config') )
-    EXCLUDE_FILES_INSTALL_COPY=@('*.sql')
+    EXCLUDE_FILES_INSTALL_COPY=@('*.sql','web.config','pcam.sitemap')
     #----- Files to exclude when copying from primary dashboard node to secondary dashboard node (if relevant)
     EXCLUDE_FILES_BACKUP_COPY=@('*.dummy')
     #----- needed for AUDIT to replace TD domain with local domain name
