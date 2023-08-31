@@ -75,7 +75,7 @@ F28PROD = @{
     JOBS_NODE="f28pap216n13.f28prod.mfg.intel.com" 
     JOBS_PATH="\T$\Dashboard\Jobs"
     #----- jobs Audit node (usually same as JOBS_NODE) - if you are moving from a different node this path will be used only for comparison
-    JOBS_AUDIT_NODE="f28pap213n13.f28prod.mfg.intel.com" 
+    JOBS_AUDIT_NODE="f28pap216n13.f28prod.mfg.intel.com" 
     JOBS_AUDIT_PATH="\T$\Dashboard\Jobs"
     #----- jobs Backup node (copy of the primary job node) - if you don't have a backup node please place "none"
     #JOBS_NODE_BACKUP="f28pvap616n19.f28prod.mfg.intel.com" 
