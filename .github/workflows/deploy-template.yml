@@ -190,7 +190,7 @@ jobs:
       - name: Run Audit
         run: |
           echo "Begin Audit"     
-          powershell -file ${{ github.WORKSPACE }}\Common\Scripts\RTM_Audit.ps1 -deployTo ${{ inputs.environment }} -scriptPath ${{ github.WORKSPACE }}\Common\Scripts -Version ${{ env.version }} -remote_user ${{ secrets.REMOTE_USER }} -remote_pass '${{ secrets.REMOTE_PASS }}' -Appname "${{ env.AppShortName}}" -LogFile "${{ env.log_file}}"
+          powershell -file ${{ github.WORKSPACE }}\Common\Scripts\RTM_Audit.ps1 -deployTo ${{ inputs.environment }} -scriptPath ${{ github.WORKSPACE }}\Common\Scripts -Version ${{ env.version }} -remote_user ${{ secrets.REMOTE_USER }} -remote_pass '${{ secrets.REMOTE_PASS }}' -Appname "${{ env.AppShortName}}" -LogFile "${{ env.log_file}}" -DebugMode "Y"
          
          
          
