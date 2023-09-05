@@ -1,0 +1,49 @@
+name: RTM Dashboard Deploy F32PROD
+on:
+  workflow_dispatch:         
+    inputs:
+      deployTo: 
+        description: 'Deploy to environment'
+        required: true
+        default: 'f32prod'
+        type: choice
+        options:
+        - f32prod
+
+ 
+jobs:
+
+
+  CheckEnvironment:
+    name: Check environment access in ${{ github.event.inputs.deployTo }}
+  
+    # The type of runner that the job will run on
+    runs-on: [self-hosted, Windows, deploy, "${{ github.event.inputs.deployTo }}"]
+
+    environment:
+       name: Confirm_RTM_PCAM_MIT_Team
+     
+    steps:
+       
+      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
+      - name: Checkout
+        uses: actions/checkout@v3
+        
+      - name: Check environment access        
+        run: echo "Check environment access"
+        
+  RunWorkflow:
+    name: Step
+    needs: CheckEnvironment
+    uses: intel-manufacturing/applications.manufacturing.intel.common.observability.real-time-metrics-dashboard-pcam/.github/workflows/deploy-template.yml@main
+    with:
+      environment: '${{ github.event.inputs.deployTo }}' 
+      runner: "['self-hosted', 'Windows', 'deploy','${{ github.event.inputs.deployTo }}']"
+    secrets: 
+      REMOTE_USER: ${{ secrets.REMOTE_USER }}
+      REMOTE_PASS: ${{ secrets.REMOTE_PASS }}
+      username: ${{ secrets[format('{0}_PCAM_USER', github.event.inputs.deployTo)] }}
+      password: ${{ secrets[format('{0}_PCAM_PSWD', github.event.inputs.deployTo)] }}
+      mit_token: ${{ secrets.MIT_TOKEN }}
+
+    
