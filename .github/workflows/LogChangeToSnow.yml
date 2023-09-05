@@ -22,13 +22,13 @@ on:
           - "5.0.0"
 
 env:
-  Application: "RTM Dashboard ALD"
-  business_service: 'Mfg Applications Management'
-  service_offering: 'MIT MAM FS PCS Support'
-  assignment_group: 'MIT_MAM_FSM_L2'
-  cmdb_ci: 'RTM.DashBoard.PCS.ALD'
+  Application: "RTM Dashboard PCAM"
+  business_service: 'Mfg Control and Integration'
+  service_offering: 'MIT MCI Process Control'
+  assignment_group: 'MIT_MCI_PIC_L2'
+  cmdb_ci: 'RTM.DashBoard.PCAM'
   requested_by: 'Ricarda Louk'
-  assigned_to: 'Noel, Paz'
+  assigned_to: 'Lynch, Jacob'
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 
