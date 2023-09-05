@@ -26,7 +26,7 @@ env:
   business_service: 'Mfg Control and Integration'
   service_offering: 'MIT MCI Process Control'
   assignment_group: 'MIT_MCI_PIC_L2'
-  cmdb_ci: 'RTM.DashBoard.PCAM'
+  cmdb_ci: 'RTM.Dashboard.PCAM-FS'
   requested_by: 'Ricarda Louk'
   assigned_to: 'Lynch, Jacob'
 
