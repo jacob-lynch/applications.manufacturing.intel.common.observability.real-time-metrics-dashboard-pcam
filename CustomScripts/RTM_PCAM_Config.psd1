@@ -98,20 +98,20 @@ F28PROD = @{
     SQL_POSTFIX_D1D="RF3PROD"
     SQL_POSTFIX_LOCAL="F28PROD"
     #----- you can specify multiple emails for completion notification (e.g. smtpTo = @('ricarda.louk@intel.com','kar.seng.wong@intel.com') )
-    smtpTo = @('ricarda.louk@intel.com','yaniv.ben-zaken@intel.com')
+    smtpTo = @('ricarda.louk@intel.com','mit.pi.hub.capabilities.and.operations@intel.com')
     smtpFrom ="sys_cicd@intel.com"
     #----- credentials for Scheduled task setup
     SchedTaskPath="\Dashboard\PCAM\"
 }
 F21PROD = @{
     #----- primary jobs Dashboard node (file staging, overwrites, audit will happen on this node)
-    JOBS_NODE="f21pvap616n23.f21prod.mfg.intel.com" 
+    JOBS_NODE="f21pvap416n19.f21prod.mfg.intel.com" 
     JOBS_PATH="\D$\Dashboard\Jobs"
     #----- jobs Audit node (usually same as JOBS_NODE) - if you are moving from a different node this path will be used only for comparison
-    JOBS_AUDIT_NODE="f21pvap616n23.f21prod.mfg.intel.com" 
+    JOBS_AUDIT_NODE="f21pvap416n19.f21prod.mfg.intel.com" 
     JOBS_AUDIT_PATH="\D$\Dashboard\Jobs"
     #----- jobs Backup node (copy of the primary job node) - if you don't have a backup node please place "none"
-    JOBS_NODE_BACKUP="f21pvap616n1.f21prod.mfg.intel.com" 
+    JOBS_NODE_BACKUP="none" 
     JOBS_BACKUP_PATH="\D$\Dashboard\Jobs"
     #----- primary web Dashboard node 
     WEB_NODE="f21pap216n11.f21prod.mfg.intel.com"
@@ -130,21 +130,20 @@ F21PROD = @{
     SQL_POSTFIX_D1D="RF3PROD"
     SQL_POSTFIX_LOCAL="F21PROD"
     #----- you can specify multiple emails for completion notification (e.g. smtpTo = @('ricarda.louk@intel.com','kar.seng.wong@intel.com') )
-    smtpTo = @('ricarda.louk@intel.com')
+    smtpTo = @('ricarda.louk@intel.com','mit.pi.hub.capabilities.and.operations@intel.com')
     smtpFrom ="sys_cicd@intel.com"
     #----- credentials for Scheduled task setup
     SchedTaskPath="\Dashboard\PCAM\"
 }
 F24PROD = @{
     #----- primary jobs Dashboard node (file staging, overwrites, audit will happen on this node)
-    JOBS_NODE="f24pvap616n23.f24prod.mfg.intel.com" 
+    JOBS_NODE="f24pvap416n19.f24prod.mfg.intel.com" 
     JOBS_PATH="\D$\Dashboard\Jobs"
     #----- jobs Audit node (usually same as JOBS_NODE) - if you are moving from a different node this path will be used only for comparison
-    JOBS_AUDIT_NODE="f24pvap616n23.f24prod.mfg.intel.com" 
+    JOBS_AUDIT_NODE="f24pvap416n19.f24prod.mfg.intel.com" 
     JOBS_AUDIT_PATH="\D$\Dashboard\Jobs"
     #----- jobs Backup node (copy of the primary job node) - if you don't have a backup node please place "none"
-    JOBS_NODE_BACKUP="f24pvap616n1.f24prod.mfg.intel.com" 
-    #JOBS_NODE_BACKUP="f28pap216n12.f28prod.mfg.intel.com" 
+    JOBS_NODE_BACKUP="none" 
     JOBS_BACKUP_PATH="\D$\Dashboard\Jobs"
     #----- primary web Dashboard node 
     WEB_NODE="f24pap216n11.f24prod.mfg.intel.com"
@@ -163,20 +162,20 @@ F24PROD = @{
     SQL_POSTFIX_D1D="RF3PROD"
     SQL_POSTFIX_LOCAL="F24PROD"
     #----- you can specify multiple emails for completion notification (e.g. smtpTo = @('ricarda.louk@intel.com','kar.seng.wong@intel.com') )
-    smtpTo = @('ricarda.louk@intel.com')
+    smtpTo = @('ricarda.louk@intel.com','mit.pi.hub.capabilities.and.operations@intel.com')
     smtpFrom ="sys_cicd@intel.com"
     #----- credentials for Scheduled task setup
     SchedTaskPath="\Dashboard\PCAM\"
 }
 F32PROD = @{
     #----- primary jobs Dashboard node (file staging, overwrites, audit will happen on this node)
-    JOBS_NODE="f32pvap616n1.f32prod.mfg.intel.com" 
+    JOBS_NODE="f32pvap416n19.f32prod.mfg.intel.com" 
     JOBS_PATH="\D$\Dashboard\Jobs"
     #----- jobs Audit node (usually same as JOBS_NODE) - if you are moving from a different node this path will be used only for comparison
-    JOBS_AUDIT_NODE="f32pvap616n1.f32prod.mfg.intel.com" 
+    JOBS_AUDIT_NODE="f32pvap416n19.f32prod.mfg.intel.com" 
     JOBS_AUDIT_PATH="\D$\Dashboard\Jobs"
     #----- jobs Backup node (copy of the primary job node) - if you don't have a backup node please place "none"
-    JOBS_NODE_BACKUP="f32pvap616n23.f32prod.mfg.intel.com" 
+    JOBS_NODE_BACKUP="none" 
     JOBS_BACKUP_PATH="\D$\Dashboard\Jobs"
     #----- primary web Dashboard node 
     WEB_NODE="f32pap216n11.f32prod.mfg.intel.com"
@@ -195,20 +194,20 @@ F32PROD = @{
     SQL_POSTFIX_D1D="RF3PROD"
     SQL_POSTFIX_LOCAL="F32PROD"
     #----- you can specify multiple emails for completion notification (e.g. smtpTo = @('ricarda.louk@intel.com','kar.seng.wong@intel.com') )
-    smtpTo = @('ricarda.louk@intel.com')
+    smtpTo = @('ricarda.louk@intel.com','mit.pi.hub.capabilities.and.operations@intel.com')
     smtpFrom ="sys_cicd@intel.com"
     #----- credentials for Scheduled task setup
     SchedTaskPath="\Dashboard\PCAM\"
 }
 F68PROD = @{
     #----- primary jobs Dashboard node (file staging, overwrites, audit will happen on this node)
-    JOBS_NODE="f68pvap616n1.f68prod.mfg.intel.com" 
+    JOBS_NODE="f68pvap416n19.f68prod.mfg.intel.com" 
     JOBS_PATH="\D$\Dashboard\Jobs"
     #----- jobs Audit node (usually same as JOBS_NODE) - if you are moving from a different node this path will be used only for comparison
-    JOBS_AUDIT_NODE="f68pvap616n1.f68prod.mfg.intel.com" 
+    JOBS_AUDIT_NODE="f68pvap416n19.f68prod.mfg.intel.com" 
     JOBS_AUDIT_PATH="\D$\Dashboard\Jobs"
     #----- jobs Backup node (copy of the primary job node) - if you don't have a backup node please place "none"
-    JOBS_NODE_BACKUP="f68pvap616n23.f68prod.mfg.intel.com" 
+    JOBS_NODE_BACKUP="none" 
     JOBS_BACKUP_PATH="\D$\Dashboard\Jobs"
     #----- primary web Dashboard node 
     WEB_NODE="f68pap216n11.f68prod.mfg.intel.com"
@@ -227,7 +226,7 @@ F68PROD = @{
     SQL_POSTFIX_D1D="RF3PROD"
     SQL_POSTFIX_LOCAL="F68PROD"
     #----- you can specify multiple emails for completion notification (e.g. smtpTo = @('ricarda.louk@intel.com','kar.seng.wong@intel.com') )
-    smtpTo = @('ricarda.louk@intel.com')
+    smtpTo = @('ricarda.louk@intel.com','mit.pi.hub.capabilities.and.operations@intel.com')
     smtpFrom ="sys_cicd@intel.com"
     #----- credentials for Scheduled task setup
     SchedTaskPath="\Dashboard\PCAM\"
