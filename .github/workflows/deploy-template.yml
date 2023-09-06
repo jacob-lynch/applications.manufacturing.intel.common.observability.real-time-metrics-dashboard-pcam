@@ -61,6 +61,7 @@ jobs:
           repository: intel-manufacturing/applications.manufacturing.intel.common.observability.real-time-metrics-dashboard
           token: ${{ secrets.MIT_TOKEN }}
           path: Common
+          ref: 'v1.0.0'
 
      # Checks-out shared PS Scripts repository
       - name: Check out shared PS Scripts
@@ -69,6 +70,7 @@ jobs:
           repository: intel-manufacturing/applications.manufacturing.intel.common.ps-commonscripts
           token: ${{ secrets.MIT_TOKEN }}
           path: Shared
+          ref: 'v1.1.0'
 
       # Run pre-validate
       - name: Run pre-validate
@@ -101,6 +103,7 @@ jobs:
           repository: intel-manufacturing/applications.manufacturing.intel.common.observability.real-time-metrics-dashboard
           token: ${{ secrets.MIT_TOKEN }}
           path: Common
+          ref: 'v1.0.0'
 
      # Checks-out shared PS Scripts repository
       - name: Check out shared PS Scripts
@@ -109,6 +112,7 @@ jobs:
           repository: intel-manufacturing/applications.manufacturing.intel.common.ps-commonscripts
           token: ${{ secrets.MIT_TOKEN }}
           path: Shared
+          ref: 'v1.1.0'
 
       # Run Stage Files
       - name: Run Stage Files
@@ -138,6 +142,7 @@ jobs:
           repository: intel-manufacturing/applications.manufacturing.intel.common.observability.real-time-metrics-dashboard
           token: ${{ secrets.MIT_TOKEN }}
           path: Common
+          ref: 'v1.0.0'
 
      # Checks-out shared PS Scripts repository
       - name: Check out shared PS Scripts
@@ -146,6 +151,7 @@ jobs:
           repository: intel-manufacturing/applications.manufacturing.intel.common.ps-commonscripts
           token: ${{ secrets.MIT_TOKEN }}
           path: Shared
+          ref: 'v1.1.0'
 
       # Run Backup
       - name: Run Backup
@@ -176,6 +182,7 @@ jobs:
           repository: intel-manufacturing/applications.manufacturing.intel.common.observability.real-time-metrics-dashboard
           token: ${{ secrets.MIT_TOKEN }}
           path: Common
+          ref: 'v1.0.0'
 
      # Checks-out shared PS Scripts repository
       - name: Check out shared PS Scripts
@@ -184,6 +191,7 @@ jobs:
           repository: intel-manufacturing/applications.manufacturing.intel.common.ps-commonscripts
           token: ${{ secrets.MIT_TOKEN }}
           path: Shared
+          ref: 'v1.1.0'
           
             
       # Run Audit
@@ -219,6 +227,7 @@ jobs:
           repository: intel-manufacturing/applications.manufacturing.intel.common.observability.real-time-metrics-dashboard
           token: ${{ secrets.MIT_TOKEN }}
           path: Common     
+          ref: 'v1.0.0'
 
      # Checks-out shared PS Scripts repository
       - name: Check out shared PS Scripts
@@ -227,6 +236,7 @@ jobs:
           repository: intel-manufacturing/applications.manufacturing.intel.common.ps-commonscripts
           token: ${{ secrets.MIT_TOKEN }}
           path: Shared
+          ref: 'v1.1.0'
           
       # Run Deploy
       - name: Run Deploy
@@ -256,6 +266,7 @@ jobs:
           repository: intel-manufacturing/applications.manufacturing.intel.common.observability.real-time-metrics-dashboard
           token: ${{ secrets.MIT_TOKEN }}
           path: Common 
+          ref: 'v1.0.0'
 
       # Checks-out shared PS Scripts repository
       - name: Check out shared PS Scripts
@@ -264,6 +275,7 @@ jobs:
           repository: intel-manufacturing/applications.manufacturing.intel.common.ps-commonscripts
           token: ${{ secrets.MIT_TOKEN }}
           path: Shared
+          ref: 'v1.1.0'
           
       # Run Post Validate
       - name: Run Post-Validate
@@ -297,6 +309,7 @@ jobs:
           repository: intel-manufacturing/applications.manufacturing.intel.common.observability.real-time-metrics-dashboard
           token: ${{ secrets.MIT_TOKEN }}
           path: Common 
+          ref: 'v1.0.0'
 
      # Checks-out shared PS Scripts repository
       - name: Check out shared PS Scripts
@@ -305,6 +318,7 @@ jobs:
           repository: intel-manufacturing/applications.manufacturing.intel.common.ps-commonscripts
           token: ${{ secrets.MIT_TOKEN }}
           path: Shared
+          ref: 'v1.1.0'
 
       # Run Notification
       - name: Run Deploy Notification
@@ -337,6 +351,7 @@ jobs:
           repository: intel-manufacturing/applications.manufacturing.intel.common.observability.real-time-metrics-dashboard
           token: ${{ secrets.MIT_TOKEN }}
           path: Common 
+          ref: 'v1.0.0'
 
      # Checks-out shared PS Scripts repository
       - name: Check out shared PS Scripts
@@ -345,6 +360,7 @@ jobs:
           repository: intel-manufacturing/applications.manufacturing.intel.common.ps-commonscripts
           token: ${{ secrets.MIT_TOKEN }}
           path: Shared
+          ref: 'v1.1.0'
 
       # Run Rollback
       - name: Run Rollback
@@ -373,6 +389,7 @@ jobs:
           repository: intel-manufacturing/applications.manufacturing.intel.common.observability.real-time-metrics-dashboard
           token: ${{ secrets.MIT_TOKEN }}
           path: Common 
+          ref: 'v1.0.0'
 
       # Checks-out shared PS Scripts repository
       - name: Check out shared PS Scripts
@@ -381,6 +398,7 @@ jobs:
           repository: intel-manufacturing/applications.manufacturing.intel.common.ps-commonscripts
           token: ${{ secrets.MIT_TOKEN }}
           path: Shared
+          ref: 'v1.1.0'
 
       # Run Rollback Notification
       - name: Run Rollback Notification
