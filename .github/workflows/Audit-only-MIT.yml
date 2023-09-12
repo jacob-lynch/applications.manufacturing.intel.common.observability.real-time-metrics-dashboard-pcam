@@ -1,0 +1,193 @@
+# This is a RTM Dashboard Deploy - PCAM
+name: RTM Dashboard Deploy MIT - PCAM
+
+# Controls when the workflow will run
+on:
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+    inputs:
+      deployTo:
+        type: choice
+        description: The environment you are deploying to
+        options:
+          - "rf3stg"
+          - "f32int"
+          - "f28prod"
+          - "f24prod"
+          - "f32prod"
+          - "f21prod"
+          - "f68prod"
+
+env:
+  version: "5.0.0"
+  PreReqVersion: "4.0.0"
+  log_file: '\d$\Logs\GitHub\GitHubAppLog.txt'
+  Application: "RTM Dashboard PCAM"
+  AppShortName: "RTM_PCAM"
+  REMOTE_USER: ${{ secrets.REMOTE_USER }}
+  REMOTE_PASS: ${{ secrets.REMOTE_PASS }}
+  #REMOTE_USER: ${{ secrets[format('{0}_PCAM_USER', github.event.inputs.deployTo)] }}
+  #REMOTE_PASS: ${{ secrets[format('{0}_PCAM_PSWD', github.event.inputs.deployTo)] }}  
+  username: ${{ secrets[format('{0}_PCAM_USER', github.event.inputs.deployTo)] }}
+  password: ${{ secrets[format('{0}_PCAM_PSWD', github.event.inputs.deployTo)] }}
+  
+  
+# A workflow run is made up of one or more jobs that can run sequentially or in parallel
+
+jobs:
+        
+  Prevalidate:
+    name: Prevalidate in ${{ github.event.inputs.deployTo }}
+  
+    # The type of runner that the job will run on
+    runs-on: [self-hosted, Windows, deploy, "${{ github.event.inputs.deployTo }}"]
+      
+    # Steps represent a sequence of tasks that will be executed as part of the job
+    steps:
+       
+      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
+      - name: Checkout
+        uses: actions/checkout@v3
+
+
+     # Checks-out Common Scripts repository
+      - name: Check out Common Scripts
+        uses: actions/checkout@v3
+        with:
+          repository: intel-manufacturing/applications.manufacturing.intel.common.observability.real-time-metrics-dashboard
+          token: ${{ secrets.MIT_TOKEN }}
+          path: Common
+          
+     # Checks-out shared PS Scripts repository
+      - name: Check out shared PS Scripts
+        uses: actions/checkout@v3
+        with:
+          repository: intel-manufacturing/applications.manufacturing.intel.common.ps-commonscripts
+          token: ${{ secrets.MIT_TOKEN }}
+          path: Shared
+        
+          
+      # Run pre-validate
+      - name: Run pre-validate
+        run: |
+          echo "Begin pre-validate"
+          echo "Workflow: ${{ github.SERVER_URL }}/${{ github.REPOSITORY }}/actions/runs/${{ github.RUN_ID }}"
+          echo '${{ env.REMOTE_PASS }}'
+          powershell -file ${{ github.WORKSPACE }}\Common\Scripts\RTM_pre-install-HC.ps1 -deployTo ${{ github.event.inputs.deployTo }} -scriptPath ${{ github.WORKSPACE }}\Common\Scripts -version ${{ env.version }} -releaseDir "${{ github.WORKSPACE }}\releases\${{ env.version }}" -remote_user ${{ env.REMOTE_USER }} -remote_pass '${{ env.REMOTE_PASS }}' -Appname "${{ env.AppShortName}}" -PreReqVersion "${{ env.PreReqVersion}}" -LogFile "${{ env.log_file}}"
+          
+  Stage:
+    name: Stage in ${{ github.event.inputs.deployTo }}
+
+    # The type of runner that the job will run on
+    runs-on: [self-hosted, Windows, deploy, "${{ github.event.inputs.deployTo }}"]
+         
+    needs: Prevalidate
+    
+    # Steps represent a sequence of tasks that will be executed as part of the job
+    steps:
+             
+      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
+      - name: Checkout
+        uses: actions/checkout@v3
+        
+     # Checks-out Common Scripts repository
+      - name: Check out Common Scripts
+        uses: actions/checkout@v3
+        with:
+          repository: intel-manufacturing/applications.manufacturing.intel.common.observability.real-time-metrics-dashboard
+          token: ${{ secrets.MIT_TOKEN }}
+          path: Common
+
+     # Checks-out shared PS Scripts repository
+      - name: Check out shared PS Scripts
+        uses: actions/checkout@v3
+        with:
+          repository: intel-manufacturing/applications.manufacturing.intel.common.ps-commonscripts
+          token: ${{ secrets.MIT_TOKEN }}
+          path: Shared
+        
+
+      # Run Stage Files
+      - name: Run Stage Files
+        run: |
+          echo "Begin stage-files"
+          powershell -file ${{ github.WORKSPACE }}\Common\Scripts\RTM_stage_package.ps1 -deployTo ${{ github.event.inputs.deployTo }} -scriptPath ${{ github.WORKSPACE }}\Common\Scripts -ReleaseDir "${{ github.WORKSPACE }}\releases\${{ env.version }}" -version ${{ env.version }} -remote_user ${{ env.REMOTE_USER }} -remote_pass '${{ env.REMOTE_PASS }}' -Appname "${{ env.AppShortName}}" -LogFile "${{ env.log_file}}"
+         
+          
+  Backup:
+    name: Backup in ${{ github.event.inputs.deployTo }}
+
+    # The type of runner that the job will run on
+    runs-on: [self-hosted, Windows, deploy, "${{ github.event.inputs.deployTo }}"]
+       
+    needs: Stage
+    
+    # Steps represent a sequence of tasks that will be executed as part of the job
+    steps:
+             
+      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
+      - name: Checkout
+        uses: actions/checkout@v3
+        
+      # Checks-out Common Scripts repository
+      - name: Check out Common Scripts
+        uses: actions/checkout@v3
+        with:
+          repository: intel-manufacturing/applications.manufacturing.intel.common.observability.real-time-metrics-dashboard
+          token: ${{ secrets.MIT_TOKEN }}
+          path: Common
+
+     # Checks-out shared PS Scripts repository
+      - name: Check out shared PS Scripts
+        uses: actions/checkout@v3
+        with:
+          repository: intel-manufacturing/applications.manufacturing.intel.common.ps-commonscripts
+          token: ${{ secrets.MIT_TOKEN }}
+          path: Shared
+        
+             
+      # Run Backup
+      - name: Run Backup
+        run: |
+          echo "Begin Backup"     
+          powershell -file ${{ github.WORKSPACE }}\Common\Scripts\RTM_backup.ps1 -deployTo ${{ github.event.inputs.deployTo }} -scriptPath ${{ github.WORKSPACE }}\Common\Scripts -Version ${{ env.version }} -remote_user ${{ env.REMOTE_USER }} -remote_pass '${{ env.REMOTE_PASS }}' -Appname "${{ env.AppShortName}}" -LogFile "${{ env.log_file}}"
+
+  Audit:
+    name: Audit in ${{ github.event.inputs.deployTo }}
+
+    # The type of runner that the job will run on
+    runs-on: [self-hosted, Windows, deploy, "${{ github.event.inputs.deployTo }}"]
+       
+    needs: Backup
+    
+    # Steps represent a sequence of tasks that will be executed as part of the job
+    steps:
+             
+      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
+      - name: Checkout
+        uses: actions/checkout@v3
+        
+      # Checks-out Common Scripts repository
+      - name: Check out Common Scripts
+        uses: actions/checkout@v3
+        with:
+          repository: intel-manufacturing/applications.manufacturing.intel.common.observability.real-time-metrics-dashboard
+          token: ${{ secrets.MIT_TOKEN }}
+          path: Common
+
+     # Checks-out shared PS Scripts repository
+      - name: Check out shared PS Scripts
+        uses: actions/checkout@v3
+        with:
+          repository: intel-manufacturing/applications.manufacturing.intel.common.ps-commonscripts
+          token: ${{ secrets.MIT_TOKEN }}
+          path: Shared
+        
+       # Run Audit
+      - name: Run Audit
+        run: |
+          echo "Begin Audit"     
+          powershell -file ${{ github.WORKSPACE }}\Common\Scripts\RTM_Audit.ps1 -deployTo ${{ github.event.inputs.deployTo }} -scriptPath ${{ github.WORKSPACE }}\Common\Scripts -Version ${{ env.version }} -remote_user ${{ env.REMOTE_USER }} -remote_pass '${{ env.REMOTE_PASS }}' -Appname "${{ env.AppShortName}}" -LogFile "${{ env.log_file}}"
+         
+         
+  
