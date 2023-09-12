@@ -1,5 +1,5 @@
 # This is a RTM Dashboard Deploy - PCAM
-name: RTM Dashboard Deploy MIT - PCAM
+name: RTM Dashboard Audit Only - PCAM
 
 # Controls when the workflow will run
 on:
