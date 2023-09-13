@@ -1,4 +1,4 @@
-name: Log-Change-to-SNOW action
+name: Log-Change-to-SNOW
 
 # Controls when the workflow will run
 on:
