@@ -1,1 +1,103 @@
-hh
+name: Log-Change-to-SNOW under parent change
+
+# Controls when the workflow will run
+on:
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+    inputs:
+      deployTo:
+        type: choice
+        description: The environment you are deploying to
+        options:
+          - "rf3stg"
+          - "f32int"
+          - "f28prod"
+          - "f24prod"
+          - "f32prod"
+          - "f21prod"
+      version:
+        type: choice
+        description: The version you are deploying
+        options:
+          - "3.0.0"
+          
+      parent:
+        description: Parent Change Number
+        required: false
+        default: ''          
+
+env:
+  Application: "RTM Dashboard ALD"
+  business_service: 'Mfg Applications Management'
+  service_offering: 'MIT MAM FS PCS Support'
+  assignment_group: 'MIT_MAM_FSM_L2'
+  cmdb_ci: 'RTM.DashBoard.PCS.ALD'
+  requested_by: 'Ricarda Louk'
+  assigned_to: 'Noel, Paz'
+  description: 'GitHub: https://mfg-github.mfg.intel.com/intel-manufacturing/applications.manufacturing.intel.common.observability.real-time-metrics-dashboard-ald/actions'
+
+
+# A workflow run is made up of one or more jobs that can run sequentially or in parallel
+
+jobs:
+
+  LogChange:
+    name: Log Change to SNOW in ${{ github.event.inputs.deployTo }}
+  
+    # The type of runner that the job will run on
+    runs-on: [self-hosted, Windows, deploy, "${{ github.event.inputs.deployTo }}"]
+     
+    steps:       
+
+      - name: If rf3stg
+        if: ${{github.event.inputs.deployTo == 'rf3stg'}}
+        run: |
+          echo "location=D1D Production" >> $env:GITHUB_ENV
+          echo "environment=integration" >> $env:GITHUB_ENV
+          
+      - name: If f32int
+        if: ${{github.event.inputs.deployTo == 'f32int'}}
+        run: |
+          echo "location=F32 Integration" >> $env:GITHUB_ENV
+          echo "environment=integration" >> $env:GITHUB_ENV
+
+      - name: If f32prod
+        if: ${{github.event.inputs.deployTo == 'f32prod'}}
+        run: |
+          echo "location=F32 Production" >> $env:GITHUB_ENV
+          echo "environment=production" >> $env:GITHUB_ENV
+
+      - name: If f28prod
+        if: ${{github.event.inputs.deployTo == 'f28prod'}}
+        run: |
+          echo "location=F28 Production" >> $env:GITHUB_ENV
+          echo "environment=production" >> $env:GITHUB_ENV
+
+      - name: If f24prod
+        if: ${{github.event.inputs.deployTo == 'f24prod'}}
+        run: |
+          echo "location=F24 Production" >> $env:GITHUB_ENV
+          echo "environment=production" >> $env:GITHUB_ENV
+          
+      - name: If f21prod
+        if: ${{github.event.inputs.deployTo == 'f21prod'}}
+        run: |
+          echo "location=F21 Production" >> $env:GITHUB_ENV
+          echo "environment=production" >> $env:GITHUB_ENV
+                    
+      - name: Log SNOW Change
+        uses: intel-manufacturing/frameworks.actions.manufacturing.log-snow-chg@v1.1
+        with:
+          chg_sys_id: ${{ secrets.CHG_SYS_ID }}
+          snow_api_key: ${{ secrets.SNOW_API_KEY }}
+          business_service: ${{ env.business_service }}
+          service_offering: ${{ env.service_offering }}
+          assignment_group: ${{ env.assignment_group }}
+          cmdb_ci: ${{ env.cmdb_ci }}
+          requested_by: ${{ env.requested_by }}
+          assigned_to: ${{ env.assigned_to }}
+          location: ${{ env.location }}
+          short_description: 'CICD Install (GitHub) for ${{ env.Application}} ${{ github.event.inputs.version }}'
+          environment: ${{ env.environment }}
+          description:  ${{ env.description }}
+          parent: ${{ github.event.inputs.parent }}
