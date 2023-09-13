@@ -27,14 +27,14 @@ on:
         default: ''          
 
 env:
-  Application: "RTM Dashboard ALD"
-  business_service: 'Mfg Applications Management'
-  service_offering: 'MIT MAM FS PCS Support'
-  assignment_group: 'MIT_MAM_FSM_L2'
-  cmdb_ci: 'RTM.DashBoard.PCS.ALD'
+  Application: "RTM Dashboard PCAM"
+  business_service: 'Mfg Control and Integration'
+  service_offering: 'MIT MCI Process Control'
+  assignment_group: 'MIT_MCI_PIC_L2'
+  cmdb_ci: 'RTM.Dashboard.PCAM-FS'
   requested_by: 'Ricarda Louk'
-  assigned_to: 'Noel, Paz'
-  description: 'GitHub: https://mfg-github.mfg.intel.com/intel-manufacturing/applications.manufacturing.intel.common.observability.real-time-metrics-dashboard-ald/actions'
+  assigned_to: 'Lynch, Jacob'
+  description: 'GitHub: https://mfg-github.mfg.intel.com/intel-manufacturing/applications.manufacturing.intel.common.observability.real-time-metrics-dashboard-pcam/actions'
 
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
