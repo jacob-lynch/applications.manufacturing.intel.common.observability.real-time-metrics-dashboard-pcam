@@ -45,7 +45,7 @@ jobs:
       - name: If rf3stg
         if: ${{github.event.inputs.deployTo == 'rf3stg'}}
         run: |
-          echo "location=D1D Production" >> $env:GITHUB_ENV
+          echo "location=D1D Factory" >> $env:GITHUB_ENV
           echo "environment=integration" >> $env:GITHUB_ENV
           
       - name: If f32int
@@ -57,25 +57,25 @@ jobs:
       - name: If f32prod
         if: ${{github.event.inputs.deployTo == 'f32prod'}}
         run: |
-          echo "location=F32 Production" >> $env:GITHUB_ENV
+          echo "location=F32 Factory" >> $env:GITHUB_ENV
           echo "environment=production" >> $env:GITHUB_ENV
 
       - name: If f28prod
         if: ${{github.event.inputs.deployTo == 'f28prod'}}
         run: |
-          echo "location=F28 Production" >> $env:GITHUB_ENV
+          echo "location=F28 Factory" >> $env:GITHUB_ENV
           echo "environment=production" >> $env:GITHUB_ENV
 
       - name: If f24prod
         if: ${{github.event.inputs.deployTo == 'f24prod'}}
         run: |
-          echo "location=F24 Production" >> $env:GITHUB_ENV
+          echo "location=F24 Factory" >> $env:GITHUB_ENV
           echo "environment=production" >> $env:GITHUB_ENV
           
       - name: If f21prod
         if: ${{github.event.inputs.deployTo == 'f21prod'}}
         run: |
-          echo "location=F21 Production" >> $env:GITHUB_ENV
+          echo "location=F21 Factory" >> $env:GITHUB_ENV
           echo "environment=production" >> $env:GITHUB_ENV
                     
       - name: Log SNOW Change
