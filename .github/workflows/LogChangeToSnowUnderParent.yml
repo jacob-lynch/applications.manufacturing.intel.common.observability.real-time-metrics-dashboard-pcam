@@ -82,7 +82,7 @@ jobs:
       - name: If f21prod
         if: ${{github.event.inputs.deployTo == 'f21prod'}}
         run: |
-          echo "location=F21 Factory" >> $env:GITHUB_ENV
+          echo "location=F11x Factory" >> $env:GITHUB_ENV
           echo "environment=production" >> $env:GITHUB_ENV
                     
       - name: Log SNOW Change
