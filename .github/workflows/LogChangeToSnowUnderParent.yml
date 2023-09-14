@@ -19,12 +19,12 @@ on:
         type: choice
         description: The version you are deploying
         options:
-          - "3.0.0"
+          - "5.0.0"
           
       parent:
         description: Parent Change Number
         required: false
-        default: ''          
+        default: 'CHG0180354'          
 
 env:
   Application: "RTM Dashboard PCAM"
