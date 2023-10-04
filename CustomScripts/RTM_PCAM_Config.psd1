@@ -136,10 +136,10 @@ F21PROD = @{
 }
 F24PROD = @{
     #----- primary jobs Dashboard node (file staging, overwrites, audit will happen on this node)
-    JOBS_NODE="f24pvap416n19.f24prod.mfg.intel.com" 
+    JOBS_NODE="f24pvap616n19.f24prod.mfg.intel.com" 
     JOBS_PATH="\D$\Dashboard\Jobs"
     #----- jobs Audit node (usually same as JOBS_NODE) - if you are moving from a different node this path will be used only for comparison
-    JOBS_AUDIT_NODE="f24pvap416n19.f24prod.mfg.intel.com" 
+    JOBS_AUDIT_NODE="f24pvap616n19.f24prod.mfg.intel.com" 
     JOBS_AUDIT_PATH="\D$\Dashboard\Jobs"
     #----- jobs Backup node (copy of the primary job node) - if you don't have a backup node please place "none"
     JOBS_NODE_BACKUP="none" 
