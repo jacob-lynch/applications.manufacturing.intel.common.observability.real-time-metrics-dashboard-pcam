@@ -1,4 +1,4 @@
-name: RTM Dashboard Deploy F28PROD
+name: Test RTM Dashboard Deploy F28PROD
 on:
   workflow_dispatch:         
     inputs:
