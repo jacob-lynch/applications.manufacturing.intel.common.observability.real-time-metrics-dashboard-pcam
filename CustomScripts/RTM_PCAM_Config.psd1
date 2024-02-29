@@ -39,20 +39,20 @@ RF3STG = @{
 }
 F32INT = @{
     #----- primary jobs Dashboard node (file staging, overwrites, audit will happen on this node)
-    JOBS_NODE="f32iap216n4.f32int.mfgint.intel.com"
+    JOBS_NODE="f32iap216n3.f32int.mfgint.intel.com"
     JOBS_PATH="\T$\Dashboard\Jobs"
     #----- jobs Audit node (usually same as JOBS_NODE) - if you are moving from a different node this path will be used only for comparison
-    JOBS_AUDIT_NODE="f32iap216n4.f32int.mfgint.intel.com"
+    JOBS_AUDIT_NODE="f32iap216n3.f32int.mfgint.intel.com"
     JOBS_AUDIT_PATH="\T$\Dashboard\Jobs"
     #----- jobs Backup node (copy of the primary job node) - if you don't have a backup node please place "none"
     JOBS_NODE_BACKUP="f32ivap616n1.f32int.mfgint.intel.com" 
     #JOBS_NODE_BACKUP="none"
     JOBS_BACKUP_PATH="\D$\Dashboard\Jobs"
     #----- primary web Dashboard node 
-    WEB_NODE="f32iap216n3.f32int.mfgint.intel.com"
+    WEB_NODE="f32iap126n1.f32int.mfgint.intel.com"
     WEB_PATH="\r$\Dashboard\Web"
     #----- web Audit node (usually same as WEB_NODE) - if you are moving from a different node this path will be used only for comparison
-    WEB_AUDIT_NODE="f32iap216n3.f32int.mfgint.intel.com"
+    WEB_AUDIT_NODE="f32iap126n1.f32int.mfgint.intel.com"
     WEB_AUDIT_PATH="\r$\Dashboard\Web"
     #----- web Backup node (copy of the primary web node) - if you don't have a backup node please place "none"
     WEB_NODE_BACKUP="none"
@@ -81,10 +81,10 @@ F28PROD = @{
     JOBS_NODE_BACKUP="none"
     JOBS_BACKUP_PATH="\D$\Dashboard\Jobs"
     #----- primary web Dashboard node 
-    WEB_NODE="f28pap216n11.f28prod.mfg.intel.com"
+    WEB_NODE="f28pap126n1.f28prod.mfg.intel.com"
     WEB_PATH="\r$\Dashboard\Web"
     #----- web Audit node (usually same as WEB_NODE) - if you are moving from a different node this path will be used only for comparison
-    WEB_AUDIT_NODE="f28pap216n11.f28prod.mfg.intel.com"
+    WEB_AUDIT_NODE="f28pap126n1.f28prod.mfg.intel.com"
     WEB_AUDIT_PATH="\r$\Dashboard\Web"
     #----- web Backup node (copy of the primary web node) - if you don't have a backup node please place "none"
     WEB_NODE_BACKUP="none"
@@ -104,19 +104,19 @@ F28PROD = @{
 }
 F21PROD = @{
     #----- primary jobs Dashboard node (file staging, overwrites, audit will happen on this node)
-    JOBS_NODE="f21pvap416n19.f21prod.mfg.intel.com" 
+    JOBS_NODE="f21pvap616n19.f21prod.mfg.intel.com" 
     JOBS_PATH="\D$\Dashboard\Jobs"
     #----- jobs Audit node (usually same as JOBS_NODE) - if you are moving from a different node this path will be used only for comparison
-    JOBS_AUDIT_NODE="f21pvap416n19.f21prod.mfg.intel.com" 
+    JOBS_AUDIT_NODE="f21pvap616n19.f21prod.mfg.intel.com" 
     JOBS_AUDIT_PATH="\D$\Dashboard\Jobs"
     #----- jobs Backup node (copy of the primary job node) - if you don't have a backup node please place "none"
     JOBS_NODE_BACKUP="none" 
     JOBS_BACKUP_PATH="\D$\Dashboard\Jobs"
     #----- primary web Dashboard node 
-    WEB_NODE="f21pap216n11.f21prod.mfg.intel.com"
+    WEB_NODE="f21pap126n1.f21prod.mfg.intel.com"
     WEB_PATH="\r$\Dashboard\Web"
     #----- web Audit node (usually same as WEB_NODE) - if you are moving from a different node this path will be used only for comparison
-    WEB_AUDIT_NODE="f21pap216n11.f21prod.mfg.intel.com"
+    WEB_AUDIT_NODE="f21pap126n1.f21prod.mfg.intel.com"
     WEB_AUDIT_PATH="\r$\Dashboard\Web"
     #----- web Backup node (copy of the primary web node) - if you don't have a backup node please place "none"
     WEB_NODE_BACKUP="none"
@@ -145,10 +145,10 @@ F24PROD = @{
     JOBS_NODE_BACKUP="none" 
     JOBS_BACKUP_PATH="\D$\Dashboard\Jobs"
     #----- primary web Dashboard node 
-    WEB_NODE="f24pap216n11.f24prod.mfg.intel.com"
+    WEB_NODE="f24pap126n1.f24prod.mfg.intel.com"
     WEB_PATH="\r$\Dashboard\Web"
     #----- web Audit node (usually same as WEB_NODE) - if you are moving from a different node this path will be used only for comparison
-    WEB_AUDIT_NODE="f24pap216n11.f24prod.mfg.intel.com"
+    WEB_AUDIT_NODE="f24pap126n1.f24prod.mfg.intel.com"
     WEB_AUDIT_PATH="\r$\Dashboard\Web"
     #----- web Backup node (copy of the primary web node) - if you don't have a backup node please place "none"
     WEB_NODE_BACKUP="none"
@@ -177,10 +177,10 @@ F32PROD = @{
     JOBS_NODE_BACKUP="none" 
     JOBS_BACKUP_PATH="\D$\Dashboard\Jobs"
     #----- primary web Dashboard node 
-    WEB_NODE="f32pap216n11.f32prod.mfg.intel.com"
+    WEB_NODE="f32pap126n1.f32prod.mfg.intel.com"
     WEB_PATH="\r$\Dashboard\Web"
     #----- web Audit node (usually same as WEB_NODE) - if you are moving from a different node this path will be used only for comparison
-    WEB_AUDIT_NODE="f32pap216n11.f32prod.mfg.intel.com"
+    WEB_AUDIT_NODE="f32pap126n1.f32prod.mfg.intel.com"
     WEB_AUDIT_PATH="\r$\Dashboard\Web"
     #----- web Backup node (copy of the primary web node) - if you don't have a backup node please place "none"
     WEB_NODE_BACKUP="none"
@@ -200,19 +200,19 @@ F32PROD = @{
 }
 F68PROD = @{
     #----- primary jobs Dashboard node (file staging, overwrites, audit will happen on this node)
-    JOBS_NODE="f68pvap416n19.f68prod.mfg.intel.com" 
+    JOBS_NODE="f68pvap616n19.f68prod.mfg.intel.com" 
     JOBS_PATH="\D$\Dashboard\Jobs"
     #----- jobs Audit node (usually same as JOBS_NODE) - if you are moving from a different node this path will be used only for comparison
-    JOBS_AUDIT_NODE="f68pvap416n19.f68prod.mfg.intel.com" 
+    JOBS_AUDIT_NODE="f68pvap616n19.f68prod.mfg.intel.com" 
     JOBS_AUDIT_PATH="\D$\Dashboard\Jobs"
     #----- jobs Backup node (copy of the primary job node) - if you don't have a backup node please place "none"
     JOBS_NODE_BACKUP="none" 
     JOBS_BACKUP_PATH="\D$\Dashboard\Jobs"
     #----- primary web Dashboard node 
-    WEB_NODE="f68pap216n11.f68prod.mfg.intel.com"
+    WEB_NODE="f68pap126n1.f68prod.mfg.intel.com"
     WEB_PATH="\r$\Dashboard\Web"
     #----- web Audit node (usually same as WEB_NODE) - if you are moving from a different node this path will be used only for comparison
-    WEB_AUDIT_NODE="f68pap216n11.f68prod.mfg.intel.com"
+    WEB_AUDIT_NODE="f68pap126n1.f68prod.mfg.intel.com"
     WEB_AUDIT_PATH="\r$\Dashboard\Web"
     #----- web Backup node (copy of the primary web node) - if you don't have a backup node please place "none"
     WEB_NODE_BACKUP="none"
