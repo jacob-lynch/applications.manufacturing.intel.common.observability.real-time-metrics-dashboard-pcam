@@ -10,22 +10,6 @@ on:
         required: true
         type: string
         description: GitHub Action runners to use
-    secrets:
-      REMOTE_USER:
-        required: true
-        description: Remote user
-      REMOTE_PASS:
-        required: true
-        description: Remote password
-      username:
-        required: true
-        description: domain username
-      password:
-        required: true
-        description: domain password
-      mit_token:
-        required: true
-        description: token
 
 env:
   version: "5.0.0"
@@ -34,6 +18,10 @@ env:
   Application: "RTM Dashboard PCAM"
   AppShortName: "RTM_PCAM"
   GITHUB_CONTEXT: ${{ toJson(github) }}
+  REMOTE_USER: ${{ secrets.OBSERV_DEPLOY_USERNAME }}
+  REMOTE_PASS: ${{ secrets.OBSERV_DEPLOY_PASSWORD }}
+  username: ${{ secrets[format('{0}_PCAM_USER', ${{ inputs.environment }}] }}
+  password: ${{ secrets[format('{0}_PCAM_PSWD', ${{ inputs.environment }}] }}
   
   
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
@@ -46,7 +34,10 @@ jobs:
   
     # The type of runner that the job will run on
     runs-on: ${{ fromJson(inputs.runner) }}
-           
+
+    environment:
+      name: ${{ inputs.environment }}
+      
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
        
@@ -70,7 +61,7 @@ jobs:
           repository: intel-manufacturing/applications.manufacturing.intel.common.ps-commonscripts
           token: ${{ secrets.MIT_TOKEN }}
           path: Shared
-          ref: 'v1.1.0'
+          ref: 'v1.2.0'
 
       # Run pre-validate
       - name: Run pre-validate
@@ -86,7 +77,10 @@ jobs:
     name: Stage in ${{ inputs.environment }}
 
     runs-on: ${{ fromJson(inputs.runner) }}
-         
+
+    environment:
+      name: ${{ inputs.environment }}
+      
     needs: Prevalidate
     
     # Steps represent a sequence of tasks that will be executed as part of the job
@@ -112,7 +106,7 @@ jobs:
           repository: intel-manufacturing/applications.manufacturing.intel.common.ps-commonscripts
           token: ${{ secrets.MIT_TOKEN }}
           path: Shared
-          ref: 'v1.1.0'
+          ref: 'v1.2.0'
 
       # Run Stage Files
       - name: Run Stage Files
@@ -125,7 +119,10 @@ jobs:
     name: Backup in ${{ inputs.environment }}
 
     runs-on: ${{ fromJson(inputs.runner) }}
-       
+
+    environment:
+      name: ${{ inputs.environment }}
+      
     needs: Stage
     
     # Steps represent a sequence of tasks that will be executed as part of the job
@@ -151,7 +148,7 @@ jobs:
           repository: intel-manufacturing/applications.manufacturing.intel.common.ps-commonscripts
           token: ${{ secrets.MIT_TOKEN }}
           path: Shared
-          ref: 'v1.1.0'
+          ref: 'v1.2.0'
 
       # Run Backup
       - name: Run Backup
@@ -165,7 +162,10 @@ jobs:
     name: Audit in ${{ inputs.environment }}
 
     runs-on: ${{ fromJson(inputs.runner) }}
-     
+
+    environment:
+      name: ${{ inputs.environment }}
+      
     needs: Backup
     
     # Steps represent a sequence of tasks that will be executed as part of the job
@@ -191,7 +191,7 @@ jobs:
           repository: intel-manufacturing/applications.manufacturing.intel.common.ps-commonscripts
           token: ${{ secrets.MIT_TOKEN }}
           path: Shared
-          ref: 'v1.1.0'
+          ref: 'v1.2.0'
           
             
       # Run Audit
@@ -199,20 +199,38 @@ jobs:
         run: |
           echo "Begin Audit"     
           powershell -file ${{ github.WORKSPACE }}\Common\Scripts\RTM_Audit.ps1 -deployTo ${{ inputs.environment }} -scriptPath ${{ github.WORKSPACE }}\Common\Scripts -Version ${{ env.version }} -remote_user ${{ secrets.REMOTE_USER }} -remote_pass '${{ secrets.REMOTE_PASS }}' -Appname "${{ env.AppShortName}}" -LogFile "${{ env.log_file}}" -DebugMode "Y"
-         
+
+  DeployCheckPoint:
+    name: DeployCheckPoint in ${{ inputs.environment }}
+
+    runs-on: ${{ fromJson(inputs.runner) }}
+      
+    needs: Backup
+
+    # will wait until user approves
+    environment:
+       name: approve_RTM_PCAM_deploy  
+
+    # Steps represent a sequence of tasks that will be executed as part of the job
+    steps:
+    
+      # Deploy Checkpoint
+      - name: Deploy Checkpoint
+        run: |
+          echo "Deploy Checkpoint"    
+          
          
          
   Deploy:
     name: Deploy in ${{ inputs.environment }}
 
     runs-on: ${{ fromJson(inputs.runner) }}
-       
-    needs: Audit
-    
-    # will wait until user approves
+ 
     environment:
-      name: approve_RTM_PCAM_deploy
+      name: ${{ inputs.environment }}
       
+    needs: DeployCheckPoint
+         
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
              
@@ -236,7 +254,7 @@ jobs:
           repository: intel-manufacturing/applications.manufacturing.intel.common.ps-commonscripts
           token: ${{ secrets.MIT_TOKEN }}
           path: Shared
-          ref: 'v1.1.0'
+          ref: 'v1.2.0'
           
       # Run Deploy
       - name: Run Deploy
@@ -249,7 +267,10 @@ jobs:
     name: Post-Validate in ${{ inputs.environment }}
 
     runs-on: ${{ fromJson(inputs.runner) }}
-       
+
+    environment:
+      name: ${{ inputs.environment }}
+      
     needs: Deploy
     
     # Steps represent a sequence of tasks that will be executed as part of the job
@@ -275,25 +296,43 @@ jobs:
           repository: intel-manufacturing/applications.manufacturing.intel.common.ps-commonscripts
           token: ${{ secrets.MIT_TOKEN }}
           path: Shared
-          ref: 'v1.1.0'
+          ref: 'v1.2.0'
           
       # Run Post Validate
       - name: Run Post-Validate
         run: |
           echo "Begin Post-Validate"
           powershell -file ${{ github.WORKSPACE }}\Common\Scripts\RTM_post-install-HC.ps1 -deployTo ${{ inputs.environment }} -scriptPath ${{ github.WORKSPACE }}\Common\Scripts -version ${{ env.version }} -remote_user ${{ secrets.REMOTE_USER }} -remote_pass '${{ secrets.REMOTE_PASS }}' -Appname "${{ env.AppShortName}}" -LogFile "${{ env.log_file}}"
-       
+
+  NotificationCheckPoint:
+    name: NotificationCheckPoint in ${{ inputs.environment }}
+
+    runs-on: ${{ fromJson(inputs.runner) }}
+      
+    needs: Post-Validate
+
+    # will wait until user approves
+    environment:
+       name: approve_RTM_PCAM_notify  
+
+    # Steps represent a sequence of tasks that will be executed as part of the job
+    steps:
+    
+      # NotificationCheckPoint
+      - name: NotificationCheckPoint
+        run: |
+          echo "NotificationCheckPoint"  
+          
   
   Notification:
     name: Notification in ${{ inputs.environment }}
     
     runs-on: ${{ fromJson(inputs.runner) }}
 
-    needs: Post-Validate
-   
-    # will wait until user approves
     environment:
-      name: approve_RTM_PCAM_notify
+      name: ${{ inputs.environment }}
+      
+    needs: NotificationCheckPoint
       
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
@@ -318,7 +357,7 @@ jobs:
           repository: intel-manufacturing/applications.manufacturing.intel.common.ps-commonscripts
           token: ${{ secrets.MIT_TOKEN }}
           path: Shared
-          ref: 'v1.1.0'
+          ref: 'v1.2.0'
 
       # Run Notification
       - name: Run Deploy Notification
@@ -326,16 +365,35 @@ jobs:
           echo "Begin Deploy Notification"
           powershell.exe -file ${{ github.WORKSPACE }}\Common\Scripts\RTM_Notification.ps1 -deployTo ${{ inputs.environment }} -scriptPath ${{ github.WORKSPACE }}\Common\Scripts -Version ${{ env.version }} -subject "[${{ inputs.environment }}] - ${{ env.Application }} Deploy" -message "${{ env.Application }} ${{ env.version }} was deployed in ${{ inputs.environment }}" -Appname "${{ env.AppShortName}}" -LogFile "${{ env.log_file}}"
 
+
+  RollbackCheckPoint:
+    name: RollbackCheckPointt in ${{ inputs.environment }}
+
+    runs-on: ${{ fromJson(inputs.runner) }}
+      
+    needs: Deploy
+
+    # will wait until user approves
+    environment:
+       name: approve_RTM_PCAM_rollback  
+
+    # Steps represent a sequence of tasks that will be executed as part of the job
+    steps:
+    
+      # RollbackCheckPoint
+      - name: RollbackCheckPoint
+        run: |
+          echo "RollbackCheckPoint" 
+          
   Rollback:
     name: Rollback in ${{ inputs.environment }}
     
     runs-on: ${{ fromJson(inputs.runner) }}
 
-    needs: Deploy
-
-    # will wait until user approves
     environment:
-      name: approve_RTM_PCAM_rollback
+      name: ${{ inputs.environment }}
+      
+    needs: RollbackCheckPoint
 
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
@@ -360,7 +418,7 @@ jobs:
           repository: intel-manufacturing/applications.manufacturing.intel.common.ps-commonscripts
           token: ${{ secrets.MIT_TOKEN }}
           path: Shared
-          ref: 'v1.1.0'
+          ref: 'v1.2.0'
 
       # Run Rollback
       - name: Run Rollback
@@ -373,6 +431,9 @@ jobs:
     
     runs-on: ${{ fromJson(inputs.runner) }}
 
+    environment:
+      name: ${{ inputs.environment }}
+      
     needs: Rollback
    
     # Steps represent a sequence of tasks that will be executed as part of the job
@@ -398,7 +459,7 @@ jobs:
           repository: intel-manufacturing/applications.manufacturing.intel.common.ps-commonscripts
           token: ${{ secrets.MIT_TOKEN }}
           path: Shared
-          ref: 'v1.1.0'
+          ref: 'v1.2.0'
 
       # Run Rollback Notification
       - name: Run Rollback Notification
