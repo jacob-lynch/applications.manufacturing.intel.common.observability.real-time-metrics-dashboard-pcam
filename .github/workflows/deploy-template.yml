@@ -69,7 +69,7 @@ jobs:
           echo "Begin pre-validate"
           echo "Workflow: ${{ github.SERVER_URL }}/${{ github.REPOSITORY }}/actions/runs/${{ github.RUN_ID }}"
           echo '${{ env.REMOTE_PASS }}'
-          powershell -file ${{ github.WORKSPACE }}\Common\Scripts\RTM_pre-install-HC.ps1 -deployTo ${{ inputs.environment }} -scriptPath ${{ github.WORKSPACE }}\Common\Scripts -version ${{ env.version }} -releaseDir "${{ github.WORKSPACE }}\releases\${{ env.version }}" -remote_user ${{ secrets.REMOTE_USER }} -remote_pass '${{ secrets.REMOTE_PASS }}' -Appname "${{ env.AppShortName}}" -PreReqVersion "${{ env.PreReqVersion}}" -LogFile "${{ env.log_file}}"
+          powershell -file ${{ github.WORKSPACE }}\Common\Scripts\RTM_pre-install-HC.ps1 -deployTo ${{ inputs.environment }} -scriptPath ${{ github.WORKSPACE }}\Common\Scripts -version ${{ env.version }} -releaseDir "${{ github.WORKSPACE }}\releases\${{ env.version }}" -remote_user ${{ env.REMOTE_USER }} -remote_pass '${{ env.REMOTE_PASS }}' -Appname "${{ env.AppShortName}}" -PreReqVersion "${{ env.PreReqVersion}}" -LogFile "${{ env.log_file}}"
   
   
          
