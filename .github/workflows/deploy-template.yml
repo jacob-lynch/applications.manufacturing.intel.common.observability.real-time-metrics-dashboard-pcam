@@ -20,8 +20,8 @@ env:
   GITHUB_CONTEXT: ${{ toJson(github) }}
   REMOTE_USER: ${{ secrets.OBSERV_DEPLOY_USERNAME }}
   REMOTE_PASS: ${{ secrets.OBSERV_DEPLOY_PASSWORD }}
-  username: ${{ secrets[format('{0}_PCAM_USER', ${{ inputs.environment }}] }}
-  password: ${{ secrets[format('{0}_PCAM_PSWD', ${{ inputs.environment }}] }}
+  username: ${{ secrets.username }}
+  password: ${{ secrets.password }}
   
   
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
