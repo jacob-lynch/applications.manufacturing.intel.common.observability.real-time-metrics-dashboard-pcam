@@ -10,7 +10,23 @@ on:
         required: true
         type: string
         description: GitHub Action runners to use
-
+    secrets:
+      REMOTE_USER:
+        required: true
+        description: Remote user
+      REMOTE_PASS:
+        required: true
+        description: Remote password
+      username:
+        required: true
+        description: domain username
+      password:
+        required: true
+        description: domain password
+      mit_token:
+        required: true
+        description: token
+        
 env:
   version: "5.0.0"
   PreReqVersion: "4.0.0"
@@ -18,12 +34,12 @@ env:
   Application: "RTM Dashboard PCAM"
   AppShortName: "RTM_PCAM"
   GITHUB_CONTEXT: ${{ toJson(github) }}
-  REMOTE_USER: ${{ secrets.OBSERV_DEPLOY_USERNAME }}
-  REMOTE_PASS: ${{ secrets.OBSERV_DEPLOY_PASSWORD }}
+  #REMOTE_USER: ${{ secrets.OBSERV_DEPLOY_USERNAME }}
+  #REMOTE_PASS: ${{ secrets.OBSERV_DEPLOY_PASSWORD }}
   #username: ${{ secrets.username }}
   #password: ${{ secrets.password }}
-  username: ${{ secrets[format('{0}_PCAM_USER', ${{ inputs.environment }})] }}
-  password: ${{ secrets[format('{0}_PCAM_PSWD', ${{ inputs.environment }})] }}
+  #username: ${{ secrets[format('{0}_PCAM_USER', ${{ inputs.environment }})] }}
+  #password: ${{ secrets[format('{0}_PCAM_PSWD', ${{ inputs.environment }})] }}
   
   
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
@@ -70,8 +86,8 @@ jobs:
         run: |
           echo "Begin pre-validate"
           echo "Workflow: ${{ github.SERVER_URL }}/${{ github.REPOSITORY }}/actions/runs/${{ github.RUN_ID }}"
-          echo '${{ env.REMOTE_PASS }}'
-          powershell -file ${{ github.WORKSPACE }}\Common\Scripts\RTM_pre-install-HC.ps1 -deployTo ${{ inputs.environment }} -scriptPath ${{ github.WORKSPACE }}\Common\Scripts -version ${{ env.version }} -releaseDir "${{ github.WORKSPACE }}\releases\${{ env.version }}" -remote_user ${{ env.REMOTE_USER }} -remote_pass '${{ env.REMOTE_PASS }}' -Appname "${{ env.AppShortName}}" -PreReqVersion "${{ env.PreReqVersion}}" -LogFile "${{ env.log_file}}"
+          echo '${{ secrets.REMOTE_PASS }}'
+          powershell -file ${{ github.WORKSPACE }}\Common\Scripts\RTM_pre-install-HC.ps1 -deployTo ${{ inputs.environment }} -scriptPath ${{ github.WORKSPACE }}\Common\Scripts -version ${{ env.version }} -releaseDir "${{ github.WORKSPACE }}\releases\${{ env.version }}" -remote_user ${{ secrets.REMOTE_USER }} -remote_pass '${{ secrets.REMOTE_PASS }}' -Appname "${{ env.AppShortName}}" -PreReqVersion "${{ env.PreReqVersion}}" -LogFile "${{ env.log_file}}"
   
   
          
