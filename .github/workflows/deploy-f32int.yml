@@ -10,10 +10,6 @@ on:
         options:
         - f32int
 
-env:
-      username: ${{ secrets[format('{0}_PCAM_USER', github.event.inputs.deployTo)] }}
-      password: ${{ secrets[format('{0}_PCAM_PSWD', github.event.inputs.deployTo)] }}
- 
 jobs:
 
 
