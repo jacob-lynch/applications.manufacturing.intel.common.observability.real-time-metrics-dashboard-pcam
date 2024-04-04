@@ -40,8 +40,8 @@ jobs:
       environment: '${{ github.event.inputs.deployTo }}'
       runner: "['self-hosted', 'Windows', 'deploy','${{ github.event.inputs.deployTo }}']"
     secrets: 
-      REMOTE_USER: ${{ secrets.REMOTE_USER }}
-      REMOTE_PASS: ${{ secrets.REMOTE_PASS }}
+      REMOTE_USER: ${{ secrets.OBSERV_DEPLOY_USERNAME }}
+      REMOTE_PASS: ${{ secrets.OBSERV_DEPLOY_PASSWORD }}
       username: ${{ secrets[format('{0}_PCAM_USER', github.event.inputs.deployTo)] }}
       password: ${{ secrets[format('{0}_PCAM_PSWD', github.event.inputs.deployTo)] }}
       mit_token: ${{ secrets.MIT_TOKEN }}
