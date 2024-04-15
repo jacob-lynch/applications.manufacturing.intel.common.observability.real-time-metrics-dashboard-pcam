@@ -7,19 +7,19 @@ domain1="none"
 releaseName='RTM.Dashboard.PCAM'
 RF3STG = @{
     #----- primary jobs Dashboard node (file staging, overwrites, audit will happen on this node)
-    JOBS_NODE="rf3sap216n3.rf3stg.mfgint.intel.com"
+    JOBS_NODE="rf3svap616n19.rf3stg.mfgint.intel.com"
     JOBS_PATH="\t$\Dashboard\Jobs"
     #----- jobs Audit node (usually same as JOBS_NODE) - if you are moving from a different node this path will be used only for comparison
-    JOBS_AUDIT_NODE="rf3sap216n3.rf3stg.mfgint.intel.com"
+    JOBS_AUDIT_NODE="rf3svap616n19.rf3stg.mfgint.intel.com"
     JOBS_AUDIT_PATH="\t$\Dashboard\Jobs"
     #----- jobs Backup node (copy of the primary job node) - if you don't have a backup node please place "none"
     JOBS_NODE_BACKUP="rf3svap616n19.rf3stg.mfgint.intel.com" 
     JOBS_BACKUP_PATH="\D$\Dashboard\Jobs"
     #----- primary web Dashboard node 
-    WEB_NODE="rf3sap216n3.rf3stg.mfgint.intel.com"
+    WEB_NODE="rf3sap126n1.rf3stg.mfgint.intel.com"
     WEB_PATH="\r$\Dashboard\Web"
     #----- web Audit node (usually same as WEB_NODE) - if you are moving from a different node this path will be used only for comparison
-    WEB_AUDIT_NODE="rf3sap216n3.rf3stg.mfgint.intel.com"
+    WEB_AUDIT_NODE="rf3sap126n1.rf3stg.mfgint.intel.com"
     WEB_AUDIT_PATH="\r$\Dashboard\Web"
     #----- web Backup node (copy of the primary web node) - if you don't have a backup node please place "none"
     WEB_NODE_BACKUP="none"
@@ -39,10 +39,10 @@ RF3STG = @{
 }
 F32INT = @{
     #----- primary jobs Dashboard node (file staging, overwrites, audit will happen on this node)
-    JOBS_NODE="f32iap216n3.f32int.mfgint.intel.com"
+    JOBS_NODE="f32ivap616n1.f32int.mfgint.intel.com"
     JOBS_PATH="\T$\Dashboard\Jobs"
     #----- jobs Audit node (usually same as JOBS_NODE) - if you are moving from a different node this path will be used only for comparison
-    JOBS_AUDIT_NODE="f32iap216n3.f32int.mfgint.intel.com"
+    JOBS_AUDIT_NODE="f32ivap616n1.f32int.mfgint.intel.com"
     JOBS_AUDIT_PATH="\T$\Dashboard\Jobs"
     #----- jobs Backup node (copy of the primary job node) - if you don't have a backup node please place "none"
     JOBS_NODE_BACKUP="f32ivap616n1.f32int.mfgint.intel.com" 
