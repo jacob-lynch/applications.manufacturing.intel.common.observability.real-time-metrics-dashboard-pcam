@@ -8,10 +8,10 @@ releaseName='RTM.Dashboard.PCAM'
 RF3STG = @{
     #----- primary jobs Dashboard node (file staging, overwrites, audit will happen on this node)
     JOBS_NODE="rf3svap616n19.rf3stg.mfgint.intel.com"
-    JOBS_PATH="\t$\Dashboard\Jobs"
+    JOBS_PATH="\d$\Dashboard\Jobs"
     #----- jobs Audit node (usually same as JOBS_NODE) - if you are moving from a different node this path will be used only for comparison
     JOBS_AUDIT_NODE="rf3svap616n19.rf3stg.mfgint.intel.com"
-    JOBS_AUDIT_PATH="\t$\Dashboard\Jobs"
+    JOBS_AUDIT_PATH="\d$\Dashboard\Jobs"
     #----- jobs Backup node (copy of the primary job node) - if you don't have a backup node please place "none"
     JOBS_NODE_BACKUP="rf3svap616n19.rf3stg.mfgint.intel.com" 
     JOBS_BACKUP_PATH="\D$\Dashboard\Jobs"
@@ -37,13 +37,45 @@ RF3STG = @{
     #----- credentials for Scheduled task setup
     SchedTaskPath="\Dashboard\PCAM\"
 }
+RF3PROD = @{
+    #----- primary jobs Dashboard node (file staging, overwrites, audit will happen on this node)
+    JOBS_NODE="rf3pvap616n19.rf3prod.mfg.intel.com"
+    JOBS_PATH="\d$\Dashboard\Jobs"
+    #----- jobs Audit node (usually same as JOBS_NODE) - if you are moving from a different node this path will be used only for comparison
+    JOBS_AUDIT_NODE="rf3pvap616n19.rf3prod.mfg.intel.com"
+    JOBS_AUDIT_PATH="\d$\Dashboard\Jobs"
+    #----- jobs Backup node (copy of the primary job node) - if you don't have a backup node please place "none"
+    JOBS_NODE_BACKUP="rf3pvap616n19.rf3prod.mfg.intel.com" 
+    JOBS_BACKUP_PATH="\D$\Dashboard\Jobs"
+    #----- primary web Dashboard node 
+    WEB_NODE="rf3pap126n1.rf3prod.mfg.intel.com"
+    WEB_PATH="\r$\Dashboard\Web"
+    #----- web Audit node (usually same as WEB_NODE) - if you are moving from a different node this path will be used only for comparison
+    WEB_AUDIT_NODE="rf3sap126n1.rf3prod.mfg.intel.com"
+    WEB_AUDIT_PATH="\r$\Dashboard\Web"
+    #----- web Backup node (copy of the primary web node) - if you don't have a backup node please place "none"
+    WEB_NODE_BACKUP="none"
+    WEB_BACKUP_PATH="\r$\Dashboard\Web"
+    #----- Files to exclude when copying from install directory to primary nodes e.g. EXCLUDE_FILES_INSTALL_COPY=@('*.sql','web.config')
+    EXCLUDE_FILES_INSTALL_COPY=@('*.sql','web.config','pcam.sitemap')
+    #----- Files to exclude when copying from primary dashboard node to secondary dashboard node (if relevant)
+    EXCLUDE_FILES_BACKUP_COPY=@('*.sql')
+    #----- needed for AUDIT to replace TD domain with local domain name
+    SQL_POSTFIX_D1D="RF3PROD"
+    SQL_POSTFIX_LOCAL="RF3PROD"
+    #----- you can specify multiple emails for completion notification (e.g. smtpTo = @('ricarda.louk@intel.com','hendrix.hartana@intel.com') )
+    smtpTo = @('ricarda.louk@intel.com')
+    smtpFrom ="sys_cicd@intel.com"
+    #----- credentials for Scheduled task setup
+    SchedTaskPath="\Dashboard\PCAM\"
+}
 F32INT = @{
     #----- primary jobs Dashboard node (file staging, overwrites, audit will happen on this node)
     JOBS_NODE="f32ivap616n1.f32int.mfgint.intel.com"
-    JOBS_PATH="\T$\Dashboard\Jobs"
+    JOBS_PATH="\d$\Dashboard\Jobs"
     #----- jobs Audit node (usually same as JOBS_NODE) - if you are moving from a different node this path will be used only for comparison
     JOBS_AUDIT_NODE="f32ivap616n1.f32int.mfgint.intel.com"
-    JOBS_AUDIT_PATH="\T$\Dashboard\Jobs"
+    JOBS_AUDIT_PATH="\d$\Dashboard\Jobs"
     #----- jobs Backup node (copy of the primary job node) - if you don't have a backup node please place "none"
     JOBS_NODE_BACKUP="f32ivap616n1.f32int.mfgint.intel.com" 
     #JOBS_NODE_BACKUP="none"
