@@ -41,8 +41,10 @@ jobs:
     secrets: 
       REMOTE_USER: ${{ secrets.OBSERV_DEPLOY_USERNAME }}
       REMOTE_PASS: ${{ secrets.OBSERV_DEPLOY_PASSWORD }}
-      username: ${{ secrets[format('{0}_PCAM_USER', github.event.inputs.deployTo)] }}
-      password: ${{ secrets[format('{0}_PCAM_PSWD', github.event.inputs.deployTo)] }}
+      #username: ${{ secrets[format('{0}_PCAM_USER', github.event.inputs.deployTo)] }}
+      #password: ${{ secrets[format('{0}_PCAM_PSWD', github.event.inputs.deployTo)] }}
+      username: ${{ secrets.PCAM_USER }}
+      password: ${{ secrets.PCAM_PSWD }}
       mit_token: ${{ secrets.MIT_TOKEN }}
 
     
