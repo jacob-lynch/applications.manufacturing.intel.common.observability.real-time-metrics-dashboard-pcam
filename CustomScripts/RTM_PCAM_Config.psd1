@@ -77,7 +77,7 @@ F32INT = @{
     JOBS_AUDIT_NODE="f32ivap616n1.f32int.mfgint.intel.com"
     JOBS_AUDIT_PATH="\d$\Dashboard\Jobs"
     #----- jobs Backup node (copy of the primary job node) - if you don't have a backup node please place "none"
-    JOBS_NODE_BACKUP="f32ivap616n1.f32int.mfgint.intel.com" 
+    JOBS_NODE_BACKUP="none" 
     #JOBS_NODE_BACKUP="none"
     JOBS_BACKUP_PATH="\D$\Dashboard\Jobs"
     #----- primary web Dashboard node 
