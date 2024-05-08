@@ -1,0 +1,420 @@
+<QueryConfig AutoExecuteQueryOnLoad="false" PreventSQLBeautification="false">
+  <ChangeLog>Changed by AMR\mfg_nmcdanie on 1/4/2024 11:01:03 AM from RF3PVAP616N19.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.9.30724.1550</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 11/19/2018 12:52:14 PM from RF3PVAP416N19.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.9.70713.2318</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 9/28/2015 2:12:20 PM from RF3PAP216N3.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.8.50323.2106</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 3/12/2015 2:45:44 PM from RF3PAP216N3.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.8.40713.1943</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 11/6/2014 9:55:30 AM from RF3PTS216.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.8.40923.2310</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 8/1/2014 9:45:36 AM from RF3PTS216.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.8.40723.2330</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 7/29/2014 3:29:32 PM from RF3PTS216.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.8.40723.2330</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 7/24/2014 3:30:59 PM from RF3PTS216.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.8.40723.2330</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 7/24/2014 3:30:54 PM from RF3PTS216.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.8.40723.2330</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 7/24/2014 3:30:32 PM from RF3PTS216.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.8.40723.2330</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 7/24/2014 3:09:35 PM from RF3PTS216.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.8.40723.2330</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 7/24/2014 3:07:22 PM from RF3PTS216.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.8.40723.2330</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 7/16/2014 10:18:00 AM from RF3PTS216.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.8.40713.1943</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 7/14/2014 2:39:47 PM from RF3PTS216.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.8.40713.1943</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 7/14/2014 2:37:38 PM from RF3PTS216.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.8.40713.1943</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 7/14/2014 2:36:04 PM from RF3PTS216.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.8.40713.1943</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 7/14/2014 2:35:13 PM from RF3PTS216.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.8.40713.1943</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 7/14/2014 2:23:17 PM from RF3PTS216.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.8.40713.1943</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 6/30/2014 12:54:20 PM from RF3PTS216.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.8.40626.2211</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 5/1/2013 4:49:09 PM from RF3PTS215.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.6.30430.2016</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 12/27/2012 4:40:23 PM from RF3PTS215.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.5.21112.1211</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 12/27/2012 4:39:56 PM from RF3PTS215.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.5.21112.1211</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 12/27/2012 4:03:13 PM from RF3PTS215.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.5.21112.1211</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 12/12/2012 5:19:13 PM from RF3PTS215.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.5.21112.1211</ChangeLog>
+  <ChangeLog>Changed by AMR\mfg_dmdavies on 12/12/2012 5:18:40 PM from RF3PTS215.RF3PROD.MFG.INTEL.COM using LogAnalyzer2 v2.5.21112.1211</ChangeLog>
+  <QueryAttributes>
+    <OutputDateFormat>MM/dd/yyyy HH:mm:ss</OutputDateFormat>
+    <AlwaysReplaceDomainWithLocal>false</AlwaysReplaceDomainWithLocal>
+  </QueryAttributes>
+  <PostQuerySQL>select * from %{OUTPUT}</PostQuerySQL>
+  <TableLayoutConfig>
+    <BoundColumnList>MachineControllerGroup,Version,Date,Action,Who,ParameterName,NewValue,OldValue</BoundColumnList>
+  </TableLayoutConfig>
+  <TabOrder>C0</TabOrder>
+  <MainPivotConfig>
+    <ColumnX FieldName="" FieldType="" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <ColumnY FieldName="" FieldType="" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <ColumnData FieldName="" FieldType="" SortMode="Default" SortOrder="Ascending" SummaryType="Count" SortBySummaryInfo="false" />
+    <CustomPalette />
+    <TableData />
+  </MainPivotConfig>
+  <AutoPivotConfig OutputDateFormat="yyyy ww.w hh tt" />
+  <MailConfig>
+    <PostProcessingSQL Enable="false" />
+    <EmailCondition Enable="true" Operator="&gt;" ThresholdRowCount="0">
+      <SQLQuery />
+      <RunScriptBeforeEmailing>false</RunScriptBeforeEmailing>
+      <Script />
+    </EmailCondition>
+    <PostProcessingCondition Enable="false" Operator="&gt;" ThresholdRowCount="0">
+      <SQLQuery />
+      <RunScriptBeforeEmailing>false</RunScriptBeforeEmailing>
+    </PostProcessingCondition>
+    <CopyCondition Enable="false" Operator="&gt;" ThresholdRowCount="0">
+      <SQLQuery />
+      <RunScriptBeforeEmailing>false</RunScriptBeforeEmailing>
+    </CopyCondition>
+    <SMTPServer>smtpauth.intel.com:587</SMTPServer>
+    <From>LogAnalyzer2@DONOTREPLY.COM</From>
+    <ReplyTo>@{DASHBOARD_OWNER_ALERT_DIST}</ReplyTo>
+    <To>@{SC_MONITOR_EMAIL}</To>
+    <Subject>Critical SC.NET Parameter Update</Subject>
+    <Body>&lt;b&gt;&lt;font color="red"&gt;FYI - SC.NET Critical Parameter Update&lt;/font&gt;&lt;/b&gt;
+&lt;br&gt;
+&lt;br&gt;
+The configuration(s) listed below have been updated in the last hour.  Please confirm updates are correct.
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;Additional details can be found &lt;a href="http://autowiki.intel.com/index.php?title=AIT_Monitor_pages_and_response#SC.NET_Critical_Parameter_Update_.28D1D_ONLY.29"&gt;here&lt;/a&gt;.&lt;/b&gt;
+&lt;br&gt;
+&lt;br&gt;</Body>
+    <MailAttachments FileNamingFormat="${SETTINGS}" Excel="false" CSV="false" LAS="false" LAD="false" Exceptions="false" StatusLogs="false" PivotChart="false" ZipAttachments="false" DoNotSendAttachmentsWithEmail="false" IncludeJobStatisticsHeader="false" IncludeQuerySettingsFileHeader="false" IncludeVariableDefinitionHeader="false" IncludeRowCountInSubject="false" />
+    <IncludeSQLQueryInBody>false</IncludeSQLQueryInBody>
+    <TableInBody Enable="true">
+      <SQL>SELECT
+	top 50 *
+FROM
+	%{output}</SQL>
+    </TableInBody>
+    <CopyOutputToDirectory>false</CopyOutputToDirectory>
+    <OutputDirectory>@{DASHBOARD_WEB_SPOOL}\PCAM\Output</OutputDirectory>
+    <IncludeAutoPivotSummary>false</IncludeAutoPivotSummary>
+    <IncludeCustomPivotSummary>false</IncludeCustomPivotSummary>
+    <IgnoreExceptions>false</IgnoreExceptions>
+    <SuppressMail>false</SuppressMail>
+    <MailHighImportance>false</MailHighImportance>
+    <OnlyCopyOutputIfEmailConditionIsMet>false</OnlyCopyOutputIfEmailConditionIsMet>
+  </MailConfig>
+  <TableSchema />
+  <TableData />
+  <LastRunAbsoluteDateFilter>All</LastRunAbsoluteDateFilter>
+  <CustomSQLFunctionScripts>using System;
+using System.Collections.Generic;
+using System.IO;
+using System.Text;
+using System.Text.RegularExpressions;
+using Intel.LogAnalyzer.Common;
+using Intel.LogAnalyzer.Utility;
+
+namespace Intel.LogAnalyzer.BuiltInSQLFunctions_Temp
+{
+    public class IsInListFromFile : ICustomSQLFunction
+    {
+        /// &lt;summary&gt;
+        /// Test harness
+        /// &lt;/summary&gt;
+        [STAThread]
+        private static void Main()
+        {
+            new IsInListFromFile().Test(@"IsInListFromFile(col, 'C:\temp\input.csv')");
+        }
+
+        private class InListInput
+        {
+            public string Query;
+            public string ColumnName;
+            public string ItemList;
+            public Match Match;
+        }
+
+        private InListInput _input = null;
+
+        private const string CHECK_PATTERN =
+            @"(?&lt;=(\s+|\())(?&lt;FUNCTION&gt;IsInListFromFile)\s*\(";
+
+        private const string PATTERN = CHECK_PATTERN + @"\s*"
+            + @"(?&lt;Column&gt;[^,]+)\s*,\s*'(?&lt;ItemList&gt;[^']*)'\s*\)(?=(\s*|\)))";
+
+        private const string INPUT_FORMAT_MESSAGE =
+            @"Expected: IsInListFromFile( &lt;COLUMN-NAME&gt;, '&lt;IN-LIST-AS-CSV-FILE&gt;' )";
+
+        public string LogParserType { get; set; }
+
+        private bool _isDBSql = false;
+
+        public bool IsCustomSQLFunction(string query)
+        {
+            _isDBSql = (LogParserType != null &amp;&amp; LogParserType.Equals("UNIQE", StringComparison.CurrentCultureIgnoreCase));
+            return IsInListFunction(query, out _input);
+        }
+
+        private bool IsInListFunction(string query, out InListInput input)
+        {
+            Match match = Regex.Match(query, PATTERN,
+                RegexOptions.Singleline | RegexOptions.IgnoreCase);
+
+            if (match.Success)
+            {
+                input = new InListInput();
+
+                input.Query = query;
+                input.ColumnName = GetMatchValue(match, "Column", false);
+                input.ItemList = GetMatchValue(match, "ItemList", true);
+                input.Match = match;
+                if (File.Exists(input.ItemList))
+                {
+                    var table = UtilityMethods.ConvertCSVFileToDataTable(input.ItemList, false);
+                    input.ItemList = table.ExtractColumnAsList(0).PrintList(",");
+                }
+                return true;
+            }
+            else
+            {
+                match = Regex.Match(query, CHECK_PATTERN,
+                    RegexOptions.Singleline | RegexOptions.IgnoreCase);
+                if (match.Success)
+                {
+                    Logger.LogException(INPUT_FORMAT_MESSAGE + "; Query = " + query);
+                    throw new Exception(INPUT_FORMAT_MESSAGE);
+                }
+                input = null;
+                return false;
+            }
+        }
+
+        public string Execute()
+        {
+            string modifiedQuery = string.Empty;
+
+            while (_input != null)
+            {
+                modifiedQuery = _input.Query;
+                string output = GetSQL(_input.ColumnName, _input.ItemList);
+                Match match = _input.Match;
+                modifiedQuery = modifiedQuery.Substring(0, match.Index)
+                    + output + modifiedQuery.Substring(match.Index + match.Length);
+
+                IsInListFunction(modifiedQuery, out _input); // see if there is any other occurence of this function in the query
+            }
+
+            return modifiedQuery;
+        }
+
+        private string GetSQL(string columnName, string itemList)
+        {
+            string sql = string.Empty;
+            List&lt;string&gt; items = GetListFromString(itemList);
+            List&lt;long&gt; numericList = ConvertListToNumeric(items);
+
+            if (items.Count == 0)
+            {
+                sql = "(1 = 2)"; // nothing matches
+            }
+            else if (items.FindAll(IsAllWildCard).Count &gt; 0)
+            {
+                sql = "(1 = 1)"; // dummy condition, everything matches
+            }
+            else
+            {
+                if (numericList.Count == 0)
+                {
+                    if (!DoesListContainWildCards(items))
+                    {
+                        sql = _isDBSql ? columnName : " to_lowercase(" + columnName + ")";
+                        sql += " IN (";
+                        int count = 0;
+                        foreach (string item in items)
+                        {
+                            string str = item.Trim();
+                            if (str.StartsWith("'")) str = str.Substring(1);
+                            if (str.EndsWith("'")) str = str.Substring(0, str.Length - 1);
+                            string increment = Environment.NewLine + "       '" + str + "'";
+                            if (count++ &lt; items.Count - 1)
+                            {
+                                increment += _isDBSql ? " ," : " ;";
+                            }
+                            sql += increment;
+                        }
+                        sql += Environment.NewLine + ") " + Environment.NewLine;
+                    }
+                    else
+                    {
+                        int count = 0;
+                        sql = "( ";
+                        foreach (string item in items)
+                        {
+                            sql += " " + columnName + " LIKE '" + item + "' ";
+                            if (count++ &lt; items.Count - 1)
+                            {
+                                sql += " OR " + Environment.NewLine;
+                            }
+                        }
+                        sql += " )";
+                    }
+                }
+                else
+                {
+                    sql = " " + columnName + " IN (";
+                    int count = 0;
+                    foreach (long item in numericList)
+                    {
+                        string increment = Environment.NewLine + "       " + item;
+                        if (count++ &lt; numericList.Count - 1)
+                        {
+                            increment += " ;";
+                        }
+                        sql += increment;
+                    }
+                    sql += Environment.NewLine + ") " + Environment.NewLine;
+                }
+            }
+
+            return sql;
+        }
+
+        private bool IsAllWildCard(string item)
+        {
+            return (item == "*" || item == "**" || item == "%" || item == "%%");
+        }
+
+        private bool DoesListContainWildCards(List&lt;string&gt; list)
+        {
+            foreach (string item in list)
+            {
+                if (item.Contains("%") || item.Contains(@"_"))
+                {
+                    return true;
+                }
+            }
+
+            return false;
+        }
+
+        private List&lt;string&gt; GetListFromString(string input)
+        {
+            List&lt;string&gt; list = new List&lt;string&gt;(input.Split(','))
+                .FindAll(item =&gt; item.Length &gt; 0)
+                .ConvertAll(item =&gt; item.Trim().Replace("*", "%").Replace("_", @"\_").Replace("?", "_")
+                    .Replace("%", "%%"));
+
+            if (_isDBSql)
+            {
+                list = list.ConvertAll(item =&gt; item.Replace("%%", "%").Replace("%%", "%").Replace(@"\_", "_"));
+            }
+            else
+            {
+                list = list.ConvertAll(item =&gt; item.ToLower());
+            }
+
+            return list;
+        }
+
+        private List&lt;long&gt; ConvertListToNumeric(List&lt;string&gt; items)
+        {
+            List&lt;long&gt; numericList = new List&lt;long&gt;();
+
+            foreach (string item in items)
+            {
+                long num;
+                if (long.TryParse(item, out num) &amp;&amp; item == num.ToString())
+                {
+                    numericList.Add(num);
+                }
+                else
+                {
+                    numericList = new List&lt;long&gt;();
+                    break;
+                }
+            }
+
+            return numericList;
+        }
+
+        private string GetMatchValue(Match match, string groupName, bool canBeEmpty)
+        {
+            string value = match.Groups[groupName].Value.Trim(); ;
+            if (value.Length == 0 &amp;&amp; !canBeEmpty)
+            {
+                throw new ArgumentException("IsInList: Parameter [" + groupName + "] cannot be empty.");
+            }
+            return value;
+        }
+
+    }
+}
+</CustomSQLFunctionScripts>
+  <PivotGroupingSettings PivotColumn="">
+    <SortyByColumn>Count</SortyByColumn>
+  </PivotGroupingSettings>
+  <QuerySQL><![CDATA[
+--[FileName:"D:\Dashboard\Jobs\PCAM\D1DOnlyMonitor-1hr\Critical SC.NET Parameter Update.lasx"]------
+----------<VARIABLES>------------
+var TIMEFILTER = "Last 1 hours"
+var SQL_NODE = "@{SCNETSQLNODE}"
+var CATALOG = "SCConfigDB"
+var USERID = "@{SCNETSQLID}"
+var PASSWORD = "@{SCNETSQLPW}"
+var CRITICAL_PARAM = "@{DASHBOARD_PERSIST_DATA}\PCAM\Output\SCNET_Critical_Parameters.csv"
+---[PARAM_CSV]---
+BEGIN PARAM_CSV
+	---Begin Main Query---
+	Using SQLDB with
+		HostName = "${SQL_NODE}" -- SQL host name to connect to
+		Database = "${CATALOG}" -- Database/catalog name
+		UserID = "${USERID}" -- User ID to use for connection (leave blank or specify / for IWA)
+		Password = "${PASSWORD}" -- Password corresponding to the UserID
+	SELECT
+	  *
+	FROM
+	  dbo.ParameterChanges 
+END PARAM_CSV
+---[USER_CSV]---
+BEGIN USER_CSV
+	---Begin Main Query---
+	Using SQLDB with
+		HostName = "${SQL_NODE}" -- SQL host name to connect to
+		Database = "${CATALOG}" -- Database/catalog name
+		UserID = "${USERID}" -- User ID to use for connection (leave blank or specify / for IWA)
+		Password = "${PASSWORD}" -- Password corresponding to the UserID
+	SELECT
+	  ID AS UserID,
+	  DisplayName,
+	  EmailAddress
+	FROM
+	  dbo.Users 
+END USER_CSV
+---[JOIN_CSV]---
+BEGIN JOIN_CSV
+	UseMethod Join with -- **Do an outer join for two tables based on a matching column**
+		InputFile1 = "%{PARAM_CSV}" -- Input CSV File #1 containing table data [String]
+		InputFile2 = "%{USER_CSV}" -- Input CSV File #2 containing table data [String]
+		InputFile3 = "" -- Input CSV File #3 containing table data (optional) [String]
+		InputFile4 = "" -- Input CSV File #4 containing table data (optional) [String]
+		InputFile5 = "" -- Input CSV File #5 containing table data (optional) [String]
+		InputFile6 = "" -- Input CSV File #6 containing table data (optional) [String]
+		JoinColumn = "UserID" -- Column name(s) on which to join the two tables (more than one column can be supplied by using comma as a separator) [String]
+		IgnoreDuplicate = false -- Flag to ignore duplicate items in the JoinColumn [Boolean]
+		IgnoreCase = false -- Flag to ignore case in the JoinColumn [Boolean]
+		OnlyShowNonMatchingRows = false -- Flag to only show non-matching orphan rows [Boolean]
+		IncludeNonMatchingRows = false -- Flag to also include non-matching orphan rows (but with blank entries) [Boolean]
+		MustIncludeOutputColumns = "" -- Name of columns (comma-separated) that must be included in output even if the join does not materialize [String]
+		OrderBy = "" -- Name of column(s) to sort the resulting table by [String]
+END JOIN_CSV
+---Begin Main Query---
+Using CSV with
+SELECT
+	ChangeDate as Date,
+	ParameterName,
+	Action,
+	OldValue,
+	NewValue,
+	DisplayName as User,
+	Application,
+	Version,
+	Site,
+	Process,
+	Area,
+	ToolType,
+	Entity
+FROM
+	%{JOIN_CSV}
+WHERE
+	applytimerangefilter(Date, '${TIMEFILTER}') AND
+	IsInListFromFile(ParameterName, '${CRITICAL_PARAM}')
+ORDER BY
+	Date desc
+
+]]></QuerySQL>
+</QueryConfig>
