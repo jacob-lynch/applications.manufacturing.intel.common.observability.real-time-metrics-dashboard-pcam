@@ -54,6 +54,12 @@ jobs:
         run: |
           echo "location=D1D Factory" >> $env:GITHUB_ENV
           echo "environment=integration" >> $env:GITHUB_ENV
+
+      - name: If rf3prod
+        if: ${{github.event.inputs.deployTo == 'rf3prod'}}
+        run: |
+          echo "location=D1D Factory" >> $env:GITHUB_ENV
+          echo "environment=production" >> $env:GITHUB_ENV
           
       - name: If f32int
         if: ${{github.event.inputs.deployTo == 'f32int'}}
@@ -83,6 +89,24 @@ jobs:
         if: ${{github.event.inputs.deployTo == 'f21prod'}}
         run: |
           echo "location=F11x Factory" >> $env:GITHUB_ENV
+          echo "environment=production" >> $env:GITHUB_ENV
+
+      - name: If f26prod
+        if: ${{github.event.inputs.deployTo == 'f26prod'}}
+        run: |
+          echo "location=APF26 Factory" >> $env:GITHUB_ENV
+          echo "environment=production" >> $env:GITHUB_ENV
+
+      - name: If S33prod
+        if: ${{github.event.inputs.deployTo == 'S33prod'}}
+        run: |
+          echo "location=ALDP/DS Factory" >> $env:GITHUB_ENV
+          echo "environment=production" >> $env:GITHUB_ENV
+          
+      - name: If S46prod
+        if: ${{github.event.inputs.deployTo == 'S46prod'}}
+        run: |
+          echo "location=CDDP Factory" >> $env:GITHUB_ENV
           echo "environment=production" >> $env:GITHUB_ENV
                     
       - name: Log SNOW Change
