@@ -1,0 +1,492 @@
+ListName,DomainOwner,CRMType,PullOwner
+AMQueueCompareConfig_F28_PULL,AMO/L8,MCCB,PIC
+AreaModuleValidation_F28_PULL,AIT,Direct Pull,PIC
+ASOMConfig_F28_PULL,AMO/L8,MCCB,MES
+ASOMDispatchConfig_F28_PULL,AMO/L8,Direct Pull Special,PIC
+AutoFOSBNameConfig_F28_PULL,MES,Direct Pull,PIC
+AutoMergeSplitConfig_F28_PULL,MES,Direct Pull Special,PIC
+BatchToolList_F28_PULL,AIT,Direct Pull,PIC
+CascadeConfig_F28_PULL,AMO/L8,MCCB,PIC
+ChainLogEventSetup_F28_PULL,MES,Direct Pull,PIC
+ChildLotPlanConfigurationForSplitLotRework_F28_PULL,MES,Direct Pull,PIC
+ClusterConfiguration_F28_PULL,AMO/L8,MCCB,PIC
+ComplexPAPermutations_F28_PULL,MES,Direct Pull,PIC
+CriticalQueueTimeConfiguration_F28_PULL,AMO/L8,Direct Pull Special,PIC
+CriticalQueueTimeConfigurationEx_F28_PULL,AMO/L8,Direct Pull Special,PIC
+CustomizationMap_F28_PULL,AMO/L8,MCCB,PIC
+DieTraynLidPMDueMaxCounts_F28_PULL,MES,Direct Pull,PIC
+EquipModel_F28_PULL,AIT,Direct Pull,PIC
+EquipProcessing_F28_PULL,AIT,Direct Pull,PIC
+ExceptionNotificationConfiguration_F28_PULL,AMO/L8,MCCB,PIC
+ExcludeFromL8Processing_F28_PULL,AMO/L8,MCCB,PIC
+ForceLotPurgeConfiguration_F28_PULL,AIT,Direct Pull Special,PIC
+FOUPCarrierOperationValidation_F28_PULL,AIT,Direct Pull,PIC
+FOUPCarrierType_F28_PULL,AIT,Direct Pull,PIC
+FunctionalAreaValidation_F28_PULL,WIP,Direct Pull,PIC
+Groups_F28_PULL,AIT,Direct Pull,PIC
+IncludeMOQEventsEntities_F28_PULL,AMO/L8,Direct Pull,PIC
+IntelErrorCodes_F28_PULL,MES,Direct Pull,PIC
+L8CapableTools_F28_PULL,AMO/L8,Direct Pull Special,PIC
+L8CustomizationPointWFConfig_F28_PULL,AMO/L8,MCCB,PIC
+L8SSTChemGroupPrecedence_F28_PULL,AMO/L8,Users,Users
+L8SSTOperChemGroupMapping_F28_PULL,AMO/L8,Users,Users
+L8VIMOperToSpecies_F28_PULL,AMO/L8,Users,Users
+LossCodes_F28_PULL,AIT,Direct Pull,PIC
+LotAttributeSortDestinationValidationList_F28_PULL,MES,Direct Pull,MES
+NonGatingDispoOperationConfiguration_F28_PULL,MES,Users,Users
+OperationWorkflowDefinition_F28_PULL,WIP,Direct Pull Special,PIC
+PFCFunctionalTypes_F28_PULL,WIP,Direct Pull,PIC
+PFCMaskAlignments_F28_PULL,WIP,Direct Pull,PIC
+PMCounterReset_F28_PULL,AIT,Direct Pull,PIC
+ProcessRevNumbers_F28_PULL,MES,Direct Pull,PIC
+PurgeFOUPTypeConfig_F28_PULL,AIT,Direct Pull,PIC
+PurgeOperationConfigEx_F28_PULL,AIT,Direct Pull Special,PIC
+PxCascadeTrack2_F28_PULL,AMO/L8,MCCB,PIC
+RegenManualMoveOutConfig_F28_PULL,AIT,Direct Pull,PIC
+ReworkCauses_F28_PULL,WIP,Direct Pull,PIC
+ReworkLimitOnLithoLayers_F28_PULL,MES,Users,Users
+SmartDelayConfigurationEx_F28_PULL,AMO/L8,Direct Pull Special,PIC
+SONIC_SKIP_OPERATIONS_1272_F28_PULL,MES,Users,Users
+SONIC_SKIP_OPERATIONS_1273_F28_PULL,MES,Users,Users
+SONIC_SKIP_OPERATIONS_1274_F28_PULL,MES,Users,Users
+SONIC_SKIP_OPERATIONS_1275_F28_PULL,MES,Users,Users
+SorterAction_F28_PULL,WIP,Direct Pull,PIC
+StartsQueueConfiguration_F28_PULL,AIT,Direct Pull,PIC
+SubmarineConfig_F28_PULL,MES,Direct Pull Special,PIC
+SubmarineLiteCapacitorConfig_F28_PULL,MES,Direct Pull Special,PIC
+TALAConcurrencyEnabledTool_F28_PULL,MES,Direct Pull Special,PIC
+TALAExcludedUDAUpdate_F28_PULL,AIT,Direct Pull,PIC
+TestWaferToolTypesDefect_F28_PULL,AIT,Direct Pull,PIC
+TestWaferToolTypesParticle_F28_PULL,AIT,Direct Pull,PIC
+TestWaferToolTypesThickness_F28_PULL,AIT,Direct Pull,PIC
+TWAttributesReset_F28_PULL,MES,Direct Pull,PIC
+UndoAllowedIntermediateTransactions_F28_PULL,WIP,Direct Pull,MES
+UndoSplitMergeIntermediateTransactionFilter_F28_PULL,WIP,MCCB,MES
+VFMFGIDValidationList_F28_PULL,User,Direct Pull,PIC
+WIPSteeringConfigurationEx_F28_PULL,AIT,Direct Pull,PIC
+AMQueueCompareConfig_F32_PULL,AMO/L8,MCCB,PIC
+AreaModuleValidation_F32_PULL,AIT,Direct Pull,PIC
+ASOMConfig_F32_PULL,AMO/L8,MCCB,MES
+ASOMDispatchConfig_F32_PULL,AMO/L8,Direct Pull Special,PIC
+AutoFOSBNameConfig_F32_PULL,MES,Direct Pull,PIC
+AutoMergeSplitConfig_F32_PULL,MES,Direct Pull Special,PIC
+BatchToolList_F32_PULL,AIT,Direct Pull,PIC
+CascadeConfig_F32_PULL,AMO/L8,MCCB,PIC
+ChainLogEventSetup_F32_PULL,MES,Direct Pull,PIC
+ChildLotPlanConfigurationForSplitLotRework_F32_PULL,MES,Direct Pull,PIC
+ClusterConfiguration_F32_PULL,AMO/L8,MCCB,PIC
+ComplexPAPermutations_F32_PULL,MES,Direct Pull,PIC
+CriticalQueueTimeConfiguration_F32_PULL,AMO/L8,Direct Pull Special,PIC
+CriticalQueueTimeConfigurationEx_F32_PULL,AMO/L8,Direct Pull Special,PIC
+CustomizationMap_F32_PULL,AMO/L8,MCCB,PIC
+DieTraynLidPMDueMaxCounts_F32_PULL,MES,Direct Pull,PIC
+EquipModel_F32_PULL,AIT,Direct Pull,PIC
+EquipProcessing_F32_PULL,AIT,Direct Pull,PIC
+ExceptionNotificationConfiguration_F32_PULL,AMO/L8,MCCB,PIC
+ExcludeFromL8Processing_F32_PULL,AMO/L8,MCCB,PIC
+ForceLotPurgeConfiguration_F32_PULL,AIT,Direct Pull Special,PIC
+FOUPCarrierOperationValidation_F32_PULL,AIT,Direct Pull,PIC
+FOUPCarrierType_F32_PULL,AIT,Direct Pull,PIC
+FunctionalAreaValidation_F32_PULL,WIP,Direct Pull,PIC
+Groups_F32_PULL,AIT,Direct Pull,PIC
+IncludeMOQEventsEntities_F32_PULL,AMO/L8,Direct Pull,PIC
+IntelErrorCodes_F32_PULL,MES,Direct Pull,PIC
+L8CapableTools_F32_PULL,AMO/L8,Direct Pull Special,PIC
+L8CustomizationPointWFConfig_F32_PULL,AMO/L8,MCCB,PIC
+L8SSTChemGroupPrecedence_F32_PULL,AMO/L8,Users,Users
+L8SSTOperChemGroupMapping_F32_PULL,AMO/L8,Users,Users
+L8VIMOperToSpecies_F32_PULL,AMO/L8,Users,Users
+LossCodes_F32_PULL,AIT,Direct Pull,PIC
+LotAttributeSortDestinationValidationList_F32_PULL,MES,Direct Pull,MES
+NonGatingDispoOperationConfiguration_F32_PULL,MES,Users,Users
+OperationWorkflowDefinition_F32_PULL,WIP,Direct Pull Special,PIC
+PFCFunctionalTypes_F32_PULL,WIP,Direct Pull,PIC
+PFCMaskAlignments_F32_PULL,WIP,Direct Pull,PIC
+PMCounterReset_F32_PULL,AIT,Direct Pull,PIC
+ProcessRevNumbers_F32_PULL,MES,Direct Pull,PIC
+PurgeFOUPTypeConfig_F32_PULL,AIT,Direct Pull,PIC
+PurgeOperationConfigEx_F32_PULL,AIT,Direct Pull Special,PIC
+PxCascadeTrack2_F32_PULL,AMO/L8,MCCB,PIC
+RegenManualMoveOutConfig_F32_PULL,AIT,Direct Pull,PIC
+ReworkCauses_F32_PULL,WIP,Direct Pull,PIC
+ReworkLimitOnLithoLayers_F32_PULL,MES,Users,Users
+SmartDelayConfigurationEx_F32_PULL,AMO/L8,Direct Pull Special,PIC
+SONIC_SKIP_OPERATIONS_1222_F32_PULL,MES,Users,Users
+SONIC_SKIP_OPERATIONS_1272_F32_PULL,MES,Users,Users
+SONIC_SKIP_OPERATIONS_1273_F32_PULL,MES,Users,Users
+SONIC_SKIP_OPERATIONS_1274_F32_PULL,MES,Users,Users
+SONIC_SKIP_OPERATIONS_1275_F32_PULL,MES,Users,Users
+SorterAction_F32_PULL,WIP,Direct Pull,PIC
+StartsQueueConfiguration_F32_PULL,AIT,Direct Pull,PIC
+SubmarineConfig_F32_PULL,MES,Direct Pull Special,PIC
+SubmarineLiteCapacitorConfig_F32_PULL,MES,Direct Pull Special,PIC
+TALAConcurrencyEnabledTool_F32_PULL,MES,Direct Pull Special,PIC
+TALAExcludedUDAUpdate_F32_PULL,AIT,Direct Pull,PIC
+TestWaferToolTypesDefect_F32_PULL,AIT,Direct Pull,PIC
+TestWaferToolTypesParticle_F32_PULL,AIT,Direct Pull,PIC
+TestWaferToolTypesThickness_F32_PULL,AIT,Direct Pull,PIC
+TWAttributesReset_F32_PULL,MES,Direct Pull,PIC
+UndoAllowedIntermediateTransactions_F32_PULL,WIP,Direct Pull,MES
+UndoSplitMergeIntermediateTransactionFilter_F32_PULL,WIP,MCCB,MES
+VFMFGIDValidationList_F32_PULL,User,Direct Pull,PIC
+WIPSteeringConfigurationEx_F32_PULL,AIT,Direct Pull,PIC
+AMQueueCompareConfig_F24_PULL,AMO/L8,MCCB,PIC
+AreaModuleValidation_F24_PULL,AIT,Direct Pull,PIC
+ASOMConfig_F24_PULL,AMO/L8,MCCB,MES
+ASOMDispatchConfig_F24_PULL,AMO/L8,Direct Pull Special,PIC
+AutoFOSBNameConfig_F24_PULL,MES,Direct Pull,PIC
+AutoMergeSplitConfig_F24_PULL,MES,Direct Pull Special,PIC
+BatchToolList_F24_PULL,AIT,Direct Pull,PIC
+CascadeConfig_F24_PULL,AMO/L8,MCCB,PIC
+ChainLogEventSetup_F24_PULL,MES,Direct Pull,PIC
+ChildLotPlanConfigurationForSplitLotRework_F24_PULL,MES,Direct Pull,PIC
+ClusterConfiguration_F24_PULL,AMO/L8,MCCB,PIC
+ComplexPAPermutations_F24_PULL,MES,Direct Pull,PIC
+CriticalQueueTimeConfiguration_F24_PULL,AMO/L8,Direct Pull Special,PIC
+CriticalQueueTimeConfigurationEx_F24_PULL,AMO/L8,Direct Pull Special,PIC
+CustomizationMap_F24_PULL,AMO/L8,MCCB,PIC
+DieTraynLidPMDueMaxCounts_F24_PULL,MES,Direct Pull,PIC
+EquipModel_F24_PULL,AIT,Direct Pull,PIC
+EquipProcessing_F24_PULL,AIT,Direct Pull,PIC
+ExceptionNotificationConfiguration_F24_PULL,AMO/L8,MCCB,PIC
+ExcludeFromL8Processing_F24_PULL,AMO/L8,MCCB,PIC
+ForceLotPurgeConfiguration_F24_PULL,AIT,Direct Pull Special,PIC
+FOUPCarrierOperationValidation_F24_PULL,AIT,Direct Pull,PIC
+FOUPCarrierType_F24_PULL,AIT,Direct Pull,PIC
+FunctionalAreaValidation_F24_PULL,WIP,Direct Pull,PIC
+Groups_F24_PULL,AIT,Direct Pull,PIC
+IncludeMOQEventsEntities_F24_PULL,AMO/L8,Direct Pull,PIC
+IntelErrorCodes_F24_PULL,MES,Direct Pull,PIC
+L8CapableTools_F24_PULL,AMO/L8,Direct Pull Special,PIC
+L8CustomizationPointWFConfig_F24_PULL,AMO/L8,MCCB,PIC
+L8SSTChemGroupPrecedence_F24_PULL,AMO/L8,Users,Users
+L8SSTOperChemGroupMapping_F24_PULL,AMO/L8,Users,Users
+L8VIMOperToSpecies_F24_PULL,AMO/L8,Users,Users
+LossCodes_F24_PULL,AIT,Direct Pull,PIC
+LotAttributeSortDestinationValidationList_F24_PULL,MES,Direct Pull,MES
+NonGatingDispoOperationConfiguration_F24_PULL,MES,Users,Users
+OperationWorkflowDefinition_F24_PULL,WIP,Direct Pull Special,PIC
+PFCFunctionalTypes_F24_PULL,WIP,Direct Pull,PIC
+PFCMaskAlignments_F24_PULL,WIP,Direct Pull,PIC
+PMCounterReset_F24_PULL,AIT,Direct Pull,PIC
+ProcessRevNumbers_F24_PULL,MES,Direct Pull,PIC
+PurgeFOUPTypeConfig_F24_PULL,AIT,Direct Pull,PIC
+PurgeOperationConfigEx_F24_PULL,AIT,Direct Pull Special,PIC
+PxCascadeTrack2_F24_PULL,AMO/L8,MCCB,PIC
+RegenManualMoveOutConfig_F24_PULL,AIT,Direct Pull,PIC
+ReworkCauses_F24_PULL,WIP,Direct Pull,PIC
+ReworkLimitOnLithoLayers_F24_PULL,MES,Users,Users
+SmartDelayConfigurationEx_F24_PULL,AMO/L8,Direct Pull Special,PIC
+SONIC_SKIP_OPERATIONS_1222_F24_PULL,MES,Users,Users
+SONIC_SKIP_OPERATIONS_1272_F24_PULL,MES,Users,Users
+SONIC_SKIP_OPERATIONS_1273_F24_PULL,MES,Users,Users
+SONIC_SKIP_OPERATIONS_1274_F24_PULL,MES,Users,Users
+SONIC_SKIP_OPERATIONS_1276_F24_PULL,MES,Users,Users
+SorterAction_F24_PULL,WIP,Direct Pull,PIC
+StartsQueueConfiguration_F24_PULL,AIT,Direct Pull,PIC
+SubmarineConfig_F24_PULL,MES,Direct Pull Special,PIC
+SubmarineLiteCapacitorConfig_F24_PULL,MES,Direct Pull Special,PIC
+TALAConcurrencyEnabledTool_F24_PULL,MES,Direct Pull Special,PIC
+TALAExcludedUDAUpdate_F24_PULL,AIT,Direct Pull,PIC
+TestWaferToolTypesDefect_F24_PULL,AIT,Direct Pull,PIC
+TestWaferToolTypesParticle_F24_PULL,AIT,Direct Pull,PIC
+TestWaferToolTypesThickness_F24_PULL,AIT,Direct Pull,PIC
+TWAttributesReset_F24_PULL,MES,Direct Pull,PIC
+UndoAllowedIntermediateTransactions_F24_PULL,WIP,Direct Pull,MES
+UndoSplitMergeIntermediateTransactionFilter_F24_PULL,WIP,MCCB,MES
+VFMFGIDValidationList_F24_PULL,User,Direct Pull,PIC
+WIPSteeringConfigurationEx_F24_PULL,AIT,Direct Pull,PIC
+AMQueueCompareConfig_F21_PULL,AMO/L8,MCCB,PIC
+AreaModuleValidation_F21_PULL,AIT,Direct Pull,PIC
+ASOMConfig_F21_PULL,AMO/L8,MCCB,MES
+ASOMDispatchConfig_F21_PULL,AMO/L8,Direct Pull Special,PIC
+AssembleLotAttributeRules_F21_PULL,MES,Users,Users
+AutoFOSBNameConfig_F21_PULL,MES,Direct Pull,PIC
+AutoMergeSplitConfig_F21_PULL,MES,Direct Pull Special,PIC
+BatchToolList_F21_PULL,AIT,Direct Pull,PIC
+BOMAttachOpers_F21_PULL,SFC,Direct Pull,PIC
+CascadeConfig_F21_PULL,AMO/L8,MCCB,PIC
+ChainLogEventSetup_F21_PULL,MES,Direct Pull,PIC
+ChildLotPlanConfigurationForSplitLotRework_F21_PULL,MES,Direct Pull,PIC
+ClusterConfiguration_F21_PULL,AMO/L8,MCCB,PIC
+ComplexPAPermutations_F21_PULL,MES,Direct Pull,PIC
+ComponentLossCodes_F21_PULL,MES,Users,Users
+CQTReworkOperGroups_F21_PULL,MES,Users,Users
+CriticalQueueTimeConfiguration_F21_PULL,AMO/L8,Direct Pull Special,PIC
+CriticalQueueTimeConfigurationEx_F21_PULL,AMO/L8,Direct Pull Special,PIC
+CustomizationMap_F21_PULL,AMO/L8,MCCB,PIC
+DieTraynLidPMDueMaxCounts_F21_PULL,MES,Direct Pull,PIC
+DOCLotDieBonusCodes_F21_PULL,MES,MCCB,PIC
+DOCLotDieLossCodes_F21_PULL,AIT,Direct Pull,PIC
+EquipModel_F21_PULL,AIT,Direct Pull,PIC
+EquipProcessing_F21_PULL,AIT,Direct Pull,PIC
+ExceptionNotificationConfiguration_F21_PULL,AMO/L8,MCCB,PIC
+ExcludeFromL8Processing_F21_PULL,AMO/L8,MCCB,PIC
+ForceLotPurgeConfiguration_F21_PULL,AIT,Direct Pull Special,PIC
+FOUPCarrierConfigurations_F21_PULL,MES,Direct Pull,PIC
+FOUPCarrierOperationValidation_F21_PULL,AIT,Direct Pull,PIC
+FOUPCarrierType_F21_PULL,AIT,Direct Pull,PIC
+FunctionalAreaValidation_F21_PULL,WIP,Direct Pull,PIC
+GlassWaferConstants_F21_PULL,MES,Users,Users
+Groups_F21_PULL,AIT,Direct Pull,PIC
+IncludeMOQEventsEntities_F21_PULL,AMO/L8,Direct Pull,PIC
+IntelErrorCodes_F21_PULL,MES,Direct Pull,PIC
+L8CapableTools_F21_PULL,AMO/L8,Direct Pull Special,PIC
+L8CustomizationPointWFConfig_F21_PULL,AMO/L8,MCCB,PIC
+L8SSTChemGroupPrecedence_F21_PULL,AMO/L8,Users,Users
+L8SSTOperChemGroupMapping_F21_PULL,AMO/L8,Users,Users
+L8VIMOperToSpecies_F21_PULL,AMO/L8,Users,Users
+LossCodes_F21_PULL,AIT,Direct Pull,PIC
+LotAttributeSortDestinationValidationList_F21_PULL,MES,Direct Pull,MES
+MergeLotAttributesRules_F21_PULL,MES,Users,Users
+NonGatingDispoOperationConfiguration_F21_PULL,MES,Users,Users
+OperationAttributes_F21_PULL,MES,Direct Pull,PIC
+OperationWorkflowDefinition_F21_PULL,WIP,Direct Pull Special,PIC
+PartialWaferDieLossCodes_F21_PULL,AIT,Users,Users
+PFCFunctionalTypes_F21_PULL,WIP,Direct Pull,PIC
+PFCMaskAlignments_F21_PULL,WIP,Direct Pull,PIC
+PiecePartVendorUDA_F21_PULL,AIT,Users,Users
+PMCounterReset_F21_PULL,AIT,Direct Pull,PIC
+ProcessRevNumbers_F21_PULL,MES,Direct Pull,PIC
+ProductCodeGroup_F21_PULL,MES,Users,Users
+ProductAutoAdjustMapping_F21_PULL,MES,Users,Users
+ProductPackageFamily_F21_PULL,MES,Users,Users
+ProductPackageType_F21_PULL,MES,Users,Users
+PurgeFOUPTypeConfig_F21_PULL,AIT,Direct Pull,PIC
+PurgeOperationConfigEx_F21_PULL,AIT,Direct Pull Special,PIC
+PxCascadeTrack2_F21_PULL,AMO/L8,MCCB,PIC
+ReelDieLossCodes_F21_PULL,AIT,Users,Users
+RegenManualMoveOutConfig_F21_PULL,AIT,Direct Pull,PIC
+ReworkCauses_F21_PULL,WIP,Direct Pull,PIC
+ReworkLimitOnLithoLayers_F21_PULL,MES,Users,Users
+SmartDelayConfigurationEx_F21_PULL,AMO/L8,Direct Pull Special,PIC
+SONIC_SKIP_OPERATIONS_1272_F21_PULL,MES,Users,Users
+SONIC_SKIP_OPERATIONS_1273_F21_PULL,MES,Users,Users
+SONIC_SKIP_OPERATIONS_1274_F21_PULL,MES,Users,Users
+SorterAction_F21_PULL,WIP,Direct Pull,PIC
+StartsQueueConfiguration_F21_PULL,AIT,Direct Pull,PIC
+SubmarineConfig_F21_PULL,MES,Direct Pull Special,PIC
+SubmarineLiteCapacitorConfig_F21_PULL,MES,Direct Pull Special,PIC
+TALAConcurrencyEnabledTool_F21_PULL,MES,Direct Pull Special,PIC
+TALAExcludedUDAUpdate_F21_PULL,AIT,Direct Pull,PIC
+TestWaferToolTypesDefect_F21_PULL,AIT,Direct Pull,PIC
+TestWaferToolTypesParticle_F21_PULL,AIT,Direct Pull,PIC
+TestWaferToolTypesThickness_F21_PULL,AIT,Direct Pull,PIC
+TimerDefinition_F21_PULL,AIT,Direct Pull,PIC
+TimerOperEvents_F21_PULL,AIT,Direct Pull,PIC
+TWAttributesReset_F21_PULL,MES,Direct Pull,PIC
+UndoAllowedIntermediateTransactions_F21_PULL,WIP,Direct Pull,MES
+UndoSplitMergeIntermediateTransactionFilter_F21_PULL,WIP,MCCB,MES
+VFMFGIDValidationList_F21_PULL,User,Direct Pull,PIC
+WaferDieBonusCodes_F21_PULL,MES,Users,Users
+WaferDieLossCodes_F21_PULL,MES,Users,Users
+WIPSteeringConfigurationEx_F21_PULL,AIT,Direct Pull,PIC
+AMQueueCompareConfig_S46_PULL,AMO/L8,MCCB,PIC
+AreaModuleValidation_S46_PULL,AIT,Direct Pull,PIC
+ASOMConfig_S46_PULL,AMO/L8,MCCB,MES
+ASOMDispatchConfig_S46_PULL,AMO/L8,Direct Pull Special,PIC
+AssembleLotAttributeRules_S46_PULL,MES,Users,Users
+AutoMergeSplitConfig_S46_PULL,MES,Direct Pull Special,PIC
+BOMAttachOpers_S46_PULL,SFC,Direct Pull,PIC
+CascadeConfig_S46_PULL,AMO/L8,MCCB,PIC
+ChainLogEventSetup_S46_PULL,MES,Direct Pull,PIC
+ChildLotPlanConfigurationForSplitLotRework_S46_PULL,MES,Direct Pull,PIC
+ClusterConfiguration_S46_PULL,AMO/L8,MCCB,PIC
+ComplexPAPermutations_S46_PULL,MES,Direct Pull,PIC
+ComponentLossCodes_S46_PULL,MES,Users,Users
+CQTReworkOperGroups_S46_PULL,MES,Direct Pull,PIC
+CriticalQueueTimeConfiguration_S46_PULL,AMO/L8,Direct Pull Special,PIC
+CriticalQueueTimeConfigurationEx_S46_PULL,AMO/L8,Direct Pull Special,PIC
+CustomizationMap_S46_PULL,AMO/L8,MCCB,PIC
+DieTraynLidPMDueMaxCounts_S46_PULL,MES,Direct Pull,PIC
+DOCLotDieBonusCodes_S46_PULL,MES,MCCB,PIC
+DOCLotDieLossCodes_S46_PULL,AIT,Direct Pull,PIC
+EquipModel_S46_PULL,AIT,Direct Pull,PIC
+EquipProcessing_S46_PULL,AIT,Direct Pull,PIC
+ExceptionNotificationConfiguration_S46_PULL,AMO/L8,MCCB,PIC
+ExcludeFromL8Processing_S46_PULL,AMO/L8,MCCB,PIC
+FOUPCarrierConfigurations_S46_PULL,MES,Direct Pull,PIC
+FOUPCarrierOperationValidation_S46_PULL,AIT,Direct Pull,PIC
+FOUPCarrierType_S46_PULL,AIT,Direct Pull,PIC
+FunctionalAreaValidation_S46_PULL,WIP,Direct Pull,PIC
+GlassWaferConstants_S46_PULL,MES,Direct Pull,PIC
+Groups_S46_PULL,AIT,Direct Pull,PIC
+IncludeMOQEventsEntities_S46_PULL,AMO/L8,Direct Pull,PIC
+IntelErrorCodes_S46_PULL,MES,Direct Pull,PIC
+L8CustomizationPointWFConfig_S46_PULL,AMO/L8,MCCB,PIC
+LossCodes_S46_PULL,AIT,Direct Pull,PIC
+LotAttributeSortDestinationValidationList_S46_PULL,MES,Direct Pull,MES
+MergeLotAttributesRules_S46_PULL,MES,Users,Users
+OperationAttributes_S46_PULL,MES,Direct Pull,PIC
+OperationWorkflowDefinition_S46_PULL,WIP,Direct Pull Special,PIC
+PartialWaferDieLossCodes_S46_PULL,AIT,Users,Users
+PFCFunctionalTypes_S46_PULL,WIP,Direct Pull,PIC
+PFCMaskAlignments_S46_PULL,WIP,Direct Pull,PIC
+PiecePartVendorUDA_S46_PULL,AIT,Direct Pull Special,PIC
+PMCounterReset_S46_PULL,AIT,Direct Pull,PIC
+ProcessRevNumbers_S46_PULL,MES,Direct Pull,PIC
+ProductCodeGroup_S46_PULL,MES,Users,Users
+ProductAutoAdjustMapping_S46_PULL,MES,Users,Users
+ProductPackageFamily_S46_PULL,MES,Users,Users
+ProductPackageType_S46_PULL,MES,Users,Users
+PxCascadeTrack2_S46_PULL,AMO/L8,MCCB,PIC
+ReelDieLossCodes_S46_PULL,AIT,Users,Users
+ReworkCauses_S46_PULL,WIP,Direct Pull,PIC
+SorterAction_S46_PULL,WIP,Direct Pull,PIC
+StartsQueueConfiguration_S46_PULL,AIT,Direct Pull,PIC
+TALAExcludedUDAUpdate_S46_PULL,AIT,Direct Pull,PIC
+TimerDefinition_S46_PULL,AIT,Direct Pull,PIC
+TimerOperEvents_S46_PULL,AIT,Direct Pull,PIC
+TWAttributesReset_S46_PULL,MES,Direct Pull,PIC
+UndoAllowedIntermediateTransactions_S46_PULL,WIP,Direct Pull,MES
+UndoSplitMergeIntermediateTransactionFilter_S46_PULL,WIP,MCCB,MES
+WaferDieBonusCodes_S46_PULL,MES,Users,Users
+WaferDieLossCodes_S46_PULL,MES,Users,Users
+WIPSteeringConfigurationEx_S46_PULL,AIT,Direct Pull,PIC
+AMQueueCompareConfig_S33_PULL,AMO/L8,MCCB,PIC
+AreaModuleValidation_S33_PULL,AIT,Direct Pull,PIC
+ASOMConfig_S33_PULL,AMO/L8,MCCB,MES
+ASOMDispatchConfig_S33_PULL,AMO/L8,Direct Pull Special,PIC
+AssembleLotAttributeRules_S33_PULL,MES,Users,Users
+AutoMergeSplitConfig_S33_PULL,MES,Direct Pull Special,PIC
+BOMAttachOpers_S33_PULL,SFC,Direct Pull,PIC
+CascadeConfig_S33_PULL,AMO/L8,MCCB,PIC
+ChainLogEventSetup_S33_PULL,MES,Direct Pull,PIC
+ChildLotPlanConfigurationForSplitLotRework_S33_PULL,MES,Direct Pull,PIC
+ClusterConfiguration_S33_PULL,AMO/L8,MCCB,PIC
+ComplexPAPermutations_S33_PULL,MES,Direct Pull,PIC
+ComponentLossCodes_S33_PULL,MES,Users,Users
+CQTReworkOperGroups_S33_PULL,MES,Direct Pull,PIC
+CriticalQueueTimeConfiguration_S33_PULL,AMO/L8,Direct Pull Special,PIC
+CriticalQueueTimeConfigurationEx_S33_PULL,AMO/L8,Direct Pull Special,PIC
+CustomizationMap_S33_PULL,AMO/L8,MCCB,PIC
+DieTraynLidPMDueMaxCounts_S33_PULL,MES,Direct Pull,PIC
+DOCLotDieBonusCodes_S33_PULL,MES,MCCB,PIC
+DOCLotDieLossCodes_S33_PULL,AIT,Direct Pull,PIC
+EquipModel_S33_PULL,AIT,Direct Pull,PIC
+EquipProcessing_S33_PULL,AIT,Direct Pull,PIC
+ExceptionNotificationConfiguration_S33_PULL,AMO/L8,MCCB,PIC
+ExcludeFromL8Processing_S33_PULL,AMO/L8,MCCB,PIC
+FOUPCarrierConfigurations_S33_PULL,MES,Direct Pull,PIC
+FOUPCarrierOperationValidation_S33_PULL,AIT,Direct Pull,PIC
+FOUPCarrierType_S33_PULL,AIT,Direct Pull,PIC
+FunctionalAreaValidation_S33_PULL,WIP,Direct Pull,PIC
+GlassWaferConstants_S33_PULL,MES,Direct Pull,PIC
+Groups_S33_PULL,AIT,Direct Pull,PIC
+IncludeMOQEventsEntities_S33_PULL,AMO/L8,Direct Pull,PIC
+IntelErrorCodes_S33_PULL,MES,Direct Pull,PIC
+L8CustomizationPointWFConfig_S33_PULL,AMO/L8,MCCB,PIC
+LossCodes_S33_PULL,AIT,Direct Pull,PIC
+LotAttributeSortDestinationValidationList_S33_PULL,MES,Direct Pull,MES
+MergeLotAttributesRules_S33_PULL,MES,Users,Users
+OperationAttributes_S33_PULL,MES,Direct Pull,PIC
+OperationWorkflowDefinition_S33_PULL,WIP,Direct Pull Special,PIC
+PartialWaferDieLossCodes_S33_PULL,AIT,Users,Users
+PFCFunctionalTypes_S33_PULL,WIP,Direct Pull,PIC
+PFCMaskAlignments_S33_PULL,WIP,Direct Pull,PIC
+PiecePartVendorUDA_S33_PULL,AIT,Direct Pull Special,PIC
+PMCounterReset_S33_PULL,AIT,Direct Pull,PIC
+ProcessRevNumbers_S33_PULL,MES,Direct Pull,PIC
+ProductCodeGroup_S33_PULL,MES,Users,Users
+ProductAutoAdjustMapping_S33_PULL,MES,Users,Users
+ProductPackageFamily_S33_PULL,MES,Users,Users
+ProductPackageType_S33_PULL,MES,Users,Users
+PxCascadeTrack2_S33_PULL,AMO/L8,MCCB,PIC
+ReelDieLossCodes_S33_PULL,AIT,Users,Users
+ReworkCauses_S33_PULL,WIP,Direct Pull,PIC
+SorterAction_S33_PULL,WIP,Direct Pull,PIC
+StartsQueueConfiguration_S33_PULL,AIT,Direct Pull,PIC
+TALAExcludedUDAUpdate_S33_PULL,AIT,Direct Pull,PIC
+TimerDefinition_S33_PULL,AIT,Direct Pull,PIC
+TimerOperEvents_S33_PULL,AIT,Direct Pull,PIC
+TWAttributesReset_S33_PULL,MES,Direct Pull,PIC
+UndoAllowedIntermediateTransactions_S33_PULL,WIP,Direct Pull,MES
+UndoSplitMergeIntermediateTransactionFilter_S33_PULL,WIP,MCCB,MES
+WaferDieBonusCodes_S33_PULL,MES,Users,Users
+WaferDieLossCodes_S33_PULL,MES,Users,Users
+WIPSteeringConfigurationEx_S33_PULL,AIT,Direct Pull,PIC
+AMQueueCompareConfig_F26_PULL,AMO/L8,MCCB,PIC
+AreaModuleValidation_F26_PULL,AIT,Direct Pull,PIC
+ASOMConfig_F26_PULL,AMO/L8,MCCB,MES
+ASOMDispatchConfig_F26_PULL,AMO/L8,Direct Pull Special,PIC
+AssembleLotAttributeRules_F26_PULL,MES,Users,Users
+AutoFOSBNameConfig_F26_PULL,MES,Direct Pull,PIC
+AutoMergeSplitConfig_F26_PULL,MES,Direct Pull Special,PIC
+BatchToolList_F26_PULL,AIT,Direct Pull,PIC
+BOMAttachOpers_F26_PULL,SFC,Direct Pull,PIC
+CascadeConfig_F26_PULL,AMO/L8,MCCB,PIC
+ChainLogEventSetup_F26_PULL,MES,Direct Pull,PIC
+ChildLotPlanConfigurationForSplitLotRework_F26_PULL,MES,Direct Pull,PIC
+ClusterConfiguration_F26_PULL,AMO/L8,MCCB,PIC
+ComplexPAPermutations_F26_PULL,MES,Direct Pull,PIC
+ComponentLossCodes_F26_PULL,MES,Users,Users
+CQTReworkOperGroups_F26_PULL,MES,Users,Users
+CriticalQueueTimeConfiguration_F26_PULL,AMO/L8,Direct Pull Special,PIC
+CriticalQueueTimeConfigurationEx_F26_PULL,AMO/L8,Direct Pull Special,PIC
+CustomizationMap_F26_PULL,AMO/L8,MCCB,PIC
+DieTraynLidPMDueMaxCounts_F26_PULL,MES,Direct Pull,PIC
+DOCLotDieBonusCodes_F26_PULL,MES,MCCB,PIC
+DOCLotDieLossCodes_F26_PULL,AIT,Direct Pull,PIC
+EquipModel_F26_PULL,AIT,Direct Pull,PIC
+EquipProcessing_F26_PULL,AIT,Direct Pull,PIC
+ExceptionNotificationConfiguration_F26_PULL,AMO/L8,MCCB,PIC
+ExcludeFromL8Processing_F26_PULL,AMO/L8,MCCB,PIC
+ForceLotPurgeConfiguration_F26_PULL,AIT,Direct Pull Special,PIC
+FOUPCarrierConfigurations_F26_PULL,MES,Direct Pull,PIC
+FOUPCarrierOperationValidation_F26_PULL,AIT,Direct Pull,PIC
+FOUPCarrierType_F26_PULL,AIT,Direct Pull,PIC
+FunctionalAreaValidation_F26_PULL,WIP,Direct Pull,PIC
+GlassWaferConstants_F26_PULL,MES,Users,Users
+Groups_F26_PULL,AIT,Direct Pull,PIC
+IncludeMOQEventsEntities_F26_PULL,AMO/L8,Direct Pull,PIC
+IntelErrorCodes_F26_PULL,MES,Direct Pull,PIC
+L8CapableTools_F26_PULL,AMO/L8,Direct Pull Special,PIC
+L8CustomizationPointWFConfig_F26_PULL,AMO/L8,MCCB,PIC
+L8SSTChemGroupPrecedence_F26_PULL,AMO/L8,Users,Users
+L8SSTOperChemGroupMapping_F26_PULL,AMO/L8,Users,Users
+L8VIMOperToSpecies_F26_PULL,AMO/L8,Users,Users
+LossCodes_F26_PULL,AIT,Direct Pull,PIC
+LotAttributeSortDestinationValidationList_F26_PULL,MES,Direct Pull,MES
+MergeLotAttributesRules_F26_PULL,MES,Users,Users
+NonGatingDispoOperationConfiguration_F26_PULL,MES,Users,Users
+OperationAttributes_F26_PULL,MES,Direct Pull,PIC
+OperationWorkflowDefinition_F26_PULL,WIP,Direct Pull Special,PIC
+PartialWaferDieLossCodes_F26_PULL,AIT,Users,Users
+PFCFunctionalTypes_F26_PULL,WIP,Direct Pull,PIC
+PFCMaskAlignments_F26_PULL,WIP,Direct Pull,PIC
+PiecePartVendorUDA_F26_PULL,AIT,Users,Users
+PMCounterReset_F26_PULL,AIT,Direct Pull,PIC
+ProcessRevNumbers_F26_PULL,MES,Direct Pull,PIC
+ProductCodeGroup_F26_PULL,MES,Users,Users
+ProductAutoAdjustMapping_F26_PULL,MES,Users,Users
+ProductPackageFamily_F26_PULL,MES,Users,Users
+ProductPackageType_F26_PULL,MES,Users,Users
+PurgeFOUPTypeConfig_F26_PULL,AIT,Direct Pull,PIC
+PurgeOperationConfigEx_F26_PULL,AIT,Direct Pull Special,PIC
+PxCascadeTrack2_F26_PULL,AMO/L8,MCCB,PIC
+ReelDieLossCodes_F26_PULL,AIT,Users,Users
+RegenManualMoveOutConfig_F26_PULL,AIT,Direct Pull,PIC
+ReworkCauses_F26_PULL,WIP,Direct Pull,PIC
+ReworkLimitOnLithoLayers_F26_PULL,MES,Users,Users
+SmartDelayConfigurationEx_F26_PULL,AMO/L8,Direct Pull Special,PIC
+SONIC_SKIP_OPERATIONS_1272_F26_PULL,MES,Users,Users
+SONIC_SKIP_OPERATIONS_1273_F26_PULL,MES,Users,Users
+SONIC_SKIP_OPERATIONS_1274_F26_PULL,MES,Users,Users
+SorterAction_F26_PULL,WIP,Direct Pull,PIC
+StartsQueueConfiguration_F26_PULL,AIT,Direct Pull,PIC
+SubmarineConfig_F26_PULL,MES,Direct Pull Special,PIC
+SubmarineLiteCapacitorConfig_F26_PULL,MES,Direct Pull Special,PIC
+TALAConcurrencyEnabledTool_F26_PULL,MES,Direct Pull Special,PIC
+TALAExcludedUDAUpdate_F26_PULL,AIT,Direct Pull,PIC
+TestWaferToolTypesDefect_F26_PULL,AIT,Direct Pull,PIC
+TestWaferToolTypesParticle_F26_PULL,AIT,Direct Pull,PIC
+TestWaferToolTypesThickness_F26_PULL,AIT,Direct Pull,PIC
+TimerDefinition_F26_PULL,AIT,Direct Pull,PIC
+TimerOperEvents_F26_PULL,AIT,Direct Pull,PIC
+TWAttributesReset_F26_PULL,MES,Direct Pull,PIC
+UndoAllowedIntermediateTransactions_F26_PULL,WIP,Direct Pull,MES
+UndoSplitMergeIntermediateTransactionFilter_F26_PULL,WIP,MCCB,MES
+VFMFGIDValidationList_F26_PULL,User,Direct Pull,PIC
+WaferDieBonusCodes_F26_PULL,MES,Users,Users
+WaferDieLossCodes_F26_PULL,MES,Users,Users
+WIPSteeringConfigurationEx_F26_PULL,AIT,Direct Pull,PIC
