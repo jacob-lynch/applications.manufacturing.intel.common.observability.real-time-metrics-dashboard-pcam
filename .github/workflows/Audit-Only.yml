@@ -19,7 +19,7 @@ on:
           - "f68prod"
 
 env:
-  version: "5.0.0"
+  version: "5.0.2"
   PreReqVersion: "4.0.0"
   log_file: '\d$\Logs\GitHub\GitHubAppLog.txt'
   Application: "RTM Dashboard PCAM"
